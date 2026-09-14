@@ -1,0 +1,26 @@
+{
+  "name": "plants-on-fire-guide",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "inventory": "node scripts/inventory.mjs",
+    "images": "node scripts/images.mjs",
+    "images:publish": "node scripts/images.mjs --publish",
+    "validate": "node scripts/validate.mjs",
+    "review": "node scripts/review.mjs",
+    "build": "npm run validate && astro build && node scripts/check-build.mjs",
+    "preview": "astro preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "astro": "7.3.2",
+    "sharp": "0.35.4",
+    "yaml": "^2.8.1",
+    "zod": "^3.25.76"
+  }
+}

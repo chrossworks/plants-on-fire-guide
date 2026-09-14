@@ -1,0 +1,21 @@
+mam-icon:
+  path: images/minions/mam-girl/icon.webp
+  alt: マムガールのカードアイコン（撮影時のLv表示を含む）
+orchid-icon:
+  path: images/minions/orchid-astrologer/icon.webp
+  alt: オーキッド占星術師のカードアイコン（撮影時のLv表示を含む）
+mam-portrait:
+  path: images/minions/mam-girl/portrait.webp
+  alt: マムガール
+orchid-portrait:
+  path: images/minions/orchid-astrologer/portrait.webp
+  alt: オーキッド占星術師
+mam-variant:
+  path: images/minions/mam-girl/variant-1.webp
+  alt: マムガールⅠのバリアントカード
+about-battle:
+  path: images/guides/about/battle.webp
+  alt: 双方のミニオンが戦う対戦画面
+about-boss:
+  path: images/guides/about/boss.webp
+  alt: ミニオンを配置してボスと戦う画面

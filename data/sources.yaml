@@ -1,0 +1,198 @@
+mam-base:
+  kind: screenshot
+  description: マムガール Lv.6 星1
+mam-star2:
+  kind: screenshot
+  description: マムガール Lv.6 星2
+mam-star3:
+  kind: screenshot
+  description: マムガール Lv.6 星3
+aura:
+  kind: screenshot
+  description: オーラの説明
+mam-v1-star2:
+  kind: screenshot
+  description: マムガールⅠ 表示Lv.6 星2
+mam-v1-star3:
+  kind: screenshot
+  description: マムガールⅠ 表示Lv.6 星3
+orchid-base:
+  kind: screenshot
+  description: オーキッド占星術師 Lv.8 星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+orchid-star2:
+  kind: screenshot
+  description: オーキッド占星術師 Lv.8 星2
+orchid-star3:
+  kind: screenshot
+  description: オーキッド占星術師 Lv.8 星3
+orchid-up1:
+  kind: screenshot
+  description: オーキッド占星術師 育成 Lv.8〜10
+orchid-up2:
+  kind: screenshot
+  description: オーキッド占星術師 育成 Lv.10〜12
+ready:
+  kind: screenshot
+  description: 準備完了の説明
+mam-up1:
+  kind: screenshot
+  description: マムガール育成一覧1
+mam-v1-up1:
+  kind: screenshot
+  description: マムガールⅠ育成一覧1 現在Lv.1
+mam-up2:
+  kind: screenshot
+  description: マムガール育成一覧2
+mam-v1-up2:
+  kind: screenshot
+  description: マムガールⅠ育成一覧2 現在Lv.1
+mam-up3:
+  kind: screenshot
+  description: マムガール育成一覧3
+mam-v1-up3:
+  kind: screenshot
+  description: マムガールⅠ育成一覧3 現在Lv.1
+mam-up4:
+  kind: screenshot
+  description: マムガール育成一覧4
+mam-v1-up4:
+  kind: screenshot
+  description: マムガールⅠ育成一覧4 現在Lv.1
+mam-v1:
+  kind: screenshot
+  description: マムガールⅠ 表示Lv.6 星1
+shared-icons:
+  kind: screenshot
+  description: 2体のカードアイコンを含む一覧
+about-battle:
+  kind: screenshot
+  description: 対戦画面
+about-boss:
+  kind: screenshot
+  description: ボス戦画面
+editor-memo:
+  kind: user
+  description: 運営者の攻略メモ：評価・使い方。2026-09-12取り込み
+rarity-rule:
+  kind: user
+  description: 運営者確認：最低レベルはレア1・エピック4・レジェンド7
+variant-absence-rule:
+  kind: user
+  description: 2026-09-14確認。通常詳細画面でバリアント表示がなければバリアントなし。ランブルチェス画面には適用しない。オーキッド占星術師はなし。
+rc-appolis-detail:
+  kind: screenshot
+  mode: rumble-chess
+  screen: detail
+  description: アッポリス。左上に雲の絆、絆ポイント1、星4タブ、現在Lv.6と最低保証Lv.7。
+rc-orchid-detail:
+  kind: screenshot
+  mode: rumble-chess
+  screen: detail
+  description: オーキッド占星術師。左上に星の絆、絆ポイント1、星4タブ、Lv.8。
+rc-overview:
+  kind: screenshot
+  mode: rumble-chess
+  screen: pool-overview
+  description: ランブルチェスカードプール。雲・月・太陽・雷・雫・星の6デッキとアイコン。
+rc-cloud:
+  kind: screenshot
+  mode: rumble-chess
+  screen: pool-list
+  description: 雲デッキ10体の全体と月デッキ上部。
+rc-sun:
+  kind: screenshot
+  mode: rumble-chess
+  screen: pool-list
+  description: 太陽デッキ10体の全体と雷デッキ上部。
+rc-droplet:
+  kind: screenshot
+  mode: rumble-chess
+  screen: pool-list
+  description: 雫デッキ10体の全体と星デッキ上部。
+rc-moon:
+  kind: screenshot
+  mode: rumble-chess
+  screen: pool-list
+  description: 月デッキ10体の全体と太陽デッキ上部。
+rc-star:
+  kind: screenshot
+  mode: rumble-chess
+  screen: pool-list
+  description: 星デッキ10体の全体と雫デッキ下部。
+rc-thunder:
+  kind: screenshot
+  mode: rumble-chess
+  screen: pool-list
+  description: 雷デッキ10体の全体と雫デッキ上部。
+orchid-initial-user:
+  kind: user
+  mode: standard
+  description: 2026-09-14ユーザーの実機確認。オーキッド占星術師の最低レベル（Lv.7）は攻撃力10、準備完了の攻撃力強化は星1で+4、星2で+8、星3で+16。凍結中のミニオンがいない場合は自身に同値を付与。
+orchid-acquisition-user:
+  kind: user
+  mode: standard
+  description: 2026-09-14ユーザーの実機確認。オーキッド占星術師はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
+mam-acquisition-user:
+  kind: user
+  mode: standard
+  description: 2026-09-14ユーザーの実機確認。マムガールはスプラウト宝箱、募集、合成ファームで一定確率で獲得。
+mam-initial-star1:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: present
+  description: マムガール Lv.1 星1、ON表示。攻撃力2、攻撃間隔3秒、最前列。オーラの攻撃力強化+2。バリアントⅠの表示あり。
+mam-initial-star2:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: present
+  description: マムガール Lv.1 星2、ON表示。攻撃力2、攻撃間隔3秒、最前列。オーラの攻撃力強化+4。バリアントⅠの表示あり。
+mam-initial-star3:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: present
+  description: マムガール Lv.1 星3、ON表示。攻撃力2、攻撃間隔3秒、最前列。オーラの攻撃力強化+8。バリアントⅠの表示あり。
+mam-v1-initial-star1:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: present
+  description: マムガールⅠの最低レベルLv.1 星1、ON表示。攻撃力2、攻撃間隔3秒、最前列。準備完了の攻撃力強化+1。
+mam-v1-initial-star2:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: present
+  description: マムガールⅠの最低レベルLv.1 星2、ON表示。攻撃力2、攻撃間隔3秒、最前列。準備完了の攻撃力強化+2。
+mam-v1-initial-star3:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: present
+  description: マムガールⅠの最低レベルLv.1 星3、ON表示。攻撃力2、攻撃間隔3秒、最前列。準備完了の攻撃力強化+4。
+
+orchid-initial-star1:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: absent
+  description: オーキッド占星術師 Lv.7 星1、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+4。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
+
+orchid-initial-star2:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: absent
+  description: オーキッド占星術師 Lv.7 星2、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+8。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
+
+orchid-initial-star3:
+  kind: screenshot
+  mode: standard
+  screen: detail
+  variantControl: absent
+  description: オーキッド占星術師 Lv.7 星3、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+16。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。

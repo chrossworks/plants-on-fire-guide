@@ -1,0 +1,10 @@
+---
+import { factLabel } from '../../lib/schema.mjs';
+const { fact, suffix = '', showDerivation = true } = Astro.props;
+const value = fact.value;
+---
+<span class:list={['fact', {'unconfirmed':fact.status==='unknown'}]}>
+  {typeof value==='object' && value ? value.text : factLabel(fact)}{value!==undefined?suffix:''}
+  {showDerivation && fact.status==='derived' && <small class="tag">条件付き逆算</small>}
+</span>
+{showDerivation && fact.status==='derived' && <small class="fact-note">{fact.formula}。条件：{fact.assumption}</small>}

@@ -1,0 +1,14 @@
+aura:
+  name: オーラ
+  definition:
+    status: observed
+    value: オーラの条件を満たしている限り、対応する効果を獲得可能
+    sources:
+      - aura
+ready:
+  name: 準備完了
+  definition:
+    status: observed
+    value: 双方が準備完了をタップすると効果が発動する
+    sources:
+      - ready

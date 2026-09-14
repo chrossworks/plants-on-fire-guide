@@ -1,0 +1,10 @@
+/raw-screenshots/
+/article-notes/
+/.obsidian/
+/work/
+/node_modules/
+/.astro/
+/dist/
+/dist-subpath/
+/.env*
+*.log

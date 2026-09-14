@@ -1,0 +1,31 @@
+---
+import '../styles/global.css';
+import { url } from '../lib/site';
+const { title, description = 'プランツ・オン・ファイアの非公式攻略ガイド。ミニオンの性能と使い方を紹介します。' } = Astro.props;
+const current = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | プランツ・オン・ファイア攻略ガイド</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={url('favicon.svg')} />
+  </head>
+  <body>
+    <a class="skip" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href={url()}><span class="brand-mark" aria-hidden="true">P<span>F</span></span><span>プランツ・オン・ファイア<small>非公式攻略ガイド</small></span></a>
+        <nav aria-label="メインメニュー">
+          <a href={url()} aria-current={current===url()?'page':undefined}>ホーム</a>
+          <a href={url('minions/')} aria-current={current.includes('/minions/')?'page':undefined}>ミニオン</a>
+          <a href={url('guides/about/')} aria-current={current.includes('/guides/')?'page':undefined}>ゲーム紹介</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="container"><slot /></main>
+    <footer class="container site-footer"><strong>プランツ・オン・ファイア攻略ガイド</strong><p>本サイトは非公式の攻略サイトです。ゲーム内の画像・名称等の権利は各権利者に帰属します。</p><p>情報は撮影・確認時点のものです。ゲームの更新により内容が変わる場合があります。</p></footer>
+  </body>
+</html>

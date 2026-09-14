@@ -1,0 +1,504 @@
+schemaVersion: 1
+id: mam-girl
+name: マムガール
+reading: まむがーる
+rarity:
+  status: observed
+  value: rare
+  sources:
+    - mam-base
+cost:
+  status: observed
+  value: 3
+  sources:
+    - mam-base
+updated: 2026-09-14
+icon: mam-icon
+portrait: mam-portrait
+evaluation:
+  rank: A
+  scope: 運営者の総合評価（対象モード・評価基準は調整中）
+  source: editor-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 6
+    sources:
+      - mam-base
+  upgradeScreenLevel:
+    status: observed
+    value: 6
+    sources:
+      - mam-up1
+  conditions: 詳細画面の表示値。ON切替や外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - mam-base
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - mam-base
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - mam-base
+      ability:
+        status: observed
+        value:
+          text: オーラ：自身の1つ上のマスにいるミニオンの攻撃力+4
+          keywords:
+            - aura
+        sources:
+          - mam-base
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - mam-star2
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - mam-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - mam-star2
+      ability:
+        status: observed
+        value:
+          text: オーラ：自身の1つ上のマスにいるミニオンの攻撃力+8
+          keywords:
+            - aura
+        sources:
+          - mam-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - mam-star3
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - mam-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - mam-star3
+      ability:
+        status: observed
+        value:
+          text: オーラ：自身の1つ上のマスにいるミニオンの攻撃力+16
+          keywords:
+            - aura
+        sources:
+          - mam-star3
+  initial:
+    attack:
+      status: observed
+      value: 2
+      sources: [mam-initial-star1, mam-initial-star2, mam-initial-star3]
+    abilities:
+      - status: observed
+        value:
+          text: オーラ：自身の1つ上のマスにいるミニオンの攻撃力+2
+          keywords: [aura]
+        sources: [mam-initial-star1]
+      - status: observed
+        value:
+          text: オーラ：自身の1つ上のマスにいるミニオンの攻撃力+4
+          keywords: [aura]
+        sources: [mam-initial-star2]
+      - status: observed
+        value:
+          text: オーラ：自身の1つ上のマスにいるミニオンの攻撃力+8
+          keywords: [aura]
+        sources: [mam-initial-star3]
+  bonuses:
+    - level: 2
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - mam-up1
+    - level: 3
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - mam-up1
+    - level: 4
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが4に上昇する
+          operation: ability_set
+          value: 4
+          unit: points
+        sources:
+          - mam-up1
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - mam-up2
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - mam-up2
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが6に上昇する
+          operation: ability_set
+          value: 6
+          unit: points
+        sources:
+          - mam-up2
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - mam-up3
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - mam-up3
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが9に上昇する
+          operation: ability_set
+          value: 9
+          unit: points
+        sources:
+          - mam-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが11に上昇する
+          operation: ability_set
+          value: 11
+          unit: points
+        sources:
+          - mam-up4
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが13に上昇する
+          operation: ability_set
+          value: 13
+          unit: points
+        sources:
+          - mam-up4
+  bonusCoverage:
+    status: observed
+    value:
+      from: 2
+      through: 12
+    sources:
+      - mam-up1
+      - mam-up2
+      - mam-up3
+      - mam-up4
+  acquisition:
+    status: manual
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources: [mam-acquisition-user]
+variants:
+  status: observed
+  note: Ⅰを確認済み。他のバリアントの有無は未確認。
+  items:
+    - id: variant-1
+      name: マムガールⅠ
+      image: mam-variant
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - mam-v1
+      displayLevel:
+        status: observed
+        value: 6
+        sources:
+          - mam-v1
+      upgradeScreenLevel:
+        status: observed
+        value: 1
+        sources:
+          - mam-v1-up1
+      conditions: 詳細画面はLv.6、バリアント育成一覧は現在Lv.1。両表示の関係は未確認のため、能力をバリアントLv.1の値とは断定しません。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 6
+              sources:
+                - mam-v1
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - mam-v1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - mam-v1
+          ability:
+            status: observed
+            value:
+              text: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+2
+              keywords:
+                - ready
+            sources:
+              - mam-v1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 6
+              sources:
+                - mam-v1-star2
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - mam-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - mam-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+4
+              keywords:
+                - ready
+            sources:
+              - mam-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 6
+              sources:
+                - mam-v1-star3
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - mam-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - mam-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+8
+              keywords:
+                - ready
+            sources:
+              - mam-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 2
+          sources:
+            [mam-v1-initial-star1, mam-v1-initial-star2, mam-v1-initial-star3]
+        abilities:
+          - status: observed
+            value:
+              text: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+1
+              keywords: [ready]
+            sources: [mam-v1-initial-star1]
+          - status: observed
+            value:
+              text: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+2
+              keywords: [ready]
+            sources: [mam-v1-initial-star2]
+          - status: observed
+            value:
+              text: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+4
+              keywords: [ready]
+            sources: [mam-v1-initial-star3]
+      bonuses:
+        - level: 2
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - mam-v1-up1
+        - level: 3
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - mam-v1-up1
+        - level: 4
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが2に上昇する
+              operation: ability_set
+              value: 2
+              unit: points
+            sources:
+              - mam-v1-up1
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - mam-v1-up2
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - mam-v1-up2
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが3に上昇する
+              operation: ability_set
+              value: 3
+              unit: points
+            sources:
+              - mam-v1-up2
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - mam-v1-up3
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - mam-v1-up3
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが4に上昇する
+              operation: ability_set
+              value: 4
+              unit: points
+            sources:
+              - mam-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが5に上昇する
+              operation: ability_set
+              value: 5
+              unit: points
+            sources:
+              - mam-v1-up4
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが6に上昇する
+              operation: ability_set
+              value: 6
+              unit: points
+            sources:
+              - mam-v1-up4
+      bonusCoverage:
+        status: observed
+        value:
+          from: 2
+          through: 12
+        sources:
+          - mam-v1-up1
+          - mam-v1-up2
+          - mam-v1-up3
+          - mam-v1-up4
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - mam-v1

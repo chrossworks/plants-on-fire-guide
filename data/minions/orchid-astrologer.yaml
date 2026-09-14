@@ -1,0 +1,200 @@
+schemaVersion: 1
+id: orchid-astrologer
+name: オーキッド占星術師
+reading: おーきっどせんせいじゅつし
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - orchid-base
+cost:
+  status: observed
+  value: 5
+  sources:
+    - orchid-base
+updated: 2026-09-14
+icon: orchid-icon
+portrait: orchid-portrait
+evaluation:
+  rank: SS
+  scope: 運営者の総合評価（対象モード・評価基準は調整中）
+  source: editor-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 8
+    sources:
+      - orchid-base
+  upgradeScreenLevel:
+    status: observed
+    value: 8
+    sources:
+      - orchid-up1
+  conditions: 詳細画面の表示値。ON切替や外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - orchid-base
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - orchid-base
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - orchid-base
+      ability:
+        status: observed
+        value:
+          text: 準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+5。凍結中のミニオンがいない場合、自身の攻撃力+5
+          keywords:
+            - ready
+        sources:
+          - orchid-base
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - orchid-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - orchid-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - orchid-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+10。凍結中のミニオンがいない場合、自身の攻撃力+10
+          keywords:
+            - ready
+        sources:
+          - orchid-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - orchid-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - orchid-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - orchid-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+20。凍結中のミニオンがいない場合、自身の攻撃力+20
+          keywords:
+            - ready
+        sources:
+          - orchid-star3
+  initial:
+    attack:
+      status: observed
+      value: 10
+      sources: [orchid-initial-star1, orchid-initial-star2, orchid-initial-star3, orchid-initial-user]
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+4。凍結中のミニオンがいない場合、自身の攻撃力+4
+          keywords: [ready]
+        sources: [orchid-initial-star1, orchid-initial-user]
+      - status: observed
+        value:
+          text: 準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+8。凍結中のミニオンがいない場合、自身の攻撃力+8
+          keywords: [ready]
+        sources: [orchid-initial-star2, orchid-initial-user]
+      - status: observed
+        value:
+          text: 準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+16。凍結中のミニオンがいない場合、自身の攻撃力+16
+          keywords: [ready]
+        sources: [orchid-initial-star3, orchid-initial-user]
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが5に上昇する
+          operation: ability_set
+          value: 5
+          unit: points
+        sources:
+          - orchid-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが6に上昇する
+          operation: ability_set
+          value: 6
+          unit: points
+        sources:
+          - orchid-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 凍結状態のミニオンがいない場合、代わりに最も攻撃力が高いミニオンの攻撃力が上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - orchid-up1
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが8に上昇する
+          operation: ability_set
+          value: 8
+          unit: points
+        sources:
+          - orchid-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが10に上昇する
+          operation: ability_set
+          value: 10
+          unit: points
+        sources:
+          - orchid-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - orchid-up1
+      - orchid-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources: [orchid-initial-star1, orchid-initial-star2, orchid-initial-star3, orchid-acquisition-user]
+variants:
+  status: absent
+  note: 通常のミニオン詳細画面でバリアント表示がないことを確認済みです。
+  sources: [orchid-base, variant-absence-rule]
+  items: []

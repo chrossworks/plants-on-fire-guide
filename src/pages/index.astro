@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { sortedMinions, assets, imageUrl, minionUrl, url } from '../lib/site';
+import { rarityLabels } from '../../lib/schema.mjs';
+const minions = sortedMinions();
+---
+<Layout title="ホーム">
+  <section class="intro"><p class="eyebrow">MINION GUIDE</p><h1>ミニオンを知って、<br />次の一戦へ。</h1><p>性能と使い方を、確認できた情報から。<br />あなたの編成に合うミニオンを探しましょう。</p><a class="button" href={url('minions/')}>ミニオン一覧を見る <span aria-hidden="true">↗</span></a></section>
+  <section><div class="section-heading"><h2>ミニオンガイド</h2><span class="muted">{minions.length}体掲載</span></div><div class="card-grid">
+    {minions.map(m=><a class="minion-card" href={minionUrl(m.id)}><div class="portrait"><img src={imageUrl(m.portrait)} alt={assets[m.portrait].alt} width="560" height="593"/><span class="rank">{m.evaluation.rank}<small>評価</small></span></div><div class="card-body"><span class="tag">{rarityLabels[m.rarity.value]} / コスト {m.cost.value}</span><h3>{m.name}</h3><span class="card-link">性能と使い方を見る ↗</span></div></a>)}
+  </div></section>
+  <a class="about-link" href={url('guides/about/')}><div><p class="eyebrow">はじめての方へ</p><h2>プランツ・オン・ファイアとは</h2><p>ゲームの特徴と遊び方の入り口をご紹介。</p></div><span aria-hidden="true">↗</span></a>
+</Layout>

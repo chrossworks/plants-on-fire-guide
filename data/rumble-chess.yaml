@@ -1,0 +1,66 @@
+schemaVersion: 1
+mode: rumble-chess
+updated: '2026-09-14'
+note: 画像から確認した絆所属を保存。サイトでは未使用。撮影時点の6デッキ各10体を収録し、共有デッキは対象外。通常モードの性能・初期値・バリアント判定へ転用しない。
+decks:
+  - id: cloud
+    name: {status: observed, value: 雲デッキ, sources: [rc-overview]}
+    members:
+      status: observed
+      value: [アンナイツバキ, ポテトセラー, アッポリス, グレープバーテンダー, サムライタケ, ザクロブラスター, スペルベリー, チリコック, ゴールドイーター, ドングリマッドマン]
+      sources: [rc-cloud]
+  - id: moon
+    name: {status: observed, value: 月デッキ, sources: [rc-overview]}
+    members:
+      status: observed
+      value: [マッシュボム, カラカボチャ, グリーンキーパー, ゴーストオーキッド, カボチャナイト, ダンデライオン, テレ・リーフィー, ヴァルキリス, ブラックローズナイト, ウィキッドミラー]
+      sources: [rc-moon]
+  - id: sun
+    name: {status: observed, value: 太陽デッキ, sources: [rc-overview]}
+    members:
+      status: observed
+      value: [タネワーカー, ココバンク, サボテンガーディアン, モヒートン, メロンアカウンタント, ドラフルガード, ヒマワリ店長, ヒマワリバンカー, レディ・チューリップ, コーヒービーンチーフ]
+      sources: [rc-sun]
+  - id: thunder
+    name: {status: observed, value: 雷デッキ, sources: [rc-overview]}
+    members:
+      status: observed
+      value: [マンゴスチン獣使い, ハクサイ衛兵, グァバラッパ, パクパクフラワー, オレンジツインズ, ジンジャー親分, ホワイトローズナイト, ケチャッピオン, マンドラゴラ司祭, ハナキノコ薬師]
+      sources: [rc-thunder]
+  - id: droplet
+    name: {status: observed, value: 雫デッキ, sources: [rc-overview]}
+    members:
+      status: observed
+      value: [アボガク, コワッパイン, シスター・チェリー, クルミ博士, ピーナッツペイジ, ムラキャベロン, ニンジンボンバー, カシュー大賢者, ラフレシア, スズラン魔導士]
+      sources: [rc-droplet]
+  - id: star
+    name: {status: observed, value: 星デッキ, sources: [rc-overview]}
+    members:
+      status: observed
+      value: [ラディッシュメイド, バンブーアーチャー, マムガール, マンゴーニンジャ, オーキッド占星術師, オニオンバード, ノリノリネギ, ルミナスツリー, ビカクシダシャーマン, マッスルスイカ]
+      sources: [rc-star]
+observations:
+  - name: アッポリス
+    source: rc-appolis-detail
+    deck: cloud
+    currentLevel: {status: observed, value: 6, sources: [rc-appolis-detail]}
+    guaranteedLevel: {status: observed, value: 7, sources: [rc-appolis-detail]}
+    selectedStar: 1
+    bondPoints: {status: observed, value: 1, sources: [rc-appolis-detail]}
+    attack: {status: observed, value: 7, sources: [rc-appolis-detail]}
+    interval: {status: observed, value: 2.5, sources: [rc-appolis-detail]}
+    target: {status: observed, value: 最前列, sources: [rc-appolis-detail]}
+    ability: {status: observed, value: '敵6体を同時に攻撃し、50%のダメージを与える', sources: [rc-appolis-detail]}
+    conditions: 現在Lv.6と最低保証Lv.7の両表示。ON表示。星1選択、星4タブあり。表示攻撃力を通常モードのLv.6性能や初期値とはみなさない。
+  - name: オーキッド占星術師
+    source: rc-orchid-detail
+    deck: star
+    currentLevel: {status: observed, value: 8, sources: [rc-orchid-detail]}
+    guaranteedLevel: {status: unknown, reason: この画像では最低保証Lvの数値は表示されていない}
+    selectedStar: 1
+    bondPoints: {status: observed, value: 1, sources: [rc-orchid-detail]}
+    attack: {status: observed, value: 10, sources: [rc-orchid-detail]}
+    interval: {status: observed, value: 2, sources: [rc-orchid-detail]}
+    target: {status: observed, value: 最前列, sources: [rc-orchid-detail]}
+    ability: {status: observed, value: '準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+5。凍結中のミニオンがいない場合、自身の攻撃力+5', sources: [rc-orchid-detail]}
+    conditions: Lv.8、ON表示。星1選択、星4タブあり。絆アイコンはカードプールの星デッキ表示と照合。バリアント非表示を不存在の根拠にしない。
