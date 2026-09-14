@@ -1,0 +1,758 @@
+schemaVersion: 1
+id: appolis
+name: アッポリス
+reading: あっぽりす
+rarity:
+  status: observed
+  value: rare
+  sources:
+    - appolis-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - appolis-base-star1
+updated: 2026-09-14
+icon: appolis-icon
+portrait: appolis-portrait
+evaluation:
+  rank: S
+  scope: 総合評価
+  source: appolis-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 1
+    sources:
+      - appolis-base-star1
+  upgradeScreenLevel:
+    status: observed
+    value: 1
+    sources:
+      - appolis-base-up1
+  conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - appolis-base-star1
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - appolis-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - appolis-base-star1
+      ability:
+        status: observed
+        value:
+          text: 敵6体を同時に攻撃し、40%のダメージを与える
+          keywords: []
+        sources:
+          - appolis-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - appolis-base-star2
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - appolis-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - appolis-base-star2
+      ability:
+        status: observed
+        value:
+          text: 敵7体を同時に攻撃し、40%のダメージを与える
+          keywords: []
+        sources:
+          - appolis-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - appolis-base-star3
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - appolis-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - appolis-base-star3
+      ability:
+        status: observed
+        value:
+          text: 敵8体を同時に攻撃し、40%のダメージを与える
+          keywords: []
+        sources:
+          - appolis-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 3
+      sources:
+        - appolis-base-star1
+        - appolis-base-star2
+        - appolis-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 敵6体を同時に攻撃し、40%のダメージを与える
+          keywords: []
+        sources:
+          - appolis-base-star1
+      - status: observed
+        value:
+          text: 敵7体を同時に攻撃し、40%のダメージを与える
+          keywords: []
+        sources:
+          - appolis-base-star2
+      - status: observed
+        value:
+          text: 敵8体を同時に攻撃し、40%のダメージを与える
+          keywords: []
+        sources:
+          - appolis-base-star3
+  bonuses:
+    - level: 2
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - appolis-base-up1
+    - level: 3
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - appolis-base-up1
+    - level: 4
+      effect:
+        status: observed
+        value:
+          text: ダメージが45%に上昇する
+          operation: ability_set
+          value: 45
+          unit: percent
+        sources:
+          - appolis-base-up1
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - appolis-base-up2
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - appolis-base-up2
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: ダメージが50%に上昇する
+          operation: ability_set
+          value: 50
+          unit: percent
+        sources:
+          - appolis-base-up2
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - appolis-base-up3
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - appolis-base-up3
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: ダメージが55%に上昇する
+          operation: ability_set
+          value: 55
+          unit: percent
+        sources:
+          - appolis-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: ダメージが60%に上昇する
+          operation: ability_set
+          value: 60
+          unit: percent
+        sources:
+          - appolis-base-up4
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: ダメージが65%に上昇する
+          operation: ability_set
+          value: 65
+          unit: percent
+        sources:
+          - appolis-base-up4
+  bonusCoverage:
+    status: observed
+    value:
+      from: 2
+      through: 12
+    sources:
+      - appolis-base-up1
+      - appolis-base-up2
+      - appolis-base-up3
+      - appolis-base-up4
+  acquisition:
+    status: manual
+    value: チュートリアルで獲得
+    sources: [appolis-acquisition-unlock-user]
+  poolUnlock:
+    status: absent
+    reason: 実機で解放条件がないことを確認。
+    sources: [appolis-acquisition-unlock-user]
+variants:
+  status: observed
+  note: 画像で確認した2種類のバリアントを掲載しています。
+  items:
+    - id: variant-1
+      name: アッポリスⅠ
+      image: appolis-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - appolis-v1-star1
+      displayLevel:
+        status: observed
+        value: 1
+        sources:
+          - appolis-v1-star1
+      upgradeScreenLevel:
+        status: observed
+        value: 1
+        sources:
+          - appolis-v1-up1
+      conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - appolis-v1-star1
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - appolis-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - appolis-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 敵6体を同時に攻撃し、40%のダメージを与える。フィールド上の敵1体につき、自身の攻撃速度+2%
+              keywords: []
+            sources:
+              - appolis-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - appolis-v1-star2
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - appolis-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - appolis-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 敵6体を同時に攻撃し、40%のダメージを与える。フィールド上の敵1体につき、自身の攻撃速度+3%
+              keywords: []
+            sources:
+              - appolis-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - appolis-v1-star3
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - appolis-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - appolis-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 敵6体を同時に攻撃し、40%のダメージを与える。フィールド上の敵1体につき、自身の攻撃速度+4%
+              keywords: []
+            sources:
+              - appolis-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - appolis-v1-star1
+            - appolis-v1-star2
+            - appolis-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 敵6体を同時に攻撃し、40%のダメージを与える。フィールド上の敵1体につき、自身の攻撃速度+2%
+              keywords: []
+            sources:
+              - appolis-v1-star1
+          - status: observed
+            value:
+              text: 敵6体を同時に攻撃し、40%のダメージを与える。フィールド上の敵1体につき、自身の攻撃速度+3%
+              keywords: []
+            sources:
+              - appolis-v1-star2
+          - status: observed
+            value:
+              text: 敵6体を同時に攻撃し、40%のダメージを与える。フィールド上の敵1体につき、自身の攻撃速度+4%
+              keywords: []
+            sources:
+              - appolis-v1-star3
+      bonuses:
+        - level: 2
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - appolis-v1-up1
+        - level: 3
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - appolis-v1-up1
+        - level: 4
+          effect:
+            status: observed
+            value:
+              text: ダメージが45%に上昇する
+              operation: ability_set
+              value: 45
+              unit: percent
+            sources:
+              - appolis-v1-up1
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - appolis-v1-up2
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - appolis-v1-up2
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: ダメージが50%に上昇する
+              operation: ability_set
+              value: 50
+              unit: percent
+            sources:
+              - appolis-v1-up2
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - appolis-v1-up3
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - appolis-v1-up3
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: ダメージが55%に上昇する
+              operation: ability_set
+              value: 55
+              unit: percent
+            sources:
+              - appolis-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: ダメージが60%に上昇する
+              operation: ability_set
+              value: 60
+              unit: percent
+            sources:
+              - appolis-v1-up4
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: ダメージが65%に上昇する
+              operation: ability_set
+              value: 65
+              unit: percent
+            sources:
+              - appolis-v1-up4
+      bonusCoverage:
+        status: observed
+        value:
+          from: 2
+          through: 12
+        sources:
+          - appolis-v1-up1
+          - appolis-v1-up2
+          - appolis-v1-up3
+          - appolis-v1-up4
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - appolis-v1-star1
+    - id: variant-2
+      name: アッポリスⅡ
+      image: appolis-v2
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - appolis-v2-star1
+      displayLevel:
+        status: observed
+        value: 1
+        sources:
+          - appolis-v2-star1
+      upgradeScreenLevel:
+        status: observed
+        value: 1
+        sources:
+          - appolis-v2-up1
+      conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - appolis-v2-star1
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - appolis-v2-star1
+            target:
+              status: observed
+              value: ランダム
+              sources:
+                - appolis-v2-star1
+          ability:
+            status: observed
+            value:
+              text: ランダムな敵4体を同時に攻撃し、40%のダメージを与える。敵を撃破した場合、追加でもう1回攻撃する（3秒ごとに最大1回発動）
+              keywords: []
+            sources:
+              - appolis-v2-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - appolis-v2-star2
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - appolis-v2-star2
+            target:
+              status: observed
+              value: ランダム
+              sources:
+                - appolis-v2-star2
+          ability:
+            status: observed
+            value:
+              text: ランダムな敵5体を同時に攻撃し、40%のダメージを与える。敵を撃破した場合、追加でもう1回攻撃する（3秒ごとに最大1回発動）
+              keywords: []
+            sources:
+              - appolis-v2-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - appolis-v2-star3
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - appolis-v2-star3
+            target:
+              status: observed
+              value: ランダム
+              sources:
+                - appolis-v2-star3
+          ability:
+            status: observed
+            value:
+              text: ランダムな敵6体を同時に攻撃し、40%のダメージを与える。敵を撃破した場合、追加でもう1回攻撃する（3秒ごとに最大1回発動）
+              keywords: []
+            sources:
+              - appolis-v2-star3
+      initial:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - appolis-v2-star1
+            - appolis-v2-star2
+            - appolis-v2-star3
+        abilities:
+          - status: observed
+            value:
+              text: ランダムな敵4体を同時に攻撃し、40%のダメージを与える。敵を撃破した場合、追加でもう1回攻撃する（3秒ごとに最大1回発動）
+              keywords: []
+            sources:
+              - appolis-v2-star1
+          - status: observed
+            value:
+              text: ランダムな敵5体を同時に攻撃し、40%のダメージを与える。敵を撃破した場合、追加でもう1回攻撃する（3秒ごとに最大1回発動）
+              keywords: []
+            sources:
+              - appolis-v2-star2
+          - status: observed
+            value:
+              text: ランダムな敵6体を同時に攻撃し、40%のダメージを与える。敵を撃破した場合、追加でもう1回攻撃する（3秒ごとに最大1回発動）
+              keywords: []
+            sources:
+              - appolis-v2-star3
+      bonuses:
+        - level: 2
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - appolis-v2-up1
+        - level: 3
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - appolis-v2-up1
+        - level: 4
+          effect:
+            status: observed
+            value:
+              text: ダメージが45%に上昇する
+              operation: ability_set
+              value: 45
+              unit: percent
+            sources:
+              - appolis-v2-up1
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - appolis-v2-up2
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - appolis-v2-up2
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: ダメージが50%に上昇する
+              operation: ability_set
+              value: 50
+              unit: percent
+            sources:
+              - appolis-v2-up2
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - appolis-v2-up3
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - appolis-v2-up3
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: ダメージが55%に上昇する
+              operation: ability_set
+              value: 55
+              unit: percent
+            sources:
+              - appolis-v2-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: ダメージが60%に上昇する
+              operation: ability_set
+              value: 60
+              unit: percent
+            sources:
+              - appolis-v2-up4
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: ダメージが65%に上昇する
+              operation: ability_set
+              value: 65
+              unit: percent
+            sources:
+              - appolis-v2-up4
+      bonusCoverage:
+        status: observed
+        value:
+          from: 2
+          through: 12
+        sources:
+          - appolis-v2-up1
+          - appolis-v2-up2
+          - appolis-v2-up3
+          - appolis-v2-up4
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - appolis-v2-star1

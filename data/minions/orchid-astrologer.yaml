@@ -20,6 +20,10 @@ evaluation:
   scope: 運営者の総合評価（対象モード・評価基準は調整中）
   source: editor-memo
 base:
+  poolUnlock:
+    status: absent
+    reason: 実機で解放条件がないことを確認。
+    sources: [orchid-unlock-user]
   id: base
   name: 基本形
   displayLevel:

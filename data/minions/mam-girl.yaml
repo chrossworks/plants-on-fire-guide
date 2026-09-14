@@ -20,6 +20,10 @@ evaluation:
   scope: 運営者の総合評価（対象モード・評価基準は調整中）
   source: editor-memo
 base:
+  poolUnlock:
+    status: absent
+    reason: 実機で解放条件がないことを確認。
+    sources: [mam-acquisition-unlock-user]
   id: base
   name: 基本形
   displayLevel:
@@ -253,8 +257,8 @@ base:
       - mam-up4
   acquisition:
     status: manual
-    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
-    sources: [mam-acquisition-user]
+    value: チュートリアルで獲得
+    sources: [mam-acquisition-unlock-user]
 variants:
   status: observed
   note: Ⅰを確認済み。他のバリアントの有無は未確認。

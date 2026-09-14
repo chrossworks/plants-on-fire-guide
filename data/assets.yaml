@@ -19,3 +19,25 @@ about-battle:
 about-boss:
   path: images/guides/about/boss.webp
   alt: ミニオンを配置してボスと戦う画面
+
+appolis-portrait:
+  path: images/minions/appolis/portrait.webp
+  alt: アッポリスの基本形
+muscle-watermelon-portrait:
+  path: images/minions/muscle-watermelon/portrait.webp
+  alt: マッスルスイカの基本形
+appolis-icon:
+  path: images/minions/appolis/icon.webp
+  alt: アッポリスのカードアイコン
+muscle-watermelon-icon:
+  path: images/minions/muscle-watermelon/icon.webp
+  alt: マッスルスイカのカードアイコン
+appolis-v1:
+  path: images/minions/appolis/variant-1.webp
+  alt: アッポリスⅠのバリアントカード
+appolis-v2:
+  path: images/minions/appolis/variant-2.webp
+  alt: アッポリスⅡのバリアントカード
+muscle-watermelon-v1:
+  path: images/minions/muscle-watermelon/variant-1.webp
+  alt: マッスルスイカⅠのバリアントカード

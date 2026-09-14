@@ -196,3 +196,184 @@ orchid-initial-star3:
   screen: detail
   variantControl: absent
   description: オーキッド占星術師 Lv.7 星3、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+16。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
+
+appolis-base-star1:
+  kind: screenshot
+  description: アッポリス・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-base-star2:
+  kind: screenshot
+  description: アッポリス・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-base-star3:
+  kind: screenshot
+  description: アッポリス・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-base-up1:
+  kind: screenshot
+  description: アッポリス・Lvボーナス一覧1
+  mode: standard
+appolis-base-up2:
+  kind: screenshot
+  description: アッポリス・Lvボーナス一覧2
+  mode: standard
+appolis-base-up3:
+  kind: screenshot
+  description: アッポリス・Lvボーナス一覧3
+  mode: standard
+appolis-base-up4:
+  kind: screenshot
+  description: アッポリス・Lvボーナス一覧4
+  mode: standard
+appolis-v1-star1:
+  kind: screenshot
+  description: アッポリスⅠ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-v1-star2:
+  kind: screenshot
+  description: アッポリスⅠ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-v1-star3:
+  kind: screenshot
+  description: アッポリスⅠ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-v1-up1:
+  kind: screenshot
+  description: アッポリスⅠ・Lvボーナス一覧1
+  mode: standard
+appolis-v1-up2:
+  kind: screenshot
+  description: アッポリスⅠ・Lvボーナス一覧2
+  mode: standard
+appolis-v1-up3:
+  kind: screenshot
+  description: アッポリスⅠ・Lvボーナス一覧3
+  mode: standard
+appolis-v1-up4:
+  kind: screenshot
+  description: アッポリスⅠ・Lvボーナス一覧4
+  mode: standard
+appolis-v2-star1:
+  kind: screenshot
+  description: アッポリスⅡ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-v2-star2:
+  kind: screenshot
+  description: アッポリスⅡ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-v2-star3:
+  kind: screenshot
+  description: アッポリスⅡ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+appolis-v2-up1:
+  kind: screenshot
+  description: アッポリスⅡ・Lvボーナス一覧1
+  mode: standard
+appolis-v2-up2:
+  kind: screenshot
+  description: アッポリスⅡ・Lvボーナス一覧2
+  mode: standard
+appolis-v2-up3:
+  kind: screenshot
+  description: アッポリスⅡ・Lvボーナス一覧3
+  mode: standard
+appolis-v2-up4:
+  kind: screenshot
+  description: アッポリスⅡ・Lvボーナス一覧4
+  mode: standard
+muscle-watermelon-base-star1:
+  kind: screenshot
+  description: マッスルスイカ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+muscle-watermelon-base-star2:
+  kind: screenshot
+  description: マッスルスイカ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+muscle-watermelon-base-star3:
+  kind: screenshot
+  description: マッスルスイカ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+muscle-watermelon-base-up1:
+  kind: screenshot
+  description: マッスルスイカ・Lvボーナス一覧1
+  mode: standard
+muscle-watermelon-base-up2:
+  kind: screenshot
+  description: マッスルスイカ・Lvボーナス一覧2
+  mode: standard
+muscle-watermelon-base-up3:
+  kind: screenshot
+  description: マッスルスイカ・Lvボーナス一覧3
+  mode: standard
+muscle-watermelon-v1-star1:
+  kind: screenshot
+  description: マッスルスイカⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+muscle-watermelon-v1-star2:
+  kind: screenshot
+  description: マッスルスイカⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+muscle-watermelon-v1-star3:
+  kind: screenshot
+  description: マッスルスイカⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+muscle-watermelon-v1-up1:
+  kind: screenshot
+  description: マッスルスイカⅠ・Lvボーナス一覧1
+  mode: standard
+muscle-watermelon-v1-up2:
+  kind: screenshot
+  description: マッスルスイカⅠ・Lvボーナス一覧2
+  mode: standard
+muscle-watermelon-v1-up3:
+  kind: screenshot
+  description: マッスルスイカⅠ・Lvボーナス一覧3
+  mode: standard
+appolis-memo:
+  kind: user
+  description: アッポリスの攻略メモ（評価・使い方・注意点）
+muscle-watermelon-memo:
+  kind: user
+  description: マッスルスイカの攻略メモ（評価・使い方・注意点）
+pool-unlock-rule:
+  kind: user
+  description: 基本形の入手方法欄に解放の記載がなければ条件なし、欄の画像がなければ未確認。バリアントは対象外。マッスルスイカの20横のアイコンはトロフィー（2026-09-14確認）。
+appolis-acquisition-unlock-user:
+  kind: user
+  description: 実機確認によりアッポリスの基本形はチュートリアルで獲得、カードプール解放条件なし（2026-09-14ユーザー確認）。
+mam-acquisition-unlock-user:
+  kind: user
+  description: 実機確認によりマムガールの基本形はチュートリアルで獲得、カードプール解放条件なし。従来の入手方法を訂正（2026-09-14ユーザー確認）。
+orchid-unlock-user:
+  kind: user
+  description: 実機確認によりオーキッド占星術師の基本形はカードプール解放条件なし（2026-09-14ユーザー確認）。
