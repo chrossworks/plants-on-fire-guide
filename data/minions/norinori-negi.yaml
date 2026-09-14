@@ -1,0 +1,531 @@
+schemaVersion: 1
+id: norinori-negi
+name: ノリノリネギ
+reading: のりのりねぎ
+rarity:
+  status: observed
+  value: rare
+  sources:
+    - norinori-negi-base-star1
+cost:
+  status: observed
+  value: 5
+  sources:
+    - norinori-negi-base-star1
+updated: 2026-09-14
+icon: norinori-negi-icon
+portrait: norinori-negi-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: norinori-negi-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 1
+    sources:
+      - norinori-negi-base-star1
+      - norinori-negi-base-star2
+      - norinori-negi-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 1
+    sources:
+      - norinori-negi-base-up1
+  conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - norinori-negi-base-star1
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - norinori-negi-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - norinori-negi-base-star1
+      ability:
+        status: observed
+        value:
+          text: オーラ：十字範囲内のミニオンの攻撃力+2
+          keywords:
+            - aura
+        sources:
+          - norinori-negi-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - norinori-negi-base-star2
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - norinori-negi-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - norinori-negi-base-star2
+      ability:
+        status: observed
+        value:
+          text: オーラ：十字範囲内のミニオンの攻撃力+4
+          keywords:
+            - aura
+        sources:
+          - norinori-negi-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - norinori-negi-base-star3
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - norinori-negi-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - norinori-negi-base-star3
+      ability:
+        status: observed
+        value:
+          text: オーラ：十字範囲内のミニオンの攻撃力+8
+          keywords:
+            - aura
+        sources:
+          - norinori-negi-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 3
+      sources:
+        - norinori-negi-base-star1
+        - norinori-negi-base-star2
+        - norinori-negi-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: オーラ：十字範囲内のミニオンの攻撃力+2
+          keywords:
+            - aura
+        sources:
+          - norinori-negi-base-star1
+      - status: observed
+        value:
+          text: オーラ：十字範囲内のミニオンの攻撃力+4
+          keywords:
+            - aura
+        sources:
+          - norinori-negi-base-star2
+      - status: observed
+        value:
+          text: オーラ：十字範囲内のミニオンの攻撃力+8
+          keywords:
+            - aura
+        sources:
+          - norinori-negi-base-star3
+  bonuses:
+    - level: 2
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - norinori-negi-base-up1
+    - level: 3
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - norinori-negi-base-up1
+    - level: 4
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが3に上昇する
+          operation: ability_set
+          value: 3
+          unit: points
+        sources:
+          - norinori-negi-base-up1
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - norinori-negi-base-up2
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - norinori-negi-base-up2
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが4に上昇する
+          operation: ability_set
+          value: 4
+          unit: points
+        sources:
+          - norinori-negi-base-up2
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - norinori-negi-base-up3
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - norinori-negi-base-up3
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが5に上昇する
+          operation: ability_set
+          value: 5
+          unit: points
+        sources:
+          - norinori-negi-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが6に上昇する
+          operation: ability_set
+          value: 6
+          unit: points
+        sources:
+          - norinori-negi-base-up4
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが7に上昇する
+          operation: ability_set
+          value: 7
+          unit: points
+        sources:
+          - norinori-negi-base-up4
+  bonusCoverage:
+    status: observed
+    value:
+      from: 2
+      through: 12
+    sources:
+      - norinori-negi-base-up1
+      - norinori-negi-base-up2
+      - norinori-negi-base-up3
+      - norinori-negi-base-up4
+  acquisition:
+    status: manual
+    value: チュートリアルで獲得
+    sources: [norinori-negi-acquisition-unlock-user]
+  poolUnlock:
+    status: absent
+    reason: 実機で解放条件がないことを確認。
+    sources: [norinori-negi-acquisition-unlock-user]
+variants:
+  status: observed
+  note: 画像で確認した1種類のバリアントを掲載しています。
+  items:
+    - id: variant-1
+      name: ノリノリネギⅠ
+      image: norinori-negi-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - norinori-negi-v1-star1
+      displayLevel:
+        status: observed
+        value: 1
+        sources:
+          - norinori-negi-v1-star1
+          - norinori-negi-v1-star2
+          - norinori-negi-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 1
+        sources:
+          - norinori-negi-v1-up1
+      conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - norinori-negi-v1-star1
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - norinori-negi-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - norinori-negi-v1-star1
+          ability:
+            status: observed
+            value:
+              text: オーラ：十字範囲内のミニオンの攻撃力を合計で+8（隣接するミニオンに攻撃力ボーナスを均等に付与）
+              keywords:
+                - aura
+            sources:
+              - norinori-negi-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - norinori-negi-v1-star2
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - norinori-negi-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - norinori-negi-v1-star2
+          ability:
+            status: observed
+            value:
+              text: オーラ：十字範囲内のミニオンの攻撃力を合計で+16（隣接するミニオンに攻撃力ボーナスを均等に付与）
+              keywords:
+                - aura
+            sources:
+              - norinori-negi-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 3
+              sources:
+                - norinori-negi-v1-star3
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - norinori-negi-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - norinori-negi-v1-star3
+          ability:
+            status: observed
+            value:
+              text: オーラ：十字範囲内のミニオンの攻撃力を合計で+32（隣接するミニオンに攻撃力ボーナスを均等に付与）
+              keywords:
+                - aura
+            sources:
+              - norinori-negi-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 3
+          sources:
+            - norinori-negi-v1-star1
+            - norinori-negi-v1-star2
+            - norinori-negi-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: オーラ：十字範囲内のミニオンの攻撃力を合計で+8（隣接するミニオンに攻撃力ボーナスを均等に付与）
+              keywords:
+                - aura
+            sources:
+              - norinori-negi-v1-star1
+          - status: observed
+            value:
+              text: オーラ：十字範囲内のミニオンの攻撃力を合計で+16（隣接するミニオンに攻撃力ボーナスを均等に付与）
+              keywords:
+                - aura
+            sources:
+              - norinori-negi-v1-star2
+          - status: observed
+            value:
+              text: オーラ：十字範囲内のミニオンの攻撃力を合計で+32（隣接するミニオンに攻撃力ボーナスを均等に付与）
+              keywords:
+                - aura
+            sources:
+              - norinori-negi-v1-star3
+      bonuses:
+        - level: 2
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - norinori-negi-v1-up1
+        - level: 3
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - norinori-negi-v1-up1
+        - level: 4
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが12に上昇する
+              operation: ability_set
+              value: 12
+              unit: points
+            sources:
+              - norinori-negi-v1-up1
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - norinori-negi-v1-up2
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - norinori-negi-v1-up2
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが16に上昇する
+              operation: ability_set
+              value: 16
+              unit: points
+            sources:
+              - norinori-negi-v1-up2
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - norinori-negi-v1-up3
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - norinori-negi-v1-up3
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが20に上昇する
+              operation: ability_set
+              value: 20
+              unit: points
+            sources:
+              - norinori-negi-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが24に上昇する
+              operation: ability_set
+              value: 24
+              unit: points
+            sources:
+              - norinori-negi-v1-up4
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが28に上昇する
+              operation: ability_set
+              value: 28
+              unit: points
+            sources:
+              - norinori-negi-v1-up4
+      bonusCoverage:
+        status: observed
+        value:
+          from: 2
+          through: 12
+        sources:
+          - norinori-negi-v1-up1
+          - norinori-negi-v1-up2
+          - norinori-negi-v1-up3
+          - norinori-negi-v1-up4
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - norinori-negi-v1-star1
+          - norinori-negi-v1-star2
+          - norinori-negi-v1-star3

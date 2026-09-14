@@ -377,3 +377,225 @@ mam-acquisition-unlock-user:
 orchid-unlock-user:
   kind: user
   description: 実機確認によりオーキッド占星術師の基本形はカードプール解放条件なし（2026-09-14ユーザー確認）。
+
+pop-gunner-base-star1:
+  kind: screenshot
+  description: ポップガンナー・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-base-star2:
+  kind: screenshot
+  description: ポップガンナー・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-base-star3:
+  kind: screenshot
+  description: ポップガンナー・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-base-up1:
+  kind: screenshot
+  description: ポップガンナー・現在Lv.1の育成一覧1
+  mode: standard
+pop-gunner-base-up2:
+  kind: screenshot
+  description: ポップガンナー・現在Lv.1の育成一覧2
+  mode: standard
+pop-gunner-base-up3:
+  kind: screenshot
+  description: ポップガンナー・現在Lv.1の育成一覧3
+  mode: standard
+pop-gunner-base-up4:
+  kind: screenshot
+  description: ポップガンナー・現在Lv.1の育成一覧4
+  mode: standard
+pop-gunner-v1-star1:
+  kind: screenshot
+  description: ポップガンナーⅠ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v1-star2:
+  kind: screenshot
+  description: ポップガンナーⅠ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v1-star3:
+  kind: screenshot
+  description: ポップガンナーⅠ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v1-up1:
+  kind: screenshot
+  description: ポップガンナーⅠ・現在Lv.1の育成一覧1
+  mode: standard
+pop-gunner-v1-up2:
+  kind: screenshot
+  description: ポップガンナーⅠ・現在Lv.1の育成一覧2
+  mode: standard
+pop-gunner-v1-up3:
+  kind: screenshot
+  description: ポップガンナーⅠ・現在Lv.1の育成一覧3
+  mode: standard
+pop-gunner-v1-up4:
+  kind: screenshot
+  description: ポップガンナーⅠ・現在Lv.1の育成一覧4
+  mode: standard
+pop-gunner-v2-star1:
+  kind: screenshot
+  description: ポップガンナーⅡ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v2-star2:
+  kind: screenshot
+  description: ポップガンナーⅡ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v2-star3:
+  kind: screenshot
+  description: ポップガンナーⅡ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v2-up1:
+  kind: screenshot
+  description: ポップガンナーⅡ・現在Lv.1の育成一覧1
+  mode: standard
+pop-gunner-v2-up2:
+  kind: screenshot
+  description: ポップガンナーⅡ・現在Lv.1の育成一覧2
+  mode: standard
+pop-gunner-v2-up3:
+  kind: screenshot
+  description: ポップガンナーⅡ・現在Lv.1の育成一覧3
+  mode: standard
+pop-gunner-v2-up4:
+  kind: screenshot
+  description: ポップガンナーⅡ・現在Lv.1の育成一覧4
+  mode: standard
+pop-gunner-v3-star1:
+  kind: screenshot
+  description: ポップガンナーⅢ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v3-star2:
+  kind: screenshot
+  description: ポップガンナーⅢ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v3-star3:
+  kind: screenshot
+  description: ポップガンナーⅢ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+pop-gunner-v3-up1:
+  kind: screenshot
+  description: ポップガンナーⅢ・現在Lv.1の育成一覧1
+  mode: standard
+pop-gunner-v3-up2:
+  kind: screenshot
+  description: ポップガンナーⅢ・現在Lv.1の育成一覧2
+  mode: standard
+pop-gunner-v3-up3:
+  kind: screenshot
+  description: ポップガンナーⅢ・現在Lv.1の育成一覧3
+  mode: standard
+pop-gunner-v3-up4:
+  kind: screenshot
+  description: ポップガンナーⅢ・現在Lv.1の育成一覧4
+  mode: standard
+norinori-negi-base-star1:
+  kind: screenshot
+  description: ノリノリネギ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+norinori-negi-base-star2:
+  kind: screenshot
+  description: ノリノリネギ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+norinori-negi-base-star3:
+  kind: screenshot
+  description: ノリノリネギ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+norinori-negi-base-up1:
+  kind: screenshot
+  description: ノリノリネギ・現在Lv.1の育成一覧1
+  mode: standard
+norinori-negi-base-up2:
+  kind: screenshot
+  description: ノリノリネギ・現在Lv.1の育成一覧2
+  mode: standard
+norinori-negi-base-up3:
+  kind: screenshot
+  description: ノリノリネギ・現在Lv.1の育成一覧3
+  mode: standard
+norinori-negi-base-up4:
+  kind: screenshot
+  description: ノリノリネギ・現在Lv.1の育成一覧4
+  mode: standard
+norinori-negi-v1-star1:
+  kind: screenshot
+  description: ノリノリネギⅠ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+norinori-negi-v1-star2:
+  kind: screenshot
+  description: ノリノリネギⅠ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+norinori-negi-v1-star3:
+  kind: screenshot
+  description: ノリノリネギⅠ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+norinori-negi-v1-up1:
+  kind: screenshot
+  description: ノリノリネギⅠ・現在Lv.1の育成一覧1
+  mode: standard
+norinori-negi-v1-up2:
+  kind: screenshot
+  description: ノリノリネギⅠ・現在Lv.1の育成一覧2
+  mode: standard
+norinori-negi-v1-up3:
+  kind: screenshot
+  description: ノリノリネギⅠ・現在Lv.1の育成一覧3
+  mode: standard
+norinori-negi-v1-up4:
+  kind: screenshot
+  description: ノリノリネギⅠ・現在Lv.1の育成一覧4
+  mode: standard
+pop-gunner-memo:
+  kind: user
+  description: ポップガンナーの攻略メモ（評価・使い方・注意点）
+norinori-negi-memo:
+  kind: user
+  description: ノリノリネギの攻略メモ（評価・使い方・注意点）
+card-pool-icons-20260914:
+  kind: screenshot
+  description: カードプールプレビューでポップガンナーとノリノリネギの名前・背景色・コストを確認。両体の一覧用アイコンに使用。
+  screen: pool-list
+
+pop-gunner-acquisition-unlock-user:
+  kind: user
+  description: 実機確認によりポップガンナーの基本形はチュートリアルで獲得、カードプール解放条件なし（2026-09-14ユーザー確認）。
+norinori-negi-acquisition-unlock-user:
+  kind: user
+  description: 実機確認によりノリノリネギの基本形はチュートリアルで獲得、カードプール解放条件なし（2026-09-14ユーザー確認）。

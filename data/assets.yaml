@@ -41,3 +41,28 @@ appolis-v2:
 muscle-watermelon-v1:
   path: images/minions/muscle-watermelon/variant-1.webp
   alt: マッスルスイカⅠのバリアントカード
+
+pop-gunner-icon:
+  path: images/minions/pop-gunner/icon.webp
+  alt: ポップガンナーの基本形アイコン
+norinori-negi-icon:
+  path: images/minions/norinori-negi/icon.webp
+  alt: ノリノリネギの基本形アイコン
+pop-gunner-portrait:
+  path: images/minions/pop-gunner/portrait.webp
+  alt: ポップガンナーの基本形
+norinori-negi-portrait:
+  path: images/minions/norinori-negi/portrait.webp
+  alt: ノリノリネギの基本形
+pop-gunner-v1:
+  path: images/minions/pop-gunner/variant-1.webp
+  alt: ポップガンナーⅠのバリアントカード
+pop-gunner-v2:
+  path: images/minions/pop-gunner/variant-2.webp
+  alt: ポップガンナーⅡのバリアントカード
+pop-gunner-v3:
+  path: images/minions/pop-gunner/variant-3.webp
+  alt: ポップガンナーⅢのバリアントカード
+norinori-negi-v1:
+  path: images/minions/norinori-negi/variant-1.webp
+  alt: ノリノリネギⅠのバリアントカード
