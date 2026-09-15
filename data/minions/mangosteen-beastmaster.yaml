@@ -1,0 +1,230 @@
+schemaVersion: 1
+id: mangosteen-beastmaster
+name: マンゴスチン獣使い
+reading: まんごすちんけものつかい
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - mangosteen-beastmaster-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - mangosteen-beastmaster-base-star1
+updated: 2026-09-15
+icon: mangosteen-beastmaster-icon
+portrait: mangosteen-beastmaster-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: mangosteen-beastmaster-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - mangosteen-beastmaster-base-star1
+      - mangosteen-beastmaster-base-star2
+      - mangosteen-beastmaster-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - mangosteen-beastmaster-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - mangosteen-beastmaster-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mangosteen-beastmaster-base-star1
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - mangosteen-beastmaster-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：攻撃力の25%を継承する★1マンゴスチンピッグ2体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - mangosteen-beastmaster-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - mangosteen-beastmaster-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mangosteen-beastmaster-base-star2
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - mangosteen-beastmaster-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：攻撃力の25%を継承する★2マンゴスチンピッグ2体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - mangosteen-beastmaster-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - mangosteen-beastmaster-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mangosteen-beastmaster-base-star3
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - mangosteen-beastmaster-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：攻撃力の25%を継承する★3マンゴスチンピッグ2体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - mangosteen-beastmaster-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 8
+      sources:
+        - mangosteen-beastmaster-base-star1
+        - mangosteen-beastmaster-base-star2
+        - mangosteen-beastmaster-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：攻撃力の25%を継承する★1マンゴスチンピッグ2体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - mangosteen-beastmaster-base-star1
+      - status: observed
+        value:
+          text: 準備完了：攻撃力の25%を継承する★2マンゴスチンピッグ2体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - mangosteen-beastmaster-base-star2
+      - status: observed
+        value:
+          text: 準備完了：攻撃力の25%を継承する★3マンゴスチンピッグ2体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - mangosteen-beastmaster-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: マンゴスチンピッグが継承する攻撃力が30%に上昇する
+          operation: ability_set
+          value: 30
+          unit: percent
+        sources:
+          - mangosteen-beastmaster-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: マンゴスチンピッグが継承する攻撃力が35%に上昇する
+          operation: ability_set
+          value: 35
+          unit: percent
+        sources:
+          - mangosteen-beastmaster-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: マンゴスチンピッグが継承する攻撃力が45%に上昇する
+          operation: ability_set
+          value: 45
+          unit: percent
+        sources:
+          - mangosteen-beastmaster-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: マンゴスチンピッグが継承する攻撃力が55%に上昇する
+          operation: ability_set
+          value: 55
+          unit: percent
+        sources:
+          - mangosteen-beastmaster-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: マンゴスチンピッグが継承する攻撃力が65%に上昇する
+          operation: ability_set
+          value: 65
+          unit: percent
+        sources:
+          - mangosteen-beastmaster-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - mangosteen-beastmaster-base-up1
+      - mangosteen-beastmaster-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - mangosteen-beastmaster-base-star1
+      - mangosteen-beastmaster-base-star2
+      - mangosteen-beastmaster-base-star3
+  poolUnlock:
+    status: absent
+    reason: 基本形の入手方法欄全体にカードプール解放条件の記載がない。
+    sources:
+      - mangosteen-beastmaster-base-star1
+      - mangosteen-beastmaster-base-star2
+      - mangosteen-beastmaster-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - mangosteen-beastmaster-base-star1
+    - mangosteen-beastmaster-base-star2
+    - mangosteen-beastmaster-base-star3
+  items: []

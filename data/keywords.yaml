@@ -12,3 +12,15 @@ ready:
     value: 双方が準備完了をタップすると効果が発動する
     sources:
       - ready
+placement:
+  name: 配置
+  definition:
+    status: observed
+    value: ミニオンを購入し、空きマスに置くと効果が発動する
+    sources: [placement-keyword]
+temporary:
+  name: 一時
+  definition:
+    status: observed
+    value: 本ラウンド中のみ有効、ラウンド終了後に効果が失われる
+    sources: [temporary-keyword]

@@ -1,0 +1,419 @@
+schemaVersion: 1
+id: avogaku
+name: アボガク
+reading: あぼがく
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - avogaku-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - avogaku-base-star1
+updated: 2026-09-15
+icon: avogaku-icon
+portrait: avogaku-portrait
+evaluation:
+  rank: S
+  scope: 基本形の総合評価
+  source: avogaku-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - avogaku-base-star1
+      - avogaku-base-star2
+      - avogaku-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - avogaku-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - avogaku-base-star1
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - avogaku-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - avogaku-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身が★3の場合、攻撃力が一時的に+80%
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - avogaku-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - avogaku-base-star2
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - avogaku-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - avogaku-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身が★3の場合、攻撃力が一時的に+80%
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - avogaku-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - avogaku-base-star3
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - avogaku-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - avogaku-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身が★3の場合、攻撃力が一時的に+80%
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - avogaku-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 8
+      sources:
+        - avogaku-base-star1
+        - avogaku-base-star2
+        - avogaku-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：自身が★3の場合、攻撃力が一時的に+80%
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - avogaku-base-star1
+      - status: observed
+        value:
+          text: 準備完了：自身が★3の場合、攻撃力が一時的に+80%
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - avogaku-base-star2
+      - status: observed
+        value:
+          text: 準備完了：自身が★3の場合、攻撃力が一時的に+80%
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - avogaku-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: ★3にアップすると、一時攻撃力ボーナスが90%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - avogaku-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: ★3にアップすると、一時攻撃力ボーナスが100%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - avogaku-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 準備完了：自身が★2の場合、攻撃力が一時的に+50%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - avogaku-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: ★2にアップすると一時攻撃力ボーナスが60%に上昇し、★3にアップすると一時攻撃力ボーナスが120%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - avogaku-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: ★2にアップすると一時攻撃力ボーナスが70%に上昇し、★3にアップすると一時攻撃力ボーナスが140%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - avogaku-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - avogaku-base-up1
+      - avogaku-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - avogaku-base-star1
+      - avogaku-base-star2
+      - avogaku-base-star3
+  poolUnlock:
+    status: absent
+    reason: 基本形の入手方法欄全体にカードプール解放条件の記載がない。
+    sources:
+      - avogaku-base-star1
+      - avogaku-base-star2
+      - avogaku-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: アボガクⅠ
+      image: avogaku-v1
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - avogaku-v1-star1
+      displayLevel:
+        status: observed
+        value: 7
+        sources:
+          - avogaku-v1-star1
+          - avogaku-v1-star2
+          - avogaku-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 7
+        sources:
+          - avogaku-v1-up1
+      conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 8
+              sources:
+                - avogaku-v1-star1
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - avogaku-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - avogaku-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 配置：攻撃力+100%（オーラバフは含まない）
+              keywords:
+                - placement
+            sources:
+              - avogaku-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 8
+              sources:
+                - avogaku-v1-star2
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - avogaku-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - avogaku-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 配置：攻撃力+100%（オーラバフは含まない）
+              keywords:
+                - placement
+            sources:
+              - avogaku-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 8
+              sources:
+                - avogaku-v1-star3
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - avogaku-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - avogaku-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 配置：攻撃力+100%（オーラバフは含まない）
+              keywords:
+                - placement
+            sources:
+              - avogaku-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - avogaku-v1-star1
+            - avogaku-v1-star2
+            - avogaku-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 配置：攻撃力+100%（オーラバフは含まない）
+              keywords:
+                - placement
+            sources:
+              - avogaku-v1-star1
+          - status: observed
+            value:
+              text: 配置：攻撃力+100%（オーラバフは含まない）
+              keywords:
+                - placement
+            sources:
+              - avogaku-v1-star2
+          - status: observed
+            value:
+              text: 配置：攻撃力+100%（オーラバフは含まない）
+              keywords:
+                - placement
+            sources:
+              - avogaku-v1-star3
+      bonuses:
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが110%に上昇する
+              operation: ability_set
+              value: 110
+              unit: percent
+            sources:
+              - avogaku-v1-up1
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが120%に上昇する
+              operation: ability_set
+              value: 120
+              unit: percent
+            sources:
+              - avogaku-v1-up1
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが140%に上昇する
+              operation: ability_set
+              value: 140
+              unit: percent
+            sources:
+              - avogaku-v1-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが160%に上昇する
+              operation: ability_set
+              value: 160
+              unit: percent
+            sources:
+              - avogaku-v1-up2
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが180%に上昇する
+              operation: ability_set
+              value: 180
+              unit: percent
+            sources:
+              - avogaku-v1-up2
+      bonusCoverage:
+        status: observed
+        value:
+          from: 8
+          through: 12
+        sources:
+          - avogaku-v1-up1
+          - avogaku-v1-up2
+      acquisition:
+        status: observed
+        value: クランショップで獲得
+        sources:
+          - avogaku-v1-star1
+          - avogaku-v1-star2
+          - avogaku-v1-star3

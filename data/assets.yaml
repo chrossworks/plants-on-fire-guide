@@ -66,3 +66,25 @@ pop-gunner-v3:
 norinori-negi-v1:
   path: images/minions/norinori-negi/variant-1.webp
   alt: ノリノリネギⅠのバリアントカード
+
+avogaku-portrait:
+  path: images/minions/avogaku/portrait.webp
+  alt: アボガクの基本形
+radish-maid-portrait:
+  path: images/minions/radish-maid/portrait.webp
+  alt: ラディッシュメイドの基本形
+mangosteen-beastmaster-portrait:
+  path: images/minions/mangosteen-beastmaster/portrait.webp
+  alt: マンゴスチン獣使いの基本形
+avogaku-v1:
+  path: images/minions/avogaku/variant-1.webp
+  alt: アボガクⅠのバリアントカード
+avogaku-icon:
+  path: images/minions/avogaku/icon.webp
+  alt: アボガクのカードアイコン
+radish-maid-icon:
+  path: images/minions/radish-maid/icon.webp
+  alt: ラディッシュメイドのカードアイコン
+mangosteen-beastmaster-icon:
+  path: images/minions/mangosteen-beastmaster/icon.webp
+  alt: マンゴスチン獣使いのカードアイコン
