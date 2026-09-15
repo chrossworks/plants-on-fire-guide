@@ -88,3 +88,47 @@ radish-maid-icon:
 mangosteen-beastmaster-icon:
   path: images/minions/mangosteen-beastmaster/icon.webp
   alt: マンゴスチン獣使いのカードアイコン
+
+kowappine-portrait:
+  path: images/minions/kowappine/portrait.webp
+  alt: コワッパインの基本形
+kowappine-v1:
+  path: images/minions/kowappine/variant-1.webp
+  alt: コワッパインⅠのバリアントカード
+kowappine-v2:
+  path: images/minions/kowappine/variant-2.webp
+  alt: コワッパインⅡのバリアントカード
+sister-cherry-portrait:
+  path: images/minions/sister-cherry/portrait.webp
+  alt: シスター・チェリーの基本形
+sister-cherry-v1:
+  path: images/minions/sister-cherry/variant-1.webp
+  alt: シスター・チェリーⅠのバリアントカード
+sister-cherry-v2:
+  path: images/minions/sister-cherry/variant-2.webp
+  alt: シスター・チェリーⅡのバリアントカード
+hakusai-guard-portrait:
+  path: images/minions/hakusai-guard/portrait.webp
+  alt: ハクサイ衛兵の基本形
+hakusai-guard-v1:
+  path: images/minions/hakusai-guard/variant-1.webp
+  alt: ハクサイ衛兵Ⅰのバリアントカード
+lychee-baby-portrait:
+  path: images/minions/lychee-baby/portrait.webp
+  alt: ライチベイビーの基本形
+lychee-baby-v1:
+  path: images/minions/lychee-baby/variant-1.webp
+  alt: ライチベイビーⅠのバリアントカード
+kowappine-icon:
+  path: images/minions/kowappine/icon.webp
+  alt: コワッパインのカードアイコン
+sister-cherry-icon:
+  path: images/minions/sister-cherry/icon.webp
+  alt: シスター・チェリーのカードアイコン
+hakusai-guard-icon:
+  path: images/minions/hakusai-guard/icon.webp
+  alt: ハクサイ衛兵のカードアイコン
+
+lychee-baby-icon:
+  path: images/minions/lychee-baby/icon.webp
+  alt: ライチベイビーのカードアイコン

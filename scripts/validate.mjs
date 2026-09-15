@@ -39,7 +39,7 @@ export async function validate() {
   }
   const assetRef = (key,p) => { if (!assets[key]) fail(`${p}: 画像IDなし ${key}`); };
   for (const m of minions) {
-    walk(m,m.id); assetRef(m.icon,m.id); assetRef(m.portrait,m.id);
+    walk(m,m.id); if (m.icon) assetRef(m.icon,m.id); assetRef(m.portrait,m.id);
     if (m.variants.status === 'absent' && !hasStandardAbsenceEvidence(m.variants,sources)) fail(`${m.id}: バリアントなしには通常詳細画面での非表示確認が必要です`);
     if (!sources[m.evaluation.source]) fail(`${m.id}: 評価の出典なし`);
     const min = minimumLevels[m.rarity.value];

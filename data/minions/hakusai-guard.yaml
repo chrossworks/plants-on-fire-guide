@@ -1,0 +1,487 @@
+schemaVersion: 1
+id: hakusai-guard
+name: ハクサイ衛兵
+reading: はくさいえいへい
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - hakusai-guard-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - hakusai-guard-base-star1
+updated: 2026-09-15
+icon: hakusai-guard-icon
+portrait: hakusai-guard-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: hakusai-guard-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - hakusai-guard-base-star1
+      - hakusai-guard-base-star2
+      - hakusai-guard-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - hakusai-guard-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - hakusai-guard-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - hakusai-guard-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - hakusai-guard-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：攻撃力4の★1ハクサイワンコ1体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - hakusai-guard-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - hakusai-guard-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - hakusai-guard-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - hakusai-guard-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：攻撃力4の★1ハクサイワンコ2体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - hakusai-guard-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - hakusai-guard-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - hakusai-guard-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - hakusai-guard-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：攻撃力4の★1ハクサイワンコ4体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - hakusai-guard-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 5
+      sources:
+        - hakusai-guard-base-star1
+        - hakusai-guard-base-star2
+        - hakusai-guard-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：攻撃力4の★1ハクサイワンコ1体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - hakusai-guard-base-star1
+      - status: observed
+        value:
+          text: 準備完了：攻撃力4の★1ハクサイワンコ2体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - hakusai-guard-base-star2
+      - status: observed
+        value:
+          text: 準備完了：攻撃力4の★1ハクサイワンコ4体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - hakusai-guard-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - hakusai-guard-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - hakusai-guard-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 召喚されるハクサイワンコの攻撃力が8に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - hakusai-guard-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - hakusai-guard-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - hakusai-guard-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 召喚されるハクサイワンコの攻撃力が12に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - hakusai-guard-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 召喚されるハクサイワンコの攻撃力が16に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - hakusai-guard-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 召喚されるハクサイワンコの攻撃力が20に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - hakusai-guard-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - hakusai-guard-base-up1
+      - hakusai-guard-base-up2
+      - hakusai-guard-base-up3
+  acquisition:
+    status: observed
+    value: アドベンチャーモード3-1クリアで獲得
+    sources:
+      - hakusai-guard-base-star1
+      - hakusai-guard-base-star2
+      - hakusai-guard-base-star3
+  poolUnlock:
+    status: absent
+    reason: 基本形の入手方法欄全体にカードプール解放条件の記載がない。
+    sources:
+      - hakusai-guard-base-star1
+      - hakusai-guard-base-star2
+      - hakusai-guard-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: ハクサイ衛兵Ⅰ
+      image: hakusai-guard-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - hakusai-guard-v1-star1
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - hakusai-guard-v1-star1
+          - hakusai-guard-v1-star2
+          - hakusai-guard-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - hakusai-guard-v1-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - hakusai-guard-v1-star1
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - hakusai-guard-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - hakusai-guard-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 準備完了：★1ハクサイワンコ1体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+1、攻撃速度+3%
+              keywords:
+                - ready
+                - temporary
+            sources:
+              - hakusai-guard-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - hakusai-guard-v1-star2
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - hakusai-guard-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - hakusai-guard-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 準備完了：★1ハクサイワンコ2体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+1、攻撃速度+3%
+              keywords:
+                - ready
+                - temporary
+            sources:
+              - hakusai-guard-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - hakusai-guard-v1-star3
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - hakusai-guard-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - hakusai-guard-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 準備完了：★1ハクサイワンコ4体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+1、攻撃速度+3%
+              keywords:
+                - ready
+                - temporary
+            sources:
+              - hakusai-guard-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - hakusai-guard-v1-star1
+            - hakusai-guard-v1-star2
+            - hakusai-guard-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 準備完了：★1ハクサイワンコ1体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+1、攻撃速度+3%
+              keywords:
+                - ready
+                - temporary
+            sources:
+              - hakusai-guard-v1-star1
+          - status: observed
+            value:
+              text: 準備完了：★1ハクサイワンコ2体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+1、攻撃速度+3%
+              keywords:
+                - ready
+                - temporary
+            sources:
+              - hakusai-guard-v1-star2
+          - status: observed
+            value:
+              text: 準備完了：★1ハクサイワンコ4体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+1、攻撃速度+3%
+              keywords:
+                - ready
+                - temporary
+            sources:
+              - hakusai-guard-v1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - hakusai-guard-v1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - hakusai-guard-v1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+2、攻撃速度+3%
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - hakusai-guard-v1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - hakusai-guard-v1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - hakusai-guard-v1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+3、攻撃速度+3%
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - hakusai-guard-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+4、攻撃速度+3%
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - hakusai-guard-v1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+5、攻撃速度+3%
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - hakusai-guard-v1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - hakusai-guard-v1-up1
+          - hakusai-guard-v1-up2
+          - hakusai-guard-v1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - hakusai-guard-v1-star1
+          - hakusai-guard-v1-star2
+          - hakusai-guard-v1-star3

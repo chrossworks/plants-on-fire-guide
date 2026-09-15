@@ -1,0 +1,699 @@
+schemaVersion: 1
+id: kowappine
+name: コワッパイン
+reading: こわっぱいん
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - kowappine-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - kowappine-base-star1
+updated: 2026-09-15
+icon: kowappine-icon
+portrait: kowappine-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: kowappine-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - kowappine-base-star1
+      - kowappine-base-star2
+      - kowappine-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - kowappine-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - kowappine-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - kowappine-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - kowappine-base-star1
+      ability:
+        status: observed
+        value:
+          text: 自身が星アップすると、攻撃力が追加で+5
+          keywords: []
+        sources:
+          - kowappine-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - kowappine-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - kowappine-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - kowappine-base-star2
+      ability:
+        status: observed
+        value:
+          text: 自身が星アップすると、攻撃力が追加で+5
+          keywords: []
+        sources:
+          - kowappine-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - kowappine-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - kowappine-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - kowappine-base-star3
+      ability:
+        status: observed
+        value:
+          text: 自身が星アップすると、攻撃力が追加で+5
+          keywords: []
+        sources:
+          - kowappine-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 5
+      sources:
+        - kowappine-base-star1
+        - kowappine-base-star2
+        - kowappine-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 自身が星アップすると、攻撃力が追加で+5
+          keywords: []
+        sources:
+          - kowappine-base-star1
+      - status: observed
+        value:
+          text: 自身が星アップすると、攻撃力が追加で+5
+          keywords: []
+        sources:
+          - kowappine-base-star2
+      - status: observed
+        value:
+          text: 自身が星アップすると、攻撃力が追加で+5
+          keywords: []
+        sources:
+          - kowappine-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - kowappine-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - kowappine-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 星アップによる攻撃力ボーナスが8に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - kowappine-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - kowappine-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - kowappine-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 星アップによる攻撃力ボーナスが12に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - kowappine-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 星アップによる攻撃力ボーナスが15に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - kowappine-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 星アップによる攻撃力ボーナスが18に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - kowappine-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - kowappine-base-up1
+      - kowappine-base-up2
+      - kowappine-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - kowappine-base-star1
+      - kowappine-base-star2
+      - kowappine-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー20
+    sources:
+      - kowappine-base-star1
+      - kowappine-base-star2
+      - kowappine-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠ・Ⅱを掲載しています。
+  items:
+    - id: variant-1
+      name: コワッパインⅠ
+      image: kowappine-v1
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - kowappine-v1-star1
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - kowappine-v1-star1
+          - kowappine-v1-star2
+          - kowappine-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - kowappine-v1-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - kowappine-v1-star1
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - kowappine-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - kowappine-v1-star1
+          ability:
+            status: observed
+            value:
+              text: |-
+                自身が星アップすると、攻撃力が追加で+3
+                準備完了：自身の★-1
+              keywords:
+                - ready
+            sources:
+              - kowappine-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - kowappine-v1-star2
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - kowappine-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - kowappine-v1-star2
+          ability:
+            status: observed
+            value:
+              text: |-
+                自身が星アップすると、攻撃力が追加で+3
+                準備完了：自身の★-1
+              keywords:
+                - ready
+            sources:
+              - kowappine-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - kowappine-v1-star3
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - kowappine-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - kowappine-v1-star3
+          ability:
+            status: observed
+            value:
+              text: |-
+                自身が星アップすると、攻撃力が追加で+3
+                準備完了：自身の★-1
+              keywords:
+                - ready
+            sources:
+              - kowappine-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - kowappine-v1-star1
+            - kowappine-v1-star2
+            - kowappine-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: |-
+                自身が星アップすると、攻撃力が追加で+3
+                準備完了：自身の★-1
+              keywords:
+                - ready
+            sources:
+              - kowappine-v1-star1
+          - status: observed
+            value:
+              text: |-
+                自身が星アップすると、攻撃力が追加で+3
+                準備完了：自身の★-1
+              keywords:
+                - ready
+            sources:
+              - kowappine-v1-star2
+          - status: observed
+            value:
+              text: |-
+                自身が星アップすると、攻撃力が追加で+3
+                準備完了：自身の★-1
+              keywords:
+                - ready
+            sources:
+              - kowappine-v1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - kowappine-v1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - kowappine-v1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 星アップによる攻撃力ボーナスが6に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - kowappine-v1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - kowappine-v1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - kowappine-v1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 星アップによる攻撃力ボーナスが10に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - kowappine-v1-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 星アップによる攻撃力ボーナスが13に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - kowappine-v1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 星アップによる攻撃力ボーナスが16に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - kowappine-v1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - kowappine-v1-up1
+          - kowappine-v1-up2
+          - kowappine-v1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - kowappine-v1-star1
+          - kowappine-v1-star2
+          - kowappine-v1-star3
+    - id: variant-2
+      name: コワッパインⅡ
+      image: kowappine-v2
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - kowappine-v2-star1
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - kowappine-v2-star1
+          - kowappine-v2-star2
+          - kowappine-v2-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - kowappine-v2-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - kowappine-v2-star1
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - kowappine-v2-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - kowappine-v2-star1
+          ability:
+            status: observed
+            value:
+              text: 自身が星アップすると、攻撃力+14%
+              keywords: []
+            sources:
+              - kowappine-v2-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - kowappine-v2-star2
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - kowappine-v2-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - kowappine-v2-star2
+          ability:
+            status: observed
+            value:
+              text: 自身が星アップすると、攻撃力+14%
+              keywords: []
+            sources:
+              - kowappine-v2-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - kowappine-v2-star3
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - kowappine-v2-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - kowappine-v2-star3
+          ability:
+            status: observed
+            value:
+              text: 自身が星アップすると、攻撃力+14%
+              keywords: []
+            sources:
+              - kowappine-v2-star3
+      initial:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - kowappine-v2-star1
+            - kowappine-v2-star2
+            - kowappine-v2-star3
+        abilities:
+          - status: observed
+            value:
+              text: 自身が星アップすると、攻撃力+14%
+              keywords: []
+            sources:
+              - kowappine-v2-star1
+          - status: observed
+            value:
+              text: 自身が星アップすると、攻撃力+14%
+              keywords: []
+            sources:
+              - kowappine-v2-star2
+          - status: observed
+            value:
+              text: 自身が星アップすると、攻撃力+14%
+              keywords: []
+            sources:
+              - kowappine-v2-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - kowappine-v2-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - kowappine-v2-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 星アップによる攻撃力ボーナスが16%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - kowappine-v2-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - kowappine-v2-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - kowappine-v2-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 星アップによる攻撃力ボーナスが18%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - kowappine-v2-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 星アップによる攻撃力ボーナスが20%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - kowappine-v2-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 星アップによる攻撃力ボーナスが22%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - kowappine-v2-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - kowappine-v2-up1
+          - kowappine-v2-up2
+          - kowappine-v2-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - kowappine-v2-star1
+          - kowappine-v2-star2
+          - kowappine-v2-star3

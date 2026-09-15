@@ -721,3 +721,314 @@ temporary-keyword:
   kind: screenshot
   description: アボガクの通常詳細画面のキーワード説明で「一時」の名称と定義を確認（2026-09-15）。
   mode: standard
+
+lychee-baby-base-star1:
+  kind: screenshot
+  description: ライチベイビー・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+lychee-baby-base-star2:
+  kind: screenshot
+  description: ライチベイビー・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+lychee-baby-base-star3:
+  kind: screenshot
+  description: ライチベイビー・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+lychee-baby-base-up1:
+  kind: screenshot
+  description: ライチベイビー・現在Lv.7の育成一覧1
+  mode: standard
+lychee-baby-base-up2:
+  kind: screenshot
+  description: ライチベイビー・現在Lv.7の育成一覧2
+  mode: standard
+lychee-baby-v1-star1:
+  kind: screenshot
+  description: ライチベイビーⅠ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+lychee-baby-v1-star2:
+  kind: screenshot
+  description: ライチベイビーⅠ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+lychee-baby-v1-star3:
+  kind: screenshot
+  description: ライチベイビーⅠ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+lychee-baby-v1-up1:
+  kind: screenshot
+  description: ライチベイビーⅠ・現在Lv.7の育成一覧1
+  mode: standard
+lychee-baby-v1-up2:
+  kind: screenshot
+  description: ライチベイビーⅠ・現在Lv.7の育成一覧2
+  mode: standard
+hakusai-guard-base-star1:
+  kind: screenshot
+  description: ハクサイ衛兵・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+hakusai-guard-base-star2:
+  kind: screenshot
+  description: ハクサイ衛兵・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+hakusai-guard-base-star3:
+  kind: screenshot
+  description: ハクサイ衛兵・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+hakusai-guard-base-up1:
+  kind: screenshot
+  description: ハクサイ衛兵・現在Lv.4の育成一覧1
+  mode: standard
+hakusai-guard-base-up2:
+  kind: screenshot
+  description: ハクサイ衛兵・現在Lv.4の育成一覧2
+  mode: standard
+hakusai-guard-base-up3:
+  kind: screenshot
+  description: ハクサイ衛兵・現在Lv.4の育成一覧3
+  mode: standard
+hakusai-guard-v1-star1:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+hakusai-guard-v1-star2:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+hakusai-guard-v1-star3:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+hakusai-guard-v1-up1:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・現在Lv.4の育成一覧1
+  mode: standard
+hakusai-guard-v1-up2:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・現在Lv.4の育成一覧2
+  mode: standard
+hakusai-guard-v1-up3:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・現在Lv.4の育成一覧3
+  mode: standard
+sister-cherry-base-star1:
+  kind: screenshot
+  description: シスター・チェリー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-base-star2:
+  kind: screenshot
+  description: シスター・チェリー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-base-star3:
+  kind: screenshot
+  description: シスター・チェリー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-base-up1:
+  kind: screenshot
+  description: シスター・チェリー・現在Lv.4の育成一覧1
+  mode: standard
+sister-cherry-base-up2:
+  kind: screenshot
+  description: シスター・チェリー・現在Lv.4の育成一覧2
+  mode: standard
+sister-cherry-base-up3:
+  kind: screenshot
+  description: シスター・チェリー・現在Lv.4の育成一覧3
+  mode: standard
+sister-cherry-v1-star1:
+  kind: screenshot
+  description: シスター・チェリーⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-v1-star2:
+  kind: screenshot
+  description: シスター・チェリーⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-v1-star3:
+  kind: screenshot
+  description: シスター・チェリーⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-v1-up1:
+  kind: screenshot
+  description: シスター・チェリーⅠ・現在Lv.4の育成一覧1
+  mode: standard
+sister-cherry-v1-up2:
+  kind: screenshot
+  description: シスター・チェリーⅠ・現在Lv.4の育成一覧2
+  mode: standard
+sister-cherry-v1-up3:
+  kind: screenshot
+  description: シスター・チェリーⅠ・現在Lv.4の育成一覧3
+  mode: standard
+sister-cherry-v2-star1:
+  kind: screenshot
+  description: シスター・チェリーⅡ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-v2-star2:
+  kind: screenshot
+  description: シスター・チェリーⅡ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-v2-star3:
+  kind: screenshot
+  description: シスター・チェリーⅡ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+sister-cherry-v2-up1:
+  kind: screenshot
+  description: シスター・チェリーⅡ・現在Lv.4の育成一覧1
+  mode: standard
+sister-cherry-v2-up2:
+  kind: screenshot
+  description: シスター・チェリーⅡ・現在Lv.4の育成一覧2
+  mode: standard
+sister-cherry-v2-up3:
+  kind: screenshot
+  description: シスター・チェリーⅡ・現在Lv.4の育成一覧3
+  mode: standard
+kowappine-base-star1:
+  kind: screenshot
+  description: コワッパイン・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-base-star2:
+  kind: screenshot
+  description: コワッパイン・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-base-star3:
+  kind: screenshot
+  description: コワッパイン・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-base-up1:
+  kind: screenshot
+  description: コワッパイン・現在Lv.4の育成一覧1
+  mode: standard
+kowappine-base-up2:
+  kind: screenshot
+  description: コワッパイン・現在Lv.4の育成一覧2
+  mode: standard
+kowappine-base-up3:
+  kind: screenshot
+  description: コワッパイン・現在Lv.4の育成一覧3
+  mode: standard
+kowappine-v1-star1:
+  kind: screenshot
+  description: コワッパインⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-v1-star2:
+  kind: screenshot
+  description: コワッパインⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-v1-star3:
+  kind: screenshot
+  description: コワッパインⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-v1-up1:
+  kind: screenshot
+  description: コワッパインⅠ・現在Lv.4の育成一覧1
+  mode: standard
+kowappine-v1-up2:
+  kind: screenshot
+  description: コワッパインⅠ・現在Lv.4の育成一覧2
+  mode: standard
+kowappine-v1-up3:
+  kind: screenshot
+  description: コワッパインⅠ・現在Lv.4の育成一覧3
+  mode: standard
+kowappine-v2-star1:
+  kind: screenshot
+  description: コワッパインⅡ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-v2-star2:
+  kind: screenshot
+  description: コワッパインⅡ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-v2-star3:
+  kind: screenshot
+  description: コワッパインⅡ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+kowappine-v2-up1:
+  kind: screenshot
+  description: コワッパインⅡ・現在Lv.4の育成一覧1
+  mode: standard
+kowappine-v2-up2:
+  kind: screenshot
+  description: コワッパインⅡ・現在Lv.4の育成一覧2
+  mode: standard
+kowappine-v2-up3:
+  kind: screenshot
+  description: コワッパインⅡ・現在Lv.4の育成一覧3
+  mode: standard
+kowappine-memo:
+  kind: user
+  description: コワッパインの攻略メモ（評価・使い方・注意点）
+sister-cherry-memo:
+  kind: user
+  description: シスター・チェリーの攻略メモ（評価・使い方・注意点）
+hakusai-guard-memo:
+  kind: user
+  description: ハクサイ衛兵の攻略メモ（評価・使い方・注意点）
+lychee-baby-memo:
+  kind: user
+  description: ライチベイビーの攻略メモ（評価・使い方・注意点）
+
+lychee-baby-icon-source:
+  kind: screenshot
+  description: 通常カードプール一覧のライチベイビー（レジェンド背景・コスト3）
+  mode: standard
+  screen: pool-list
