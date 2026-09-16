@@ -132,3 +132,10 @@ hakusai-guard-icon:
 lychee-baby-icon:
   path: images/minions/lychee-baby/icon.webp
   alt: ライチベイビーのカードアイコン
+
+greenkeeper-icon:
+  path: images/minions/greenkeeper/icon.webp
+  alt: グリーンキーパーのカードアイコン
+greenkeeper-portrait:
+  path: images/minions/greenkeeper/portrait.webp
+  alt: グリーンキーパーの基本形

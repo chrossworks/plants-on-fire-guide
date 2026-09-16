@@ -1032,3 +1032,37 @@ lychee-baby-icon-source:
   description: 通常カードプール一覧のライチベイビー（レジェンド背景・コスト3）
   mode: standard
   screen: pool-list
+
+greenkeeper-base-star1:
+  kind: screenshot
+  description: グリーンキーパー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+greenkeeper-base-star2:
+  kind: screenshot
+  description: グリーンキーパー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+greenkeeper-base-star3:
+  kind: screenshot
+  description: グリーンキーパー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+greenkeeper-base-up1:
+  kind: screenshot
+  description: グリーンキーパー・現在Lv.4の育成一覧1
+  mode: standard
+greenkeeper-base-up2:
+  kind: screenshot
+  description: グリーンキーパー・現在Lv.4の育成一覧2
+  mode: standard
+greenkeeper-base-up3:
+  kind: screenshot
+  description: グリーンキーパー・現在Lv.4の育成一覧3
+  mode: standard
+greenkeeper-memo:
+  kind: user
+  description: グリーンキーパーの攻略メモ（評価・使い方・注意点）
