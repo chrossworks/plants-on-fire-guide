@@ -1,0 +1,481 @@
+schemaVersion: 1
+id: guava-trumpeter
+name: グァバラッパ
+reading: ぐぁばらっぱ
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - guava-trumpeter-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - guava-trumpeter-base-star1
+updated: 2026-09-16
+icon: guava-trumpeter-icon
+portrait: guava-trumpeter-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: guava-trumpeter-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - guava-trumpeter-base-star1
+      - guava-trumpeter-base-star2
+      - guava-trumpeter-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - guava-trumpeter-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 4
+          sources:
+            - guava-trumpeter-base-star1
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - guava-trumpeter-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - guava-trumpeter-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：ランダムなミニオン3体の攻撃力が一時的に+2
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - guava-trumpeter-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 4
+          sources:
+            - guava-trumpeter-base-star2
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - guava-trumpeter-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - guava-trumpeter-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：ランダムなミニオン3体の攻撃力が一時的に+4
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - guava-trumpeter-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 4
+          sources:
+            - guava-trumpeter-base-star3
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - guava-trumpeter-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - guava-trumpeter-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：ランダムなミニオン3体の攻撃力が一時的に+8
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - guava-trumpeter-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 4
+      sources:
+        - guava-trumpeter-base-star1
+        - guava-trumpeter-base-star2
+        - guava-trumpeter-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：ランダムなミニオン3体の攻撃力が一時的に+2
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - guava-trumpeter-base-star1
+      - status: observed
+        value:
+          text: 準備完了：ランダムなミニオン3体の攻撃力が一時的に+4
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - guava-trumpeter-base-star2
+      - status: observed
+        value:
+          text: 準備完了：ランダムなミニオン3体の攻撃力が一時的に+8
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - guava-trumpeter-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - guava-trumpeter-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - guava-trumpeter-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃力ボーナスが3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - guava-trumpeter-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - guava-trumpeter-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - guava-trumpeter-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃力ボーナスが5に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - guava-trumpeter-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃力ボーナスが6に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - guava-trumpeter-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃力ボーナスが7に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - guava-trumpeter-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - guava-trumpeter-base-up1
+      - guava-trumpeter-base-up2
+      - guava-trumpeter-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - guava-trumpeter-base-star1
+      - guava-trumpeter-base-star2
+      - guava-trumpeter-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー300
+    sources:
+      - guava-trumpeter-base-star1
+      - guava-trumpeter-base-star2
+      - guava-trumpeter-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: グァバラッパⅠ
+      image: guava-trumpeter-v1
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - guava-trumpeter-v1-star1
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - guava-trumpeter-v1-star1
+          - guava-trumpeter-v1-star2
+          - guava-trumpeter-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - guava-trumpeter-v1-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 4
+              sources:
+                - guava-trumpeter-v1-star1
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - guava-trumpeter-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - guava-trumpeter-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 準備完了：すべてのミニオンの最初の2回の攻撃速度+30%
+              keywords:
+                - ready
+            sources:
+              - guava-trumpeter-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 4
+              sources:
+                - guava-trumpeter-v1-star2
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - guava-trumpeter-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - guava-trumpeter-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 準備完了：すべてのミニオンの最初の2回の攻撃速度+60%
+              keywords:
+                - ready
+            sources:
+              - guava-trumpeter-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 4
+              sources:
+                - guava-trumpeter-v1-star3
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - guava-trumpeter-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - guava-trumpeter-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 準備完了：すべてのミニオンの最初の2回の攻撃速度+120%
+              keywords:
+                - ready
+            sources:
+              - guava-trumpeter-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 4
+          sources:
+            - guava-trumpeter-v1-star1
+            - guava-trumpeter-v1-star2
+            - guava-trumpeter-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 準備完了：すべてのミニオンの最初の2回の攻撃速度+30%
+              keywords:
+                - ready
+            sources:
+              - guava-trumpeter-v1-star1
+          - status: observed
+            value:
+              text: 準備完了：すべてのミニオンの最初の2回の攻撃速度+60%
+              keywords:
+                - ready
+            sources:
+              - guava-trumpeter-v1-star2
+          - status: observed
+            value:
+              text: 準備完了：すべてのミニオンの最初の2回の攻撃速度+120%
+              keywords:
+                - ready
+            sources:
+              - guava-trumpeter-v1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - guava-trumpeter-v1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - guava-trumpeter-v1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 攻撃速度ボーナスが50%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - guava-trumpeter-v1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - guava-trumpeter-v1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - guava-trumpeter-v1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 加速する攻撃回数が3回に増加する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - guava-trumpeter-v1-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 攻撃速度ボーナスが75%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - guava-trumpeter-v1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 攻撃速度ボーナスが100%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - guava-trumpeter-v1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - guava-trumpeter-v1-up1
+          - guava-trumpeter-v1-up2
+          - guava-trumpeter-v1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - guava-trumpeter-v1-star1
+          - guava-trumpeter-v1-star2
+          - guava-trumpeter-v1-star3

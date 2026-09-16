@@ -1066,3 +1066,159 @@ greenkeeper-base-up3:
 greenkeeper-memo:
   kind: user
   description: グリーンキーパーの攻略メモ（評価・使い方・注意点）
+
+cotton-prince-base-star1:
+  kind: screenshot
+  description: コットン王子・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+cotton-prince-base-star2:
+  kind: screenshot
+  description: コットン王子・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+cotton-prince-base-star3:
+  kind: screenshot
+  description: コットン王子・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+cotton-prince-base-up1:
+  kind: screenshot
+  description: コットン王子・現在Lv.7の育成一覧1
+  mode: standard
+cotton-prince-base-up2:
+  kind: screenshot
+  description: コットン王子・現在Lv.7の育成一覧2
+  mode: standard
+cactus-guardian-base-star1:
+  kind: screenshot
+  description: サボテンガーディアン・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+cactus-guardian-base-star2:
+  kind: screenshot
+  description: サボテンガーディアン・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+cactus-guardian-base-star3:
+  kind: screenshot
+  description: サボテンガーディアン・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+cactus-guardian-base-up1:
+  kind: screenshot
+  description: サボテンガーディアン・現在Lv.4の育成一覧1
+  mode: standard
+cactus-guardian-base-up2:
+  kind: screenshot
+  description: サボテンガーディアン・現在Lv.4の育成一覧2
+  mode: standard
+cactus-guardian-base-up3:
+  kind: screenshot
+  description: サボテンガーディアン・現在Lv.4の育成一覧3
+  mode: standard
+cactus-guardian-v1-star1:
+  kind: screenshot
+  description: サボテンガーディアンⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+cactus-guardian-v1-star2:
+  kind: screenshot
+  description: サボテンガーディアンⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+cactus-guardian-v1-star3:
+  kind: screenshot
+  description: サボテンガーディアンⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+cactus-guardian-v1-up1:
+  kind: screenshot
+  description: サボテンガーディアンⅠ・現在Lv.4の育成一覧1
+  mode: standard
+cactus-guardian-v1-up2:
+  kind: screenshot
+  description: サボテンガーディアンⅠ・現在Lv.4の育成一覧2
+  mode: standard
+cactus-guardian-v1-up3:
+  kind: screenshot
+  description: サボテンガーディアンⅠ・現在Lv.4の育成一覧3
+  mode: standard
+guava-trumpeter-base-star1:
+  kind: screenshot
+  description: グァバラッパ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+guava-trumpeter-base-star2:
+  kind: screenshot
+  description: グァバラッパ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+guava-trumpeter-base-star3:
+  kind: screenshot
+  description: グァバラッパ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+guava-trumpeter-base-up1:
+  kind: screenshot
+  description: グァバラッパ・現在Lv.4の育成一覧1
+  mode: standard
+guava-trumpeter-base-up2:
+  kind: screenshot
+  description: グァバラッパ・現在Lv.4の育成一覧2
+  mode: standard
+guava-trumpeter-base-up3:
+  kind: screenshot
+  description: グァバラッパ・現在Lv.4の育成一覧3
+  mode: standard
+guava-trumpeter-v1-star1:
+  kind: screenshot
+  description: グァバラッパⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+guava-trumpeter-v1-star2:
+  kind: screenshot
+  description: グァバラッパⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+guava-trumpeter-v1-star3:
+  kind: screenshot
+  description: グァバラッパⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+guava-trumpeter-v1-up1:
+  kind: screenshot
+  description: グァバラッパⅠ・現在Lv.4の育成一覧1
+  mode: standard
+guava-trumpeter-v1-up2:
+  kind: screenshot
+  description: グァバラッパⅠ・現在Lv.4の育成一覧2
+  mode: standard
+guava-trumpeter-v1-up3:
+  kind: screenshot
+  description: グァバラッパⅠ・現在Lv.4の育成一覧3
+  mode: standard
+cotton-prince-memo:
+  kind: user
+  description: コットン王子の攻略メモ（評価・使い方・注意点）
+cactus-guardian-memo:
+  kind: user
+  description: サボテンガーディアンの攻略メモ（評価・使い方・注意点）
+guava-trumpeter-memo:
+  kind: user
+  description: グァバラッパの攻略メモ（評価・使い方・注意点）

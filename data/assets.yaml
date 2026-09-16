@@ -139,3 +139,28 @@ greenkeeper-icon:
 greenkeeper-portrait:
   path: images/minions/greenkeeper/portrait.webp
   alt: グリーンキーパーの基本形
+
+cotton-prince-portrait:
+  path: images/minions/cotton-prince/portrait.webp
+  alt: コットン王子の基本形
+cactus-guardian-portrait:
+  path: images/minions/cactus-guardian/portrait.webp
+  alt: サボテンガーディアンの基本形
+cactus-guardian-v1:
+  path: images/minions/cactus-guardian/variant-1.webp
+  alt: サボテンガーディアンⅠのバリアントカード
+guava-trumpeter-portrait:
+  path: images/minions/guava-trumpeter/portrait.webp
+  alt: グァバラッパの基本形
+guava-trumpeter-v1:
+  path: images/minions/guava-trumpeter/variant-1.webp
+  alt: グァバラッパⅠのバリアントカード
+cotton-prince-icon:
+  path: images/minions/cotton-prince/icon.webp
+  alt: コットン王子のカードアイコン
+cactus-guardian-icon:
+  path: images/minions/cactus-guardian/icon.webp
+  alt: サボテンガーディアンのカードアイコン
+guava-trumpeter-icon:
+  path: images/minions/guava-trumpeter/icon.webp
+  alt: グァバラッパのカードアイコン

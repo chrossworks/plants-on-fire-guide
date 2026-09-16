@@ -1,0 +1,224 @@
+schemaVersion: 1
+id: cotton-prince
+name: コットン王子
+reading: こっとんおうじ
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - cotton-prince-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - cotton-prince-base-star1
+updated: 2026-09-16
+icon: cotton-prince-icon
+portrait: cotton-prince-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: cotton-prince-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - cotton-prince-base-star1
+      - cotton-prince-base-star2
+      - cotton-prince-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - cotton-prince-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - cotton-prince-base-star1
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - cotton-prince-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - cotton-prince-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：★2未満の場合、★+1。★2以上の場合、★1にダウンする
+          keywords:
+            - ready
+        sources:
+          - cotton-prince-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - cotton-prince-base-star2
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - cotton-prince-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - cotton-prince-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：★2未満の場合、★+1。★2以上の場合、★1にダウンする
+          keywords:
+            - ready
+        sources:
+          - cotton-prince-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - cotton-prince-base-star3
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - cotton-prince-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - cotton-prince-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：★2未満の場合、★+1。★2以上の場合、★1にダウンする
+          keywords:
+            - ready
+        sources:
+          - cotton-prince-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 6
+      sources:
+        - cotton-prince-base-star1
+        - cotton-prince-base-star2
+        - cotton-prince-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：★2未満の場合、★+1。★2以上の場合、★1にダウンする
+          keywords:
+            - ready
+        sources:
+          - cotton-prince-base-star1
+      - status: observed
+        value:
+          text: 準備完了：★2未満の場合、★+1。★2以上の場合、★1にダウンする
+          keywords:
+            - ready
+        sources:
+          - cotton-prince-base-star2
+      - status: observed
+        value:
+          text: 準備完了：★2未満の場合、★+1。★2以上の場合、★1にダウンする
+          keywords:
+            - ready
+        sources:
+          - cotton-prince-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: ★1に星ダウンすると、攻撃力+1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - cotton-prince-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: ★1に星ダウンすると、攻撃力+2
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - cotton-prince-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: ★1に星ダウンしても攻撃力は上昇しないが、星アップ1回分として扱う
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - cotton-prince-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 自身が星アップするたびに、攻撃力+2
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - cotton-prince-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 自身が星アップするたびに、攻撃力+3
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - cotton-prince-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - cotton-prince-base-up1
+      - cotton-prince-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - cotton-prince-base-star1
+      - cotton-prince-base-star2
+      - cotton-prince-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー100
+    sources:
+      - cotton-prince-base-star1
+      - cotton-prince-base-star2
+      - cotton-prince-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - cotton-prince-base-star1
+    - cotton-prince-base-star2
+    - cotton-prince-base-star3
+  items: []
