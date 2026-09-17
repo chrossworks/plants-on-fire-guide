@@ -1,0 +1,531 @@
+schemaVersion: 1
+id: muracabelon
+name: ムラキャベロン
+reading: むらきゃべろん
+rarity:
+  status: observed
+  value: rare
+  sources:
+    - muracabelon-base-star1
+cost:
+  status: observed
+  value: 5
+  sources:
+    - muracabelon-base-star1
+updated: 2026-09-17
+icon: muracabelon-icon
+portrait: muracabelon-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: muracabelon-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 1
+    sources:
+      - muracabelon-base-star1
+      - muracabelon-base-star2
+      - muracabelon-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 1
+    sources:
+      - muracabelon-base-up1
+  conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - muracabelon-base-star1
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - muracabelon-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - muracabelon-base-star1
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+1
+          keywords: []
+        sources:
+          - muracabelon-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - muracabelon-base-star2
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - muracabelon-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - muracabelon-base-star2
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+2
+          keywords: []
+        sources:
+          - muracabelon-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - muracabelon-base-star3
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - muracabelon-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - muracabelon-base-star3
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+4
+          keywords: []
+        sources:
+          - muracabelon-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 5
+      sources:
+        - muracabelon-base-star1
+        - muracabelon-base-star2
+        - muracabelon-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+1
+          keywords: []
+        sources:
+          - muracabelon-base-star1
+      - status: observed
+        value:
+          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+2
+          keywords: []
+        sources:
+          - muracabelon-base-star2
+      - status: observed
+        value:
+          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+4
+          keywords: []
+        sources:
+          - muracabelon-base-star3
+  bonuses:
+    - level: 2
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - muracabelon-base-up1
+    - level: 3
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - muracabelon-base-up1
+    - level: 4
+      effect:
+        status: observed
+        value:
+          text: すべてのミニオンの星アップによる攻撃力ボーナスが1～2に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - muracabelon-base-up1
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - muracabelon-base-up2
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - muracabelon-base-up2
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: すべてのミニオンの星アップによる攻撃力ボーナスが2に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - muracabelon-base-up2
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - muracabelon-base-up3
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - muracabelon-base-up3
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: すべてのミニオンの星アップによる攻撃力ボーナスが3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - muracabelon-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: すべてのミニオンの星アップによる攻撃力ボーナスが3～4に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - muracabelon-base-up4
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: すべてのミニオンの星アップによる攻撃力ボーナスが4に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - muracabelon-base-up4
+  bonusCoverage:
+    status: observed
+    value:
+      from: 2
+      through: 12
+    sources:
+      - muracabelon-base-up1
+      - muracabelon-base-up2
+      - muracabelon-base-up3
+      - muracabelon-base-up4
+  acquisition:
+    status: observed
+    value: グローリーロードで獲得
+    sources:
+      - muracabelon-base-star1
+      - muracabelon-base-star2
+      - muracabelon-base-star3
+  poolUnlock:
+    status: absent
+    reason: 基本形の入手方法欄全体にカードプール解放条件の記載がない。
+    sources:
+      - muracabelon-base-star1
+      - muracabelon-base-star2
+      - muracabelon-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: ムラキャベロンⅠ
+      image: muracabelon-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - muracabelon-v1-star1
+      displayLevel:
+        status: observed
+        value: 1
+        sources:
+          - muracabelon-v1-star1
+          - muracabelon-v1-star2
+          - muracabelon-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 1
+        sources:
+          - muracabelon-v1-up1
+      conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - muracabelon-v1-star1
+            interval:
+              status: observed
+              value: 2.2
+              sources:
+                - muracabelon-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - muracabelon-v1-star1
+          ability:
+            status: observed
+            value:
+              text: オーラ：フィールド上に他の★3ミニオンが1体いるごとに、ムラキャベロンの攻撃力+3
+              keywords:
+                - aura
+            sources:
+              - muracabelon-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - muracabelon-v1-star2
+            interval:
+              status: observed
+              value: 2.2
+              sources:
+                - muracabelon-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - muracabelon-v1-star2
+          ability:
+            status: observed
+            value:
+              text: オーラ：フィールド上に他の★3ミニオンが1体いるごとに、ムラキャベロンの攻撃力+6
+              keywords:
+                - aura
+            sources:
+              - muracabelon-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - muracabelon-v1-star3
+            interval:
+              status: observed
+              value: 2.2
+              sources:
+                - muracabelon-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - muracabelon-v1-star3
+          ability:
+            status: observed
+            value:
+              text: オーラ：フィールド上に他の★3ミニオンが1体いるごとに、ムラキャベロンの攻撃力+12
+              keywords:
+                - aura
+            sources:
+              - muracabelon-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - muracabelon-v1-star1
+            - muracabelon-v1-star2
+            - muracabelon-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: オーラ：フィールド上に他の★3ミニオンが1体いるごとに、ムラキャベロンの攻撃力+3
+              keywords:
+                - aura
+            sources:
+              - muracabelon-v1-star1
+          - status: observed
+            value:
+              text: オーラ：フィールド上に他の★3ミニオンが1体いるごとに、ムラキャベロンの攻撃力+6
+              keywords:
+                - aura
+            sources:
+              - muracabelon-v1-star2
+          - status: observed
+            value:
+              text: オーラ：フィールド上に他の★3ミニオンが1体いるごとに、ムラキャベロンの攻撃力+12
+              keywords:
+                - aura
+            sources:
+              - muracabelon-v1-star3
+      bonuses:
+        - level: 2
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - muracabelon-v1-up1
+        - level: 3
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - muracabelon-v1-up1
+        - level: 4
+          effect:
+            status: observed
+            value:
+              text: ★3ミニオン1体につき、攻撃力ボーナスが5に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - muracabelon-v1-up1
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - muracabelon-v1-up2
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - muracabelon-v1-up2
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: ★3ミニオン1体につき、攻撃力ボーナスが7に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - muracabelon-v1-up2
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - muracabelon-v1-up3
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - muracabelon-v1-up3
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: ★3ミニオン1体につき、攻撃力ボーナスが10に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - muracabelon-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: ★3ミニオン1体につき、攻撃力ボーナスが12に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - muracabelon-v1-up4
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: ★3ミニオン1体につき、攻撃力ボーナスが14に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - muracabelon-v1-up4
+      bonusCoverage:
+        status: observed
+        value:
+          from: 2
+          through: 12
+        sources:
+          - muracabelon-v1-up1
+          - muracabelon-v1-up2
+          - muracabelon-v1-up3
+          - muracabelon-v1-up4
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - muracabelon-v1-star1
+          - muracabelon-v1-star2
+          - muracabelon-v1-star3

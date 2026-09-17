@@ -202,3 +202,40 @@ peanut-page-icon:
 cabbage-baker-icon:
   path: images/minions/cabbage-baker/icon.webp
   alt: キャベツベーカーのカードアイコン
+
+ketchampion-portrait:
+  path: images/minions/ketchampion/portrait.webp
+  alt: ケチャッピオンの基本形
+coco-bank-portrait:
+  path: images/minions/coco-bank/portrait.webp
+  alt: ココバンクの基本形
+seed-worker-portrait:
+  path: images/minions/seed-worker/portrait.webp
+  alt: タネワーカーの基本形
+seed-worker-v1:
+  path: images/minions/seed-worker/variant-1.webp
+  alt: タネワーカーⅠのバリアントカード
+mush-bomb-portrait:
+  path: images/minions/mush-bomb/portrait.webp
+  alt: マッシュボムの基本形
+muracabelon-portrait:
+  path: images/minions/muracabelon/portrait.webp
+  alt: ムラキャベロンの基本形
+muracabelon-v1:
+  path: images/minions/muracabelon/variant-1.webp
+  alt: ムラキャベロンⅠのバリアントカード
+ketchampion-icon:
+  path: images/minions/ketchampion/icon.webp
+  alt: ケチャッピオンのカードアイコン
+coco-bank-icon:
+  path: images/minions/coco-bank/icon.webp
+  alt: ココバンクのカードアイコン
+seed-worker-icon:
+  path: images/minions/seed-worker/icon.webp
+  alt: タネワーカーのカードアイコン
+mush-bomb-icon:
+  path: images/minions/mush-bomb/icon.webp
+  alt: マッシュボムのカードアイコン
+muracabelon-icon:
+  path: images/minions/muracabelon/icon.webp
+  alt: ムラキャベロンのカードアイコン

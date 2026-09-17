@@ -1454,3 +1454,217 @@ cabbage-baker-icon-source:
   description: 通常ミニオン一覧のキャベツベーカー（エピック背景・コスト5）
   mode: standard
   screen: pool-list
+
+coco-bank-base-star1:
+  kind: screenshot
+  description: ココバンク・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+coco-bank-base-star2:
+  kind: screenshot
+  description: ココバンク・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+coco-bank-base-star3:
+  kind: screenshot
+  description: ココバンク・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+coco-bank-base-up1:
+  kind: screenshot
+  description: ココバンク・現在Lv.7の育成一覧1
+  mode: standard
+coco-bank-base-up2:
+  kind: screenshot
+  description: ココバンク・現在Lv.7の育成一覧2
+  mode: standard
+seed-worker-base-star1:
+  kind: screenshot
+  description: タネワーカー・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+seed-worker-base-star2:
+  kind: screenshot
+  description: タネワーカー・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+seed-worker-base-star3:
+  kind: screenshot
+  description: タネワーカー・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+seed-worker-base-up1:
+  kind: screenshot
+  description: タネワーカー・現在Lv.7の育成一覧1
+  mode: standard
+seed-worker-base-up2:
+  kind: screenshot
+  description: タネワーカー・現在Lv.7の育成一覧2
+  mode: standard
+seed-worker-v1-star1:
+  kind: screenshot
+  description: タネワーカーⅠ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+seed-worker-v1-star2:
+  kind: screenshot
+  description: タネワーカーⅠ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+seed-worker-v1-star3:
+  kind: screenshot
+  description: タネワーカーⅠ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+seed-worker-v1-up1:
+  kind: screenshot
+  description: タネワーカーⅠ・現在Lv.7の育成一覧1
+  mode: standard
+seed-worker-v1-up2:
+  kind: screenshot
+  description: タネワーカーⅠ・現在Lv.7の育成一覧2
+  mode: standard
+mush-bomb-base-star1:
+  kind: screenshot
+  description: マッシュボム・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+mush-bomb-base-star2:
+  kind: screenshot
+  description: マッシュボム・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+mush-bomb-base-star3:
+  kind: screenshot
+  description: マッシュボム・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+mush-bomb-base-up1:
+  kind: screenshot
+  description: マッシュボム・現在Lv.7の育成一覧1
+  mode: standard
+mush-bomb-base-up2:
+  kind: screenshot
+  description: マッシュボム・現在Lv.7の育成一覧2
+  mode: standard
+ketchampion-base-star1:
+  kind: screenshot
+  description: ケチャッピオン・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+ketchampion-base-star2:
+  kind: screenshot
+  description: ケチャッピオン・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+ketchampion-base-star3:
+  kind: screenshot
+  description: ケチャッピオン・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+ketchampion-base-up1:
+  kind: screenshot
+  description: ケチャッピオン・現在Lv.7の育成一覧1
+  mode: standard
+ketchampion-base-up2:
+  kind: screenshot
+  description: ケチャッピオン・現在Lv.7の育成一覧2
+  mode: standard
+muracabelon-base-star1:
+  kind: screenshot
+  description: ムラキャベロン・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+muracabelon-base-star2:
+  kind: screenshot
+  description: ムラキャベロン・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+muracabelon-base-star3:
+  kind: screenshot
+  description: ムラキャベロン・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+muracabelon-base-up1:
+  kind: screenshot
+  description: ムラキャベロン・現在Lv.1の育成一覧1
+  mode: standard
+muracabelon-base-up2:
+  kind: screenshot
+  description: ムラキャベロン・現在Lv.1の育成一覧2
+  mode: standard
+muracabelon-base-up3:
+  kind: screenshot
+  description: ムラキャベロン・現在Lv.1の育成一覧3
+  mode: standard
+muracabelon-base-up4:
+  kind: screenshot
+  description: ムラキャベロン・現在Lv.1の育成一覧4
+  mode: standard
+muracabelon-v1-star1:
+  kind: screenshot
+  description: ムラキャベロンⅠ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+muracabelon-v1-star2:
+  kind: screenshot
+  description: ムラキャベロンⅠ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+muracabelon-v1-star3:
+  kind: screenshot
+  description: ムラキャベロンⅠ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+muracabelon-v1-up1:
+  kind: screenshot
+  description: ムラキャベロンⅠ・現在Lv.1の育成一覧1
+  mode: standard
+muracabelon-v1-up2:
+  kind: screenshot
+  description: ムラキャベロンⅠ・現在Lv.1の育成一覧2
+  mode: standard
+muracabelon-v1-up3:
+  kind: screenshot
+  description: ムラキャベロンⅠ・現在Lv.1の育成一覧3
+  mode: standard
+muracabelon-v1-up4:
+  kind: screenshot
+  description: ムラキャベロンⅠ・現在Lv.1の育成一覧4
+  mode: standard
+ketchampion-memo:
+  kind: user
+  description: ケチャッピオンの攻略メモ（評価・使い方・注意点）
+coco-bank-memo:
+  kind: user
+  description: ココバンクの攻略メモ（評価・使い方・注意点）
+seed-worker-memo:
+  kind: user
+  description: タネワーカーの攻略メモ（評価・使い方・注意点）
+mush-bomb-memo:
+  kind: user
+  description: マッシュボムの攻略メモ（評価・使い方・注意点）
+muracabelon-memo:
+  kind: user
+  description: ムラキャベロンの攻略メモ（評価・使い方・注意点）

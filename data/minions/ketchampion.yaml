@@ -1,0 +1,218 @@
+schemaVersion: 1
+id: ketchampion
+name: ケチャッピオン
+reading: けちゃっぴおん
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - ketchampion-base-star1
+cost:
+  status: observed
+  value: 8
+  sources:
+    - ketchampion-base-star1
+updated: 2026-09-17
+icon: ketchampion-icon
+portrait: ketchampion-portrait
+evaluation:
+  rank: SS
+  scope: 基本形の総合評価
+  source: ketchampion-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - ketchampion-base-star1
+      - ketchampion-base-star2
+      - ketchampion-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - ketchampion-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 22
+          sources:
+            - ketchampion-base-star1
+        interval:
+          status: observed
+          value: 2.4
+          sources:
+            - ketchampion-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - ketchampion-base-star1
+      ability:
+        status: observed
+        value:
+          text: いずれかの敵が撃破されると、自身の攻撃力+2
+          keywords: []
+        sources:
+          - ketchampion-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 22
+          sources:
+            - ketchampion-base-star2
+        interval:
+          status: observed
+          value: 2.4
+          sources:
+            - ketchampion-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - ketchampion-base-star2
+      ability:
+        status: observed
+        value:
+          text: いずれかの敵が撃破されると、自身の攻撃力+4
+          keywords: []
+        sources:
+          - ketchampion-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 22
+          sources:
+            - ketchampion-base-star3
+        interval:
+          status: observed
+          value: 2.4
+          sources:
+            - ketchampion-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - ketchampion-base-star3
+      ability:
+        status: observed
+        value:
+          text: いずれかの敵が撃破されると、自身の攻撃力+8
+          keywords: []
+        sources:
+          - ketchampion-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 22
+      sources:
+        - ketchampion-base-star1
+        - ketchampion-base-star2
+        - ketchampion-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: いずれかの敵が撃破されると、自身の攻撃力+2
+          keywords: []
+        sources:
+          - ketchampion-base-star1
+      - status: observed
+        value:
+          text: いずれかの敵が撃破されると、自身の攻撃力+4
+          keywords: []
+        sources:
+          - ketchampion-base-star2
+      - status: observed
+        value:
+          text: いずれかの敵が撃破されると、自身の攻撃力+8
+          keywords: []
+        sources:
+          - ketchampion-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 撃破するたびに攻撃力ボーナスが2～3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - ketchampion-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 撃破するたびに攻撃力ボーナスが3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - ketchampion-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 自身が敵を撃破した場合、攻撃力が追加で+3
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - ketchampion-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 撃破するたびに攻撃力ボーナスが4に上昇し、自身が敵を撃破した場合、攻撃力ボーナスが4に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - ketchampion-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 撃破するたびに攻撃力ボーナスが4に上昇し、自身が敵を撃破した場合、攻撃力ボーナスが5に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - ketchampion-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - ketchampion-base-up1
+      - ketchampion-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - ketchampion-base-star1
+      - ketchampion-base-star2
+      - ketchampion-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー300
+    sources:
+      - ketchampion-base-star1
+      - ketchampion-base-star2
+      - ketchampion-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - ketchampion-base-star1
+    - ketchampion-base-star2
+    - ketchampion-base-star3
+  items: []

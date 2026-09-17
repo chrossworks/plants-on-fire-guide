@@ -1,0 +1,224 @@
+schemaVersion: 1
+id: coco-bank
+name: ココバンク
+reading: ここばんく
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - coco-bank-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - coco-bank-base-star1
+updated: 2026-09-17
+icon: coco-bank-icon
+portrait: coco-bank-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: coco-bank-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - coco-bank-base-star1
+      - coco-bank-base-star2
+      - coco-bank-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - coco-bank-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - coco-bank-base-star1
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - coco-bank-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - coco-bank-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身の売却価格+1
+          keywords:
+            - ready
+        sources:
+          - coco-bank-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - coco-bank-base-star2
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - coco-bank-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - coco-bank-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身の売却価格+2
+          keywords:
+            - ready
+        sources:
+          - coco-bank-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - coco-bank-base-star3
+        interval:
+          status: observed
+          value: 2.2
+          sources:
+            - coco-bank-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - coco-bank-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身の売却価格+4
+          keywords:
+            - ready
+        sources:
+          - coco-bank-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 8
+      sources:
+        - coco-bank-base-star1
+        - coco-bank-base-star2
+        - coco-bank-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：自身の売却価格+1
+          keywords:
+            - ready
+        sources:
+          - coco-bank-base-star1
+      - status: observed
+        value:
+          text: 準備完了：自身の売却価格+2
+          keywords:
+            - ready
+        sources:
+          - coco-bank-base-star2
+      - status: observed
+        value:
+          text: 準備完了：自身の売却価格+4
+          keywords:
+            - ready
+        sources:
+          - coco-bank-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 準備完了：攻撃力+1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coco-bank-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが2に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coco-bank-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 準備完了：★3時の売却価格ボーナスが+5に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coco-bank-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coco-bank-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが4に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coco-bank-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - coco-bank-base-up1
+      - coco-bank-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - coco-bank-base-star1
+      - coco-bank-base-star2
+      - coco-bank-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー1400
+    sources:
+      - coco-bank-base-star1
+      - coco-bank-base-star2
+      - coco-bank-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - coco-bank-base-star1
+    - coco-bank-base-star2
+    - coco-bank-base-star3
+  items: []
