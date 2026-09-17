@@ -1222,3 +1222,235 @@ cactus-guardian-memo:
 guava-trumpeter-memo:
   kind: user
   description: グァバラッパの攻略メモ（評価・使い方・注意点）
+
+ginger-boss-base-star1:
+  kind: screenshot
+  description: ジンジャー親分・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+ginger-boss-base-star2:
+  kind: screenshot
+  description: ジンジャー親分・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+ginger-boss-base-star3:
+  kind: screenshot
+  description: ジンジャー親分・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+ginger-boss-base-up1:
+  kind: screenshot
+  description: ジンジャー親分・現在Lv.4の育成一覧1
+  mode: standard
+ginger-boss-base-up2:
+  kind: screenshot
+  description: ジンジャー親分・現在Lv.4の育成一覧2
+  mode: standard
+ginger-boss-base-up3:
+  kind: screenshot
+  description: ジンジャー親分・現在Lv.4の育成一覧3
+  mode: standard
+spellberry-base-star1:
+  kind: screenshot
+  description: スペルベリー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+spellberry-base-star2:
+  kind: screenshot
+  description: スペルベリー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+spellberry-base-star3:
+  kind: screenshot
+  description: スペルベリー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+spellberry-base-up1:
+  kind: screenshot
+  description: スペルベリー・現在Lv.4の育成一覧1
+  mode: standard
+spellberry-base-up2:
+  kind: screenshot
+  description: スペルベリー・現在Lv.4の育成一覧2
+  mode: standard
+spellberry-base-up3:
+  kind: screenshot
+  description: スペルベリー・現在Lv.4の育成一覧3
+  mode: standard
+spellberry-v1-star1:
+  kind: screenshot
+  description: スペルベリーⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+spellberry-v1-star2:
+  kind: screenshot
+  description: スペルベリーⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+spellberry-v1-star3:
+  kind: screenshot
+  description: スペルベリーⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+spellberry-v1-up1:
+  kind: screenshot
+  description: スペルベリーⅠ・現在Lv.4の育成一覧1
+  mode: standard
+spellberry-v1-up2:
+  kind: screenshot
+  description: スペルベリーⅠ・現在Lv.4の育成一覧2
+  mode: standard
+spellberry-v1-up3:
+  kind: screenshot
+  description: スペルベリーⅠ・現在Lv.4の育成一覧3
+  mode: standard
+onion-bard-base-star1:
+  kind: screenshot
+  description: オニオンバード・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+onion-bard-base-star2:
+  kind: screenshot
+  description: オニオンバード・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+onion-bard-base-star3:
+  kind: screenshot
+  description: オニオンバード・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+onion-bard-base-up1:
+  kind: screenshot
+  description: オニオンバード・現在Lv.4の育成一覧1
+  mode: standard
+onion-bard-base-up2:
+  kind: screenshot
+  description: オニオンバード・現在Lv.4の育成一覧2
+  mode: standard
+onion-bard-base-up3:
+  kind: screenshot
+  description: オニオンバード・現在Lv.4の育成一覧3
+  mode: standard
+cabbage-baker-base-star1:
+  kind: screenshot
+  description: キャベツベーカー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+cabbage-baker-base-star2:
+  kind: screenshot
+  description: キャベツベーカー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+cabbage-baker-base-star3:
+  kind: screenshot
+  description: キャベツベーカー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+cabbage-baker-base-up1:
+  kind: screenshot
+  description: キャベツベーカー・現在Lv.4の育成一覧1
+  mode: standard
+cabbage-baker-base-up2:
+  kind: screenshot
+  description: キャベツベーカー・現在Lv.4の育成一覧2
+  mode: standard
+cabbage-baker-base-up3:
+  kind: screenshot
+  description: キャベツベーカー・現在Lv.4の育成一覧3
+  mode: standard
+peanut-page-base-star1:
+  kind: screenshot
+  description: ピーナッツペイジ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+peanut-page-base-star2:
+  kind: screenshot
+  description: ピーナッツペイジ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+peanut-page-base-star3:
+  kind: screenshot
+  description: ピーナッツペイジ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+peanut-page-base-up1:
+  kind: screenshot
+  description: ピーナッツペイジ・現在Lv.4の育成一覧1
+  mode: standard
+peanut-page-base-up2:
+  kind: screenshot
+  description: ピーナッツペイジ・現在Lv.4の育成一覧2
+  mode: standard
+peanut-page-base-up3:
+  kind: screenshot
+  description: ピーナッツペイジ・現在Lv.4の育成一覧3
+  mode: standard
+peanut-page-v1-star1:
+  kind: screenshot
+  description: ピーナッツペイジⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+peanut-page-v1-star2:
+  kind: screenshot
+  description: ピーナッツペイジⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+peanut-page-v1-star3:
+  kind: screenshot
+  description: ピーナッツペイジⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+peanut-page-v1-up1:
+  kind: screenshot
+  description: ピーナッツペイジⅠ・現在Lv.4の育成一覧1
+  mode: standard
+peanut-page-v1-up2:
+  kind: screenshot
+  description: ピーナッツペイジⅠ・現在Lv.4の育成一覧2
+  mode: standard
+peanut-page-v1-up3:
+  kind: screenshot
+  description: ピーナッツペイジⅠ・現在Lv.4の育成一覧3
+  mode: standard
+ginger-boss-memo:
+  kind: user
+  description: ジンジャー親分の攻略メモ（評価・使い方・注意点）
+spellberry-memo:
+  kind: user
+  description: スペルベリーの攻略メモ（評価・使い方・注意点）
+onion-bard-memo:
+  kind: user
+  description: オニオンバードの攻略メモ（評価・使い方・注意点）
+cabbage-baker-memo:
+  kind: user
+  description: キャベツベーカーの攻略メモ（評価・使い方・注意点）
+peanut-page-memo:
+  kind: user
+  description: ピーナッツペイジの攻略メモ（評価・使い方・注意点）
+
+cabbage-baker-icon-source:
+  kind: screenshot
+  description: 通常ミニオン一覧のキャベツベーカー（エピック背景・コスト5）
+  mode: standard
+  screen: pool-list

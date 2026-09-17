@@ -1,0 +1,469 @@
+schemaVersion: 1
+id: peanut-page
+name: ピーナッツペイジ
+reading: ぴーなっつぺいじ
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - peanut-page-base-star1
+cost:
+  status: observed
+  value: 5
+  sources:
+    - peanut-page-base-star1
+updated: 2026-09-17
+icon: peanut-page-icon
+portrait: peanut-page-portrait
+evaluation:
+  rank: S
+  scope: 基本形の総合評価
+  source: peanut-page-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - peanut-page-base-star1
+      - peanut-page-base-star2
+      - peanut-page-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - peanut-page-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - peanut-page-base-star1
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - peanut-page-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - peanut-page-base-star1
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+1
+          keywords: []
+        sources:
+          - peanut-page-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - peanut-page-base-star2
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - peanut-page-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - peanut-page-base-star2
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+2
+          keywords: []
+        sources:
+          - peanut-page-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - peanut-page-base-star3
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - peanut-page-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - peanut-page-base-star3
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+4
+          keywords: []
+        sources:
+          - peanut-page-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - peanut-page-base-star1
+        - peanut-page-base-star2
+        - peanut-page-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+1
+          keywords: []
+        sources:
+          - peanut-page-base-star1
+      - status: observed
+        value:
+          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+2
+          keywords: []
+        sources:
+          - peanut-page-base-star2
+      - status: observed
+        value:
+          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+4
+          keywords: []
+        sources:
+          - peanut-page-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - peanut-page-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - peanut-page-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが1～2に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - peanut-page-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - peanut-page-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - peanut-page-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが2に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - peanut-page-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが2～3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - peanut-page-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - peanut-page-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - peanut-page-base-up1
+      - peanut-page-base-up2
+      - peanut-page-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - peanut-page-base-star1
+      - peanut-page-base-star2
+      - peanut-page-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー400
+    sources:
+      - peanut-page-base-star1
+      - peanut-page-base-star2
+      - peanut-page-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: ピーナッツペイジⅠ
+      image: peanut-page-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - peanut-page-v1-star1
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - peanut-page-v1-star1
+          - peanut-page-v1-star2
+          - peanut-page-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - peanut-page-v1-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - peanut-page-v1-star1
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - peanut-page-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - peanut-page-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 準備完了：最も攻撃力が高い他のミニオン1体の攻撃力+2
+              keywords:
+                - ready
+            sources:
+              - peanut-page-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - peanut-page-v1-star2
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - peanut-page-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - peanut-page-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 準備完了：最も攻撃力が高い他のミニオン1体の攻撃力+4
+              keywords:
+                - ready
+            sources:
+              - peanut-page-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - peanut-page-v1-star3
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - peanut-page-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - peanut-page-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 準備完了：最も攻撃力が高い他のミニオン1体の攻撃力+8
+              keywords:
+                - ready
+            sources:
+              - peanut-page-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - peanut-page-v1-star1
+            - peanut-page-v1-star2
+            - peanut-page-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 準備完了：最も攻撃力が高い他のミニオン1体の攻撃力+2
+              keywords:
+                - ready
+            sources:
+              - peanut-page-v1-star1
+          - status: observed
+            value:
+              text: 準備完了：最も攻撃力が高い他のミニオン1体の攻撃力+4
+              keywords:
+                - ready
+            sources:
+              - peanut-page-v1-star2
+          - status: observed
+            value:
+              text: 準備完了：最も攻撃力が高い他のミニオン1体の攻撃力+8
+              keywords:
+                - ready
+            sources:
+              - peanut-page-v1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - peanut-page-v1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - peanut-page-v1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが3に上昇する
+              operation: ability_set
+              value: 3
+              unit: points
+            sources:
+              - peanut-page-v1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - peanut-page-v1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - peanut-page-v1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが5に上昇する
+              operation: ability_set
+              value: 5
+              unit: points
+            sources:
+              - peanut-page-v1-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが6に上昇する
+              operation: ability_set
+              value: 6
+              unit: points
+            sources:
+              - peanut-page-v1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが7に上昇する
+              operation: ability_set
+              value: 7
+              unit: points
+            sources:
+              - peanut-page-v1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - peanut-page-v1-up1
+          - peanut-page-v1-up2
+          - peanut-page-v1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - peanut-page-v1-star1
+          - peanut-page-v1-star2
+          - peanut-page-v1-star3

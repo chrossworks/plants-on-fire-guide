@@ -164,3 +164,41 @@ cactus-guardian-icon:
 guava-trumpeter-icon:
   path: images/minions/guava-trumpeter/icon.webp
   alt: グァバラッパのカードアイコン
+
+ginger-boss-portrait:
+  path: images/minions/ginger-boss/portrait.webp
+  alt: ジンジャー親分の基本形
+spellberry-portrait:
+  path: images/minions/spellberry/portrait.webp
+  alt: スペルベリーの基本形
+spellberry-v1:
+  path: images/minions/spellberry/variant-1.webp
+  alt: スペルベリーⅠのバリアントカード
+onion-bard-portrait:
+  path: images/minions/onion-bard/portrait.webp
+  alt: オニオンバードの基本形
+cabbage-baker-portrait:
+  path: images/minions/cabbage-baker/portrait.webp
+  alt: キャベツベーカーの基本形
+peanut-page-portrait:
+  path: images/minions/peanut-page/portrait.webp
+  alt: ピーナッツペイジの基本形
+peanut-page-v1:
+  path: images/minions/peanut-page/variant-1.webp
+  alt: ピーナッツペイジⅠのバリアントカード
+ginger-boss-icon:
+  path: images/minions/ginger-boss/icon.webp
+  alt: ジンジャー親分のカードアイコン
+spellberry-icon:
+  path: images/minions/spellberry/icon.webp
+  alt: スペルベリーのカードアイコン
+onion-bard-icon:
+  path: images/minions/onion-bard/icon.webp
+  alt: オニオンバードのカードアイコン
+peanut-page-icon:
+  path: images/minions/peanut-page/icon.webp
+  alt: ピーナッツペイジのカードアイコン
+
+cabbage-baker-icon:
+  path: images/minions/cabbage-baker/icon.webp
+  alt: キャベツベーカーのカードアイコン

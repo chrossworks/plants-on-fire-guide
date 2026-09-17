@@ -1,0 +1,255 @@
+schemaVersion: 1
+id: ginger-boss
+name: ジンジャー親分
+reading: じんじゃーおやぶん
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - ginger-boss-base-star1
+cost:
+  status: observed
+  value: 5
+  sources:
+    - ginger-boss-base-star1
+updated: 2026-09-17
+icon: ginger-boss-icon
+portrait: ginger-boss-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: ginger-boss-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - ginger-boss-base-star1
+      - ginger-boss-base-star2
+      - ginger-boss-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - ginger-boss-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - ginger-boss-base-star1
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - ginger-boss-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - ginger-boss-base-star1
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+1
+          keywords:
+            - temporary
+        sources:
+          - ginger-boss-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - ginger-boss-base-star2
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - ginger-boss-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - ginger-boss-base-star2
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+2
+          keywords:
+            - temporary
+        sources:
+          - ginger-boss-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - ginger-boss-base-star3
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - ginger-boss-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - ginger-boss-base-star3
+      ability:
+        status: observed
+        value:
+          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+4
+          keywords:
+            - temporary
+        sources:
+          - ginger-boss-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 6
+      sources:
+        - ginger-boss-base-star1
+        - ginger-boss-base-star2
+        - ginger-boss-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+1
+          keywords:
+            - temporary
+        sources:
+          - ginger-boss-base-star1
+      - status: observed
+        value:
+          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+2
+          keywords:
+            - temporary
+        sources:
+          - ginger-boss-base-star2
+      - status: observed
+        value:
+          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+4
+          keywords:
+            - temporary
+        sources:
+          - ginger-boss-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - ginger-boss-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - ginger-boss-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃力ボーナスが1～2に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - ginger-boss-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - ginger-boss-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - ginger-boss-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 対象のミニオン数が4体に増加し、一時攻撃力ボーナスが2に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - ginger-boss-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃力ボーナスが2～3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - ginger-boss-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃力ボーナスが3に上昇する
+          operation: ability_set
+          value: 3
+          unit: points
+        sources:
+          - ginger-boss-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - ginger-boss-base-up1
+      - ginger-boss-base-up2
+      - ginger-boss-base-up3
+  acquisition:
+    status: observed
+    value: アドベンチャーモード3-2クリアで獲得
+    sources:
+      - ginger-boss-base-star1
+      - ginger-boss-base-star2
+      - ginger-boss-base-star3
+  poolUnlock:
+    status: absent
+    reason: 基本形の入手方法欄全体にカードプール解放条件の記載がない。
+    sources:
+      - ginger-boss-base-star1
+      - ginger-boss-base-star2
+      - ginger-boss-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - ginger-boss-base-star1
+    - ginger-boss-base-star2
+    - ginger-boss-base-star3
+  items: []
