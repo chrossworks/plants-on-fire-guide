@@ -282,3 +282,43 @@ lady-tulip-icon:
 black-rose-knight-icon:
   path: images/minions/black-rose-knight/icon.webp
   alt: ブラックローズナイトのカードアイコン（撮影時のLv表示を含む）
+
+sunflower-manager-portrait:
+  path: images/minions/sunflower-manager/portrait.webp
+  alt: ヒマワリ店長の基本形
+carrot-bomber-portrait:
+  path: images/minions/carrot-bomber/portrait.webp
+  alt: ニンジンボンバーの基本形
+carrot-bomber-v1:
+  path: images/minions/carrot-bomber/variant-1.webp
+  alt: ニンジンボンバーⅠのバリアントカード
+white-rose-knight-portrait:
+  path: images/minions/white-rose-knight/portrait.webp
+  alt: ホワイトローズナイトの基本形
+white-rose-knight-v1:
+  path: images/minions/white-rose-knight/variant-1.webp
+  alt: ホワイトローズナイトⅠのバリアントカード
+white-rose-knight-v2:
+  path: images/minions/white-rose-knight/variant-2.webp
+  alt: ホワイトローズナイトⅡのバリアントカード
+gold-eater-portrait:
+  path: images/minions/gold-eater/portrait.webp
+  alt: ゴールドイーターの基本形
+valkyris-portrait:
+  path: images/minions/valkyris/portrait.webp
+  alt: ヴァルキリスの基本形
+sunflower-manager-icon:
+  path: images/minions/sunflower-manager/icon.webp
+  alt: ヒマワリ店長のカードアイコン（撮影時のLv表示を含む）
+carrot-bomber-icon:
+  path: images/minions/carrot-bomber/icon.webp
+  alt: ニンジンボンバーのカードアイコン（撮影時のLv表示を含む）
+white-rose-knight-icon:
+  path: images/minions/white-rose-knight/icon.webp
+  alt: ホワイトローズナイトのカードアイコン（撮影時のLv表示を含む）
+gold-eater-icon:
+  path: images/minions/gold-eater/icon.webp
+  alt: ゴールドイーターのカードアイコン（撮影時のLv表示を含む）
+valkyris-icon:
+  path: images/minions/valkyris/icon.webp
+  alt: ヴァルキリスのカードアイコン（撮影時のLv表示を含む）

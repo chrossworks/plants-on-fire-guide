@@ -1,0 +1,537 @@
+schemaVersion: 1
+id: carrot-bomber
+name: ニンジンボンバー
+reading: にんじんぼんばー
+rarity:
+  status: observed
+  value: rare
+  sources:
+    - carrot-bomber-base-star1
+cost:
+  status: observed
+  value: 5
+  sources:
+    - carrot-bomber-base-star1
+updated: 2026-09-18
+icon: carrot-bomber-icon
+portrait: carrot-bomber-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: carrot-bomber-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 1
+    sources:
+      - carrot-bomber-base-star1
+      - carrot-bomber-base-star2
+      - carrot-bomber-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 1
+    sources:
+      - carrot-bomber-base-up1
+  conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - carrot-bomber-base-star1
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - carrot-bomber-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - carrot-bomber-base-star1
+      ability:
+        status: observed
+        value:
+          text: 配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力100%分の起爆ニンジンを1個設置する。敵が触れると爆発して広範囲ダメージを与える
+          keywords:
+            - placement
+        sources:
+          - carrot-bomber-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - carrot-bomber-base-star2
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - carrot-bomber-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - carrot-bomber-base-star2
+      ability:
+        status: observed
+        value:
+          text: 配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力110%分の起爆ニンジンを1個設置する。敵が触れると爆発して広範囲ダメージを与える
+          keywords:
+            - placement
+        sources:
+          - carrot-bomber-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - carrot-bomber-base-star3
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - carrot-bomber-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - carrot-bomber-base-star3
+      ability:
+        status: observed
+        value:
+          text: 配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力120%分の起爆ニンジンを1個設置する。敵が触れると爆発して広範囲ダメージを与える
+          keywords:
+            - placement
+        sources:
+          - carrot-bomber-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 6
+      sources:
+        - carrot-bomber-base-star1
+        - carrot-bomber-base-star2
+        - carrot-bomber-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力100%分の起爆ニンジンを1個設置する。敵が触れると爆発して広範囲ダメージを与える
+          keywords:
+            - placement
+        sources:
+          - carrot-bomber-base-star1
+      - status: observed
+        value:
+          text: 配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力110%分の起爆ニンジンを1個設置する。敵が触れると爆発して広範囲ダメージを与える
+          keywords:
+            - placement
+        sources:
+          - carrot-bomber-base-star2
+      - status: observed
+        value:
+          text: 配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力120%分の起爆ニンジンを1個設置する。敵が触れると爆発して広範囲ダメージを与える
+          keywords:
+            - placement
+        sources:
+          - carrot-bomber-base-star3
+  bonuses:
+    - level: 2
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - carrot-bomber-base-up1
+    - level: 3
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - carrot-bomber-base-up1
+    - level: 4
+      effect:
+        status: observed
+        value:
+          text: 起爆ニンジンのダメージが115%に上昇する
+          operation: ability_set
+          value: 115
+          unit: percent
+        sources:
+          - carrot-bomber-base-up1
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - carrot-bomber-base-up2
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - carrot-bomber-base-up2
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 起爆ニンジンのダメージが130%に上昇する
+          operation: ability_set
+          value: 130
+          unit: percent
+        sources:
+          - carrot-bomber-base-up2
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - carrot-bomber-base-up3
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - carrot-bomber-base-up3
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 起爆ニンジンのダメージが160%に上昇する
+          operation: ability_set
+          value: 160
+          unit: percent
+        sources:
+          - carrot-bomber-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 起爆ニンジンのダメージが180%に上昇する
+          operation: ability_set
+          value: 180
+          unit: percent
+        sources:
+          - carrot-bomber-base-up4
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 起爆ニンジンのダメージが200%に上昇する
+          operation: ability_set
+          value: 200
+          unit: percent
+        sources:
+          - carrot-bomber-base-up4
+  bonusCoverage:
+    status: observed
+    value:
+      from: 2
+      through: 12
+    sources:
+      - carrot-bomber-base-up1
+      - carrot-bomber-base-up2
+      - carrot-bomber-base-up3
+      - carrot-bomber-base-up4
+  acquisition:
+    status: observed
+    value: デフォルトで獲得する。
+    sources:
+      - carrot-bomber-base-star1
+      - carrot-bomber-base-star2
+      - carrot-bomber-base-star3
+  poolUnlock:
+    status: absent
+    reason: 基本形の入手方法欄全体にカードプール解放条件の記載がない。
+    sources:
+      - carrot-bomber-base-star1
+      - carrot-bomber-base-star2
+      - carrot-bomber-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: ニンジンボンバーⅠ
+      image: carrot-bomber-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - carrot-bomber-v1-star1
+      displayLevel:
+        status: observed
+        value: 1
+        sources:
+          - carrot-bomber-v1-star1
+          - carrot-bomber-v1-star2
+          - carrot-bomber-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 1
+        sources:
+          - carrot-bomber-v1-up1
+      conditions: 通常詳細Lv.1の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 6
+              sources:
+                - carrot-bomber-v1-star1
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - carrot-bomber-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - carrot-bomber-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 準備完了：フィールド上に自身の攻撃力100%分の起爆ニンジンを2個設置する。敵が触れると爆発して広範囲ダメージを与え、60%の減速効果を2秒間付与する
+              keywords:
+                - ready
+            sources:
+              - carrot-bomber-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 6
+              sources:
+                - carrot-bomber-v1-star2
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - carrot-bomber-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - carrot-bomber-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 準備完了：フィールド上に自身の攻撃力110%分の起爆ニンジンを2個設置する。敵が触れると爆発して広範囲ダメージを与え、60%の減速効果を2秒間付与する
+              keywords:
+                - ready
+            sources:
+              - carrot-bomber-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 6
+              sources:
+                - carrot-bomber-v1-star3
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - carrot-bomber-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - carrot-bomber-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 準備完了：フィールド上に自身の攻撃力120%分の起爆ニンジンを2個設置する。敵が触れると爆発して広範囲ダメージを与え、60%の減速効果を2秒間付与する
+              keywords:
+                - ready
+            sources:
+              - carrot-bomber-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - carrot-bomber-v1-star1
+            - carrot-bomber-v1-star2
+            - carrot-bomber-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 準備完了：フィールド上に自身の攻撃力100%分の起爆ニンジンを2個設置する。敵が触れると爆発して広範囲ダメージを与え、60%の減速効果を2秒間付与する
+              keywords:
+                - ready
+            sources:
+              - carrot-bomber-v1-star1
+          - status: observed
+            value:
+              text: 準備完了：フィールド上に自身の攻撃力110%分の起爆ニンジンを2個設置する。敵が触れると爆発して広範囲ダメージを与え、60%の減速効果を2秒間付与する
+              keywords:
+                - ready
+            sources:
+              - carrot-bomber-v1-star2
+          - status: observed
+            value:
+              text: 準備完了：フィールド上に自身の攻撃力120%分の起爆ニンジンを2個設置する。敵が触れると爆発して広範囲ダメージを与え、60%の減速効果を2秒間付与する
+              keywords:
+                - ready
+            sources:
+              - carrot-bomber-v1-star3
+      bonuses:
+        - level: 2
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - carrot-bomber-v1-up1
+        - level: 3
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - carrot-bomber-v1-up1
+        - level: 4
+          effect:
+            status: observed
+            value:
+              text: 起爆ニンジンのダメージが115%に上昇し、減速効果が70%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - carrot-bomber-v1-up1
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - carrot-bomber-v1-up2
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - carrot-bomber-v1-up2
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 起爆ニンジンのダメージが130%に上昇し、減速効果が80%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - carrot-bomber-v1-up2
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - carrot-bomber-v1-up3
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - carrot-bomber-v1-up3
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 起爆ニンジンのダメージが160%に上昇し、減速効果が90%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - carrot-bomber-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 起爆ニンジンのダメージが180%に上昇し、減速効果が95%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - carrot-bomber-v1-up4
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 起爆ニンジンのダメージが200%に上昇し、減速効果が100%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - carrot-bomber-v1-up4
+      bonusCoverage:
+        status: observed
+        value:
+          from: 2
+          through: 12
+        sources:
+          - carrot-bomber-v1-up1
+          - carrot-bomber-v1-up2
+          - carrot-bomber-v1-up3
+          - carrot-bomber-v1-up4
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - carrot-bomber-v1-star1
+          - carrot-bomber-v1-star2
+          - carrot-bomber-v1-star3

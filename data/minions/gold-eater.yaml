@@ -1,0 +1,222 @@
+schemaVersion: 1
+id: gold-eater
+name: ゴールドイーター
+reading: ごーるどいーたー
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - gold-eater-base-star1
+cost:
+  status: observed
+  value: 8
+  sources:
+    - gold-eater-base-star1
+updated: 2026-09-18
+icon: gold-eater-icon
+portrait: gold-eater-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: gold-eater-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - gold-eater-base-star1
+      - gold-eater-base-star2
+      - gold-eater-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - gold-eater-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 22
+          sources:
+            - gold-eater-base-star1
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - gold-eater-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - gold-eater-base-star1
+      ability:
+        status: observed
+        value:
+          text: サンコイン1個につき、ショップ内のゴールドイーターの攻撃力+4。購入価格は現在のサンコイン数と同じ（最低1）
+          keywords: []
+        sources:
+          - gold-eater-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 22
+          sources:
+            - gold-eater-base-star2
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - gold-eater-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - gold-eater-base-star2
+      ability:
+        status: observed
+        value:
+          text: サンコイン1個につき、ショップ内のゴールドイーターの攻撃力+4。購入価格は現在のサンコイン数と同じ（最低1）
+          keywords: []
+        sources:
+          - gold-eater-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 22
+          sources:
+            - gold-eater-base-star3
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - gold-eater-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - gold-eater-base-star3
+      ability:
+        status: observed
+        value:
+          text: サンコイン1個につき、ショップ内のゴールドイーターの攻撃力+4。購入価格は現在のサンコイン数と同じ（最低1）
+          keywords: []
+        sources:
+          - gold-eater-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 22
+      sources:
+        - gold-eater-base-star1
+        - gold-eater-base-star2
+        - gold-eater-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: サンコイン1個につき、ショップ内のゴールドイーターの攻撃力+4。購入価格は現在のサンコイン数と同じ（最低1）
+          keywords: []
+        sources:
+          - gold-eater-base-star1
+      - status: observed
+        value:
+          text: サンコイン1個につき、ショップ内のゴールドイーターの攻撃力+4。購入価格は現在のサンコイン数と同じ（最低1）
+          keywords: []
+        sources:
+          - gold-eater-base-star2
+      - status: observed
+        value:
+          text: サンコイン1個につき、ショップ内のゴールドイーターの攻撃力+4。購入価格は現在のサンコイン数と同じ（最低1）
+          keywords: []
+        sources:
+          - gold-eater-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: サンコイン数に応じて変換される攻撃力が5に上昇する
+          operation: ability_set
+          value: 5
+          unit: points
+        sources:
+          - gold-eater-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: サンコイン数に応じて変換される攻撃力が6に上昇する
+          operation: ability_set
+          value: 6
+          unit: points
+        sources:
+          - gold-eater-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 1ラウンド経過後、購入価格の90%で売却できる
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - gold-eater-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: |-
+            サンコイン数に応じて変換される攻撃力が7に上昇する
+            1ラウンド経過後、購入価格の100%で売却できる
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - gold-eater-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: |-
+            サンコイン数に応じて変換される攻撃力が8に上昇する
+            1ラウンド経過後、購入価格の107%で売却できる
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - gold-eater-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - gold-eater-base-up1
+      - gold-eater-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - gold-eater-base-star1
+      - gold-eater-base-star2
+      - gold-eater-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー200
+    sources:
+      - gold-eater-base-star1
+      - gold-eater-base-star2
+      - gold-eater-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - gold-eater-base-star1
+    - gold-eater-base-star2
+    - gold-eater-base-star3
+  items: []

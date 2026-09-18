@@ -1950,3 +1950,275 @@ lady-tulip-memo:
 black-rose-knight-memo:
   kind: user
   description: ブラックローズナイトの攻略メモ（評価・使い方・注意点）
+
+sunflower-manager-base-star1:
+  kind: screenshot
+  description: ヒマワリ店長・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+sunflower-manager-base-star2:
+  kind: screenshot
+  description: ヒマワリ店長・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+sunflower-manager-base-star3:
+  kind: screenshot
+  description: ヒマワリ店長・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+sunflower-manager-base-up1:
+  kind: screenshot
+  description: ヒマワリ店長・現在Lv.1の育成一覧1
+  mode: standard
+sunflower-manager-base-up2:
+  kind: screenshot
+  description: ヒマワリ店長・現在Lv.1の育成一覧2
+  mode: standard
+sunflower-manager-base-up3:
+  kind: screenshot
+  description: ヒマワリ店長・現在Lv.1の育成一覧3
+  mode: standard
+sunflower-manager-base-up4:
+  kind: screenshot
+  description: ヒマワリ店長・現在Lv.1の育成一覧4
+  mode: standard
+carrot-bomber-base-star1:
+  kind: screenshot
+  description: ニンジンボンバー・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+carrot-bomber-base-star2:
+  kind: screenshot
+  description: ニンジンボンバー・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+carrot-bomber-base-star3:
+  kind: screenshot
+  description: ニンジンボンバー・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+carrot-bomber-base-up1:
+  kind: screenshot
+  description: ニンジンボンバー・現在Lv.1の育成一覧1
+  mode: standard
+carrot-bomber-base-up2:
+  kind: screenshot
+  description: ニンジンボンバー・現在Lv.1の育成一覧2
+  mode: standard
+carrot-bomber-base-up3:
+  kind: screenshot
+  description: ニンジンボンバー・現在Lv.1の育成一覧3
+  mode: standard
+carrot-bomber-base-up4:
+  kind: screenshot
+  description: ニンジンボンバー・現在Lv.1の育成一覧4
+  mode: standard
+carrot-bomber-v1-star1:
+  kind: screenshot
+  description: ニンジンボンバーⅠ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+carrot-bomber-v1-star2:
+  kind: screenshot
+  description: ニンジンボンバーⅠ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+carrot-bomber-v1-star3:
+  kind: screenshot
+  description: ニンジンボンバーⅠ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+carrot-bomber-v1-up1:
+  kind: screenshot
+  description: ニンジンボンバーⅠ・現在Lv.1の育成一覧1
+  mode: standard
+carrot-bomber-v1-up2:
+  kind: screenshot
+  description: ニンジンボンバーⅠ・現在Lv.1の育成一覧2
+  mode: standard
+carrot-bomber-v1-up3:
+  kind: screenshot
+  description: ニンジンボンバーⅠ・現在Lv.1の育成一覧3
+  mode: standard
+carrot-bomber-v1-up4:
+  kind: screenshot
+  description: ニンジンボンバーⅠ・現在Lv.1の育成一覧4
+  mode: standard
+white-rose-knight-base-star1:
+  kind: screenshot
+  description: ホワイトローズナイト・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-base-star2:
+  kind: screenshot
+  description: ホワイトローズナイト・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-base-star3:
+  kind: screenshot
+  description: ホワイトローズナイト・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-base-up1:
+  kind: screenshot
+  description: ホワイトローズナイト・現在Lv.1の育成一覧1
+  mode: standard
+white-rose-knight-base-up2:
+  kind: screenshot
+  description: ホワイトローズナイト・現在Lv.1の育成一覧2
+  mode: standard
+white-rose-knight-base-up3:
+  kind: screenshot
+  description: ホワイトローズナイト・現在Lv.1の育成一覧3
+  mode: standard
+white-rose-knight-base-up4:
+  kind: screenshot
+  description: ホワイトローズナイト・現在Lv.1の育成一覧4
+  mode: standard
+white-rose-knight-v1-star1:
+  kind: screenshot
+  description: ホワイトローズナイトⅠ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-v1-star2:
+  kind: screenshot
+  description: ホワイトローズナイトⅠ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-v1-star3:
+  kind: screenshot
+  description: ホワイトローズナイトⅠ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-v1-up1:
+  kind: screenshot
+  description: ホワイトローズナイトⅠ・現在Lv.1の育成一覧1
+  mode: standard
+white-rose-knight-v1-up2:
+  kind: screenshot
+  description: ホワイトローズナイトⅠ・現在Lv.1の育成一覧2
+  mode: standard
+white-rose-knight-v1-up3:
+  kind: screenshot
+  description: ホワイトローズナイトⅠ・現在Lv.1の育成一覧3
+  mode: standard
+white-rose-knight-v1-up4:
+  kind: screenshot
+  description: ホワイトローズナイトⅠ・現在Lv.1の育成一覧4
+  mode: standard
+white-rose-knight-v2-star1:
+  kind: screenshot
+  description: ホワイトローズナイトⅡ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-v2-star2:
+  kind: screenshot
+  description: ホワイトローズナイトⅡ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-v2-star3:
+  kind: screenshot
+  description: ホワイトローズナイトⅡ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+white-rose-knight-v2-up1:
+  kind: screenshot
+  description: ホワイトローズナイトⅡ・現在Lv.1の育成一覧1
+  mode: standard
+white-rose-knight-v2-up2:
+  kind: screenshot
+  description: ホワイトローズナイトⅡ・現在Lv.1の育成一覧2
+  mode: standard
+white-rose-knight-v2-up3:
+  kind: screenshot
+  description: ホワイトローズナイトⅡ・現在Lv.1の育成一覧3
+  mode: standard
+white-rose-knight-v2-up4:
+  kind: screenshot
+  description: ホワイトローズナイトⅡ・現在Lv.1の育成一覧4
+  mode: standard
+gold-eater-base-star1:
+  kind: screenshot
+  description: ゴールドイーター・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+gold-eater-base-star2:
+  kind: screenshot
+  description: ゴールドイーター・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+gold-eater-base-star3:
+  kind: screenshot
+  description: ゴールドイーター・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+gold-eater-base-up1:
+  kind: screenshot
+  description: ゴールドイーター・現在Lv.7の育成一覧1
+  mode: standard
+gold-eater-base-up2:
+  kind: screenshot
+  description: ゴールドイーター・現在Lv.7の育成一覧2
+  mode: standard
+valkyris-base-star1:
+  kind: screenshot
+  description: ヴァルキリス・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+valkyris-base-star2:
+  kind: screenshot
+  description: ヴァルキリス・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+valkyris-base-star3:
+  kind: screenshot
+  description: ヴァルキリス・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+valkyris-base-up1:
+  kind: screenshot
+  description: ヴァルキリス・現在Lv.7の育成一覧1
+  mode: standard
+valkyris-base-up2:
+  kind: screenshot
+  description: ヴァルキリス・現在Lv.7の育成一覧2
+  mode: standard
+sunflower-manager-memo:
+  kind: user
+  description: ヒマワリ店長の攻略メモ（評価・使い方・注意点）
+carrot-bomber-memo:
+  kind: user
+  description: ニンジンボンバーの攻略メモ（評価・使い方・注意点）
+white-rose-knight-memo:
+  kind: user
+  description: ホワイトローズナイトの攻略メモ（評価・使い方・注意点）
+gold-eater-memo:
+  kind: user
+  description: ゴールドイーターの攻略メモ（評価・使い方・注意点）
+valkyris-memo:
+  kind: user
+  description: ヴァルキリスの攻略メモ（評価・使い方・注意点）
