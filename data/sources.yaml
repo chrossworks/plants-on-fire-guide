@@ -1668,3 +1668,285 @@ mush-bomb-memo:
 muracabelon-memo:
   kind: user
   description: ムラキャベロンの攻略メモ（評価・使い方・注意点）
+
+hanakinoko-apothecary-base-star1:
+  kind: screenshot
+  description: ハナキノコ薬師・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+hanakinoko-apothecary-base-star2:
+  kind: screenshot
+  description: ハナキノコ薬師・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+hanakinoko-apothecary-base-star3:
+  kind: screenshot
+  description: ハナキノコ薬師・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+hanakinoko-apothecary-base-up1:
+  kind: screenshot
+  description: ハナキノコ薬師・現在Lv.4の育成一覧1
+  mode: standard
+hanakinoko-apothecary-base-up2:
+  kind: screenshot
+  description: ハナキノコ薬師・現在Lv.4の育成一覧2
+  mode: standard
+hanakinoko-apothecary-base-up3:
+  kind: screenshot
+  description: ハナキノコ薬師・現在Lv.4の育成一覧3
+  mode: standard
+hanakinoko-apothecary-v1-star1:
+  kind: screenshot
+  description: ハナキノコ薬師Ⅰ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+hanakinoko-apothecary-v1-star2:
+  kind: screenshot
+  description: ハナキノコ薬師Ⅰ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+hanakinoko-apothecary-v1-star3:
+  kind: screenshot
+  description: ハナキノコ薬師Ⅰ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+hanakinoko-apothecary-v1-up1:
+  kind: screenshot
+  description: ハナキノコ薬師Ⅰ・現在Lv.4の育成一覧1
+  mode: standard
+hanakinoko-apothecary-v1-up2:
+  kind: screenshot
+  description: ハナキノコ薬師Ⅰ・現在Lv.4の育成一覧2
+  mode: standard
+hanakinoko-apothecary-v1-up3:
+  kind: screenshot
+  description: ハナキノコ薬師Ⅰ・現在Lv.4の育成一覧3
+  mode: standard
+lady-tulip-base-star1:
+  kind: screenshot
+  description: レディ・チューリップ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+lady-tulip-base-star2:
+  kind: screenshot
+  description: レディ・チューリップ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+lady-tulip-base-star3:
+  kind: screenshot
+  description: レディ・チューリップ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+lady-tulip-base-up1:
+  kind: screenshot
+  description: レディ・チューリップ・現在Lv.4の育成一覧1
+  mode: standard
+lady-tulip-base-up2:
+  kind: screenshot
+  description: レディ・チューリップ・現在Lv.4の育成一覧2
+  mode: standard
+lady-tulip-base-up3:
+  kind: screenshot
+  description: レディ・チューリップ・現在Lv.4の育成一覧3
+  mode: standard
+lady-tulip-v1-star1:
+  kind: screenshot
+  description: レディ・チューリップⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+lady-tulip-v1-star2:
+  kind: screenshot
+  description: レディ・チューリップⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+lady-tulip-v1-star3:
+  kind: screenshot
+  description: レディ・チューリップⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+lady-tulip-v1-up1:
+  kind: screenshot
+  description: レディ・チューリップⅠ・現在Lv.4の育成一覧1
+  mode: standard
+lady-tulip-v1-up2:
+  kind: screenshot
+  description: レディ・チューリップⅠ・現在Lv.4の育成一覧2
+  mode: standard
+lady-tulip-v1-up3:
+  kind: screenshot
+  description: レディ・チューリップⅠ・現在Lv.4の育成一覧3
+  mode: standard
+suzuran-mage-base-star1:
+  kind: screenshot
+  description: スズラン魔導士・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+suzuran-mage-base-star2:
+  kind: screenshot
+  description: スズラン魔導士・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+suzuran-mage-base-star3:
+  kind: screenshot
+  description: スズラン魔導士・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+suzuran-mage-base-up1:
+  kind: screenshot
+  description: スズラン魔導士・現在Lv.4の育成一覧1
+  mode: standard
+suzuran-mage-base-up2:
+  kind: screenshot
+  description: スズラン魔導士・現在Lv.4の育成一覧2
+  mode: standard
+suzuran-mage-base-up3:
+  kind: screenshot
+  description: スズラン魔導士・現在Lv.4の育成一覧3
+  mode: standard
+suzuran-mage-v1-star1:
+  kind: screenshot
+  description: スズラン魔導士Ⅰ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+suzuran-mage-v1-star2:
+  kind: screenshot
+  description: スズラン魔導士Ⅰ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+suzuran-mage-v1-star3:
+  kind: screenshot
+  description: スズラン魔導士Ⅰ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+suzuran-mage-v1-up1:
+  kind: screenshot
+  description: スズラン魔導士Ⅰ・現在Lv.4の育成一覧1
+  mode: standard
+suzuran-mage-v1-up2:
+  kind: screenshot
+  description: スズラン魔導士Ⅰ・現在Lv.4の育成一覧2
+  mode: standard
+suzuran-mage-v1-up3:
+  kind: screenshot
+  description: スズラン魔導士Ⅰ・現在Lv.4の育成一覧3
+  mode: standard
+sunflower-banker-base-star1:
+  kind: screenshot
+  description: ヒマワリバンカー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+sunflower-banker-base-star2:
+  kind: screenshot
+  description: ヒマワリバンカー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+sunflower-banker-base-star3:
+  kind: screenshot
+  description: ヒマワリバンカー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+sunflower-banker-base-up1:
+  kind: screenshot
+  description: ヒマワリバンカー・現在Lv.4の育成一覧1
+  mode: standard
+sunflower-banker-base-up2:
+  kind: screenshot
+  description: ヒマワリバンカー・現在Lv.4の育成一覧2
+  mode: standard
+sunflower-banker-base-up3:
+  kind: screenshot
+  description: ヒマワリバンカー・現在Lv.4の育成一覧3
+  mode: standard
+sunflower-banker-v1-star1:
+  kind: screenshot
+  description: ヒマワリバンカーⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+sunflower-banker-v1-star2:
+  kind: screenshot
+  description: ヒマワリバンカーⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+sunflower-banker-v1-star3:
+  kind: screenshot
+  description: ヒマワリバンカーⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+sunflower-banker-v1-up1:
+  kind: screenshot
+  description: ヒマワリバンカーⅠ・現在Lv.4の育成一覧1
+  mode: standard
+sunflower-banker-v1-up2:
+  kind: screenshot
+  description: ヒマワリバンカーⅠ・現在Lv.4の育成一覧2
+  mode: standard
+sunflower-banker-v1-up3:
+  kind: screenshot
+  description: ヒマワリバンカーⅠ・現在Lv.4の育成一覧3
+  mode: standard
+black-rose-knight-base-star1:
+  kind: screenshot
+  description: ブラックローズナイト・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+black-rose-knight-base-star2:
+  kind: screenshot
+  description: ブラックローズナイト・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+black-rose-knight-base-star3:
+  kind: screenshot
+  description: ブラックローズナイト・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+black-rose-knight-base-up1:
+  kind: screenshot
+  description: ブラックローズナイト・現在Lv.7の育成一覧1
+  mode: standard
+black-rose-knight-base-up2:
+  kind: screenshot
+  description: ブラックローズナイト・現在Lv.7の育成一覧2
+  mode: standard
+suzuran-mage-memo:
+  kind: user
+  description: スズラン魔導士の攻略メモ（評価・使い方・注意点）
+hanakinoko-apothecary-memo:
+  kind: user
+  description: ハナキノコ薬師の攻略メモ（評価・使い方・注意点）
+sunflower-banker-memo:
+  kind: user
+  description: ヒマワリバンカーの攻略メモ（評価・使い方・注意点）
+lady-tulip-memo:
+  kind: user
+  description: レディ・チューリップの攻略メモ（評価・使い方・注意点）
+black-rose-knight-memo:
+  kind: user
+  description: ブラックローズナイトの攻略メモ（評価・使い方・注意点）

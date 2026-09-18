@@ -1,0 +1,487 @@
+schemaVersion: 1
+id: hanakinoko-apothecary
+name: ハナキノコ薬師
+reading: はなきのこやくし
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - hanakinoko-apothecary-base-star1
+cost:
+  status: observed
+  value: 8
+  sources:
+    - hanakinoko-apothecary-base-star1
+updated: 2026-09-18
+icon: hanakinoko-apothecary-icon
+portrait: hanakinoko-apothecary-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: hanakinoko-apothecary-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - hanakinoko-apothecary-base-star1
+      - hanakinoko-apothecary-base-star2
+      - hanakinoko-apothecary-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - hanakinoko-apothecary-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 12
+          sources:
+            - hanakinoko-apothecary-base-star1
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - hanakinoko-apothecary-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - hanakinoko-apothecary-base-star1
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力が一時的に+50
+          keywords:
+            - placement
+            - temporary
+        sources:
+          - hanakinoko-apothecary-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 12
+          sources:
+            - hanakinoko-apothecary-base-star2
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - hanakinoko-apothecary-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - hanakinoko-apothecary-base-star2
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力が一時的に+50
+          keywords:
+            - placement
+            - temporary
+        sources:
+          - hanakinoko-apothecary-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 12
+          sources:
+            - hanakinoko-apothecary-base-star3
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - hanakinoko-apothecary-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - hanakinoko-apothecary-base-star3
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力が一時的に+50
+          keywords:
+            - placement
+            - temporary
+        sources:
+          - hanakinoko-apothecary-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 12
+      sources:
+        - hanakinoko-apothecary-base-star1
+        - hanakinoko-apothecary-base-star2
+        - hanakinoko-apothecary-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力が一時的に+50
+          keywords:
+            - placement
+            - temporary
+        sources:
+          - hanakinoko-apothecary-base-star1
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力が一時的に+50
+          keywords:
+            - placement
+            - temporary
+        sources:
+          - hanakinoko-apothecary-base-star2
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力が一時的に+50
+          keywords:
+            - placement
+            - temporary
+        sources:
+          - hanakinoko-apothecary-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - hanakinoko-apothecary-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - hanakinoko-apothecary-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 基本攻撃力ボーナスが70に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - hanakinoko-apothecary-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - hanakinoko-apothecary-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+4
+          operation: attack_add
+          value: 4
+          unit: points
+        sources:
+          - hanakinoko-apothecary-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 基本攻撃力ボーナスが100に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - hanakinoko-apothecary-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 基本攻撃力ボーナスが120に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - hanakinoko-apothecary-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 基本攻撃力ボーナスが140に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - hanakinoko-apothecary-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - hanakinoko-apothecary-base-up1
+      - hanakinoko-apothecary-base-up2
+      - hanakinoko-apothecary-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - hanakinoko-apothecary-base-star1
+      - hanakinoko-apothecary-base-star2
+      - hanakinoko-apothecary-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー200
+    sources:
+      - hanakinoko-apothecary-base-star1
+      - hanakinoko-apothecary-base-star2
+      - hanakinoko-apothecary-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: ハナキノコ薬師Ⅰ
+      image: hanakinoko-apothecary-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - hanakinoko-apothecary-v1-star1
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - hanakinoko-apothecary-v1-star1
+          - hanakinoko-apothecary-v1-star2
+          - hanakinoko-apothecary-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - hanakinoko-apothecary-v1-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 12
+              sources:
+                - hanakinoko-apothecary-v1-star1
+            interval:
+              status: observed
+              value: 1.6
+              sources:
+                - hanakinoko-apothecary-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - hanakinoko-apothecary-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 配置：指定したミニオンの攻撃力が一時的に+10。マッチ中、ミニオンを1体召喚するごとに、効果+1
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - hanakinoko-apothecary-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 12
+              sources:
+                - hanakinoko-apothecary-v1-star2
+            interval:
+              status: observed
+              value: 1.6
+              sources:
+                - hanakinoko-apothecary-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - hanakinoko-apothecary-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 配置：指定したミニオンの攻撃力が一時的に+10。マッチ中、ミニオンを1体召喚するごとに、効果+1
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - hanakinoko-apothecary-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 12
+              sources:
+                - hanakinoko-apothecary-v1-star3
+            interval:
+              status: observed
+              value: 1.6
+              sources:
+                - hanakinoko-apothecary-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - hanakinoko-apothecary-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 配置：指定したミニオンの攻撃力が一時的に+10。マッチ中、ミニオンを1体召喚するごとに、効果+1
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - hanakinoko-apothecary-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 12
+          sources:
+            - hanakinoko-apothecary-v1-star1
+            - hanakinoko-apothecary-v1-star2
+            - hanakinoko-apothecary-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 配置：指定したミニオンの攻撃力が一時的に+10。マッチ中、ミニオンを1体召喚するごとに、効果+1
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - hanakinoko-apothecary-v1-star1
+          - status: observed
+            value:
+              text: 配置：指定したミニオンの攻撃力が一時的に+10。マッチ中、ミニオンを1体召喚するごとに、効果+1
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - hanakinoko-apothecary-v1-star2
+          - status: observed
+            value:
+              text: 配置：指定したミニオンの攻撃力が一時的に+10。マッチ中、ミニオンを1体召喚するごとに、効果+1
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - hanakinoko-apothecary-v1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - hanakinoko-apothecary-v1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - hanakinoko-apothecary-v1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 基本攻撃力ボーナスの効果が25に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - hanakinoko-apothecary-v1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - hanakinoko-apothecary-v1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+4
+              operation: attack_add
+              value: 4
+              unit: points
+            sources:
+              - hanakinoko-apothecary-v1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: ミニオンを1体召喚するごとに、攻撃力ボーナスが2に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - hanakinoko-apothecary-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 基本攻撃力ボーナスの効果が40に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - hanakinoko-apothecary-v1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 基本攻撃力ボーナスの効果が55に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - hanakinoko-apothecary-v1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - hanakinoko-apothecary-v1-up1
+          - hanakinoko-apothecary-v1-up2
+          - hanakinoko-apothecary-v1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - hanakinoko-apothecary-v1-star1
+          - hanakinoko-apothecary-v1-star2
+          - hanakinoko-apothecary-v1-star3

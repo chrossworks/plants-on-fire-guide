@@ -1,0 +1,493 @@
+schemaVersion: 1
+id: sunflower-banker
+name: ヒマワリバンカー
+reading: ひまわりばんかー
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - sunflower-banker-base-star1
+cost:
+  status: observed
+  value: 8
+  sources:
+    - sunflower-banker-base-star1
+updated: 2026-09-18
+icon: sunflower-banker-icon
+portrait: sunflower-banker-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: sunflower-banker-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - sunflower-banker-base-star1
+      - sunflower-banker-base-star2
+      - sunflower-banker-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - sunflower-banker-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - sunflower-banker-base-star1
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - sunflower-banker-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - sunflower-banker-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の35%を継承させる
+          keywords:
+            - ready
+        sources:
+          - sunflower-banker-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - sunflower-banker-base-star2
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - sunflower-banker-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - sunflower-banker-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の35%を継承させる
+          keywords:
+            - ready
+        sources:
+          - sunflower-banker-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - sunflower-banker-base-star3
+        interval:
+          status: observed
+          value: 2.5
+          sources:
+            - sunflower-banker-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - sunflower-banker-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の35%を継承させる
+          keywords:
+            - ready
+        sources:
+          - sunflower-banker-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - sunflower-banker-base-star1
+        - sunflower-banker-base-star2
+        - sunflower-banker-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の35%を継承させる
+          keywords:
+            - ready
+        sources:
+          - sunflower-banker-base-star1
+      - status: observed
+        value:
+          text: 準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の35%を継承させる
+          keywords:
+            - ready
+        sources:
+          - sunflower-banker-base-star2
+      - status: observed
+        value:
+          text: 準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の35%を継承させる
+          keywords:
+            - ready
+        sources:
+          - sunflower-banker-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - sunflower-banker-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - sunflower-banker-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: ヒマワリバンカーから継承する攻撃力が50%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - sunflower-banker-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - sunflower-banker-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - sunflower-banker-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: ヒマワリバンカーから継承する攻撃力が75%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - sunflower-banker-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: ヒマワリバンカーから継承する攻撃力が90%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - sunflower-banker-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: ヒマワリバンカーから継承する攻撃力が105%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - sunflower-banker-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - sunflower-banker-base-up1
+      - sunflower-banker-base-up2
+      - sunflower-banker-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - sunflower-banker-base-star1
+      - sunflower-banker-base-star2
+      - sunflower-banker-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー20
+    sources:
+      - sunflower-banker-base-star1
+      - sunflower-banker-base-star2
+      - sunflower-banker-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: ヒマワリバンカーⅠ
+      image: sunflower-banker-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - sunflower-banker-v1-star1
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - sunflower-banker-v1-star1
+          - sunflower-banker-v1-star2
+          - sunflower-banker-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - sunflower-banker-v1-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - sunflower-banker-v1-star1
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - sunflower-banker-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - sunflower-banker-v1-star1
+          ability:
+            status: observed
+            value:
+              text: |-
+                配置：サンコイン+1
+                準備完了：サンコイン+2
+              keywords:
+                - placement
+                - ready
+            sources:
+              - sunflower-banker-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - sunflower-banker-v1-star2
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - sunflower-banker-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - sunflower-banker-v1-star2
+          ability:
+            status: observed
+            value:
+              text: |-
+                配置：サンコイン+1
+                準備完了：サンコイン+4
+              keywords:
+                - placement
+                - ready
+            sources:
+              - sunflower-banker-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - sunflower-banker-v1-star3
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - sunflower-banker-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - sunflower-banker-v1-star3
+          ability:
+            status: observed
+            value:
+              text: |-
+                配置：サンコイン+1
+                準備完了：サンコイン+8
+              keywords:
+                - placement
+                - ready
+            sources:
+              - sunflower-banker-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - sunflower-banker-v1-star1
+            - sunflower-banker-v1-star2
+            - sunflower-banker-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: |-
+                配置：サンコイン+1
+                準備完了：サンコイン+2
+              keywords:
+                - placement
+                - ready
+            sources:
+              - sunflower-banker-v1-star1
+          - status: observed
+            value:
+              text: |-
+                配置：サンコイン+1
+                準備完了：サンコイン+4
+              keywords:
+                - placement
+                - ready
+            sources:
+              - sunflower-banker-v1-star2
+          - status: observed
+            value:
+              text: |-
+                配置：サンコイン+1
+                準備完了：サンコイン+8
+              keywords:
+                - placement
+                - ready
+            sources:
+              - sunflower-banker-v1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - sunflower-banker-v1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - sunflower-banker-v1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 配置で獲得するサンコインが2に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - sunflower-banker-v1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - sunflower-banker-v1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - sunflower-banker-v1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 配置で獲得するサンコインが3に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - sunflower-banker-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 配置で獲得するサンコインが4に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - sunflower-banker-v1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 配置で獲得するサンコインが5に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - sunflower-banker-v1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - sunflower-banker-v1-up1
+          - sunflower-banker-v1-up2
+          - sunflower-banker-v1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - sunflower-banker-v1-star1
+          - sunflower-banker-v1-star2
+          - sunflower-banker-v1-star3

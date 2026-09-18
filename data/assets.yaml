@@ -239,3 +239,46 @@ mush-bomb-icon:
 muracabelon-icon:
   path: images/minions/muracabelon/icon.webp
   alt: ムラキャベロンのカードアイコン
+
+suzuran-mage-portrait:
+  path: images/minions/suzuran-mage/portrait.webp
+  alt: スズラン魔導士の基本形
+suzuran-mage-v1:
+  path: images/minions/suzuran-mage/variant-1.webp
+  alt: スズラン魔導士Ⅰのバリアントカード
+hanakinoko-apothecary-portrait:
+  path: images/minions/hanakinoko-apothecary/portrait.webp
+  alt: ハナキノコ薬師の基本形
+hanakinoko-apothecary-v1:
+  path: images/minions/hanakinoko-apothecary/variant-1.webp
+  alt: ハナキノコ薬師Ⅰのバリアントカード
+sunflower-banker-portrait:
+  path: images/minions/sunflower-banker/portrait.webp
+  alt: ヒマワリバンカーの基本形
+sunflower-banker-v1:
+  path: images/minions/sunflower-banker/variant-1.webp
+  alt: ヒマワリバンカーⅠのバリアントカード
+lady-tulip-portrait:
+  path: images/minions/lady-tulip/portrait.webp
+  alt: レディ・チューリップの基本形
+lady-tulip-v1:
+  path: images/minions/lady-tulip/variant-1.webp
+  alt: レディ・チューリップⅠのバリアントカード
+black-rose-knight-portrait:
+  path: images/minions/black-rose-knight/portrait.webp
+  alt: ブラックローズナイトの基本形
+suzuran-mage-icon:
+  path: images/minions/suzuran-mage/icon.webp
+  alt: スズラン魔導士のカードアイコン（撮影時のLv表示を含む）
+hanakinoko-apothecary-icon:
+  path: images/minions/hanakinoko-apothecary/icon.webp
+  alt: ハナキノコ薬師のカードアイコン（撮影時のLv表示を含む）
+sunflower-banker-icon:
+  path: images/minions/sunflower-banker/icon.webp
+  alt: ヒマワリバンカーのカードアイコン（撮影時のLv表示を含む）
+lady-tulip-icon:
+  path: images/minions/lady-tulip/icon.webp
+  alt: レディ・チューリップのカードアイコン（撮影時のLv表示を含む）
+black-rose-knight-icon:
+  path: images/minions/black-rose-knight/icon.webp
+  alt: ブラックローズナイトのカードアイコン（撮影時のLv表示を含む）
