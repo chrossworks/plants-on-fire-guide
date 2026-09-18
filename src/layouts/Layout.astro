@@ -21,7 +21,8 @@ const current = Astro.url.pathname;
         <nav aria-label="メインメニュー">
           <a href={url()} aria-current={current===url()?'page':undefined}>ホーム</a>
           <a href={url('minions/')} aria-current={current.includes('/minions/')?'page':undefined}>ミニオン</a>
-          <a href={url('guides/about/')} aria-current={current.includes('/guides/')?'page':undefined}>ゲーム紹介</a>
+          <a href={url('guides/tier-list/')} aria-current={current.includes('/guides/tier-list/')?'page':undefined}>Tier表</a>
+          <a href={url('guides/about/')} aria-current={current.includes('/guides/about/')?'page':undefined}>ゲーム紹介</a>
         </nav>
       </div>
     </header>
