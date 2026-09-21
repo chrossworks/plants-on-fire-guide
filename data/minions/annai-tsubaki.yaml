@@ -1,0 +1,471 @@
+schemaVersion: 1
+id: annai-tsubaki
+name: アンナイツバキ
+reading: あんないつばき
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - annai-tsubaki-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - annai-tsubaki-base-star1
+updated: 2026-09-19
+icon: annai-tsubaki-icon
+portrait: annai-tsubaki-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: annai-tsubaki-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - annai-tsubaki-base-star1
+      - annai-tsubaki-base-star2
+      - annai-tsubaki-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - annai-tsubaki-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - annai-tsubaki-base-star1
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - annai-tsubaki-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - annai-tsubaki-base-star1
+      ability:
+        status: observed
+        value:
+          text: 購入時発動：次に購入するミニオンの攻撃力+4
+          keywords:
+            - purchase-trigger
+        sources:
+          - annai-tsubaki-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - annai-tsubaki-base-star2
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - annai-tsubaki-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - annai-tsubaki-base-star2
+      ability:
+        status: observed
+        value:
+          text: 購入時発動：次に購入するミニオンの攻撃力+4
+          keywords:
+            - purchase-trigger
+        sources:
+          - annai-tsubaki-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - annai-tsubaki-base-star3
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - annai-tsubaki-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - annai-tsubaki-base-star3
+      ability:
+        status: observed
+        value:
+          text: 購入時発動：次に購入するミニオンの攻撃力+4
+          keywords:
+            - purchase-trigger
+        sources:
+          - annai-tsubaki-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 5
+      sources:
+        - annai-tsubaki-base-star1
+        - annai-tsubaki-base-star2
+        - annai-tsubaki-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 購入時発動：次に購入するミニオンの攻撃力+4
+          keywords:
+            - purchase-trigger
+        sources:
+          - annai-tsubaki-base-star1
+      - status: observed
+        value:
+          text: 購入時発動：次に購入するミニオンの攻撃力+4
+          keywords:
+            - purchase-trigger
+        sources:
+          - annai-tsubaki-base-star2
+      - status: observed
+        value:
+          text: 購入時発動：次に購入するミニオンの攻撃力+4
+          keywords:
+            - purchase-trigger
+        sources:
+          - annai-tsubaki-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - annai-tsubaki-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - annai-tsubaki-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 次に購入するミニオンの攻撃力ボーナスが6に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - annai-tsubaki-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - annai-tsubaki-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - annai-tsubaki-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 次に購入するミニオンの攻撃力ボーナスが9に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - annai-tsubaki-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 次に購入するミニオンの攻撃力ボーナスが11に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - annai-tsubaki-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 次に購入するミニオンの攻撃力ボーナスが14に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - annai-tsubaki-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - annai-tsubaki-base-up1
+      - annai-tsubaki-base-up2
+      - annai-tsubaki-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - annai-tsubaki-base-star1
+      - annai-tsubaki-base-star2
+      - annai-tsubaki-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー850
+    sources:
+      - annai-tsubaki-base-star1
+      - annai-tsubaki-base-star2
+      - annai-tsubaki-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅡを掲載しています。
+  items:
+    - id: variant-2
+      name: アンナイツバキⅡ
+      image: annai-tsubaki-v2
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - annai-tsubaki-v2-star1
+          - annai-tsubaki-v2-star2
+          - annai-tsubaki-v2-star3
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - annai-tsubaki-v2-star1
+          - annai-tsubaki-v2-star2
+          - annai-tsubaki-v2-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - annai-tsubaki-v2-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - annai-tsubaki-v2-star1
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - annai-tsubaki-v2-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - annai-tsubaki-v2-star1
+          ability:
+            status: observed
+            value:
+              text: ショップに出現時、ショップ内の他のミニオンの攻撃力+1
+              keywords: []
+            sources:
+              - annai-tsubaki-v2-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - annai-tsubaki-v2-star2
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - annai-tsubaki-v2-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - annai-tsubaki-v2-star2
+          ability:
+            status: observed
+            value:
+              text: ショップに出現時、ショップ内の他のミニオンの攻撃力+1
+              keywords: []
+            sources:
+              - annai-tsubaki-v2-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - annai-tsubaki-v2-star3
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - annai-tsubaki-v2-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - annai-tsubaki-v2-star3
+          ability:
+            status: observed
+            value:
+              text: ショップに出現時、ショップ内の他のミニオンの攻撃力+1
+              keywords: []
+            sources:
+              - annai-tsubaki-v2-star3
+      initial:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - annai-tsubaki-v2-star1
+            - annai-tsubaki-v2-star2
+            - annai-tsubaki-v2-star3
+        abilities:
+          - status: observed
+            value:
+              text: ショップに出現時、ショップ内の他のミニオンの攻撃力+1
+              keywords: []
+            sources:
+              - annai-tsubaki-v2-star1
+          - status: observed
+            value:
+              text: ショップに出現時、ショップ内の他のミニオンの攻撃力+1
+              keywords: []
+            sources:
+              - annai-tsubaki-v2-star2
+          - status: observed
+            value:
+              text: ショップに出現時、ショップ内の他のミニオンの攻撃力+1
+              keywords: []
+            sources:
+              - annai-tsubaki-v2-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - annai-tsubaki-v2-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - annai-tsubaki-v2-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: ショップ内の他のミニオンに付与する攻撃力ボーナスが2に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - annai-tsubaki-v2-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - annai-tsubaki-v2-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - annai-tsubaki-v2-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: ショップ内の他のミニオンに付与する攻撃力ボーナスが3に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - annai-tsubaki-v2-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: ショップ内の他のミニオンに付与する攻撃力ボーナスが4に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - annai-tsubaki-v2-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: ショップ内の他のミニオンに付与する攻撃力ボーナスが5に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - annai-tsubaki-v2-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - annai-tsubaki-v2-up1
+          - annai-tsubaki-v2-up2
+          - annai-tsubaki-v2-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - annai-tsubaki-v2-star1
+          - annai-tsubaki-v2-star2
+          - annai-tsubaki-v2-star3

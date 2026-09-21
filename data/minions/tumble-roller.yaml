@@ -1,0 +1,227 @@
+schemaVersion: 1
+id: tumble-roller
+name: タンブルローラー
+reading: たんぶるろーらー
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - tumble-roller-base-star2
+cost:
+  status: observed
+  value: 3
+  sources:
+    - tumble-roller-base-star2
+updated: 2026-09-19
+portrait: tumble-roller-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: tumble-roller-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - tumble-roller-base-star1
+      - tumble-roller-base-star2
+      - tumble-roller-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - tumble-roller-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 0
+          sources:
+            - tumble-roller-base-star1
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - tumble-roller-base-star1
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - tumble-roller-base-star1
+      ability:
+        status: observed
+        value:
+          text: 自身が召喚するラッシュユニットの数-1、シールド+3、さらに敵隊長が失っているHP5%につき、移動速度+8%
+          keywords:
+            - rush-unit
+            - shield
+        sources:
+          - tumble-roller-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 0
+          sources:
+            - tumble-roller-base-star2
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - tumble-roller-base-star2
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - tumble-roller-base-star2
+      ability:
+        status: observed
+        value:
+          text: 自身が召喚するラッシュユニットの数-1、シールド+6、さらに敵隊長が失っているHP5%につき、移動速度+8%
+          keywords:
+            - rush-unit
+            - shield
+        sources:
+          - tumble-roller-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 0
+          sources:
+            - tumble-roller-base-star3
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - tumble-roller-base-star3
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - tumble-roller-base-star3
+      ability:
+        status: observed
+        value:
+          text: 自身が召喚するラッシュユニットの数-1、シールド+12、さらに敵隊長が失っているHP5%につき、移動速度+8%
+          keywords:
+            - rush-unit
+            - shield
+        sources:
+          - tumble-roller-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 0
+      sources:
+        - tumble-roller-base-star1
+        - tumble-roller-base-star2
+        - tumble-roller-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 自身が召喚するラッシュユニットの数-1、シールド+3、さらに敵隊長が失っているHP5%につき、移動速度+8%
+          keywords:
+            - rush-unit
+            - shield
+        sources:
+          - tumble-roller-base-star1
+      - status: observed
+        value:
+          text: 自身が召喚するラッシュユニットの数-1、シールド+6、さらに敵隊長が失っているHP5%につき、移動速度+8%
+          keywords:
+            - rush-unit
+            - shield
+        sources:
+          - tumble-roller-base-star2
+      - status: observed
+        value:
+          text: 自身が召喚するラッシュユニットの数-1、シールド+12、さらに敵隊長が失っているHP5%につき、移動速度+8%
+          keywords:
+            - rush-unit
+            - shield
+        sources:
+          - tumble-roller-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: ダメージ+1。敵隊長が失っているHP5%につき、移動速度+10%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - tumble-roller-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: ダメージ+2。敵隊長が失っているHP5%につき、移動速度+12%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - tumble-roller-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 自身が召喚するラッシュユニットが獲得するシールドが4に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - tumble-roller-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: ダメージ+3。敵隊長が失っているHP5%につき、移動速度+16%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - tumble-roller-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: ダメージ+4。敵隊長が失っているHP5%につき、移動速度+20%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - tumble-roller-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - tumble-roller-base-up1
+      - tumble-roller-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - tumble-roller-base-star2
+      - tumble-roller-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー2200
+    sources:
+      - tumble-roller-base-star2
+      - tumble-roller-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - tumble-roller-base-star2
+    - tumble-roller-base-star3
+  items: []
+icon: tumble-roller-icon

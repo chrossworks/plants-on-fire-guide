@@ -24,3 +24,25 @@ temporary:
     status: observed
     value: 本ラウンド中のみ有効、ラウンド終了後に効果が失われる
     sources: [temporary-keyword]
+
+purchase-trigger:
+  name: 購入時発動
+  definition:
+    status: observed
+    value: このミニオンを購入すると効果が発動する
+    sources:
+      - purchase-trigger-keyword
+rush-unit:
+  name: ラッシュユニット
+  definition:
+    status: observed
+    value: このミニオンが召喚したラッシュユニットに適用
+    sources:
+      - rush-shield-keywords
+shield:
+  name: シールド
+  definition:
+    status: observed
+    value: シールドは1スタックごとにダメージを1回防ぐ
+    sources:
+      - rush-shield-keywords

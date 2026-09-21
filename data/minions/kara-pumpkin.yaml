@@ -1,0 +1,255 @@
+schemaVersion: 1
+id: kara-pumpkin
+name: カラカボチャ
+reading: からかぼちゃ
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - kara-pumpkin-base-star1
+cost:
+  status: observed
+  value: 3
+  sources:
+    - kara-pumpkin-base-star1
+updated: 2026-09-19
+icon: kara-pumpkin-icon
+portrait: kara-pumpkin-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: kara-pumpkin-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - kara-pumpkin-base-star1
+      - kara-pumpkin-base-star2
+      - kara-pumpkin-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - kara-pumpkin-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - kara-pumpkin-base-star1
+        interval:
+          status: observed
+          value: 1.4
+          sources:
+            - kara-pumpkin-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - kara-pumpkin-base-star1
+      ability:
+        status: observed
+        value:
+          text: 配置：攻撃力がランダムで+（2～6）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+          keywords:
+            - placement
+        sources:
+          - kara-pumpkin-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - kara-pumpkin-base-star2
+        interval:
+          status: observed
+          value: 1.4
+          sources:
+            - kara-pumpkin-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - kara-pumpkin-base-star2
+      ability:
+        status: observed
+        value:
+          text: 配置：攻撃力がランダムで+（2～6）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+          keywords:
+            - placement
+        sources:
+          - kara-pumpkin-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - kara-pumpkin-base-star3
+        interval:
+          status: observed
+          value: 1.4
+          sources:
+            - kara-pumpkin-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - kara-pumpkin-base-star3
+      ability:
+        status: observed
+        value:
+          text: 配置：攻撃力がランダムで+（2～6）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+          keywords:
+            - placement
+        sources:
+          - kara-pumpkin-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 5
+      sources:
+        - kara-pumpkin-base-star1
+        - kara-pumpkin-base-star2
+        - kara-pumpkin-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 配置：攻撃力がランダムで+（2～6）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+          keywords:
+            - placement
+        sources:
+          - kara-pumpkin-base-star1
+      - status: observed
+        value:
+          text: 配置：攻撃力がランダムで+（2～6）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+          keywords:
+            - placement
+        sources:
+          - kara-pumpkin-base-star2
+      - status: observed
+        value:
+          text: 配置：攻撃力がランダムで+（2～6）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+          keywords:
+            - placement
+        sources:
+          - kara-pumpkin-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - kara-pumpkin-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - kara-pumpkin-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが（3～9）に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - kara-pumpkin-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - kara-pumpkin-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - kara-pumpkin-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが（4～12）に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - kara-pumpkin-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが（5～15）に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - kara-pumpkin-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが（6～18）に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - kara-pumpkin-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - kara-pumpkin-base-up1
+      - kara-pumpkin-base-up2
+      - kara-pumpkin-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - kara-pumpkin-base-star1
+      - kara-pumpkin-base-star2
+      - kara-pumpkin-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー2400
+    sources:
+      - kara-pumpkin-base-star1
+      - kara-pumpkin-base-star2
+      - kara-pumpkin-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - kara-pumpkin-base-star1
+    - kara-pumpkin-base-star2
+    - kara-pumpkin-base-star3
+  items: []

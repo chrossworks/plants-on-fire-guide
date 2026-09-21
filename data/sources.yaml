@@ -2222,3 +2222,207 @@ gold-eater-memo:
 valkyris-memo:
   kind: user
   description: ヴァルキリスの攻略メモ（評価・使い方・注意点）
+
+annai-tsubaki-base-star1:
+  kind: screenshot
+  description: アンナイツバキ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+annai-tsubaki-base-star2:
+  kind: screenshot
+  description: アンナイツバキ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+annai-tsubaki-base-star3:
+  kind: screenshot
+  description: アンナイツバキ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+annai-tsubaki-base-up1:
+  kind: screenshot
+  description: アンナイツバキ・現在Lv.4の育成一覧1
+  mode: standard
+annai-tsubaki-base-up2:
+  kind: screenshot
+  description: アンナイツバキ・現在Lv.4の育成一覧2
+  mode: standard
+annai-tsubaki-base-up3:
+  kind: screenshot
+  description: アンナイツバキ・現在Lv.4の育成一覧3
+  mode: standard
+annai-tsubaki-v2-star1:
+  kind: screenshot
+  description: アンナイツバキⅡ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+annai-tsubaki-v2-star2:
+  kind: screenshot
+  description: アンナイツバキⅡ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+annai-tsubaki-v2-star3:
+  kind: screenshot
+  description: アンナイツバキⅡ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+annai-tsubaki-v2-up1:
+  kind: screenshot
+  description: アンナイツバキⅡ・現在Lv.4の育成一覧1
+  mode: standard
+annai-tsubaki-v2-up2:
+  kind: screenshot
+  description: アンナイツバキⅡ・現在Lv.4の育成一覧2
+  mode: standard
+annai-tsubaki-v2-up3:
+  kind: screenshot
+  description: アンナイツバキⅡ・現在Lv.4の育成一覧3
+  mode: standard
+kara-pumpkin-base-star1:
+  kind: screenshot
+  description: カラカボチャ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+kara-pumpkin-base-star2:
+  kind: screenshot
+  description: カラカボチャ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+kara-pumpkin-base-star3:
+  kind: screenshot
+  description: カラカボチャ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+kara-pumpkin-base-up1:
+  kind: screenshot
+  description: カラカボチャ・現在Lv.4の育成一覧1
+  mode: standard
+kara-pumpkin-base-up2:
+  kind: screenshot
+  description: カラカボチャ・現在Lv.4の育成一覧2
+  mode: standard
+kara-pumpkin-base-up3:
+  kind: screenshot
+  description: カラカボチャ・現在Lv.4の育成一覧3
+  mode: standard
+garlic-ranger-base-star1:
+  kind: screenshot
+  description: ガーリックレンジャー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+garlic-ranger-base-star2:
+  kind: screenshot
+  description: ガーリックレンジャー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+garlic-ranger-base-star3:
+  kind: screenshot
+  description: ガーリックレンジャー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+garlic-ranger-base-up1:
+  kind: screenshot
+  description: ガーリックレンジャー・現在Lv.4の育成一覧1
+  mode: standard
+garlic-ranger-base-up2:
+  kind: screenshot
+  description: ガーリックレンジャー・現在Lv.4の育成一覧2
+  mode: standard
+garlic-ranger-base-up3:
+  kind: screenshot
+  description: ガーリックレンジャー・現在Lv.4の育成一覧3
+  mode: standard
+garlic-ranger-v1-star1:
+  kind: screenshot
+  description: ガーリックレンジャーⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+garlic-ranger-v1-star2:
+  kind: screenshot
+  description: ガーリックレンジャーⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+garlic-ranger-v1-star3:
+  kind: screenshot
+  description: ガーリックレンジャーⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+garlic-ranger-v1-up1:
+  kind: screenshot
+  description: ガーリックレンジャーⅠ・現在Lv.4の育成一覧1
+  mode: standard
+garlic-ranger-v1-up2:
+  kind: screenshot
+  description: ガーリックレンジャーⅠ・現在Lv.4の育成一覧2
+  mode: standard
+garlic-ranger-v1-up3:
+  kind: screenshot
+  description: ガーリックレンジャーⅠ・現在Lv.4の育成一覧3
+  mode: standard
+tumble-roller-base-star2:
+  kind: screenshot
+  description: タンブルローラー・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+tumble-roller-base-star3:
+  kind: screenshot
+  description: タンブルローラー・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+tumble-roller-base-up1:
+  kind: screenshot
+  description: タンブルローラー・現在Lv.7の育成一覧1
+  mode: standard
+tumble-roller-base-up2:
+  kind: screenshot
+  description: タンブルローラー・現在Lv.7の育成一覧2
+  mode: standard
+annai-tsubaki-memo:
+  kind: user
+  description: アンナイツバキの攻略メモ（評価・使い方・注意点）
+garlic-ranger-memo:
+  kind: user
+  description: ガーリックレンジャーの攻略メモ（評価・使い方・注意点）
+kara-pumpkin-memo:
+  kind: user
+  description: カラカボチャの攻略メモ（評価・使い方・注意点）
+tumble-roller-memo:
+  kind: user
+  description: タンブルローラーの攻略メモ（評価・使い方・注意点）
+purchase-trigger-keyword:
+  kind: screenshot
+  description: 購入時発動の説明画面
+  mode: standard
+rush-shield-keywords:
+  kind: screenshot
+  description: ラッシュユニット・シールドの説明画面
+  mode: standard
+
+tumble-roller-base-star1:
+  kind: screenshot
+  description: タンブルローラー・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+
+garlic-tumble-icons-20260921:
+  kind: screenshot
+  description: 通常ミニオン一覧のガーリックレンジャー・タンブルローラーのカードアイコン
+  mode: standard
+  screen: pool-list

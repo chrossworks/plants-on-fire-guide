@@ -322,3 +322,36 @@ gold-eater-icon:
 valkyris-icon:
   path: images/minions/valkyris/icon.webp
   alt: ヴァルキリスのカードアイコン（撮影時のLv表示を含む）
+
+annai-tsubaki-portrait:
+  path: images/minions/annai-tsubaki/portrait.webp
+  alt: アンナイツバキの基本形
+annai-tsubaki-v2:
+  path: images/minions/annai-tsubaki/variant-2.webp
+  alt: アンナイツバキⅡのバリアントカード
+garlic-ranger-portrait:
+  path: images/minions/garlic-ranger/portrait.webp
+  alt: ガーリックレンジャーの基本形
+garlic-ranger-v1:
+  path: images/minions/garlic-ranger/variant-1.webp
+  alt: ガーリックレンジャーⅠのバリアントカード
+kara-pumpkin-portrait:
+  path: images/minions/kara-pumpkin/portrait.webp
+  alt: カラカボチャの基本形
+tumble-roller-portrait:
+  path: images/minions/tumble-roller/portrait.webp
+  alt: タンブルローラーの基本形
+annai-tsubaki-icon:
+  path: images/minions/annai-tsubaki/icon.webp
+  alt: アンナイツバキのカードアイコン（撮影時のLv表示を含む）
+kara-pumpkin-icon:
+  path: images/minions/kara-pumpkin/icon.webp
+  alt: カラカボチャのカードアイコン（撮影時のLv表示を含む）
+
+garlic-ranger-icon:
+  path: images/minions/garlic-ranger/icon.webp
+  alt: ガーリックレンジャーのカードアイコン（撮影時のLv表示を含む）
+
+tumble-roller-icon:
+  path: images/minions/tumble-roller/icon.webp
+  alt: タンブルローラーのカードアイコン（撮影時のLv表示を含む）
