@@ -69,6 +69,22 @@ test('ランブルチェスの観測は任意で、現在Lvと保証Lvを別に�
   assert.throws(()=>rumbleSchema.parse(star4));
 });
 
+test('絆効果は根拠必須、段階の重複・逆順と未確認の数値補完を拒否する',()=>{
+  const original=loadRumble();
+  for (const mutate of [
+    r=>{r.decks[0].bond.tiers.sources=[];},
+    r=>{r.decks[0].bond.tiers.value[1].threshold=4;},
+    r=>{r.decks[0].bond.tiers.value.reverse();},
+    r=>{r.decks[0].bond.mechanics.value='推測';}
+  ]) {
+    const r=structuredClone(original);mutate(r);
+    assert.throws(()=>rumbleSchema.parse(r));
+  }
+  const partial=structuredClone(original);
+  partial.decks[0].bond.tiers={status:'unknown',reason:'未撮影'};
+  assert.doesNotThrow(()=>rumbleSchema.parse(partial));
+});
+
 test('未確認・不存在・逆算・人間の追記は区別される',()=>{
   const f=fact(z.number());
   assert.equal(f.parse({status:'unknown',reason:'未撮影'}).value,undefined);

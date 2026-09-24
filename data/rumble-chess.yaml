@@ -1,7 +1,7 @@
 schemaVersion: 1
 mode: rumble-chess
-updated: '2026-09-14'
-note: 画像から確認した絆所属を保存。サイトでは未使用。撮影時点の6デッキ各10体を収録し、共有デッキは対象外。通常モードの性能・初期値・バリアント判定へ転用しない。
+updated: '2026-09-22'
+note: 画像から確認した絆所属と6デッキ各10段階の絆効果を保存。サイトでは未使用。撮影時点の6デッキ各10体を収録し、共有デッキは対象外。通常モードの性能・初期値・バリアント判定へ転用しない。
 decks:
   - id: cloud
     name: {status: observed, value: 雲デッキ, sources: [rc-overview]}
@@ -9,36 +9,156 @@ decks:
       status: observed
       value: [アンナイツバキ, ポテトセラー, アッポリス, グレープバーテンダー, サムライタケ, ザクロブラスター, スペルベリー, チリコック, ゴールドイーター, ドングリマッドマン]
       sources: [rc-cloud]
+    bond:
+      name: {status: observed, value: 雲の絆, sources: [rc-cloud-bond]}
+      tiers:
+        status: observed
+        value:
+          - {threshold: 4, text: 'ショップ内のミニオンの攻撃力+1', amount: 1, unit: points}
+          - {threshold: 8, text: 'ショップ内のミニオンの攻撃力+2', amount: 2, unit: points}
+          - {threshold: 12, text: 'ショップ内のミニオンの攻撃力+4', amount: 4, unit: points}
+          - {threshold: 16, text: 'ショップ内のミニオンの攻撃力+6', amount: 6, unit: points}
+          - {threshold: 20, text: 'ショップ内のミニオンの攻撃力+9', amount: 9, unit: points}
+          - {threshold: 25, text: 'ショップ内のミニオンの攻撃力+13', amount: 13, unit: points}
+          - {threshold: 30, text: 'ショップ内のミニオンの攻撃力+18', amount: 18, unit: points}
+          - {threshold: 35, text: 'ショップ内のミニオンの攻撃力+25', amount: 25, unit: points}
+          - {threshold: 40, text: 'ショップ内のミニオンの攻撃力+35', amount: 35, unit: points}
+          - {threshold: 50, text: 'ショップ内のミニオンの攻撃力+50', amount: 50, unit: points}
+        sources: [rc-cloud-bond]
+      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+      mechanics:
+        status: unknown
+        reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
   - id: moon
     name: {status: observed, value: 月デッキ, sources: [rc-overview]}
     members:
       status: observed
       value: [マッシュボム, カラカボチャ, グリーンキーパー, ゴーストオーキッド, カボチャナイト, ダンデライオン, テレ・リーフィー, ヴァルキリス, ブラックローズナイト, ウィキッドミラー]
       sources: [rc-moon]
+    bond:
+      name: {status: observed, value: 月の絆, sources: [rc-moon-bond]}
+      tiers:
+        status: observed
+        value:
+          - {threshold: 4, text: '敵がフィールド上に出現時、4%のHPを失う', amount: 4, unit: percent}
+          - {threshold: 8, text: '敵がフィールド上に出現時、8%のHPを失う', amount: 8, unit: percent}
+          - {threshold: 12, text: '敵がフィールド上に出現時、12%のHPを失う', amount: 12, unit: percent}
+          - {threshold: 16, text: '敵がフィールド上に出現時、18%のHPを失う', amount: 18, unit: percent}
+          - {threshold: 20, text: '敵がフィールド上に出現時、24%のHPを失う', amount: 24, unit: percent}
+          - {threshold: 25, text: '敵がフィールド上に出現時、30%のHPを失う', amount: 30, unit: percent}
+          - {threshold: 30, text: '敵がフィールド上に出現時、38%のHPを失う', amount: 38, unit: percent}
+          - {threshold: 35, text: '敵がフィールド上に出現時、46%のHPを失う', amount: 46, unit: percent}
+          - {threshold: 40, text: '敵がフィールド上に出現時、54%のHPを失う', amount: 54, unit: percent}
+          - {threshold: 50, text: '敵がフィールド上に出現時、65%のHPを失う', amount: 65, unit: percent}
+        sources: [rc-moon-bond]
+      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+      mechanics:
+        status: unknown
+        reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
   - id: sun
     name: {status: observed, value: 太陽デッキ, sources: [rc-overview]}
     members:
       status: observed
       value: [タネワーカー, ココバンク, サボテンガーディアン, モヒートン, メロンアカウンタント, ドラフルガード, ヒマワリ店長, ヒマワリバンカー, レディ・チューリップ, コーヒービーンチーフ]
       sources: [rc-sun]
+    bond:
+      name: {status: observed, value: 太陽の絆, sources: [rc-sun-bond]}
+      tiers:
+        status: observed
+        value:
+          - {threshold: 4, text: '準備完了：サンコイン1個を獲得する', amount: 1, unit: coins}
+          - {threshold: 8, text: '準備完了：サンコイン2個を獲得する', amount: 2, unit: coins}
+          - {threshold: 12, text: '準備完了：サンコイン3個を獲得する', amount: 3, unit: coins}
+          - {threshold: 16, text: '準備完了：サンコイン4個を獲得する', amount: 4, unit: coins}
+          - {threshold: 20, text: '準備完了：サンコイン6個を獲得する', amount: 6, unit: coins}
+          - {threshold: 25, text: '準備完了：サンコイン8個を獲得する', amount: 8, unit: coins}
+          - {threshold: 30, text: '準備完了：サンコイン11個を獲得する', amount: 11, unit: coins}
+          - {threshold: 35, text: '準備完了：サンコイン15個を獲得する', amount: 15, unit: coins}
+          - {threshold: 40, text: '準備完了：サンコイン20個を獲得する', amount: 20, unit: coins}
+          - {threshold: 50, text: '準備完了：サンコイン30個を獲得する', amount: 30, unit: coins}
+        sources: [rc-sun-bond]
+      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+      mechanics:
+        status: unknown
+        reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
   - id: thunder
     name: {status: observed, value: 雷デッキ, sources: [rc-overview]}
     members:
       status: observed
       value: [マンゴスチン獣使い, ハクサイ衛兵, グァバラッパ, パクパクフラワー, オレンジツインズ, ジンジャー親分, ホワイトローズナイト, ケチャッピオン, マンドラゴラ司祭, ハナキノコ薬師]
       sources: [rc-thunder]
+    bond:
+      name: {status: observed, value: 雷の絆, sources: [rc-thunder-bond]}
+      tiers:
+        status: observed
+        value:
+          - {threshold: 4, text: 'オーラ：すべてのミニオンの攻撃力+2', amount: 2, unit: points}
+          - {threshold: 8, text: 'オーラ：すべてのミニオンの攻撃力+4', amount: 4, unit: points}
+          - {threshold: 12, text: 'オーラ：すべてのミニオンの攻撃力+6', amount: 6, unit: points}
+          - {threshold: 16, text: 'オーラ：すべてのミニオンの攻撃力+9', amount: 9, unit: points}
+          - {threshold: 20, text: 'オーラ：すべてのミニオンの攻撃力+12', amount: 12, unit: points}
+          - {threshold: 25, text: 'オーラ：すべてのミニオンの攻撃力+16', amount: 16, unit: points}
+          - {threshold: 30, text: 'オーラ：すべてのミニオンの攻撃力+22', amount: 22, unit: points}
+          - {threshold: 35, text: 'オーラ：すべてのミニオンの攻撃力+30', amount: 30, unit: points}
+          - {threshold: 40, text: 'オーラ：すべてのミニオンの攻撃力+40', amount: 40, unit: points}
+          - {threshold: 50, text: 'オーラ：すべてのミニオンの攻撃力+60', amount: 60, unit: points}
+        sources: [rc-thunder-bond]
+      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+      mechanics:
+        status: unknown
+        reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
   - id: droplet
     name: {status: observed, value: 雫デッキ, sources: [rc-overview]}
     members:
       status: observed
       value: [アボガク, コワッパイン, シスター・チェリー, クルミ博士, ピーナッツペイジ, ムラキャベロン, ニンジンボンバー, カシュー大賢者, ラフレシア, スズラン魔導士]
       sources: [rc-droplet]
+    bond:
+      name: {status: observed, value: 雫の絆, sources: [rc-droplet-bond]}
+      tiers:
+        status: observed
+        value:
+          - {threshold: 4, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+4', amount: 4, unit: points}
+          - {threshold: 8, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+8', amount: 8, unit: points}
+          - {threshold: 12, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+16', amount: 16, unit: points}
+          - {threshold: 16, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+24', amount: 24, unit: points}
+          - {threshold: 20, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+36', amount: 36, unit: points}
+          - {threshold: 25, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+52', amount: 52, unit: points}
+          - {threshold: 30, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+72', amount: 72, unit: points}
+          - {threshold: 35, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+100', amount: 100, unit: points}
+          - {threshold: 40, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+140', amount: 140, unit: points}
+          - {threshold: 50, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+200', amount: 200, unit: points}
+        sources: [rc-droplet-bond]
+      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+      mechanics:
+        status: unknown
+        reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
   - id: star
     name: {status: observed, value: 星デッキ, sources: [rc-overview]}
     members:
       status: observed
       value: [ラディッシュメイド, バンブーアーチャー, マムガール, マンゴーニンジャ, オーキッド占星術師, オニオンバード, ノリノリネギ, ルミナスツリー, ビカクシダシャーマン, マッスルスイカ]
       sources: [rc-star]
+    bond:
+      name: {status: observed, value: 星の絆, sources: [rc-star-bond]}
+      tiers:
+        status: observed
+        value:
+          - {threshold: 4, text: '準備完了：すべてのミニオンの攻撃力+1', amount: 1, unit: points}
+          - {threshold: 8, text: '準備完了：すべてのミニオンの攻撃力+2', amount: 2, unit: points}
+          - {threshold: 12, text: '準備完了：すべてのミニオンの攻撃力+4', amount: 4, unit: points}
+          - {threshold: 16, text: '準備完了：すべてのミニオンの攻撃力+6', amount: 6, unit: points}
+          - {threshold: 20, text: '準備完了：すべてのミニオンの攻撃力+9', amount: 9, unit: points}
+          - {threshold: 25, text: '準備完了：すべてのミニオンの攻撃力+13', amount: 13, unit: points}
+          - {threshold: 30, text: '準備完了：すべてのミニオンの攻撃力+18', amount: 18, unit: points}
+          - {threshold: 35, text: '準備完了：すべてのミニオンの攻撃力+25', amount: 25, unit: points}
+          - {threshold: 40, text: '準備完了：すべてのミニオンの攻撃力+35', amount: 35, unit: points}
+          - {threshold: 50, text: '準備完了：すべてのミニオンの攻撃力+50', amount: 50, unit: points}
+        sources: [rc-star-bond]
+      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+      mechanics:
+        status: unknown
+        reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
 observations:
   - name: アッポリス
     source: rc-appolis-detail

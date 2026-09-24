@@ -2426,3 +2426,287 @@ garlic-tumble-icons-20260921:
   description: 通常ミニオン一覧のガーリックレンジャー・タンブルローラーのカードアイコン
   mode: standard
   screen: pool-list
+
+pakupaku-flower-base-star1:
+  kind: screenshot
+  description: パクパクフラワー・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+pakupaku-flower-base-star2:
+  kind: screenshot
+  description: パクパクフラワー・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+pakupaku-flower-base-star3:
+  kind: screenshot
+  description: パクパクフラワー・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+pakupaku-flower-base-up1:
+  kind: screenshot
+  description: パクパクフラワー・現在Lv.7の育成一覧1
+  mode: standard
+pakupaku-flower-base-up2:
+  kind: screenshot
+  description: パクパクフラワー・現在Lv.7の育成一覧2
+  mode: standard
+pakupaku-flower-v1-star1:
+  kind: screenshot
+  description: パクパクフラワーⅠ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+pakupaku-flower-v1-star2:
+  kind: screenshot
+  description: パクパクフラワーⅠ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+pakupaku-flower-v1-star3:
+  kind: screenshot
+  description: パクパクフラワーⅠ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+pakupaku-flower-v1-up1:
+  kind: screenshot
+  description: パクパクフラワーⅠ・現在Lv.7の育成一覧1
+  mode: standard
+pakupaku-flower-v1-up2:
+  kind: screenshot
+  description: パクパクフラワーⅠ・現在Lv.7の育成一覧2
+  mode: standard
+chili-judge-base-star1:
+  kind: screenshot
+  description: チリジャッジ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+chili-judge-base-star2:
+  kind: screenshot
+  description: チリジャッジ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+chili-judge-base-star3:
+  kind: screenshot
+  description: チリジャッジ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+chili-judge-base-up1:
+  kind: screenshot
+  description: チリジャッジ・現在Lv.7の育成一覧1
+  mode: standard
+chili-judge-base-up2:
+  kind: screenshot
+  description: チリジャッジ・現在Lv.7の育成一覧2
+  mode: standard
+chili-judge-v1-star1:
+  kind: screenshot
+  description: チリジャッジⅠ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+chili-judge-v1-star2:
+  kind: screenshot
+  description: チリジャッジⅠ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+chili-judge-v1-star3:
+  kind: screenshot
+  description: チリジャッジⅠ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+chili-judge-v1-up1:
+  kind: screenshot
+  description: チリジャッジⅠ・現在Lv.7の育成一覧1
+  mode: standard
+chili-judge-v1-up2:
+  kind: screenshot
+  description: チリジャッジⅠ・現在Lv.7の育成一覧2
+  mode: standard
+mojiton-base-star1:
+  kind: screenshot
+  description: モヒートン・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+mojiton-base-star2:
+  kind: screenshot
+  description: モヒートン・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+mojiton-base-star3:
+  kind: screenshot
+  description: モヒートン・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+mojiton-base-up1:
+  kind: screenshot
+  description: モヒートン・現在Lv.7の育成一覧1
+  mode: standard
+mojiton-base-up2:
+  kind: screenshot
+  description: モヒートン・現在Lv.7の育成一覧2
+  mode: standard
+mojiton-v1-star1:
+  kind: screenshot
+  description: モヒートンⅠ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+mojiton-v1-star2:
+  kind: screenshot
+  description: モヒートンⅠ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+mojiton-v1-star3:
+  kind: screenshot
+  description: モヒートンⅠ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+mojiton-v1-up1:
+  kind: screenshot
+  description: モヒートンⅠ・現在Lv.7の育成一覧1
+  mode: standard
+mojiton-v1-up2:
+  kind: screenshot
+  description: モヒートンⅠ・現在Lv.7の育成一覧2
+  mode: standard
+grape-bartender-base-star1:
+  kind: screenshot
+  description: グレープバーテンダー・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+grape-bartender-base-star2:
+  kind: screenshot
+  description: グレープバーテンダー・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+grape-bartender-base-star3:
+  kind: screenshot
+  description: グレープバーテンダー・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+grape-bartender-base-up1:
+  kind: screenshot
+  description: グレープバーテンダー・現在Lv.7の育成一覧1
+  mode: standard
+grape-bartender-base-up2:
+  kind: screenshot
+  description: グレープバーテンダー・現在Lv.7の育成一覧2
+  mode: standard
+grape-bartender-v1-star1:
+  kind: screenshot
+  description: グレープバーテンダーⅠ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+grape-bartender-v1-star2:
+  kind: screenshot
+  description: グレープバーテンダーⅠ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+grape-bartender-v1-star3:
+  kind: screenshot
+  description: グレープバーテンダーⅠ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+grape-bartender-v1-up1:
+  kind: screenshot
+  description: グレープバーテンダーⅠ・現在Lv.7の育成一覧1
+  mode: standard
+grape-bartender-v1-up2:
+  kind: screenshot
+  description: グレープバーテンダーⅠ・現在Lv.7の育成一覧2
+  mode: standard
+pumpkin-knight-base-star1:
+  kind: screenshot
+  description: カボチャナイト・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+pumpkin-knight-base-star2:
+  kind: screenshot
+  description: カボチャナイト・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+pumpkin-knight-base-star3:
+  kind: screenshot
+  description: カボチャナイト・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+pumpkin-knight-base-up1:
+  kind: screenshot
+  description: カボチャナイト・現在Lv.7の育成一覧1
+  mode: standard
+pumpkin-knight-base-up2:
+  kind: screenshot
+  description: カボチャナイト・現在Lv.7の育成一覧2
+  mode: standard
+pakupaku-flower-memo:
+  kind: user
+  description: パクパクフラワーの攻略メモ（評価・使い方・注意点）
+chili-judge-memo:
+  kind: user
+  description: チリジャッジの攻略メモ（評価・使い方・注意点）
+mojiton-memo:
+  kind: user
+  description: モヒートンの攻略メモ（評価・使い方・注意点）
+grape-bartender-memo:
+  kind: user
+  description: グレープバーテンダーの攻略メモ（評価・使い方・注意点）
+pumpkin-knight-memo:
+  kind: user
+  description: カボチャナイトの攻略メモ（評価・使い方・注意点）
+rc-cloud-bond:
+  kind: screenshot
+  description: ランブルチェスカードプール・雲デッキの絆説明。雲の絆の4〜50の10段階と効果全文を確認。
+  mode: rumble-chess
+  screen: bond-description
+rc-moon-bond:
+  kind: screenshot
+  description: ランブルチェスカードプール・月デッキの絆説明。月の絆の4〜50の10段階と効果全文を確認。
+  mode: rumble-chess
+  screen: bond-description
+rc-sun-bond:
+  kind: screenshot
+  description: ランブルチェスカードプール・太陽デッキの絆説明。太陽の絆の4〜50の10段階と効果全文を確認。
+  mode: rumble-chess
+  screen: bond-description
+rc-thunder-bond:
+  kind: screenshot
+  description: ランブルチェスカードプール・雷デッキの絆説明。雷の絆の4〜50の10段階と効果全文を確認。
+  mode: rumble-chess
+  screen: bond-description
+rc-droplet-bond:
+  kind: screenshot
+  description: ランブルチェスカードプール・雫デッキの絆説明。雫の絆の4〜50の10段階と効果全文を確認。
+  mode: rumble-chess
+  screen: bond-description
+rc-star-bond:
+  kind: screenshot
+  description: ランブルチェスカードプール・星デッキの絆説明。星の絆の4〜50の10段階と効果全文を確認。
+  mode: rumble-chess
+  screen: bond-description
+rc-bond-replacement-user:
+  kind: user
+  mode: rumble-chess
+  description: 2026-09-22ユーザー確認。絆の段階間の効果は累積せず置き換わる。例：雲の絆が8の時は8の効果（攻撃力+2）のみ発動し、4の効果は発動しない。

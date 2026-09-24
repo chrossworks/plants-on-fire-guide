@@ -18,6 +18,11 @@ export async function validate() {
   const paths = new Set();
   const rumble = loadRumble();
   walk(rumble,'rumble-chess');
+  for (const d of rumble.decks) {
+    for (const f of [d.bond.name, d.bond.tiers]) for (const s of f.sources || []) {
+      if (f.status === 'observed' && (sources[s]?.kind !== 'screenshot' || sources[s]?.mode !== 'rumble-chess' || sources[s]?.screen !== 'bond-description')) fail(`絆効果の画像根拠が不正: ${d.id} / ${s}`);
+    }
+  }
   const memberships = new Map();
   for (const d of rumble.decks) for (const name of d.members.value || []) {
     if (memberships.has(name)) fail(`絆所属の重複: ${name}`);

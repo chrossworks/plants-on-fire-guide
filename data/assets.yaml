@@ -355,3 +355,43 @@ garlic-ranger-icon:
 tumble-roller-icon:
   path: images/minions/tumble-roller/icon.webp
   alt: タンブルローラーのカードアイコン（撮影時のLv表示を含む）
+
+pakupaku-flower-portrait:
+  path: images/minions/pakupaku-flower/portrait.webp
+  alt: パクパクフラワーの基本形
+pakupaku-flower-v1:
+  path: images/minions/pakupaku-flower/variant-1.webp
+  alt: パクパクフラワーⅠのバリアントカード
+chili-judge-portrait:
+  path: images/minions/chili-judge/portrait.webp
+  alt: チリジャッジの基本形
+chili-judge-v1:
+  path: images/minions/chili-judge/variant-1.webp
+  alt: チリジャッジⅠのバリアントカード
+mojiton-portrait:
+  path: images/minions/mojiton/portrait.webp
+  alt: モヒートンの基本形
+mojiton-v1:
+  path: images/minions/mojiton/variant-1.webp
+  alt: モヒートンⅠのバリアントカード
+grape-bartender-portrait:
+  path: images/minions/grape-bartender/portrait.webp
+  alt: グレープバーテンダーの基本形
+grape-bartender-v1:
+  path: images/minions/grape-bartender/variant-1.webp
+  alt: グレープバーテンダーⅠのバリアントカード
+pumpkin-knight-portrait:
+  path: images/minions/pumpkin-knight/portrait.webp
+  alt: カボチャナイトの基本形
+pakupaku-flower-icon:
+  path: images/minions/pakupaku-flower/icon.webp
+  alt: パクパクフラワーのカードアイコン（撮影時のLv表示を含む）
+mojiton-icon:
+  path: images/minions/mojiton/icon.webp
+  alt: モヒートンのカードアイコン（撮影時のLv表示を含む）
+grape-bartender-icon:
+  path: images/minions/grape-bartender/icon.webp
+  alt: グレープバーテンダーのカードアイコン（撮影時のLv表示を含む）
+pumpkin-knight-icon:
+  path: images/minions/pumpkin-knight/icon.webp
+  alt: カボチャナイトのカードアイコン（撮影時のLv表示を含む）

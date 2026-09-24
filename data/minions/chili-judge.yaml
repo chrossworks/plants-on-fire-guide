@@ -1,0 +1,434 @@
+schemaVersion: 1
+id: chili-judge
+name: チリジャッジ
+reading: ちりじゃっじ
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - chili-judge-base-star1
+    - chili-judge-base-star2
+    - chili-judge-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - chili-judge-base-star1
+    - chili-judge-base-star2
+    - chili-judge-base-star3
+updated: 2026-09-21
+portrait: chili-judge-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: chili-judge-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - chili-judge-base-star1
+      - chili-judge-base-star2
+      - chili-judge-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - chili-judge-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - chili-judge-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - chili-judge-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - chili-judge-base-star1
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの★-1（星アップ1回分として扱う）
+          keywords:
+            - placement
+        sources:
+          - chili-judge-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - chili-judge-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - chili-judge-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - chili-judge-base-star2
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの★-1（星アップ1回分として扱う）
+          keywords:
+            - placement
+        sources:
+          - chili-judge-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - chili-judge-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - chili-judge-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - chili-judge-base-star3
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの★-1（星アップ1回分として扱う）
+          keywords:
+            - placement
+        sources:
+          - chili-judge-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 10
+      sources:
+        - chili-judge-base-star1
+        - chili-judge-base-star2
+        - chili-judge-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの★-1（星アップ1回分として扱う）
+          keywords:
+            - placement
+        sources:
+          - chili-judge-base-star1
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの★-1（星アップ1回分として扱う）
+          keywords:
+            - placement
+        sources:
+          - chili-judge-base-star2
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの★-1（星アップ1回分として扱う）
+          keywords:
+            - placement
+        sources:
+          - chili-judge-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 指定したミニオンにチリジャッジの攻撃力の20%を付与する
+          operation: ability_set
+          value: 20
+          unit: percent
+        sources:
+          - chili-judge-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 指定したミニオンにチリジャッジの攻撃力の40%を付与する
+          operation: ability_set
+          value: 40
+          unit: percent
+        sources:
+          - chili-judge-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 1マッチにつき、最初のチリジャッジ2体の購入価格-1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - chili-judge-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: |-
+            指定したミニオンにチリジャッジの攻撃力の70%を付与する
+            1マッチにつき、最初のチリジャッジ3体の購入価格-1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - chili-judge-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: |-
+            指定したミニオンにチリジャッジの攻撃力の100%を付与する
+            1マッチにつき、最初のチリジャッジ4体の購入価格-1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - chili-judge-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - chili-judge-base-up1
+      - chili-judge-base-up2
+  acquisition:
+    status: observed
+    value: バトルロードで獲得
+    sources:
+      - chili-judge-base-star1
+      - chili-judge-base-star2
+      - chili-judge-base-star3
+  poolUnlock:
+    status: absent
+    reason: 基本形の入手方法欄全体にカードプール解放条件の記載がない。
+    sources:
+      - chili-judge-base-star1
+      - chili-judge-base-star2
+      - chili-judge-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: チリジャッジⅠ
+      image: chili-judge-v1
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - chili-judge-v1-star1
+          - chili-judge-v1-star2
+          - chili-judge-v1-star3
+      displayLevel:
+        status: observed
+        value: 7
+        sources:
+          - chili-judge-v1-star1
+          - chili-judge-v1-star2
+          - chili-judge-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 7
+        sources:
+          - chili-judge-v1-up1
+      conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - chili-judge-v1-star1
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - chili-judge-v1-star1
+            target:
+              status: observed
+              value: 攻撃不可
+              sources:
+                - chili-judge-v1-star1
+          ability:
+            status: observed
+            value:
+              text: |-
+                魔法（4秒）：敵のランダムな★2以上のミニオン1体の星ランクを一時的に-1
+                さらに、攻撃力をチリジャッジの攻撃力の10%分低下させる
+              keywords:
+                - temporary
+            sources:
+              - chili-judge-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - chili-judge-v1-star2
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - chili-judge-v1-star2
+            target:
+              status: observed
+              value: 攻撃不可
+              sources:
+                - chili-judge-v1-star2
+          ability:
+            status: observed
+            value:
+              text: |-
+                魔法（4秒）：敵のランダムな★2以上のミニオン1体の星ランクを一時的に-1
+                さらに、攻撃力をチリジャッジの攻撃力の20%分低下させる
+              keywords:
+                - temporary
+            sources:
+              - chili-judge-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - chili-judge-v1-star3
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - chili-judge-v1-star3
+            target:
+              status: observed
+              value: 攻撃不可
+              sources:
+                - chili-judge-v1-star3
+          ability:
+            status: observed
+            value:
+              text: |-
+                魔法（4秒）：敵のランダムな★2以上のミニオン1体の星ランクを一時的に-1
+                さらに、攻撃力をチリジャッジの攻撃力の40%分低下させる
+              keywords:
+                - temporary
+            sources:
+              - chili-judge-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - chili-judge-v1-star1
+            - chili-judge-v1-star2
+            - chili-judge-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: |-
+                魔法（4秒）：敵のランダムな★2以上のミニオン1体の星ランクを一時的に-1
+                さらに、攻撃力をチリジャッジの攻撃力の10%分低下させる
+              keywords:
+                - temporary
+            sources:
+              - chili-judge-v1-star1
+          - status: observed
+            value:
+              text: |-
+                魔法（4秒）：敵のランダムな★2以上のミニオン1体の星ランクを一時的に-1
+                さらに、攻撃力をチリジャッジの攻撃力の20%分低下させる
+              keywords:
+                - temporary
+            sources:
+              - chili-judge-v1-star2
+          - status: observed
+            value:
+              text: |-
+                魔法（4秒）：敵のランダムな★2以上のミニオン1体の星ランクを一時的に-1
+                さらに、攻撃力をチリジャッジの攻撃力の40%分低下させる
+              keywords:
+                - temporary
+            sources:
+              - chili-judge-v1-star3
+      bonuses:
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ダウン効果が15%に上昇する
+              operation: ability_set
+              value: 15
+              unit: percent
+            sources:
+              - chili-judge-v1-up1
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ダウン効果が20%に上昇する
+              operation: ability_set
+              value: 20
+              unit: percent
+            sources:
+              - chili-judge-v1-up1
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: バトル開始時、即座にこのスキルを1回発動する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - chili-judge-v1-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ダウン効果が27%に上昇する
+              operation: ability_set
+              value: 27
+              unit: percent
+            sources:
+              - chili-judge-v1-up2
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ダウン効果が35%に上昇する
+              operation: ability_set
+              value: 35
+              unit: percent
+            sources:
+              - chili-judge-v1-up2
+      bonusCoverage:
+        status: observed
+        value:
+          from: 8
+          through: 12
+        sources:
+          - chili-judge-v1-up1
+          - chili-judge-v1-up2
+      acquisition:
+        status: observed
+        value: クランショップで獲得
+        sources:
+          - chili-judge-v1-star1
+          - chili-judge-v1-star2
+          - chili-judge-v1-star3

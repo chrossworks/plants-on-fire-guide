@@ -109,6 +109,8 @@ YAMLスキーマ、星とLvの重複、根拠・用語・画像ID、記事とミ
 data/rumble-chess.yamlは通常ミニオンデータから独立した正本。現在はページから読み込まず、検証と確認票だけに使用する。
 
 - decks：固定ID、画像確認したデッキ名、所属ミニオン名の配列（members）と根拠。未掲載ミニオンも収録できるよう、サイトのミニオン記事作成を要求しない。将来IDで結ぶ際は名前を照合する。
+- decks[].bond：name（絆名のfact）、tiers（段階配列のfact）、tierApplication（段階の適用方式のfact）、mechanics（その他の適用ルールのfact）。tiers.valueの各行にthreshold（画像左列の段階値）、text（効果全文、折り返しと空白のみ整形）、amount（効果量）、unit（points＝攻撃力、percent＝HP割合、coins＝サンコイン個数）を保持する。百分率は4%なら4。根拠はname.sourcesとtiers.sourcesから参照できる。
+- 後日のページではloadRumble()からdecks[].members.valueとbond.tiers.valueを同じデッキIDで参照する。原文の「準備完了」「オーラ」や対象条件もtextに保持。段階の効果は累積せず置き換わる（2026-09-22ユーザー確認）。tierApplicationはmanual・replaceとして保存する。例：雲の絆8では攻撃力+2のみ発動し、段階4の+1は加算しない。ポイント集計方法は引き続きmechanicsをunknownで保存する。未掲載段階の補間や段階値の累積計算は行わない。
 - observations：任意の詳細画面観測。名前、画像根拠、デッキID、現在Lv、最低保証Lv、選択中の星、絆ポイント、表示性能、撮影条件。
 - 星別の3枚/4枚セットは要求しない。撮影した星だけ記録し、未撮影の星を自動生成しない。ランブルチェス画像がないミニオンの項目追加も必須ではない。
 - sources台帳のmode・screenは画像を見た分類結果。variantControlは通常詳細でバリアント欄を確認した結果。スクリプトによる画像分類ではない。
