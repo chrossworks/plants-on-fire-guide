@@ -46,3 +46,11 @@ shield:
     value: シールドは1スタックごとにダメージを1回防ぐ
     sources:
       - rush-shield-keywords
+
+magic:
+  name: 魔法
+  definition:
+    status: observed
+    value: チャージ完了後にのみ有効
+    sources:
+      - magic-keyword

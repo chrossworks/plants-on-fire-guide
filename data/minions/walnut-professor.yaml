@@ -1,0 +1,246 @@
+schemaVersion: 1
+id: walnut-professor
+name: クルミ博士
+reading: くるみはかせ
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - walnut-professor-base-star1
+    - walnut-professor-base-star2
+    - walnut-professor-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - walnut-professor-base-star1
+    - walnut-professor-base-star2
+    - walnut-professor-base-star3
+updated: 2026-09-24
+icon: walnut-professor-icon
+portrait: walnut-professor-portrait
+evaluation:
+  rank: S
+  scope: 基本形の総合評価
+  source: walnut-professor-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - walnut-professor-base-star1
+      - walnut-professor-base-star2
+      - walnut-professor-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - walnut-professor-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - walnut-professor-base-star1
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - walnut-professor-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - walnut-professor-base-star1
+      ability:
+        status: observed
+        value:
+          text: |-
+            他のミニオンが星アップすると、自身の研究値+1
+            準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - walnut-professor-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - walnut-professor-base-star2
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - walnut-professor-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - walnut-professor-base-star2
+      ability:
+        status: observed
+        value:
+          text: |-
+            他のミニオンが星アップすると、自身の研究値+2
+            準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - walnut-professor-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 6
+          sources:
+            - walnut-professor-base-star3
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - walnut-professor-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - walnut-professor-base-star3
+      ability:
+        status: observed
+        value:
+          text: |-
+            他のミニオンが星アップすると、自身の研究値+4
+            準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - walnut-professor-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 6
+      sources:
+        - walnut-professor-base-star1
+        - walnut-professor-base-star2
+        - walnut-professor-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: |-
+            他のミニオンが星アップすると、自身の研究値+1
+            準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - walnut-professor-base-star1
+      - status: observed
+        value:
+          text: |-
+            他のミニオンが星アップすると、自身の研究値+2
+            準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - walnut-professor-base-star2
+      - status: observed
+        value:
+          text: |-
+            他のミニオンが星アップすると、自身の研究値+4
+            準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - walnut-professor-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 準備完了：研究値に応じて変換される攻撃力が225%に上昇する
+          operation: ability_set
+          value: 225
+          unit: percent
+        sources:
+          - walnut-professor-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 準備完了：研究値に応じて変換される攻撃力が250%に上昇する
+          operation: ability_set
+          value: 250
+          unit: percent
+        sources:
+          - walnut-professor-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: クルミ博士に攻撃力ボーナスを付与できない
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - walnut-professor-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 準備完了：研究値に応じて変換される攻撃力が290%に上昇する
+          operation: ability_set
+          value: 290
+          unit: percent
+        sources:
+          - walnut-professor-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 準備完了：研究値に応じて変換される攻撃力が330%に上昇する
+          operation: ability_set
+          value: 330
+          unit: percent
+        sources:
+          - walnut-professor-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - walnut-professor-base-up1
+      - walnut-professor-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - walnut-professor-base-star1
+      - walnut-professor-base-star2
+      - walnut-professor-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー1000
+    sources:
+      - walnut-professor-base-star1
+      - walnut-professor-base-star2
+      - walnut-professor-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - walnut-professor-base-star1
+    - walnut-professor-base-star2
+    - walnut-professor-base-star3
+  items: []

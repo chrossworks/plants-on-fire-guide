@@ -1,0 +1,222 @@
+schemaVersion: 1
+id: mango-ninja
+name: マンゴーニンジャ
+reading: まんごーにんじゃ
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - mango-ninja-base-star1
+    - mango-ninja-base-star2
+    - mango-ninja-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - mango-ninja-base-star1
+    - mango-ninja-base-star2
+    - mango-ninja-base-star3
+updated: 2026-09-24
+icon: mango-ninja-icon
+portrait: mango-ninja-portrait
+evaluation:
+  rank: S
+  scope: 基本形の総合評価
+  source: mango-ninja-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - mango-ninja-base-star1
+      - mango-ninja-base-star2
+      - mango-ninja-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - mango-ninja-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 12
+          sources:
+            - mango-ninja-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mango-ninja-base-star1
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - mango-ninja-base-star1
+      ability:
+        status: observed
+        value:
+          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+20%
+          keywords: []
+        sources:
+          - mango-ninja-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 12
+          sources:
+            - mango-ninja-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mango-ninja-base-star2
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - mango-ninja-base-star2
+      ability:
+        status: observed
+        value:
+          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+22%
+          keywords: []
+        sources:
+          - mango-ninja-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 12
+          sources:
+            - mango-ninja-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mango-ninja-base-star3
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - mango-ninja-base-star3
+      ability:
+        status: observed
+        value:
+          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+24%
+          keywords: []
+        sources:
+          - mango-ninja-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 12
+      sources:
+        - mango-ninja-base-star1
+        - mango-ninja-base-star2
+        - mango-ninja-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+20%
+          keywords: []
+        sources:
+          - mango-ninja-base-star1
+      - status: observed
+        value:
+          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+22%
+          keywords: []
+        sources:
+          - mango-ninja-base-star2
+      - status: observed
+        value:
+          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+24%
+          keywords: []
+        sources:
+          - mango-ninja-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 名前が異なる他のミニオン1体につき、攻撃速度+23%
+          operation: ability_set
+          value: 23
+          unit: percent
+        sources:
+          - mango-ninja-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 名前が異なる他のミニオン1体につき、攻撃速度+26%
+          operation: ability_set
+          value: 26
+          unit: percent
+        sources:
+          - mango-ninja-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 同名ミニオンがいない場合、攻撃時に他のランダムな敵に15%の追加ダメージを与える
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - mango-ninja-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 名前が異なる他のミニオン1体につき、攻撃速度+29%
+          operation: ability_set
+          value: 29
+          unit: percent
+        sources:
+          - mango-ninja-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 名前が異なる他のミニオン1体につき、攻撃速度+32%
+          operation: ability_set
+          value: 32
+          unit: percent
+        sources:
+          - mango-ninja-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - mango-ninja-base-up1
+      - mango-ninja-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - mango-ninja-base-star1
+      - mango-ninja-base-star2
+      - mango-ninja-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー550
+    sources:
+      - mango-ninja-base-star1
+      - mango-ninja-base-star2
+      - mango-ninja-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - mango-ninja-base-star1
+    - mango-ninja-base-star2
+    - mango-ninja-base-star3
+  items: []

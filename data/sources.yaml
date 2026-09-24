@@ -2710,3 +2710,153 @@ rc-bond-replacement-user:
   kind: user
   mode: rumble-chess
   description: 2026-09-22ユーザー確認。絆の段階間の効果は累積せず置き換わる。例：雲の絆が8の時は8の効果（攻撃力+2）のみ発動し、4の効果は発動しない。
+
+samurai-take-base-star1:
+  kind: screenshot
+  description: サムライタケ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+samurai-take-base-star2:
+  kind: screenshot
+  description: サムライタケ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+samurai-take-base-star3:
+  kind: screenshot
+  description: サムライタケ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+samurai-take-base-up1:
+  kind: screenshot
+  description: サムライタケ・現在Lv.7の育成一覧1
+  mode: standard
+samurai-take-base-up2:
+  kind: screenshot
+  description: サムライタケ・現在Lv.7の育成一覧2
+  mode: standard
+samurai-take-memo:
+  kind: user
+  description: サムライタケの攻略メモ（評価・使い方・注意点）
+mango-ninja-base-star1:
+  kind: screenshot
+  description: マンゴーニンジャ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+mango-ninja-base-star2:
+  kind: screenshot
+  description: マンゴーニンジャ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+mango-ninja-base-star3:
+  kind: screenshot
+  description: マンゴーニンジャ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+mango-ninja-base-up1:
+  kind: screenshot
+  description: マンゴーニンジャ・現在Lv.7の育成一覧1
+  mode: standard
+mango-ninja-base-up2:
+  kind: screenshot
+  description: マンゴーニンジャ・現在Lv.7の育成一覧2
+  mode: standard
+mango-ninja-memo:
+  kind: user
+  description: マンゴーニンジャの攻略メモ（評価・使い方・注意点）
+zakuro-blaster-base-star1:
+  kind: screenshot
+  description: ザクロブラスター・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+zakuro-blaster-base-star2:
+  kind: screenshot
+  description: ザクロブラスター・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+zakuro-blaster-base-star3:
+  kind: screenshot
+  description: ザクロブラスター・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+zakuro-blaster-base-up1:
+  kind: screenshot
+  description: ザクロブラスター・現在Lv.7の育成一覧1
+  mode: standard
+zakuro-blaster-base-up2:
+  kind: screenshot
+  description: ザクロブラスター・現在Lv.7の育成一覧2
+  mode: standard
+zakuro-blaster-memo:
+  kind: user
+  description: ザクロブラスターの攻略メモ（評価・使い方・注意点）
+violet-mage-base-star1:
+  kind: screenshot
+  description: バイオレット魔法使い・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+violet-mage-base-star2:
+  kind: screenshot
+  description: バイオレット魔法使い・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+violet-mage-base-star3:
+  kind: screenshot
+  description: バイオレット魔法使い・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+violet-mage-base-up1:
+  kind: screenshot
+  description: バイオレット魔法使い・現在Lv.7の育成一覧1
+  mode: standard
+violet-mage-base-up2:
+  kind: screenshot
+  description: バイオレット魔法使い・現在Lv.7の育成一覧2
+  mode: standard
+violet-mage-memo:
+  kind: user
+  description: バイオレット魔法使いの攻略メモ（評価・使い方・注意点）
+walnut-professor-base-star1:
+  kind: screenshot
+  description: クルミ博士・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+walnut-professor-base-star2:
+  kind: screenshot
+  description: クルミ博士・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+walnut-professor-base-star3:
+  kind: screenshot
+  description: クルミ博士・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+walnut-professor-base-up1:
+  kind: screenshot
+  description: クルミ博士・現在Lv.7の育成一覧1
+  mode: standard
+walnut-professor-base-up2:
+  kind: screenshot
+  description: クルミ博士・現在Lv.7の育成一覧2
+  mode: standard
+walnut-professor-memo:
+  kind: user
+  description: クルミ博士の攻略メモ（評価・使い方・注意点）
+magic-keyword:
+  kind: screenshot
+  description: 魔法の用語説明
+  mode: standard

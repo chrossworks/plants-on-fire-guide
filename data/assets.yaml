@@ -395,3 +395,34 @@ grape-bartender-icon:
 pumpkin-knight-icon:
   path: images/minions/pumpkin-knight/icon.webp
   alt: カボチャナイトのカードアイコン（撮影時のLv表示を含む）
+
+samurai-take-portrait:
+  path: images/minions/samurai-take/portrait.webp
+  alt: サムライタケの基本形
+samurai-take-icon:
+  path: images/minions/samurai-take/icon.webp
+  alt: サムライタケのカードアイコン（撮影時のLv表示を含む）
+mango-ninja-portrait:
+  path: images/minions/mango-ninja/portrait.webp
+  alt: マンゴーニンジャの基本形
+mango-ninja-icon:
+  path: images/minions/mango-ninja/icon.webp
+  alt: マンゴーニンジャのカードアイコン（撮影時のLv表示を含む）
+zakuro-blaster-portrait:
+  path: images/minions/zakuro-blaster/portrait.webp
+  alt: ザクロブラスターの基本形
+zakuro-blaster-icon:
+  path: images/minions/zakuro-blaster/icon.webp
+  alt: ザクロブラスターのカードアイコン（撮影時のLv表示を含む）
+violet-mage-portrait:
+  path: images/minions/violet-mage/portrait.webp
+  alt: バイオレット魔法使いの基本形
+violet-mage-icon:
+  path: images/minions/violet-mage/icon.webp
+  alt: バイオレット魔法使いのカードアイコン（撮影時のLv表示を含む）
+walnut-professor-portrait:
+  path: images/minions/walnut-professor/portrait.webp
+  alt: クルミ博士の基本形
+walnut-professor-icon:
+  path: images/minions/walnut-professor/icon.webp
+  alt: クルミ博士のカードアイコン（撮影時のLv表示を含む）
