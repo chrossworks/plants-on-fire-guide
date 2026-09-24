@@ -2860,3 +2860,210 @@ magic-keyword:
   kind: screenshot
   description: 魔法の用語説明
   mode: standard
+
+ghost-orchid-base-star1:
+  kind: screenshot
+  description: ゴーストオーキッド・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+ghost-orchid-base-star2:
+  kind: screenshot
+  description: ゴーストオーキッド・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+ghost-orchid-base-star3:
+  kind: screenshot
+  description: ゴーストオーキッド・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+ghost-orchid-base-up1:
+  kind: screenshot
+  description: ゴーストオーキッド・現在Lv.7の育成一覧1
+  mode: standard
+ghost-orchid-base-up2:
+  kind: screenshot
+  description: ゴーストオーキッド・現在Lv.7の育成一覧2
+  mode: standard
+dandelion-base-star1:
+  kind: screenshot
+  description: ダンデライオン・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+dandelion-base-star2:
+  kind: screenshot
+  description: ダンデライオン・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+dandelion-base-star3:
+  kind: screenshot
+  description: ダンデライオン・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+dandelion-base-up1:
+  kind: screenshot
+  description: ダンデライオン・現在Lv.7の育成一覧1
+  mode: standard
+dandelion-base-up2:
+  kind: screenshot
+  description: ダンデライオン・現在Lv.7の育成一覧2
+  mode: standard
+dandelion-v2-star1:
+  kind: screenshot
+  description: ダンデライオンⅡ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+dandelion-v2-star2:
+  kind: screenshot
+  description: ダンデライオンⅡ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+dandelion-v2-star3:
+  kind: screenshot
+  description: ダンデライオンⅡ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+dandelion-v2-up1:
+  kind: screenshot
+  description: ダンデライオンⅡ・現在Lv.7の育成一覧1
+  mode: standard
+dandelion-v2-up2:
+  kind: screenshot
+  description: ダンデライオンⅡ・現在Lv.7の育成一覧2
+  mode: standard
+broccolism-base-star1:
+  kind: screenshot
+  description: ブロッコリズム・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+broccolism-base-star2:
+  kind: screenshot
+  description: ブロッコリズム・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+broccolism-base-star3:
+  kind: screenshot
+  description: ブロッコリズム・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+broccolism-base-up1:
+  kind: screenshot
+  description: ブロッコリズム・現在Lv.7の育成一覧1
+  mode: standard
+broccolism-base-up2:
+  kind: screenshot
+  description: ブロッコリズム・現在Lv.7の育成一覧2
+  mode: standard
+broccolism-v1-star1:
+  kind: screenshot
+  description: ブロッコリズムⅠ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+broccolism-v1-star2:
+  kind: screenshot
+  description: ブロッコリズムⅠ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+broccolism-v1-star3:
+  kind: screenshot
+  description: ブロッコリズムⅠ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+broccolism-v1-up1:
+  kind: screenshot
+  description: ブロッコリズムⅠ・現在Lv.7の育成一覧1
+  mode: standard
+broccolism-v1-up2:
+  kind: screenshot
+  description: ブロッコリズムⅠ・現在Lv.7の育成一覧2
+  mode: standard
+orange-twins-base-star1:
+  kind: screenshot
+  description: オレンジツインズ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+orange-twins-base-star2:
+  kind: screenshot
+  description: オレンジツインズ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+orange-twins-base-star3:
+  kind: screenshot
+  description: オレンジツインズ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+orange-twins-base-up1:
+  kind: screenshot
+  description: オレンジツインズ・現在Lv.7の育成一覧1
+  mode: standard
+orange-twins-base-up2:
+  kind: screenshot
+  description: オレンジツインズ・現在Lv.7の育成一覧2
+  mode: standard
+melon-accountant-base-star1:
+  kind: screenshot
+  description: メロンアカウンタント・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+melon-accountant-base-star2:
+  kind: screenshot
+  description: メロンアカウンタント・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+melon-accountant-base-star3:
+  kind: screenshot
+  description: メロンアカウンタント・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+melon-accountant-base-up1:
+  kind: screenshot
+  description: メロンアカウンタント・現在Lv.4の育成一覧1
+  mode: standard
+melon-accountant-base-up2:
+  kind: screenshot
+  description: メロンアカウンタント・現在Lv.4の育成一覧2
+  mode: standard
+melon-accountant-base-up3:
+  kind: screenshot
+  description: メロンアカウンタント・現在Lv.4の育成一覧3
+  mode: standard
+ghost-orchid-memo:
+  kind: user
+  description: ゴーストオーキッドの攻略メモ（評価・使い方・注意点）
+dandelion-memo:
+  kind: user
+  description: ダンデライオンの攻略メモ（評価・使い方・注意点）
+broccolism-memo:
+  kind: user
+  description: ブロッコリズムの攻略メモ（評価・使い方・注意点）
+orange-twins-memo:
+  kind: user
+  description: オレンジツインズの攻略メモ（評価・使い方・注意点）
+melon-accountant-memo:
+  kind: user
+  description: メロンアカウンタントの攻略メモ（評価・使い方・注意点）
+broccolism-icon-source:
+  kind: screenshot
+  description: ブロッコリズムの通常ミニオン一覧アイコン
+  mode: standard
+  screen: pool-list

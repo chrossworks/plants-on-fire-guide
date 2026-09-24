@@ -1,0 +1,431 @@
+schemaVersion: 1
+id: broccolism
+name: ブロッコリズム
+reading: ぶろっこりずむ
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - broccolism-base-star1
+    - broccolism-base-star2
+    - broccolism-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - broccolism-base-star1
+    - broccolism-base-star2
+    - broccolism-base-star3
+updated: 2026-09-24
+portrait: broccolism-portrait
+icon: broccolism-icon
+evaluation:
+  rank: S
+  scope: 基本形の総合評価
+  source: broccolism-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - broccolism-base-star1
+      - broccolism-base-star2
+      - broccolism-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - broccolism-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - broccolism-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - broccolism-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - broccolism-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+15%
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - broccolism-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - broccolism-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - broccolism-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - broccolism-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+30%
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - broccolism-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - broccolism-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - broccolism-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - broccolism-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+60%
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - broccolism-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 10
+      sources:
+        - broccolism-base-star1
+        - broccolism-base-star2
+        - broccolism-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+15%
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - broccolism-base-star1
+      - status: observed
+        value:
+          text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+30%
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - broccolism-base-star2
+      - status: observed
+        value:
+          text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+60%
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - broccolism-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃速度ボーナスが17%に上昇する
+          operation: ability_set
+          value: 17
+          unit: percent
+        sources:
+          - broccolism-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃速度ボーナスが19%に上昇する
+          operation: ability_set
+          value: 19
+          unit: percent
+        sources:
+          - broccolism-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃速度ボーナスが22%に上昇する
+          operation: ability_set
+          value: 22
+          unit: percent
+        sources:
+          - broccolism-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃速度ボーナスが25%に上昇する
+          operation: ability_set
+          value: 25
+          unit: percent
+        sources:
+          - broccolism-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 一時攻撃速度ボーナスが28%に上昇する
+          operation: ability_set
+          value: 28
+          unit: percent
+        sources:
+          - broccolism-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - broccolism-base-up1
+      - broccolism-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - broccolism-base-star1
+      - broccolism-base-star2
+      - broccolism-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー550
+    sources:
+      - broccolism-base-star1
+      - broccolism-base-star2
+      - broccolism-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントを掲載しています。
+  items:
+    - id: variant-1
+      name: ブロッコリズムⅠ
+      image: broccolism-v1
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - broccolism-v1-star1
+          - broccolism-v1-star2
+          - broccolism-v1-star3
+      displayLevel:
+        status: observed
+        value: 7
+        sources:
+          - broccolism-v1-star1
+          - broccolism-v1-star2
+          - broccolism-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 7
+        sources:
+          - broccolism-v1-up1
+      conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - broccolism-v1-star1
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - broccolism-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - broccolism-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+10%。フィールド上に他のブロッコリズムがいない場合、効果が2倍になる
+              keywords:
+                - temporary
+                - ready
+            sources:
+              - broccolism-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - broccolism-v1-star2
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - broccolism-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - broccolism-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+20%。フィールド上に他のブロッコリズムがいない場合、効果が2倍になる
+              keywords:
+                - temporary
+                - ready
+            sources:
+              - broccolism-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - broccolism-v1-star3
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - broccolism-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - broccolism-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+40%。フィールド上に他のブロッコリズムがいない場合、効果が2倍になる
+              keywords:
+                - temporary
+                - ready
+            sources:
+              - broccolism-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - broccolism-v1-star1
+            - broccolism-v1-star2
+            - broccolism-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+10%。フィールド上に他のブロッコリズムがいない場合、効果が2倍になる
+              keywords:
+                - temporary
+                - ready
+            sources:
+              - broccolism-v1-star1
+          - status: observed
+            value:
+              text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+20%。フィールド上に他のブロッコリズムがいない場合、効果が2倍になる
+              keywords:
+                - temporary
+                - ready
+            sources:
+              - broccolism-v1-star2
+          - status: observed
+            value:
+              text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+40%。フィールド上に他のブロッコリズムがいない場合、効果が2倍になる
+              keywords:
+                - temporary
+                - ready
+            sources:
+              - broccolism-v1-star3
+      bonuses:
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 一時攻撃速度ボーナスが12%に上昇する
+              operation: ability_set
+              value: 12
+              unit: percent
+            sources:
+              - broccolism-v1-up1
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 一時攻撃速度ボーナスが14%に上昇する
+              operation: ability_set
+              value: 14
+              unit: percent
+            sources:
+              - broccolism-v1-up1
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 一時攻撃速度ボーナスが16%に上昇する
+              operation: ability_set
+              value: 16
+              unit: percent
+            sources:
+              - broccolism-v1-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 一時攻撃速度ボーナスが18%に上昇する
+              operation: ability_set
+              value: 18
+              unit: percent
+            sources:
+              - broccolism-v1-up2
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 一時攻撃速度ボーナスが20%に上昇する
+              operation: ability_set
+              value: 20
+              unit: percent
+            sources:
+              - broccolism-v1-up2
+      bonusCoverage:
+        status: observed
+        value:
+          from: 8
+          through: 12
+        sources:
+          - broccolism-v1-up1
+          - broccolism-v1-up2
+      acquisition:
+        status: observed
+        value: クランショップで獲得
+        sources:
+          - broccolism-v1-star1
+          - broccolism-v1-star2
+          - broccolism-v1-star3

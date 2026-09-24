@@ -1,0 +1,431 @@
+schemaVersion: 1
+id: dandelion
+name: ダンデライオン
+reading: だんでらいおん
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - dandelion-base-star1
+    - dandelion-base-star2
+    - dandelion-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - dandelion-base-star1
+    - dandelion-base-star2
+    - dandelion-base-star3
+updated: 2026-09-24
+icon: dandelion-icon
+portrait: dandelion-portrait
+evaluation:
+  rank: S
+  scope: 基本形の総合評価
+  source: dandelion-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - dandelion-base-star1
+      - dandelion-base-star2
+      - dandelion-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - dandelion-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - dandelion-base-star1
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - dandelion-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - dandelion-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：すべての敵ミニオンの攻撃力が一時的に-5%（最低でも-1）
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - dandelion-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - dandelion-base-star2
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - dandelion-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - dandelion-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：すべての敵ミニオンの攻撃力が一時的に-9%（最低でも-2）
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - dandelion-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - dandelion-base-star3
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - dandelion-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - dandelion-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：すべての敵ミニオンの攻撃力が一時的に-15%（最低でも-4）
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - dandelion-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 8
+      sources:
+        - dandelion-base-star1
+        - dandelion-base-star2
+        - dandelion-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：すべての敵ミニオンの攻撃力が一時的に-5%（最低でも-1）
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - dandelion-base-star1
+      - status: observed
+        value:
+          text: 準備完了：すべての敵ミニオンの攻撃力が一時的に-9%（最低でも-2）
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - dandelion-base-star2
+      - status: observed
+        value:
+          text: 準備完了：すべての敵ミニオンの攻撃力が一時的に-15%（最低でも-4）
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - dandelion-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力が最低で一時的に-2
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - dandelion-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力が最低で一時的に-4
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - dandelion-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 攻撃力が一時的に-6%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - dandelion-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力が一時的に-7%（最低でも-5）
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - dandelion-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力が一時的に-8%（最低でも-6）
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - dandelion-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - dandelion-base-up1
+      - dandelion-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - dandelion-base-star1
+      - dandelion-base-star2
+      - dandelion-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー2600
+    sources:
+      - dandelion-base-star1
+      - dandelion-base-star2
+      - dandelion-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントを掲載しています。
+  items:
+    - id: variant-2
+      name: ダンデライオンⅡ
+      image: dandelion-v2
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - dandelion-v2-star1
+          - dandelion-v2-star2
+          - dandelion-v2-star3
+      displayLevel:
+        status: observed
+        value: 7
+        sources:
+          - dandelion-v2-star1
+          - dandelion-v2-star2
+          - dandelion-v2-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 7
+        sources:
+          - dandelion-v2-up1
+      conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 8
+              sources:
+                - dandelion-v2-star1
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - dandelion-v2-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - dandelion-v2-star1
+          ability:
+            status: observed
+            value:
+              text: 配置：自身の攻撃力の50%を一時的に他のすべてのミニオンに付与する（オーラバフは含まない）
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - dandelion-v2-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 8
+              sources:
+                - dandelion-v2-star2
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - dandelion-v2-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - dandelion-v2-star2
+          ability:
+            status: observed
+            value:
+              text: 配置：自身の攻撃力の50%を一時的に他のすべてのミニオンに付与する（オーラバフは含まない）
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - dandelion-v2-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 8
+              sources:
+                - dandelion-v2-star3
+            interval:
+              status: observed
+              value: 3
+              sources:
+                - dandelion-v2-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - dandelion-v2-star3
+          ability:
+            status: observed
+            value:
+              text: 配置：自身の攻撃力の50%を一時的に他のすべてのミニオンに付与する（オーラバフは含まない）
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - dandelion-v2-star3
+      initial:
+        attack:
+          status: observed
+          value: 8
+          sources:
+            - dandelion-v2-star1
+            - dandelion-v2-star2
+            - dandelion-v2-star3
+        abilities:
+          - status: observed
+            value:
+              text: 配置：自身の攻撃力の50%を一時的に他のすべてのミニオンに付与する（オーラバフは含まない）
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - dandelion-v2-star1
+          - status: observed
+            value:
+              text: 配置：自身の攻撃力の50%を一時的に他のすべてのミニオンに付与する（オーラバフは含まない）
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - dandelion-v2-star2
+          - status: observed
+            value:
+              text: 配置：自身の攻撃力の50%を一時的に他のすべてのミニオンに付与する（オーラバフは含まない）
+              keywords:
+                - placement
+                - temporary
+            sources:
+              - dandelion-v2-star3
+      bonuses:
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが自身の攻撃力の55%分に上昇する
+              operation: ability_set
+              value: 55
+              unit: percent
+            sources:
+              - dandelion-v2-up1
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが自身の攻撃力の60%分に上昇する
+              operation: ability_set
+              value: 60
+              unit: percent
+            sources:
+              - dandelion-v2-up1
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが自身の攻撃力の70%分に上昇する
+              operation: ability_set
+              value: 70
+              unit: percent
+            sources:
+              - dandelion-v2-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが自身の攻撃力の80%分に上昇する
+              operation: ability_set
+              value: 80
+              unit: percent
+            sources:
+              - dandelion-v2-up2
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが自身の攻撃力の90%分に上昇する
+              operation: ability_set
+              value: 90
+              unit: percent
+            sources:
+              - dandelion-v2-up2
+      bonusCoverage:
+        status: observed
+        value:
+          from: 8
+          through: 12
+        sources:
+          - dandelion-v2-up1
+          - dandelion-v2-up2
+      acquisition:
+        status: observed
+        value: クランショップで獲得
+        sources:
+          - dandelion-v2-star1
+          - dandelion-v2-star2
+          - dandelion-v2-star3

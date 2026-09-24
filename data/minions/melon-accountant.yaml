@@ -1,0 +1,259 @@
+schemaVersion: 1
+id: melon-accountant
+name: メロンアカウンタント
+reading: めろんあかうんたんと
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - melon-accountant-base-star1
+    - melon-accountant-base-star2
+    - melon-accountant-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - melon-accountant-base-star1
+    - melon-accountant-base-star2
+    - melon-accountant-base-star3
+updated: 2026-09-24
+icon: melon-accountant-icon
+portrait: melon-accountant-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: melon-accountant-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - melon-accountant-base-star1
+      - melon-accountant-base-star2
+      - melon-accountant-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - melon-accountant-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - melon-accountant-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - melon-accountant-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - melon-accountant-base-star1
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+6
+          keywords:
+            - placement
+        sources:
+          - melon-accountant-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - melon-accountant-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - melon-accountant-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - melon-accountant-base-star2
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+6
+          keywords:
+            - placement
+        sources:
+          - melon-accountant-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - melon-accountant-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - melon-accountant-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - melon-accountant-base-star3
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+6
+          keywords:
+            - placement
+        sources:
+          - melon-accountant-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - melon-accountant-base-star1
+        - melon-accountant-base-star2
+        - melon-accountant-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+6
+          keywords:
+            - placement
+        sources:
+          - melon-accountant-base-star1
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+6
+          keywords:
+            - placement
+        sources:
+          - melon-accountant-base-star2
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+6
+          keywords:
+            - placement
+        sources:
+          - melon-accountant-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - melon-accountant-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - melon-accountant-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: マッチ中、メロンアカウンタントを購入するたびに、攻撃力ボーナス+1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - melon-accountant-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - melon-accountant-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - melon-accountant-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが6に上昇し、マッチ中、メロンアカウンタントを購入するたびに、攻撃力ボーナス+2
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - melon-accountant-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが9に上昇し、マッチ中、メロンアカウンタントを購入するたびに、攻撃力ボーナス+2
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - melon-accountant-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが12に上昇し、マッチ中、メロンアカウンタントを購入するたびに、攻撃力ボーナス+2
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - melon-accountant-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - melon-accountant-base-up1
+      - melon-accountant-base-up2
+      - melon-accountant-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - melon-accountant-base-star1
+      - melon-accountant-base-star2
+      - melon-accountant-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー700
+    sources:
+      - melon-accountant-base-star1
+      - melon-accountant-base-star2
+      - melon-accountant-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - melon-accountant-base-star1
+    - melon-accountant-base-star2
+    - melon-accountant-base-star3
+  items: []

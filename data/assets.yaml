@@ -426,3 +426,40 @@ walnut-professor-portrait:
 walnut-professor-icon:
   path: images/minions/walnut-professor/icon.webp
   alt: クルミ博士のカードアイコン（撮影時のLv表示を含む）
+
+ghost-orchid-portrait:
+  path: images/minions/ghost-orchid/portrait.webp
+  alt: ゴーストオーキッドの基本形
+dandelion-portrait:
+  path: images/minions/dandelion/portrait.webp
+  alt: ダンデライオンの基本形
+dandelion-v2:
+  path: images/minions/dandelion/variant-2.webp
+  alt: ダンデライオンⅡのバリアントカード
+broccolism-portrait:
+  path: images/minions/broccolism/portrait.webp
+  alt: ブロッコリズムの基本形
+broccolism-v1:
+  path: images/minions/broccolism/variant-1.webp
+  alt: ブロッコリズムⅠのバリアントカード
+orange-twins-portrait:
+  path: images/minions/orange-twins/portrait.webp
+  alt: オレンジツインズの基本形
+melon-accountant-portrait:
+  path: images/minions/melon-accountant/portrait.webp
+  alt: メロンアカウンタントの基本形
+ghost-orchid-icon:
+  path: images/minions/ghost-orchid/icon.webp
+  alt: ゴーストオーキッドのカードアイコン（撮影時のLv表示を含む）
+dandelion-icon:
+  path: images/minions/dandelion/icon.webp
+  alt: ダンデライオンのカードアイコン（撮影時のLv表示を含む）
+orange-twins-icon:
+  path: images/minions/orange-twins/icon.webp
+  alt: オレンジツインズのカードアイコン（撮影時のLv表示を含む）
+melon-accountant-icon:
+  path: images/minions/melon-accountant/icon.webp
+  alt: メロンアカウンタントのカードアイコン（撮影時のLv表示を含む）
+broccolism-icon:
+  path: images/minions/broccolism/icon.webp
+  alt: ブロッコリズムのカードアイコン（撮影時のLv表示を含む）
