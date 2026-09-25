@@ -3067,3 +3067,233 @@ broccolism-icon-source:
   description: ブロッコリズムの通常ミニオン一覧アイコン
   mode: standard
   screen: pool-list
+
+draful-guard-base-star1:
+  kind: screenshot
+  description: ドラフルガード・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+draful-guard-base-star2:
+  kind: screenshot
+  description: ドラフルガード・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+draful-guard-base-star3:
+  kind: screenshot
+  description: ドラフルガード・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+draful-guard-base-up1:
+  kind: screenshot
+  description: ドラフルガード・現在Lv.4の育成一覧1
+  mode: standard
+draful-guard-base-up2:
+  kind: screenshot
+  description: ドラフルガード・現在Lv.4の育成一覧2
+  mode: standard
+draful-guard-base-up3:
+  kind: screenshot
+  description: ドラフルガード・現在Lv.4の育成一覧3
+  mode: standard
+draful-guard-v1-star1:
+  kind: screenshot
+  description: ドラフルガードⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+draful-guard-v1-star2:
+  kind: screenshot
+  description: ドラフルガードⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+draful-guard-v1-star3:
+  kind: screenshot
+  description: ドラフルガードⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+draful-guard-v1-up1:
+  kind: screenshot
+  description: ドラフルガードⅠ・現在Lv.4の育成一覧1
+  mode: standard
+draful-guard-v1-up2:
+  kind: screenshot
+  description: ドラフルガードⅠ・現在Lv.4の育成一覧2
+  mode: standard
+draful-guard-v1-up3:
+  kind: screenshot
+  description: ドラフルガードⅠ・現在Lv.4の育成一覧3
+  mode: standard
+tele-leafy-base-star1:
+  kind: screenshot
+  description: テレ・リーフィー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+tele-leafy-base-star2:
+  kind: screenshot
+  description: テレ・リーフィー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+tele-leafy-base-star3:
+  kind: screenshot
+  description: テレ・リーフィー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+tele-leafy-base-up1:
+  kind: screenshot
+  description: テレ・リーフィー・現在Lv.4の育成一覧1
+  mode: standard
+tele-leafy-base-up2:
+  kind: screenshot
+  description: テレ・リーフィー・現在Lv.4の育成一覧2
+  mode: standard
+tele-leafy-base-up3:
+  kind: screenshot
+  description: テレ・リーフィー・現在Lv.4の育成一覧3
+  mode: standard
+holly-bat-base-star1:
+  kind: screenshot
+  description: ホーリーバット・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+holly-bat-base-star2:
+  kind: screenshot
+  description: ホーリーバット・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+holly-bat-base-star3:
+  kind: screenshot
+  description: ホーリーバット・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+holly-bat-base-up1:
+  kind: screenshot
+  description: ホーリーバット・現在Lv.4の育成一覧1
+  mode: standard
+holly-bat-base-up2:
+  kind: screenshot
+  description: ホーリーバット・現在Lv.4の育成一覧2
+  mode: standard
+holly-bat-base-up3:
+  kind: screenshot
+  description: ホーリーバット・現在Lv.4の育成一覧3
+  mode: standard
+bamerang-base-star1:
+  kind: screenshot
+  description: バーメラン・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+bamerang-base-star2:
+  kind: screenshot
+  description: バーメラン・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+bamerang-base-star3:
+  kind: screenshot
+  description: バーメラン・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+bamerang-base-up1:
+  kind: screenshot
+  description: バーメラン・現在Lv.4の育成一覧1
+  mode: standard
+bamerang-base-up2:
+  kind: screenshot
+  description: バーメラン・現在Lv.4の育成一覧2
+  mode: standard
+bamerang-base-up3:
+  kind: screenshot
+  description: バーメラン・現在Lv.4の育成一覧3
+  mode: standard
+hoozuki-police-base-star1:
+  kind: screenshot
+  description: ホオズキポリス・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+hoozuki-police-base-star2:
+  kind: screenshot
+  description: ホオズキポリス・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+hoozuki-police-base-star3:
+  kind: screenshot
+  description: ホオズキポリス・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+hoozuki-police-base-up1:
+  kind: screenshot
+  description: ホオズキポリス・現在Lv.4の育成一覧1
+  mode: standard
+hoozuki-police-base-up2:
+  kind: screenshot
+  description: ホオズキポリス・現在Lv.4の育成一覧2
+  mode: standard
+hoozuki-police-base-up3:
+  kind: screenshot
+  description: ホオズキポリス・現在Lv.4の育成一覧3
+  mode: standard
+hoozuki-police-v1-star1:
+  kind: screenshot
+  description: ホオズキポリスⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+hoozuki-police-v1-star2:
+  kind: screenshot
+  description: ホオズキポリスⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+hoozuki-police-v1-star3:
+  kind: screenshot
+  description: ホオズキポリスⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+hoozuki-police-v1-up1:
+  kind: screenshot
+  description: ホオズキポリスⅠ・現在Lv.4の育成一覧1
+  mode: standard
+hoozuki-police-v1-up2:
+  kind: screenshot
+  description: ホオズキポリスⅠ・現在Lv.4の育成一覧2
+  mode: standard
+hoozuki-police-v1-up3:
+  kind: screenshot
+  description: ホオズキポリスⅠ・現在Lv.4の育成一覧3
+  mode: standard
+draful-guard-memo:
+  kind: user
+  description: ドラフルガードの攻略メモ（評価・使い方・注意点）
+tele-leafy-memo:
+  kind: user
+  description: テレ・リーフィーの攻略メモ（評価・使い方・注意点）
+holly-bat-memo:
+  kind: user
+  description: ホーリーバットの攻略メモ（評価・使い方・注意点）
+bamerang-memo:
+  kind: user
+  description: バーメランの攻略メモ（評価・使い方・注意点）
+hoozuki-police-memo:
+  kind: user
+  description: ホオズキポリスの攻略メモ（評価・使い方・注意点）
+tele-leafy-keywords:
+  kind: screenshot
+  description: テレ・リーフィーの魔法・休眠の用語説明
+  mode: standard

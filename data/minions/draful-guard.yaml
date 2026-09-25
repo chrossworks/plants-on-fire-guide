@@ -1,0 +1,481 @@
+schemaVersion: 1
+id: draful-guard
+name: ドラフルガード
+reading: どらふるがーど
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - draful-guard-base-star1
+    - draful-guard-base-star2
+    - draful-guard-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - draful-guard-base-star1
+    - draful-guard-base-star2
+    - draful-guard-base-star3
+updated: 2026-09-25
+icon: draful-guard-icon
+portrait: draful-guard-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: draful-guard-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - draful-guard-base-star1
+      - draful-guard-base-star2
+      - draful-guard-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - draful-guard-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - draful-guard-base-star1
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - draful-guard-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - draful-guard-base-star1
+      ability:
+        status: observed
+        value:
+          text: オーラ：サンコインを5個所持するごとに、攻撃力+4
+          keywords:
+            - aura
+        sources:
+          - draful-guard-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - draful-guard-base-star2
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - draful-guard-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - draful-guard-base-star2
+      ability:
+        status: observed
+        value:
+          text: オーラ：サンコインを5個所持するごとに、攻撃力+8
+          keywords:
+            - aura
+        sources:
+          - draful-guard-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - draful-guard-base-star3
+        interval:
+          status: observed
+          value: 1.8
+          sources:
+            - draful-guard-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - draful-guard-base-star3
+      ability:
+        status: observed
+        value:
+          text: オーラ：サンコインを5個所持するごとに、攻撃力+16
+          keywords:
+            - aura
+        sources:
+          - draful-guard-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - draful-guard-base-star1
+        - draful-guard-base-star2
+        - draful-guard-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: オーラ：サンコインを5個所持するごとに、攻撃力+4
+          keywords:
+            - aura
+        sources:
+          - draful-guard-base-star1
+      - status: observed
+        value:
+          text: オーラ：サンコインを5個所持するごとに、攻撃力+8
+          keywords:
+            - aura
+        sources:
+          - draful-guard-base-star2
+      - status: observed
+        value:
+          text: オーラ：サンコインを5個所持するごとに、攻撃力+16
+          keywords:
+            - aura
+        sources:
+          - draful-guard-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - draful-guard-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - draful-guard-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: サンコイン5個につき、攻撃力ボーナスが6に上昇する
+          operation: ability_set
+          value: 6
+          unit: points
+        sources:
+          - draful-guard-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - draful-guard-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - draful-guard-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: サンコイン5個につき、攻撃力ボーナスが9に上昇する
+          operation: ability_set
+          value: 9
+          unit: points
+        sources:
+          - draful-guard-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: サンコイン5個につき、攻撃力ボーナスが11に上昇する
+          operation: ability_set
+          value: 11
+          unit: points
+        sources:
+          - draful-guard-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: サンコイン5個につき、攻撃力ボーナスが14に上昇する
+          operation: ability_set
+          value: 14
+          unit: points
+        sources:
+          - draful-guard-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - draful-guard-base-up1
+      - draful-guard-base-up2
+      - draful-guard-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - draful-guard-base-star1
+      - draful-guard-base-star2
+      - draful-guard-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー1400
+    sources:
+      - draful-guard-base-star1
+      - draful-guard-base-star2
+      - draful-guard-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントⅠを掲載しています。
+  items:
+    - id: variant-1
+      name: ドラフルガードⅠ
+      image: draful-guard-v1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - draful-guard-v1-star1
+          - draful-guard-v1-star2
+          - draful-guard-v1-star3
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - draful-guard-v1-star1
+          - draful-guard-v1-star2
+          - draful-guard-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - draful-guard-v1-up1
+      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - draful-guard-v1-star1
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - draful-guard-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - draful-guard-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 準備完了：サンコインを6個所持するごとに、攻撃力+2
+              keywords:
+                - ready
+            sources:
+              - draful-guard-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - draful-guard-v1-star2
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - draful-guard-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - draful-guard-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 準備完了：サンコインを6個所持するごとに、攻撃力+4
+              keywords:
+                - ready
+            sources:
+              - draful-guard-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - draful-guard-v1-star3
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - draful-guard-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - draful-guard-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 準備完了：サンコインを6個所持するごとに、攻撃力+8
+              keywords:
+                - ready
+            sources:
+              - draful-guard-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - draful-guard-v1-star1
+            - draful-guard-v1-star2
+            - draful-guard-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 準備完了：サンコインを6個所持するごとに、攻撃力+2
+              keywords:
+                - ready
+            sources:
+              - draful-guard-v1-star1
+          - status: observed
+            value:
+              text: 準備完了：サンコインを6個所持するごとに、攻撃力+4
+              keywords:
+                - ready
+            sources:
+              - draful-guard-v1-star2
+          - status: observed
+            value:
+              text: 準備完了：サンコインを6個所持するごとに、攻撃力+8
+              keywords:
+                - ready
+            sources:
+              - draful-guard-v1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - draful-guard-v1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - draful-guard-v1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: サンコイン6個につき、攻撃力ボーナスが3に上昇する
+              operation: ability_set
+              value: 3
+              unit: points
+            sources:
+              - draful-guard-v1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - draful-guard-v1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - draful-guard-v1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: サンコイン6個につき、攻撃力ボーナスが4に上昇する
+              operation: ability_set
+              value: 4
+              unit: points
+            sources:
+              - draful-guard-v1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: サンコイン6個につき、攻撃力ボーナスが5に上昇する
+              operation: ability_set
+              value: 5
+              unit: points
+            sources:
+              - draful-guard-v1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: サンコイン6個につき、攻撃力ボーナスが6に上昇する
+              operation: ability_set
+              value: 6
+              unit: points
+            sources:
+              - draful-guard-v1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - draful-guard-v1-up1
+          - draful-guard-v1-up2
+          - draful-guard-v1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - draful-guard-v1-star1
+          - draful-guard-v1-star2
+          - draful-guard-v1-star3

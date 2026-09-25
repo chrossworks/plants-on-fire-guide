@@ -1,0 +1,253 @@
+schemaVersion: 1
+id: bamerang
+name: バーメラン
+reading: ばーめらん
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - bamerang-base-star1
+    - bamerang-base-star2
+    - bamerang-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - bamerang-base-star1
+    - bamerang-base-star2
+    - bamerang-base-star3
+updated: 2026-09-25
+icon: bamerang-icon
+portrait: bamerang-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: bamerang-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - bamerang-base-star1
+      - bamerang-base-star2
+      - bamerang-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - bamerang-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - bamerang-base-star1
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - bamerang-base-star1
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - bamerang-base-star1
+      ability:
+        status: observed
+        value:
+          text: 攻撃が敵の間で5回跳ね返り、跳ね返るたびにダメージ-25%
+          keywords: []
+        sources:
+          - bamerang-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - bamerang-base-star2
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - bamerang-base-star2
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - bamerang-base-star2
+      ability:
+        status: observed
+        value:
+          text: 攻撃が敵の間で6回跳ね返り、跳ね返るたびにダメージ-25%
+          keywords: []
+        sources:
+          - bamerang-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - bamerang-base-star3
+        interval:
+          status: observed
+          value: 3
+          sources:
+            - bamerang-base-star3
+        target:
+          status: observed
+          value: ランダム
+          sources:
+            - bamerang-base-star3
+      ability:
+        status: observed
+        value:
+          text: 攻撃が敵の間で7回跳ね返り、跳ね返るたびにダメージ-25%
+          keywords: []
+        sources:
+          - bamerang-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - bamerang-base-star1
+        - bamerang-base-star2
+        - bamerang-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 攻撃が敵の間で5回跳ね返り、跳ね返るたびにダメージ-25%
+          keywords: []
+        sources:
+          - bamerang-base-star1
+      - status: observed
+        value:
+          text: 攻撃が敵の間で6回跳ね返り、跳ね返るたびにダメージ-25%
+          keywords: []
+        sources:
+          - bamerang-base-star2
+      - status: observed
+        value:
+          text: 攻撃が敵の間で7回跳ね返り、跳ね返るたびにダメージ-25%
+          keywords: []
+        sources:
+          - bamerang-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - bamerang-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - bamerang-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 跳ね返るたびにダメージ-22%
+          operation: ability_set
+          value: -22
+          unit: percent
+        sources:
+          - bamerang-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - bamerang-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - bamerang-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 跳ね返るたびにダメージ-16%
+          operation: ability_set
+          value: -16
+          unit: percent
+        sources:
+          - bamerang-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 跳ね返るたびにダメージ-13%
+          operation: ability_set
+          value: -13
+          unit: percent
+        sources:
+          - bamerang-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 跳ね返るたびにダメージ-10%
+          operation: ability_set
+          value: -10
+          unit: percent
+        sources:
+          - bamerang-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - bamerang-base-up1
+      - bamerang-base-up2
+      - bamerang-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - bamerang-base-star1
+      - bamerang-base-star2
+      - bamerang-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー1000
+    sources:
+      - bamerang-base-star1
+      - bamerang-base-star2
+      - bamerang-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - bamerang-base-star1
+    - bamerang-base-star2
+    - bamerang-base-star3
+  items: []

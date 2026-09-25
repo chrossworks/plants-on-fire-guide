@@ -54,3 +54,11 @@ magic:
     value: チャージ完了後にのみ有効
     sources:
       - magic-keyword
+
+dormant:
+  name: 休眠
+  definition:
+    status: observed
+    value: 本ラウンド中、行動や効果の発動ができない
+    sources:
+      - tele-leafy-keywords

@@ -463,3 +463,40 @@ melon-accountant-icon:
 broccolism-icon:
   path: images/minions/broccolism/icon.webp
   alt: ブロッコリズムのカードアイコン（撮影時のLv表示を含む）
+
+draful-guard-portrait:
+  path: images/minions/draful-guard/portrait.webp
+  alt: ドラフルガードの基本形
+draful-guard-v1:
+  path: images/minions/draful-guard/variant-1.webp
+  alt: ドラフルガードⅠのバリアントカード
+tele-leafy-portrait:
+  path: images/minions/tele-leafy/portrait.webp
+  alt: テレ・リーフィーの基本形
+holly-bat-portrait:
+  path: images/minions/holly-bat/portrait.webp
+  alt: ホーリーバットの基本形
+bamerang-portrait:
+  path: images/minions/bamerang/portrait.webp
+  alt: バーメランの基本形
+hoozuki-police-portrait:
+  path: images/minions/hoozuki-police/portrait.webp
+  alt: ホオズキポリスの基本形
+hoozuki-police-v1:
+  path: images/minions/hoozuki-police/variant-1.webp
+  alt: ホオズキポリスⅠのバリアントカード
+draful-guard-icon:
+  path: images/minions/draful-guard/icon.webp
+  alt: ドラフルガードのカードアイコン（撮影時のLv表示を含む）
+holly-bat-icon:
+  path: images/minions/holly-bat/icon.webp
+  alt: ホーリーバットのカードアイコン（撮影時のLv表示を含む）
+bamerang-icon:
+  path: images/minions/bamerang/icon.webp
+  alt: バーメランのカードアイコン（撮影時のLv表示を含む）
+hoozuki-police-icon:
+  path: images/minions/hoozuki-police/icon.webp
+  alt: ホオズキポリスのカードアイコン（撮影時のLv表示を含む）
+tele-leafy-icon:
+  path: images/minions/tele-leafy/icon.webp
+  alt: テレ・リーフィーのカードアイコン（撮影時のLv表示を含む）

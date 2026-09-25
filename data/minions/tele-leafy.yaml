@@ -1,0 +1,265 @@
+schemaVersion: 1
+id: tele-leafy
+name: テレ・リーフィー
+reading: てれりーふぃー
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - tele-leafy-base-star1
+    - tele-leafy-base-star2
+    - tele-leafy-base-star3
+cost:
+  status: observed
+  value: 5
+  sources:
+    - tele-leafy-base-star1
+    - tele-leafy-base-star2
+    - tele-leafy-base-star3
+updated: 2026-09-25
+icon: tele-leafy-icon
+portrait: tele-leafy-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: tele-leafy-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - tele-leafy-base-star1
+      - tele-leafy-base-star2
+      - tele-leafy-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - tele-leafy-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 9
+          sources:
+            - tele-leafy-base-star1
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - tele-leafy-base-star1
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - tele-leafy-base-star1
+      ability:
+        status: observed
+        value:
+          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット1体を、最大HP15%の状態で敵側に転送し、自身は休眠状態になる
+          keywords:
+            - magic
+            - dormant
+        sources:
+          - tele-leafy-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 9
+          sources:
+            - tele-leafy-base-star2
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - tele-leafy-base-star2
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - tele-leafy-base-star2
+      ability:
+        status: observed
+        value:
+          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット1体を、最大HP30%の状態で敵側に転送し、自身は休眠状態になる
+          keywords:
+            - magic
+            - dormant
+        sources:
+          - tele-leafy-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 9
+          sources:
+            - tele-leafy-base-star3
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - tele-leafy-base-star3
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - tele-leafy-base-star3
+      ability:
+        status: observed
+        value:
+          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット1体を、最大HP60%の状態で敵側に転送し、自身は休眠状態になる
+          keywords:
+            - magic
+            - dormant
+        sources:
+          - tele-leafy-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 9
+      sources:
+        - tele-leafy-base-star1
+        - tele-leafy-base-star2
+        - tele-leafy-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット1体を、最大HP15%の状態で敵側に転送し、自身は休眠状態になる
+          keywords:
+            - magic
+            - dormant
+        sources:
+          - tele-leafy-base-star1
+      - status: observed
+        value:
+          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット1体を、最大HP30%の状態で敵側に転送し、自身は休眠状態になる
+          keywords:
+            - magic
+            - dormant
+        sources:
+          - tele-leafy-base-star2
+      - status: observed
+        value:
+          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット1体を、最大HP60%の状態で敵側に転送し、自身は休眠状態になる
+          keywords:
+            - magic
+            - dormant
+        sources:
+          - tele-leafy-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - tele-leafy-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - tele-leafy-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 転送されるラッシュユニットのHPが30%に上昇する
+          operation: ability_set
+          value: 30
+          unit: percent
+        sources:
+          - tele-leafy-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - tele-leafy-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - tele-leafy-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 転送されるラッシュユニットのHPが50%に上昇する
+          operation: ability_set
+          value: 50
+          unit: percent
+        sources:
+          - tele-leafy-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 転送されるラッシュユニットのHPが65%に上昇する
+          operation: ability_set
+          value: 65
+          unit: percent
+        sources:
+          - tele-leafy-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 転送されるラッシュユニットのHPが80%に上昇する
+          operation: ability_set
+          value: 80
+          unit: percent
+        sources:
+          - tele-leafy-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - tele-leafy-base-up1
+      - tele-leafy-base-up2
+      - tele-leafy-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - tele-leafy-base-star1
+      - tele-leafy-base-star2
+      - tele-leafy-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー2200
+    sources:
+      - tele-leafy-base-star1
+      - tele-leafy-base-star2
+      - tele-leafy-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - tele-leafy-base-star1
+    - tele-leafy-base-star2
+    - tele-leafy-base-star3
+  items: []
