@@ -268,6 +268,8 @@ memberIds:
   クルミ博士: walnut-professor
   ホワイトローズナイト: white-rose-knight
   ザクロブラスター: zakuro-blaster
+  ポテトセラー: potato-seller
+  チリコック: chili-cook
 minions:
   coffee-bean-chief:
     availability: {status: observed, value: true, sources: [rc-sun]}
@@ -277,7 +279,26 @@ minions:
     star4: {status: unknown, reason: 星4の詳細画像は未確認。}
   acorn-madman:
     availability: {status: observed, value: true, sources: [rc-cloud]}
-    star4: {status: unknown, reason: 星4の詳細画像は未確認。}
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 購入したミニオンの攻撃力の150%を獲得する
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-acorn-madman-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-acorn-madman-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-acorn-madman-star4
+
   annai-tsubaki:
     availability:
       status: observed
@@ -309,8 +330,25 @@ minions:
       value: true
       sources: *a1
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 敵15体を同時に攻撃し、50%のダメージを与える
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-appolis-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-appolis-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-appolis-star4
+
   avogaku:
     availability:
       status: observed
@@ -443,16 +481,47 @@ minions:
       value: true
       sources: *a1
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: オーラ：ショップ内のミニオンに、自身の攻撃力の50%を付与する
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-gold-eater-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-gold-eater-star4
+
   grape-bartender:
     availability:
       status: observed
       value: true
       sources: *a1
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 売却価格+400%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-grape-bartender-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-grape-bartender-star4
+
   greenkeeper:
     availability:
       status: observed
@@ -820,8 +889,23 @@ minions:
       value: true
       sources: *a1
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 敵がフィールド上に出現するたびに、即座に斬撃を放ち、160%のダメージを与える
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-samurai-take-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-samurai-take-star4
+
   seed-worker:
     availability:
       status: observed
@@ -844,8 +928,25 @@ minions:
       value: true
       sources: *a1
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 小範囲内の敵に100%のダメージを与え、70%の減速効果を3秒間付与する
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-spellberry-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-spellberry-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-spellberry-star4
+
   staghorn-shaman:
     availability:
       status: observed
@@ -942,5 +1043,73 @@ minions:
       value: true
       sources: *a1
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 魔法（4秒）：次の攻撃が330%の範囲ダメージを与える
+          keywords:
+            - magic
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-zakuro-blaster-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-zakuro-blaster-star4
+
+  potato-seller:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rc-cloud
+        - rc-potato-seller-star4
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 準備完了：ショップを無料で3回更新できる
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 1
+          sources:
+            - rc-potato-seller-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-potato-seller-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.1）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-potato-seller-star4
+  chili-cook:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rc-cloud
+        - rc-chili-cook-star4
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 準備完了：ショップ内のミニオンの攻撃力+32～48
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-chili-cook-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-chili-cook-star4

@@ -3,6 +3,7 @@ import path from 'node:path';
 import sharp from 'sharp';
 import { root, loadMinions, loadArticles, loadAssets, loadSources, loadKeywords, loadRumble } from '../lib/content.mjs';
 import { minimumLevels, hasStandardAbsenceEvidence } from '../lib/schema.mjs';
+import { rumbleIdentityIssues } from '../lib/rumble.mjs';
 
 export async function validate() {
   const minions = loadMinions(), articles = loadArticles(), assets = loadAssets(), sources = loadSources(), keywords = loadKeywords();
@@ -28,16 +29,8 @@ export async function validate() {
     if (memberships.has(name)) fail(`絆所属の重複: ${name}`);
     memberships.set(name,d.id);
   }
-  const mappedIds = new Set();
-  for (const [name, id] of Object.entries(rumble.memberIds)) {
-    if (mappedIds.has(id)) fail(`ランブルチェスのミニオンID重複: ${id}`);
-    mappedIds.add(id);
-    if (!minions.some(m => m.id === id && m.name === name)) fail(`絆所属の名前・ID不一致: ${name} / ${id}`);
-    if (!memberships.has(name)) fail(`絆所属なし: ${name}`);
-    if (rumble.minions[id]?.availability.value !== true) fail(`絆所属と登場可否の矛盾: ${id}`);
-  }
+  for (const issue of rumbleIdentityIssues(rumble, minions)) fail(issue);
   for (const [id, entry] of Object.entries(rumble.minions)) {
-    if (!minions.some(m => m.id === id)) fail(`ランブルチェスのミニオンID不明: ${id}`);
     if (entry.star4?.status === 'observed') for (const s of entry.star4.sources) {
       if (sources[s]?.kind !== 'screenshot' || sources[s]?.mode !== 'rumble-chess' || sources[s]?.screen !== 'detail' || sources[s]?.selectedStar !== 4) fail(`星4能力の画像根拠が不正: ${id} / ${s}`);
     }

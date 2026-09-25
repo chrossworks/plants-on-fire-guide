@@ -2,8 +2,21 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {loadRumble,loadMinions} from '../lib/content.mjs';
 import {rumbleSchema} from '../lib/schema.mjs';
-import {rumbleForMinion,evaluationLabel} from '../lib/rumble.mjs';
+import {rumbleForMinion,evaluationLabel,rumbleIdentityIssues} from '../lib/rumble.mjs';
 import {validate} from '../scripts/validate.mjs';
+
+test('未掲載の星4を所属とID付きで保存でき、名前衝突・孤立IDを拒否する',()=>{
+  const r={decks:[{members:{value:['未掲載','掲載済み']}}],memberIds:{'未掲載':'new-minion'},minions:{'new-minion':{availability:{value:true}}}};
+  const published=[{id:'published',name:'掲載済み'}];
+  assert.deepEqual(rumbleIdentityIssues(r,published),[]);
+  assert.deepEqual(rumbleIdentityIssues(r,[...published,{id:'new-minion',name:'未掲載'}]),[]);
+  assert.ok(rumbleIdentityIssues(r,[...published,{id:'different-id',name:'未掲載'}]).some(s=>s.includes('不一致')));
+  assert.ok(rumbleIdentityIssues(r,[...published,{id:'new-minion',name:'別名'}]).some(s=>s.includes('不一致')));
+  const orphan=structuredClone(r);orphan.memberIds={};
+  assert.ok(rumbleIdentityIssues(orphan,published).some(s=>s.includes('ID不明')));
+  const bad=structuredClone(r);bad.memberIds={'不明な名前':'new-minion'};
+  assert.ok(rumbleIdentityIssues(bad,published).some(s=>s.includes('所属なし')));
+});
 
 test('アンナイツバキの星4と基本性能のレベル・根拠を分離する',()=>{
   const r=loadRumble(), rc=rumbleForMinion(r,'annai-tsubaki');

@@ -3615,3 +3615,58 @@ wicked-mirror-memo:
 acorn-madman-memo:
   kind: user
   description: ドングリマッドマンの攻略メモ（評価・使い方・注意点）
+
+rc-potato-seller-star4:
+  kind: screenshot
+  description: ポテトセラーのランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.1）、雲の絆・星4選択・絆ポイント8を確認。能力：準備完了：ショップを無料で3回更新できる
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-appolis-star4:
+  kind: screenshot
+  description: アッポリスのランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.6）、雲の絆・星4選択・絆ポイント8を確認。能力：敵15体を同時に攻撃し、50%のダメージを与える
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-grape-bartender-star4:
+  kind: screenshot
+  description: グレープバーテンダーのランブルチェス星4詳細。詳細画面Lv.7、雲の絆・星4選択・絆ポイント8を確認。能力：売却価格+400%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-samurai-take-star4:
+  kind: screenshot
+  description: サムライタケのランブルチェス星4詳細。詳細画面Lv.7、雲の絆・星4選択・絆ポイント8を確認。能力：敵がフィールド上に出現するたびに、即座に斬撃を放ち、160%のダメージを与える
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-zakuro-blaster-star4:
+  kind: screenshot
+  description: ザクロブラスターのランブルチェス星4詳細。詳細画面Lv.7、雲の絆・星4選択・絆ポイント8を確認。能力：魔法（4秒）：次の攻撃が330%の範囲ダメージを与える
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-spellberry-star4:
+  kind: screenshot
+  description: スペルベリーのランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.6）、雲の絆・星4選択・絆ポイント8を確認。能力：小範囲内の敵に100%のダメージを与え、70%の減速効果を3秒間付与する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-chili-cook-star4:
+  kind: screenshot
+  description: チリコックのランブルチェス星4詳細。詳細画面Lv.7、雲の絆・星4選択・絆ポイント8を確認。能力：準備完了：ショップ内のミニオンの攻撃力+32～48
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-gold-eater-star4:
+  kind: screenshot
+  description: ゴールドイーターのランブルチェス星4詳細。詳細画面Lv.7、雲の絆・星4選択・絆ポイント8を確認。能力：オーラ：ショップ内のミニオンに、自身の攻撃力の50%を付与する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-acorn-madman-star4:
+  kind: screenshot
+  description: ドングリマッドマンのランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.4）、雲の絆・星4選択・絆ポイント8を確認。能力：購入したミニオンの攻撃力の150%を獲得する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
