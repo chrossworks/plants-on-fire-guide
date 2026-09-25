@@ -3752,3 +3752,63 @@ rc-bamboo-archer-up4:
 bamboo-archer-memo:
   kind: user
   description: バンブーアーチャーの攻略メモ（使い方・注意点）
+rc-mush-bomb-star4:
+  kind: screenshot
+  description: マッシュボムのランブルチェス星4詳細。詳細画面Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：すべての敵を攻撃して80%のダメージを与え、隊長が最大HPの4%を失う。隊長のHPが4%未満の時、最前列の敵しか攻撃できない
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-kara-pumpkin-star4:
+  kind: screenshot
+  description: カラカボチャのランブルチェス星4詳細。現在Lv.4・最低保証Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：隊長がHPを10%失うたびに、攻撃速度+4%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-greenkeeper-star4:
+  kind: screenshot
+  description: グリーンキーパーのランブルチェス星4詳細。詳細画面Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：準備完了：ランダムな他のミニオン1体の攻撃力+20、さらに隊長のHPを20回復する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-ghost-orchid-star4:
+  kind: screenshot
+  description: ゴーストオーキッドのランブルチェス星4詳細。詳細画面Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：準備完了：最も攻撃力が高い敵ミニオンの攻撃力を32%奪取する（最低でも12を奪取する）
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-pumpkin-knight-star4:
+  kind: screenshot
+  description: カボチャナイトのランブルチェス星4詳細。詳細画面Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：オーラ：隊長がHPを10%失うたびに、自身の攻撃力+60
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-dandelion-star4:
+  kind: screenshot
+  description: ダンデライオンのランブルチェス星4詳細。詳細画面Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：準備完了：すべての敵ミニオンの攻撃力が一時的に-23%（最低でも-8）
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-tele-leafy-star4:
+  kind: screenshot
+  description: テレ・リーフィーのランブルチェス星4詳細。現在Lv.4・最低保証Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：魔法（5秒）：フィールド上で最もHPが高いラッシュユニット3体を、最大HP120%の状態で敵側に転送し、自身は休眠状態になる
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-valkyris-star4:
+  kind: screenshot
+  description: ヴァルキリスのランブルチェス星4詳細。詳細画面Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：準備完了：敵の総攻撃力がより高い場合、自身が総攻撃力の差の200%を一時的に獲得する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-black-rose-knight-star4:
+  kind: screenshot
+  description: ブラックローズナイトのランブルチェス星4詳細。詳細画面Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：準備完了：敵のミニオン4体の★が一時的に-3
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-wicked-mirror-star4:
+  kind: screenshot
+  description: ウィキッドミラーのランブルチェス星4詳細。現在Lv.4・最低保証Lv.7、月の絆・星4選択・絆ポイント8を確認。能力：毎ラウンド、最初に出現するラッシュユニット16体をコピーして敵側に転送する。クローン体のHPは本体の60%となる
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4

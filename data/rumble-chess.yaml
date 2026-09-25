@@ -327,7 +327,27 @@ minions:
     star4: {status: unknown, reason: 星4の詳細画像は未確認。}
   wicked-mirror:
     availability: {status: observed, value: true, sources: [rc-moon]}
-    star4: {status: unknown, reason: 星4の詳細画像は未確認。}
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 毎ラウンド、最初に出現するラッシュユニット16体をコピーして敵側に転送する。クローン体のHPは本体の60%となる
+          keywords:
+            - rush-unit
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-wicked-mirror-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-wicked-mirror-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-wicked-mirror-star4
+
   acorn-madman:
     availability: {status: observed, value: true, sources: [rc-cloud]}
     star4:
@@ -420,8 +440,25 @@ minions:
       sources: &a4
         - rc-moon
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：敵のミニオン4体の★が一時的に-3
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-black-rose-knight-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-black-rose-knight-star4
+
   broccolism:
     availability:
       status: unknown
@@ -477,8 +514,25 @@ minions:
       value: true
       sources: *a4
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：すべての敵ミニオンの攻撃力が一時的に-23%（最低でも-8）
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-dandelion-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-dandelion-star4
+
   draful-guard:
     availability:
       status: observed
@@ -497,8 +551,24 @@ minions:
       value: true
       sources: *a4
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：最も攻撃力が高い敵ミニオンの攻撃力を32%奪取する（最低でも12を奪取する）
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-ghost-orchid-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-ghost-orchid-star4
+
   ginger-boss:
     availability:
       status: observed
@@ -579,8 +649,24 @@ minions:
       value: true
       sources: *a4
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：ランダムな他のミニオン1体の攻撃力+20、さらに隊長のHPを20回復する
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-greenkeeper-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-greenkeeper-star4
+
   guava-trumpeter:
     availability:
       status: observed
@@ -674,8 +760,25 @@ minions:
       value: true
       sources: *a4
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 隊長がHPを10%失うたびに、攻撃速度+4%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-kara-pumpkin-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-kara-pumpkin-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-kara-pumpkin-star4
+
   ketchampion:
     availability:
       status: observed
@@ -831,8 +934,23 @@ minions:
       value: true
       sources: *a4
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: すべての敵を攻撃して80%のダメージを与え、隊長が最大HPの4%を失う。隊長のHPが4%未満の時、最前列の敵しか攻撃できない
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mush-bomb-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-mush-bomb-star4
+
   norinori-negi:
     availability:
       status: observed
@@ -924,8 +1042,24 @@ minions:
       value: true
       sources: *a4
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: オーラ：隊長がHPを10%失うたびに、自身の攻撃力+60
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-pumpkin-knight-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-pumpkin-knight-star4
+
   radish-maid:
     availability:
       status: observed
@@ -1036,8 +1170,28 @@ minions:
       value: true
       sources: *a4
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット3体を、最大HP120%の状態で敵側に転送し、自身は休眠状態になる
+          keywords:
+            - magic
+            - rush-unit
+            - dormant
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-tele-leafy-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-tele-leafy-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-tele-leafy-star4
+
   tumble-roller:
     availability:
       status: unknown
@@ -1048,8 +1202,25 @@ minions:
       value: true
       sources: *a4
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：敵の総攻撃力がより高い場合、自身が総攻撃力の差の200%を一時的に獲得する
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-valkyris-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-valkyris-star4
+
   violet-mage:
     availability:
       status: unknown
