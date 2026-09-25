@@ -500,3 +500,31 @@ hoozuki-police-icon:
 tele-leafy-icon:
   path: images/minions/tele-leafy/icon.webp
   alt: テレ・リーフィーのカードアイコン（撮影時のLv表示を含む）
+
+luminous-tree-portrait:
+  path: images/minions/luminous-tree/portrait.webp
+  alt: ルミナスツリーの基本形
+staghorn-shaman-portrait:
+  path: images/minions/staghorn-shaman/portrait.webp
+  alt: ビカクシダシャーマンの基本形
+mandragora-priest-portrait:
+  path: images/minions/mandragora-priest/portrait.webp
+  alt: マンドラゴラ司祭の基本形
+cashew-sage-portrait:
+  path: images/minions/cashew-sage/portrait.webp
+  alt: カシュー大賢者の基本形
+cashew-sage-v1:
+  path: images/minions/cashew-sage/variant-1.webp
+  alt: カシュー大賢者Ⅰのバリアントカード
+luminous-tree-icon:
+  path: images/minions/luminous-tree/icon.webp
+  alt: ルミナスツリーのカードアイコン（撮影時のLv表示を含む）
+staghorn-shaman-icon:
+  path: images/minions/staghorn-shaman/icon.webp
+  alt: ビカクシダシャーマンのカードアイコン（撮影時のLv表示を含む）
+mandragora-priest-icon:
+  path: images/minions/mandragora-priest/icon.webp
+  alt: マンドラゴラ司祭のカードアイコン（撮影時のLv表示を含む）
+cashew-sage-icon:
+  path: images/minions/cashew-sage/icon.webp
+  alt: カシュー大賢者のカードアイコン（撮影時のLv表示を含む）

@@ -62,3 +62,18 @@ dormant:
     value: 本ラウンド中、行動や効果の発動ができない
     sources:
       - tele-leafy-keywords
+
+maximum-mana:
+  name: 最大マナ
+  definition:
+    status: observed
+    value: 一部の攻撃効果は、マナが十分にある場合にのみ発動する
+    sources:
+      - luminous-tree-keywords
+mana-cost:
+  name: マナ消費
+  definition:
+    status: observed
+    value: 攻撃効果を発動させるために必要なマナ
+    sources:
+      - luminous-tree-keywords

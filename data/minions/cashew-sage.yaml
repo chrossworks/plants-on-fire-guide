@@ -1,0 +1,425 @@
+schemaVersion: 1
+id: cashew-sage
+name: カシュー大賢者
+reading: かしゅーだいけんじゃ
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - cashew-sage-base-star1
+    - cashew-sage-base-star2
+    - cashew-sage-base-star3
+cost:
+  status: observed
+  value: 8
+  sources:
+    - cashew-sage-base-star1
+    - cashew-sage-base-star2
+    - cashew-sage-base-star3
+updated: 2026-09-25
+icon: cashew-sage-icon
+portrait: cashew-sage-portrait
+evaluation:
+  rank: S
+  scope: 基本形の総合評価
+  source: cashew-sage-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - cashew-sage-base-star1
+      - cashew-sage-base-star2
+      - cashew-sage-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - cashew-sage-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - cashew-sage-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - cashew-sage-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - cashew-sage-base-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を25%コピーし、一時的に自身に付与する
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - cashew-sage-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - cashew-sage-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - cashew-sage-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - cashew-sage-base-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を50%コピーし、一時的に自身に付与する
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - cashew-sage-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - cashew-sage-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - cashew-sage-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - cashew-sage-base-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を100%コピーし、一時的に自身に付与する
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - cashew-sage-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 5
+      sources:
+        - cashew-sage-base-star1
+        - cashew-sage-base-star2
+        - cashew-sage-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を25%コピーし、一時的に自身に付与する
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - cashew-sage-base-star1
+      - status: observed
+        value:
+          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を50%コピーし、一時的に自身に付与する
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - cashew-sage-base-star2
+      - status: observed
+        value:
+          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を100%コピーし、一時的に自身に付与する
+          keywords:
+            - temporary
+            - ready
+        sources:
+          - cashew-sage-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: コピーする攻撃力が28%に上昇する
+          operation: ability_set
+          value: 28
+          unit: percent
+        sources:
+          - cashew-sage-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: コピーする攻撃力が31%に上昇する
+          operation: ability_set
+          value: 31
+          unit: percent
+        sources:
+          - cashew-sage-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: コピーする攻撃力が34%に上昇する
+          operation: ability_set
+          value: 34
+          unit: percent
+        sources:
+          - cashew-sage-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: コピーする攻撃力が37%に上昇する
+          operation: ability_set
+          value: 37
+          unit: percent
+        sources:
+          - cashew-sage-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: コピーする攻撃力が40%に上昇する
+          operation: ability_set
+          value: 40
+          unit: percent
+        sources:
+          - cashew-sage-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - cashew-sage-base-up1
+      - cashew-sage-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - cashew-sage-base-star1
+      - cashew-sage-base-star2
+      - cashew-sage-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー2000
+    sources:
+      - cashew-sage-base-star1
+      - cashew-sage-base-star2
+      - cashew-sage-base-star3
+variants:
+  status: observed
+  note: 画像で確認したバリアントを掲載しています。
+  items:
+    - id: variant-1
+      name: カシュー大賢者Ⅰ
+      image: cashew-sage-v1
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - cashew-sage-v1-star1
+          - cashew-sage-v1-star2
+          - cashew-sage-v1-star3
+      displayLevel:
+        status: observed
+        value: 7
+        sources:
+          - cashew-sage-v1-star1
+          - cashew-sage-v1-star2
+          - cashew-sage-v1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 7
+        sources:
+          - cashew-sage-v1-up1
+      conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - cashew-sage-v1-star1
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - cashew-sage-v1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - cashew-sage-v1-star1
+          ability:
+            status: observed
+            value:
+              text: 配置：★3にアップし、最も攻撃力が高いミニオンの攻撃力の40%をコピーして自身に付与する
+              keywords:
+                - placement
+            sources:
+              - cashew-sage-v1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - cashew-sage-v1-star2
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - cashew-sage-v1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - cashew-sage-v1-star2
+          ability:
+            status: observed
+            value:
+              text: 配置：★3にアップし、最も攻撃力が高いミニオンの攻撃力の40%をコピーして自身に付与する
+              keywords:
+                - placement
+            sources:
+              - cashew-sage-v1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 5
+              sources:
+                - cashew-sage-v1-star3
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - cashew-sage-v1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - cashew-sage-v1-star3
+          ability:
+            status: observed
+            value:
+              text: 配置：★3にアップし、最も攻撃力が高いミニオンの攻撃力の40%をコピーして自身に付与する
+              keywords:
+                - placement
+            sources:
+              - cashew-sage-v1-star3
+      initial:
+        attack:
+          status: observed
+          value: 5
+          sources:
+            - cashew-sage-v1-star1
+            - cashew-sage-v1-star2
+            - cashew-sage-v1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 配置：★3にアップし、最も攻撃力が高いミニオンの攻撃力の40%をコピーして自身に付与する
+              keywords:
+                - placement
+            sources:
+              - cashew-sage-v1-star1
+          - status: observed
+            value:
+              text: 配置：★3にアップし、最も攻撃力が高いミニオンの攻撃力の40%をコピーして自身に付与する
+              keywords:
+                - placement
+            sources:
+              - cashew-sage-v1-star2
+          - status: observed
+            value:
+              text: 配置：★3にアップし、最も攻撃力が高いミニオンの攻撃力の40%をコピーして自身に付与する
+              keywords:
+                - placement
+            sources:
+              - cashew-sage-v1-star3
+      bonuses:
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: コピーする攻撃力が44%に上昇する
+              operation: ability_set
+              value: 44
+              unit: percent
+            sources:
+              - cashew-sage-v1-up1
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: コピーする攻撃力が48%に上昇する
+              operation: ability_set
+              value: 48
+              unit: percent
+            sources:
+              - cashew-sage-v1-up1
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: コピーする攻撃力が53%に上昇する
+              operation: ability_set
+              value: 53
+              unit: percent
+            sources:
+              - cashew-sage-v1-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: コピーする攻撃力が58%に上昇する
+              operation: ability_set
+              value: 58
+              unit: percent
+            sources:
+              - cashew-sage-v1-up2
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: コピーする攻撃力が64%に上昇する
+              operation: ability_set
+              value: 64
+              unit: percent
+            sources:
+              - cashew-sage-v1-up2
+      bonusCoverage:
+        status: observed
+        value:
+          from: 8
+          through: 12
+        sources:
+          - cashew-sage-v1-up1
+          - cashew-sage-v1-up2
+      acquisition:
+        status: observed
+        value: クランショップで獲得
+        sources:
+          - cashew-sage-v1-star1
+          - cashew-sage-v1-star2
+          - cashew-sage-v1-star3

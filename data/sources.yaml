@@ -3297,3 +3297,150 @@ tele-leafy-keywords:
   kind: screenshot
   description: テレ・リーフィーの魔法・休眠の用語説明
   mode: standard
+
+luminous-tree-base-star1:
+  kind: screenshot
+  description: ルミナスツリー・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+luminous-tree-base-star2:
+  kind: screenshot
+  description: ルミナスツリー・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+luminous-tree-base-star3:
+  kind: screenshot
+  description: ルミナスツリー・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+luminous-tree-base-up1:
+  kind: screenshot
+  description: ルミナスツリー・現在Lv.7の育成一覧1
+  mode: standard
+luminous-tree-base-up2:
+  kind: screenshot
+  description: ルミナスツリー・現在Lv.7の育成一覧2
+  mode: standard
+staghorn-shaman-base-star1:
+  kind: screenshot
+  description: ビカクシダシャーマン・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+staghorn-shaman-base-star2:
+  kind: screenshot
+  description: ビカクシダシャーマン・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+staghorn-shaman-base-star3:
+  kind: screenshot
+  description: ビカクシダシャーマン・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+staghorn-shaman-base-up1:
+  kind: screenshot
+  description: ビカクシダシャーマン・現在Lv.7の育成一覧1
+  mode: standard
+staghorn-shaman-base-up2:
+  kind: screenshot
+  description: ビカクシダシャーマン・現在Lv.7の育成一覧2
+  mode: standard
+mandragora-priest-base-star1:
+  kind: screenshot
+  description: マンドラゴラ司祭・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+mandragora-priest-base-star2:
+  kind: screenshot
+  description: マンドラゴラ司祭・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+mandragora-priest-base-star3:
+  kind: screenshot
+  description: マンドラゴラ司祭・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+mandragora-priest-base-up1:
+  kind: screenshot
+  description: マンドラゴラ司祭・現在Lv.7の育成一覧1
+  mode: standard
+mandragora-priest-base-up2:
+  kind: screenshot
+  description: マンドラゴラ司祭・現在Lv.7の育成一覧2
+  mode: standard
+cashew-sage-base-star1:
+  kind: screenshot
+  description: カシュー大賢者・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+cashew-sage-base-star2:
+  kind: screenshot
+  description: カシュー大賢者・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+cashew-sage-base-star3:
+  kind: screenshot
+  description: カシュー大賢者・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+cashew-sage-base-up1:
+  kind: screenshot
+  description: カシュー大賢者・現在Lv.7の育成一覧1
+  mode: standard
+cashew-sage-base-up2:
+  kind: screenshot
+  description: カシュー大賢者・現在Lv.7の育成一覧2
+  mode: standard
+cashew-sage-v1-star1:
+  kind: screenshot
+  description: カシュー大賢者Ⅰ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: present
+cashew-sage-v1-star2:
+  kind: screenshot
+  description: カシュー大賢者Ⅰ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: present
+cashew-sage-v1-star3:
+  kind: screenshot
+  description: カシュー大賢者Ⅰ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: present
+cashew-sage-v1-up1:
+  kind: screenshot
+  description: カシュー大賢者Ⅰ・現在Lv.7の育成一覧1
+  mode: standard
+cashew-sage-v1-up2:
+  kind: screenshot
+  description: カシュー大賢者Ⅰ・現在Lv.7の育成一覧2
+  mode: standard
+luminous-tree-memo:
+  kind: user
+  description: ルミナスツリーの攻略メモ（評価・使い方・注意点）
+staghorn-shaman-memo:
+  kind: user
+  description: ビカクシダシャーマンの攻略メモ（評価・使い方・注意点）
+mandragora-priest-memo:
+  kind: user
+  description: マンドラゴラ司祭の攻略メモ（評価・使い方・注意点）
+cashew-sage-memo:
+  kind: user
+  description: カシュー大賢者の攻略メモ（評価・使い方・注意点）
+luminous-tree-keywords:
+  kind: screenshot
+  description: ルミナスツリー・最大マナとマナ消費の用語説明
+  mode: standard

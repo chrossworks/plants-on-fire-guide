@@ -1,0 +1,228 @@
+schemaVersion: 1
+id: mandragora-priest
+name: マンドラゴラ司祭
+reading: まんどらごらしさい
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - mandragora-priest-base-star1
+    - mandragora-priest-base-star2
+    - mandragora-priest-base-star3
+cost:
+  status: observed
+  value: 8
+  sources:
+    - mandragora-priest-base-star1
+    - mandragora-priest-base-star2
+    - mandragora-priest-base-star3
+updated: 2026-09-25
+icon: mandragora-priest-icon
+portrait: mandragora-priest-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: mandragora-priest-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - mandragora-priest-base-star1
+      - mandragora-priest-base-star2
+      - mandragora-priest-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - mandragora-priest-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - mandragora-priest-base-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mandragora-priest-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - mandragora-priest-base-star1
+      ability:
+        status: observed
+        value:
+          text: 一時的に召喚したミニオンの攻撃力+20%（最低でも+10）
+          keywords:
+            - temporary
+        sources:
+          - mandragora-priest-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - mandragora-priest-base-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mandragora-priest-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - mandragora-priest-base-star2
+      ability:
+        status: observed
+        value:
+          text: 一時的に召喚したミニオンの攻撃力+40%（最低でも+20）
+          keywords:
+            - temporary
+        sources:
+          - mandragora-priest-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - mandragora-priest-base-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - mandragora-priest-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - mandragora-priest-base-star3
+      ability:
+        status: observed
+        value:
+          text: 一時的に召喚したミニオンの攻撃力+80%（最低でも+40）
+          keywords:
+            - temporary
+        sources:
+          - mandragora-priest-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - mandragora-priest-base-star1
+        - mandragora-priest-base-star2
+        - mandragora-priest-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 一時的に召喚したミニオンの攻撃力+20%（最低でも+10）
+          keywords:
+            - temporary
+        sources:
+          - mandragora-priest-base-star1
+      - status: observed
+        value:
+          text: 一時的に召喚したミニオンの攻撃力+40%（最低でも+20）
+          keywords:
+            - temporary
+        sources:
+          - mandragora-priest-base-star2
+      - status: observed
+        value:
+          text: 一時的に召喚したミニオンの攻撃力+80%（最低でも+40）
+          keywords:
+            - temporary
+        sources:
+          - mandragora-priest-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃ボーナスの最小値が15に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - mandragora-priest-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃ボーナスの最小値が20に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - mandragora-priest-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 攻撃ボーナスが23%に上昇し、最小値が25に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - mandragora-priest-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃ボーナスが26%に上昇し、最小値が30に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - mandragora-priest-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃ボーナスが29%に上昇し、最小値が35に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - mandragora-priest-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - mandragora-priest-base-up1
+      - mandragora-priest-base-up2
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - mandragora-priest-base-star1
+      - mandragora-priest-base-star2
+      - mandragora-priest-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー1800
+    sources:
+      - mandragora-priest-base-star1
+      - mandragora-priest-base-star2
+      - mandragora-priest-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - mandragora-priest-base-star1
+    - mandragora-priest-base-star2
+    - mandragora-priest-base-star3
+  items: []

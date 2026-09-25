@@ -1,0 +1,246 @@
+schemaVersion: 1
+id: luminous-tree
+name: ルミナスツリー
+reading: るみなすつりー
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - luminous-tree-base-star1
+    - luminous-tree-base-star2
+    - luminous-tree-base-star3
+cost:
+  status: observed
+  value: 8
+  sources:
+    - luminous-tree-base-star1
+    - luminous-tree-base-star2
+    - luminous-tree-base-star3
+updated: 2026-09-25
+icon: luminous-tree-icon
+portrait: luminous-tree-portrait
+evaluation:
+  rank: S
+  scope: 基本形の総合評価
+  source: luminous-tree-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - luminous-tree-base-star1
+      - luminous-tree-base-star2
+      - luminous-tree-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - luminous-tree-base-up1
+  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 84
+          sources:
+            - luminous-tree-base-star1
+        interval:
+          status: observed
+          value: 0.25
+          sources:
+            - luminous-tree-base-star1
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - luminous-tree-base-star1
+      ability:
+        status: observed
+        value:
+          text: |-
+            最大マナ12、マナ消費12：ランダムな敵1体を攻撃する
+            ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
+          keywords:
+            - maximum-mana
+            - mana-cost
+        sources:
+          - luminous-tree-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 84
+          sources:
+            - luminous-tree-base-star2
+        interval:
+          status: observed
+          value: 0.25
+          sources:
+            - luminous-tree-base-star2
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - luminous-tree-base-star2
+      ability:
+        status: observed
+        value:
+          text: |-
+            最大マナ12、マナ消費12：ランダムな敵1体を攻撃する
+            ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
+          keywords:
+            - maximum-mana
+            - mana-cost
+        sources:
+          - luminous-tree-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 84
+          sources:
+            - luminous-tree-base-star3
+        interval:
+          status: observed
+          value: 0.25
+          sources:
+            - luminous-tree-base-star3
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - luminous-tree-base-star3
+      ability:
+        status: observed
+        value:
+          text: |-
+            最大マナ12、マナ消費12：ランダムな敵1体を攻撃する
+            ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
+          keywords:
+            - maximum-mana
+            - mana-cost
+        sources:
+          - luminous-tree-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 84
+      sources:
+        - luminous-tree-base-star1
+        - luminous-tree-base-star2
+        - luminous-tree-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: |-
+            最大マナ12、マナ消費12：ランダムな敵1体を攻撃する
+            ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
+          keywords:
+            - maximum-mana
+            - mana-cost
+        sources:
+          - luminous-tree-base-star1
+      - status: observed
+        value:
+          text: |-
+            最大マナ12、マナ消費12：ランダムな敵1体を攻撃する
+            ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
+          keywords:
+            - maximum-mana
+            - mana-cost
+        sources:
+          - luminous-tree-base-star2
+      - status: observed
+        value:
+          text: |-
+            最大マナ12、マナ消費12：ランダムな敵1体を攻撃する
+            ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
+          keywords:
+            - maximum-mana
+            - mana-cost
+        sources:
+          - luminous-tree-base-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 最大マナとマナ消費が11に減少する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - luminous-tree-base-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 最大マナとマナ消費が10に減少する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - luminous-tree-base-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 自身が攻撃するたびに、攻撃力が一時的に+5%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - luminous-tree-base-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 最大マナとマナ消費が9に減少する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - luminous-tree-base-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 最大マナとマナ消費が8に減少する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - luminous-tree-base-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - luminous-tree-base-up1
+      - luminous-tree-base-up2
+  acquisition:
+    status: observed
+    value: バトルロードで獲得
+    sources:
+      - luminous-tree-base-star1
+      - luminous-tree-base-star2
+      - luminous-tree-base-star3
+  poolUnlock:
+    status: absent
+    reason: 通常詳細画面の入手方法欄に解放条件の表示なし。
+    sources:
+      - luminous-tree-base-star1
+      - luminous-tree-base-star2
+      - luminous-tree-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - luminous-tree-base-star1
+    - luminous-tree-base-star2
+    - luminous-tree-base-star3
+  items: []
