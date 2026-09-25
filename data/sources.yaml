@@ -3454,3 +3454,164 @@ rc-annai-tsubaki-star4:
   mode: rumble-chess
   screen: detail
   selectedStar: 4
+
+rc-mangosteen-beastmaster-star4:
+  kind: screenshot
+  description: マンゴスチン獣使いのランブルチェス星4詳細。詳細画面Lv.7、雷の絆・星4選択・絆ポイント8を確認。能力：準備完了：攻撃力の25%を継承する★3マンゴスチンピッグ4体を一時的に召喚する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-hakusai-guard-star4:
+  kind: screenshot
+  description: ハクサイ衛兵のランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.5）、雷の絆・星4選択・絆ポイント8を確認。能力：準備完了：攻撃力24の★1ハクサイワンコ6体を一時的に召喚する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-guava-trumpeter-star4:
+  kind: screenshot
+  description: グァバラッパのランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.6）、雷の絆・星4選択・絆ポイント8を確認。能力：準備完了：ランダムなミニオン3体の攻撃力が一時的に+30
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-pakupaku-flower-star4:
+  kind: screenshot
+  description: パクパクフラワーのランブルチェス星4詳細。詳細画面Lv.7、雷の絆・星4選択・絆ポイント8を確認。能力：毎ラウンド、最大16体の一時的なミニオンを捕食する。1体捕食するごとに、攻撃力+4
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-orange-twins-star4:
+  kind: screenshot
+  description: オレンジツインズのランブルチェス星4詳細。詳細画面Lv.7、雷の絆・星4選択・絆ポイント8を確認。能力：準備完了：自身の攻撃力の75%を継承するクローン体を一時的に1体召喚する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-ginger-boss-star4:
+  kind: screenshot
+  description: ジンジャー親分のランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.5）、雷の絆・星4選択・絆ポイント8を確認。能力：いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+12～24
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-white-rose-knight-star4:
+  kind: screenshot
+  description: ホワイトローズナイトのランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.4）、雷の絆・星4選択・絆ポイント8を確認。能力：召喚したミニオンの攻撃力が一時的に+48
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-ketchampion-star4:
+  kind: screenshot
+  description: ケチャッピオンのランブルチェス星4詳細。詳細画面Lv.8、雷の絆・星4選択・絆ポイント8を確認。能力：いずれかの敵が撃破されると、自身の攻撃力+32～48
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-mandragora-priest-star4:
+  kind: screenshot
+  description: マンドラゴラ司祭のランブルチェス星4詳細。詳細画面Lv.7、雷の絆・星4選択・絆ポイント8を確認。能力：一時的に召喚したミニオンの攻撃力+240%（最低でも+120）
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-hanakinoko-apothecary-star4:
+  kind: screenshot
+  description: ハナキノコ薬師のランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.5）、雷の絆・星4選択・絆ポイント8を確認。能力：売却価格+700%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+
+coffee-bean-chief-base-star1:
+  kind: screenshot
+  description: コーヒービーンチーフ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+coffee-bean-chief-base-star2:
+  kind: screenshot
+  description: コーヒービーンチーフ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+coffee-bean-chief-base-star3:
+  kind: screenshot
+  description: コーヒービーンチーフ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+coffee-bean-chief-base-up1:
+  kind: screenshot
+  description: コーヒービーンチーフ・現在Lv.4の育成一覧1
+  mode: standard
+coffee-bean-chief-base-up2:
+  kind: screenshot
+  description: コーヒービーンチーフ・現在Lv.4の育成一覧2
+  mode: standard
+coffee-bean-chief-base-up3:
+  kind: screenshot
+  description: コーヒービーンチーフ・現在Lv.4の育成一覧3
+  mode: standard
+wicked-mirror-base-star1:
+  kind: screenshot
+  description: ウィキッドミラー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+wicked-mirror-base-star2:
+  kind: screenshot
+  description: ウィキッドミラー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+wicked-mirror-base-star3:
+  kind: screenshot
+  description: ウィキッドミラー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+wicked-mirror-base-up1:
+  kind: screenshot
+  description: ウィキッドミラー・現在Lv.4の育成一覧1
+  mode: standard
+wicked-mirror-base-up2:
+  kind: screenshot
+  description: ウィキッドミラー・現在Lv.4の育成一覧2
+  mode: standard
+wicked-mirror-base-up3:
+  kind: screenshot
+  description: ウィキッドミラー・現在Lv.4の育成一覧3
+  mode: standard
+acorn-madman-base-star1:
+  kind: screenshot
+  description: ドングリマッドマン・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+acorn-madman-base-star2:
+  kind: screenshot
+  description: ドングリマッドマン・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+acorn-madman-base-star3:
+  kind: screenshot
+  description: ドングリマッドマン・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+acorn-madman-base-up1:
+  kind: screenshot
+  description: ドングリマッドマン・現在Lv.4の育成一覧1
+  mode: standard
+acorn-madman-base-up2:
+  kind: screenshot
+  description: ドングリマッドマン・現在Lv.4の育成一覧2
+  mode: standard
+acorn-madman-base-up3:
+  kind: screenshot
+  description: ドングリマッドマン・現在Lv.4の育成一覧3
+  mode: standard
+coffee-bean-chief-memo:
+  kind: user
+  description: コーヒービーンチーフの攻略メモ（評価・使い方・注意点）
+wicked-mirror-memo:
+  kind: user
+  description: ウィキッドミラーの攻略メモ（評価・使い方・注意点）
+acorn-madman-memo:
+  kind: user
+  description: ドングリマッドマンの攻略メモ（評価・使い方・注意点）

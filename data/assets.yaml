@@ -552,3 +552,22 @@ rc-droplet-icon:
 rc-star-icon:
   path: images/rumble-chess/star.webp
   alt: 星の絆アイコン
+
+coffee-bean-chief-portrait:
+  path: images/minions/coffee-bean-chief/portrait.webp
+  alt: コーヒービーンチーフの基本形
+coffee-bean-chief-icon:
+  path: images/minions/coffee-bean-chief/icon.webp
+  alt: コーヒービーンチーフのカードアイコン（撮影時のLv表示を含む）
+wicked-mirror-portrait:
+  path: images/minions/wicked-mirror/portrait.webp
+  alt: ウィキッドミラーの基本形
+wicked-mirror-icon:
+  path: images/minions/wicked-mirror/icon.webp
+  alt: ウィキッドミラーのカードアイコン（撮影時のLv表示を含む）
+acorn-madman-portrait:
+  path: images/minions/acorn-madman/portrait.webp
+  alt: ドングリマッドマンの基本形
+acorn-madman-icon:
+  path: images/minions/acorn-madman/icon.webp
+  alt: ドングリマッドマンのカードアイコン（撮影時のLv表示を含む）

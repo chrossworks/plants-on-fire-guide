@@ -95,7 +95,8 @@ test('未確認・不存在・逆算・人間の追記は区別される',()=>{
   assert.deepEqual(minimumLevels,{rare:1,epic:4,legend:7});
 });
 test('星の重複とバリアントなしへのデータ混入を拒否する',()=>{
-  const m=loadMinions()[0];
+  const m=loadMinions().find(m=>m.variants.items.length>0);
+  assert.ok(m, 'バリアントを持つミニオンを検証に使用する');
   const duplicate=structuredClone(m);duplicate.base.stars[1].star=1;
   assert.throws(()=>minionSchema.parse(duplicate));
   const absent=structuredClone(m);absent.variants.status='absent';

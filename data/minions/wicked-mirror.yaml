@@ -1,0 +1,253 @@
+schemaVersion: 1
+id: wicked-mirror
+name: ウィキッドミラー
+reading: うぃきっどみらー
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - wicked-mirror-base-star1
+    - wicked-mirror-base-star2
+    - wicked-mirror-base-star3
+cost:
+  status: observed
+  value: 8
+  sources:
+    - wicked-mirror-base-star1
+    - wicked-mirror-base-star2
+    - wicked-mirror-base-star3
+updated: 2026-09-25
+icon: wicked-mirror-icon
+portrait: wicked-mirror-portrait
+evaluation:
+  rank: B
+  scope: 基本形の総合評価
+  source: wicked-mirror-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - wicked-mirror-base-star1
+      - wicked-mirror-base-star2
+      - wicked-mirror-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - wicked-mirror-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 14
+          sources:
+            - wicked-mirror-base-star1
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - wicked-mirror-base-star1
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - wicked-mirror-base-star1
+      ability:
+        status: observed
+        value:
+          text: 毎ラウンド、最初に出現するラッシュユニット4体をコピーして敵側に転送する。クローン体のHPは本体の10%となる
+          keywords: []
+        sources:
+          - wicked-mirror-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 14
+          sources:
+            - wicked-mirror-base-star2
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - wicked-mirror-base-star2
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - wicked-mirror-base-star2
+      ability:
+        status: observed
+        value:
+          text: 毎ラウンド、最初に出現するラッシュユニット8体をコピーして敵側に転送する。クローン体のHPは本体の10%となる
+          keywords: []
+        sources:
+          - wicked-mirror-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 14
+          sources:
+            - wicked-mirror-base-star3
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - wicked-mirror-base-star3
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - wicked-mirror-base-star3
+      ability:
+        status: observed
+        value:
+          text: 毎ラウンド、最初に出現するラッシュユニット16体をコピーして敵側に転送する。クローン体のHPは本体の10%となる
+          keywords: []
+        sources:
+          - wicked-mirror-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 14
+      sources:
+        - wicked-mirror-base-star1
+        - wicked-mirror-base-star2
+        - wicked-mirror-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 毎ラウンド、最初に出現するラッシュユニット4体をコピーして敵側に転送する。クローン体のHPは本体の10%となる
+          keywords: []
+        sources:
+          - wicked-mirror-base-star1
+      - status: observed
+        value:
+          text: 毎ラウンド、最初に出現するラッシュユニット8体をコピーして敵側に転送する。クローン体のHPは本体の10%となる
+          keywords: []
+        sources:
+          - wicked-mirror-base-star2
+      - status: observed
+        value:
+          text: 毎ラウンド、最初に出現するラッシュユニット16体をコピーして敵側に転送する。クローン体のHPは本体の10%となる
+          keywords: []
+        sources:
+          - wicked-mirror-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - wicked-mirror-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - wicked-mirror-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: クローン体のHPが本体の15%分に上昇する
+          operation: ability_set
+          value: 15
+          unit: percent
+        sources:
+          - wicked-mirror-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+4
+          operation: attack_add
+          value: 4
+          unit: points
+        sources:
+          - wicked-mirror-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+5
+          operation: attack_add
+          value: 5
+          unit: points
+        sources:
+          - wicked-mirror-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: クローン体のHPが本体の25%分に上昇する
+          operation: ability_set
+          value: 25
+          unit: percent
+        sources:
+          - wicked-mirror-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: クローン体のHPが本体の32%分に上昇する
+          operation: ability_set
+          value: 32
+          unit: percent
+        sources:
+          - wicked-mirror-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: クローン体のHPが本体の40%分に上昇する
+          operation: ability_set
+          value: 40
+          unit: percent
+        sources:
+          - wicked-mirror-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - wicked-mirror-base-up1
+      - wicked-mirror-base-up2
+      - wicked-mirror-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - wicked-mirror-base-star1
+      - wicked-mirror-base-star2
+      - wicked-mirror-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー2200
+    sources:
+      - wicked-mirror-base-star1
+      - wicked-mirror-base-star2
+      - wicked-mirror-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - wicked-mirror-base-star1
+    - wicked-mirror-base-star2
+    - wicked-mirror-base-star3
+  items: []

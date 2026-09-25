@@ -1,0 +1,259 @@
+schemaVersion: 1
+id: coffee-bean-chief
+name: コーヒービーンチーフ
+reading: こーひーびーんちーふ
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - coffee-bean-chief-base-star1
+    - coffee-bean-chief-base-star2
+    - coffee-bean-chief-base-star3
+cost:
+  status: observed
+  value: 8
+  sources:
+    - coffee-bean-chief-base-star1
+    - coffee-bean-chief-base-star2
+    - coffee-bean-chief-base-star3
+updated: 2026-09-25
+icon: coffee-bean-chief-icon
+portrait: coffee-bean-chief-portrait
+evaluation:
+  rank: A
+  scope: 基本形の総合評価
+  source: coffee-bean-chief-memo
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - coffee-bean-chief-base-star1
+      - coffee-bean-chief-base-star2
+      - coffee-bean-chief-base-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - coffee-bean-chief-base-up1
+  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 11
+          sources:
+            - coffee-bean-chief-base-star1
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - coffee-bean-chief-base-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - coffee-bean-chief-base-star1
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+8、同時にすべてのサンコインを消費する。サンコイン1個につき、指定したミニオンの攻撃力+2
+          keywords:
+            - placement
+        sources:
+          - coffee-bean-chief-base-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 11
+          sources:
+            - coffee-bean-chief-base-star2
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - coffee-bean-chief-base-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - coffee-bean-chief-base-star2
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+8、同時にすべてのサンコインを消費する。サンコイン1個につき、指定したミニオンの攻撃力+2
+          keywords:
+            - placement
+        sources:
+          - coffee-bean-chief-base-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 11
+          sources:
+            - coffee-bean-chief-base-star3
+        interval:
+          status: observed
+          value: 1.6
+          sources:
+            - coffee-bean-chief-base-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - coffee-bean-chief-base-star3
+      ability:
+        status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+8、同時にすべてのサンコインを消費する。サンコイン1個につき、指定したミニオンの攻撃力+2
+          keywords:
+            - placement
+        sources:
+          - coffee-bean-chief-base-star3
+  initial:
+    attack:
+      status: observed
+      value: 11
+      sources:
+        - coffee-bean-chief-base-star1
+        - coffee-bean-chief-base-star2
+        - coffee-bean-chief-base-star3
+    abilities:
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+8、同時にすべてのサンコインを消費する。サンコイン1個につき、指定したミニオンの攻撃力+2
+          keywords:
+            - placement
+        sources:
+          - coffee-bean-chief-base-star1
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+8、同時にすべてのサンコインを消費する。サンコイン1個につき、指定したミニオンの攻撃力+2
+          keywords:
+            - placement
+        sources:
+          - coffee-bean-chief-base-star2
+      - status: observed
+        value:
+          text: 配置：指定したミニオンの攻撃力+8、同時にすべてのサンコインを消費する。サンコイン1個につき、指定したミニオンの攻撃力+2
+          keywords:
+            - placement
+        sources:
+          - coffee-bean-chief-base-star3
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - coffee-bean-chief-base-up1
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - coffee-bean-chief-base-up1
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 基本攻撃力ボーナスが12に上昇し、サンコイン1個につき攻撃力ボーナスが3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coffee-bean-chief-base-up1
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - coffee-bean-chief-base-up2
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+4
+          operation: attack_add
+          value: 4
+          unit: points
+        sources:
+          - coffee-bean-chief-base-up2
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 基本攻撃力ボーナスが20に上昇し、サンコイン1個につき攻撃力ボーナスが5に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coffee-bean-chief-base-up3
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 基本攻撃力ボーナスが24に上昇し、サンコイン1個につき攻撃力ボーナスが6に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coffee-bean-chief-base-up3
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 基本攻撃力ボーナスが28に上昇し、サンコイン1個につき攻撃力ボーナスが7に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - coffee-bean-chief-base-up3
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - coffee-bean-chief-base-up1
+      - coffee-bean-chief-base-up2
+      - coffee-bean-chief-base-up3
+  acquisition:
+    status: observed
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+    sources:
+      - coffee-bean-chief-base-star1
+      - coffee-bean-chief-base-star2
+      - coffee-bean-chief-base-star3
+  poolUnlock:
+    status: observed
+    value: トロフィー700
+    sources:
+      - coffee-bean-chief-base-star1
+      - coffee-bean-chief-base-star2
+      - coffee-bean-chief-base-star3
+variants:
+  status: absent
+  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  sources:
+    - coffee-bean-chief-base-star1
+    - coffee-bean-chief-base-star2
+    - coffee-bean-chief-base-star3
+  items: []

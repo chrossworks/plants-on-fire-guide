@@ -212,6 +212,9 @@ rules:
     sources:
       - rc-rules-user-20260925
 memberIds:
+  コーヒービーンチーフ: coffee-bean-chief
+  ウィキッドミラー: wicked-mirror
+  ドングリマッドマン: acorn-madman
   アンナイツバキ: annai-tsubaki
   アッポリス: appolis
   アボガク: avogaku
@@ -266,6 +269,15 @@ memberIds:
   ホワイトローズナイト: white-rose-knight
   ザクロブラスター: zakuro-blaster
 minions:
+  coffee-bean-chief:
+    availability: {status: observed, value: true, sources: [rc-sun]}
+    star4: {status: unknown, reason: 星4の詳細画像は未確認。}
+  wicked-mirror:
+    availability: {status: observed, value: true, sources: [rc-moon]}
+    star4: {status: unknown, reason: 星4の詳細画像は未確認。}
+  acorn-madman:
+    availability: {status: observed, value: true, sources: [rc-cloud]}
+    star4: {status: unknown, reason: 星4の詳細画像は未確認。}
   annai-tsubaki:
     availability:
       status: observed
@@ -405,8 +417,26 @@ minions:
       sources: &a5
         - rc-thunder
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+12～24
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-ginger-boss-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-ginger-boss-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-ginger-boss-star4
+
   gold-eater:
     availability:
       status: observed
@@ -437,24 +467,79 @@ minions:
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：ランダムなミニオン3体の攻撃力が一時的に+30
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-guava-trumpeter-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-guava-trumpeter-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-guava-trumpeter-star4
+
   hakusai-guard:
     availability:
       status: observed
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：攻撃力24の★1ハクサイワンコ6体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-hakusai-guard-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-hakusai-guard-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-hakusai-guard-star4
+
   hanakinoko-apothecary:
     availability:
       status: observed
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 売却価格+700%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-hanakinoko-apothecary-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-hanakinoko-apothecary-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-hanakinoko-apothecary-star4
+
   holly-bat:
     availability:
       status: unknown
@@ -477,8 +562,23 @@ minions:
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: いずれかの敵が撃破されると、自身の攻撃力+32～48
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-ketchampion-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-ketchampion-star4
+
   kowappine:
     availability:
       status: observed
@@ -522,8 +622,24 @@ minions:
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 一時的に召喚したミニオンの攻撃力+240%（最低でも+120）
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mandragora-priest-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-mandragora-priest-star4
+
   mango-ninja:
     availability:
       status: observed
@@ -538,8 +654,25 @@ minions:
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：攻撃力の25%を継承する★3マンゴスチンピッグ4体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mangosteen-beastmaster-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-mangosteen-beastmaster-star4
+
   melon-accountant:
     availability:
       status: observed
@@ -602,8 +735,25 @@ minions:
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の攻撃力の75%を継承するクローン体を一時的に1体召喚する
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-orange-twins-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-orange-twins-star4
+
   orchid-astrologer:
     availability:
       status: observed
@@ -618,8 +768,24 @@ minions:
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 毎ラウンド、最大16体の一時的なミニオンを捕食する。1体捕食するごとに、攻撃力+4
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-pakupaku-flower-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-pakupaku-flower-star4
+
   peanut-page:
     availability:
       status: observed
@@ -750,8 +916,26 @@ minions:
       value: true
       sources: *a5
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 召喚したミニオンの攻撃力が一時的に+48
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-white-rose-knight-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-white-rose-knight-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-white-rose-knight-star4
+
   zakuro-blaster:
     availability:
       status: observed
