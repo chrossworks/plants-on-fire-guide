@@ -33,7 +33,9 @@ test('アンナイツバキの星4と基本性能のレベル・根拠を分離�
 test('未掲載を非登場にせず、登場確認済みの未撮影星4も保持する',()=>{
   const r=loadRumble();
   assert.equal(rumbleForMinion(r,'unlisted').availability.status,'unknown');
+  r.minions['mam-girl'].star4={status:'unknown',reason:'未撮影の状態を検証'};
   assert.equal(rumbleForMinion(r,'mam-girl').star4.status,'unknown');
+  assert.doesNotThrow(()=>rumbleSchema.parse(r));
   const absent={availability:{status:'manual',value:false,sources:['user']}};
   r.minions['annai-tsubaki']=absent;
   assert.doesNotThrow(()=>rumbleSchema.parse(r));

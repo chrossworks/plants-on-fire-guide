@@ -324,7 +324,26 @@ minions:
         - rc-bamboo-archer-star4
   coffee-bean-chief:
     availability: {status: observed, value: true, sources: [rc-sun]}
-    star4: {status: unknown, reason: 星4の詳細画像は未確認。}
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 売却価格+700%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-coffee-bean-chief-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-coffee-bean-chief-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-coffee-bean-chief-star4
+
   wicked-mirror:
     availability: {status: observed, value: true, sources: [rc-moon]}
     star4:
@@ -427,8 +446,25 @@ minions:
       sources: &a2
         - rc-droplet
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身が★3の場合、攻撃力が一時的に+135%
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-avogaku-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-avogaku-star4
+
   bamerang:
     availability:
       status: unknown
@@ -474,24 +510,77 @@ minions:
       sources: &a3
         - rc-sun
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: サンコインを消費するたびに、サボテンガーディアンの攻撃力が一時的に+10～20
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-cactus-guardian-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-cactus-guardian-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-cactus-guardian-star4
+
   carrot-bomber:
     availability:
       status: observed
       value: true
       sources: *a2
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力150%分の起爆ニンジンを3個設置する。敵が触れると爆発して広範囲ダメージを与える
+          keywords:
+            - placement
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-carrot-bomber-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-carrot-bomber-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-carrot-bomber-star4
+
   cashew-sage:
     availability:
       status: observed
       value: true
       sources: *a2
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を300%コピーし、一時的に自身に付与する
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-cashew-sage-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-cashew-sage-star4
+
   chili-judge:
     availability:
       status: unknown
@@ -502,8 +591,24 @@ minions:
       value: true
       sources: *a3
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の売却価格+10
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-coco-bank-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-coco-bank-star4
+
   cotton-prince:
     availability:
       status: unknown
@@ -539,8 +644,26 @@ minions:
       value: true
       sources: *a3
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: オーラ：サンコインを5個所持するごとに、攻撃力+72
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-draful-guard-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-draful-guard-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-draful-guard-star4
+
   garlic-ranger:
     availability:
       status: unknown
@@ -808,16 +931,51 @@ minions:
       value: true
       sources: *a2
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 自身が星アップすると、攻撃力が追加で+32
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-kowappine-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-kowappine-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-kowappine-star4
+
   lady-tulip:
     availability:
       status: observed
       value: true
       sources: *a3
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: オーラ：本ラウンド中、サンコインを1個消費するたびに、レディ・チューリップの攻撃力+48
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-lady-tulip-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-lady-tulip-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-lady-tulip-star4
+
   luminous-tree:
     availability:
       status: observed
@@ -825,8 +983,27 @@ minions:
       sources: &a6
         - rc-star
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: |-
+            最大マナ12、マナ消費12：ランダムな敵3体を攻撃する
+            ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
+          keywords:
+            - maximum-mana
+            - mana-cost
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-luminous-tree-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-luminous-tree-star4
+
   lychee-baby:
     availability:
       status: unknown
@@ -837,8 +1014,26 @@ minions:
       value: true
       sources: *a6
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: オーラ：自身の1つ上のマスにいるミニオンの攻撃力+60
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-mam-girl-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mam-girl-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-mam-girl-star4
+
   mandragora-priest:
     availability:
       status: observed
@@ -869,8 +1064,23 @@ minions:
       value: true
       sources: *a6
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+60%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mango-ninja-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-mango-ninja-star4
+
   mangosteen-beastmaster:
     availability:
       status: observed
@@ -902,32 +1112,98 @@ minions:
       value: true
       sources: *a3
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 売却価格+400%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-melon-accountant-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-melon-accountant-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-melon-accountant-star4
+
   mojiton:
     availability:
       status: observed
       value: true
       sources: *a3
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンを購入時：ランダムなミニオン1体の攻撃力+24
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mojiton-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-mojiton-star4
+
   muracabelon:
     availability:
       status: observed
       value: true
       sources: *a2
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+24
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-muracabelon-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-muracabelon-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-muracabelon-star4
+
   muscle-watermelon:
     availability:
       status: observed
       value: true
       sources: *a6
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 敵ボスに1000%のダメージを与える
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-muscle-watermelon-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-muscle-watermelon-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-muscle-watermelon-star4
+
   mush-bomb:
     availability:
       status: observed
@@ -957,16 +1233,52 @@ minions:
       value: true
       sources: *a6
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: オーラ：十字範囲内のミニオンの攻撃力+48
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-norinori-negi-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-norinori-negi-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-norinori-negi-star4
+
   onion-bard:
     availability:
       status: observed
       value: true
       sources: *a6
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: オーラ：すべてのミニオンの攻撃速度+60%
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-onion-bard-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-onion-bard-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-onion-bard-star4
+
   orange-twins:
     availability:
       status: observed
@@ -998,8 +1310,24 @@ minions:
       value: true
       sources: *a6
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+60。凍結中のミニオンがいない場合、自身の攻撃力+60
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-orchid-astrologer-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-orchid-astrologer-star4
+
   pakupaku-flower:
     availability:
       status: observed
@@ -1030,8 +1358,25 @@ minions:
       value: true
       sources: *a2
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+12～24
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-peanut-page-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-peanut-page-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-peanut-page-star4
+
   pop-gunner:
     availability:
       status: unknown
@@ -1066,8 +1411,24 @@ minions:
       value: true
       sources: *a6
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の攻撃力+20～30
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-radish-maid-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-radish-maid-star4
+
   samurai-take:
     availability:
       status: observed
@@ -1097,16 +1458,48 @@ minions:
       value: true
       sources: *a3
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 売却価格+300%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-seed-worker-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-seed-worker-star4
+
   sister-cherry:
     availability:
       status: observed
       value: true
       sources: *a2
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 自身以外のミニオンは星アップすると、攻撃力+10～20
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-sister-cherry-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-sister-cherry-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-sister-cherry-star4
+
   spellberry:
     availability:
       status: observed
@@ -1138,32 +1531,105 @@ minions:
       value: true
       sources: *a6
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: |-
+            準備完了：名前が異なる他のミニオン1体ずつ、攻撃力+32～48
+            フィールド上に同名ミニオンがいない場合、代わりに攻撃力+80
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-staghorn-shaman-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-staghorn-shaman-star4
+
   sunflower-banker:
     availability:
       status: observed
       value: true
       sources: *a3
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: 準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の150%を継承させる
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-sunflower-banker-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-sunflower-banker-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-sunflower-banker-star4
+
   sunflower-manager:
     availability:
       status: observed
       value: true
       sources: *a3
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: |-
+            準備完了：サンコイン+12
+            1マッチにつき、最初のヒマワリ店長4体の購入価格-1
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-sunflower-manager-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-sunflower-manager-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-sunflower-manager-star4
+
   suzuran-mage:
     availability:
       status: observed
       value: true
       sources: *a2
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンが星アップするとき、ランダムなミニオン4体の攻撃力+16～32
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-suzuran-mage-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-suzuran-mage-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-suzuran-mage-star4
+
   tele-leafy:
     availability:
       status: observed
@@ -1231,8 +1697,27 @@ minions:
       value: true
       sources: *a2
     star4:
-      status: unknown
-      reason: 星4の能力は未撮影
+      status: observed
+      value:
+        ability:
+          text: |-
+            他のミニオンが星アップすると、自身の研究値+12
+            準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-walnut-professor-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-walnut-professor-star4
+
   white-rose-knight:
     availability:
       status: observed

@@ -3812,3 +3812,179 @@ rc-wicked-mirror-star4:
   mode: rumble-chess
   screen: detail
   selectedStar: 4
+rc-seed-worker-star4:
+  kind: screenshot
+  description: タネワーカーのランブルチェス星4詳細。詳細画面Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：売却価格+300%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-coco-bank-star4:
+  kind: screenshot
+  description: ココバンクのランブルチェス星4詳細。詳細画面Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：準備完了：自身の売却価格+10
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-cactus-guardian-star4:
+  kind: screenshot
+  description: サボテンガーディアンのランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：サンコインを消費するたびに、サボテンガーディアンの攻撃力が一時的に+10～20
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-mojiton-star4:
+  kind: screenshot
+  description: モヒートンのランブルチェス星4詳細。詳細画面Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：いずれかのミニオンを購入時：ランダムなミニオン1体の攻撃力+24
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-melon-accountant-star4:
+  kind: screenshot
+  description: メロンアカウンタントのランブルチェス星4詳細。現在Lv.4・最低保証Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：売却価格+400%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-draful-guard-star4:
+  kind: screenshot
+  description: ドラフルガードのランブルチェス星4詳細。現在Lv.4・最低保証Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：オーラ：サンコインを5個所持するごとに、攻撃力+72
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-sunflower-manager-star4:
+  kind: screenshot
+  description: |-
+    ヒマワリ店長のランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：準備完了：サンコイン+12
+    1マッチにつき、最初のヒマワリ店長4体の購入価格-1
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-sunflower-banker-star4:
+  kind: screenshot
+  description: ヒマワリバンカーのランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の150%を継承させる
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-lady-tulip-star4:
+  kind: screenshot
+  description: レディ・チューリップのランブルチェス星4詳細。現在Lv.6・最低保証Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：オーラ：本ラウンド中、サンコインを1個消費するたびに、レディ・チューリップの攻撃力+48
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-coffee-bean-chief-star4:
+  kind: screenshot
+  description: コーヒービーンチーフのランブルチェス星4詳細。現在Lv.4・最低保証Lv.7、太陽の絆・星4選択・絆ポイント8を確認。能力：売却価格+700%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-avogaku-star4:
+  kind: screenshot
+  description: アボガクのランブルチェス星4詳細。詳細画面Lv.8、雫の絆・星4選択・絆ポイント8を確認。能力：準備完了：自身が★3の場合、攻撃力が一時的に+135%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-kowappine-star4:
+  kind: screenshot
+  description: コワッパインのランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、雫の絆・星4選択・絆ポイント8を確認。能力：自身が星アップすると、攻撃力が追加で+32
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-sister-cherry-star4:
+  kind: screenshot
+  description: シスター・チェリーのランブルチェス星4詳細。現在Lv.6・最低保証Lv.7、雫の絆・星4選択・絆ポイント8を確認。能力：自身以外のミニオンは星アップすると、攻撃力+10～20
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-walnut-professor-star4:
+  kind: screenshot
+  description: |-
+    クルミ博士のランブルチェス星4詳細。詳細画面Lv.7、雫の絆・星4選択・絆ポイント8を確認。能力：他のミニオンが星アップすると、自身の研究値+12
+    準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-peanut-page-star4:
+  kind: screenshot
+  description: ピーナッツペイジのランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、雫の絆・星4選択・絆ポイント8を確認。能力：いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+12～24
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-muracabelon-star4:
+  kind: screenshot
+  description: ムラキャベロンのランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、雫の絆・星4選択・絆ポイント8を確認。能力：いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+24
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-carrot-bomber-star4:
+  kind: screenshot
+  description: ニンジンボンバーのランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、雫の絆・星4選択・絆ポイント8を確認。能力：配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力150%分の起爆ニンジンを3個設置する。敵が触れると爆発して広範囲ダメージを与える
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-cashew-sage-star4:
+  kind: screenshot
+  description: カシュー大賢者のランブルチェス星4詳細。詳細画面Lv.7、雫の絆・星4選択・絆ポイント8を確認。能力：準備完了：最も攻撃力が高い他のミニオンの攻撃力を300%コピーし、一時的に自身に付与する
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-suzuran-mage-star4:
+  kind: screenshot
+  description: スズラン魔導士のランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、雫の絆・星4選択・絆ポイント8を確認。能力：いずれかのミニオンが星アップするとき、ランダムなミニオン4体の攻撃力+16～32
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-radish-maid-star4:
+  kind: screenshot
+  description: ラディッシュメイドのランブルチェス星4詳細。詳細画面Lv.8、星の絆・星4選択・絆ポイント8を確認。能力：準備完了：自身の攻撃力+20～30
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-mam-girl-star4:
+  kind: screenshot
+  description: マムガールのランブルチェス星4詳細。現在Lv.6・最低保証Lv.7、星の絆・星4選択・絆ポイント8を確認。能力：オーラ：自身の1つ上のマスにいるミニオンの攻撃力+60
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-mango-ninja-star4:
+  kind: screenshot
+  description: マンゴーニンジャのランブルチェス星4詳細。詳細画面Lv.7、星の絆・星4選択・絆ポイント8を確認。能力：フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+60%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-orchid-astrologer-star4:
+  kind: screenshot
+  description: オーキッド占星術師のランブルチェス星4詳細。詳細画面Lv.8、星の絆・星4選択・絆ポイント8を確認。能力：準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+60。凍結中のミニオンがいない場合、自身の攻撃力+60
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-onion-bard-star4:
+  kind: screenshot
+  description: オニオンバードのランブルチェス星4詳細。現在Lv.6・最低保証Lv.7、星の絆・星4選択・絆ポイント8を確認。能力：オーラ：すべてのミニオンの攻撃速度+60%
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-norinori-negi-star4:
+  kind: screenshot
+  description: ノリノリネギのランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、星の絆・星4選択・絆ポイント8を確認。能力：オーラ：十字範囲内のミニオンの攻撃力+48
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-luminous-tree-star4:
+  kind: screenshot
+  description: |-
+    ルミナスツリーのランブルチェス星4詳細。詳細画面Lv.7、星の絆・星4選択・絆ポイント8を確認。能力：最大マナ12、マナ消費12：ランダムな敵3体を攻撃する
+    ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-staghorn-shaman-star4:
+  kind: screenshot
+  description: |-
+    ビカクシダシャーマンのランブルチェス星4詳細。詳細画面Lv.8、星の絆・星4選択・絆ポイント8を確認。能力：準備完了：名前が異なる他のミニオン1体ずつ、攻撃力+32～48
+    フィールド上に同名ミニオンがいない場合、代わりに攻撃力+80
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rc-muscle-watermelon-star4:
+  kind: screenshot
+  description: マッスルスイカのランブルチェス星4詳細。現在Lv.5・最低保証Lv.7、星の絆・星4選択・絆ポイント8を確認。能力：敵ボスに1000%のダメージを与える
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
