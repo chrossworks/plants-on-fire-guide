@@ -28,6 +28,20 @@ export async function validate() {
     if (memberships.has(name)) fail(`絆所属の重複: ${name}`);
     memberships.set(name,d.id);
   }
+  const mappedIds = new Set();
+  for (const [name, id] of Object.entries(rumble.memberIds)) {
+    if (mappedIds.has(id)) fail(`ランブルチェスのミニオンID重複: ${id}`);
+    mappedIds.add(id);
+    if (!minions.some(m => m.id === id && m.name === name)) fail(`絆所属の名前・ID不一致: ${name} / ${id}`);
+    if (!memberships.has(name)) fail(`絆所属なし: ${name}`);
+    if (rumble.minions[id]?.availability.value !== true) fail(`絆所属と登場可否の矛盾: ${id}`);
+  }
+  for (const [id, entry] of Object.entries(rumble.minions)) {
+    if (!minions.some(m => m.id === id)) fail(`ランブルチェスのミニオンID不明: ${id}`);
+    if (entry.star4?.status === 'observed') for (const s of entry.star4.sources) {
+      if (sources[s]?.kind !== 'screenshot' || sources[s]?.mode !== 'rumble-chess' || sources[s]?.screen !== 'detail' || sources[s]?.selectedStar !== 4) fail(`星4能力の画像根拠が不正: ${id} / ${s}`);
+    }
+  }
   for (const o of rumble.observations) {
     if (sources[o.source]?.mode !== 'rumble-chess' || sources[o.source]?.screen !== 'detail') fail(`ランブルチェス詳細の根拠が不正: ${o.name}`);
     if (!rumble.decks.some(d=>d.id===o.deck)) fail(`絆デッキ不明: ${o.deck}`);
@@ -43,10 +57,13 @@ export async function validate() {
     if (meta.exif || meta.xmp) fail(`画像にメタデータが残っています: ${key}`);
   }
   const assetRef = (key,p) => { if (!assets[key]) fail(`${p}: 画像IDなし ${key}`); };
+  for (const d of rumble.decks) if (d.bond.icon?.value) assetRef(d.bond.icon.value,`rumble-chess.${d.id}.bond.icon`);
   for (const m of minions) {
     walk(m,m.id); if (m.icon) assetRef(m.icon,m.id); assetRef(m.portrait,m.id);
     if (m.variants.status === 'absent' && !hasStandardAbsenceEvidence(m.variants,sources)) fail(`${m.id}: バリアントなしには通常詳細画面での非表示確認が必要です`);
     if (!sources[m.evaluation.source]) fail(`${m.id}: 評価の出典なし`);
+    if (m.availability?.ranked.value === false && m.evaluation.rank !== '対象外') fail(`${m.id}: ランクマッチ使用不可の場合は評価対象外にしてください`);
+    if (m.evaluation.rank === '対象外' && m.availability?.ranked.value !== false) fail(`${m.id}: 評価対象外にはランクマッチ使用不可の確認が必要です`);
     const min = minimumLevels[m.rarity.value];
     for (const f of [m.base,...m.variants.items]) {
       if (f.image) assetRef(f.image,`${m.id}.${f.id}`);

@@ -12,7 +12,7 @@ function visit(v,p){
   for(const [k,x] of Object.entries(v))if(k!=='value')visit(x,`${p}.${k}`);
 }
 for(const m of minions){lines.push(`### ${m.name}`,'');visit(m,m.id);}
-lines.push('','## ランブルチェス（保存のみ・サイト未使用）','');visit(rumble,'rumble-chess');
+lines.push('','## ランブルチェス（絆・星4能力・共通ルール）','');visit(rumble,'rumble-chess');
 lines.push('','## 加工後画像','');
 for(const [key,a] of Object.entries(assets))lines.push(`- ${key}: ${a.alt}`,`  ![${a.alt}](../public/${a.path})`);
 fs.mkdirSync(path.join(root,'work'),{recursive:true});fs.writeFileSync(path.join(root,'work/review.md'),lines.join('\n')+'\n');

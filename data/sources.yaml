@@ -3444,3 +3444,13 @@ luminous-tree-keywords:
   kind: screenshot
   description: ルミナスツリー・最大マナとマナ消費の用語説明
   mode: standard
+
+rc-rules-user-20260925:
+  kind: user
+  description: 2026-09-25確認。同じレベルで攻撃力・星1〜3能力は両モード共通。ランブルチェスは最低Lv.7保証、星4まで合成可能。星1/2/3/4の絆ポイントは1/2/4/8。
+rc-annai-tsubaki-star4:
+  kind: screenshot
+  description: アンナイツバキのランブルチェス星4詳細。現在Lv.4・最低保証Lv.7、星4選択、購入したミニオンの攻撃力の25%を獲得する。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4

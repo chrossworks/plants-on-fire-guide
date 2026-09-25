@@ -528,3 +528,27 @@ mandragora-priest-icon:
 cashew-sage-icon:
   path: images/minions/cashew-sage/icon.webp
   alt: カシュー大賢者のカードアイコン（撮影時のLv表示を含む）
+
+rc-cloud-icon:
+  path: images/rumble-chess/cloud.webp
+  alt: 雲の絆アイコン
+
+rc-moon-icon:
+  path: images/rumble-chess/moon.webp
+  alt: 月の絆アイコン
+
+rc-sun-icon:
+  path: images/rumble-chess/sun.webp
+  alt: 太陽の絆アイコン
+
+rc-thunder-icon:
+  path: images/rumble-chess/thunder.webp
+  alt: 雷の絆アイコン
+
+rc-droplet-icon:
+  path: images/rumble-chess/droplet.webp
+  alt: 雫の絆アイコン
+
+rc-star-icon:
+  path: images/rumble-chess/star.webp
+  alt: 星の絆アイコン

@@ -4,7 +4,7 @@ import { minions, imageUrl, minionUrl } from '../lib/site';
 const articles = await getCollection('articles');
 const published = new Set(articles.filter(a => a.data.kind === 'minion').map(a => a.data.minionId));
 const rarityOrder = { legend: 0, epic: 1, rare: 2 };
-const ranked = minions.filter(m => published.has(m.id)).sort((a, b) =>
+const ranked = minions.filter(m => published.has(m.id) && m.evaluation.rank !== '対象外').sort((a, b) =>
   (rarityOrder[a.rarity.value] ?? 9) - (rarityOrder[b.rarity.value] ?? 9)
   || a.reading.localeCompare(b.reading, 'ja')
 );
@@ -13,7 +13,7 @@ const other = ranked.filter(m => !ranks.includes(m.evaluation.rank));
 ---
 <section aria-labelledby="tier-heading">
   <h2 id="tier-heading">ミニオンTier表</h2>
-  <p>アイコン・名前をタップすると詳細ページへ移動します。同評価内はレジェンド→エピック→レア、同じレアリティでは読みがな順に並べています。</p>
+  <p>ランクマッチで使用できないミニオンは評価対象外です。アイコン・名前をタップすると詳細ページへ移動します。同評価内はレジェンド→エピック→レア、同じレアリティでは読みがな順に並べています。</p>
   {ranks.map(rank => <div class="tier-group">
     <h3 class:list={['tier-label', `tier-${rank.toLowerCase()}`]}>{rank}<small>{ranked.filter(m => m.evaluation.rank === rank).length}体</small></h3>
     <ul class="tier-minions">

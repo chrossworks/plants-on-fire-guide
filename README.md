@@ -26,7 +26,7 @@ article-notes/         非公開の入力メモ（変更しない）
 work/                 非公開の分類台帳・加工設定・確認用画像・確認票
 data/minions/         ミニオン共通データの正本（YAML）
 data/keywords.yaml    共通用語
-data/rumble-chess.yaml ランブルチェスの絆所属・任意の詳細観測（保存のみ・サイト未使用）
+data/rumble-chess.yaml ランブルチェスの絆・星4能力・登場状態・共通ルール
 data/sources.yaml     根拠IDと説明（原本パスは入れない）
 data/assets.yaml      公開画像ID・相対パス・代替文
 content/              公開用記事の正本（Markdown）
@@ -83,6 +83,7 @@ Remove-Item Env:BUILD_DIR
 - 一覧の名前検索、レアリティ・コスト・評価フィルタ、並び替え。
 - 基本形・バリアント別の星別表示値とLvボーナス。
 - 未確認のまま掲載可能。逆算値には前提を表示。
+- ミニオン詳細にランブルチェスの絆・星4能力を表示。星4未撮影・登場未確認・非登場を区別。
 - 原本を含まない通常build、画像参照と内部リンク検証。
 - 未実装：全文検索、広告、アクセス解析、CMS、DB、ログイン、自動OCR/API、常時監視、全レベル計算。
 

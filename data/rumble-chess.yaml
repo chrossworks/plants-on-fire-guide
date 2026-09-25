@@ -1,7 +1,7 @@
 schemaVersion: 1
 mode: rumble-chess
-updated: '2026-09-22'
-note: 画像から確認した絆所属と6デッキ各10段階の絆効果を保存。サイトでは未使用。撮影時点の6デッキ各10体を収録し、共有デッキは対象外。通常モードの性能・初期値・バリアント判定へ転用しない。
+updated: '2026-09-25'
+note: 絆所属・絆効果と、基本形に対応する星4能力を保存。基本性能は同じレベルで共通。撮影時点の6デッキ各10体を収録し、共有デッキは対象外。未掲載を非登場と判定しない。
 decks:
   - id: cloud
     name: {status: observed, value: 雲デッキ, sources: [rc-overview]}
@@ -10,6 +10,7 @@ decks:
       value: [アンナイツバキ, ポテトセラー, アッポリス, グレープバーテンダー, サムライタケ, ザクロブラスター, スペルベリー, チリコック, ゴールドイーター, ドングリマッドマン]
       sources: [rc-cloud]
     bond:
+      icon: {status: observed, value: rc-cloud-icon, sources: [rc-cloud-bond]}
       name: {status: observed, value: 雲の絆, sources: [rc-cloud-bond]}
       tiers:
         status: observed
@@ -36,6 +37,7 @@ decks:
       value: [マッシュボム, カラカボチャ, グリーンキーパー, ゴーストオーキッド, カボチャナイト, ダンデライオン, テレ・リーフィー, ヴァルキリス, ブラックローズナイト, ウィキッドミラー]
       sources: [rc-moon]
     bond:
+      icon: {status: observed, value: rc-moon-icon, sources: [rc-moon-bond]}
       name: {status: observed, value: 月の絆, sources: [rc-moon-bond]}
       tiers:
         status: observed
@@ -62,6 +64,7 @@ decks:
       value: [タネワーカー, ココバンク, サボテンガーディアン, モヒートン, メロンアカウンタント, ドラフルガード, ヒマワリ店長, ヒマワリバンカー, レディ・チューリップ, コーヒービーンチーフ]
       sources: [rc-sun]
     bond:
+      icon: {status: observed, value: rc-sun-icon, sources: [rc-sun-bond]}
       name: {status: observed, value: 太陽の絆, sources: [rc-sun-bond]}
       tiers:
         status: observed
@@ -88,6 +91,7 @@ decks:
       value: [マンゴスチン獣使い, ハクサイ衛兵, グァバラッパ, パクパクフラワー, オレンジツインズ, ジンジャー親分, ホワイトローズナイト, ケチャッピオン, マンドラゴラ司祭, ハナキノコ薬師]
       sources: [rc-thunder]
     bond:
+      icon: {status: observed, value: rc-thunder-icon, sources: [rc-thunder-bond]}
       name: {status: observed, value: 雷の絆, sources: [rc-thunder-bond]}
       tiers:
         status: observed
@@ -114,6 +118,7 @@ decks:
       value: [アボガク, コワッパイン, シスター・チェリー, クルミ博士, ピーナッツペイジ, ムラキャベロン, ニンジンボンバー, カシュー大賢者, ラフレシア, スズラン魔導士]
       sources: [rc-droplet]
     bond:
+      icon: {status: observed, value: rc-droplet-icon, sources: [rc-droplet-bond]}
       name: {status: observed, value: 雫の絆, sources: [rc-droplet-bond]}
       tiers:
         status: observed
@@ -140,6 +145,7 @@ decks:
       value: [ラディッシュメイド, バンブーアーチャー, マムガール, マンゴーニンジャ, オーキッド占星術師, オニオンバード, ノリノリネギ, ルミナスツリー, ビカクシダシャーマン, マッスルスイカ]
       sources: [rc-star]
     bond:
+      icon: {status: observed, value: rc-star-icon, sources: [rc-star-bond]}
       name: {status: observed, value: 星の絆, sources: [rc-star-bond]}
       tiers:
         status: observed
@@ -184,3 +190,573 @@ observations:
     target: {status: observed, value: 最前列, sources: [rc-orchid-detail]}
     ability: {status: observed, value: '準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+5。凍結中のミニオンがいない場合、自身の攻撃力+5', sources: [rc-orchid-detail]}
     conditions: Lv.8、ON表示。星1選択、星4タブあり。絆アイコンはカードプールの星デッキ表示と照合。バリアント非表示を不存在の根拠にしない。
+
+rules:
+  sharedPerformance:
+    status: manual
+    value: 攻撃力・星1〜3の能力は同じレベルで通常とランブルチェスに差分がない。ランブルチェスでは星4まで合成できる。
+    sources:
+      - rc-rules-user-20260925
+  minimumGuaranteedLevel:
+    status: manual
+    value: 7
+    sources:
+      - rc-rules-user-20260925
+  bondPointsByStar:
+    status: manual
+    value:
+      "1": 1
+      "2": 2
+      "3": 4
+      "4": 8
+    sources:
+      - rc-rules-user-20260925
+memberIds:
+  アンナイツバキ: annai-tsubaki
+  アッポリス: appolis
+  アボガク: avogaku
+  ブラックローズナイト: black-rose-knight
+  サボテンガーディアン: cactus-guardian
+  ニンジンボンバー: carrot-bomber
+  カシュー大賢者: cashew-sage
+  ココバンク: coco-bank
+  ダンデライオン: dandelion
+  ドラフルガード: draful-guard
+  ゴーストオーキッド: ghost-orchid
+  ジンジャー親分: ginger-boss
+  ゴールドイーター: gold-eater
+  グレープバーテンダー: grape-bartender
+  グリーンキーパー: greenkeeper
+  グァバラッパ: guava-trumpeter
+  ハクサイ衛兵: hakusai-guard
+  ハナキノコ薬師: hanakinoko-apothecary
+  カラカボチャ: kara-pumpkin
+  ケチャッピオン: ketchampion
+  コワッパイン: kowappine
+  レディ・チューリップ: lady-tulip
+  ルミナスツリー: luminous-tree
+  マムガール: mam-girl
+  マンドラゴラ司祭: mandragora-priest
+  マンゴーニンジャ: mango-ninja
+  マンゴスチン獣使い: mangosteen-beastmaster
+  メロンアカウンタント: melon-accountant
+  モヒートン: mojiton
+  ムラキャベロン: muracabelon
+  マッスルスイカ: muscle-watermelon
+  マッシュボム: mush-bomb
+  ノリノリネギ: norinori-negi
+  オニオンバード: onion-bard
+  オレンジツインズ: orange-twins
+  オーキッド占星術師: orchid-astrologer
+  パクパクフラワー: pakupaku-flower
+  ピーナッツペイジ: peanut-page
+  カボチャナイト: pumpkin-knight
+  ラディッシュメイド: radish-maid
+  サムライタケ: samurai-take
+  タネワーカー: seed-worker
+  シスター・チェリー: sister-cherry
+  スペルベリー: spellberry
+  ビカクシダシャーマン: staghorn-shaman
+  ヒマワリバンカー: sunflower-banker
+  ヒマワリ店長: sunflower-manager
+  スズラン魔導士: suzuran-mage
+  テレ・リーフィー: tele-leafy
+  ヴァルキリス: valkyris
+  クルミ博士: walnut-professor
+  ホワイトローズナイト: white-rose-knight
+  ザクロブラスター: zakuro-blaster
+minions:
+  annai-tsubaki:
+    availability:
+      status: observed
+      value: true
+      sources: &a1
+        - rc-cloud
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 購入したミニオンの攻撃力の25%を獲得する
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-annai-tsubaki-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-annai-tsubaki-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
+      sources:
+        - rc-annai-tsubaki-star4
+  appolis:
+    availability:
+      status: observed
+      value: true
+      sources: *a1
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  avogaku:
+    availability:
+      status: observed
+      value: true
+      sources: &a2
+        - rc-droplet
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  bamerang:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  black-rose-knight:
+    availability:
+      status: observed
+      value: true
+      sources: &a4
+        - rc-moon
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  broccolism:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  cabbage-baker:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  cactus-guardian:
+    availability:
+      status: observed
+      value: true
+      sources: &a3
+        - rc-sun
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  carrot-bomber:
+    availability:
+      status: observed
+      value: true
+      sources: *a2
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  cashew-sage:
+    availability:
+      status: observed
+      value: true
+      sources: *a2
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  chili-judge:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  coco-bank:
+    availability:
+      status: observed
+      value: true
+      sources: *a3
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  cotton-prince:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  dandelion:
+    availability:
+      status: observed
+      value: true
+      sources: *a4
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  draful-guard:
+    availability:
+      status: observed
+      value: true
+      sources: *a3
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  garlic-ranger:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  ghost-orchid:
+    availability:
+      status: observed
+      value: true
+      sources: *a4
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  ginger-boss:
+    availability:
+      status: observed
+      value: true
+      sources: &a5
+        - rc-thunder
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  gold-eater:
+    availability:
+      status: observed
+      value: true
+      sources: *a1
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  grape-bartender:
+    availability:
+      status: observed
+      value: true
+      sources: *a1
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  greenkeeper:
+    availability:
+      status: observed
+      value: true
+      sources: *a4
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  guava-trumpeter:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  hakusai-guard:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  hanakinoko-apothecary:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  holly-bat:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  hoozuki-police:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  kara-pumpkin:
+    availability:
+      status: observed
+      value: true
+      sources: *a4
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  ketchampion:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  kowappine:
+    availability:
+      status: observed
+      value: true
+      sources: *a2
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  lady-tulip:
+    availability:
+      status: observed
+      value: true
+      sources: *a3
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  luminous-tree:
+    availability:
+      status: observed
+      value: true
+      sources: &a6
+        - rc-star
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  lychee-baby:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  mam-girl:
+    availability:
+      status: observed
+      value: true
+      sources: *a6
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  mandragora-priest:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  mango-ninja:
+    availability:
+      status: observed
+      value: true
+      sources: *a6
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  mangosteen-beastmaster:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  melon-accountant:
+    availability:
+      status: observed
+      value: true
+      sources: *a3
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  mojiton:
+    availability:
+      status: observed
+      value: true
+      sources: *a3
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  muracabelon:
+    availability:
+      status: observed
+      value: true
+      sources: *a2
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  muscle-watermelon:
+    availability:
+      status: observed
+      value: true
+      sources: *a6
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  mush-bomb:
+    availability:
+      status: observed
+      value: true
+      sources: *a4
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  norinori-negi:
+    availability:
+      status: observed
+      value: true
+      sources: *a6
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  onion-bard:
+    availability:
+      status: observed
+      value: true
+      sources: *a6
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  orange-twins:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  orchid-astrologer:
+    availability:
+      status: observed
+      value: true
+      sources: *a6
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  pakupaku-flower:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  peanut-page:
+    availability:
+      status: observed
+      value: true
+      sources: *a2
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  pop-gunner:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  pumpkin-knight:
+    availability:
+      status: observed
+      value: true
+      sources: *a4
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  radish-maid:
+    availability:
+      status: observed
+      value: true
+      sources: *a6
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  samurai-take:
+    availability:
+      status: observed
+      value: true
+      sources: *a1
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  seed-worker:
+    availability:
+      status: observed
+      value: true
+      sources: *a3
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  sister-cherry:
+    availability:
+      status: observed
+      value: true
+      sources: *a2
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  spellberry:
+    availability:
+      status: observed
+      value: true
+      sources: *a1
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  staghorn-shaman:
+    availability:
+      status: observed
+      value: true
+      sources: *a6
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  sunflower-banker:
+    availability:
+      status: observed
+      value: true
+      sources: *a3
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  sunflower-manager:
+    availability:
+      status: observed
+      value: true
+      sources: *a3
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  suzuran-mage:
+    availability:
+      status: observed
+      value: true
+      sources: *a2
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  tele-leafy:
+    availability:
+      status: observed
+      value: true
+      sources: *a4
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  tumble-roller:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  valkyris:
+    availability:
+      status: observed
+      value: true
+      sources: *a4
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  violet-mage:
+    availability:
+      status: unknown
+      reason: 既存の絆所属資料では登場可否を確定できない
+  walnut-professor:
+    availability:
+      status: observed
+      value: true
+      sources: *a2
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  white-rose-knight:
+    availability:
+      status: observed
+      value: true
+      sources: *a5
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影
+  zakuro-blaster:
+    availability:
+      status: observed
+      value: true
+      sources: *a1
+    star4:
+      status: unknown
+      reason: 星4の能力は未撮影

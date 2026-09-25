@@ -1,7 +1,8 @@
-import { loadAssets, loadMinions, loadKeywords } from '../../lib/content.mjs';
+import { loadAssets, loadMinions, loadKeywords, loadRumble } from '../../lib/content.mjs';
 export const assets = loadAssets();
 export const minions = loadMinions();
 export const keywords = loadKeywords();
+export const rumble = loadRumble();
 export const url = (path = '') => `${import.meta.env.BASE_URL.replace(/\/$/,'')}/${path.replace(/^\//,'')}`;
 export const imageUrl = (id: string) => url(assets[id].path);
 export const minionUrl = (id: string) => url(`minions/${id}/`);
