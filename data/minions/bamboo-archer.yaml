@@ -1,0 +1,277 @@
+schemaVersion: 1
+id: bamboo-archer
+name: バンブーアーチャー
+reading: ばんぶーあーちゃー
+rarity:
+  status: observed
+  value: rare
+  sources:
+    - rc-bamboo-archer-star1
+    - rc-bamboo-archer-star2
+    - rc-bamboo-archer-star3
+    - rc-bamboo-archer-star4
+cost:
+  status: observed
+  value: 3
+  sources:
+    - rc-bamboo-archer-star1
+    - rc-bamboo-archer-star2
+    - rc-bamboo-archer-star3
+    - rc-bamboo-archer-star4
+updated: 2026-09-25
+icon: bamboo-archer-icon
+portrait: bamboo-archer-portrait
+evaluation:
+  rank: 対象外
+  scope: ランブルチェス限定のためランクマッチ評価対象外
+  source: rumble-limited-user-20260925
+availability:
+  acquisition:
+    status: observed
+    value: unobtainable
+    sources:
+      - rc-bamboo-archer-star1
+      - rc-bamboo-archer-star2
+      - rc-bamboo-archer-star3
+      - rc-bamboo-archer-star4
+  ranked:
+    status: manual
+    value: false
+    sources:
+      - rumble-limited-user-20260925
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - rc-bamboo-archer-star1
+      - rc-bamboo-archer-star2
+      - rc-bamboo-archer-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 1
+    sources:
+      - rc-bamboo-archer-up1
+  conditions: ランブルチェス・現在Lv.1、最低保証Lv.7適用後の性能（ON）。Lv.1の初期性能ではありません。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - rc-bamboo-archer-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - rc-bamboo-archer-star1
+        target:
+          status: observed
+          value: HP最低
+          sources:
+            - rc-bamboo-archer-star1
+      ability:
+        status: observed
+        value:
+          text: 攻撃速度+170%、30%のダメージを与える
+          keywords: []
+        sources:
+          - rc-bamboo-archer-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - rc-bamboo-archer-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - rc-bamboo-archer-star2
+        target:
+          status: observed
+          value: HP最低
+          sources:
+            - rc-bamboo-archer-star2
+      ability:
+        status: observed
+        value:
+          text: 攻撃速度+170%、35%のダメージを与える
+          keywords: []
+        sources:
+          - rc-bamboo-archer-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - rc-bamboo-archer-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - rc-bamboo-archer-star3
+        target:
+          status: observed
+          value: HP最低
+          sources:
+            - rc-bamboo-archer-star3
+      ability:
+        status: observed
+        value:
+          text: 攻撃速度+170%、40%のダメージを与える
+          keywords: []
+        sources:
+          - rc-bamboo-archer-star3
+  initial:
+    attack:
+      status: unknown
+      reason: 最低保証Lv.7適用前のLv.1攻撃力は未確認。
+    abilities:
+      - status: unknown
+        reason: 最低保証Lv.7適用前のLv.1能力は未確認。
+      - status: unknown
+        reason: 最低保証Lv.7適用前のLv.1能力は未確認。
+      - status: unknown
+        reason: 最低保証Lv.7適用前のLv.1能力は未確認。
+  bonuses:
+    - level: 2
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - rc-bamboo-archer-up1
+    - level: 3
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - rc-bamboo-archer-up1
+    - level: 4
+      effect:
+        status: observed
+        value:
+          text: 攻撃速度ボーナスが155%に上昇する
+          operation: ability_set
+          value: 155
+          unit: percent
+        sources:
+          - rc-bamboo-archer-up1
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - rc-bamboo-archer-up2
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+1
+          operation: attack_add
+          value: 1
+          unit: points
+        sources:
+          - rc-bamboo-archer-up2
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 攻撃速度ボーナスが170%に上昇する
+          operation: ability_set
+          value: 170
+          unit: percent
+        sources:
+          - rc-bamboo-archer-up2
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - rc-bamboo-archer-up3
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - rc-bamboo-archer-up3
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 攻撃速度ボーナスが200%に上昇する
+          operation: ability_set
+          value: 200
+          unit: percent
+        sources:
+          - rc-bamboo-archer-up4
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃速度ボーナスが215%に上昇する
+          operation: ability_set
+          value: 215
+          unit: percent
+        sources:
+          - rc-bamboo-archer-up4
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃速度ボーナスが230%に上昇する
+          operation: ability_set
+          value: 230
+          unit: percent
+        sources:
+          - rc-bamboo-archer-up4
+  bonusCoverage:
+    status: observed
+    value:
+      from: 2
+      through: 12
+    sources:
+      - rc-bamboo-archer-up1
+      - rc-bamboo-archer-up2
+      - rc-bamboo-archer-up3
+      - rc-bamboo-archer-up4
+  acquisition:
+    status: observed
+    value: 現在入手できません
+    sources:
+      - rc-bamboo-archer-star1
+      - rc-bamboo-archer-star2
+      - rc-bamboo-archer-star3
+      - rc-bamboo-archer-star4
+  poolUnlock:
+    status: unknown
+    reason: ランブルチェス限定。通常カードプールの解放条件は確認できません。
+variants:
+  status: unknown
+  note: ランブルチェス詳細ではバリアントの有無を判定できません。
+  items: []

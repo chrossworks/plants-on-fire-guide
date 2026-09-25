@@ -1,0 +1,237 @@
+schemaVersion: 1
+id: rafflesia
+name: ラフレシア
+reading: らふれしあ
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - rc-rafflesia-star1
+    - rc-rafflesia-star2
+    - rc-rafflesia-star3
+    - rc-rafflesia-star4
+cost:
+  status: observed
+  value: 8
+  sources:
+    - rc-rafflesia-star1
+    - rc-rafflesia-star2
+    - rc-rafflesia-star3
+    - rc-rafflesia-star4
+updated: 2026-09-25
+icon: rafflesia-icon
+portrait: rafflesia-portrait
+evaluation:
+  rank: 対象外
+  scope: ランブルチェス限定のためランクマッチ評価対象外
+  source: rumble-limited-user-20260925
+availability:
+  acquisition:
+    status: observed
+    value: unobtainable
+    sources:
+      - rc-rafflesia-star1
+      - rc-rafflesia-star2
+      - rc-rafflesia-star3
+      - rc-rafflesia-star4
+  ranked:
+    status: manual
+    value: false
+    sources:
+      - rumble-limited-user-20260925
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - rc-rafflesia-star1
+      - rc-rafflesia-star2
+      - rc-rafflesia-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - rc-rafflesia-up1
+  conditions: ランブルチェス・現在Lv.7の表示値（ON）。レジェンドの最低レベルと一致。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 15
+          sources:
+            - rc-rafflesia-star1
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - rc-rafflesia-star1
+        target:
+          status: observed
+          value: HP最高
+          sources:
+            - rc-rafflesia-star1
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身を除くフィールド上にいるミニオンがすべて★3の場合、他ミニオンの攻撃力の合計の50%を獲得する
+          keywords:
+            - ready
+        sources:
+          - rc-rafflesia-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 15
+          sources:
+            - rc-rafflesia-star2
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - rc-rafflesia-star2
+        target:
+          status: observed
+          value: HP最高
+          sources:
+            - rc-rafflesia-star2
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身を除くフィールド上にいるミニオンがすべて★3の場合、他ミニオンの攻撃力の合計の50%を獲得する
+          keywords:
+            - ready
+        sources:
+          - rc-rafflesia-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 15
+          sources:
+            - rc-rafflesia-star3
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - rc-rafflesia-star3
+        target:
+          status: observed
+          value: HP最高
+          sources:
+            - rc-rafflesia-star3
+      ability:
+        status: observed
+        value:
+          text: 準備完了：自身を除くフィールド上にいるミニオンがすべて★3の場合、他ミニオンの攻撃力の合計の50%を獲得する
+          keywords:
+            - ready
+        sources:
+          - rc-rafflesia-star3
+  initial:
+    attack:
+      status: observed
+      value: 15
+      sources:
+        - rc-rafflesia-star1
+        - rc-rafflesia-star2
+        - rc-rafflesia-star3
+    abilities:
+      - status: observed
+        value:
+          text: 準備完了：自身を除くフィールド上にいるミニオンがすべて★3の場合、他ミニオンの攻撃力の合計の50%を獲得する
+          keywords:
+            - ready
+        sources:
+          - rc-rafflesia-star1
+      - status: observed
+        value:
+          text: 準備完了：自身を除くフィールド上にいるミニオンがすべて★3の場合、他ミニオンの攻撃力の合計の50%を獲得する
+          keywords:
+            - ready
+        sources:
+          - rc-rafflesia-star2
+      - status: observed
+        value:
+          text: 準備完了：自身を除くフィールド上にいるミニオンがすべて★3の場合、他ミニオンの攻撃力の合計の50%を獲得する
+          keywords:
+            - ready
+        sources:
+          - rc-rafflesia-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: フィールド上に自身以外のミニオンがすべて★3の場合、獲得する攻撃力の合計が58%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-rafflesia-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: フィールド上に自身以外のミニオンがすべて★3の場合、獲得する攻撃力の合計が66%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-rafflesia-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 一時的に獲得する★3ミニオンの攻撃力の合計が16%に上昇し、フィールド上に自身以外のミニオンがすべて★3の場合、獲得する攻撃力の合計が66%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-rafflesia-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 一時的に獲得する★3ミニオンの攻撃力の合計が20%に上昇し、フィールド上に自身以外のミニオンがすべて★3の場合、獲得する攻撃力の合計が82%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-rafflesia-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 一時的に獲得する★3ミニオンの攻撃力の合計が25%に上昇し、フィールド上に自身以外のミニオンがすべて★3の場合、獲得する攻撃力の合計が100%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-rafflesia-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - rc-rafflesia-up1
+      - rc-rafflesia-up2
+  acquisition:
+    status: observed
+    value: 現在入手できません
+    sources:
+      - rc-rafflesia-star1
+      - rc-rafflesia-star2
+      - rc-rafflesia-star3
+      - rc-rafflesia-star4
+  poolUnlock:
+    status: unknown
+    reason: ランブルチェス限定。通常カードプールの解放条件は確認できません。
+variants:
+  status: unknown
+  note: ランブルチェス詳細ではバリアントの有無を判定できません。
+  items: []

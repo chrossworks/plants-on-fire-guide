@@ -212,6 +212,8 @@ rules:
     sources:
       - rc-rules-user-20260925
 memberIds:
+  ラフレシア: rafflesia
+  バンブーアーチャー: bamboo-archer
   コーヒービーンチーフ: coffee-bean-chief
   ウィキッドミラー: wicked-mirror
   ドングリマッドマン: acorn-madman
@@ -271,6 +273,55 @@ memberIds:
   ポテトセラー: potato-seller
   チリコック: chili-cook
 minions:
+  rafflesia:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rc-droplet
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身を除くフィールド上にいるミニオンがすべて★3の場合、他ミニオンの攻撃力の合計の150%を獲得する
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-rafflesia-star4
+        guaranteedLevel:
+          status: unknown
+          reason: 現在Lv.7のため最低保証Lvの併記なし。共通ルールは最低Lv.7。
+        conditions: 現在Lv.7で確認した星4能力。
+      sources:
+        - rc-rafflesia-star4
+  bamboo-archer:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rc-star
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 攻撃速度+340%、40%のダメージを与える
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 1
+          sources:
+            - rc-bamboo-archer-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-bamboo-archer-star4
+        conditions: 現在Lv.1、最低保証Lv.7適用時の星4能力。Lv.1の初期能力ではありません。
+      sources:
+        - rc-bamboo-archer-star4
   coffee-bean-chief:
     availability: {status: observed, value: true, sources: [rc-sun]}
     star4: {status: unknown, reason: 星4の詳細画像は未確認。}

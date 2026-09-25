@@ -571,3 +571,16 @@ acorn-madman-portrait:
 acorn-madman-icon:
   path: images/minions/acorn-madman/icon.webp
   alt: ドングリマッドマンのカードアイコン（撮影時のLv表示を含む）
+
+rafflesia-portrait:
+  path: images/minions/rafflesia/portrait.webp
+  alt: ラフレシアの基本形
+rafflesia-icon:
+  path: images/minions/rafflesia/icon.webp
+  alt: ラフレシアのカードアイコン（撮影時のLv表示を含む）
+bamboo-archer-portrait:
+  path: images/minions/bamboo-archer/portrait.webp
+  alt: バンブーアーチャーの基本形
+bamboo-archer-icon:
+  path: images/minions/bamboo-archer/icon.webp
+  alt: バンブーアーチャーのカードアイコン（撮影時のLv表示を含む）
