@@ -77,6 +77,21 @@ Remove-Item Env:BASE_PATH
 Remove-Item Env:BUILD_DIR
 ```
 
+## アクセス解析
+
+Cloudflare Web Analyticsを `src/components/Analytics.astro` で管理し、共通レイアウトから全公開ページに組み込んでいます。発行済みトークンを使用し、本番ビルド（`import.meta.env.PROD`）かつブラウザのoriginが `https://chrossworks.github.io`、パスが `/plants-on-fire-guide` またはその配下の場合だけ計測スクリプトを読み込みます。
+
+`npm run dev` とローカルの `npm run preview` では計測しません。同じhostnameの `/genshin-miliastra-guide/` は対象外です。GitHub Pagesの公開手順・base設定は従来どおりです。将来ドメインや公開パスを変更する場合は、このコンポーネントのURL条件も更新してください。
+
+デプロイ後の確認手順:
+
+1. 公開サイトのトップ、一覧、ミニオン詳細、紹介、Tier表を開き、開発者ツールのNetworkで `beacon.min.js` が各ページにつき1回読み込まれることを確認。
+2. Networkのログ保持を有効にしてページ移動や別タブへの切り替えを行い、`https://cloudflareinsights.com/cdn-cgi/rum` への送信が成功することを確認。広告ブロッカー等がある場合は検証時のみ無効化する。
+3. 数分待ってCloudflare Web Analyticsの対象サイトにアクセスが反映されることを確認。ほかのサイトでも同じ計測先を使っている場合は、Pathで `/plants-on-fire-guide/` 配下に絞る。
+4. ローカルのdev・previewでは、上記スクリプトの取得と計測送信が発生しないことを確認。
+
+参考: [Cloudflare公式の収集・送信仕様](https://developers.cloudflare.com/web-analytics/data-metrics/data-origin-and-collection/)。
+
 ## 今回の範囲
 
 - 5ページ（トップ・一覧・2体詳細・紹介）、7枚のWebP。
@@ -85,6 +100,6 @@ Remove-Item Env:BUILD_DIR
 - 未確認のまま掲載可能。逆算値には前提を表示。
 - ミニオン詳細にランブルチェスの絆・星4能力を表示。星4未撮影・登場未確認・非登場を区別。
 - 原本を含まない通常build、画像参照と内部リンク検証。
-- 未実装：全文検索、広告、アクセス解析、CMS、DB、ログイン、自動OCR/API、常時監視、全レベル計算。
+- 未実装：全文検索、広告、CMS、DB、ログイン、自動OCR/API、常時監視、全レベル計算。
 
 画像内のカードアイコンには撮影時のLvが残ります。ステータスの基準はページ内の表示条件です。バリアント画面のLvの意味、外部補正、最低レベル能力など、未確認事項は確認票に記録しています。最終公開判断は未実施です。

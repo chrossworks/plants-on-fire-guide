@@ -1,0 +1,19 @@
+---
+// 本番ビルドでもローカルpreviewでは読み込まないよう、URLもブラウザ側で確認する。
+---
+{import.meta.env.PROD && (
+  <script is:inline>
+    (() => {
+      const { origin, pathname } = window.location;
+      const base = '/plants-on-fire-guide';
+      if (origin !== 'https://chrossworks.github.io' ||
+          (pathname !== base && !pathname.startsWith(`${base}/`))) return;
+
+      const beacon = document.createElement('script');
+      beacon.type = 'module';
+      beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+      beacon.dataset.cfBeacon = JSON.stringify({ token: 'c0116fcf0e6d4d86be7173452f217a86' });
+      document.body.appendChild(beacon);
+    })();
+  </script>
+)}

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Analytics from '../components/Analytics.astro';
 import { url, minions } from '../lib/site';
 import { linkMinionNames } from '../../lib/minion-links.mjs';
 const { title, description = 'プランツ・オン・ファイアの非公式攻略ガイド。ミニオンの性能と使い方を紹介します。' } = Astro.props;
@@ -33,5 +34,6 @@ const body = linkMinionNames(await Astro.slots.render('default'), minions, {
     </header>
     <main id="main" class="container" set:html={body} />
     <footer class="container site-footer"><strong>プランツ・オン・ファイア攻略ガイド</strong><p>本サイトは非公式の攻略サイトです。ゲーム内の画像・名称等の権利は各権利者に帰属します。</p><p>情報は撮影・確認時点のものです。ゲームの更新により内容が変わる場合があります。</p></footer>
+    <Analytics />
   </body>
 </html>
