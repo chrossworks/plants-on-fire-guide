@@ -3988,3 +3988,108 @@ rc-muscle-watermelon-star4:
   mode: rumble-chess
   screen: detail
   selectedStar: 4
+
+potato-seller-base-star1:
+  kind: screenshot
+  description: ポテトセラー・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+potato-seller-base-star2:
+  kind: screenshot
+  description: ポテトセラー・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+potato-seller-base-star3:
+  kind: screenshot
+  description: ポテトセラー・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+potato-seller-base-up1:
+  kind: screenshot
+  description: ポテトセラー・現在Lv.1の育成一覧1
+  mode: standard
+potato-seller-base-up2:
+  kind: screenshot
+  description: ポテトセラー・現在Lv.1の育成一覧2
+  mode: standard
+potato-seller-base-up3:
+  kind: screenshot
+  description: ポテトセラー・現在Lv.1の育成一覧3
+  mode: standard
+potato-seller-base-up4:
+  kind: screenshot
+  description: ポテトセラー・現在Lv.1の育成一覧4
+  mode: standard
+chili-cook-base-star1:
+  kind: screenshot
+  description: チリコック・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+chili-cook-base-star2:
+  kind: screenshot
+  description: チリコック・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+chili-cook-base-star3:
+  kind: screenshot
+  description: チリコック・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+chili-cook-base-up1:
+  kind: screenshot
+  description: チリコック・現在Lv.7の育成一覧1
+  mode: standard
+chili-cook-base-up2:
+  kind: screenshot
+  description: チリコック・現在Lv.7の育成一覧2
+  mode: standard
+carrot-broker-base-star1:
+  kind: screenshot
+  description: ニンジンブローカー・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  variantControl: absent
+carrot-broker-base-star2:
+  kind: screenshot
+  description: ニンジンブローカー・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  variantControl: absent
+carrot-broker-base-star3:
+  kind: screenshot
+  description: ニンジンブローカー・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  variantControl: absent
+carrot-broker-base-up1:
+  kind: screenshot
+  description: ニンジンブローカー・現在Lv.4の育成一覧1
+  mode: standard
+carrot-broker-base-up2:
+  kind: screenshot
+  description: ニンジンブローカー・現在Lv.4の育成一覧2
+  mode: standard
+carrot-broker-base-up3:
+  kind: screenshot
+  description: ニンジンブローカー・現在Lv.4の育成一覧3
+  mode: standard
+potato-seller-memo:
+  kind: user
+  description: ポテトセラーの攻略メモ（評価・使い方・注意点）
+chili-cook-memo:
+  kind: user
+  description: チリコックの攻略メモ（評価・使い方・注意点）
+carrot-broker-memo:
+  kind: user
+  description: ニンジンブローカーの攻略メモ（評価・使い方・注意点）
+carrot-broker-icon-source:
+  kind: screenshot
+  description: 通常ミニオン一覧・ニンジンブローカーのカードアイコン
+  mode: standard
+  screen: pool-list

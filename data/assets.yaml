@@ -584,3 +584,22 @@ bamboo-archer-portrait:
 bamboo-archer-icon:
   path: images/minions/bamboo-archer/icon.webp
   alt: バンブーアーチャーのカードアイコン（撮影時のLv表示を含む）
+
+potato-seller-portrait:
+  path: images/minions/potato-seller/portrait.webp
+  alt: ポテトセラーの基本形
+chili-cook-portrait:
+  path: images/minions/chili-cook/portrait.webp
+  alt: チリコックの基本形
+carrot-broker-portrait:
+  path: images/minions/carrot-broker/portrait.webp
+  alt: ニンジンブローカーの基本形
+potato-seller-icon:
+  path: images/minions/potato-seller/icon.webp
+  alt: ポテトセラーのカードアイコン（撮影時のLv表示を含む）
+chili-cook-icon:
+  path: images/minions/chili-cook/icon.webp
+  alt: チリコックのカードアイコン（撮影時のLv表示を含む）
+carrot-broker-icon:
+  path: images/minions/carrot-broker/icon.webp
+  alt: ニンジンブローカーのカードアイコン（撮影時のLv表示を含む）
