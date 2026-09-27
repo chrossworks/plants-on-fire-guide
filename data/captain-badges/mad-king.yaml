@@ -1,0 +1,109 @@
+schemaVersion: 1
+id: mad-king
+updated: 2026-09-28
+name:
+  status: observed
+  value: マッドキングバッジ
+  sources:
+    - mad-king-badge-detail
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - mad-king-badge-detail
+observedLevel:
+  status: observed
+  value: 1
+  sources:
+    - mad-king-badge-detail
+effect:
+  status: observed
+  value: バトル開始：すべてのミニオンの攻撃速度が6秒間一時的に+50%（ボスラウンドでは3秒）
+  sources:
+    - mad-king-badge-detail
+acquisition:
+  status: observed
+  value: バッジ金貨との交換で獲得
+  sources:
+    - mad-king-badge-detail
+icons:
+  rarityBackground:
+    status: observed
+    value: mad-king-badge-rarity-icon
+    sources:
+      - mad-king-badge-detail
+  plain:
+    status: observed
+    value: mad-king-badge-plain-icon
+    sources:
+      - mad-king-badge-levels-2-3
+    note: 四角いレア度背景なし。星形のバッジ本体と画面の地色を保持。透過素材ではない。
+progression:
+  maxLevel:
+    status: manual
+    value: 5
+    sources:
+      - captain-badge-user-20260928
+  costs:
+    status: unknown
+    reason: 将来収録予定。必要数量は未撮影。
+  coverage:
+    status: observed
+    value:
+      from: 2
+      through: 5
+    sources:
+      - mad-king-badge-levels-2-3
+      - mad-king-badge-levels-4-5
+  levels:
+    - level: 2
+      effect:
+        status: observed
+        value: バトル開始：すべてのミニオンの攻撃速度が6秒間一時的に+75%（ボスラウンドでは3秒）
+        sources:
+          - mad-king-badge-levels-2-3
+    - level: 3
+      effect:
+        status: observed
+        value: 同名バッジチャームを解放
+        sources:
+          - mad-king-badge-levels-2-3
+    - level: 4
+      effect:
+        status: observed
+        value: バトル開始：すべてのミニオンの攻撃速度が6秒間一時的に+100%（ボスラウンドでは3秒）
+        sources:
+          - mad-king-badge-levels-4-5
+    - level: 5
+      effect:
+        status: observed
+        value: 同名バッジチャームをレベルアップ
+        sources:
+          - mad-king-badge-levels-4-5
+charms:
+  - id: mad-king-1
+    name:
+      status: observed
+      value: マッドキングチャームⅠ
+      sources:
+        - mad-king-charm-detail
+    rarity:
+      status: unknown
+      reason: チャーム自身のレア度を示す文字は未確認。背景色からは確定しない。
+    effect:
+      status: observed
+      value: バトル開始：すべてのミニオンの攻撃速度が6秒間一時的に+50%（ボスラウンドでは3秒）
+      sources:
+        - mad-king-charm-detail
+    icon:
+      status: observed
+      value: mad-king-badge-charm-icon
+      sources:
+        - mad-king-badge-levels-2-3
+      note: Lv.3の解放欄から取得。星・鍵・四角いレア度背景なし。画面の地色は保持。
+    upgradedEffect:
+      status: unknown
+      reason: バッジLv.5で強化されることは確認済み。強化後のチャーム名・効果は未撮影。
+evaluation:
+  status: unknown
+  reason: 未評価。後日、バッジごとの攻略評価・使い方を追加する。

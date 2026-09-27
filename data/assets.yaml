@@ -603,3 +603,87 @@ chili-cook-icon:
 carrot-broker-icon:
   path: images/minions/carrot-broker/icon.webp
   alt: ニンジンブローカーのカードアイコン（撮影時のLv表示を含む）
+
+candle-badge-rarity-icon:
+  path: images/captain-badges/candle-summoner/candle-badge-rarity-icon.webp
+  alt: キャンドルサモナーバッジ（レア度背景付き）
+candle-badge-plain-icon:
+  path: images/captain-badges/candle-summoner/candle-badge-plain-icon.webp
+  alt: キャンドルサモナーバッジ（四角いレア度背景なし・画面の地色あり）
+candle-charm-icon:
+  path: images/captain-badges/candle-summoner/candle-charm-icon.webp
+  alt: キャンドルサモナーチャームの丸いアイコン（星・鍵なし）
+
+
+lucky-cat-badge-rarity-icon:
+  path: images/captain-badges/lucky-cat/rarity-icon.webp
+  alt: 招き猫バッジ（レア度背景付き）
+lucky-cat-badge-plain-icon:
+  path: images/captain-badges/lucky-cat/plain-icon.webp
+  alt: 招き猫バッジ（四角いレア度背景なし・画面の地色あり）
+lucky-cat-badge-charm-icon:
+  path: images/captain-badges/lucky-cat/charm-icon.webp
+  alt: 招き猫チャームの丸いアイコン（星・鍵なし）
+sneaker-head-badge-rarity-icon:
+  path: images/captain-badges/sneaker-head/rarity-icon.webp
+  alt: スニーカーヘッドバッジ（レア度背景付き）
+sneaker-head-badge-plain-icon:
+  path: images/captain-badges/sneaker-head/plain-icon.webp
+  alt: スニーカーヘッドバッジ（四角いレア度背景なし・画面の地色あり）
+sneaker-head-badge-charm-icon:
+  path: images/captain-badges/sneaker-head/charm-icon.webp
+  alt: スニーカーヘッドチャームの丸いアイコン（星・鍵なし）
+pirate-captain-badge-rarity-icon:
+  path: images/captain-badges/pirate-captain/rarity-icon.webp
+  alt: 海賊隊長バッジ（レア度背景付き）
+pirate-captain-badge-plain-icon:
+  path: images/captain-badges/pirate-captain/plain-icon.webp
+  alt: 海賊隊長バッジ（四角いレア度背景なし・画面の地色あり）
+pirate-captain-badge-charm-icon:
+  path: images/captain-badges/pirate-captain/charm-icon.webp
+  alt: 海賊隊長チャームの丸いアイコン（星・鍵なし）
+mad-king-badge-rarity-icon:
+  path: images/captain-badges/mad-king/rarity-icon.webp
+  alt: マッドキングバッジ（レア度背景付き）
+mad-king-badge-plain-icon:
+  path: images/captain-badges/mad-king/plain-icon.webp
+  alt: マッドキングバッジ（四角いレア度背景なし・画面の地色あり）
+mad-king-badge-charm-icon:
+  path: images/captain-badges/mad-king/charm-icon.webp
+  alt: マッドキングチャームの丸いアイコン（星・鍵なし）
+coco-bank-badge-rarity-icon:
+  path: images/captain-badges/coco-bank/rarity-icon.webp
+  alt: ココバンクバッジ（レア度背景付き）
+coco-bank-badge-plain-icon:
+  path: images/captain-badges/coco-bank/plain-icon.webp
+  alt: ココバンクバッジ（四角いレア度背景なし・画面の地色あり）
+coco-bank-badge-charm-icon:
+  path: images/captain-badges/coco-bank/charm-icon.webp
+  alt: ココバンクチャームの丸いアイコン（星・鍵なし）
+plantainer-badge-rarity-icon:
+  path: images/captain-badges/plantainer/rarity-icon.webp
+  alt: プランテナーバッジ（レア度背景付き）
+plantainer-badge-plain-icon:
+  path: images/captain-badges/plantainer/plain-icon.webp
+  alt: プランテナーバッジ（四角いレア度背景なし・画面の地色あり）
+plantainer-badge-charm-icon:
+  path: images/captain-badges/plantainer/charm-icon.webp
+  alt: プランテナーチャームの丸いアイコン（星・鍵なし）
+helmet-boy-badge-rarity-icon:
+  path: images/captain-badges/helmet-boy/rarity-icon.webp
+  alt: ヘルメットボーイバッジ（レア度背景付き）
+helmet-boy-badge-plain-icon:
+  path: images/captain-badges/helmet-boy/plain-icon.webp
+  alt: ヘルメットボーイバッジ（四角いレア度背景なし・画面の地色あり）
+helmet-boy-badge-charm-icon:
+  path: images/captain-badges/helmet-boy/charm-icon.webp
+  alt: ヘルメットボーイチャームの丸いアイコン（星・鍵なし）
+mini-rex-badge-rarity-icon:
+  path: images/captain-badges/mini-rex/rarity-icon.webp
+  alt: ミニレックスバッジ（レア度背景付き）
+mini-rex-badge-plain-icon:
+  path: images/captain-badges/mini-rex/plain-icon.webp
+  alt: ミニレックスバッジ（四角いレア度背景なし・画面の地色あり）
+mini-rex-badge-charm-icon:
+  path: images/captain-badges/mini-rex/charm-icon.webp
+  alt: ミニレックスチャームの丸いアイコン（星・鍵なし）

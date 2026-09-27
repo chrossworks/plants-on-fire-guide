@@ -4093,3 +4093,125 @@ carrot-broker-icon-source:
   description: 通常ミニオン一覧・ニンジンブローカーのカードアイコン
   mode: standard
   screen: pool-list
+
+candle-badge-detail:
+  kind: screenshot
+  description: キャンドルサモナーバッジ Lv.1・レジェンド・効果・入手方法
+candle-badge-levels-2-3:
+  kind: screenshot
+  description: キャンドルサモナーバッジ 育成Lv.2〜3（現在Lv.1）
+candle-badge-levels-4-5:
+  kind: screenshot
+  description: キャンドルサモナーバッジ 育成Lv.4〜5（現在Lv.1）
+candle-charm-detail:
+  kind: screenshot
+  description: キャンドルサモナーチャームⅠの名前・効果
+
+
+captain-badge-user-20260928:
+  kind: user
+  description: 2026-09-28ユーザー確認：バッジの最大Lvは5。費用は将来収録予定。+7%表示は今回対象外。背景なしアイコンは四角いレア度背景なしの星形本体。
+
+
+lucky-cat-badge-detail:
+  kind: screenshot
+  description: 招き猫バッジ Lv.1・レア度・効果・入手方法
+lucky-cat-charm-detail:
+  kind: screenshot
+  description: 招き猫チャームⅠの名前・効果
+lucky-cat-badge-levels-2-3:
+  kind: screenshot
+  description: 招き猫バッジ 育成Lv.2〜3（現在Lv.1）
+lucky-cat-badge-levels-4-5:
+  kind: screenshot
+  description: 招き猫バッジ 育成Lv.4〜5（現在Lv.1）
+sneaker-head-badge-detail:
+  kind: screenshot
+  description: スニーカーヘッドバッジ Lv.1・レア度・効果・入手方法
+sneaker-head-charm-detail:
+  kind: screenshot
+  description: スニーカーヘッドチャームⅠの名前・効果
+sneaker-head-badge-levels-2-3:
+  kind: screenshot
+  description: スニーカーヘッドバッジ 育成Lv.2〜3（現在Lv.1）
+sneaker-head-badge-levels-4-5:
+  kind: screenshot
+  description: スニーカーヘッドバッジ 育成Lv.4〜5（現在Lv.1）
+pirate-captain-badge-detail:
+  kind: screenshot
+  description: 海賊隊長バッジ Lv.1・レア度・効果・入手方法
+pirate-captain-charm-detail:
+  kind: screenshot
+  description: 海賊隊長チャームⅠの名前・効果
+pirate-captain-badge-levels-2-3:
+  kind: screenshot
+  description: 海賊隊長バッジ 育成Lv.2〜3（現在Lv.1）
+pirate-captain-badge-levels-4-5:
+  kind: screenshot
+  description: 海賊隊長バッジ 育成Lv.4〜5（現在Lv.1）
+mad-king-badge-detail:
+  kind: screenshot
+  description: マッドキングバッジ Lv.1・レア度・効果・入手方法
+mad-king-charm-detail:
+  kind: screenshot
+  description: マッドキングチャームⅠの名前・効果
+mad-king-badge-levels-2-3:
+  kind: screenshot
+  description: マッドキングバッジ 育成Lv.2〜3（現在Lv.1）
+mad-king-badge-levels-4-5:
+  kind: screenshot
+  description: マッドキングバッジ 育成Lv.4〜5（現在Lv.1）
+coco-bank-badge-detail:
+  kind: screenshot
+  description: ココバンクバッジ Lv.1・レア度・効果・入手方法
+coco-bank-charm-detail:
+  kind: screenshot
+  description: ココバンクチャームⅠの名前・効果
+coco-bank-badge-levels-2-3:
+  kind: screenshot
+  description: ココバンクバッジ 育成Lv.2〜3（現在Lv.1）
+coco-bank-badge-levels-4-5:
+  kind: screenshot
+  description: ココバンクバッジ 育成Lv.4〜5（現在Lv.1）
+plantainer-badge-detail:
+  kind: screenshot
+  description: プランテナーバッジ Lv.1・レア度・効果・入手方法
+plantainer-charm-detail:
+  kind: screenshot
+  description: プランテナーチャームⅠの名前・効果
+plantainer-badge-levels-2-3:
+  kind: screenshot
+  description: プランテナーバッジ 育成Lv.2〜3（現在Lv.1）
+plantainer-badge-levels-4-5:
+  kind: screenshot
+  description: プランテナーバッジ 育成Lv.4〜5（現在Lv.1）
+helmet-boy-badge-detail:
+  kind: screenshot
+  description: ヘルメットボーイバッジ Lv.1・レア度・効果・入手方法
+helmet-boy-charm-detail:
+  kind: screenshot
+  description: ヘルメットボーイチャームⅠの名前・効果
+helmet-boy-badge-levels-2-3:
+  kind: screenshot
+  description: ヘルメットボーイバッジ 育成Lv.2〜3（現在Lv.1）
+helmet-boy-badge-levels-4-5:
+  kind: screenshot
+  description: ヘルメットボーイバッジ 育成Lv.4〜5（現在Lv.1）
+mini-rex-badge-detail:
+  kind: screenshot
+  description: ミニレックスバッジ Lv.1・レア度・効果・入手方法
+mini-rex-charm-detail:
+  kind: screenshot
+  description: ミニレックスチャームⅠの名前・効果
+mini-rex-badge-levels-2-3:
+  kind: screenshot
+  description: ミニレックスバッジ 育成Lv.2〜3（現在Lv.1）
+mini-rex-badge-levels-4-5:
+  kind: screenshot
+  description: ミニレックスバッジ 育成Lv.4〜5（現在Lv.1）
+lucky-cat-match-start-keyword:
+  kind: screenshot
+  description: 招き猫バッジ：マッチ開始時の説明
+mad-king-keywords:
+  kind: screenshot
+  description: マッドキングバッジ：バトル開始・一時の説明

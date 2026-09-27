@@ -4,6 +4,7 @@ import sharp from 'sharp';
 import { root, loadMinions, loadArticles, loadAssets, loadSources, loadKeywords, loadRumble } from '../lib/content.mjs';
 import { minimumLevels, hasStandardAbsenceEvidence } from '../lib/schema.mjs';
 import { rumbleIdentityIssues } from '../lib/rumble.mjs';
+import { loadCaptainBadges } from '../lib/captain-badges.mjs';
 
 export async function validate() {
   const minions = loadMinions(), articles = loadArticles(), assets = loadAssets(), sources = loadSources(), keywords = loadKeywords();
@@ -50,6 +51,13 @@ export async function validate() {
     if (meta.exif || meta.xmp) fail(`画像にメタデータが残っています: ${key}`);
   }
   const assetRef = (key,p) => { if (!assets[key]) fail(`${p}: 画像IDなし ${key}`); };
+  const captainBadges = loadCaptainBadges();
+  for (const b of captainBadges) {
+    walk(b, `captain-badges.${b.id}`);
+    for (const icon of [...Object.values(b.icons), ...b.charms.map(c => c.icon)]) {
+      if (icon.value) assetRef(icon.value, `captain-badges.${b.id}`);
+    }
+  }
   for (const d of rumble.decks) if (d.bond.icon?.value) assetRef(d.bond.icon.value,`rumble-chess.${d.id}.bond.icon`);
   for (const m of minions) {
     walk(m,m.id); if (m.icon) assetRef(m.icon,m.id); assetRef(m.portrait,m.id);
@@ -84,7 +92,7 @@ export async function validate() {
     if (!paths.has(rel) && rel !== 'favicon.svg') fail(`公開許可リスト外のファイル: ${rel}`);
   }
   if (issues.length) throw new Error(issues.join('\n'));
-  return { minions, articles, assets, unknowns, rumble };
+  return { minions, articles, assets, unknowns, rumble, captainBadges };
 }
 if (process.argv[1] === import.meta.filename) {
   try { const v = await validate(); console.log(`検証OK: ${v.minions.length}体 / ${v.articles.length}記事 / ${Object.keys(v.assets).length}画像。未確認 ${v.unknowns.length}項目（公開可能）。`); }

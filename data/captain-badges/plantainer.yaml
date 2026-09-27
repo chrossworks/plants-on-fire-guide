@@ -1,0 +1,109 @@
+schemaVersion: 1
+id: plantainer
+updated: 2026-09-28
+name:
+  status: observed
+  value: プランテナーバッジ
+  sources:
+    - plantainer-badge-detail
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - plantainer-badge-detail
+observedLevel:
+  status: observed
+  value: 1
+  sources:
+    - plantainer-badge-detail
+effect:
+  status: observed
+  value: 準備完了：隊長のHPを6回復する
+  sources:
+    - plantainer-badge-detail
+acquisition:
+  status: observed
+  value: ログイン、またはシーズンコインとの交換で獲得
+  sources:
+    - plantainer-badge-detail
+icons:
+  rarityBackground:
+    status: observed
+    value: plantainer-badge-rarity-icon
+    sources:
+      - plantainer-badge-detail
+  plain:
+    status: observed
+    value: plantainer-badge-plain-icon
+    sources:
+      - plantainer-badge-levels-2-3
+    note: 四角いレア度背景なし。星形のバッジ本体と画面の地色を保持。透過素材ではない。
+progression:
+  maxLevel:
+    status: manual
+    value: 5
+    sources:
+      - captain-badge-user-20260928
+  costs:
+    status: unknown
+    reason: 将来収録予定。必要数量は未撮影。
+  coverage:
+    status: observed
+    value:
+      from: 2
+      through: 5
+    sources:
+      - plantainer-badge-levels-2-3
+      - plantainer-badge-levels-4-5
+  levels:
+    - level: 2
+      effect:
+        status: observed
+        value: 準備完了：隊長のHPを9回復する
+        sources:
+          - plantainer-badge-levels-2-3
+    - level: 3
+      effect:
+        status: observed
+        value: 同名バッジチャームを解放
+        sources:
+          - plantainer-badge-levels-2-3
+    - level: 4
+      effect:
+        status: observed
+        value: 準備完了：隊長のHPを12回復する
+        sources:
+          - plantainer-badge-levels-4-5
+    - level: 5
+      effect:
+        status: observed
+        value: 同名バッジチャームをレベルアップ
+        sources:
+          - plantainer-badge-levels-4-5
+charms:
+  - id: plantainer-1
+    name:
+      status: observed
+      value: プランテナーチャームⅠ
+      sources:
+        - plantainer-charm-detail
+    rarity:
+      status: unknown
+      reason: チャーム自身のレア度を示す文字は未確認。背景色からは確定しない。
+    effect:
+      status: observed
+      value: 準備完了：隊長のHPを6回復する
+      sources:
+        - plantainer-charm-detail
+    icon:
+      status: observed
+      value: plantainer-badge-charm-icon
+      sources:
+        - plantainer-badge-levels-2-3
+      note: Lv.3の解放欄から取得。星・鍵・四角いレア度背景なし。画面の地色は保持。
+    upgradedEffect:
+      status: unknown
+      reason: バッジLv.5で強化されることは確認済み。強化後のチャーム名・効果は未撮影。
+evaluation:
+  status: unknown
+  reason: 未評価。後日、バッジごとの攻略評価・使い方を追加する。

@@ -1,0 +1,109 @@
+schemaVersion: 1
+id: pirate-captain
+updated: 2026-09-28
+name:
+  status: observed
+  value: 海賊隊長バッジ
+  sources:
+    - pirate-captain-badge-detail
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - pirate-captain-badge-detail
+observedLevel:
+  status: observed
+  value: 1
+  sources:
+    - pirate-captain-badge-detail
+effect:
+  status: observed
+  value: 準備完了：敵隊長を直接攻撃して6のダメージを与える
+  sources:
+    - pirate-captain-badge-detail
+acquisition:
+  status: observed
+  value: シーズン隊長として登場時、バッジ金貨との交換で入手可能
+  sources:
+    - pirate-captain-badge-detail
+icons:
+  rarityBackground:
+    status: observed
+    value: pirate-captain-badge-rarity-icon
+    sources:
+      - pirate-captain-badge-detail
+  plain:
+    status: observed
+    value: pirate-captain-badge-plain-icon
+    sources:
+      - pirate-captain-badge-levels-2-3
+    note: 四角いレア度背景なし。星形のバッジ本体と画面の地色を保持。透過素材ではない。
+progression:
+  maxLevel:
+    status: manual
+    value: 5
+    sources:
+      - captain-badge-user-20260928
+  costs:
+    status: unknown
+    reason: 将来収録予定。必要数量は未撮影。
+  coverage:
+    status: observed
+    value:
+      from: 2
+      through: 5
+    sources:
+      - pirate-captain-badge-levels-2-3
+      - pirate-captain-badge-levels-4-5
+  levels:
+    - level: 2
+      effect:
+        status: observed
+        value: 準備完了：敵隊長を直接攻撃して6のダメージを与える（ラウンドごとにダメージ+1、最大10まで）
+        sources:
+          - pirate-captain-badge-levels-2-3
+    - level: 3
+      effect:
+        status: observed
+        value: 同名バッジチャームを解放
+        sources:
+          - pirate-captain-badge-levels-2-3
+    - level: 4
+      effect:
+        status: observed
+        value: 準備完了：敵隊長を直接攻撃して8のダメージを与える（ラウンドごとにダメージ+1、最大15まで）
+        sources:
+          - pirate-captain-badge-levels-4-5
+    - level: 5
+      effect:
+        status: observed
+        value: 同名バッジチャームをレベルアップ
+        sources:
+          - pirate-captain-badge-levels-4-5
+charms:
+  - id: pirate-captain-1
+    name:
+      status: observed
+      value: 海賊隊長チャームⅠ
+      sources:
+        - pirate-captain-charm-detail
+    rarity:
+      status: unknown
+      reason: チャーム自身のレア度を示す文字は未確認。背景色からは確定しない。
+    effect:
+      status: observed
+      value: 準備完了：敵隊長を直接攻撃して6のダメージを与える
+      sources:
+        - pirate-captain-charm-detail
+    icon:
+      status: observed
+      value: pirate-captain-badge-charm-icon
+      sources:
+        - pirate-captain-badge-levels-2-3
+      note: Lv.3の解放欄から取得。星・鍵・四角いレア度背景なし。画面の地色は保持。
+    upgradedEffect:
+      status: unknown
+      reason: バッジLv.5で強化されることは確認済み。強化後のチャーム名・効果は未撮影。
+evaluation:
+  status: unknown
+  reason: 未評価。後日、バッジごとの攻略評価・使い方を追加する。

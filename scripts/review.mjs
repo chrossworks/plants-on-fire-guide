@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { root,readYaml,loadSources } from '../lib/content.mjs';
 import { validate } from './validate.mjs';
-const {minions,unknowns,assets,rumble}=await validate();
+const {minions,unknowns,assets,rumble,captainBadges}=await validate();
 const sources=loadSources();
 const local=fs.existsSync(path.join(root,'work/sources.yaml'))?readYaml('work/sources.yaml'):{};
 const lines=['# 制作確認票','','公開前に、加工後画像・数値・攻略内容・最終表示を確認してください。','','## 未確認項目','',...unknowns.map(x=>'- '+x),'','## データと根拠',''];
@@ -12,6 +12,8 @@ function visit(v,p){
   for(const [k,x] of Object.entries(v))if(k!=='value')visit(x,`${p}.${k}`);
 }
 for(const m of minions){lines.push(`### ${m.name}`,'');visit(m,m.id);}
+lines.push('','## 隊長バッジ（ページ未作成）','');
+for(const b of captainBadges){lines.push(`### ${b.name.value || b.id}`,'');visit(b,`captain-badges.${b.id}`);}
 lines.push('','## ランブルチェス（絆・星4能力・共通ルール）','');visit(rumble,'rumble-chess');
 lines.push('','## 加工後画像','');
 for(const [key,a] of Object.entries(assets))lines.push(`- ${key}: ${a.alt}`,`  ![${a.alt}](../public/${a.path})`);

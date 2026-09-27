@@ -5,9 +5,24 @@
 - ミニオン：`data/minions/<id>.yaml`
 - 攻略文：`content/<id>.md`
 - 用語：`data/keywords.yaml`
+- 隊長バッジ：`data/captain-badges/<id>.yaml`（ページ構成から独立）
 - 検証スキーマ：`lib/schema.mjs`
 
 YAMLとMarkdownは手で追加・修正できる。buildは読み取りのみ。AIや元画像が利用できなくても公開サイトを再生成できる。
+
+## 隊長バッジの先行収録
+
+`lib/captain-badges.mjs`で読み込み・形式検証する。記事は必須にせず、一覧・個別ページは後日検討する。現在はページを生成しない。
+
+- name / rarity / observedLevel / effect / acquisition：名前、レア度、撮影Lv、そのLvの効果、入手方法。それぞれfactとし根拠を保存する。ミニオンのレア度別最低Lv規則は適用しない。
+- progression：maxLevel、costs、coverage（読み取った強化Lv範囲）、levels（到達Lvと表示効果の原文）。Lv.3/5のチャーム解放・強化をバッジ本体の効果と混同しない。最大Lv.5はユーザー確認。費用は将来収録予定で、当面unknownを許容する。
+- icons：rarityBackground（四角いレア度背景付き）、plain（星形のバッジ本体）。plainは透過を意味せず、画面の地色を含む。
+- charms：固定ID、名前、レア度、効果、丸いicon、upgradedEffect。背景色からチャームのレア度を確定せず、強化後の名前・効果は未撮影ならunknown。星や鍵の付いたカード欄はアイコンに使わない。
+- evaluation：未評価はunknown。将来の攻略評価・使い方をバッジ単位で保存できる。長文が必要になった時点で記事との対応を決める。
+
+`progression.currency`は画像で確認できた育成通貨を任意で保存する。通貨だけ判明しても必要数量を補完せず、`costs`はunknownのまま保持する。バッジとチャームの効果は個別に読み取り、同じ値とは仮定しない（ミニレックスはバッジLv.1が+1、チャームⅠが+2）。
+
+根拠と未確認は`npm run review`に含まれる。+7%の表示はユーザー指定により今回の収録対象外。原本・分類台帳には画像を保持する。画像加工は既存の`images`→目視→`images:publish`を使い、公開ページの追加は伴わない。
 
 ## 値の状態
 

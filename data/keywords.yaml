@@ -23,7 +23,7 @@ temporary:
   definition:
     status: observed
     value: 本ラウンド中のみ有効、ラウンド終了後に効果が失われる
-    sources: [temporary-keyword]
+    sources: [temporary-keyword, mad-king-keywords]
 
 purchase-trigger:
   name: 購入時発動
@@ -77,3 +77,18 @@ mana-cost:
     value: 攻撃効果を発動させるために必要なマナ
     sources:
       - luminous-tree-keywords
+
+match-start:
+  name: マッチ開始時
+  definition:
+    status: observed
+    value: 召喚不要。マッチ開始時に即座に効果が発動する
+    sources:
+      - lucky-cat-match-start-keyword
+battle-start:
+  name: バトル開始
+  definition:
+    status: observed
+    value: バトル開始時に発動する効果
+    sources:
+      - mad-king-keywords
