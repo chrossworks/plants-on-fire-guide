@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: refrigerator
+updated: 2026-09-28
+name:
+  status: observed
+  value: 冷蔵庫隊長
+  sources:
+    - rumble-badge-refrigerator-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-refrigerator-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-refrigerator-detail
+effect:
+  status: observed
+  value: 隊長が致命的なダメージを受けると、本ラウンド中は無敵になり、HPが25%まで回復する
+  sources:
+    - rumble-badge-refrigerator-detail
+icon:
+  status: observed
+  value: rumble-badge-refrigerator-icon
+  sources:
+    - rumble-badge-refrigerator-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

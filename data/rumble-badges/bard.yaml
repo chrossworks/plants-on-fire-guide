@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: bard
+updated: 2026-09-28
+name:
+  status: observed
+  value: 吟遊詩人隊長
+  sources:
+    - rumble-badge-bard-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-bard-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-bard-detail
+effect:
+  status: observed
+  value: すべてのミニオンの攻撃速度+25%
+  sources:
+    - rumble-badge-bard-detail
+icon:
+  status: observed
+  value: rumble-badge-bard-icon
+  sources:
+    - rumble-badge-bard-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

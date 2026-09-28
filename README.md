@@ -26,6 +26,7 @@ article-notes/         非公開の入力メモ（変更しない）
 work/                 非公開の分類台帳・加工設定・確認用画像・確認票
 data/minions/         ミニオン共通データの正本（YAML）
 data/captain-badges/  隊長バッジ・チャームの先行収録（ページ構成未定）
+data/rumble-badges/   ランブルバッジの先行収録（ページ構成未定）
 data/keywords.yaml    共通用語
 data/rumble-chess.yaml ランブルチェスの絆・星4能力・登場状態・共通ルール
 data/sources.yaml     根拠IDと説明（原本パスは入れない）

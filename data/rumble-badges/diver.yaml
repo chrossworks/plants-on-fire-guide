@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: diver
+updated: 2026-09-28
+name:
+  status: observed
+  value: 潜水士隊長
+  sources:
+    - rumble-badge-diver-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-diver-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-diver-detail
+effect:
+  status: observed
+  value: 毎ラウンド、ショップを無料で3回更新できる
+  sources:
+    - rumble-badge-diver-detail
+icon:
+  status: observed
+  value: rumble-badge-diver-icon
+  sources:
+    - rumble-badge-diver-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

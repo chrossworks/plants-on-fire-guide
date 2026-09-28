@@ -4215,3 +4215,182 @@ lucky-cat-match-start-keyword:
 mad-king-keywords:
   kind: screenshot
   description: マッドキングバッジ：バトル開始・一時の説明
+
+rumble-badge-types-user-20260928:
+  kind: user
+  description: 2026-09-28ユーザー確認：ランブルバッジ（背景青色）とランブルゴールドパスバッジ（背景赤色）の2種類。今回追加分はすべてランブルバッジ。ゴールドパス分は後日追加。
+rumble-badge-treasure-detail:
+  kind: screenshot
+  description: 宝箱隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-refrigerator-detail:
+  kind: screenshot
+  description: 冷蔵庫隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-sunshine-detail:
+  kind: screenshot
+  description: 陽光隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-gift-detail:
+  kind: screenshot
+  description: ギフト隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-fighter-detail:
+  kind: screenshot
+  description: 闘士隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-kindness-detail:
+  kind: screenshot
+  description: 優しき心隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-champagne-detail:
+  kind: screenshot
+  description: シャンパン隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-diver-detail:
+  kind: screenshot
+  description: 潜水士隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-bomb-detail:
+  kind: screenshot
+  description: ボム隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-cold-drink-detail:
+  kind: screenshot
+  description: コールドドリンク隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-elephant-detail:
+  kind: screenshot
+  description: ゾウ隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-musician-detail:
+  kind: screenshot
+  description: 音楽家隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-burger-detail:
+  kind: screenshot
+  description: バーガー隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-starfruit-detail:
+  kind: screenshot
+  description: スターフルーツ隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-stew-detail:
+  kind: screenshot
+  description: シチュー隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-rocket-detail:
+  kind: screenshot
+  description: ロケット隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-artichoke-detail:
+  kind: screenshot
+  description: アーティチョーク隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-bard-detail:
+  kind: screenshot
+  description: 吟遊詩人隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-steel-detail:
+  kind: screenshot
+  description: 鋼板隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-gentleman-detail:
+  kind: screenshot
+  description: ジェントルマン隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-elk-detail:
+  kind: screenshot
+  description: ヘラジカ隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-cup-noodles-detail:
+  kind: screenshot
+  description: カップ麺隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-teapot-detail:
+  kind: screenshot
+  description: ティーポット隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-pearl-detail:
+  kind: screenshot
+  description: パール隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-broccoli-detail:
+  kind: screenshot
+  description: ブロッコリー隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-circus-detail:
+  kind: screenshot
+  description: サーカス：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-tulip-detail:
+  kind: screenshot
+  description: チューリップ隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-radio-detail:
+  kind: screenshot
+  description: 電波隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-soft-drink-detail:
+  kind: screenshot
+  description: ソフトドリンク隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-cloud-detail:
+  kind: screenshot
+  description: 雲隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-moon-detail:
+  kind: screenshot
+  description: 月隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-sun-detail:
+  kind: screenshot
+  description: 太陽隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-thunder-detail:
+  kind: screenshot
+  description: 雷隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-droplet-detail:
+  kind: screenshot
+  description: 雫隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-star-detail:
+  kind: screenshot
+  description: 星隊長：名前・効果全文・青背景のバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail

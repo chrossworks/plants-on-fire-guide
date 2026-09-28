@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: bomb
+updated: 2026-09-28
+name:
+  status: observed
+  value: ボム隊長
+  sources:
+    - rumble-badge-bomb-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-bomb-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-bomb-detail
+effect:
+  status: observed
+  value: バトル開始時、すべての敵ミニオンを5秒間スタンさせる
+  sources:
+    - rumble-badge-bomb-detail
+icon:
+  status: observed
+  value: rumble-badge-bomb-icon
+  sources:
+    - rumble-badge-bomb-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

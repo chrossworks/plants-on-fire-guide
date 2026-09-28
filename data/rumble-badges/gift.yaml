@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: gift
+updated: 2026-09-28
+name:
+  status: observed
+  value: ギフト隊長
+  sources:
+    - rumble-badge-gift-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-gift-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-gift-detail
+effect:
+  status: observed
+  value: 毎ラウンド開始時、★3ミニオン1体につきサンコインを1個、★4ミニオン1体につきサンコインを2個獲得する
+  sources:
+    - rumble-badge-gift-detail
+icon:
+  status: observed
+  value: rumble-badge-gift-icon
+  sources:
+    - rumble-badge-gift-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

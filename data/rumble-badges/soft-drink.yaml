@@ -1,0 +1,37 @@
+schemaVersion: 1
+id: soft-drink
+updated: 2026-09-28
+name:
+  status: observed
+  value: ソフトドリンク隊長
+  sources:
+    - rumble-badge-soft-drink-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-soft-drink-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-soft-drink-detail
+effect:
+  status: observed
+  value: |-
+    味方の総攻撃力が敵を3%上回るたびに、味方のラッシュユニットの移動速度+1%（ボスには無効）
+    味方の総攻撃力が敵を3%下回るたびに、味方のすべてのミニオンの攻撃速度+1%
+  sources:
+    - rumble-badge-soft-drink-detail
+icon:
+  status: observed
+  value: rumble-badge-soft-drink-icon
+  sources:
+    - rumble-badge-soft-drink-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

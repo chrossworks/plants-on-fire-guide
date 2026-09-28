@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: rocket
+updated: 2026-09-28
+name:
+  status: observed
+  value: ロケット隊長
+  sources:
+    - rumble-badge-rocket-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-rocket-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-rocket-detail
+effect:
+  status: observed
+  value: 味方が召喚したラッシュユニットがフィールド上に出現時、2.5秒間移動速度+200%（ボスに対しては持続時間が半分になる）
+  sources:
+    - rumble-badge-rocket-detail
+icon:
+  status: observed
+  value: rumble-badge-rocket-icon
+  sources:
+    - rumble-badge-rocket-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

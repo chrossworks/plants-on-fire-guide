@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: sunshine
+updated: 2026-09-28
+name:
+  status: observed
+  value: 陽光隊長
+  sources:
+    - rumble-badge-sunshine-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-sunshine-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-sunshine-detail
+effect:
+  status: observed
+  value: 即座にサンコインを15個獲得する
+  sources:
+    - rumble-badge-sunshine-detail
+icon:
+  status: observed
+  value: rumble-badge-sunshine-icon
+  sources:
+    - rumble-badge-sunshine-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

@@ -24,6 +24,18 @@ YAMLとMarkdownは手で追加・修正できる。buildは読み取りのみ。
 
 根拠と未確認は`npm run review`に含まれる。+7%の表示はユーザー指定により今回の収録対象外。原本・分類台帳には画像を保持する。画像加工は既存の`images`→目視→`images:publish`を使い、公開ページの追加は伴わない。
 
+## ランブルバッジの先行収録
+
+`data/rumble-badges/<id>.yaml`を正本とし、`lib/rumble-badges.mjs`で検証する。隊長バッジとは別に保存し、記事・ページは生成しない。
+
+- name / effect：画像で確認した名前と効果全文のfact。折り返し・空白を整えるが、発動タイミング・対象・一時効果などの条件は保持する。
+- category：`rumble`（ランブルバッジ）または`rumble-gold-pass`（ランブルゴールドパスバッジ）。青背景／赤背景との対応は2026-09-28ユーザー確認のmanualとして根拠を付ける。
+- background：画像で確認した`blue`または`red`。レアリティとして扱わない。
+- icon：画像IDのfact。青／赤のバッジ背景を含む正方形で切り出し、画面の地色を含むWebPとして保存する。透過画像ではない。
+- acquisition / evaluation：未収録はunknown。画像にないLvや育成・入手条件を隊長バッジから流用しない。
+
+今回の収録は青背景35種類。赤背景は素材追加待ちで、存在しないとは判定しない。画像根拠はmode: rumble-chess、screen: badge-detailとし、検証・確認票にも含める。アイコンの確認とローカル反映は従来のimages→目視→images:publishで行う。
+
 ## 値の状態
 
 ```yaml

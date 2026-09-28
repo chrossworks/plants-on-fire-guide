@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: burger
+updated: 2026-09-28
+name:
+  status: observed
+  value: バーガー隊長
+  sources:
+    - rumble-badge-burger-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-burger-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-burger-detail
+effect:
+  status: observed
+  value: サンコインを消費するたびに、ショップ内のミニオンの攻撃力一時+1
+  sources:
+    - rumble-badge-burger-detail
+icon:
+  status: observed
+  value: rumble-badge-burger-icon
+  sources:
+    - rumble-badge-burger-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

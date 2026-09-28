@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: elk
+updated: 2026-09-28
+name:
+  status: observed
+  value: ヘラジカ隊長
+  sources:
+    - rumble-badge-elk-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-elk-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-elk-detail
+effect:
+  status: observed
+  value: 準備完了：名前の異なるミニオン1体ずつ、攻撃力+2（マスを1つ解放するごとに、効果+1）
+  sources:
+    - rumble-badge-elk-detail
+icon:
+  status: observed
+  value: rumble-badge-elk-icon
+  sources:
+    - rumble-badge-elk-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

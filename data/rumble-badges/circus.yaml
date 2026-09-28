@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: circus
+updated: 2026-09-28
+name:
+  status: observed
+  value: サーカス
+  sources:
+    - rumble-badge-circus-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-circus-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-circus-detail
+effect:
+  status: observed
+  value: ミニオンを1体売却するごとに、次のラウンドに、売却したミニオンの星ランク分のサンコインを追加で獲得する
+  sources:
+    - rumble-badge-circus-detail
+icon:
+  status: observed
+  value: rumble-badge-circus-icon
+  sources:
+    - rumble-badge-circus-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

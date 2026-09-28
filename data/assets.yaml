@@ -687,3 +687,109 @@ mini-rex-badge-plain-icon:
 mini-rex-badge-charm-icon:
   path: images/captain-badges/mini-rex/charm-icon.webp
   alt: ミニレックスチャームの丸いアイコン（星・鍵なし）
+
+rumble-badge-treasure-icon:
+  path: images/rumble-badges/treasure/icon.webp
+  alt: 宝箱隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-refrigerator-icon:
+  path: images/rumble-badges/refrigerator/icon.webp
+  alt: 冷蔵庫隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-sunshine-icon:
+  path: images/rumble-badges/sunshine/icon.webp
+  alt: 陽光隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-gift-icon:
+  path: images/rumble-badges/gift/icon.webp
+  alt: ギフト隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-fighter-icon:
+  path: images/rumble-badges/fighter/icon.webp
+  alt: 闘士隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-kindness-icon:
+  path: images/rumble-badges/kindness/icon.webp
+  alt: 優しき心隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-champagne-icon:
+  path: images/rumble-badges/champagne/icon.webp
+  alt: シャンパン隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-diver-icon:
+  path: images/rumble-badges/diver/icon.webp
+  alt: 潜水士隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-bomb-icon:
+  path: images/rumble-badges/bomb/icon.webp
+  alt: ボム隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-cold-drink-icon:
+  path: images/rumble-badges/cold-drink/icon.webp
+  alt: コールドドリンク隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-elephant-icon:
+  path: images/rumble-badges/elephant/icon.webp
+  alt: ゾウ隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-musician-icon:
+  path: images/rumble-badges/musician/icon.webp
+  alt: 音楽家隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-burger-icon:
+  path: images/rumble-badges/burger/icon.webp
+  alt: バーガー隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-starfruit-icon:
+  path: images/rumble-badges/starfruit/icon.webp
+  alt: スターフルーツ隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-stew-icon:
+  path: images/rumble-badges/stew/icon.webp
+  alt: シチュー隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-rocket-icon:
+  path: images/rumble-badges/rocket/icon.webp
+  alt: ロケット隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-artichoke-icon:
+  path: images/rumble-badges/artichoke/icon.webp
+  alt: アーティチョーク隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-bard-icon:
+  path: images/rumble-badges/bard/icon.webp
+  alt: 吟遊詩人隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-steel-icon:
+  path: images/rumble-badges/steel/icon.webp
+  alt: 鋼板隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-gentleman-icon:
+  path: images/rumble-badges/gentleman/icon.webp
+  alt: ジェントルマン隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-elk-icon:
+  path: images/rumble-badges/elk/icon.webp
+  alt: ヘラジカ隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-cup-noodles-icon:
+  path: images/rumble-badges/cup-noodles/icon.webp
+  alt: カップ麺隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-teapot-icon:
+  path: images/rumble-badges/teapot/icon.webp
+  alt: ティーポット隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-pearl-icon:
+  path: images/rumble-badges/pearl/icon.webp
+  alt: パール隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-broccoli-icon:
+  path: images/rumble-badges/broccoli/icon.webp
+  alt: ブロッコリー隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-circus-icon:
+  path: images/rumble-badges/circus/icon.webp
+  alt: サーカスのランブルバッジ（青背景・画面の地色あり）
+rumble-badge-tulip-icon:
+  path: images/rumble-badges/tulip/icon.webp
+  alt: チューリップ隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-radio-icon:
+  path: images/rumble-badges/radio/icon.webp
+  alt: 電波隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-soft-drink-icon:
+  path: images/rumble-badges/soft-drink/icon.webp
+  alt: ソフトドリンク隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-cloud-icon:
+  path: images/rumble-badges/cloud/icon.webp
+  alt: 雲隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-moon-icon:
+  path: images/rumble-badges/moon/icon.webp
+  alt: 月隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-sun-icon:
+  path: images/rumble-badges/sun/icon.webp
+  alt: 太陽隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-thunder-icon:
+  path: images/rumble-badges/thunder/icon.webp
+  alt: 雷隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-droplet-icon:
+  path: images/rumble-badges/droplet/icon.webp
+  alt: 雫隊長のランブルバッジ（青背景・画面の地色あり）
+rumble-badge-star-icon:
+  path: images/rumble-badges/star/icon.webp
+  alt: 星隊長のランブルバッジ（青背景・画面の地色あり）

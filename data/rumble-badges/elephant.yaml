@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: elephant
+updated: 2026-09-28
+name:
+  status: observed
+  value: ゾウ隊長
+  sources:
+    - rumble-badge-elephant-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-elephant-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-elephant-detail
+effect:
+  status: observed
+  value: いずれかのミニオンが★4になると、サンコインを8個獲得する
+  sources:
+    - rumble-badge-elephant-detail
+icon:
+  status: observed
+  value: rumble-badge-elephant-icon
+  sources:
+    - rumble-badge-elephant-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

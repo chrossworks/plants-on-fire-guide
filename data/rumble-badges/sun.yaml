@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: sun
+updated: 2026-09-28
+name:
+  status: observed
+  value: 太陽隊長
+  sources:
+    - rumble-badge-sun-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-sun-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-sun-detail
+effect:
+  status: observed
+  value: 太陽の絆ポイント+8
+  sources:
+    - rumble-badge-sun-detail
+icon:
+  status: observed
+  value: rumble-badge-sun-icon
+  sources:
+    - rumble-badge-sun-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

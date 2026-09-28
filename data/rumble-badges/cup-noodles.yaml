@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: cup-noodles
+updated: 2026-09-28
+name:
+  status: observed
+  value: カップ麺隊長
+  sources:
+    - rumble-badge-cup-noodles-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-cup-noodles-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-cup-noodles-detail
+effect:
+  status: observed
+  value: 準備完了：サンコインを8個所持するごとに、利息としてサンコインを1個獲得する
+  sources:
+    - rumble-badge-cup-noodles-detail
+icon:
+  status: observed
+  value: rumble-badge-cup-noodles-icon
+  sources:
+    - rumble-badge-cup-noodles-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

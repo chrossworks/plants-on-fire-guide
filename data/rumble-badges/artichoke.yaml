@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: artichoke
+updated: 2026-09-28
+name:
+  status: observed
+  value: アーティチョーク隊長
+  sources:
+    - rumble-badge-artichoke-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-artichoke-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-artichoke-detail
+effect:
+  status: observed
+  value: 準備完了：★1のアーティベイビーを1体召喚する
+  sources:
+    - rumble-badge-artichoke-detail
+icon:
+  status: observed
+  value: rumble-badge-artichoke-icon
+  sources:
+    - rumble-badge-artichoke-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

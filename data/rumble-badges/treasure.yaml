@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: treasure
+updated: 2026-09-28
+name:
+  status: observed
+  value: 宝箱隊長
+  sources:
+    - rumble-badge-treasure-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-treasure-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-treasure-detail
+effect:
+  status: observed
+  value: マス解放時、サンコイン+4
+  sources:
+    - rumble-badge-treasure-detail
+icon:
+  status: observed
+  value: rumble-badge-treasure-icon
+  sources:
+    - rumble-badge-treasure-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

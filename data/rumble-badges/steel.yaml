@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: steel
+updated: 2026-09-28
+name:
+  status: observed
+  value: 鋼板隊長
+  sources:
+    - rumble-badge-steel-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-steel-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-steel-detail
+effect:
+  status: observed
+  value: 味方が召喚したラッシュユニットのシールド+1。敵の総攻撃力がより高い場合、シールド+2
+  sources:
+    - rumble-badge-steel-detail
+icon:
+  status: observed
+  value: rumble-badge-steel-icon
+  sources:
+    - rumble-badge-steel-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

@@ -5,6 +5,7 @@ import { root, loadMinions, loadArticles, loadAssets, loadSources, loadKeywords,
 import { minimumLevels, hasStandardAbsenceEvidence } from '../lib/schema.mjs';
 import { rumbleIdentityIssues } from '../lib/rumble.mjs';
 import { loadCaptainBadges } from '../lib/captain-badges.mjs';
+import { loadRumbleBadges } from '../lib/rumble-badges.mjs';
 
 export async function validate() {
   const minions = loadMinions(), articles = loadArticles(), assets = loadAssets(), sources = loadSources(), keywords = loadKeywords();
@@ -52,6 +53,16 @@ export async function validate() {
   }
   const assetRef = (key,p) => { if (!assets[key]) fail(`${p}: 画像IDなし ${key}`); };
   const captainBadges = loadCaptainBadges();
+  const rumbleBadges = loadRumbleBadges();
+  for (const b of rumbleBadges) {
+    walk(b, `rumble-badges.${b.id}`);
+    if (b.icon.value) assetRef(b.icon.value, `rumble-badges.${b.id}`);
+    for (const f of [b.name, b.effect, b.background, b.icon]) {
+      if (f.status === 'observed') for (const s of f.sources) {
+        if (sources[s]?.kind !== 'screenshot' || sources[s]?.mode !== 'rumble-chess' || sources[s]?.screen !== 'badge-detail') fail(`ランブルバッジの画像根拠が不正: ${b.id} / ${s}`);
+      }
+    }
+  }
   for (const b of captainBadges) {
     walk(b, `captain-badges.${b.id}`);
     for (const icon of [...Object.values(b.icons), ...b.charms.map(c => c.icon)]) {
@@ -92,7 +103,7 @@ export async function validate() {
     if (!paths.has(rel) && rel !== 'favicon.svg') fail(`公開許可リスト外のファイル: ${rel}`);
   }
   if (issues.length) throw new Error(issues.join('\n'));
-  return { minions, articles, assets, unknowns, rumble, captainBadges };
+  return { minions, articles, assets, unknowns, rumble, captainBadges, rumbleBadges };
 }
 if (process.argv[1] === import.meta.filename) {
   try { const v = await validate(); console.log(`検証OK: ${v.minions.length}体 / ${v.articles.length}記事 / ${Object.keys(v.assets).length}画像。未確認 ${v.unknowns.length}項目（公開可能）。`); }

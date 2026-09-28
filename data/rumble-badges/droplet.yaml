@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: droplet
+updated: 2026-09-28
+name:
+  status: observed
+  value: 雫隊長
+  sources:
+    - rumble-badge-droplet-detail
+category:
+  status: manual
+  value: rumble
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-droplet-detail
+background:
+  status: observed
+  value: blue
+  sources:
+    - rumble-badge-droplet-detail
+effect:
+  status: observed
+  value: 雫の絆ポイント+8
+  sources:
+    - rumble-badge-droplet-detail
+icon:
+  status: observed
+  value: rumble-badge-droplet-icon
+  sources:
+    - rumble-badge-droplet-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。
