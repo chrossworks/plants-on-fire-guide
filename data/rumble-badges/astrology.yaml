@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: astrology
+updated: 2026-09-28
+name:
+  status: observed
+  value: 星占い隊長
+  sources:
+    - rumble-badge-astrology-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-astrology-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-astrology-detail
+effect:
+  status: observed
+  value: 準備完了：最も星ランクが低い味方ミニオン4体の★が一時的に+1（準備完了時に先手で発動）
+  sources:
+    - rumble-badge-astrology-detail
+icon:
+  status: observed
+  value: rumble-badge-astrology-icon
+  sources:
+    - rumble-badge-astrology-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

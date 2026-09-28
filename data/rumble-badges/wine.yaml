@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: wine
+updated: 2026-09-28
+name:
+  status: observed
+  value: ワイン隊長
+  sources:
+    - rumble-badge-wine-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-wine-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-wine-detail
+effect:
+  status: observed
+  value: ミニオンを購入するたびに、ショップ内の同じタイプのミニオンの攻撃力が上昇する（上昇値はそのミニオンの購入価格と同じ）
+  sources:
+    - rumble-badge-wine-detail
+icon:
+  status: observed
+  value: rumble-badge-wine-icon
+  sources:
+    - rumble-badge-wine-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

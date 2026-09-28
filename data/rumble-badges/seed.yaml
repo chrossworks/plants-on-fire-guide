@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: seed
+updated: 2026-09-28
+name:
+  status: observed
+  value: タネ隊長
+  sources:
+    - rumble-badge-seed-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-seed-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-seed-detail
+effect:
+  status: observed
+  value: ミニオンの購入価格-1。ただしマスの解放コストは低下しなくなる
+  sources:
+    - rumble-badge-seed-detail
+icon:
+  status: observed
+  value: rumble-badge-seed-icon
+  sources:
+    - rumble-badge-seed-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

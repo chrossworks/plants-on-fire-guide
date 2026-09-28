@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: projection
+updated: 2026-09-28
+name:
+  status: observed
+  value: 投影隊長
+  sources:
+    - rumble-badge-projection-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-projection-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-projection-detail
+effect:
+  status: observed
+  value: 準備完了：ランダムな★4ミニオンのクローン体1体を一時的に召喚し、攻撃力の50%を継承する
+  sources:
+    - rumble-badge-projection-detail
+icon:
+  status: observed
+  value: rumble-badge-projection-icon
+  sources:
+    - rumble-badge-projection-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

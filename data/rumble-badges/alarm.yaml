@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: alarm
+updated: 2026-09-28
+name:
+  status: observed
+  value: アラーム隊長
+  sources:
+    - rumble-badge-alarm-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-alarm-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-alarm-detail
+effect:
+  status: observed
+  value: マッチ開始時、ランダムなコスト8の休眠状態のミニオンを3体獲得する
+  sources:
+    - rumble-badge-alarm-detail
+icon:
+  status: observed
+  value: rumble-badge-alarm-icon
+  sources:
+    - rumble-badge-alarm-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

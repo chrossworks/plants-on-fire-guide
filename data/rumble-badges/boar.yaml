@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: boar
+updated: 2026-09-28
+name:
+  status: observed
+  value: イノシシ隊長
+  sources:
+    - rumble-badge-boar-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-boar-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-boar-detail
+effect:
+  status: observed
+  value: 準備完了：すべての敵ミニオンの★が一時的に-1（準備完了時に先手で発動）
+  sources:
+    - rumble-badge-boar-detail
+icon:
+  status: observed
+  value: rumble-badge-boar-icon
+  sources:
+    - rumble-badge-boar-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

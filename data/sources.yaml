@@ -4394,3 +4394,109 @@ rumble-badge-star-detail:
   description: 星隊長：名前・効果全文・青背景のバッジ図柄
   mode: rumble-chess
   screen: badge-detail
+
+rumble-badge-projection-detail:
+  kind: screenshot
+  description: 投影隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-lucky-detail:
+  kind: screenshot
+  description: ラッキー隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-kindler-detail:
+  kind: screenshot
+  description: キンドラー隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-alarm-detail:
+  kind: screenshot
+  description: アラーム隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-glutton-detail:
+  kind: screenshot
+  description: 大食い隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-weight-detail:
+  kind: screenshot
+  description: 分銅隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-erudite-detail:
+  kind: screenshot
+  description: 博識隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-wild-bear-detail:
+  kind: screenshot
+  description: ワイルドベア隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-fishbowl-detail:
+  kind: screenshot
+  description: 金魚鉢隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-astrology-detail:
+  kind: screenshot
+  description: 星占い隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-jelly-detail:
+  kind: screenshot
+  description: ゼリー隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-wine-detail:
+  kind: screenshot
+  description: ワイン隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-fried-egg-detail:
+  kind: screenshot
+  description: 目玉焼き隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-carrot-detail:
+  kind: screenshot
+  description: ニンジン隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-onion-detail:
+  kind: screenshot
+  description: タマネギ隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-gamer-detail:
+  kind: screenshot
+  description: ゲーマー隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-nebula-detail:
+  kind: screenshot
+  description: ネビュラ隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-seed-detail:
+  kind: screenshot
+  description: タネ隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-boar-detail:
+  kind: screenshot
+  description: イノシシ隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-octopus-detail:
+  kind: screenshot
+  description: タコ隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail
+rumble-badge-alien-detail:
+  kind: screenshot
+  description: エイリアン隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
+  mode: rumble-chess
+  screen: badge-detail

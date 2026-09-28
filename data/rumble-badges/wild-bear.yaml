@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: wild-bear
+updated: 2026-09-28
+name:
+  status: observed
+  value: ワイルドベア隊長
+  sources:
+    - rumble-badge-wild-bear-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-wild-bear-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-wild-bear-detail
+effect:
+  status: observed
+  value: ボスラウンド開始時、ショップに指定したミニオンを一時的にコピーできるデーモンスプラウトが2体出現する
+  sources:
+    - rumble-badge-wild-bear-detail
+icon:
+  status: observed
+  value: rumble-badge-wild-bear-icon
+  sources:
+    - rumble-badge-wild-bear-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

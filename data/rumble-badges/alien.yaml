@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: alien
+updated: 2026-09-28
+name:
+  status: observed
+  value: エイリアン隊長
+  sources:
+    - rumble-badge-alien-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-alien-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-alien-detail
+effect:
+  status: observed
+  value: 本ラウンド中にダメージを受けなかった場合、ランダムな敵ミニオン1体のクローン体を獲得する。空きマスがない場合、代わりに最も攻撃力が低いミニオン1体が、ランダムな敵ミニオンに変身する
+  sources:
+    - rumble-badge-alien-detail
+icon:
+  status: observed
+  value: rumble-badge-alien-icon
+  sources:
+    - rumble-badge-alien-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

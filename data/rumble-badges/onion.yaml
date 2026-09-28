@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: onion
+updated: 2026-09-28
+name:
+  status: observed
+  value: タマネギ隊長
+  sources:
+    - rumble-badge-onion-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-onion-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-onion-detail
+effect:
+  status: observed
+  value: 攻撃するたびに、自身の攻撃速度が一時的に+4%
+  sources:
+    - rumble-badge-onion-detail
+icon:
+  status: observed
+  value: rumble-badge-onion-icon
+  sources:
+    - rumble-badge-onion-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: octopus
+updated: 2026-09-28
+name:
+  status: observed
+  value: タコ隊長
+  sources:
+    - rumble-badge-octopus-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-octopus-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-octopus-detail
+effect:
+  status: observed
+  value: ラウンド開始：所持しているミニオンを最大2体、ショップに出現させる
+  sources:
+    - rumble-badge-octopus-detail
+icon:
+  status: observed
+  value: rumble-badge-octopus-icon
+  sources:
+    - rumble-badge-octopus-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

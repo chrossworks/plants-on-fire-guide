@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: kindler
+updated: 2026-09-28
+name:
+  status: observed
+  value: キンドラー隊長
+  sources:
+    - rumble-badge-kindler-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-kindler-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-kindler-detail
+effect:
+  status: observed
+  value: 指定したミニオンを売却し、そのミニオンの攻撃力の120%を他のミニオン1体に付与する（ラウンドごとに1回使用可能）
+  sources:
+    - rumble-badge-kindler-detail
+icon:
+  status: observed
+  value: rumble-badge-kindler-icon
+  sources:
+    - rumble-badge-kindler-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

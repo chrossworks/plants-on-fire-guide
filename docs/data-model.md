@@ -34,7 +34,7 @@ YAMLとMarkdownは手で追加・修正できる。buildは読み取りのみ。
 - icon：画像IDのfact。青／赤のバッジ背景を含む正方形で切り出し、画面の地色を含むWebPとして保存する。透過画像ではない。
 - acquisition / evaluation：未収録はunknown。画像にないLvや育成・入手条件を隊長バッジから流用しない。
 
-今回の収録は青背景35種類。赤背景は素材追加待ちで、存在しないとは判定しない。画像根拠はmode: rumble-chess、screen: badge-detailとし、検証・確認票にも含める。アイコンの確認とローカル反映は従来のimages→目視→images:publishで行う。
+現在の収録はランブルバッジ（青背景）35種類、ランブルゴールドパスバッジ（赤背景）21種類。撮影分の収録であり、全種類の網羅性は未確認。画像根拠はmode: rumble-chess、screen: badge-detailとし、検証・確認票にも含める。アイコンの確認とローカル反映は従来のimages→目視→images:publishで行う。
 
 ## 値の状態
 

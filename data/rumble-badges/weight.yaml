@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: weight
+updated: 2026-09-28
+name:
+  status: observed
+  value: 分銅隊長
+  sources:
+    - rumble-badge-weight-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-weight-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-weight-detail
+effect:
+  status: observed
+  value: 準備完了：すべてのミニオンの攻撃力を平均化し、その後すべてのミニオンの攻撃力+10%
+  sources:
+    - rumble-badge-weight-detail
+icon:
+  status: observed
+  value: rumble-badge-weight-icon
+  sources:
+    - rumble-badge-weight-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

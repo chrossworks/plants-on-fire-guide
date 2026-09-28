@@ -793,3 +793,67 @@ rumble-badge-droplet-icon:
 rumble-badge-star-icon:
   path: images/rumble-badges/star/icon.webp
   alt: 星隊長のランブルバッジ（青背景・画面の地色あり）
+
+rumble-badge-projection-icon:
+  path: images/rumble-badges/projection/icon.webp
+  alt: 投影隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-lucky-icon:
+  path: images/rumble-badges/lucky/icon.webp
+  alt: ラッキー隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-kindler-icon:
+  path: images/rumble-badges/kindler/icon.webp
+  alt: キンドラー隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-alarm-icon:
+  path: images/rumble-badges/alarm/icon.webp
+  alt: アラーム隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-glutton-icon:
+  path: images/rumble-badges/glutton/icon.webp
+  alt: 大食い隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-weight-icon:
+  path: images/rumble-badges/weight/icon.webp
+  alt: 分銅隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-erudite-icon:
+  path: images/rumble-badges/erudite/icon.webp
+  alt: 博識隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-wild-bear-icon:
+  path: images/rumble-badges/wild-bear/icon.webp
+  alt: ワイルドベア隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-fishbowl-icon:
+  path: images/rumble-badges/fishbowl/icon.webp
+  alt: 金魚鉢隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-astrology-icon:
+  path: images/rumble-badges/astrology/icon.webp
+  alt: 星占い隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-jelly-icon:
+  path: images/rumble-badges/jelly/icon.webp
+  alt: ゼリー隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-wine-icon:
+  path: images/rumble-badges/wine/icon.webp
+  alt: ワイン隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-fried-egg-icon:
+  path: images/rumble-badges/fried-egg/icon.webp
+  alt: 目玉焼き隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-carrot-icon:
+  path: images/rumble-badges/carrot/icon.webp
+  alt: ニンジン隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-onion-icon:
+  path: images/rumble-badges/onion/icon.webp
+  alt: タマネギ隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-gamer-icon:
+  path: images/rumble-badges/gamer/icon.webp
+  alt: ゲーマー隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-nebula-icon:
+  path: images/rumble-badges/nebula/icon.webp
+  alt: ネビュラ隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-seed-icon:
+  path: images/rumble-badges/seed/icon.webp
+  alt: タネ隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-boar-icon:
+  path: images/rumble-badges/boar/icon.webp
+  alt: イノシシ隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-octopus-icon:
+  path: images/rumble-badges/octopus/icon.webp
+  alt: タコ隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+rumble-badge-alien-icon:
+  path: images/rumble-badges/alien/icon.webp
+  alt: エイリアン隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）

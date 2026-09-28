@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: jelly
+updated: 2026-09-28
+name:
+  status: observed
+  value: ゼリー隊長
+  sources:
+    - rumble-badge-jelly-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-jelly-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-jelly-detail
+effect:
+  status: observed
+  value: 準備完了：敵味方すべてのミニオンの攻撃力+10%
+  sources:
+    - rumble-badge-jelly-detail
+icon:
+  status: observed
+  value: rumble-badge-jelly-icon
+  sources:
+    - rumble-badge-jelly-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: fried-egg
+updated: 2026-09-28
+name:
+  status: observed
+  value: 目玉焼き隊長
+  sources:
+    - rumble-badge-fried-egg-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-fried-egg-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-fried-egg-detail
+effect:
+  status: observed
+  value: ミニオンの購入価格-33%。ただし毎ラウンド、タイプごとに2回までしか購入できない
+  sources:
+    - rumble-badge-fried-egg-detail
+icon:
+  status: observed
+  value: rumble-badge-fried-egg-icon
+  sources:
+    - rumble-badge-fried-egg-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

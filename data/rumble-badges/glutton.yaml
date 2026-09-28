@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: glutton
+updated: 2026-09-28
+name:
+  status: observed
+  value: 大食い隊長
+  sources:
+    - rumble-badge-glutton-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-glutton-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-glutton-detail
+effect:
+  status: observed
+  value: ラウンド開始：フィールド上で最も攻撃力が高いミニオンを撃破し、その攻撃力の85%をランダムなミニオン2体に付与する
+  sources:
+    - rumble-badge-glutton-detail
+icon:
+  status: observed
+  value: rumble-badge-glutton-icon
+  sources:
+    - rumble-badge-glutton-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

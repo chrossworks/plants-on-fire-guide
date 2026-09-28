@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: nebula
+updated: 2026-09-28
+name:
+  status: observed
+  value: ネビュラ隊長
+  sources:
+    - rumble-badge-nebula-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-nebula-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-nebula-detail
+effect:
+  status: observed
+  value: 準備完了：すべてのミニオンの星ランクが同じ場合、最も攻撃力が低いミニオンの攻撃力の80%を、他のすべてのミニオンに一時的に付与する
+  sources:
+    - rumble-badge-nebula-detail
+icon:
+  status: observed
+  value: rumble-badge-nebula-icon
+  sources:
+    - rumble-badge-nebula-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

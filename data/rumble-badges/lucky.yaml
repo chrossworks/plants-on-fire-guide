@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: lucky
+updated: 2026-09-28
+name:
+  status: observed
+  value: ラッキー隊長
+  sources:
+    - rumble-badge-lucky-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-lucky-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-lucky-detail
+effect:
+  status: observed
+  value: ミニオンを購入またはショップを更新するたびに、ショップ内のミニオンの購入価格が-2から+2の間で変動する
+  sources:
+    - rumble-badge-lucky-detail
+icon:
+  status: observed
+  value: rumble-badge-lucky-icon
+  sources:
+    - rumble-badge-lucky-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

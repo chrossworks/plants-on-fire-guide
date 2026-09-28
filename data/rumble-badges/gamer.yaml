@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: gamer
+updated: 2026-09-28
+name:
+  status: observed
+  value: ゲーマー隊長
+  sources:
+    - rumble-badge-gamer-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-gamer-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-gamer-detail
+effect:
+  status: observed
+  value: 一時的に召喚したミニオンの★+1
+  sources:
+    - rumble-badge-gamer-detail
+icon:
+  status: observed
+  value: rumble-badge-gamer-icon
+  sources:
+    - rumble-badge-gamer-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。

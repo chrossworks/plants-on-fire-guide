@@ -1,0 +1,35 @@
+schemaVersion: 1
+id: erudite
+updated: 2026-09-28
+name:
+  status: observed
+  value: 博識隊長
+  sources:
+    - rumble-badge-erudite-detail
+category:
+  status: manual
+  value: rumble-gold-pass
+  sources:
+    - rumble-badge-types-user-20260928
+    - rumble-badge-erudite-detail
+background:
+  status: observed
+  value: red
+  sources:
+    - rumble-badge-erudite-detail
+effect:
+  status: observed
+  value: マッチ開始時にマスを全部解放するが、ミニオンの購入コスト+2、更新コスト+1
+  sources:
+    - rumble-badge-erudite-detail
+icon:
+  status: observed
+  value: rumble-badge-erudite-icon
+  sources:
+    - rumble-badge-erudite-detail
+acquisition:
+  status: unknown
+  reason: 今回の詳細画像には入手方法の説明がない。
+evaluation:
+  status: unknown
+  reason: 攻略評価は未収録。
