@@ -11,6 +11,18 @@ import { stringify } from 'yaml';
 
 const fact = { status: 'observed', value: 'トロフィー数550個で解放', sources: ['detail'] };
 const record = { registered: fact, first: readingValue(fact), second: readingValue(fact), context: '対象A、ラウンド10', evidence: [{ source: 'detail' }] };
+test('ユーザー再確認は対応する根拠・提示内容・回答を要求し、画像確認へ置換しない', () => {
+  const value = { status: 'absent', sources: ['user-source'] };
+  const source = { kind: 'user', description: '実機で条件なしと確認' };
+  const checked = { registered: value, method: 'user-confirmation', context: '対象Aの基本形の解放条件', confirmation: { value: readingValue(value), source: 'user-source', sourceRecord: source, date: '2026-09-28', statement: '解放条件なし', response: 'すべてあっている' } };
+  const issues = (r = checked, s = source, v = value) => reviewIssues({}, { a: v }, { a: r }, [], { 'user-source': s });
+  assert.deepEqual(issues(), []);
+  assert.match(issues({ ...checked, confirmation: { ...checked.confirmation, response: '' } }).join(), /回答/);
+  assert.match(issues(checked, { ...source, kind: 'screenshot' }).join(), /ユーザー根拠/);
+  assert.match(issues(checked, { ...source, description: '変更' }).join(), /根拠が変更/);
+  const observed = { ...value, status: 'observed', value: 1 };
+  assert.match(issues({ ...checked, registered: observed }, source, observed).join(), /manualまたはabsent/);
+});
 test('変更・追加・削除を拾い、既存未変更値を再確認済みと扱わない', () => {
   assert.equal(reviewIssues({ old: fact }, { old: fact, added: fact }, {}).length, 1);
   assert.equal(reviewIssues({ old: fact }, {}, {}).length, 1);

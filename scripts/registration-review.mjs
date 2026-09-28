@@ -32,15 +32,17 @@ if (mode === 'init') {
   const targets = fs.existsSync(targetsFile) ? read(targetsFile) : [];
   if (!Array.isArray(targets) || targets.some(key => typeof key !== 'string' || !key.trim())) throw new Error('targets.yamlは監査対象の項目キーの配列にしてください');
   const keys = reviewKeys(before, current, records, targets);
-  const issues = reviewIssues(before, current, records, targets);
   const local = fs.existsSync('work/sources.yaml') ? read('work/sources.yaml') : {};
   const sources = read('data/sources.yaml');
+  const issues = reviewIssues(before, current, records, targets, sources);
   const changed = Object.keys({ ...before, ...current }).filter(key => !isDeepStrictEqual(before[key], current[key]));
   const html = ['<!doctype html><meta charset="utf-8"><title>読取照合票</title><style>body{font-family:sans-serif;max-width:1100px;margin:2em auto}img{max-width:100%}pre{white-space:pre-wrap}section{border-top:1px solid;padding:1em}</style><h1>読取照合票</h1><p>未記録・不一致・保留を優先確認。合格は画像の正しさの自動保証ではありません。</p>'];
   const escape = v => String(v).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
   for (const [index, key] of keys.entries()) {
     const record = records[key] || {};
-    html.push(`<section><h2>${escape(key)}</h2><pre>${escape(stringify({ registered: current[key] ?? '(削除)', first: record.first ?? '(未読)', second: record.second ?? '(未読)', context: record.context ?? '', holdReason: record.holdReason ?? '' }))}</pre>`);
+    if (record.method === 'user-confirmation') html.push(`<p>ユーザー再確認（画像再読ではありません）</p><pre>${escape(stringify(record.confirmation || {}))}</pre>`);
+    const readings = record.method === 'user-confirmation' ? {} : { first: record.first ?? '(未読)', second: record.second ?? '(未読)' };
+    html.push(`<section><h2>${escape(key)}</h2><pre>${escape(stringify({ registered: current[key] ?? '(削除)', ...readings, context: record.context ?? '', holdReason: record.holdReason ?? '' }))}</pre>`);
     for (const [n, evidence] of (record.evidence || []).entries()) {
       try {
         const entry = local[evidence.source];

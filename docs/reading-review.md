@@ -78,6 +78,14 @@ data/fate-gifts/example.yaml#/unlock:
 
 ## 既存データを変更せず監査する
 
+### ユーザー確認を根拠とする項目
+
+manualまたはabsentで、登録値のsourcesにkind: userの根拠がある場合は、対象・現在の登録内容・保存されている確認根拠をユーザーへ提示し、回答を受けて記録する。「合っている」は再確認済み、訂正は差分更新、判断できない場合は監査保留とする。回答前に確認済みにしない。
+
+checks.yamlでは `method: user-confirmation` とcontext、registeredを指定する。confirmationにdate（確認日）、statement（提示内容）、response（実際の回答）、value（readingValueと同じ確認値）、source（既存のユーザー根拠ID）、sourceRecord（根拠台帳の当該内容全体）を保存する。根拠変更や登録値変更は再確認対象になる。画像のfirst/secondやfullRegionVisibleは記録せず、画像再読と区別する。照合票にも確認経路と回答を表示する。ユーザーが確認した内容そのものの正しさは自動判定しない。
+
+### 監査対象の指定
+
 監査を始める前に、`work/registration/targets.yaml` に対象の項目キーを配列で記録する。公開データや変更検知の基準を書き換える必要はない。
 
 ```yaml
