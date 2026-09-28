@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-power-boost
+updated: 2026-09-28
+name:
+  status: observed
+  value: パワー強化
+  sources:
+    - fate-gift-round-7-power-boost-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: 指定したミニオンの攻撃力+40
+  sources:
+    - fate-gift-round-7-power-boost-detail
+unlock:
+  status: observed
+  value: トロフィー数400個で解放
+  sources:
+    - fate-gift-round-7-power-boost-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-power-boost-icon
+  sources:
+    - fate-gift-round-7-power-boost-detail

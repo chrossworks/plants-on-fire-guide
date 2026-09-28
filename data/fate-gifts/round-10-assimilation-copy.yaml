@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-assimilation-copy
+updated: 2026-09-28
+name:
+  status: observed
+  value: 同化コピー
+  sources:
+    - fate-gift-round-10-assimilation-copy-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: フィールド上のすべてのミニオンを、指定したミニオンのクローン体に置き換える。クローン体はラウンド終了時に除外される
+  sources:
+    - fate-gift-round-10-assimilation-copy-detail
+unlock:
+  status: observed
+  value: トロフィー数1800個で解放
+  sources:
+    - fate-gift-round-10-assimilation-copy-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-assimilation-copy-icon
+  sources:
+    - fate-gift-round-10-assimilation-copy-detail

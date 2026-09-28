@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-powerful-reinforcements
+updated: 2026-09-28
+name:
+  status: observed
+  value: 強力な増援
+  sources:
+    - fate-gift-round-10-powerful-reinforcements-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: 本ラウンド中、召喚するすべてのミニオンの攻撃力+100%
+  sources:
+    - fate-gift-round-10-powerful-reinforcements-detail
+unlock:
+  status: observed
+  value: トロフィー数550個で解放
+  sources:
+    - fate-gift-round-10-powerful-reinforcements-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-powerful-reinforcements-icon
+  sources:
+    - fate-gift-round-10-powerful-reinforcements-detail

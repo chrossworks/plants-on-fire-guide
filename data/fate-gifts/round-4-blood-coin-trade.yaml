@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-4-blood-coin-trade
+updated: 2026-09-28
+name:
+  status: observed
+  value: ブラッドコイン取引
+  sources:
+    - fate-gift-round-4-blood-coin-trade-detail
+round:
+  status: manual
+  value: 4
+  sources:
+    - fate-gifts-user-20260928
+effect:
+  status: observed
+  value: サンコインを10個獲得する。ただし隊長が最大HPの25%を失う
+  sources:
+    - fate-gift-round-4-blood-coin-trade-detail
+unlock:
+  status: observed
+  value: トロフィー数1400個で解放
+  sources:
+    - fate-gift-round-4-blood-coin-trade-detail
+icon:
+  status: observed
+  value: fate-gift-round-4-blood-coin-trade-icon
+  sources:
+    - fate-gift-round-4-blood-coin-trade-detail

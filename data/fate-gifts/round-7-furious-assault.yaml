@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-furious-assault
+updated: 2026-09-28
+name:
+  status: observed
+  value: 狂暴猛攻
+  sources:
+    - fate-gift-round-7-furious-assault-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: 現在のすべてのミニオンの攻撃速度が一時的に+100%
+  sources:
+    - fate-gift-round-7-furious-assault-detail
+unlock:
+  status: observed
+  value: トロフィー数1600個で解放
+  sources:
+    - fate-gift-round-7-furious-assault-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-furious-assault-icon
+  sources:
+    - fate-gift-round-7-furious-assault-detail

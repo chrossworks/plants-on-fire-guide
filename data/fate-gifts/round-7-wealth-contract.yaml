@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-wealth-contract
+updated: 2026-09-28
+name:
+  status: observed
+  value: 富の契約
+  sources:
+    - fate-gift-round-7-wealth-contract-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: 現在のサンコイン数+100%。本ラウンド中、これ以上サンコインを獲得できない
+  sources:
+    - fate-gift-round-7-wealth-contract-detail
+unlock:
+  status: observed
+  value: トロフィー数1600個で解放
+  sources:
+    - fate-gift-round-7-wealth-contract-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-wealth-contract-icon
+  sources:
+    - fate-gift-round-7-wealth-contract-detail

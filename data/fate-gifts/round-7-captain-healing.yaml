@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-captain-healing
+updated: 2026-09-28
+name:
+  status: observed
+  value: 隊長回復
+  sources:
+    - fate-gift-round-7-captain-healing-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: 隊長のHPを50回復する
+  sources:
+    - fate-gift-round-7-captain-healing-detail
+unlock:
+  status: observed
+  value: トロフィー数400個で解放
+  sources:
+    - fate-gift-round-7-captain-healing-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-captain-healing-icon
+  sources:
+    - fate-gift-round-7-captain-healing-detail

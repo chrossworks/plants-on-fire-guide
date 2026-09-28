@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-perfect-copy
+updated: 2026-09-28
+name:
+  status: observed
+  value: パーフェクトコピー
+  sources:
+    - fate-gift-round-10-perfect-copy-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: 指定したミニオンのクローン体を1体召喚する
+  sources:
+    - fate-gift-round-10-perfect-copy-detail
+unlock:
+  status: observed
+  value: トロフィー数550個で解放
+  sources:
+    - fate-gift-round-10-perfect-copy-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-perfect-copy-icon
+  sources:
+    - fate-gift-round-10-perfect-copy-detail

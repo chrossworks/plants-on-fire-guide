@@ -6,6 +6,7 @@ import { minimumLevels, hasStandardAbsenceEvidence } from '../lib/schema.mjs';
 import { rumbleIdentityIssues } from '../lib/rumble.mjs';
 import { loadCaptainBadges } from '../lib/captain-badges.mjs';
 import { loadRumbleBadges } from '../lib/rumble-badges.mjs';
+import { loadFateGifts } from '../lib/fate-gifts.mjs';
 
 export async function validate() {
   const minions = loadMinions(), articles = loadArticles(), assets = loadAssets(), sources = loadSources(), keywords = loadKeywords();
@@ -54,6 +55,16 @@ export async function validate() {
   const assetRef = (key,p) => { if (!assets[key]) fail(`${p}: 画像IDなし ${key}`); };
   const captainBadges = loadCaptainBadges();
   const rumbleBadges = loadRumbleBadges();
+  const fateGifts = loadFateGifts();
+  for (const gift of fateGifts) {
+    walk(gift, `fate-gifts.${gift.id}`);
+    if (gift.icon.value) assetRef(gift.icon.value, `fate-gifts.${gift.id}`);
+    for (const field of [gift.name, gift.effect, gift.unlock, gift.icon]) {
+      if (field.status === 'observed' || field.status === 'absent') {
+        if (!field.sources.some(s => sources[s]?.kind === 'screenshot' && sources[s]?.screen === 'fate-gift-detail')) fail(`運命のギフトの画像根拠が不正: ${gift.id}`);
+      }
+    }
+  }
   for (const b of rumbleBadges) {
     walk(b, `rumble-badges.${b.id}`);
     if (b.icon.value) assetRef(b.icon.value, `rumble-badges.${b.id}`);
@@ -103,7 +114,7 @@ export async function validate() {
     if (!paths.has(rel) && rel !== 'favicon.svg') fail(`公開許可リスト外のファイル: ${rel}`);
   }
   if (issues.length) throw new Error(issues.join('\n'));
-  return { minions, articles, assets, unknowns, rumble, captainBadges, rumbleBadges };
+  return { minions, articles, assets, unknowns, rumble, captainBadges, rumbleBadges, fateGifts };
 }
 if (process.argv[1] === import.meta.filename) {
   try { const v = await validate(); console.log(`検証OK: ${v.minions.length}体 / ${v.articles.length}記事 / ${Object.keys(v.assets).length}画像。未確認 ${v.unknowns.length}項目（公開可能）。`); }

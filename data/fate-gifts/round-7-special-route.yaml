@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-special-route
+updated: 2026-09-28
+name:
+  status: observed
+  value: 特別ルート
+  sources:
+    - fate-gift-round-7-special-route-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: ショップを無料で3回更新でき、さらにコスト8のミニオンしか出現しない
+  sources:
+    - fate-gift-round-7-special-route-detail
+unlock:
+  status: observed
+  value: トロフィー数400個で解放
+  sources:
+    - fate-gift-round-7-special-route-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-special-route-icon
+  sources:
+    - fate-gift-round-7-special-route-detail

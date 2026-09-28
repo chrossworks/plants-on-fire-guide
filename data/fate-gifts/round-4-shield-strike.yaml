@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-4-shield-strike
+updated: 2026-09-28
+name:
+  status: observed
+  value: シールドストライク
+  sources:
+    - fate-gift-round-4-shield-strike-detail
+round:
+  status: manual
+  value: 4
+  sources:
+    - fate-gifts-user-20260928
+effect:
+  status: observed
+  value: 本ラウンド中、すべてのミニオンが召喚するラッシュユニットのシールド+2
+  sources:
+    - fate-gift-round-4-shield-strike-detail
+unlock:
+  status: observed
+  value: トロフィー数1400個で解放
+  sources:
+    - fate-gift-round-4-shield-strike-detail
+icon:
+  status: observed
+  value: fate-gift-round-4-shield-strike-icon
+  sources:
+    - fate-gift-round-4-shield-strike-detail

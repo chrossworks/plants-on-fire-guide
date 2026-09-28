@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-4-super-transformation
+updated: 2026-09-28
+name:
+  status: observed
+  value: 超変化
+  sources:
+    - fate-gift-round-4-super-transformation-detail
+round:
+  status: manual
+  value: 4
+  sources:
+    - fate-gifts-user-20260928
+effect:
+  status: observed
+  value: 指定したミニオンを、デッキに含まれていない、攻撃力と星ランクを継承するコスト8のミニオンに変身させる
+  sources:
+    - fate-gift-round-4-super-transformation-detail
+unlock:
+  status: observed
+  value: トロフィー数1400個で解放
+  sources:
+    - fate-gift-round-4-super-transformation-detail
+icon:
+  status: observed
+  value: fate-gift-round-4-super-transformation-icon
+  sources:
+    - fate-gift-round-4-super-transformation-detail

@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-ultimate-mirage
+updated: 2026-09-28
+name:
+  status: observed
+  value: アルティメットミラージュ
+  sources:
+    - fate-gift-round-10-ultimate-mirage-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: 本ラウンド中、指定したミニオンが能力「準備完了：自身のクローン体3体を一時的に召喚する」を獲得する
+  sources:
+    - fate-gift-round-10-ultimate-mirage-detail
+unlock:
+  status: observed
+  value: トロフィー数1800個で解放
+  sources:
+    - fate-gift-round-10-ultimate-mirage-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-ultimate-mirage-icon
+  sources:
+    - fate-gift-round-10-ultimate-mirage-detail

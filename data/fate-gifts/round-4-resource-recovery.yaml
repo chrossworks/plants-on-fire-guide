@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-4-resource-recovery
+updated: 2026-09-28
+name:
+  status: observed
+  value: リソース回収
+  sources:
+    - fate-gift-round-4-resource-recovery-detail
+round:
+  status: manual
+  value: 4
+  sources:
+    - fate-gifts-user-20260928
+effect:
+  status: observed
+  value: 指定したミニオンを回収し、その購入に消費したサンコインを獲得する
+  sources:
+    - fate-gift-round-4-resource-recovery-detail
+unlock:
+  status: observed
+  value: トロフィー数1400個で解放
+  sources:
+    - fate-gift-round-4-resource-recovery-detail
+icon:
+  status: observed
+  value: fate-gift-round-4-resource-recovery-icon
+  sources:
+    - fate-gift-round-4-resource-recovery-detail

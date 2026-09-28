@@ -1,0 +1,29 @@
+schemaVersion: 1
+id: round-10-all-or-nothing
+updated: 2026-09-28
+name:
+  status: observed
+  value: 一か八か
+  sources:
+    - fate-gift-round-10-all-or-nothing-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: マッチ中に消費したサンコインの50%（現在：0）を獲得する。ただし、以降はサンコインを獲得できなくなる
+  sources:
+    - fate-gift-round-10-all-or-nothing-detail
+  note: 「現在：0」は撮影時の表示値。獲得量を常に0とする意味ではなく、効果はマッチ中に消費したサンコインの50%。
+unlock:
+  status: observed
+  value: トロフィー数1800個で解放
+  sources:
+    - fate-gift-round-10-all-or-nothing-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-all-or-nothing-icon
+  sources:
+    - fate-gift-round-10-all-or-nothing-detail

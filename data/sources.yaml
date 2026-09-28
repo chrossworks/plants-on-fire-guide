@@ -4500,3 +4500,231 @@ rumble-badge-alien-detail:
   description: エイリアン隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
   mode: rumble-chess
   screen: badge-detail
+
+fate-gifts-user-20260928:
+  kind: user
+  description: 2026-09-28ユーザー確認：運命のギフトはラウンド4・7・10の3種類。今回追加した20枚はすべてラウンド4。解放条件が記載されていないものは解放条件なしとして登録。
+fate-gift-round-4-bonus-gold-detail:
+  kind: screenshot
+  description: 運命のギフト「ボーナスゴールド」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-power-boost-detail:
+  kind: screenshot
+  description: 運命のギフト「パワー強化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-team-boost-detail:
+  kind: screenshot
+  description: 運命のギフト「全体強化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-fast-rush-detail:
+  kind: screenshot
+  description: 運命のギフト「高速ラッシュ」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-shop-boost-detail:
+  kind: screenshot
+  description: 運命のギフト「ショップ強化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-free-purchase-detail:
+  kind: screenshot
+  description: 運命のギフト「無料購入」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-elite-support-detail:
+  kind: screenshot
+  description: 運命のギフト「エリートサポート」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-resource-recovery-detail:
+  kind: screenshot
+  description: 運命のギフト「リソース回収」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-quick-attack-detail:
+  kind: screenshot
+  description: 運命のギフト「クイック攻撃」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-limited-discount-detail:
+  kind: screenshot
+  description: 運命のギフト「期間限定割引」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-star-infusion-detail:
+  kind: screenshot
+  description: 運命のギフト「スターインフュージョン」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-blood-coin-trade-detail:
+  kind: screenshot
+  description: 運命のギフト「ブラッドコイン取引」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-limited-copy-detail:
+  kind: screenshot
+  description: 運命のギフト「期間限定コピー」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-power-absorption-detail:
+  kind: screenshot
+  description: 運命のギフト「パワー吸収」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-shield-strike-detail:
+  kind: screenshot
+  description: 運命のギフト「シールドストライク」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-grand-entrance-detail:
+  kind: screenshot
+  description: 運命のギフト「堂々登場」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-runaway-growth-detail:
+  kind: screenshot
+  description: 運命のギフト「暴走成長」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-purchase-growth-detail:
+  kind: screenshot
+  description: 運命のギフト「買うほど強くなる」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-chain-transformation-detail:
+  kind: screenshot
+  description: 運命のギフト「連鎖変化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-4-super-transformation-detail:
+  kind: screenshot
+  description: 運命のギフト「超変化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
+  screen: fate-gift-detail
+
+fate-gifts-round-7-user-20260928:
+  kind: user
+  description: 2026-09-28ユーザー確認：今回追加した運命のギフト20枚はラウンド7。前回と同様に登録し、解放条件の記載がないものは解放条件なしとする。
+fate-gift-round-7-bonus-gold-detail:
+  kind: screenshot
+  description: 運命のギフト「ボーナスゴールド」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-captain-healing-detail:
+  kind: screenshot
+  description: 運命のギフト「隊長回復」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-targeted-star-up-detail:
+  kind: screenshot
+  description: 運命のギフト「指定星アップ」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-power-boost-detail:
+  kind: screenshot
+  description: 運命のギフト「パワー強化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-team-boost-detail:
+  kind: screenshot
+  description: 運命のギフト「全体強化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-shop-boost-detail:
+  kind: screenshot
+  description: 運命のギフト「ショップ強化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-offensive-advantage-detail:
+  kind: screenshot
+  description: 運命のギフト「攻めの優位」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-instant-copy-detail:
+  kind: screenshot
+  description: 運命のギフト「即時コピー」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-quick-attack-detail:
+  kind: screenshot
+  description: 運命のギフト「クイック攻撃」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-special-route-detail:
+  kind: screenshot
+  description: 運命のギフト「特別ルート」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-chaos-change-detail:
+  kind: screenshot
+  description: 運命のギフト「カオスチェンジ」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-furious-assault-detail:
+  kind: screenshot
+  description: 運命のギフト「狂暴猛攻」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-power-of-balance-detail:
+  kind: screenshot
+  description: 運命のギフト「均衡の力」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-mass-recovery-detail:
+  kind: screenshot
+  description: 運命のギフト「一括回収」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-power-sharing-detail:
+  kind: screenshot
+  description: 運命のギフト「パワー共有」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-shop-discount-detail:
+  kind: screenshot
+  description: 運命のギフト「ショップ割引」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-fate-roulette-detail:
+  kind: screenshot
+  description: 運命のギフト「運命のルーレット」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-minion-devouring-detail:
+  kind: screenshot
+  description: 運命のギフト「ミニオン捕食」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-wealth-contract-detail:
+  kind: screenshot
+  description: 運命のギフト「富の契約」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-7-hp-barrier-detail:
+  kind: screenshot
+  description: 運命のギフト「HPバリア」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
+  screen: fate-gift-detail
+
+fate-gifts-round-10-user-20260928:
+  kind: user
+  description: 2026-09-28ユーザー確認：今回追加した運命のギフト14枚はラウンド10。前回と同様に登録し、解放条件の記載がないものは解放条件なしとする。
+fate-gift-round-10-macho-man-detail:
+  kind: screenshot
+  description: 運命のギフト「マッチョマン」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-muscle-control-detail:
+  kind: screenshot
+  description: 運命のギフト「マッスルコントロール」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-potential-release-detail:
+  kind: screenshot
+  description: 運命のギフト「潜在能力開放」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-powerful-reinforcements-detail:
+  kind: screenshot
+  description: 運命のギフト「強力な増援」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-assault-wave-detail:
+  kind: screenshot
+  description: 運命のギフト「猛攻の波」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-perfect-copy-detail:
+  kind: screenshot
+  description: 運命のギフト「パーフェクトコピー」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-mass-star-up-detail:
+  kind: screenshot
+  description: 運命のギフト「一斉星アップ」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-power-theft-detail:
+  kind: screenshot
+  description: 運命のギフト「パワー強奪」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-hp-chip-detail:
+  kind: screenshot
+  description: 運命のギフト「HPチップ」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-power-share-detail:
+  kind: screenshot
+  description: 運命のギフト「パワーシェア」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-ultimate-mirage-detail:
+  kind: screenshot
+  description: 運命のギフト「アルティメットミラージュ」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-all-or-nothing-detail:
+  kind: screenshot
+  description: 運命のギフト「一か八か」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-assimilation-copy-detail:
+  kind: screenshot
+  description: 運命のギフト「同化コピー」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail
+fate-gift-round-10-swap-magic-detail:
+  kind: screenshot
+  description: 運命のギフト「スワップマジック」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
+  screen: fate-gift-detail

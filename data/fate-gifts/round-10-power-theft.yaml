@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-power-theft
+updated: 2026-09-28
+name:
+  status: observed
+  value: パワー強奪
+  sources:
+    - fate-gift-round-10-power-theft-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: 準備完了時、指定したミニオンがすべての敵ミニオンの攻撃力を5%永続的に奪取する
+  sources:
+    - fate-gift-round-10-power-theft-detail
+unlock:
+  status: observed
+  value: トロフィー数1800個で解放
+  sources:
+    - fate-gift-round-10-power-theft-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-power-theft-icon
+  sources:
+    - fate-gift-round-10-power-theft-detail

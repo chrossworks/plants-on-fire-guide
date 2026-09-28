@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-mass-recovery
+updated: 2026-09-28
+name:
+  status: observed
+  value: 一括回収
+  sources:
+    - fate-gift-round-7-mass-recovery-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: 指定したタイプのミニオンをすべて回収し、ミニオンの購入に消費したサンコインの150%を獲得する
+  sources:
+    - fate-gift-round-7-mass-recovery-detail
+unlock:
+  status: observed
+  value: トロフィー数1600個で解放
+  sources:
+    - fate-gift-round-7-mass-recovery-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-mass-recovery-icon
+  sources:
+    - fate-gift-round-7-mass-recovery-detail

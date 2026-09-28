@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-bonus-gold
+updated: 2026-09-28
+name:
+  status: observed
+  value: ボーナスゴールド
+  sources:
+    - fate-gift-round-7-bonus-gold-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: ラウンド報酬のサンコイン+5
+  sources:
+    - fate-gift-round-7-bonus-gold-detail
+unlock:
+  status: observed
+  value: トロフィー数400個で解放
+  sources:
+    - fate-gift-round-7-bonus-gold-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-bonus-gold-icon
+  sources:
+    - fate-gift-round-7-bonus-gold-detail

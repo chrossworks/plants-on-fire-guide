@@ -3,6 +3,7 @@
 - 原本・元メモを変更・改名・削除しない。raw-screenshots/ と article-notes/ と work/ は非公開素材。
 - 最小サンプルはマムガール・オーキッド占星術師・紹介記事。残りの素材は未処理でもよい。
 - まず README.md と docs/workflow.md、必要時 docs/data-model.md を読む。
+- データ登録はdocs/reading-review.mdに従う。編集前の基準・項目一覧、項目別の初回読取と原本からの再読、登録値と切り抜きの照合を行う。absentは領域全体の確認が必要。npm run reviewの読取照合と目視後にregistration:acceptを行い、未確認を確認済みにしない。
 - Workが画像を実際に見て分類・読取する。ファイル名だけでミニオンや用途を推測しない。不確実なら work/sources.yaml の status を pending にし処理を保留。
 - 詳細画面は通常/ランブルチェスを先に判別する。左上の絆、ステータスの絆ポイント、星4タブをランブルチェスの特徴とする。保証Lv.7未達では現在Lvと保証Lvが併記される。判別手順はdocs/workflow.mdを参照。
 - バリアント表示の領域まで確認できた通常詳細画面で表示がなければvariants.statusをabsentにし、分類済み画像のsourcesを付ける。ランブルチェス画面の非表示、切れ・遮蔽・分類不明からは判定しない。

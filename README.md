@@ -27,6 +27,7 @@ work/                 非公開の分類台帳・加工設定・確認用画像�
 data/minions/         ミニオン共通データの正本（YAML）
 data/captain-badges/  隊長バッジ・チャームの先行収録（ページ構成未定）
 data/rumble-badges/   ランブルバッジの先行収録（ページ構成未定）
+data/fate-gifts/      運命のギフトの先行収録（ページ構成未定）
 data/keywords.yaml    共通用語
 data/rumble-chess.yaml ランブルチェスの絆・星4能力・登場状態・共通ルール
 data/sources.yaml     根拠IDと説明（原本パスは入れない）
@@ -48,10 +49,13 @@ dist/                 build出力（自動生成・Git対象外）
 
 1. 原本スクリーンショットと短い攻略メモを追加。
 2. Workへ今回分の分類・読み取り・差分更新を依頼。
+   Workは編集前に [読取確認手順](docs/reading-review.md) の基準・対象項目を確認し、初回読取と再読を記録する。
 3. Workが `work/sources.yaml`、`work/recipes.yaml`、公開データ・記事を必要箇所だけ更新。
 4. `npm run images` で加工後画像を確認。目視確認後 `npm run images:publish`。
 5. `npm run review`、`npm test`、`npm run build`、`npm run preview`。
 6. 人間が数値・攻略文・画像・画面を確認して公開判断。
+
+登録作業では、読取照合票の目視と検査の後に `npm run registration:accept` で次回の変更検知の開始点を更新します。人間には不一致・判読困難・保留を優先して報告します。既存値が変更検知の基準に含まれていても再確認済みとは限りません。
 
 分類と文字の読み取りを行う無人OCRコマンドはありません。Workの画像確認がその工程です。スクリプトは確定した設定を実行します。詳細は [制作手順](docs/workflow.md) と [データ形式](docs/data-model.md) を参照。
 

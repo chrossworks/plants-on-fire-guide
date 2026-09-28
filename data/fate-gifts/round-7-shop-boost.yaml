@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-shop-boost
+updated: 2026-09-28
+name:
+  status: observed
+  value: ショップ強化
+  sources:
+    - fate-gift-round-7-shop-boost-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: ショップ内のミニオンの攻撃力+5
+  sources:
+    - fate-gift-round-7-shop-boost-detail
+unlock:
+  status: observed
+  value: トロフィー数400個で解放
+  sources:
+    - fate-gift-round-7-shop-boost-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-shop-boost-icon
+  sources:
+    - fate-gift-round-7-shop-boost-detail

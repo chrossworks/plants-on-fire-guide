@@ -1,0 +1,29 @@
+schemaVersion: 1
+id: round-4-power-boost
+updated: 2026-09-28
+name:
+  status: observed
+  value: パワー強化
+  sources:
+    - fate-gift-round-4-power-boost-detail
+round:
+  status: manual
+  value: 4
+  sources:
+    - fate-gifts-user-20260928
+effect:
+  status: observed
+  value: 指定したミニオンの攻撃力+15
+  sources:
+    - fate-gift-round-4-power-boost-detail
+unlock:
+  status: absent
+  reason: 詳細画面に解放条件の記載なし。ユーザー指定により解放条件なしとして登録。
+  sources:
+    - fate-gift-round-4-power-boost-detail
+    - fate-gifts-user-20260928
+icon:
+  status: observed
+  value: fate-gift-round-4-power-boost-icon
+  sources:
+    - fate-gift-round-4-power-boost-detail

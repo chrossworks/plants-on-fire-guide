@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-muscle-control
+updated: 2026-09-28
+name:
+  status: observed
+  value: マッスルコントロール
+  sources:
+    - fate-gift-round-10-muscle-control-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: すべてのミニオンの攻撃力+30
+  sources:
+    - fate-gift-round-10-muscle-control-detail
+unlock:
+  status: observed
+  value: トロフィー数550個で解放
+  sources:
+    - fate-gift-round-10-muscle-control-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-muscle-control-icon
+  sources:
+    - fate-gift-round-10-muscle-control-detail

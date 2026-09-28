@@ -1,0 +1,29 @@
+schemaVersion: 1
+id: round-4-team-boost
+updated: 2026-09-28
+name:
+  status: observed
+  value: 全体強化
+  sources:
+    - fate-gift-round-4-team-boost-detail
+round:
+  status: manual
+  value: 4
+  sources:
+    - fate-gifts-user-20260928
+effect:
+  status: observed
+  value: すべてのミニオンの攻撃力+3
+  sources:
+    - fate-gift-round-4-team-boost-detail
+unlock:
+  status: absent
+  reason: 詳細画面に解放条件の記載なし。ユーザー指定により解放条件なしとして登録。
+  sources:
+    - fate-gift-round-4-team-boost-detail
+    - fate-gifts-user-20260928
+icon:
+  status: observed
+  value: fate-gift-round-4-team-boost-icon
+  sources:
+    - fate-gift-round-4-team-boost-detail

@@ -13,6 +13,9 @@
     "images:publish": "node scripts/images.mjs --publish",
     "validate": "node scripts/validate.mjs",
     "review": "node scripts/review.mjs",
+    "registration:init": "node scripts/registration-review.mjs init",
+    "registration:check": "node scripts/registration-review.mjs check",
+    "registration:accept": "node scripts/registration-review.mjs accept",
     "build": "npm run validate && astro build && node scripts/check-build.mjs",
     "preview": "astro preview --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs"

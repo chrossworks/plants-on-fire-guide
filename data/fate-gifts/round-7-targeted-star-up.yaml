@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-targeted-star-up
+updated: 2026-09-28
+name:
+  status: observed
+  value: 指定星アップ
+  sources:
+    - fate-gift-round-7-targeted-star-up-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: 指定したミニオンの★+1
+  sources:
+    - fate-gift-round-7-targeted-star-up-detail
+unlock:
+  status: observed
+  value: トロフィー数400個で解放
+  sources:
+    - fate-gift-round-7-targeted-star-up-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-targeted-star-up-icon
+  sources:
+    - fate-gift-round-7-targeted-star-up-detail

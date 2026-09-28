@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-mass-star-up
+updated: 2026-09-28
+name:
+  status: observed
+  value: 一斉星アップ
+  sources:
+    - fate-gift-round-10-mass-star-up-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: すべてのミニオンの★+1。ミニオンが★3だった場合、星アップ効果が2回発動する
+  sources:
+    - fate-gift-round-10-mass-star-up-detail
+unlock:
+  status: observed
+  value: トロフィー数550個で解放
+  sources:
+    - fate-gift-round-10-mass-star-up-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-mass-star-up-icon
+  sources:
+    - fate-gift-round-10-mass-star-up-detail

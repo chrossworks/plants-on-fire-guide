@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-power-share
+updated: 2026-09-28
+name:
+  status: observed
+  value: パワーシェア
+  sources:
+    - fate-gift-round-10-power-share-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: 同じ列の他のミニオンに、指定したミニオンの攻撃力の75%を付与する
+  sources:
+    - fate-gift-round-10-power-share-detail
+unlock:
+  status: observed
+  value: トロフィー数1800個で解放
+  sources:
+    - fate-gift-round-10-power-share-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-power-share-icon
+  sources:
+    - fate-gift-round-10-power-share-detail

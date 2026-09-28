@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-chaos-change
+updated: 2026-09-28
+name:
+  status: observed
+  value: カオスチェンジ
+  sources:
+    - fate-gift-round-7-chaos-change-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: 指定したミニオンを、攻撃力と星ランクを継承するコスト8のミニオンに変身する
+  sources:
+    - fate-gift-round-7-chaos-change-detail
+unlock:
+  status: observed
+  value: トロフィー数400個で解放
+  sources:
+    - fate-gift-round-7-chaos-change-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-chaos-change-icon
+  sources:
+    - fate-gift-round-7-chaos-change-detail

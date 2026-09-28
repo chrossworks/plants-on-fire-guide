@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-4-grand-entrance
+updated: 2026-09-28
+name:
+  status: observed
+  value: 堂々登場
+  sources:
+    - fate-gift-round-4-grand-entrance-detail
+round:
+  status: manual
+  value: 4
+  sources:
+    - fate-gifts-user-20260928
+effect:
+  status: observed
+  value: 次に召喚するミニオンの攻撃力+100%
+  sources:
+    - fate-gift-round-4-grand-entrance-detail
+unlock:
+  status: observed
+  value: トロフィー数1400個で解放
+  sources:
+    - fate-gift-round-4-grand-entrance-detail
+icon:
+  status: observed
+  value: fate-gift-round-4-grand-entrance-icon
+  sources:
+    - fate-gift-round-4-grand-entrance-detail

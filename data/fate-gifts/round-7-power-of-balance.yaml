@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-power-of-balance
+updated: 2026-09-28
+name:
+  status: observed
+  value: 均衡の力
+  sources:
+    - fate-gift-round-7-power-of-balance-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: すべてのミニオンの攻撃力を平均化する
+  sources:
+    - fate-gift-round-7-power-of-balance-detail
+unlock:
+  status: observed
+  value: トロフィー数1600個で解放
+  sources:
+    - fate-gift-round-7-power-of-balance-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-power-of-balance-icon
+  sources:
+    - fate-gift-round-7-power-of-balance-detail

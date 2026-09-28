@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-potential-release
+updated: 2026-09-28
+name:
+  status: observed
+  value: 潜在能力開放
+  sources:
+    - fate-gift-round-10-potential-release-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: 現在のすべてのミニオンの攻撃力が一時的に+40%
+  sources:
+    - fate-gift-round-10-potential-release-detail
+unlock:
+  status: observed
+  value: トロフィー数550個で解放
+  sources:
+    - fate-gift-round-10-potential-release-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-potential-release-icon
+  sources:
+    - fate-gift-round-10-potential-release-detail

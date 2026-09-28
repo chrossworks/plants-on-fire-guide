@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-hp-chip
+updated: 2026-09-28
+name:
+  status: observed
+  value: HPチップ
+  sources:
+    - fate-gift-round-10-hp-chip-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: 隊長のHPを1にする。HPを1失うたびに、サンコインを1個獲得する
+  sources:
+    - fate-gift-round-10-hp-chip-detail
+unlock:
+  status: observed
+  value: トロフィー数1800個で解放
+  sources:
+    - fate-gift-round-10-hp-chip-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-hp-chip-icon
+  sources:
+    - fate-gift-round-10-hp-chip-detail

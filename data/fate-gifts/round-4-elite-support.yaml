@@ -1,0 +1,29 @@
+schemaVersion: 1
+id: round-4-elite-support
+updated: 2026-09-28
+name:
+  status: observed
+  value: エリートサポート
+  sources:
+    - fate-gift-round-4-elite-support-detail
+round:
+  status: manual
+  value: 4
+  sources:
+    - fate-gifts-user-20260928
+effect:
+  status: observed
+  value: コスト8のミニオンを1体ランダムに召喚する（購入効果と配置効果は発動しない）
+  sources:
+    - fate-gift-round-4-elite-support-detail
+unlock:
+  status: absent
+  reason: 詳細画面に解放条件の記載なし。ユーザー指定により解放条件なしとして登録。
+  sources:
+    - fate-gift-round-4-elite-support-detail
+    - fate-gifts-user-20260928
+icon:
+  status: observed
+  value: fate-gift-round-4-elite-support-icon
+  sources:
+    - fate-gift-round-4-elite-support-detail

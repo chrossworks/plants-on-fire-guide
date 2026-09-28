@@ -857,3 +857,168 @@ rumble-badge-octopus-icon:
 rumble-badge-alien-icon:
   path: images/rumble-badges/alien/icon.webp
   alt: エイリアン隊長のランブルゴールドパスバッジ（赤背景・画面の地色あり）
+
+fate-gift-round-4-bonus-gold-icon:
+  path: images/fate-gifts/round-4-bonus-gold/icon.webp
+  alt: ボーナスゴールドの運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-power-boost-icon:
+  path: images/fate-gifts/round-4-power-boost/icon.webp
+  alt: パワー強化の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-team-boost-icon:
+  path: images/fate-gifts/round-4-team-boost/icon.webp
+  alt: 全体強化の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-fast-rush-icon:
+  path: images/fate-gifts/round-4-fast-rush/icon.webp
+  alt: 高速ラッシュの運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-shop-boost-icon:
+  path: images/fate-gifts/round-4-shop-boost/icon.webp
+  alt: ショップ強化の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-free-purchase-icon:
+  path: images/fate-gifts/round-4-free-purchase/icon.webp
+  alt: 無料購入の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-elite-support-icon:
+  path: images/fate-gifts/round-4-elite-support/icon.webp
+  alt: エリートサポートの運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-resource-recovery-icon:
+  path: images/fate-gifts/round-4-resource-recovery/icon.webp
+  alt: リソース回収の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-quick-attack-icon:
+  path: images/fate-gifts/round-4-quick-attack/icon.webp
+  alt: クイック攻撃の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-limited-discount-icon:
+  path: images/fate-gifts/round-4-limited-discount/icon.webp
+  alt: 期間限定割引の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-star-infusion-icon:
+  path: images/fate-gifts/round-4-star-infusion/icon.webp
+  alt: スターインフュージョンの運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-blood-coin-trade-icon:
+  path: images/fate-gifts/round-4-blood-coin-trade/icon.webp
+  alt: ブラッドコイン取引の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-limited-copy-icon:
+  path: images/fate-gifts/round-4-limited-copy/icon.webp
+  alt: 期間限定コピーの運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-power-absorption-icon:
+  path: images/fate-gifts/round-4-power-absorption/icon.webp
+  alt: パワー吸収の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-shield-strike-icon:
+  path: images/fate-gifts/round-4-shield-strike/icon.webp
+  alt: シールドストライクの運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-grand-entrance-icon:
+  path: images/fate-gifts/round-4-grand-entrance/icon.webp
+  alt: 堂々登場の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-runaway-growth-icon:
+  path: images/fate-gifts/round-4-runaway-growth/icon.webp
+  alt: 暴走成長の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-purchase-growth-icon:
+  path: images/fate-gifts/round-4-purchase-growth/icon.webp
+  alt: 買うほど強くなるの運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-chain-transformation-icon:
+  path: images/fate-gifts/round-4-chain-transformation/icon.webp
+  alt: 連鎖変化の運命のギフトアイコン（枠・画面の地色あり）
+fate-gift-round-4-super-transformation-icon:
+  path: images/fate-gifts/round-4-super-transformation/icon.webp
+  alt: 超変化の運命のギフトアイコン（枠・画面の地色あり）
+
+fate-gift-round-7-bonus-gold-icon:
+  path: images/fate-gifts/round-7-bonus-gold/icon.webp
+  alt: ボーナスゴールドの運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-captain-healing-icon:
+  path: images/fate-gifts/round-7-captain-healing/icon.webp
+  alt: 隊長回復の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-targeted-star-up-icon:
+  path: images/fate-gifts/round-7-targeted-star-up/icon.webp
+  alt: 指定星アップの運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-power-boost-icon:
+  path: images/fate-gifts/round-7-power-boost/icon.webp
+  alt: パワー強化の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-team-boost-icon:
+  path: images/fate-gifts/round-7-team-boost/icon.webp
+  alt: 全体強化の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-shop-boost-icon:
+  path: images/fate-gifts/round-7-shop-boost/icon.webp
+  alt: ショップ強化の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-offensive-advantage-icon:
+  path: images/fate-gifts/round-7-offensive-advantage/icon.webp
+  alt: 攻めの優位の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-instant-copy-icon:
+  path: images/fate-gifts/round-7-instant-copy/icon.webp
+  alt: 即時コピーの運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-quick-attack-icon:
+  path: images/fate-gifts/round-7-quick-attack/icon.webp
+  alt: クイック攻撃の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-special-route-icon:
+  path: images/fate-gifts/round-7-special-route/icon.webp
+  alt: 特別ルートの運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-chaos-change-icon:
+  path: images/fate-gifts/round-7-chaos-change/icon.webp
+  alt: カオスチェンジの運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-furious-assault-icon:
+  path: images/fate-gifts/round-7-furious-assault/icon.webp
+  alt: 狂暴猛攻の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-power-of-balance-icon:
+  path: images/fate-gifts/round-7-power-of-balance/icon.webp
+  alt: 均衡の力の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-mass-recovery-icon:
+  path: images/fate-gifts/round-7-mass-recovery/icon.webp
+  alt: 一括回収の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-power-sharing-icon:
+  path: images/fate-gifts/round-7-power-sharing/icon.webp
+  alt: パワー共有の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-shop-discount-icon:
+  path: images/fate-gifts/round-7-shop-discount/icon.webp
+  alt: ショップ割引の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-fate-roulette-icon:
+  path: images/fate-gifts/round-7-fate-roulette/icon.webp
+  alt: 運命のルーレットの運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-minion-devouring-icon:
+  path: images/fate-gifts/round-7-minion-devouring/icon.webp
+  alt: ミニオン捕食の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-wealth-contract-icon:
+  path: images/fate-gifts/round-7-wealth-contract/icon.webp
+  alt: 富の契約の運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+fate-gift-round-7-hp-barrier-icon:
+  path: images/fate-gifts/round-7-hp-barrier/icon.webp
+  alt: HPバリアの運命のギフトアイコン（ラウンド7・枠・画面の地色あり）
+
+fate-gift-round-10-macho-man-icon:
+  path: images/fate-gifts/round-10-macho-man/icon.webp
+  alt: マッチョマンの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-muscle-control-icon:
+  path: images/fate-gifts/round-10-muscle-control/icon.webp
+  alt: マッスルコントロールの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-potential-release-icon:
+  path: images/fate-gifts/round-10-potential-release/icon.webp
+  alt: 潜在能力開放の運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-powerful-reinforcements-icon:
+  path: images/fate-gifts/round-10-powerful-reinforcements/icon.webp
+  alt: 強力な増援の運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-assault-wave-icon:
+  path: images/fate-gifts/round-10-assault-wave/icon.webp
+  alt: 猛攻の波の運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-perfect-copy-icon:
+  path: images/fate-gifts/round-10-perfect-copy/icon.webp
+  alt: パーフェクトコピーの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-mass-star-up-icon:
+  path: images/fate-gifts/round-10-mass-star-up/icon.webp
+  alt: 一斉星アップの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-power-theft-icon:
+  path: images/fate-gifts/round-10-power-theft/icon.webp
+  alt: パワー強奪の運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-hp-chip-icon:
+  path: images/fate-gifts/round-10-hp-chip/icon.webp
+  alt: HPチップの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-power-share-icon:
+  path: images/fate-gifts/round-10-power-share/icon.webp
+  alt: パワーシェアの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-ultimate-mirage-icon:
+  path: images/fate-gifts/round-10-ultimate-mirage/icon.webp
+  alt: アルティメットミラージュの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-all-or-nothing-icon:
+  path: images/fate-gifts/round-10-all-or-nothing/icon.webp
+  alt: 一か八かの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-assimilation-copy-icon:
+  path: images/fate-gifts/round-10-assimilation-copy/icon.webp
+  alt: 同化コピーの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+fate-gift-round-10-swap-magic-icon:
+  path: images/fate-gifts/round-10-swap-magic/icon.webp
+  alt: スワップマジックの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）

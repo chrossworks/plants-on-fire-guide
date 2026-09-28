@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-10-macho-man
+updated: 2026-09-28
+name:
+  status: observed
+  value: マッチョマン
+  sources:
+    - fate-gift-round-10-macho-man-detail
+round:
+  status: manual
+  value: 10
+  sources:
+    - fate-gifts-round-10-user-20260928
+effect:
+  status: observed
+  value: 指定したミニオンの攻撃力+100%
+  sources:
+    - fate-gift-round-10-macho-man-detail
+unlock:
+  status: observed
+  value: トロフィー数550個で解放
+  sources:
+    - fate-gift-round-10-macho-man-detail
+icon:
+  status: observed
+  value: fate-gift-round-10-macho-man-icon
+  sources:
+    - fate-gift-round-10-macho-man-detail

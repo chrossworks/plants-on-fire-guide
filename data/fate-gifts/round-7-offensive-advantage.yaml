@@ -1,0 +1,28 @@
+schemaVersion: 1
+id: round-7-offensive-advantage
+updated: 2026-09-28
+name:
+  status: observed
+  value: 攻めの優位
+  sources:
+    - fate-gift-round-7-offensive-advantage-detail
+round:
+  status: manual
+  value: 7
+  sources:
+    - fate-gifts-round-7-user-20260928
+effect:
+  status: observed
+  value: マッチ中、すべてのミニオンのラッシュユニットのシールド+1、移動速度+20%
+  sources:
+    - fate-gift-round-7-offensive-advantage-detail
+unlock:
+  status: observed
+  value: トロフィー数1600個で解放
+  sources:
+    - fate-gift-round-7-offensive-advantage-detail
+icon:
+  status: observed
+  value: fate-gift-round-7-offensive-advantage-icon
+  sources:
+    - fate-gift-round-7-offensive-advantage-detail
