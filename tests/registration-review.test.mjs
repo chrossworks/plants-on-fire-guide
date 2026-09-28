@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { collectReviewUnits, readingValue, reviewIssues } from '../lib/registration-review.mjs';
+import { collectReviewUnits, readingValue, reviewIssues, reviewKeys, reviewSummary } from '../lib/registration-review.mjs';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -40,6 +40,21 @@ test('管理値・評価は元メモ根拠を使えるがobservedの画像確認
   assert.match(reviewIssues({}, { a: fact }, { a: { ...record, evidence: [], basis: '元メモ' } }).join(), /原本/);
 });
 
+test('未変更の対象も検証し、保留・未記録・対象外を監査済みに数えない', () => {
+  const unknown = { status: 'unknown', reason: '未撮影' };
+  const current = { good: fact, missing: fact, held: unknown, untouched: fact };
+  const records = { good: record, held: { registered: unknown, holdReason: '追加撮影待ち' } };
+  const targets = ['good', 'missing', 'held', 'typo', 'good'];
+  const keys = reviewKeys(current, current, records, targets);
+  const issues = reviewIssues(current, current, records, targets);
+  assert.deepEqual(reviewSummary(current, current, keys, issues), {
+    total: 4, targeted: 4, audited: 1, unchangedAudited: 1, changedAudited: 0,
+    held: 1, pending: 2, deleted: 0, untargeted: 1,
+  });
+  assert.match(issues.join(), /項目が存在しません/);
+  assert.match(reviewIssues(current, current, { good: { ...record, second: '誤読' } }).join(), /一致/);
+});
+
 test('実行フローで未確認を止め、原本照合票を生成し、確認後の原本変更を拒否する', async () => {
   const cwd = fs.mkdtempSync(path.join(os.tmpdir(), 'registration-review-'));
   const script = path.resolve('scripts/registration-review.mjs');
@@ -62,6 +77,15 @@ test('実行フローで未確認を止め、原本照合票を生成し、確�
     assert.equal(checked.status, 0, checked.stderr);
     assert.ok(fs.existsSync(path.join(cwd, 'work/registration/crop-0-0.png')));
     assert.match(fs.readFileSync(path.join(cwd, 'work/registration/review.html'), 'utf8'), /550/);
+    write('work/registration/targets.yaml', ['data/example.yaml#/unlock']);
+    assert.equal(run('accept').status, 0);
+    // Accept moves the baseline, but the retained record must still be checked and counted.
+    assert.equal(run('check').status, 0);
+    const result = JSON.parse(fs.readFileSync(path.join(cwd, 'work/registration/result.json'), 'utf8'));
+    assert.equal(result.changed, 0);
+    assert.equal(result.summary.unchangedAudited, 1);
+    const archive = fs.readdirSync(path.join(cwd, 'work/registration')).find(name => name.startsWith('accepted-'));
+    assert.ok(fs.existsSync(path.join(cwd, 'work/registration', archive, 'result.json')));
     fs.appendFileSync(original, 'changed');
     assert.notEqual(run('accept').status, 0);
     assert.match(run('check').stderr, /SHA256/);
