@@ -1,0 +1,19 @@
+---
+import Form from './Form.astro';
+import { updates, url } from '../lib/site';
+import { minimumLevels } from '../../lib/schema.mjs';
+const { entries }=Astro.props;
+const ordered=[...entries].sort((a,b)=>{
+ const date=h=>updates.find(u=>u.id===h.updateId)?.date.value||'';
+ return date(b).localeCompare(date(a))||b.id.localeCompare(a.id);
+});
+---
+{ordered.length>0 && <div class="performance-history"><h3>変更履歴・旧性能</h3>{ordered.map(h=>{
+ const update=updates.find(u=>u.id===h.updateId);
+ const form=h.formId==='base'?h.snapshot.base:h.snapshot.variants.items.find(f=>f.id===h.formId);
+ return <details><summary>{update?.date.value || '日付未確認'}の変更に関連する旧性能</summary>
+ <p class="condition">{h.period.value || '以前に掲載していた性能です。ゲーム内での正確な適用期間は未確認です。'}</p>
+ <p><a href={url('updates/'+h.updateId+'/#'+h.changeId)}>このアップデートの告知内容</a></p>
+ <Form form={form} variant={h.formId!=='base'} minimumLevel={h.formId==='base'?minimumLevels[h.snapshot.rarity.value]:undefined} historical={true} anchorId={'history-'+h.id}/>
+ </details>;
+})}</div>}

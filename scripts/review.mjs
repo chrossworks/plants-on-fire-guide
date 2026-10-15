@@ -3,7 +3,7 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { root,readYaml,loadSources } from '../lib/content.mjs';
 import { validate } from './validate.mjs';
-const {minions,unknowns,assets,rumble,captainBadges,rumbleBadges,fateGifts}=await validate();
+const {minions,unknowns,assets,rumble,captainBadges,rumbleBadges,fateGifts,updates,history,captains}=await validate();
 const sources=loadSources();
 const local=fs.existsSync(path.join(root,'work/sources.yaml'))?readYaml('work/sources.yaml'):{};
 const lines=['# 制作確認票','','公開前に、加工後画像・数値・攻略内容・最終表示を確認してください。','','## 未確認項目','',...unknowns.map(x=>'- '+x),'','## データと根拠',''];
@@ -20,6 +20,7 @@ lines.push('','## ランブルバッジ（ページ未作成）','');
 for(const b of rumbleBadges){lines.push(`### ${b.name.value || b.id}`,'');visit(b,`rumble-badges.${b.id}`);}
 lines.push('','## 運命のギフト（ページ未作成）','');
 for(const gift of fateGifts){lines.push(`### ${gift.name.value || gift.id}`,'');visit(gift,`fate-gifts.${gift.id}`);}
+for(const [kind,items] of Object.entries({updates,history,captains})){lines.push('','## '+kind,'');for(const item of items)visit(item,kind+'.'+item.id);}
 lines.push('','## 加工後画像','');
 for(const [key,a] of Object.entries(assets))lines.push(`- ${key}: ${a.alt}`,`  ![${a.alt}](../public/${a.path})`);
 fs.mkdirSync(path.join(root,'work'),{recursive:true});fs.writeFileSync(path.join(root,'work/review.md'),lines.join('\n')+'\n');

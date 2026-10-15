@@ -2,6 +2,10 @@ schemaVersion: 1
 id: cashew-sage
 name: カシュー大賢者
 reading: かしゅーだいけんじゃ
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -16,7 +20,7 @@ cost:
     - cashew-sage-base-star1
     - cashew-sage-base-star2
     - cashew-sage-base-star3
-updated: 2026-09-25
+updated: 2026-10-15
 icon: cashew-sage-icon
 portrait: cashew-sage-portrait
 evaluation:
@@ -229,6 +233,9 @@ variants:
   note: 画像で確認したバリアントを掲載しています。
   items:
     - id: variant-1
+      introduced:
+        status: unknown
+        reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: カシュー大賢者Ⅰ
       image: cashew-sage-v1
       cardRank:

@@ -2,6 +2,10 @@ schemaVersion: 1
 id: mandragora-priest
 name: マンドラゴラ司祭
 reading: まんどらごらしさい
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -16,7 +20,7 @@ cost:
     - mandragora-priest-base-star1
     - mandragora-priest-base-star2
     - mandragora-priest-base-star3
-updated: 2026-09-25
+updated: 2026-10-15
 icon: mandragora-priest-icon
 portrait: mandragora-priest-portrait
 evaluation:

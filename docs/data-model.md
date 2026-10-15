@@ -171,3 +171,18 @@ data/rumble-chess.yamlは基本性能から分離したランブルチェス情�
 - 星4画像は読取根拠として保存し、公開画像には自動追加しない。新たな公開画像を作る場合のみ画像加工・目視・images:publishを行う。
 
 絆の共通アイコンはdecks[].bond.icon（画像IDのfact）で参照する。画像はdata/assets.yamlに登録し、元画像の対応・切り出し座標はwork/recipes.yamlに保持する。絆名と並べて32pxで表示し、画像未登録の場合は名前だけ表示する。
+
+## 実装日・アップデート・旧性能（2026-10-15）
+
+- `introduced`：実装日のfact。ミニオン本体、各バリアント、隊長、各種バッジ・チャーム・運命のギフトに使用できる。observed/manual/unknownのみ。年月日は実在するISO日付。撮影日・記事updatedとは別。既存ミニオン73体はユーザー指定により2026-08-27、既存バリアントはunknown。実装日から当時の性能を推定しない。
+- `data/updates/<id>.yaml`：アップデート台帳。固定IDとdate、title、changesを持つ。changesは対象kind/id/minionId/formId/name、種類、announcement（告知内容のfact）、details（実機確認の内容またはunknown）。追加にはintroducedを持たせる。告知の数値を実機のinitial/starsへ自動転記しない。
+- 新ミニオン・新バリアントは台帳に先行登録できる。性能・画像のないミニオン詳細ページを無理に生成せず、一覧や既存ミニオンのバリアント欄に実装日と確認中を表示する。詳細を後日登録したら同じIDで結び、正本側のintroducedと台帳の日付の一致を検証する。新バリアントの追加告知がある場合、以前のvariants.absentを現在の「なし」と表示しない。
+- `data/captains/<id>.yaml`：隊長本体。隊長バッジと別。name/introduced/effectをfactで保存。今回は海賊隊長の実装日と実機効果をunknownで先行登録。
+- `data/history/<id>.yaml`：旧登録内容の保存。updateId/changeIdで変更台帳と結ぶ。kind=minionはminionId/formIdとsnapshot（変更前のミニオン正本全体）、kind=rumble-poolはsnapshot（ランブルチェス正本全体）。保存日capturedは適用日ではない。periodに確認できる適用期間またはunknownと理由を記録。根拠・条件・未確認をそのまま保存する。既存履歴を上書きせず、変更ごとに別IDを追加する。
+- `base.pendingUpdate` / `variants.items[].pendingUpdate`：変更後の詳細が未確認の場合に設定。主表は確認中とし、保存済み旧性能は折りたたみで表示。最新の実機性能を登録・照合した後に解除する。旧数値は移行待ちの登録内容として残るが、最新性能として表示しない。
+- 初回の旧性能保存は画像の再監査ではない。確認記録のmethod=preservationで保存元ファイル・非公開バックアップ・SHA256・元内容を記録し、通常の監査合格数とは別に集計する。buildは非公開バックアップ不要。登録check/acceptは保存元ハッシュと内容の一致を要求する。
+
+公開表示は `/updates/` と `/updates/<id>/`。個別ページの旧性能と相互リンクする。履歴は新しいアップデート順、同日の複数アップデートは別IDで保存可能。ランブルチェスの変更詳細がunknownの間は旧登場状態・絆・星4表示を折りたたみ、最新扱いにしない。サイトの誤記訂正はゲーム内の能力変更として登録しない。
+
+隊長の旧性能もhistoryのkind=captain、captainId、snapshot（隊長正本）で保存できる。海賊隊長は旧実機データ自体が未収録のため、今回は告知にある発動タイミングの変更前後だけを保存し、過去の能力全文を作らない。
+評価はevaluation.pendingUpdateで性能のpendingUpdateと分離する。実機性能の更新だけでは調整後の攻略評価を確認済みにしない。評価・使い方を確認したときに独立して解除する。

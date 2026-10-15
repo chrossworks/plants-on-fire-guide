@@ -27,6 +27,7 @@ const other = ranked.filter(m => !ranks.includes(m.evaluation.rank));
     </ul>
   </div>)}
   {other.length > 0 && <p>表の対象外の評価：{other.map(m => <a href={minionUrl(m.id)}>{m.name}（{m.evaluation.rank}） </a>)}</p>}
+  <p class="condition">能力調整後の評価を確認中：{minions.filter(m=>Boolean(m.evaluation.pendingUpdate)).map(m=><a href={minionUrl(m.id)}>{m.name} </a>)}。該当するミニオンの評価は調整前のものです。</p>
   <p class="muted">アイコン内のLvは撮影時の表示です。</p>
 </section>
 <style>

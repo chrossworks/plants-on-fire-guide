@@ -2,6 +2,10 @@ schemaVersion: 1
 id: samurai-take
 name: サムライタケ
 reading: さむらいたけ
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -16,7 +20,7 @@ cost:
     - samurai-take-base-star1
     - samurai-take-base-star2
     - samurai-take-base-star3
-updated: 2026-09-25
+updated: 2026-10-15
 icon: samurai-take-icon
 portrait: samurai-take-portrait
 evaluation:

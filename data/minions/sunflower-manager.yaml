@@ -2,6 +2,10 @@ schemaVersion: 1
 id: sunflower-manager
 name: ヒマワリ店長
 reading: ひまわりてんちょう
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: rare
@@ -12,7 +16,7 @@ cost:
   value: 5
   sources:
     - sunflower-manager-base-star1
-updated: 2026-09-25
+updated: 2026-10-15
 icon: sunflower-manager-icon
 portrait: sunflower-manager-portrait
 evaluation:

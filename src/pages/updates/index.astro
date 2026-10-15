@@ -1,0 +1,7 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { updates, url } from '../../lib/site';
+---
+<Layout title="アップデート履歴"><p class="eyebrow">UPDATES</p><h1>アップデート履歴</h1><p class="lede">新規追加と能力調整を、アップデートごとにまとめています。</p>
+{updates.map(u=><article class="pending-addition"><p class="muted">{u.date.value || '日付未確認'}</p><h2><a href={url('updates/'+u.id+'/')}>{u.title.value || 'アップデート'}</a></h2><p>{u.note}</p></article>)}
+</Layout>

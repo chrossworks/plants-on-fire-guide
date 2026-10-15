@@ -2,6 +2,10 @@ schemaVersion: 1
 id: walnut-professor
 name: クルミ博士
 reading: くるみはかせ
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -16,7 +20,7 @@ cost:
     - walnut-professor-base-star1
     - walnut-professor-base-star2
     - walnut-professor-base-star3
-updated: 2026-09-25
+updated: 2026-10-15
 icon: walnut-professor-icon
 portrait: walnut-professor-portrait
 evaluation:

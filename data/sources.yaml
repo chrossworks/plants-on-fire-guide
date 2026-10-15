@@ -4746,3 +4746,42 @@ variant-absence-user-20261014:
   kind: user
   variantControl: absent
   description: 2026-10-14ユーザー確認：バンブーアーチャーとラフレシアにはバリアントがないことをゲーム内で確認済み。ユーザー確認を根拠として「なし」と登録するよう指示。
+
+update-history-user-2026-10-15:
+  kind: user
+  description: 2026-10-15ユーザー指定：既存ミニオンは2026年8月27日リリース実装として登録。2026年9月29日にアップデートがあり、新ミニオン2体・新バリアント4体・性能調整・カードプール調整があった。調整後の実機画像は別途提供予定。
+update-20260929-005207:
+  kind: screenshot
+  description: 9月29日「海の反逆者」アップデートのゲーム内お知らせ（告知内容。実機性能の確認とは区別）
+  mode: unknown
+  screen: update-notice
+update-20260929-005214:
+  kind: screenshot
+  description: 9月29日「海の反逆者」アップデートのゲーム内お知らせ（告知内容。実機性能の確認とは区別）
+  mode: unknown
+  screen: update-notice
+update-20260929-005223:
+  kind: screenshot
+  description: 9月29日「海の反逆者」アップデートのゲーム内お知らせ（告知内容。実機性能の確認とは区別）
+  mode: unknown
+  screen: update-notice
+update-20260929-005233:
+  kind: screenshot
+  description: 9月29日「海の反逆者」アップデートのゲーム内お知らせ（告知内容。実機性能の確認とは区別）
+  mode: unknown
+  screen: update-notice
+update-20260929-005246:
+  kind: screenshot
+  description: 9月29日「海の反逆者」アップデートのゲーム内お知らせ（告知内容。実機性能の確認とは区別）
+  mode: unknown
+  screen: update-notice
+update-20260929-005258:
+  kind: screenshot
+  description: 9月29日「海の反逆者」アップデートのゲーム内お知らせ（告知内容。実機性能の確認とは区別）
+  mode: unknown
+  screen: update-notice
+update-20260929-005310:
+  kind: screenshot
+  description: 9月29日「海の反逆者」アップデートのゲーム内お知らせ（告知内容。実機性能の確認とは区別）
+  mode: unknown
+  screen: update-notice

@@ -2,6 +2,10 @@ schemaVersion: 1
 id: suzuran-mage
 name: スズラン魔導士
 reading: すずらんまどうし
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: epic
@@ -12,7 +16,7 @@ cost:
   value: 8
   sources:
     - suzuran-mage-base-star1
-updated: 2026-09-25
+updated: 2026-10-15
 icon: suzuran-mage-icon
 portrait: suzuran-mage-portrait
 evaluation:
@@ -244,6 +248,9 @@ variants:
   note: 画像で確認したバリアントⅠを掲載しています。
   items:
     - id: variant-1
+      introduced:
+        status: unknown
+        reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: スズラン魔導士Ⅰ
       image: suzuran-mage-v1
       cardRank:

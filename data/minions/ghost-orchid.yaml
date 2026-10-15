@@ -2,6 +2,10 @@ schemaVersion: 1
 id: ghost-orchid
 name: ゴーストオーキッド
 reading: ごーすとおーきっど
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -16,7 +20,7 @@ cost:
     - ghost-orchid-base-star1
     - ghost-orchid-base-star2
     - ghost-orchid-base-star3
-updated: 2026-09-25
+updated: 2026-10-15
 icon: ghost-orchid-icon
 portrait: ghost-orchid-portrait
 evaluation:

@@ -2,6 +2,10 @@ schemaVersion: 1
 id: rafflesia
 name: ラフレシア
 reading: らふれしあ
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -18,7 +22,7 @@ cost:
     - rc-rafflesia-star2
     - rc-rafflesia-star3
     - rc-rafflesia-star4
-updated: 2026-10-06
+updated: 2026-10-15
 icon: rafflesia-icon
 portrait: rafflesia-portrait
 evaluation:

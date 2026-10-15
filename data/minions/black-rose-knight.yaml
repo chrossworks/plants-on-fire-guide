@@ -2,6 +2,10 @@ schemaVersion: 1
 id: black-rose-knight
 name: ブラックローズナイト
 reading: ぶらっくろーずないと
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -12,7 +16,7 @@ cost:
   value: 8
   sources:
     - black-rose-knight-base-star1
-updated: 2026-09-25
+updated: 2026-10-15
 icon: black-rose-knight-icon
 portrait: black-rose-knight-portrait
 evaluation:

@@ -2,6 +2,10 @@ schemaVersion: 1
 id: bamboo-archer
 name: バンブーアーチャー
 reading: ばんぶーあーちゃー
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: rare
@@ -18,7 +22,7 @@ cost:
     - rc-bamboo-archer-star2
     - rc-bamboo-archer-star3
     - rc-bamboo-archer-star4
-updated: 2026-10-06
+updated: 2026-10-15
 icon: bamboo-archer-icon
 portrait: bamboo-archer-portrait
 evaluation:

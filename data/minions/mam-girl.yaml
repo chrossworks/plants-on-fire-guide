@@ -2,6 +2,10 @@ schemaVersion: 1
 id: mam-girl
 name: マムガール
 reading: まむがーる
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: rare
@@ -12,7 +16,7 @@ cost:
   value: 3
   sources:
     - mam-base
-updated: 2026-09-25
+updated: 2026-10-15
 icon: mam-icon
 portrait: mam-portrait
 evaluation:
@@ -264,6 +268,9 @@ variants:
   note: Ⅰを確認済み。他のバリアントの有無は未確認。
   items:
     - id: variant-1
+      introduced:
+        status: unknown
+        reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: マムガールⅠ
       image: mam-variant
       cardRank:

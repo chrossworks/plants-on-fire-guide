@@ -1,0 +1,305 @@
+schemaVersion: 1
+id: 2026-09-29-sea-rebels
+date:
+  status: manual
+  value: 2026-09-29
+  sources:
+    - update-history-user-2026-10-15
+title:
+  status: observed
+  value: 「海の反逆者」シーズンがまもなく開幕！
+  sources:
+    - update-20260929-005207
+note: 告知内容と実機の最新性能を分けて掲載しています。性能表・調整後の評価は確認中です。イベントの開始日はアップデート日と異なる場合があります。
+changes:
+  - id: berry-jester
+    target:
+      kind: minion
+      id: berry-jester
+      minionId: berry-jester
+      name: ベリーピエロ
+    type: addition
+    announcement:
+      status: observed
+      value: 配置：自身のクローン体を3体召喚する。召喚時、フィールド上に空きマスがない場合、代わりにミニオン1体にベリーピエロの攻撃力を付与する。レベル上昇に応じて、召喚できるクローン体が最大6体まで増加し、攻撃力ボーナスが最大100%まで上昇する。
+      sources:
+        - update-20260929-005214
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - update-history-user-2026-10-15
+  - id: thorn-melon
+    target:
+      kind: minion
+      id: thorn-melon
+      minionId: thorn-melon
+      name: トゲメロン
+    type: addition
+    announcement:
+      status: observed
+      value: バトル中に味方隊長がダメージを受けると、すべての敵に150%/200%/250%のダメージを与え、自身の攻撃力-60%。レベル上昇に応じて、ダメージが最大300%/400%/500%まで上昇し、自身の攻撃力低下も-45%まで軽減される。
+      sources:
+        - update-20260929-005214
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - update-history-user-2026-10-15
+  - id: potato-seller-variant-1
+    target:
+      kind: variant
+      id: potato-seller-variant-1
+      minionId: potato-seller
+      formId: variant-1
+      name: ポテトセラーⅠ
+    type: addition
+    announcement:
+      status: observed
+      value: 1マッチにつき、最初のポテトセラー1体の購入価格-2、攻撃力+1。レベル上昇に応じて、割引対象が最大で最初の6体まで増加し、攻撃力ボーナスも+6まで上昇する。
+      sources:
+        - update-20260929-005223
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - update-history-user-2026-10-15
+  - id: melon-accountant-variant-1
+    target:
+      kind: variant
+      id: melon-accountant-variant-1
+      minionId: melon-accountant
+      formId: variant-1
+      name: メロンアカウンタントⅠ
+    type: addition
+    announcement:
+      status: observed
+      value: 本ラウンド中、ミニオンを1体購入するたびに、指定したミニオンの攻撃力+2。レベル上昇に応じて、1回ごとの攻撃力ボーナスが+4まで上昇する。
+      sources:
+        - update-20260929-005223
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - update-history-user-2026-10-15
+  - id: coffee-bean-chief-variant-1
+    target:
+      kind: variant
+      id: coffee-bean-chief-variant-1
+      minionId: coffee-bean-chief
+      formId: variant-1
+      name: コーヒービーンチーフⅠ
+    type: addition
+    announcement:
+      status: observed
+      value: 本ラウンド中、サンコインを2個消費するごとに、指定したミニオンの攻撃力+1。レベル上昇に応じて、1回ごとの攻撃力ボーナスが+5まで上昇する。
+      sources:
+        - update-20260929-005223
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - update-history-user-2026-10-15
+  - id: orchid-astrologer-variant-1
+    target:
+      kind: variant
+      id: orchid-astrologer-variant-1
+      minionId: orchid-astrologer
+      formId: variant-1
+      name: オーキッド占星術師Ⅰ
+    type: addition
+    announcement:
+      status: observed
+      value: 自身の攻撃力の20%/25%/30%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムなミニオン1体に付与する。レベル上昇に応じて、攻撃力ボーナスが最大38%/43%/48%まで上昇する。
+      sources:
+        - update-20260929-005223
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - update-history-user-2026-10-15
+  - id: pirate-captain
+    target:
+      kind: captain
+      id: pirate-captain
+      name: 海賊隊長
+    type: adjustment
+    announcement:
+      status: observed
+      value: スキルの発動タイミングを「準備完了」から「バトル開始」に変更。
+      sources:
+        - update-20260929-005246
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+  - id: mango-ninja
+    target:
+      kind: minion
+      id: mango-ninja
+      minionId: mango-ninja
+      name: マンゴーニンジャ
+    type: buff
+    announcement:
+      status: observed
+      value: |-
+        全体的な攻撃速度性能を引き上げました。
+        基本攻撃間隔を2秒から1.8秒に調整。
+        フィールド上にいる名前が異なるミニオン1体につき、攻撃速度ボーナスを以下のように調整：メインスキルLv.7：20%/22%/26%、Lv.8：24%/26%/30%、Lv.9～10：28%/30%/34%、Lv.11：34%/36%/40%、Lv.12：40%/42%/46%。
+        Lv.10以降、同名ミニオンがいない場合、攻撃時にランダムな敵1体に25%の追加ダメージを与える。
+      sources:
+        - update-20260929-005258
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+  - id: violet-mage
+    target:
+      kind: minion
+      id: violet-mage
+      minionId: violet-mage
+      name: バイオレット魔法使い
+    type: buff
+    announcement:
+      status: observed
+      value: |-
+        基本マジックミサイルの発射数を増加させ、星ランクに応じて発射数をさらに増やせるように調整しました。
+        魔法発動間隔は4秒のまま。メインスキルLv.9：マジックミサイルを1/3/5発発射し、ダメージはそれぞれ50%/60%/70%、55%/66%/77%、60%/72%/84%。
+        Lv.10～12：マジックミサイルを2/5/10発発射し、ダメージはそれぞれ60%/72%/84%、67%/80%/93%、75%/90%/105%。
+        フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを1発発射する。
+      sources:
+        - update-20260929-005258
+        - update-20260929-005310
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+  - id: pakupaku-flower-variant-1
+    target:
+      kind: variant
+      id: pakupaku-flower-variant-1
+      minionId: pakupaku-flower
+      formId: variant-1
+      name: パクパクフラワーⅠ
+    type: nerf
+    announcement:
+      status: observed
+      value: |-
+        ミニオンを捕食することで得られる一時攻撃力ボーナスを下方修正しました。
+        各レベルの捕食ボーナスを全体的に下方修正：デフォルト/Lv.8/Lv.9/Lv.10/Lv.11/Lv.12の数値を、30%/35%/40%/50%/57%/65%から25%/28%/31%/34%/37%/40%に調整。
+      sources:
+        - update-20260929-005310
+    details:
+      status: unknown
+      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+  - id: new-blessings
+    target:
+      kind: other
+      id: new-blessings
+      name: 新祝福
+    type: addition
+    announcement:
+      status: observed
+      value: |-
+        不思議な魔法：フィールド上のベリーピエロを、デッキ内のコスト3またはコスト5のミニオンにランダムで変身させる。
+        ぷんぷん：フィールド上のトゲメロンの攻撃力+25%。
+        均等昇格：ラウンドが終了するたびに、最も星ランクが低いミニオンの★+1。
+        ゲッカビジン召喚：毎ラウンド開始時、フィールド上にゲッカビジンが1体出現する。
+      sources:
+        - update-20260929-005233
+    details:
+      status: unknown
+      reason: 告知以外の実施結果・詳細は未確認。
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - update-history-user-2026-10-15
+  - id: ace-plan
+    target:
+      kind: other
+      id: ace-plan
+      name: エースプラン
+    type: event
+    announcement:
+      status: observed
+      value: 10月8日スタート。イベント期間中、クエスト達成でポイントを貯め、到達ポイントに応じた段階報酬を受け取れる。アクティブクエストはランクマッチとランブルチェスのトロフィー数を増やすことで達成。育成クエストは隊長の獲得育成、新シーズンのミニオン獲得で達成。限定プロフィールやレジェンドミニオンカードなどの報酬。
+      sources:
+        - update-20260929-005233
+    details:
+      status: unknown
+      reason: 告知以外の実施結果・詳細は未確認。
+  - id: clan-point-match
+    target:
+      kind: other
+      id: clan-point-match
+      name: クランポイントマッチ
+    type: adjustment
+    announcement:
+      status: observed
+      value: |-
+        第4ステージ「果実の秘蔵庫」を追加。
+        「闇市の金庫」のステージ背景演出を更新。「闇市の金庫」では、ミニオンを購入するとフィールド上のミニオンの攻撃力が一時的に-5%。
+        「強者の神殿」のステージ背景演出を更新。「強者の神殿」では、毎ラウンド、各タイプで最も攻撃力が高いミニオンのみがフィールド上に残る。
+      sources:
+        - update-20260929-005246
+    details:
+      status: unknown
+      reason: 告知以外の実施結果・詳細は未確認。
+  - id: other-adjustments
+    target:
+      kind: other
+      id: other-adjustments
+      name: その他の調整
+    type: other
+    announcement:
+      status: observed
+      value: ランブルチェスとポイントマッチのゲームテンポおよび難易度曲線を改善。対戦の安定性やスキルテキストの統一など、細かなプレイ体験を改善。
+      sources:
+        - update-20260929-005310
+    details:
+      status: unknown
+      reason: 告知以外の実施結果・詳細は未確認。
+  - id: rumble-pool
+    target:
+      kind: rumble-pool
+      id: rumble-pool
+      name: ランブルチェスのカードプール
+    type: adjustment
+    announcement:
+      status: manual
+      value: ランブルチェスのカードプールを調整。
+      sources:
+        - update-history-user-2026-10-15
+    details:
+      status: unknown
+      reason: 今回のお知らせ7枚では具体的な入れ替えを確認できません。調整後のカードプール画像待ち。
+  - id: maintenance
+    target:
+      kind: other
+      id: maintenance
+      name: メンテナンス予定・補償
+    type: other
+    announcement:
+      status: observed
+      value: メンテナンスは9月29日11:30（UTC+9）より実施し、9月29日15:30（UTC+9）にサービス再開を予定。アップデート完了後、サービス停止の補償としてダイヤ×400を配布。
+      sources:
+        - update-20260929-005207
+    details:
+      status: unknown
+      reason: 告知の予定を記録。実際の終了時刻・補償の受け取りは未確認。

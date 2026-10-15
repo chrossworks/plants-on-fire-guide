@@ -2,6 +2,10 @@ schemaVersion: 1
 id: pakupaku-flower
 name: パクパクフラワー
 reading: ぱくぱくふらわー
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -16,10 +20,11 @@ cost:
     - pakupaku-flower-base-star1
     - pakupaku-flower-base-star2
     - pakupaku-flower-base-star3
-updated: 2026-09-25
+updated: 2026-10-15
 icon: pakupaku-flower-icon
 portrait: pakupaku-flower-portrait
 evaluation:
+  pendingUpdate: 2026-09-29-sea-rebels
   rank: B
   scope: 基本形の総合評価
   source: pakupaku-flower-memo
@@ -223,6 +228,10 @@ variants:
   note: 画像で確認したバリアントⅠを掲載しています。
   items:
     - id: variant-1
+      introduced:
+        status: unknown
+        reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
+      pendingUpdate: 2026-09-29-sea-rebels
       name: パクパクフラワーⅠ
       image: pakupaku-flower-v1
       cardRank:

@@ -2,6 +2,10 @@ schemaVersion: 1
 id: potato-seller
 name: ポテトセラー
 reading: ぽてとせらー
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: rare
@@ -16,7 +20,7 @@ cost:
     - potato-seller-base-star1
     - potato-seller-base-star2
     - potato-seller-base-star3
-updated: 2026-09-26
+updated: 2026-10-15
 icon: potato-seller-icon
 portrait: potato-seller-portrait
 evaluation:

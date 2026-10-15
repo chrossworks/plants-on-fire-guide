@@ -1,11 +1,13 @@
 ---
 import Fact from './Fact.astro';
-import { imageUrl } from '../lib/site';
-const { entry, rules } = Astro.props;
+import { imageUrl, url } from '../lib/site';
+const { entry, rules, pendingUpdate } = Astro.props;
 const star4 = entry.star4?.value;
 ---
 <section id="rumble-chess" class="form-section">
   <h2>ランブルチェス</h2>
+  {pendingUpdate && <p class="condition">{pendingUpdate.date.value}のカードプール変更後の登場状態・絆は確認中です。<a href={url('updates/'+pendingUpdate.id+'/#rumble-pool')}>アップデート情報</a></p>}
+  <details open={!pendingUpdate}><summary>{pendingUpdate ? '以前の登録内容を見る（適用期間未確認）' : '登場状態・絆・星4能力'}</summary>
   {entry.availability.value === false ? <p>ランブルチェスには登場しません。星4能力・絆は対象外です。</p>
     : entry.availability.value !== true ? <p>ランブルチェスへの登場は未確認です。</p>
     : <>
@@ -14,6 +16,7 @@ const star4 = entry.star4?.value;
       {star4 ? <><p><Fact fact={{...entry.star4, value:star4.ability}}/></p><p class="condition">{star4.conditions}</p></> : <p>星4の能力は未確認です。</p>}
       <p class="muted">攻撃力・星1〜3の能力は同じレベルの基本性能と共通です。{rules.minimumGuaranteedLevel.value && <>ランブルチェスでは最低Lv.{rules.minimumGuaranteedLevel.value}が保証されます。</>}</p>
     </>}
+</details>
 </section>
 <style>
   .bond-label { display: flex; align-items: center; gap: .4rem; }

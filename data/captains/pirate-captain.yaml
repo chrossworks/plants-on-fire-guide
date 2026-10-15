@@ -1,0 +1,14 @@
+schemaVersion: 1
+id: pirate-captain
+name:
+  status: observed
+  value: 海賊隊長
+  sources:
+    - update-20260929-005246
+introduced:
+  status: unknown
+  reason: 隊長の実装日を確認できる資料がありません。
+effect:
+  status: unknown
+  reason: 調整後の実機詳細を未確認。発動タイミングの告知はアップデート台帳を参照。
+pendingUpdate: 2026-09-29-sea-rebels

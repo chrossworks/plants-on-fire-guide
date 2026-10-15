@@ -2,6 +2,10 @@ schemaVersion: 1
 id: muscle-watermelon
 name: マッスルスイカ
 reading: まっするすいか
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: epic
@@ -12,7 +16,7 @@ cost:
   value: 8
   sources:
     - muscle-watermelon-base-star1
-updated: 2026-09-25
+updated: 2026-10-15
 icon: muscle-watermelon-icon
 portrait: muscle-watermelon-portrait
 evaluation:
@@ -239,6 +243,9 @@ variants:
   note: 画像で確認した1種類のバリアントを掲載しています。
   items:
     - id: variant-1
+      introduced:
+        status: unknown
+        reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: マッスルスイカⅠ
       image: muscle-watermelon-v1
       cardRank:

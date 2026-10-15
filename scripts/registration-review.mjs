@@ -37,11 +37,22 @@ if (mode === 'init') {
   const issues = reviewIssues(before, current, records, targets, sources);
   const changed = Object.keys({ ...before, ...current }).filter(key => !isDeepStrictEqual(before[key], current[key]));
   const html = ['<!doctype html><meta charset="utf-8"><title>読取照合票</title><style>body{font-family:sans-serif;max-width:1100px;margin:2em auto}img{max-width:100%}pre{white-space:pre-wrap}section{border-top:1px solid;padding:1em}</style><h1>読取照合票</h1><p>未記録・不一致・保留を優先確認。合格は画像の正しさの自動保証ではありません。</p>'];
+  const sourceHashCache = new Map(), cropCache = new Map();
   const escape = v => String(v).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
   for (const [index, key] of keys.entries()) {
     const record = records[key] || {};
     if (record.method === 'user-confirmation') html.push(`<p>ユーザー再確認（画像再読ではありません）</p><pre>${escape(stringify(record.confirmation || {}))}</pre>`);
-    const readings = record.method === 'user-confirmation' ? {} : { first: record.first ?? '(未読)', second: record.second ?? '(未読)' };
+    if(record.method==='preservation')html.push('<p>旧登録内容の保存（画像の再監査ではありません）</p>');
+    if(record.method==='preservation'){
+      try {
+        const archive=fs.realpathSync(record.originalArchive);
+        const relative=path.relative(fs.realpathSync('work'),archive);
+        if(relative.startsWith('..')||path.isAbsolute(relative))throw Error('保存元はwork内に必要です');
+        const bytes=fs.readFileSync(archive);
+        if(createHash('sha256').update(bytes).digest('hex')!==record.sha256||!isDeepStrictEqual(parse(bytes.toString('utf8')),current[key]))throw Error('保存元のハッシュまたは内容が一致しません');
+      } catch(error){issues.push(key+': 旧登録保存エラー: '+error.message);}
+    }
+    const readings = ['user-confirmation','preservation'].includes(record.method) ? {} : { first: record.first ?? '(未読)', second: record.second ?? '(未読)' };
     html.push(`<section><h2>${escape(key)}</h2><pre>${escape(stringify({ registered: current[key] ?? '(削除)', ...readings, context: record.context ?? '', holdReason: record.holdReason ?? '' }))}</pre>`);
     for (const [n, evidence] of (record.evidence || []).entries()) {
       try {
@@ -52,19 +63,22 @@ if (mode === 'init') {
         const original = fs.realpathSync(path.resolve(base, entry.path));
         const relative = path.relative(base, original);
         if (relative.startsWith('..') || path.isAbsolute(relative)) throw new Error('原本フォルダ外');
-        const hash = createHash('sha256').update(fs.readFileSync(original)).digest('hex');
+        let hash=sourceHashCache.get(original);
+        if(!hash){hash=createHash('sha256').update(fs.readFileSync(original)).digest('hex');sourceHashCache.set(original,hash);}
         if (evidence.sha256 !== hash) throw new Error('原本のSHA256が未記録、または確認後に原本が変更されています');
         const region = evidence.region;
         if (!region || !['left', 'top', 'width', 'height'].every(k => Number.isInteger(region[k]) && region[k] >= (['width','height'].includes(k) ? 1 : 0))) throw new Error('原本座標の確認範囲が必要');
         const output = `crop-${index}-${n}.png`;
-        await sharp(original).extract(region).png().toFile(`${dir}/${output}`);
+        const cropKey=hash+JSON.stringify(region);
+        if(cropCache.has(cropKey))fs.copyFileSync(cropCache.get(cropKey),`${dir}/${output}`);
+        else {await sharp(original).extract(region).png().toFile(`${dir}/${output}`);cropCache.set(cropKey,`${dir}/${output}`);}
         html.push(`<p>${escape(evidence.source)} / ${escape(JSON.stringify(region))}</p><img src="${output}" alt="確認範囲">`);
       } catch (error) { issues.push(`${key}: 画像根拠エラー: ${error.message}`); }
     }
     html.push('</section>');
   }
-  const summary = reviewSummary(before, current, keys, issues);
-  const summaryText = `全 ${summary.total}項目 / 対象 ${summary.targeted} / 監査記録合格 ${summary.audited}（変更なし ${summary.unchangedAudited}・変更あり ${summary.changedAudited}） / 保留 ${summary.held} / 要対応 ${summary.pending} / 削除 ${summary.deleted} / 対象外 ${summary.untargeted}`;
+  const summary = reviewSummary(before, current, keys, issues, records);
+  const summaryText = `全 ${summary.total}項目 / 対象 ${summary.targeted} / 監査記録合格 ${summary.audited}（変更なし ${summary.unchangedAudited}・変更あり ${summary.changedAudited}） / 旧登録保存 ${summary.preserved} / 保留 ${summary.held} / 要対応 ${summary.pending} / 削除 ${summary.deleted} / 対象外 ${summary.untargeted}`;
   html.splice(1, 0, `<p>${escape(summaryText)}</p><pre>${escape(issues.join('\n') || '未記録・不一致なし')}</pre>`);
   fs.writeFileSync(`${dir}/review.html`, html.join('\n'));
   fs.writeFileSync(`${dir}/result.json`, JSON.stringify({ changed: changed.length, summary, targets: keys, issues }, null, 2));

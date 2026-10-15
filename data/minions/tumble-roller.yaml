@@ -2,6 +2,10 @@ schemaVersion: 1
 id: tumble-roller
 name: タンブルローラー
 reading: たんぶるろーらー
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -12,7 +16,7 @@ cost:
   value: 3
   sources:
     - tumble-roller-base-star2
-updated: 2026-09-19
+updated: 2026-10-15
 portrait: tumble-roller-portrait
 evaluation:
   rank: B

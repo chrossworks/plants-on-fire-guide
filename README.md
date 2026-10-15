@@ -109,3 +109,7 @@ Cloudflare Web Analyticsを `src/components/Analytics.astro` で管理し、共�
 - 未実装：全文検索、広告、CMS、DB、ログイン、自動OCR/API、常時監視、全レベル計算。
 
 画像内のカードアイコンには撮影時のLvが残ります。ステータスの基準はページ内の表示条件です。バリアント画面のLvの意味、外部補正、最低レベル能力など、未確認事項は確認票に記録しています。最終公開判断は未実施です。
+
+## アップデート履歴
+
+実装日はミニオン・バリアント等のYAMLのintroducedに保存します。告知はdata/updates、旧性能はdata/historyに保存し、アップデートIDで対応付けます。新規追加の性能待ち・調整後の確認待ちを表示でき、旧性能は折りたたみで閲覧できます。運用手順はdocs/workflow.md、形式はdocs/data-model.mdを参照してください。

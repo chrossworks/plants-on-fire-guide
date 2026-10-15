@@ -2,6 +2,10 @@ schemaVersion: 1
 id: zakuro-blaster
 name: ザクロブラスター
 reading: ざくろぶらすたー
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -16,7 +20,7 @@ cost:
     - zakuro-blaster-base-star1
     - zakuro-blaster-base-star2
     - zakuro-blaster-base-star3
-updated: 2026-09-25
+updated: 2026-10-15
 icon: zakuro-blaster-icon
 portrait: zakuro-blaster-portrait
 evaluation:

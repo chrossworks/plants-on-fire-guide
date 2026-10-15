@@ -86,7 +86,7 @@ test('未変更の対象も検証し、保留・未記録・対象外を監査�
   const keys = reviewKeys(current, current, records, targets);
   const issues = reviewIssues(current, current, records, targets);
   assert.deepEqual(reviewSummary(current, current, keys, issues), {
-    total: 4, targeted: 4, audited: 1, unchangedAudited: 1, changedAudited: 0,
+    preserved: 0, total: 4, targeted: 4, audited: 1, unchangedAudited: 1, changedAudited: 0,
     held: 1, pending: 2, deleted: 0, untargeted: 1,
   });
   assert.match(issues.join(), /項目が存在しません/);

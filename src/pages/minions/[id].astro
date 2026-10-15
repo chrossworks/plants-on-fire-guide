@@ -1,24 +1,30 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import FormHistory from '../../components/FormHistory.astro';
+import PendingAddition from '../../components/PendingAddition.astro';
+import { additionsFor, historyFor } from '../../../lib/updates.mjs';
 import Form from '../../components/Form.astro';
 import Fact from '../../components/Fact.astro';
 import Rumble from '../../components/Rumble.astro';
 import { rumbleForMinion, evaluationLabel } from '../../../lib/rumble.mjs';
-import { minions, assets, imageUrl, keywords, url, rumble } from '../../lib/site';
+import { minions, assets, imageUrl, keywords, url, rumble, updates, history } from '../../lib/site';
 import { minimumLevels, rarityLabels } from '../../../lib/schema.mjs';
 export async function getStaticPaths(){return minions.map(m=>({params:{id:m.id},props:{m}}));}
 const {m}=Astro.props;
 const article=(await getCollection('articles')).find(a=>a.data.minionId===m.id)!;
 const {Content}=await render(article);
 const forms=[m.base,...m.variants.items];
+const pendingVariants=additionsFor(updates,m.id).filter(c=>c.target.kind==='variant'&&!m.variants.items.some(f=>f.id===c.target.formId));
+const affected=Boolean(m.evaluation.pendingUpdate);
+const poolUpdate=updates.find(u=>u.changes.some(c=>c.target.kind==='rumble-pool'&&c.details.status==='unknown'));
 const rc=rumbleForMinion(rumble,m.id);
 const terms=[...new Set([...forms.flatMap(f=>f.stars.flatMap(s=>s.ability.value?.keywords||[])),...(rc.star4?.value?.ability.keywords||[])])];
 ---
 <Layout title={m.name} description={article.data.description}>
 <a class="back" href={url('minions/')}>← ミニオン一覧</a>
-<div class="detail-header"><img class="detail-portrait" src={imageUrl(m.portrait)} alt={assets[m.portrait].alt} width="560" height="593"/><div><p class="eyebrow">MINION GUIDE</p><span class="tag">{rarityLabels[m.rarity.value]} / コスト <Fact fact={m.cost}/></span><h1>{m.name}</h1><p>{article.data.description}</p><div class="evaluation"><span class="rating">{evaluationLabel(m.evaluation.rank)}</span><span>{m.evaluation.rank === '対象外' ? 'ランクマッチ評価：対象外（使用不可）' : m.evaluation.scope}</span></div><p class="muted">最低レベル：Lv.{minimumLevels[m.rarity.value]}<br/>最終更新：{m.updated}</p></div></div>
+<div class="detail-header"><img class="detail-portrait" src={imageUrl(m.portrait)} alt={assets[m.portrait].alt} width="560" height="593"/><div><p class="eyebrow">MINION GUIDE</p><span class="tag">{rarityLabels[m.rarity.value]} / コスト <Fact fact={m.cost}/></span><h1>{m.name}</h1><p>{article.data.description}</p><div class="evaluation"><span class="rating">{evaluationLabel(m.evaluation.rank)}</span><span>{m.evaluation.rank === '対象外' ? 'ランクマッチ評価：対象外（使用不可）' : m.evaluation.scope}</span></div>{affected && <p class="muted">上記評価は調整前。調整後は確認中です。</p>}<p class="muted">実装日：<Fact fact={m.introduced || {status:"unknown",reason:"実装日は未確認です。"}}/><br/>最低レベル：Lv.{minimumLevels[m.rarity.value]}<br/>最終更新：{m.updated}</p></div></div>
 {m.availability?.acquisition.value === 'unobtainable' && <p class="condition">現在、通常入手できません。</p>}
 {m.availability?.ranked.value === false && <p class="condition">ランクマッチでは使用できません。</p>}
-<div class="article-layout"><aside><nav aria-label="ページ内目次"><strong>このページの内容</strong><a href="#strategy">使い方・注意点</a><a href="#base">基本形の性能</a><a href="#variants">バリアント</a><a href="#rumble-chess">ランブルチェス</a>{terms.length > 0 && <a href="#keywords">キーワード</a>}</nav></aside><div class="article-main"><section id="strategy" class="prose"><Content/></section><Form form={m.base} minimumLevel={minimumLevels[m.rarity.value]}/><section id="variants"><h2>バリアント</h2>{m.variants.status !== 'observed' && <p>{m.variants.status === 'absent' ? 'なし' : '未確認'}</p>}{m.variants.items.map(f=><Form form={f} variant={true}/>)}</section><Rumble entry={rc} rules={rumble.rules}/>{terms.length > 0 && <section id="keywords"><h2>キーワード</h2><dl class="keywords">{terms.map(k=><><dt>{keywords[k].name}</dt><dd><Fact fact={keywords[k].definition}/></dd></>)}</dl></section>}</div></div>
+<div class="article-layout"><aside><nav aria-label="ページ内目次"><strong>このページの内容</strong><a href="#strategy">使い方・注意点</a><a href="#base">基本形の性能</a><a href="#variants">バリアント</a><a href="#rumble-chess">ランブルチェス</a>{terms.length > 0 && <a href="#keywords">キーワード</a>}</nav></aside><div class="article-main"><section id="strategy" class="prose">{affected && <p class="condition">能力調整後の評価・使い方は確認中です。以下は調整前の攻略情報を含みます。</p>}<Content/></section><Form form={m.base} minimumLevel={minimumLevels[m.rarity.value]}/><FormHistory entries={historyFor(history,m.id,"base")}/><section id="variants"><h2>バリアント</h2>{m.variants.status !== 'observed' && pendingVariants.length===0 && <p>{m.variants.status === 'absent' ? 'なし' : '未確認'}</p>}{m.variants.items.map(f=><><Form form={f} variant={true}/><FormHistory entries={historyFor(history,m.id,f.id)}/></>)}{pendingVariants.map(addition=><PendingAddition addition={addition}/>)}</section><Rumble entry={rc} rules={rumble.rules} pendingUpdate={poolUpdate}/>{terms.length > 0 && <section id="keywords"><h2>キーワード</h2><dl class="keywords">{terms.map(k=><><dt>{keywords[k].name}</dt><dd><Fact fact={keywords[k].definition}/></dd></>)}</dl></section>}</div></div>
 </Layout>

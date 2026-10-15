@@ -1,0 +1,10 @@
+---
+import Fact from './Fact.astro';
+import { url } from '../lib/site';
+const { addition }=Astro.props;
+---
+<section id={addition.target.formId || addition.target.minionId} class="pending-addition">
+ <h3>{addition.target.name}</h3>
+ <p class="muted">実装日：<Fact fact={addition.introduced}/></p>
+ <p>詳細な性能は確認中です。<a href={url('updates/'+addition.update.id+'/#'+addition.id)}>追加時の告知内容を見る</a></p>
+</section>

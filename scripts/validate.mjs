@@ -8,6 +8,8 @@ import { loadCaptainBadges } from '../lib/captain-badges.mjs';
 import { loadRumbleBadges } from '../lib/rumble-badges.mjs';
 import { loadFateGifts } from '../lib/fate-gifts.mjs';
 
+import { loadUpdates, loadHistory, loadCaptains, updateIssues } from '../lib/updates.mjs';
+
 export async function validate() {
   const minions = loadMinions(), articles = loadArticles(), assets = loadAssets(), sources = loadSources(), keywords = loadKeywords();
   const issues = [], unknowns = [];
@@ -19,6 +21,9 @@ export async function validate() {
     if (Array.isArray(v.keywords)) for (const k of v.keywords) if (!keywords[k]) fail(`${p}: 不明な用語 ${k}`);
     for (const [k,x] of Object.entries(v)) walk(x, `${p}.${k}`);
   }
+  const updates=loadUpdates(), history=loadHistory(), captains=loadCaptains();
+  for(const [kind,items] of Object.entries({updates,history,captains}))for(const item of items)walk(item,kind+'.'+item.id);
+  for(const issue of updateIssues(updates,history,minions,captains))fail(issue);
   const paths = new Set();
   const rumble = loadRumble();
   walk(rumble,'rumble-chess');
@@ -53,6 +58,11 @@ export async function validate() {
     if (meta.exif || meta.xmp) fail(`画像にメタデータが残っています: ${key}`);
   }
   const assetRef = (key,p) => { if (!assets[key]) fail(`${p}: 画像IDなし ${key}`); };
+  for(const h of history)if(h.kind==='minion'){
+    if(h.snapshot.icon)assetRef(h.snapshot.icon,h.id);
+    assetRef(h.snapshot.portrait,h.id);
+    for(const f of [h.snapshot.base,...h.snapshot.variants.items])if(f.image)assetRef(f.image,h.id);
+  }
   const captainBadges = loadCaptainBadges();
   const rumbleBadges = loadRumbleBadges();
   const fateGifts = loadFateGifts();
@@ -115,7 +125,7 @@ export async function validate() {
     if (!paths.has(rel) && rel !== 'favicon.svg') fail(`公開許可リスト外のファイル: ${rel}`);
   }
   if (issues.length) throw new Error(issues.join('\n'));
-  return { minions, articles, assets, unknowns, rumble, captainBadges, rumbleBadges, fateGifts };
+  return { minions, articles, assets, unknowns, rumble, captainBadges, rumbleBadges, fateGifts, updates, history, captains };
 }
 if (process.argv[1] === import.meta.filename) {
   try { const v = await validate(); console.log(`検証OK: ${v.minions.length}体 / ${v.articles.length}記事 / ${Object.keys(v.assets).length}画像。未確認 ${v.unknowns.length}項目（公開可能）。`); }

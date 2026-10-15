@@ -2,6 +2,10 @@ schemaVersion: 1
 id: broccolism
 name: ブロッコリズム
 reading: ぶろっこりずむ
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -16,7 +20,7 @@ cost:
     - broccolism-base-star1
     - broccolism-base-star2
     - broccolism-base-star3
-updated: 2026-09-24
+updated: 2026-10-15
 portrait: broccolism-portrait
 icon: broccolism-icon
 evaluation:
@@ -229,6 +233,9 @@ variants:
   note: 画像で確認したバリアントを掲載しています。
   items:
     - id: variant-1
+      introduced:
+        status: unknown
+        reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ブロッコリズムⅠ
       image: broccolism-v1
       cardRank:

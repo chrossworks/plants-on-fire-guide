@@ -1,3 +1,6 @@
+import { loadUpdates, loadHistory } from '../../lib/updates.mjs';
+export const updates = loadUpdates();
+export const history = loadHistory();
 import { loadAssets, loadMinions, loadKeywords, loadRumble } from '../../lib/content.mjs';
 export const assets = loadAssets();
 export const minions = loadMinions();

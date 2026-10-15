@@ -2,6 +2,10 @@ schemaVersion: 1
 id: lychee-baby
 name: ライチベイビー
 reading: らいちべいびー
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: legend
@@ -12,7 +16,7 @@ cost:
   value: 3
   sources:
     - lychee-baby-base-star1
-updated: 2026-09-15
+updated: 2026-10-15
 portrait: lychee-baby-portrait
 evaluation:
   rank: B
@@ -218,6 +222,9 @@ variants:
   note: 画像で確認したバリアントⅠを掲載しています。
   items:
     - id: variant-1
+      introduced:
+        status: unknown
+        reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ライチベイビーⅠ
       image: lychee-baby-v1
       cardRank:

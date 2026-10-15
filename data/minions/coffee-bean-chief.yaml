@@ -2,6 +2,10 @@ schemaVersion: 1
 id: coffee-bean-chief
 name: コーヒービーンチーフ
 reading: こーひーびーんちーふ
+introduced:
+  status: manual
+  value: 2026-08-27
+  sources: [update-history-user-2026-10-15]
 rarity:
   status: observed
   value: epic
@@ -16,7 +20,7 @@ cost:
     - coffee-bean-chief-base-star1
     - coffee-bean-chief-base-star2
     - coffee-bean-chief-base-star3
-updated: 2026-09-25
+updated: 2026-10-15
 icon: coffee-bean-chief-icon
 portrait: coffee-bean-chief-portrait
 evaluation:
