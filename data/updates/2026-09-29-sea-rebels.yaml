@@ -10,7 +10,7 @@ title:
   value: 「海の反逆者」シーズンがまもなく開幕！
   sources:
     - update-20260929-005207
-note: 告知内容と実機の最新性能を分けて掲載しています。性能表・調整後の評価は確認中です。イベントの開始日はアップデート日と異なる場合があります。
+note: 告知内容と実機の性能を分けて掲載しています。確認できた性能・育成効果は各詳細ページへ反映し、未確認の調整内容は引き続き確認中です。イベントの開始日はアップデート日と異なる場合があります。
 changes:
   - id: berry-jester
     target:
@@ -25,8 +25,14 @@ changes:
       sources:
         - update-20260929-005214
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常モードの初期Lv.7・星1〜3の性能、Lv.8〜12の育成効果、入手方法を掲載しました。ランブルチェスの登場・絆・星4能力は未確認です。
+      sources:
+        - berry-jester-star1
+        - berry-jester-star2
+        - berry-jester-star3
+        - berry-jester-up1
+        - berry-jester-up2
     introduced:
       status: manual
       value: 2026-09-29
@@ -45,8 +51,14 @@ changes:
       sources:
         - update-20260929-005214
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常モードの初期Lv.7・星1〜3の性能、Lv.8〜12の育成効果、入手方法を掲載しました。ランブルチェスの登場・絆・星4能力は未確認です。
+      sources:
+        - thorn-melon-star1
+        - thorn-melon-star2
+        - thorn-melon-star3
+        - thorn-melon-up1
+        - thorn-melon-up2
     introduced:
       status: manual
       value: 2026-09-29

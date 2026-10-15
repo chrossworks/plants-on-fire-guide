@@ -1022,3 +1022,16 @@ fate-gift-round-10-assimilation-copy-icon:
 fate-gift-round-10-swap-magic-icon:
   path: images/fate-gifts/round-10-swap-magic/icon.webp
   alt: スワップマジックの運命のギフトアイコン（ラウンド10・枠・画面の地色あり）
+
+berry-jester-portrait:
+  path: images/minions/berry-jester/portrait.webp
+  alt: ベリーピエロの基本形
+berry-jester-icon:
+  path: images/minions/berry-jester/icon.webp
+  alt: ベリーピエロのカードアイコン（撮影時のLv.8表示を含む）
+thorn-melon-portrait:
+  path: images/minions/thorn-melon/portrait.webp
+  alt: トゲメロンの基本形
+thorn-melon-icon:
+  path: images/minions/thorn-melon/icon.webp
+  alt: トゲメロンのカードアイコン（撮影時のLv.8表示を含む）

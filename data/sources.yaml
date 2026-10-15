@@ -4785,3 +4785,76 @@ update-20260929-005310:
   description: 9月29日「海の反逆者」アップデートのゲーム内お知らせ（告知内容。実機性能の確認とは区別）
   mode: unknown
   screen: update-notice
+
+berry-jester-star1:
+  kind: screenshot
+  description: ベリーピエロ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+berry-jester-star2:
+  kind: screenshot
+  description: ベリーピエロ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+berry-jester-star3:
+  kind: screenshot
+  description: ベリーピエロ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+berry-jester-up1:
+  kind: screenshot
+  description: ベリーピエロ・育成画面・現在Lv.7・Lv.8〜10
+  mode: standard
+berry-jester-up2:
+  kind: screenshot
+  description: ベリーピエロ・育成画面・現在Lv.7・Lv.10〜12
+  mode: standard
+berry-jester-icon:
+  kind: screenshot
+  description: ベリーピエロ・コレクションのカードアイコン（撮影時Lv.8）
+  mode: standard
+berry-jester-editorial-20261015:
+  kind: user
+  description: 2026-10-15提供のベリーピエロの攻略メモ。実装日2026-09-29、評価A、使い方・注意点。
+thorn-melon-star1:
+  kind: screenshot
+  description: トゲメロン・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+thorn-melon-star2:
+  kind: screenshot
+  description: トゲメロン・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+thorn-melon-star3:
+  kind: screenshot
+  description: トゲメロン・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+thorn-melon-up1:
+  kind: screenshot
+  description: トゲメロン・育成画面・現在Lv.7・Lv.8〜10
+  mode: standard
+thorn-melon-up2:
+  kind: screenshot
+  description: トゲメロン・育成画面・現在Lv.7・Lv.10〜12
+  mode: standard
+thorn-melon-icon:
+  kind: screenshot
+  description: トゲメロン・コレクションのカードアイコン（撮影時Lv.8）
+  mode: standard
+thorn-melon-editorial-20261015:
+  kind: user
+  description: 2026-10-15提供のトゲメロンの攻略メモ。実装日2026-09-29、評価B、使い方・注意点。

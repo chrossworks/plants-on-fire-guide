@@ -1,0 +1,229 @@
+schemaVersion: 1
+id: thorn-melon
+name: トゲメロン
+reading: とげめろん
+introduced:
+  status: manual
+  value: 2026-09-29
+  sources:
+    - thorn-melon-editorial-20261015
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - thorn-melon-star1
+    - thorn-melon-star2
+    - thorn-melon-star3
+cost:
+  status: observed
+  value: 3
+  sources:
+    - thorn-melon-star1
+    - thorn-melon-star2
+    - thorn-melon-star3
+updated: 2026-10-15
+icon: thorn-melon-icon
+portrait: thorn-melon-portrait
+evaluation:
+  rank: B
+  scope: ランクマッチでの総合評価
+  source: thorn-melon-editorial-20261015
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - thorn-melon-star1
+      - thorn-melon-star2
+      - thorn-melon-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - thorn-melon-up1
+      - thorn-melon-up2
+  conditions: 通常モード・基本形Lv.7の表示値（ON）。レジェンドの最低レベルと一致。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - thorn-melon-star1
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - thorn-melon-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - thorn-melon-star1
+      ability:
+        status: observed
+        value:
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に150%のダメージを与える。ただし、自身の攻撃力-60%
+          keywords: []
+        sources:
+          - thorn-melon-star1
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - thorn-melon-star2
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - thorn-melon-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - thorn-melon-star2
+      ability:
+        status: observed
+        value:
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に200%のダメージを与える。ただし、自身の攻撃力-60%
+          keywords: []
+        sources:
+          - thorn-melon-star2
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - thorn-melon-star3
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - thorn-melon-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - thorn-melon-star3
+      ability:
+        status: observed
+        value:
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に250%のダメージを与える。ただし、自身の攻撃力-60%
+          keywords: []
+        sources:
+          - thorn-melon-star3
+  initial:
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - thorn-melon-star1
+        - thorn-melon-star2
+        - thorn-melon-star3
+    abilities:
+      - status: observed
+        value:
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に150%のダメージを与える。ただし、自身の攻撃力-60%
+          keywords: []
+        sources:
+          - thorn-melon-star1
+      - status: observed
+        value:
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に200%のダメージを与える。ただし、自身の攻撃力-60%
+          keywords: []
+        sources:
+          - thorn-melon-star2
+      - status: observed
+        value:
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に250%のダメージを与える。ただし、自身の攻撃力-60%
+          keywords: []
+        sources:
+          - thorn-melon-star3
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 爆発ダメージが180%に上昇する
+          operation: ability_set
+          value: 180
+          unit: percent
+        sources:
+          - thorn-melon-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 爆発ダメージが210%に上昇
+          operation: ability_set
+          value: 210
+          unit: percent
+        sources:
+          - thorn-melon-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 爆発後に攻撃力-45%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - thorn-melon-up1
+          - thorn-melon-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 爆発ダメージが250%に上昇する
+          operation: ability_set
+          value: 250
+          unit: percent
+        sources:
+          - thorn-melon-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 爆発ダメージが300%に上昇
+          operation: ability_set
+          value: 300
+          unit: percent
+        sources:
+          - thorn-melon-up2
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - thorn-melon-up1
+      - thorn-melon-up2
+  acquisition:
+    status: observed
+    value: シーズン募集で一定確率で獲得
+    sources:
+      - thorn-melon-star1
+      - thorn-melon-star2
+      - thorn-melon-star3
+  poolUnlock:
+    status: absent
+    reason: 通常詳細の入手方法欄全体にカードプール解放条件の記載がありません。
+    sources:
+      - thorn-melon-star1
+      - thorn-melon-star2
+      - thorn-melon-star3
+variants:
+  status: absent
+  note: 通常詳細画面のバリアント表示領域全体を確認。バリアントの表示はありません。
+  sources:
+    - thorn-melon-star1
+    - thorn-melon-star2
+    - thorn-melon-star3
+  items: []

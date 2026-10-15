@@ -3,11 +3,13 @@ import Fact from './Fact.astro';
 import { imageUrl, url } from '../lib/site';
 const { entry, rules, pendingUpdate } = Astro.props;
 const star4 = entry.star4?.value;
+const hasPreviousData = entry.availability.status !== 'unknown' || Boolean(entry.deck || star4);
+const showPrevious = Boolean(pendingUpdate && hasPreviousData);
 ---
 <section id="rumble-chess" class="form-section">
   <h2>ランブルチェス</h2>
   {pendingUpdate && <p class="condition">{pendingUpdate.date.value}のカードプール変更後の登場状態・絆は確認中です。<a href={url('updates/'+pendingUpdate.id+'/#rumble-pool')}>アップデート情報</a></p>}
-  <details open={!pendingUpdate}><summary>{pendingUpdate ? '以前の登録内容を見る（適用期間未確認）' : '登場状態・絆・星4能力'}</summary>
+  <details open={!showPrevious}><summary>{showPrevious ? '以前の登録内容を見る（適用期間未確認）' : '登場状態・絆・星4能力'}</summary>
   {entry.availability.value === false ? <p>ランブルチェスには登場しません。星4能力・絆は対象外です。</p>
     : entry.availability.value !== true ? <p>ランブルチェスへの登場は未確認です。</p>
     : <>
