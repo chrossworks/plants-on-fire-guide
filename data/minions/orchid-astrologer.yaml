@@ -202,7 +202,212 @@ base:
     value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
     sources: [orchid-initial-star1, orchid-initial-star2, orchid-initial-star3, orchid-acquisition-user]
 variants:
-  status: absent
-  note: 通常のミニオン詳細画面でバリアント表示がないことを確認済みです。
-  sources: [orchid-base, variant-absence-rule]
-  items: []
+  status: observed
+  note: 2026-09-29追加のⅠを収録。通常詳細の星1〜3と育成一覧を確認。
+  sources:
+    - orchid-astrologer-variant-1-star1
+    - orchid-astrologer-variant-1-star2
+    - orchid-astrologer-variant-1-star3
+  items:
+    - id: variant-1
+      name: オーキッド占星術師Ⅰ
+      image: orchid-astrologer-variant-1
+      introduced:
+        status: manual
+        value: 2026-09-29
+        sources:
+          - update-history-user-2026-10-15
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - orchid-astrologer-variant-1-star1
+          - orchid-astrologer-variant-1-star2
+          - orchid-astrologer-variant-1-star3
+      displayLevel:
+        status: observed
+        value: 7
+        sources:
+          - orchid-astrologer-variant-1-star1
+          - orchid-astrologer-variant-1-star2
+          - orchid-astrologer-variant-1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 7
+        sources:
+          - orchid-astrologer-variant-1-up1
+          - orchid-astrologer-variant-1-up2
+      conditions: 通常バリアント詳細Lv.7の表示値（ON）。育成画面の現在Lv.7と別々に確認し、レアリティの最低レベルと一致。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - orchid-astrologer-variant-1-star1
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - orchid-astrologer-variant-1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - orchid-astrologer-variant-1-star1
+          ability:
+            status: observed
+            value:
+              text: 準備完了：自身の攻撃力の20%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムな1体のミニオンに付与する
+              keywords:
+                - ready
+            sources:
+              - orchid-astrologer-variant-1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - orchid-astrologer-variant-1-star2
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - orchid-astrologer-variant-1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - orchid-astrologer-variant-1-star2
+          ability:
+            status: observed
+            value:
+              text: 準備完了：自身の攻撃力の25%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムな1体のミニオンに付与する
+              keywords:
+                - ready
+            sources:
+              - orchid-astrologer-variant-1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 10
+              sources:
+                - orchid-astrologer-variant-1-star3
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - orchid-astrologer-variant-1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - orchid-astrologer-variant-1-star3
+          ability:
+            status: observed
+            value:
+              text: 準備完了：自身の攻撃力の30%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムな1体のミニオンに付与する
+              keywords:
+                - ready
+            sources:
+              - orchid-astrologer-variant-1-star3
+      initial:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - orchid-astrologer-variant-1-star1
+            - orchid-astrologer-variant-1-star2
+            - orchid-astrologer-variant-1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 準備完了：自身の攻撃力の20%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムな1体のミニオンに付与する
+              keywords:
+                - ready
+            sources:
+              - orchid-astrologer-variant-1-star1
+          - status: observed
+            value:
+              text: 準備完了：自身の攻撃力の25%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムな1体のミニオンに付与する
+              keywords:
+                - ready
+            sources:
+              - orchid-astrologer-variant-1-star2
+          - status: observed
+            value:
+              text: 準備完了：自身の攻撃力の30%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムな1体のミニオンに付与する
+              keywords:
+                - ready
+            sources:
+              - orchid-astrologer-variant-1-star3
+      bonuses:
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが23%に上昇する
+              operation: ability_set
+              value: 23
+              unit: percent
+            sources:
+              - orchid-astrologer-variant-1-up1
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが26%に上昇する
+              operation: ability_set
+              value: 26
+              unit: percent
+            sources:
+              - orchid-astrologer-variant-1-up1
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが30%に上昇する
+              operation: ability_set
+              value: 30
+              unit: percent
+            sources:
+              - orchid-astrologer-variant-1-up1
+              - orchid-astrologer-variant-1-up2
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが34%に上昇する
+              operation: ability_set
+              value: 34
+              unit: percent
+            sources:
+              - orchid-astrologer-variant-1-up2
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 攻撃力ボーナスが38%に上昇する
+              operation: ability_set
+              value: 38
+              unit: percent
+            sources:
+              - orchid-astrologer-variant-1-up2
+      bonusCoverage:
+        status: observed
+        value:
+          from: 8
+          through: 12
+        sources:
+          - orchid-astrologer-variant-1-up1
+          - orchid-astrologer-variant-1-up2
+      acquisition:
+        status: observed
+        value: クランショップで獲得
+        sources:
+          - orchid-astrologer-variant-1-star1
+          - orchid-astrologer-variant-1-star2
+          - orchid-astrologer-variant-1-star3

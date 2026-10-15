@@ -78,8 +78,16 @@ changes:
       sources:
         - update-20260929-005223
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常バリアントの初期Lv.1・星1〜3の性能、Lv.2〜12の育成効果、入手方法を掲載しました。Lv.12の育成表示は「最初の6体の購入価格-2、攻撃力+3」です。告知の「攻撃力+6」と異なりますが、差異の理由は未確認です。
+      sources:
+        - potato-seller-variant-1-star1
+        - potato-seller-variant-1-star2
+        - potato-seller-variant-1-star3
+        - potato-seller-variant-1-up1
+        - potato-seller-variant-1-up2
+        - potato-seller-variant-1-up3
+        - potato-seller-variant-1-up4
     introduced:
       status: manual
       value: 2026-09-29
@@ -99,8 +107,15 @@ changes:
       sources:
         - update-20260929-005223
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常バリアントの初期Lv.4・星1〜3の性能、Lv.5〜12の育成効果、入手方法を掲載しました。育成表示の「2〜3」「3〜4」はそのまま掲載しています。範囲内の値が決まる条件は未確認です。能力文の「現在2」は撮影時の表示です。
+      sources:
+        - melon-accountant-variant-1-star1
+        - melon-accountant-variant-1-star2
+        - melon-accountant-variant-1-star3
+        - melon-accountant-variant-1-up1
+        - melon-accountant-variant-1-up2
+        - melon-accountant-variant-1-up3
     introduced:
       status: manual
       value: 2026-09-29
@@ -120,8 +135,15 @@ changes:
       sources:
         - update-20260929-005223
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常バリアントの初期Lv.4・星1〜3の性能、Lv.5〜12の育成効果、入手方法を掲載しました。Lv.7・10・11・12の育成表示は、いずれも「サンコインを2個消費するごとに、獲得する攻撃力ボーナスが2に上昇する」です。告知の最大+5と異なりますが、差異の理由と実際の挙動は未確認です。能力文の「現在0」は撮影時の表示です。
+      sources:
+        - coffee-bean-chief-variant-1-star1
+        - coffee-bean-chief-variant-1-star2
+        - coffee-bean-chief-variant-1-star3
+        - coffee-bean-chief-variant-1-up1
+        - coffee-bean-chief-variant-1-up2
+        - coffee-bean-chief-variant-1-up3
     introduced:
       status: manual
       value: 2026-09-29
@@ -141,8 +163,14 @@ changes:
       sources:
         - update-20260929-005223
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常バリアントの初期Lv.7・星1〜3の性能、Lv.8〜12の育成効果、入手方法を掲載しました。育成一覧ではLv.12の攻撃力ボーナス38%を確認しています。高Lvの星2・3の実機表示は未確認で、告知の43%・48%を性能表へ補完していません。
+      sources:
+        - orchid-astrologer-variant-1-star1
+        - orchid-astrologer-variant-1-star2
+        - orchid-astrologer-variant-1-star3
+        - orchid-astrologer-variant-1-up1
+        - orchid-astrologer-variant-1-up2
     introduced:
       status: manual
       value: 2026-09-29

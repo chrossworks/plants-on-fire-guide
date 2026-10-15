@@ -254,10 +254,244 @@ base:
       - melon-accountant-base-star2
       - melon-accountant-base-star3
 variants:
-  status: absent
-  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  status: observed
+  note: 2026-09-29追加のⅠを収録。通常詳細の星1〜3と育成一覧を確認。
   sources:
-    - melon-accountant-base-star1
-    - melon-accountant-base-star2
-    - melon-accountant-base-star3
-  items: []
+    - melon-accountant-variant-1-star1
+    - melon-accountant-variant-1-star2
+    - melon-accountant-variant-1-star3
+  items:
+    - id: variant-1
+      name: メロンアカウンタントⅠ
+      image: melon-accountant-variant-1
+      introduced:
+        status: manual
+        value: 2026-09-29
+        sources:
+          - update-history-user-2026-10-15
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - melon-accountant-variant-1-star1
+          - melon-accountant-variant-1-star2
+          - melon-accountant-variant-1-star3
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - melon-accountant-variant-1-star1
+          - melon-accountant-variant-1-star2
+          - melon-accountant-variant-1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - melon-accountant-variant-1-up1
+          - melon-accountant-variant-1-up2
+          - melon-accountant-variant-1-up3
+      conditions: 通常バリアント詳細Lv.4の表示値（ON）。育成画面の現在Lv.4と別々に確認し、レアリティの最低レベルと一致。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - melon-accountant-variant-1-star1
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - melon-accountant-variant-1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - melon-accountant-variant-1-star1
+          ability:
+            status: observed
+            value:
+              text: 配置：本ラウンド中、ミニオンを1体購入するたびに、指定したミニオンの攻撃力+2（現在2）
+              keywords:
+                - placement
+            sources:
+              - melon-accountant-variant-1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - melon-accountant-variant-1-star2
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - melon-accountant-variant-1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - melon-accountant-variant-1-star2
+          ability:
+            status: observed
+            value:
+              text: 配置：本ラウンド中、ミニオンを1体購入するたびに、指定したミニオンの攻撃力+2（現在2）
+              keywords:
+                - placement
+            sources:
+              - melon-accountant-variant-1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - melon-accountant-variant-1-star3
+            interval:
+              status: observed
+              value: 2
+              sources:
+                - melon-accountant-variant-1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - melon-accountant-variant-1-star3
+          ability:
+            status: observed
+            value:
+              text: 配置：本ラウンド中、ミニオンを1体購入するたびに、指定したミニオンの攻撃力+2（現在2）
+              keywords:
+                - placement
+            sources:
+              - melon-accountant-variant-1-star3
+      initial:
+        attack:
+          status: observed
+          value: 7
+          sources:
+            - melon-accountant-variant-1-star1
+            - melon-accountant-variant-1-star2
+            - melon-accountant-variant-1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 配置：本ラウンド中、ミニオンを1体購入するたびに、指定したミニオンの攻撃力+2（現在2）
+              keywords:
+                - placement
+            sources:
+              - melon-accountant-variant-1-star1
+          - status: observed
+            value:
+              text: 配置：本ラウンド中、ミニオンを1体購入するたびに、指定したミニオンの攻撃力+2（現在2）
+              keywords:
+                - placement
+            sources:
+              - melon-accountant-variant-1-star2
+          - status: observed
+            value:
+              text: 配置：本ラウンド中、ミニオンを1体購入するたびに、指定したミニオンの攻撃力+2（現在2）
+              keywords:
+                - placement
+            sources:
+              - melon-accountant-variant-1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - melon-accountant-variant-1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - melon-accountant-variant-1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: ミニオンを購入するたびに、獲得する攻撃力ボーナスが2〜3に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - melon-accountant-variant-1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - melon-accountant-variant-1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - melon-accountant-variant-1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: ミニオンを購入するたびに、獲得する攻撃力ボーナスが3に上昇する
+              operation: ability_set
+              value: 3
+              unit: points
+            sources:
+              - melon-accountant-variant-1-up2
+              - melon-accountant-variant-1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: ミニオンを購入するたびに、獲得する攻撃力ボーナスが3〜4に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - melon-accountant-variant-1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: ミニオンを購入するたびに、獲得する攻撃力ボーナスが4に上昇する
+              operation: ability_set
+              value: 4
+              unit: points
+            sources:
+              - melon-accountant-variant-1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - melon-accountant-variant-1-up1
+          - melon-accountant-variant-1-up2
+          - melon-accountant-variant-1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - melon-accountant-variant-1-star1
+          - melon-accountant-variant-1-star2
+          - melon-accountant-variant-1-star3

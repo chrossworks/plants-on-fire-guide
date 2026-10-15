@@ -1035,3 +1035,16 @@ thorn-melon-portrait:
 thorn-melon-icon:
   path: images/minions/thorn-melon/icon.webp
   alt: トゲメロンのカードアイコン（撮影時のLv.8表示を含む）
+
+potato-seller-variant-1:
+  path: images/minions/potato-seller/variant-1.webp
+  alt: ポテトセラーⅠのカードと立ち絵
+melon-accountant-variant-1:
+  path: images/minions/melon-accountant/variant-1.webp
+  alt: メロンアカウンタントⅠのカードと立ち絵
+coffee-bean-chief-variant-1:
+  path: images/minions/coffee-bean-chief/variant-1.webp
+  alt: コーヒービーンチーフⅠのカードと立ち絵
+orchid-astrologer-variant-1:
+  path: images/minions/orchid-astrologer/variant-1.webp
+  alt: オーキッド占星術師Ⅰのカードと立ち絵

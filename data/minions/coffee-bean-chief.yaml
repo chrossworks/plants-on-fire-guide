@@ -254,10 +254,244 @@ base:
       - coffee-bean-chief-base-star2
       - coffee-bean-chief-base-star3
 variants:
-  status: absent
-  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  status: observed
+  note: 2026-09-29追加のⅠを収録。通常詳細の星1〜3と育成一覧を確認。
   sources:
-    - coffee-bean-chief-base-star1
-    - coffee-bean-chief-base-star2
-    - coffee-bean-chief-base-star3
-  items: []
+    - coffee-bean-chief-variant-1-star1
+    - coffee-bean-chief-variant-1-star2
+    - coffee-bean-chief-variant-1-star3
+  items:
+    - id: variant-1
+      name: コーヒービーンチーフⅠ
+      image: coffee-bean-chief-variant-1
+      introduced:
+        status: manual
+        value: 2026-09-29
+        sources:
+          - update-history-user-2026-10-15
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - coffee-bean-chief-variant-1-star1
+          - coffee-bean-chief-variant-1-star2
+          - coffee-bean-chief-variant-1-star3
+      displayLevel:
+        status: observed
+        value: 4
+        sources:
+          - coffee-bean-chief-variant-1-star1
+          - coffee-bean-chief-variant-1-star2
+          - coffee-bean-chief-variant-1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - coffee-bean-chief-variant-1-up1
+          - coffee-bean-chief-variant-1-up2
+          - coffee-bean-chief-variant-1-up3
+      conditions: 通常バリアント詳細Lv.4の表示値（ON）。育成画面の現在Lv.4と別々に確認し、レアリティの最低レベルと一致。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 11
+              sources:
+                - coffee-bean-chief-variant-1-star1
+            interval:
+              status: observed
+              value: 1.6
+              sources:
+                - coffee-bean-chief-variant-1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - coffee-bean-chief-variant-1-star1
+          ability:
+            status: observed
+            value:
+              text: 配置：本ラウンド中、サンコインを2個消費するごとに、指定したミニオンの攻撃力+1（現在0）
+              keywords:
+                - placement
+            sources:
+              - coffee-bean-chief-variant-1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 11
+              sources:
+                - coffee-bean-chief-variant-1-star2
+            interval:
+              status: observed
+              value: 1.6
+              sources:
+                - coffee-bean-chief-variant-1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - coffee-bean-chief-variant-1-star2
+          ability:
+            status: observed
+            value:
+              text: 配置：本ラウンド中、サンコインを2個消費するごとに、指定したミニオンの攻撃力+1（現在0）
+              keywords:
+                - placement
+            sources:
+              - coffee-bean-chief-variant-1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 11
+              sources:
+                - coffee-bean-chief-variant-1-star3
+            interval:
+              status: observed
+              value: 1.6
+              sources:
+                - coffee-bean-chief-variant-1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - coffee-bean-chief-variant-1-star3
+          ability:
+            status: observed
+            value:
+              text: 配置：本ラウンド中、サンコインを2個消費するごとに、指定したミニオンの攻撃力+1（現在0）
+              keywords:
+                - placement
+            sources:
+              - coffee-bean-chief-variant-1-star3
+      initial:
+        attack:
+          status: observed
+          value: 11
+          sources:
+            - coffee-bean-chief-variant-1-star1
+            - coffee-bean-chief-variant-1-star2
+            - coffee-bean-chief-variant-1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 配置：本ラウンド中、サンコインを2個消費するごとに、指定したミニオンの攻撃力+1（現在0）
+              keywords:
+                - placement
+            sources:
+              - coffee-bean-chief-variant-1-star1
+          - status: observed
+            value:
+              text: 配置：本ラウンド中、サンコインを2個消費するごとに、指定したミニオンの攻撃力+1（現在0）
+              keywords:
+                - placement
+            sources:
+              - coffee-bean-chief-variant-1-star2
+          - status: observed
+            value:
+              text: 配置：本ラウンド中、サンコインを2個消費するごとに、指定したミニオンの攻撃力+1（現在0）
+              keywords:
+                - placement
+            sources:
+              - coffee-bean-chief-variant-1-star3
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - coffee-bean-chief-variant-1-up1
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - coffee-bean-chief-variant-1-up1
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: サンコインを2個消費するごとに、獲得する攻撃力ボーナスが2に上昇する
+              operation: ability_set
+              value: 2
+              unit: points
+            sources:
+              - coffee-bean-chief-variant-1-up1
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+3
+              operation: attack_add
+              value: 3
+              unit: points
+            sources:
+              - coffee-bean-chief-variant-1-up2
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+4
+              operation: attack_add
+              value: 4
+              unit: points
+            sources:
+              - coffee-bean-chief-variant-1-up2
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: サンコインを2個消費するごとに、獲得する攻撃力ボーナスが2に上昇する
+              operation: ability_set
+              value: 2
+              unit: points
+            sources:
+              - coffee-bean-chief-variant-1-up2
+              - coffee-bean-chief-variant-1-up3
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: サンコインを2個消費するごとに、獲得する攻撃力ボーナスが2に上昇する
+              operation: ability_set
+              value: 2
+              unit: points
+            sources:
+              - coffee-bean-chief-variant-1-up3
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: サンコインを2個消費するごとに、獲得する攻撃力ボーナスが2に上昇する
+              operation: ability_set
+              value: 2
+              unit: points
+            sources:
+              - coffee-bean-chief-variant-1-up3
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - coffee-bean-chief-variant-1-up1
+          - coffee-bean-chief-variant-1-up2
+          - coffee-bean-chief-variant-1-up3
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - coffee-bean-chief-variant-1-star1
+          - coffee-bean-chief-variant-1-star2
+          - coffee-bean-chief-variant-1-star3

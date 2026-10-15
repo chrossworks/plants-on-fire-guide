@@ -285,10 +285,270 @@ base:
       - potato-seller-base-star2
       - potato-seller-base-star3
 variants:
-  status: absent
-  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  status: observed
+  note: 2026-09-29追加のⅠを収録。通常詳細の星1〜3と育成一覧を確認。
   sources:
-    - potato-seller-base-star1
-    - potato-seller-base-star2
-    - potato-seller-base-star3
-  items: []
+    - potato-seller-variant-1-star1
+    - potato-seller-variant-1-star2
+    - potato-seller-variant-1-star3
+  items:
+    - id: variant-1
+      name: ポテトセラーⅠ
+      image: potato-seller-variant-1
+      introduced:
+        status: manual
+        value: 2026-09-29
+        sources:
+          - update-history-user-2026-10-15
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - potato-seller-variant-1-star1
+          - potato-seller-variant-1-star2
+          - potato-seller-variant-1-star3
+      displayLevel:
+        status: observed
+        value: 1
+        sources:
+          - potato-seller-variant-1-star1
+          - potato-seller-variant-1-star2
+          - potato-seller-variant-1-star3
+      upgradeScreenLevel:
+        status: observed
+        value: 1
+        sources:
+          - potato-seller-variant-1-up1
+          - potato-seller-variant-1-up2
+          - potato-seller-variant-1-up3
+          - potato-seller-variant-1-up4
+      conditions: 通常バリアント詳細Lv.1の表示値（ON）。育成画面の現在Lv.1と別々に確認し、レアリティの最低レベルと一致。外部補正の影響は未確認。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 1
+              sources:
+                - potato-seller-variant-1-star1
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - potato-seller-variant-1-star1
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - potato-seller-variant-1-star1
+          ability:
+            status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー1体の購入価格-2、攻撃力+1
+              keywords: []
+            sources:
+              - potato-seller-variant-1-star1
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 1
+              sources:
+                - potato-seller-variant-1-star2
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - potato-seller-variant-1-star2
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - potato-seller-variant-1-star2
+          ability:
+            status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー1体の購入価格-2、攻撃力+1
+              keywords: []
+            sources:
+              - potato-seller-variant-1-star2
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 1
+              sources:
+                - potato-seller-variant-1-star3
+            interval:
+              status: observed
+              value: 2.5
+              sources:
+                - potato-seller-variant-1-star3
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - potato-seller-variant-1-star3
+          ability:
+            status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー1体の購入価格-2、攻撃力+1
+              keywords: []
+            sources:
+              - potato-seller-variant-1-star3
+      initial:
+        attack:
+          status: observed
+          value: 1
+          sources:
+            - potato-seller-variant-1-star1
+            - potato-seller-variant-1-star2
+            - potato-seller-variant-1-star3
+        abilities:
+          - status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー1体の購入価格-2、攻撃力+1
+              keywords: []
+            sources:
+              - potato-seller-variant-1-star1
+          - status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー1体の購入価格-2、攻撃力+1
+              keywords: []
+            sources:
+              - potato-seller-variant-1-star2
+          - status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー1体の購入価格-2、攻撃力+1
+              keywords: []
+            sources:
+              - potato-seller-variant-1-star3
+      bonuses:
+        - level: 2
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - potato-seller-variant-1-up1
+        - level: 3
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - potato-seller-variant-1-up1
+        - level: 4
+          effect:
+            status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー2体の購入価格-2、攻撃力+1
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - potato-seller-variant-1-up1
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - potato-seller-variant-1-up2
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - potato-seller-variant-1-up2
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー3体の購入価格-2、攻撃力+1
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - potato-seller-variant-1-up2
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - potato-seller-variant-1-up3
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - potato-seller-variant-1-up3
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー4体の購入価格-2、攻撃力+3
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - potato-seller-variant-1-up3
+              - potato-seller-variant-1-up4
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー5体の購入価格-2、攻撃力+3
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - potato-seller-variant-1-up4
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 1マッチにつき、最初のポテトセラー6体の購入価格-2、攻撃力+3
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - potato-seller-variant-1-up4
+      bonusCoverage:
+        status: observed
+        value:
+          from: 2
+          through: 12
+        sources:
+          - potato-seller-variant-1-up1
+          - potato-seller-variant-1-up2
+          - potato-seller-variant-1-up3
+          - potato-seller-variant-1-up4
+      acquisition:
+        status: observed
+        value: 「バリアント募集」で一定確率で獲得
+        sources:
+          - potato-seller-variant-1-star1
+          - potato-seller-variant-1-star2
+          - potato-seller-variant-1-star3

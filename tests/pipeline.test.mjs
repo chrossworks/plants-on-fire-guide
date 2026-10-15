@@ -55,6 +55,8 @@ test('バリアント非表示は通常詳細の確認時だけ不存在の根�
   assert.equal(hasStandardAbsenceEvidence(variants,{proof:{...proof,variantControl:'unconfirmed'}}),false);
   assert.equal(hasStandardAbsenceEvidence(variants,{}),false);
   const m=structuredClone(loadMinions().find(m=>m.id==='orchid-astrologer'));
+  m.variants={...variants,note:'検証用のバリアント不存在'};
+  assert.doesNotThrow(()=>minionSchema.parse(m));
   delete m.variants.sources;
   assert.throws(()=>minionSchema.parse(m));
 });

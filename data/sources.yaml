@@ -4858,3 +4858,136 @@ thorn-melon-icon:
 thorn-melon-editorial-20261015:
   kind: user
   description: 2026-10-15提供のトゲメロンの攻略メモ。実装日2026-09-29、評価B、使い方・注意点。
+
+potato-seller-variant-1-star1:
+  kind: screenshot
+  description: ポテトセラーⅠ・通常詳細Lv.1・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+potato-seller-variant-1-star2:
+  kind: screenshot
+  description: ポテトセラーⅠ・通常詳細Lv.1・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+potato-seller-variant-1-star3:
+  kind: screenshot
+  description: ポテトセラーⅠ・通常詳細Lv.1・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+potato-seller-variant-1-up1:
+  kind: screenshot
+  description: ポテトセラーⅠ・育成画面・現在Lv.1・一覧1
+  mode: standard
+potato-seller-variant-1-up2:
+  kind: screenshot
+  description: ポテトセラーⅠ・育成画面・現在Lv.1・一覧2
+  mode: standard
+potato-seller-variant-1-up3:
+  kind: screenshot
+  description: ポテトセラーⅠ・育成画面・現在Lv.1・一覧3
+  mode: standard
+potato-seller-variant-1-up4:
+  kind: screenshot
+  description: ポテトセラーⅠ・育成画面・現在Lv.1・一覧4
+  mode: standard
+melon-accountant-variant-1-star1:
+  kind: screenshot
+  description: メロンアカウンタントⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+melon-accountant-variant-1-star2:
+  kind: screenshot
+  description: メロンアカウンタントⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+melon-accountant-variant-1-star3:
+  kind: screenshot
+  description: メロンアカウンタントⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+melon-accountant-variant-1-up1:
+  kind: screenshot
+  description: メロンアカウンタントⅠ・育成画面・現在Lv.4・一覧1
+  mode: standard
+melon-accountant-variant-1-up2:
+  kind: screenshot
+  description: メロンアカウンタントⅠ・育成画面・現在Lv.4・一覧2
+  mode: standard
+melon-accountant-variant-1-up3:
+  kind: screenshot
+  description: メロンアカウンタントⅠ・育成画面・現在Lv.4・一覧3
+  mode: standard
+coffee-bean-chief-variant-1-star1:
+  kind: screenshot
+  description: コーヒービーンチーフⅠ・通常詳細Lv.4・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+coffee-bean-chief-variant-1-star2:
+  kind: screenshot
+  description: コーヒービーンチーフⅠ・通常詳細Lv.4・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+coffee-bean-chief-variant-1-star3:
+  kind: screenshot
+  description: コーヒービーンチーフⅠ・通常詳細Lv.4・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+coffee-bean-chief-variant-1-up1:
+  kind: screenshot
+  description: コーヒービーンチーフⅠ・育成画面・現在Lv.4・一覧1
+  mode: standard
+coffee-bean-chief-variant-1-up2:
+  kind: screenshot
+  description: コーヒービーンチーフⅠ・育成画面・現在Lv.4・一覧2
+  mode: standard
+coffee-bean-chief-variant-1-up3:
+  kind: screenshot
+  description: コーヒービーンチーフⅠ・育成画面・現在Lv.4・一覧3
+  mode: standard
+orchid-astrologer-variant-1-star1:
+  kind: screenshot
+  description: オーキッド占星術師Ⅰ・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+orchid-astrologer-variant-1-star2:
+  kind: screenshot
+  description: オーキッド占星術師Ⅰ・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+orchid-astrologer-variant-1-star3:
+  kind: screenshot
+  description: オーキッド占星術師Ⅰ・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+orchid-astrologer-variant-1-up1:
+  kind: screenshot
+  description: オーキッド占星術師Ⅰ・育成画面・現在Lv.7・一覧1
+  mode: standard
+orchid-astrologer-variant-1-up2:
+  kind: screenshot
+  description: オーキッド占星術師Ⅰ・育成画面・現在Lv.7・一覧2
+  mode: standard
