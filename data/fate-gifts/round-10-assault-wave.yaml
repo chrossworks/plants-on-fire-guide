@@ -1,16 +1,16 @@
 schemaVersion: 1
 id: round-10-assault-wave
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 猛攻の波
   sources:
     - fate-gift-round-10-assault-wave-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
 effect:
   status: observed
   value: 本ラウンド中、すべてのミニオンが召喚するラッシュユニットの数が一時的に+1

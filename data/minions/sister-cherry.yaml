@@ -191,9 +191,9 @@ base:
         status: observed
         value:
           text: 星アップによる攻撃力ボーナスが2に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 2
+          unit: points
         sources:
           - sister-cherry-base-up2
     - level: 11
@@ -211,9 +211,9 @@ base:
         status: observed
         value:
           text: 星アップによる攻撃力ボーナスが3に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 3
+          unit: points
         sources:
           - sister-cherry-base-up3
   bonusCoverage:
@@ -435,7 +435,7 @@ variants:
           effect:
             status: observed
             value:
-              text: ★2ミニオンに付与する攻撃力ボーナスが3に上昇し、★3ミニオンに付与する攻撃力ボーナスが5に上昇する
+              text: ★2ミニオンに付与する攻撃力ボーナスが2～3に上昇し、★3ミニオンに付与する攻撃力ボーナスが5に上昇する
               operation: text
               value: null
               unit: none
@@ -620,9 +620,9 @@ variants:
             status: observed
             value:
               text: 星アップによる一時攻撃力ボーナスが4に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 4
+              unit: points
             sources:
               - sister-cherry-v2-up1
         - level: 8
@@ -650,9 +650,9 @@ variants:
             status: observed
             value:
               text: 星アップによる一時攻撃力ボーナスが6に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 6
+              unit: points
             sources:
               - sister-cherry-v2-up2
         - level: 11
@@ -660,9 +660,9 @@ variants:
             status: observed
             value:
               text: 星アップによる一時攻撃力ボーナスが7に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 7
+              unit: points
             sources:
               - sister-cherry-v2-up3
         - level: 12
@@ -670,9 +670,9 @@ variants:
             status: observed
             value:
               text: 星アップによる一時攻撃力ボーナスが8に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 8
+              unit: points
             sources:
               - sister-cherry-v2-up3
       bonusCoverage:

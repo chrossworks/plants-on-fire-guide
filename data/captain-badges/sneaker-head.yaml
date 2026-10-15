@@ -1,6 +1,6 @@
 schemaVersion: 1
 id: sneaker-head
-updated: 2026-09-28
+updated: 2026-10-10
 name:
   status: observed
   value: スニーカーヘッドバッジ
@@ -23,7 +23,7 @@ effect:
     - sneaker-head-badge-detail
 acquisition:
   status: observed
-  value: バッジ金貨との交換で獲得
+  value: バッジ銀貨との交換で獲得
   sources:
     - sneaker-head-badge-detail
 icons:

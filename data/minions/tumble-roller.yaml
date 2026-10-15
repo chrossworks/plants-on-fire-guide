@@ -172,9 +172,9 @@ base:
         status: observed
         value:
           text: 自身が召喚するラッシュユニットが獲得するシールドが4に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 4
+          unit: points
         sources:
           - tumble-roller-base-up2
     - level: 11

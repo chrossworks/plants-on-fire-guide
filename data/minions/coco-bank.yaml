@@ -157,9 +157,9 @@ base:
         status: observed
         value:
           text: 攻撃力ボーナスが2に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 2
+          unit: points
         sources:
           - coco-bank-base-up1
     - level: 10
@@ -177,9 +177,9 @@ base:
         status: observed
         value:
           text: 攻撃力ボーナスが3に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 3
+          unit: points
         sources:
           - coco-bank-base-up2
     - level: 12
@@ -187,9 +187,9 @@ base:
         status: observed
         value:
           text: 攻撃力ボーナスが4に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 4
+          unit: points
         sources:
           - coco-bank-base-up2
   bonusCoverage:

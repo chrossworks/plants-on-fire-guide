@@ -1,16 +1,16 @@
 schemaVersion: 1
 id: round-7-offensive-advantage
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 攻めの優位
   sources:
     - fate-gift-round-7-offensive-advantage-detail
 round:
-  status: manual
+  status: observed
   value: 7
   sources:
-    - fate-gifts-round-7-user-20260928
+    - fate-gifts-round-7-list-20261012
 effect:
   status: observed
   value: マッチ中、すべてのミニオンのラッシュユニットのシールド+1、移動速度+20%

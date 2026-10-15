@@ -1,16 +1,16 @@
 schemaVersion: 1
 id: round-4-resource-recovery
-updated: 2026-09-28
+updated: 2026-10-12
 name:
   status: observed
   value: リソース回収
   sources:
     - fate-gift-round-4-resource-recovery-detail
 round:
-  status: manual
+  status: observed
   value: 4
   sources:
-    - fate-gifts-user-20260928
+    - fate-gifts-round-4-list-20261012
 effect:
   status: observed
   value: 指定したミニオンを回収し、その購入に消費したサンコインを獲得する

@@ -1,16 +1,16 @@
 schemaVersion: 1
 id: round-10-muscle-control
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: マッスルコントロール
   sources:
     - fate-gift-round-10-muscle-control-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
 effect:
   status: observed
   value: すべてのミニオンの攻撃力+30

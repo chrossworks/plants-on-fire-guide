@@ -166,9 +166,9 @@ base:
         status: observed
         value:
           text: 自身が召喚するラッシュユニットの移動速度+10%
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 10
+          unit: percent
         sources:
           - garlic-ranger-base-up1
     - level: 8
@@ -196,9 +196,9 @@ base:
         status: observed
         value:
           text: 自身が召喚するラッシュユニットの移動速度+30%
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 30
+          unit: percent
         sources:
           - garlic-ranger-base-up3
     - level: 11
@@ -206,9 +206,9 @@ base:
         status: observed
         value:
           text: 自身が召喚するラッシュユニットの移動速度+45%
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 45
+          unit: percent
         sources:
           - garlic-ranger-base-up3
     - level: 12
@@ -216,9 +216,9 @@ base:
         status: observed
         value:
           text: 自身が召喚するラッシュユニットの移動速度+60%
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 60
+          unit: percent
         sources:
           - garlic-ranger-base-up3
   bonusCoverage:
@@ -295,6 +295,8 @@ variants:
               text: 召喚するラッシュユニットの数+3。ラウンド終了時：除外（ボスラウンド：休眠）
               keywords:
                 - rush-unit
+                - dormant
+                - exclude
             sources:
               - garlic-ranger-v1-star1
         - star: 2
@@ -320,6 +322,8 @@ variants:
               text: 召喚するラッシュユニットの数+4。ラウンド終了時：除外（ボスラウンド：休眠）
               keywords:
                 - rush-unit
+                - dormant
+                - exclude
             sources:
               - garlic-ranger-v1-star2
         - star: 3
@@ -345,6 +349,8 @@ variants:
               text: 召喚するラッシュユニットの数+5。ラウンド終了時：除外（ボスラウンド：休眠）
               keywords:
                 - rush-unit
+                - dormant
+                - exclude
             sources:
               - garlic-ranger-v1-star3
       initial:
@@ -361,6 +367,8 @@ variants:
               text: 召喚するラッシュユニットの数+3。ラウンド終了時：除外（ボスラウンド：休眠）
               keywords:
                 - rush-unit
+                - dormant
+                - exclude
             sources:
               - garlic-ranger-v1-star1
           - status: observed
@@ -368,6 +376,8 @@ variants:
               text: 召喚するラッシュユニットの数+4。ラウンド終了時：除外（ボスラウンド：休眠）
               keywords:
                 - rush-unit
+                - dormant
+                - exclude
             sources:
               - garlic-ranger-v1-star2
           - status: observed
@@ -375,6 +385,8 @@ variants:
               text: 召喚するラッシュユニットの数+5。ラウンド終了時：除外（ボスラウンド：休眠）
               keywords:
                 - rush-unit
+                - dormant
+                - exclude
             sources:
               - garlic-ranger-v1-star3
       bonuses:

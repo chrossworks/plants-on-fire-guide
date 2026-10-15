@@ -3,7 +3,7 @@ import path from 'node:path';
 import sharp from 'sharp';
 import { createHash } from 'node:crypto';
 import { parse, stringify } from 'yaml';
-import { collectReviewUnits, reviewIssues, reviewKeys, reviewSummary } from '../lib/registration-review.mjs';
+import { collectReviewUnits, normalizeReviewBaseline, reviewIssues, reviewKeys, reviewSummary } from '../lib/registration-review.mjs';
 import { isDeepStrictEqual } from 'node:util';
 
 const dir = 'work/registration';
@@ -27,7 +27,7 @@ if (mode === 'init') {
 } else {
   if (!['check', 'accept'].includes(mode)) throw new Error('init / check / accept を指定してください');
   if (!fs.existsSync(baselineFile)) throw new Error('データを編集する前に npm run registration:init を実行してください');
-  const before = JSON.parse(fs.readFileSync(baselineFile, 'utf8'));
+  const before = normalizeReviewBaseline(JSON.parse(fs.readFileSync(baselineFile, 'utf8')));
   const records = fs.existsSync(recordsFile) ? read(recordsFile) || {} : {};
   const targets = fs.existsSync(targetsFile) ? read(targetsFile) : [];
   if (!Array.isArray(targets) || targets.some(key => typeof key !== 'string' || !key.trim())) throw new Error('targets.yamlは監査対象の項目キーの配列にしてください');

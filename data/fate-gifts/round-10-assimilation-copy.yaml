@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-10-assimilation-copy
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 同化コピー
   sources:
     - fate-gift-round-10-assimilation-copy-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
+    - fate-gifts-round-10-list-continuation-20261012
 effect:
   status: observed
   value: フィールド上のすべてのミニオンを、指定したミニオンのクローン体に置き換える。クローン体はラウンド終了時に除外される

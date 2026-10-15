@@ -92,3 +92,17 @@ battle-start:
     value: バトル開始時に発動する効果
     sources:
       - mad-king-keywords
+exclude:
+  name: 除外
+  definition:
+    status: observed
+    value: ミニオンをフィールドから除外する
+    sources:
+      - garlic-ranger-exclude-keywords
+sell:
+  name: 売却
+  definition:
+    status: observed
+    value: このミニオンを売却すると効果が発動する
+    sources:
+      - grape-bartender-sell-keywords

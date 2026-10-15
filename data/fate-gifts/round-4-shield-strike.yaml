@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-4-shield-strike
-updated: 2026-09-28
+updated: 2026-10-12
 name:
   status: observed
   value: シールドストライク
   sources:
     - fate-gift-round-4-shield-strike-detail
 round:
-  status: manual
+  status: observed
   value: 4
   sources:
-    - fate-gifts-user-20260928
+    - fate-gifts-round-4-list-20261012
+    - fate-gifts-round-4-list-continuation-20261012
 effect:
   status: observed
   value: 本ラウンド中、すべてのミニオンが召喚するラッシュユニットのシールド+2

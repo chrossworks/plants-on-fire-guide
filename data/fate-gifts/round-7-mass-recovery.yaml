@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-7-mass-recovery
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 一括回収
   sources:
     - fate-gift-round-7-mass-recovery-detail
 round:
-  status: manual
+  status: observed
   value: 7
   sources:
-    - fate-gifts-round-7-user-20260928
+    - fate-gifts-round-7-list-20261012
+    - fate-gifts-round-7-list-continuation-20261012
 effect:
   status: observed
   value: 指定したタイプのミニオンをすべて回収し、ミニオンの購入に消費したサンコインの150%を獲得する

@@ -191,9 +191,9 @@ base:
         status: observed
         value:
           text: 攻撃力ボーナスが2に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 2
+          unit: points
         sources:
           - peanut-page-base-up2
     - level: 11
@@ -211,9 +211,9 @@ base:
         status: observed
         value:
           text: 攻撃力ボーナスが3に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 3
+          unit: points
         sources:
           - peanut-page-base-up3
   bonusCoverage:
@@ -445,9 +445,9 @@ variants:
           effect:
             status: observed
             value:
-              text: 攻撃力ボーナスが7に上昇する
+              text: 攻撃力ボーナスが8に上昇する
               operation: ability_set
-              value: 7
+              value: 8
               unit: points
             sources:
               - peanut-page-v1-up3

@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-10-ultimate-mirage
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: アルティメットミラージュ
   sources:
     - fate-gift-round-10-ultimate-mirage-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
+    - fate-gifts-round-10-list-continuation-20261012
 effect:
   status: observed
   value: 本ラウンド中、指定したミニオンが能力「準備完了：自身のクローン体3体を一時的に召喚する」を獲得する

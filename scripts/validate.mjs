@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 import { root, loadMinions, loadArticles, loadAssets, loadSources, loadKeywords, loadRumble } from '../lib/content.mjs';
-import { minimumLevels, hasStandardAbsenceEvidence } from '../lib/schema.mjs';
+import { minimumLevels, hasVariantAbsenceEvidence } from '../lib/schema.mjs';
 import { rumbleIdentityIssues } from '../lib/rumble.mjs';
 import { loadCaptainBadges } from '../lib/captain-badges.mjs';
 import { loadRumbleBadges } from '../lib/rumble-badges.mjs';
@@ -59,6 +59,7 @@ export async function validate() {
   for (const gift of fateGifts) {
     walk(gift, `fate-gifts.${gift.id}`);
     if (gift.icon.value) assetRef(gift.icon.value, `fate-gifts.${gift.id}`);
+    if (gift.round.status === 'observed' && !gift.round.sources.some(s => sources[s]?.kind === 'screenshot' && sources[s]?.screen === 'fate-gift-list')) fail(`運命のギフトのラウンド画像根拠が不正: ${gift.id}`);
     for (const field of [gift.name, gift.effect, gift.unlock, gift.icon]) {
       if (field.status === 'observed' || field.status === 'absent') {
         if (!field.sources.some(s => sources[s]?.kind === 'screenshot' && sources[s]?.screen === 'fate-gift-detail')) fail(`運命のギフトの画像根拠が不正: ${gift.id}`);
@@ -83,7 +84,7 @@ export async function validate() {
   for (const d of rumble.decks) if (d.bond.icon?.value) assetRef(d.bond.icon.value,`rumble-chess.${d.id}.bond.icon`);
   for (const m of minions) {
     walk(m,m.id); if (m.icon) assetRef(m.icon,m.id); assetRef(m.portrait,m.id);
-    if (m.variants.status === 'absent' && !hasStandardAbsenceEvidence(m.variants,sources)) fail(`${m.id}: バリアントなしには通常詳細画面での非表示確認が必要です`);
+    if (m.variants.status === 'absent' && !hasVariantAbsenceEvidence(m.variants,sources)) fail(`${m.id}: バリアントなしには通常詳細画面の非表示確認または明示的なユーザー確認が必要です`);
     if (!sources[m.evaluation.source]) fail(`${m.id}: 評価の出典なし`);
     if (m.availability?.ranked.value === false && m.evaluation.rank !== '対象外') fail(`${m.id}: ランクマッチ使用不可の場合は評価対象外にしてください`);
     if (m.evaluation.rank === '対象外' && m.availability?.ranked.value !== false) fail(`${m.id}: 評価対象外にはランクマッチ使用不可の確認が必要です`);

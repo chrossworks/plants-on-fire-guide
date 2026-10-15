@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-10-power-share
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: パワーシェア
   sources:
     - fate-gift-round-10-power-share-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
+    - fate-gifts-round-10-list-continuation-20261012
 effect:
   status: observed
   value: 同じ列の他のミニオンに、指定したミニオンの攻撃力の75%を付与する

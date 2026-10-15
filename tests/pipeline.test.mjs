@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 import { z } from 'zod';
-import { fact,minimumLevels,minionSchema,hasStandardAbsenceEvidence,rumbleSchema } from '../lib/schema.mjs';
+import { fact,minimumLevels,minionSchema,hasStandardAbsenceEvidence,hasVariantAbsenceEvidence,rumbleSchema } from '../lib/schema.mjs';
 import { transform,within } from '../scripts/image-core.mjs';
 import { loadMinions,loadRumble } from '../lib/content.mjs';
 import { basePerformance } from '../lib/performance.mjs';
@@ -123,4 +123,12 @@ test('build用入力にraw画像が不要である',()=>{
   // Production validation reads only canonical data and processed assets.
   const source=fs.readFileSync(new URL('../lib/content.mjs',import.meta.url),'utf8');
   assert.ok(!source.includes('raw-screenshots'));
+});
+
+test('バリアント不存在は明示的なユーザー確認を許可し、他のユーザー根拠やランブル非表示は拒否する',()=>{
+ const variants={status:'absent',sources:['proof'],items:[]};
+ assert.equal(hasVariantAbsenceEvidence(variants,{proof:{kind:'user',variantControl:'absent'}}),true);
+ for(const proof of [{kind:'user'},{kind:'user',variantControl:'present'},{kind:'user',variantControl:'unconfirmed'},{kind:'screenshot',mode:'rumble-chess',screen:'detail',variantControl:'absent'}])assert.equal(hasVariantAbsenceEvidence(variants,{proof}),false);
+ assert.equal(hasVariantAbsenceEvidence(variants,{}),false);
+ assert.equal(hasVariantAbsenceEvidence(variants,{proof:{kind:'screenshot',mode:'standard',screen:'detail',variantControl:'absent'}}),true);
 });

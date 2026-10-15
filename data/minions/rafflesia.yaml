@@ -18,7 +18,7 @@ cost:
     - rc-rafflesia-star2
     - rc-rafflesia-star3
     - rc-rafflesia-star4
-updated: 2026-09-25
+updated: 2026-10-06
 icon: rafflesia-icon
 portrait: rafflesia-portrait
 evaluation:
@@ -34,11 +34,13 @@ availability:
       - rc-rafflesia-star2
       - rc-rafflesia-star3
       - rc-rafflesia-star4
+      - rc-rafflesia-acquisition-20261006
   ranked:
     status: manual
     value: false
     sources:
       - rumble-limited-user-20260925
+      - rumble-limited-user-20261006
 base:
   id: base
   name: 基本形
@@ -167,9 +169,9 @@ base:
         status: observed
         value:
           text: フィールド上に自身以外のミニオンがすべて★3の場合、獲得する攻撃力の合計が58%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 58
+          unit: percent
         sources:
           - rc-rafflesia-up1
     - level: 9
@@ -177,9 +179,9 @@ base:
         status: observed
         value:
           text: フィールド上に自身以外のミニオンがすべて★3の場合、獲得する攻撃力の合計が66%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 66
+          unit: percent
         sources:
           - rc-rafflesia-up1
     - level: 10
@@ -228,10 +230,15 @@ base:
       - rc-rafflesia-star2
       - rc-rafflesia-star3
       - rc-rafflesia-star4
+      - rc-rafflesia-acquisition-20261006
   poolUnlock:
-    status: unknown
-    reason: ランブルチェス限定。通常カードプールの解放条件は確認できません。
+    status: absent
+    reason: ランブルチェス限定のため、通常カードプールの解放条件は存在しません。
+    sources:
+      - rumble-limited-user-20261006
 variants:
-  status: unknown
-  note: ランブルチェス詳細ではバリアントの有無を判定できません。
+  status: absent
+  note: バリアントはありません。
+  sources:
+    - variant-absence-user-20261014
   items: []

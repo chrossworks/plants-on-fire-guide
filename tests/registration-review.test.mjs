@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { collectReviewUnits, readingValue, reviewIssues, reviewKeys, reviewSummary } from '../lib/registration-review.mjs';
+import { collectReviewUnits, normalizeReviewBaseline, readingValue, reviewIssues, reviewKeys, reviewSummary } from '../lib/registration-review.mjs';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -11,6 +11,32 @@ import { stringify } from 'yaml';
 
 const fact = { status: 'observed', value: 'トロフィー数550個で解放', sources: ['detail'] };
 const record = { registered: fact, first: readingValue(fact), second: readingValue(fact), context: '対象A、ラウンド10', evidence: [{ source: 'detail' }] };
+test('バリアント能力を個別監査し、旧基準の未確認項目と変更を保持する', () => {
+  const variants = { status: 'observed', note: '撮影分', items: [{ id: 'v1', name: 'AⅠ', stars: [{ star: 1, ability: fact }, { star: 2, ability: fact }] }] };
+  const saved = { 'data/minions/a.yaml#/variants': variants };
+  const snapshot = structuredClone(saved);
+  const before = normalizeReviewBaseline(saved);
+  assert.deepEqual(saved, snapshot);
+  assert.deepEqual(normalizeReviewBaseline(before), before);
+  const changed = structuredClone(variants);
+  changed.items[0].stars[0].ability = { ...fact, value: '訂正' };
+  const current = normalizeReviewBaseline({ 'data/minions/a.yaml#/variants': changed });
+  const key = 'data/minions/a.yaml#/variants/items/0/stars/0/ability';
+  assert.deepEqual(reviewKeys(before, current, {}), [key]);
+  assert.match(reviewIssues(before, current, {}).join(), /確認記録なし/);
+  const value = changed.items[0].stars[0].ability;
+  const records = { [key]: { ...record, registered: value, first: readingValue(value), second: readingValue(value) } };
+  const keys = reviewKeys(before, current, records);
+  const summary = reviewSummary(before, current, keys, reviewIssues(before, current, records));
+  assert.equal(summary.audited, 1);
+  assert.equal(summary.changedAudited, 1);
+  assert.equal(summary.untargeted, Object.keys(current).length - 1);
+  assert.deepEqual(collectReviewUnits({ variants })['/variants'], { status: 'observed', note: '撮影分' });
+  const removed = normalizeReviewBaseline({ 'data/minions/a.yaml#/variants': { status: 'absent', sources: ['detail'], items: [] } });
+  assert.ok(reviewKeys(before, removed, {}).includes(key));
+  const atomic = { status: 'observed', value: { items: [1, 2] }, sources: ['detail'] };
+  assert.deepEqual(collectReviewUnits({ fact: atomic }), { '/fact': atomic });
+});
 test('ユーザー再確認は対応する根拠・提示内容・回答を要求し、画像確認へ置換しない', () => {
   const value = { status: 'absent', sources: ['user-source'] };
   const source = { kind: 'user', description: '実機で条件なしと確認' };

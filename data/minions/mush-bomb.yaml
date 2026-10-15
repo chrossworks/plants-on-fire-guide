@@ -153,9 +153,9 @@ base:
         status: observed
         value:
           text: ダメージが48%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 48
+          unit: percent
         sources:
           - mush-bomb-base-up1
     - level: 9
@@ -163,9 +163,9 @@ base:
         status: observed
         value:
           text: ダメージが54%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 54
+          unit: percent
         sources:
           - mush-bomb-base-up1
     - level: 10
@@ -183,9 +183,9 @@ base:
         status: observed
         value:
           text: ダメージが66%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 66
+          unit: percent
         sources:
           - mush-bomb-base-up2
     - level: 12
@@ -193,9 +193,9 @@ base:
         status: observed
         value:
           text: ダメージが80%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 80
+          unit: percent
         sources:
           - mush-bomb-base-up2
   bonusCoverage:

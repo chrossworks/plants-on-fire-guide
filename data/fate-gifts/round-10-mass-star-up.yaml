@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-10-mass-star-up
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 一斉星アップ
   sources:
     - fate-gift-round-10-mass-star-up-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
+    - fate-gifts-round-10-list-continuation-20261012
 effect:
   status: observed
   value: すべてのミニオンの★+1。ミニオンが★3だった場合、星アップ効果が2回発動する

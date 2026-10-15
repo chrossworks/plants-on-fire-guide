@@ -1,9 +1,9 @@
 schemaVersion: 1
 id: circus
-updated: 2026-09-28
+updated: 2026-10-11
 name:
   status: observed
-  value: サーカス
+  value: サーカス隊長
   sources:
     - rumble-badge-circus-detail
 category:

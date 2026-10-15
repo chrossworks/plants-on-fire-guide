@@ -269,6 +269,7 @@ variants:
               text: 売却：ショップ内のミニオンの攻撃力が一時的に+4
               keywords:
                 - temporary
+                - sell
             sources:
               - grape-bartender-v1-star1
         - star: 2
@@ -294,6 +295,7 @@ variants:
               text: 売却：ショップ内のミニオンの攻撃力が一時的に+8
               keywords:
                 - temporary
+                - sell
             sources:
               - grape-bartender-v1-star2
         - star: 3
@@ -319,6 +321,7 @@ variants:
               text: 売却：ショップ内のミニオンの攻撃力が一時的に+16
               keywords:
                 - temporary
+                - sell
             sources:
               - grape-bartender-v1-star3
       initial:
@@ -335,6 +338,7 @@ variants:
               text: 売却：ショップ内のミニオンの攻撃力が一時的に+4
               keywords:
                 - temporary
+                - sell
             sources:
               - grape-bartender-v1-star1
           - status: observed
@@ -342,6 +346,7 @@ variants:
               text: 売却：ショップ内のミニオンの攻撃力が一時的に+8
               keywords:
                 - temporary
+                - sell
             sources:
               - grape-bartender-v1-star2
           - status: observed
@@ -349,6 +354,7 @@ variants:
               text: 売却：ショップ内のミニオンの攻撃力が一時的に+16
               keywords:
                 - temporary
+                - sell
             sources:
               - grape-bartender-v1-star3
       bonuses:

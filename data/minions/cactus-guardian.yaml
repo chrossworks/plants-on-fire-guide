@@ -197,9 +197,9 @@ base:
         status: observed
         value:
           text: サンコインを消費するたびに獲得する一時攻撃力ボーナスが2に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 2
+          unit: points
         sources:
           - cactus-guardian-base-up2
     - level: 11
@@ -217,9 +217,9 @@ base:
         status: observed
         value:
           text: サンコインを消費するたびに獲得する一時攻撃力ボーナスが3に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 3
+          unit: points
         sources:
           - cactus-guardian-base-up3
   bonusCoverage:
@@ -446,9 +446,9 @@ variants:
             status: observed
             value:
               text: サンコインを消費するたびに獲得する攻撃力ボーナスが3に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 3
+              unit: points
             sources:
               - cactus-guardian-v1-up3
       bonusCoverage:

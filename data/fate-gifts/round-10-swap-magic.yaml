@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-10-swap-magic
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: スワップマジック
   sources:
     - fate-gift-round-10-swap-magic-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
+    - fate-gifts-round-10-list-continuation-20261012
 effect:
   status: observed
   value: 本ラウンドの準備完了時、ランダムな味方ミニオンと、最も攻撃力が高い敵ミニオンの攻撃力を交換する

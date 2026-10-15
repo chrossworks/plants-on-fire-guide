@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-10-power-theft
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: パワー強奪
   sources:
     - fate-gift-round-10-power-theft-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
+    - fate-gifts-round-10-list-continuation-20261012
 effect:
   status: observed
   value: 準備完了時、指定したミニオンがすべての敵ミニオンの攻撃力を5%永続的に奪取する

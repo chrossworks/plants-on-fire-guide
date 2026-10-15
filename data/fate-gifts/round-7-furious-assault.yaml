@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-7-furious-assault
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 狂暴猛攻
   sources:
     - fate-gift-round-7-furious-assault-detail
 round:
-  status: manual
+  status: observed
   value: 7
   sources:
-    - fate-gifts-round-7-user-20260928
+    - fate-gifts-round-7-list-20261012
+    - fate-gifts-round-7-list-continuation-20261012
 effect:
   status: observed
   value: 現在のすべてのミニオンの攻撃速度が一時的に+100%

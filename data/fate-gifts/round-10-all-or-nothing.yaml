@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-10-all-or-nothing
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 一か八か
   sources:
     - fate-gift-round-10-all-or-nothing-detail
 round:
-  status: manual
+  status: observed
   value: 10
   sources:
-    - fate-gifts-round-10-user-20260928
+    - fate-gifts-round-10-list-20261012
+    - fate-gifts-round-10-list-continuation-20261012
 effect:
   status: observed
   value: マッチ中に消費したサンコインの50%（現在：0）を獲得する。ただし、以降はサンコインを獲得できなくなる

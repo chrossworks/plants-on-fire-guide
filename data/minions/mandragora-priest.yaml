@@ -150,27 +150,27 @@ base:
       effect:
         status: observed
         value:
-          text: 攻撃ボーナスの最小値が15に上昇する
-          operation: text
-          value: null
-          unit: none
+          text: 攻撃力ボーナスの最小値が15に上昇する
+          operation: ability_set
+          value: 15
+          unit: points
         sources:
           - mandragora-priest-base-up1
     - level: 9
       effect:
         status: observed
         value:
-          text: 攻撃ボーナスの最小値が20に上昇する
-          operation: text
-          value: null
-          unit: none
+          text: 攻撃力ボーナスの最小値が20に上昇する
+          operation: ability_set
+          value: 20
+          unit: points
         sources:
           - mandragora-priest-base-up1
     - level: 10
       effect:
         status: observed
         value:
-          text: 攻撃ボーナスが23%に上昇し、最小値が25に上昇する
+          text: 攻撃力ボーナスが23%に上昇し、最小値が25に上昇する
           operation: text
           value: null
           unit: none
@@ -180,7 +180,7 @@ base:
       effect:
         status: observed
         value:
-          text: 攻撃ボーナスが26%に上昇し、最小値が30に上昇する
+          text: 攻撃力ボーナスが26%に上昇し、最小値が30に上昇する
           operation: text
           value: null
           unit: none
@@ -190,7 +190,7 @@ base:
       effect:
         status: observed
         value:
-          text: 攻撃ボーナスが29%に上昇し、最小値が35に上昇する
+          text: 攻撃力ボーナスが29%に上昇し、最小値が35に上昇する
           operation: text
           value: null
           unit: none

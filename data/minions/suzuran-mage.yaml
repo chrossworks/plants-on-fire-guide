@@ -191,9 +191,9 @@ base:
         status: observed
         value:
           text: すべてのミニオンの星アップによる攻撃力ボーナスが2に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 2
+          unit: points
         sources:
           - suzuran-mage-base-up3
     - level: 11
@@ -211,9 +211,9 @@ base:
         status: observed
         value:
           text: すべてのミニオンの星アップによる攻撃力ボーナスが3に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 3
+          unit: points
         sources:
           - suzuran-mage-base-up3
   bonusCoverage:
@@ -396,9 +396,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオンに付与する攻撃力ボーナスが11に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 11
+              unit: points
             sources:
               - suzuran-mage-v1-up1
         - level: 8
@@ -426,9 +426,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオンに付与する攻撃力ボーナスが16に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 16
+              unit: points
             sources:
               - suzuran-mage-v1-up3
         - level: 11
@@ -436,9 +436,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオンに付与する攻撃力ボーナスが20に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 20
+              unit: points
             sources:
               - suzuran-mage-v1-up3
         - level: 12
@@ -446,9 +446,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオンに付与する攻撃力ボーナスが24に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 24
+              unit: points
             sources:
               - suzuran-mage-v1-up3
       bonusCoverage:

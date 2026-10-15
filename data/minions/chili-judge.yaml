@@ -274,6 +274,7 @@ variants:
                 さらに、攻撃力をチリジャッジの攻撃力の10%分低下させる
               keywords:
                 - temporary
+                - magic
             sources:
               - chili-judge-v1-star1
         - star: 2
@@ -301,6 +302,7 @@ variants:
                 さらに、攻撃力をチリジャッジの攻撃力の20%分低下させる
               keywords:
                 - temporary
+                - magic
             sources:
               - chili-judge-v1-star2
         - star: 3
@@ -328,6 +330,7 @@ variants:
                 さらに、攻撃力をチリジャッジの攻撃力の40%分低下させる
               keywords:
                 - temporary
+                - magic
             sources:
               - chili-judge-v1-star3
       initial:
@@ -346,6 +349,7 @@ variants:
                 さらに、攻撃力をチリジャッジの攻撃力の10%分低下させる
               keywords:
                 - temporary
+                - magic
             sources:
               - chili-judge-v1-star1
           - status: observed
@@ -355,6 +359,7 @@ variants:
                 さらに、攻撃力をチリジャッジの攻撃力の20%分低下させる
               keywords:
                 - temporary
+                - magic
             sources:
               - chili-judge-v1-star2
           - status: observed
@@ -364,6 +369,7 @@ variants:
                 さらに、攻撃力をチリジャッジの攻撃力の40%分低下させる
               keywords:
                 - temporary
+                - magic
             sources:
               - chili-judge-v1-star3
       bonuses:

@@ -191,9 +191,9 @@ base:
         status: observed
         value:
           text: すべてのミニオンの星アップによる攻撃力ボーナスが2に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 2
+          unit: points
         sources:
           - muracabelon-base-up2
     - level: 8
@@ -221,9 +221,9 @@ base:
         status: observed
         value:
           text: すべてのミニオンの星アップによる攻撃力ボーナスが3に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 3
+          unit: points
         sources:
           - muracabelon-base-up3
     - level: 11
@@ -241,9 +241,9 @@ base:
         status: observed
         value:
           text: すべてのミニオンの星アップによる攻撃力ボーナスが4に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 4
+          unit: points
         sources:
           - muracabelon-base-up4
   bonusCoverage:
@@ -427,9 +427,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオン1体につき、攻撃力ボーナスが5に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 5
+              unit: points
             sources:
               - muracabelon-v1-up1
         - level: 5
@@ -457,9 +457,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオン1体につき、攻撃力ボーナスが7に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 7
+              unit: points
             sources:
               - muracabelon-v1-up2
         - level: 8
@@ -487,9 +487,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオン1体につき、攻撃力ボーナスが10に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 10
+              unit: points
             sources:
               - muracabelon-v1-up3
         - level: 11
@@ -497,9 +497,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオン1体につき、攻撃力ボーナスが12に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 12
+              unit: points
             sources:
               - muracabelon-v1-up4
         - level: 12
@@ -507,9 +507,9 @@ variants:
             status: observed
             value:
               text: ★3ミニオン1体につき、攻撃力ボーナスが14に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 14
+              unit: points
             sources:
               - muracabelon-v1-up4
       bonusCoverage:

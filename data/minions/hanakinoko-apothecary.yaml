@@ -173,9 +173,9 @@ base:
         status: observed
         value:
           text: 基本攻撃力ボーナスが70に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 70
+          unit: points
         sources:
           - hanakinoko-apothecary-base-up1
     - level: 8
@@ -203,9 +203,9 @@ base:
         status: observed
         value:
           text: 基本攻撃力ボーナスが100に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 100
+          unit: points
         sources:
           - hanakinoko-apothecary-base-up3
     - level: 11
@@ -213,9 +213,9 @@ base:
         status: observed
         value:
           text: 基本攻撃力ボーナスが120に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 120
+          unit: points
         sources:
           - hanakinoko-apothecary-base-up3
     - level: 12
@@ -223,9 +223,9 @@ base:
         status: observed
         value:
           text: 基本攻撃力ボーナスが140に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 140
+          unit: points
         sources:
           - hanakinoko-apothecary-base-up3
   bonusCoverage:
@@ -414,9 +414,9 @@ variants:
             status: observed
             value:
               text: 基本攻撃力ボーナスの効果が25に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 25
+              unit: points
             sources:
               - hanakinoko-apothecary-v1-up1
         - level: 8
@@ -444,9 +444,9 @@ variants:
             status: observed
             value:
               text: ミニオンを1体召喚するごとに、攻撃力ボーナスが2に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 2
+              unit: points
             sources:
               - hanakinoko-apothecary-v1-up3
         - level: 11
@@ -454,9 +454,9 @@ variants:
             status: observed
             value:
               text: 基本攻撃力ボーナスの効果が40に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 40
+              unit: points
             sources:
               - hanakinoko-apothecary-v1-up3
         - level: 12
@@ -464,9 +464,9 @@ variants:
             status: observed
             value:
               text: 基本攻撃力ボーナスの効果が55に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 55
+              unit: points
             sources:
               - hanakinoko-apothecary-v1-up3
       bonusCoverage:

@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-4-grand-entrance
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 堂々登場
   sources:
     - fate-gift-round-4-grand-entrance-detail
 round:
-  status: manual
+  status: observed
   value: 4
   sources:
-    - fate-gifts-user-20260928
+    - fate-gifts-round-4-list-20261012
+    - fate-gifts-round-4-list-continuation-20261012
 effect:
   status: observed
   value: 次に召喚するミニオンの攻撃力+100%

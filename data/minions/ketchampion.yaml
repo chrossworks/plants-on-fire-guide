@@ -151,9 +151,9 @@ base:
         status: observed
         value:
           text: 撃破するたびに攻撃力ボーナスが3に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 3
+          unit: points
         sources:
           - ketchampion-base-up1
     - level: 10
@@ -180,7 +180,7 @@ base:
       effect:
         status: observed
         value:
-          text: 撃破するたびに攻撃力ボーナスが4に上昇し、自身が敵を撃破した場合、攻撃力ボーナスが5に上昇する
+          text: 撃破するたびに攻撃力ボーナスが5に上昇し、自身が敵を撃破した場合、攻撃力ボーナスが5に上昇する
           operation: text
           value: null
           unit: none

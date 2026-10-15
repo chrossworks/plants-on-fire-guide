@@ -1,16 +1,16 @@
 schemaVersion: 1
 id: round-7-instant-copy
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: 即時コピー
   sources:
     - fate-gift-round-7-instant-copy-detail
 round:
-  status: manual
+  status: observed
   value: 7
   sources:
-    - fate-gifts-round-7-user-20260928
+    - fate-gifts-round-7-list-20261012
 effect:
   status: observed
   value: 次に配置するミニオンをコピーする

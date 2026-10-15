@@ -18,7 +18,7 @@ cost:
     - rc-bamboo-archer-star2
     - rc-bamboo-archer-star3
     - rc-bamboo-archer-star4
-updated: 2026-09-25
+updated: 2026-10-06
 icon: bamboo-archer-icon
 portrait: bamboo-archer-portrait
 evaluation:
@@ -34,11 +34,13 @@ availability:
       - rc-bamboo-archer-star2
       - rc-bamboo-archer-star3
       - rc-bamboo-archer-star4
+      - rc-bamboo-archer-acquisition-20261006
   ranked:
     status: manual
     value: false
     sources:
       - rumble-limited-user-20260925
+      - rumble-limited-user-20261006
 base:
   id: base
   name: 基本形
@@ -268,10 +270,15 @@ base:
       - rc-bamboo-archer-star2
       - rc-bamboo-archer-star3
       - rc-bamboo-archer-star4
+      - rc-bamboo-archer-acquisition-20261006
   poolUnlock:
-    status: unknown
-    reason: ランブルチェス限定。通常カードプールの解放条件は確認できません。
+    status: absent
+    reason: ランブルチェス限定のため、通常カードプールの解放条件は存在しません。
+    sources:
+      - rumble-limited-user-20261006
 variants:
-  status: unknown
-  note: ランブルチェス詳細ではバリアントの有無を判定できません。
+  status: absent
+  note: バリアントはありません。
+  sources:
+    - variant-absence-user-20261014
   items: []

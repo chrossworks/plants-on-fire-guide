@@ -167,9 +167,9 @@ base:
         status: observed
         value:
           text: ヒマワリバンカーから継承する攻撃力が50%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 50
+          unit: percent
         sources:
           - sunflower-banker-base-up1
     - level: 8
@@ -197,9 +197,9 @@ base:
         status: observed
         value:
           text: ヒマワリバンカーから継承する攻撃力が75%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 75
+          unit: percent
         sources:
           - sunflower-banker-base-up3
     - level: 11
@@ -207,9 +207,9 @@ base:
         status: observed
         value:
           text: ヒマワリバンカーから継承する攻撃力が90%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 90
+          unit: percent
         sources:
           - sunflower-banker-base-up3
     - level: 12
@@ -217,9 +217,9 @@ base:
         status: observed
         value:
           text: ヒマワリバンカーから継承する攻撃力が105%に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 105
+          unit: percent
         sources:
           - sunflower-banker-base-up3
   bonusCoverage:

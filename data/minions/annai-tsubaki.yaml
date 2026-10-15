@@ -167,9 +167,9 @@ base:
         status: observed
         value:
           text: 次に購入するミニオンの攻撃力ボーナスが6に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 6
+          unit: points
         sources:
           - annai-tsubaki-base-up1
     - level: 8
@@ -197,9 +197,9 @@ base:
         status: observed
         value:
           text: 次に購入するミニオンの攻撃力ボーナスが9に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 9
+          unit: points
         sources:
           - annai-tsubaki-base-up3
     - level: 11
@@ -207,9 +207,9 @@ base:
         status: observed
         value:
           text: 次に購入するミニオンの攻撃力ボーナスが11に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 11
+          unit: points
         sources:
           - annai-tsubaki-base-up3
     - level: 12
@@ -217,9 +217,9 @@ base:
         status: observed
         value:
           text: 次に購入するミニオンの攻撃力ボーナスが14に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 14
+          unit: points
         sources:
           - annai-tsubaki-base-up3
   bonusCoverage:
@@ -398,9 +398,9 @@ variants:
             status: observed
             value:
               text: ショップ内の他のミニオンに付与する攻撃力ボーナスが2に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 2
+              unit: points
             sources:
               - annai-tsubaki-v2-up1
         - level: 8
@@ -428,9 +428,9 @@ variants:
             status: observed
             value:
               text: ショップ内の他のミニオンに付与する攻撃力ボーナスが3に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 3
+              unit: points
             sources:
               - annai-tsubaki-v2-up3
         - level: 11
@@ -438,9 +438,9 @@ variants:
             status: observed
             value:
               text: ショップ内の他のミニオンに付与する攻撃力ボーナスが4に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 4
+              unit: points
             sources:
               - annai-tsubaki-v2-up3
         - level: 12
@@ -448,9 +448,9 @@ variants:
             status: observed
             value:
               text: ショップ内の他のミニオンに付与する攻撃力ボーナスが5に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 5
+              unit: points
             sources:
               - annai-tsubaki-v2-up3
       bonusCoverage:

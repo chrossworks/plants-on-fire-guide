@@ -175,28 +175,27 @@ mam-v1-initial-star3:
   screen: detail
   variantControl: present
   description: マムガールⅠの最低レベルLv.1 星3、ON表示。攻撃力2、攻撃間隔3秒、最前列。準備完了の攻撃力強化+4。
-
 orchid-initial-star1:
   kind: screenshot
   mode: standard
   screen: detail
   variantControl: absent
-  description: オーキッド占星術師 Lv.7 星1、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+4。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
-
+  description: オーキッド占星術師 Lv.7
+    星1、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+4。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
 orchid-initial-star2:
   kind: screenshot
   mode: standard
   screen: detail
   variantControl: absent
-  description: オーキッド占星術師 Lv.7 星2、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+8。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
-
+  description: オーキッド占星術師 Lv.7
+    星2、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+8。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
 orchid-initial-star3:
   kind: screenshot
   mode: standard
   screen: detail
   variantControl: absent
-  description: オーキッド占星術師 Lv.7 星3、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+16。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
-
+  description: オーキッド占星術師 Lv.7
+    星3、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+16。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
 appolis-base-star1:
   kind: screenshot
   description: アッポリス・通常詳細Lv.1・星1
@@ -377,7 +376,6 @@ mam-acquisition-unlock-user:
 orchid-unlock-user:
   kind: user
   description: 実機確認によりオーキッド占星術師の基本形はカードプール解放条件なし（2026-09-14ユーザー確認）。
-
 pop-gunner-base-star1:
   kind: screenshot
   description: ポップガンナー・通常詳細Lv.1・星1
@@ -592,14 +590,12 @@ card-pool-icons-20260914:
   kind: screenshot
   description: カードプールプレビューでポップガンナーとノリノリネギの名前・背景色・コストを確認。両体の一覧用アイコンに使用。
   screen: pool-list
-
 pop-gunner-acquisition-unlock-user:
   kind: user
   description: 実機確認によりポップガンナーの基本形はチュートリアルで獲得、カードプール解放条件なし（2026-09-14ユーザー確認）。
 norinori-negi-acquisition-unlock-user:
   kind: user
   description: 実機確認によりノリノリネギの基本形はチュートリアルで獲得、カードプール解放条件なし（2026-09-14ユーザー確認）。
-
 radish-maid-base-star1:
   kind: screenshot
   description: ラディッシュメイド・通常詳細Lv.7・星1
@@ -721,7 +717,6 @@ temporary-keyword:
   kind: screenshot
   description: アボガクの通常詳細画面のキーワード説明で「一時」の名称と定義を確認（2026-09-15）。
   mode: standard
-
 lychee-baby-base-star1:
   kind: screenshot
   description: ライチベイビー・通常詳細Lv.7・星1
@@ -1026,13 +1021,11 @@ hakusai-guard-memo:
 lychee-baby-memo:
   kind: user
   description: ライチベイビーの攻略メモ（評価・使い方・注意点）
-
 lychee-baby-icon-source:
   kind: screenshot
   description: 通常カードプール一覧のライチベイビー（レジェンド背景・コスト3）
   mode: standard
   screen: pool-list
-
 greenkeeper-base-star1:
   kind: screenshot
   description: グリーンキーパー・通常詳細Lv.4・星1
@@ -1066,7 +1059,6 @@ greenkeeper-base-up3:
 greenkeeper-memo:
   kind: user
   description: グリーンキーパーの攻略メモ（評価・使い方・注意点）
-
 cotton-prince-base-star1:
   kind: screenshot
   description: コットン王子・通常詳細Lv.7・星1
@@ -1222,7 +1214,6 @@ cactus-guardian-memo:
 guava-trumpeter-memo:
   kind: user
   description: グァバラッパの攻略メモ（評価・使い方・注意点）
-
 ginger-boss-base-star1:
   kind: screenshot
   description: ジンジャー親分・通常詳細Lv.4・星1
@@ -1448,13 +1439,11 @@ cabbage-baker-memo:
 peanut-page-memo:
   kind: user
   description: ピーナッツペイジの攻略メモ（評価・使い方・注意点）
-
 cabbage-baker-icon-source:
   kind: screenshot
   description: 通常ミニオン一覧のキャベツベーカー（エピック背景・コスト5）
   mode: standard
   screen: pool-list
-
 coco-bank-base-star1:
   kind: screenshot
   description: ココバンク・通常詳細Lv.7・星1
@@ -1668,7 +1657,6 @@ mush-bomb-memo:
 muracabelon-memo:
   kind: user
   description: ムラキャベロンの攻略メモ（評価・使い方・注意点）
-
 hanakinoko-apothecary-base-star1:
   kind: screenshot
   description: ハナキノコ薬師・通常詳細Lv.4・星1
@@ -1950,7 +1938,6 @@ lady-tulip-memo:
 black-rose-knight-memo:
   kind: user
   description: ブラックローズナイトの攻略メモ（評価・使い方・注意点）
-
 sunflower-manager-base-star1:
   kind: screenshot
   description: ヒマワリ店長・通常詳細Lv.1・星1
@@ -2222,7 +2209,6 @@ gold-eater-memo:
 valkyris-memo:
   kind: user
   description: ヴァルキリスの攻略メモ（評価・使い方・注意点）
-
 annai-tsubaki-base-star1:
   kind: screenshot
   description: アンナイツバキ・通常詳細Lv.4・星1
@@ -2413,20 +2399,17 @@ rush-shield-keywords:
   kind: screenshot
   description: ラッシュユニット・シールドの説明画面
   mode: standard
-
 tumble-roller-base-star1:
   kind: screenshot
   description: タンブルローラー・通常詳細Lv.7・星1
   mode: standard
   screen: detail
   variantControl: absent
-
 garlic-tumble-icons-20260921:
   kind: screenshot
   description: 通常ミニオン一覧のガーリックレンジャー・タンブルローラーのカードアイコン
   mode: standard
   screen: pool-list
-
 pakupaku-flower-base-star1:
   kind: screenshot
   description: パクパクフラワー・通常詳細Lv.7・星1
@@ -2710,7 +2693,6 @@ rc-bond-replacement-user:
   kind: user
   mode: rumble-chess
   description: 2026-09-22ユーザー確認。絆の段階間の効果は累積せず置き換わる。例：雲の絆が8の時は8の効果（攻撃力+2）のみ発動し、4の効果は発動しない。
-
 samurai-take-base-star1:
   kind: screenshot
   description: サムライタケ・通常詳細Lv.7・星1
@@ -2860,7 +2842,6 @@ magic-keyword:
   kind: screenshot
   description: 魔法の用語説明
   mode: standard
-
 ghost-orchid-base-star1:
   kind: screenshot
   description: ゴーストオーキッド・通常詳細Lv.7・星1
@@ -3067,7 +3048,6 @@ broccolism-icon-source:
   description: ブロッコリズムの通常ミニオン一覧アイコン
   mode: standard
   screen: pool-list
-
 draful-guard-base-star1:
   kind: screenshot
   description: ドラフルガード・通常詳細Lv.4・星1
@@ -3297,7 +3277,6 @@ tele-leafy-keywords:
   kind: screenshot
   description: テレ・リーフィーの魔法・休眠の用語説明
   mode: standard
-
 luminous-tree-base-star1:
   kind: screenshot
   description: ルミナスツリー・通常詳細Lv.7・星1
@@ -3444,7 +3423,6 @@ luminous-tree-keywords:
   kind: screenshot
   description: ルミナスツリー・最大マナとマナ消費の用語説明
   mode: standard
-
 rc-rules-user-20260925:
   kind: user
   description: 2026-09-25確認。同じレベルで攻撃力・星1〜3能力は両モード共通。ランブルチェスは最低Lv.7保証、星4まで合成可能。星1/2/3/4の絆ポイントは1/2/4/8。
@@ -3454,7 +3432,6 @@ rc-annai-tsubaki-star4:
   mode: rumble-chess
   screen: detail
   selectedStar: 4
-
 rc-mangosteen-beastmaster-star4:
   kind: screenshot
   description: マンゴスチン獣使いのランブルチェス星4詳細。詳細画面Lv.7、雷の絆・星4選択・絆ポイント8を確認。能力：準備完了：攻撃力の25%を継承する★3マンゴスチンピッグ4体を一時的に召喚する
@@ -3515,7 +3492,6 @@ rc-hanakinoko-apothecary-star4:
   mode: rumble-chess
   screen: detail
   selectedStar: 4
-
 coffee-bean-chief-base-star1:
   kind: screenshot
   description: コーヒービーンチーフ・通常詳細Lv.4・星1
@@ -3615,7 +3591,6 @@ wicked-mirror-memo:
 acorn-madman-memo:
   kind: user
   description: ドングリマッドマンの攻略メモ（評価・使い方・注意点）
-
 rc-potato-seller-star4:
   kind: screenshot
   description: ポテトセラーのランブルチェス星4詳細。最低保証Lv.7適用（現在Lv.1）、雲の絆・星4選択・絆ポイント8を確認。能力：準備完了：ショップを無料で3回更新できる
@@ -3670,7 +3645,6 @@ rc-acorn-madman-star4:
   mode: rumble-chess
   screen: detail
   selectedStar: 4
-
 rumble-limited-user-20260925:
   kind: user
   description: 2026-09-25ユーザー確認：ラフレシアとバンブーアーチャーはランブルチェス限定、ランクマッチ使用不可・評価対象外。
@@ -3988,7 +3962,6 @@ rc-muscle-watermelon-star4:
   mode: rumble-chess
   screen: detail
   selectedStar: 4
-
 potato-seller-base-star1:
   kind: screenshot
   description: ポテトセラー・通常詳細Lv.1・星1
@@ -4093,7 +4066,6 @@ carrot-broker-icon-source:
   description: 通常ミニオン一覧・ニンジンブローカーのカードアイコン
   mode: standard
   screen: pool-list
-
 candle-badge-detail:
   kind: screenshot
   description: キャンドルサモナーバッジ Lv.1・レジェンド・効果・入手方法
@@ -4106,13 +4078,9 @@ candle-badge-levels-4-5:
 candle-charm-detail:
   kind: screenshot
   description: キャンドルサモナーチャームⅠの名前・効果
-
-
 captain-badge-user-20260928:
   kind: user
   description: 2026-09-28ユーザー確認：バッジの最大Lvは5。費用は将来収録予定。+7%表示は今回対象外。背景なしアイコンは四角いレア度背景なしの星形本体。
-
-
 lucky-cat-badge-detail:
   kind: screenshot
   description: 招き猫バッジ Lv.1・レア度・効果・入手方法
@@ -4215,7 +4183,6 @@ lucky-cat-match-start-keyword:
 mad-king-keywords:
   kind: screenshot
   description: マッドキングバッジ：バトル開始・一時の説明
-
 rumble-badge-types-user-20260928:
   kind: user
   description: 2026-09-28ユーザー確認：ランブルバッジ（背景青色）とランブルゴールドパスバッジ（背景赤色）の2種類。今回追加分はすべてランブルバッジ。ゴールドパス分は後日追加。
@@ -4346,7 +4313,7 @@ rumble-badge-broccoli-detail:
   screen: badge-detail
 rumble-badge-circus-detail:
   kind: screenshot
-  description: サーカス：名前・効果全文・青背景のバッジ図柄
+  description: サーカス隊長：名前・効果全文・青背景のバッジ図柄
   mode: rumble-chess
   screen: badge-detail
 rumble-badge-tulip-detail:
@@ -4394,7 +4361,6 @@ rumble-badge-star-detail:
   description: 星隊長：名前・効果全文・青背景のバッジ図柄
   mode: rumble-chess
   screen: badge-detail
-
 rumble-badge-projection-detail:
   kind: screenshot
   description: 投影隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
@@ -4500,7 +4466,6 @@ rumble-badge-alien-detail:
   description: エイリアン隊長：名前・効果全文・赤背景のランブルゴールドパスバッジ図柄
   mode: rumble-chess
   screen: badge-detail
-
 fate-gifts-user-20260928:
   kind: user
   description: 2026-09-28ユーザー確認：運命のギフトはラウンド4・7・10の3種類。今回追加した20枚はすべてラウンド4。解放条件が記載されていないものは解放条件なしとして登録。
@@ -4584,7 +4549,6 @@ fate-gift-round-4-super-transformation-detail:
   kind: screenshot
   description: 運命のギフト「超変化」：名前・効果全文・図柄・解放条件の表示を確認。ラウンドはユーザー確認を参照。
   screen: fate-gift-detail
-
 fate-gifts-round-7-user-20260928:
   kind: user
   description: 2026-09-28ユーザー確認：今回追加した運命のギフト20枚はラウンド7。前回と同様に登録し、解放条件の記載がないものは解放条件なしとする。
@@ -4668,7 +4632,6 @@ fate-gift-round-7-hp-barrier-detail:
   kind: screenshot
   description: 運命のギフト「HPバリア」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド7はユーザー確認を参照。
   screen: fate-gift-detail
-
 fate-gifts-round-10-user-20260928:
   kind: user
   description: 2026-09-28ユーザー確認：今回追加した運命のギフト14枚はラウンド10。前回と同様に登録し、解放条件の記載がないものは解放条件なしとする。
@@ -4728,3 +4691,58 @@ fate-gift-round-10-swap-magic-detail:
   kind: screenshot
   description: 運命のギフト「スワップマジック」：名前・効果全文・図柄・解放条件の表示を確認。ラウンド10はユーザー確認を参照。
   screen: fate-gift-detail
+garlic-ranger-exclude-keywords:
+  kind: screenshot
+  description: ガーリックレンジャーⅠの通常バリアント画面（詳細Lv.5）で表示した除外・休眠の用語説明。
+  mode: standard
+grape-bartender-sell-keywords:
+  kind: screenshot
+  description: グレープバーテンダーⅠの通常バリアント画面で表示した売却・一時の用語説明。
+  mode: standard
+rumble-limited-user-20261006:
+  kind: user
+  description: 2026-10-06ユーザー確認：バンブーアーチャーとラフレシアはランブルチェス限定。通常詳細は存在せず、通常カードプール解放条件も存在しない。画像の入手不可表示と限定の確認を分けて登録する方針を了承。
+rc-bamboo-archer-acquisition-20261006:
+  kind: screenshot
+  description: バンブーアーチャーのランブルチェス詳細、星1・ON。入手方法欄「現在入手できません」を確認。
+  mode: rumble-chess
+  screen: detail
+rc-rafflesia-acquisition-20261006:
+  kind: screenshot
+  description: ラフレシアのランブルチェス詳細、星1・ON。入手方法欄「現在入手できません」を確認。
+  mode: rumble-chess
+  screen: detail
+fate-gifts-round-4-list-20261012:
+  kind: screenshot
+  description: 運命のギフト一覧。ラウンド4見出しとボーナスゴールドからブラッドコイン取引までの名前・図柄・連続した配置を確認。監査済み先頭10件のラウンド根拠。
+  screen: fate-gift-list
+fate-gifts-round-4-list-continuation-20261012:
+  kind: screenshot
+  description: 運命のギフト一覧のラウンド4続き。先頭の期間限定割引・スターインフュージョン・ブラッドコイン取引が見出し付き画像と重複し、期間限定コピー・パワー吸収・シールドストライクは下部のラウンド7見出しより上にある。
+  screen: fate-gift-list
+fate-gifts-round-7-list-20261012:
+  kind: screenshot
+  description: 運命のギフト一覧。ラウンド7見出しと、その直下のボーナスゴールド・隊長回復・指定星アップ・パワー強化・全体強化ほかの名前と図柄を確認。
+  screen: fate-gift-list
+fate-gifts-round-7-list-continuation-20261012:
+  kind: screenshot
+  description: 運命のギフト一覧のラウンド7続き。先頭の攻めの優位・即時コピー・クイック攻撃が見出し付き一覧末尾と重複し、特別ルートが直後に並ぶ。
+  screen: fate-gift-list
+fate-gifts-round-7-list-end-20261012:
+  kind: screenshot
+  description: 運命のギフト一覧のラウンド7末尾。ショップ割引・運命のルーレット・ミニオン捕食の重複行、富の契約・HPバリア、その下のラウンド10見出しを確認。
+  screen: fate-gift-list
+fate-gifts-round-10-list-20261012:
+  kind: screenshot
+  description: 運命のギフト一覧。ラウンド10見出し直下にマッチョマン・マッスルコントロール・潜在能力開放・強力な増援・猛攻の波・パーフェクトコピーの名称と図柄を確認。
+  screen: fate-gift-list
+fate-gifts-round-10-list-continuation-20261012:
+  kind: screenshot
+  description: 運命のギフト一覧ラウンド10の続き。見出し画像と強力な増援・猛攻の波・パーフェクトコピーが重複し、その下に一斉星アップ・パワー強奪・HPチップ・パワーシェアを確認。
+    末尾のアルティメットミラージュ・一か八か・同化コピー・スワップマジックの名称と図柄も確認。
+  screen: fate-gift-list
+
+variant-absence-user-20261014:
+  kind: user
+  variantControl: absent
+  description: 2026-10-14ユーザー確認：バンブーアーチャーとラフレシアにはバリアントがないことをゲーム内で確認済み。ユーザー確認を根拠として「なし」と登録するよう指示。

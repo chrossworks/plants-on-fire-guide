@@ -1,16 +1,17 @@
 schemaVersion: 1
 id: round-7-power-sharing
-updated: 2026-09-28
+updated: 2026-10-13
 name:
   status: observed
   value: パワー共有
   sources:
     - fate-gift-round-7-power-sharing-detail
 round:
-  status: manual
+  status: observed
   value: 7
   sources:
-    - fate-gifts-round-7-user-20260928
+    - fate-gifts-round-7-list-20261012
+    - fate-gifts-round-7-list-continuation-20261012
 effect:
   status: observed
   value: 指定したミニオンに、現在のフィールド上で最も攻撃力が高い他のミニオンの攻撃力の50%を付与する

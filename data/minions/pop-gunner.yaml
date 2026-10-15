@@ -809,7 +809,7 @@ variants:
             status: observed
             value:
               text: 敵に弾丸を3発連続で発射し、1発につき40%のダメージを与え、自身の攻撃力が一時的に+2%（いずれかのミニオンが敵を撃破するとこのバフが解除される）
-              keywords: []
+              keywords: [temporary]
             sources:
               - pop-gunner-v3-star1
         - star: 2
@@ -833,7 +833,7 @@ variants:
             status: observed
             value:
               text: 敵に弾丸を4発連続で発射し、1発につき40%のダメージを与え、自身の攻撃力が一時的に+2%（いずれかのミニオンが敵を撃破するとこのバフが解除される）
-              keywords: []
+              keywords: [temporary]
             sources:
               - pop-gunner-v3-star2
         - star: 3
@@ -857,7 +857,7 @@ variants:
             status: observed
             value:
               text: 敵に弾丸を5発連続で発射し、1発につき40%のダメージを与え、自身の攻撃力が一時的に+2%（いずれかのミニオンが敵を撃破するとこのバフが解除される）
-              keywords: []
+              keywords: [temporary]
             sources:
               - pop-gunner-v3-star3
       initial:
@@ -872,19 +872,19 @@ variants:
           - status: observed
             value:
               text: 敵に弾丸を3発連続で発射し、1発につき40%のダメージを与え、自身の攻撃力が一時的に+2%（いずれかのミニオンが敵を撃破するとこのバフが解除される）
-              keywords: []
+              keywords: [temporary]
             sources:
               - pop-gunner-v3-star1
           - status: observed
             value:
               text: 敵に弾丸を4発連続で発射し、1発につき40%のダメージを与え、自身の攻撃力が一時的に+2%（いずれかのミニオンが敵を撃破するとこのバフが解除される）
-              keywords: []
+              keywords: [temporary]
             sources:
               - pop-gunner-v3-star2
           - status: observed
             value:
               text: 敵に弾丸を5発連続で発射し、1発につき40%のダメージを与え、自身の攻撃力が一時的に+2%（いずれかのミニオンが敵を撃破するとこのバフが解除される）
-              keywords: []
+              keywords: [temporary]
             sources:
               - pop-gunner-v3-star3
       bonuses:

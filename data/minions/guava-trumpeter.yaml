@@ -173,9 +173,9 @@ base:
         status: observed
         value:
           text: 一時攻撃力ボーナスが3に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 3
+          unit: points
         sources:
           - guava-trumpeter-base-up1
     - level: 8
@@ -203,9 +203,9 @@ base:
         status: observed
         value:
           text: 一時攻撃力ボーナスが5に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 5
+          unit: points
         sources:
           - guava-trumpeter-base-up2
     - level: 11
@@ -213,9 +213,9 @@ base:
         status: observed
         value:
           text: 一時攻撃力ボーナスが6に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 6
+          unit: points
         sources:
           - guava-trumpeter-base-up3
     - level: 12
@@ -223,9 +223,9 @@ base:
         status: observed
         value:
           text: 一時攻撃力ボーナスが7に上昇する
-          operation: text
-          value: null
-          unit: none
+          operation: ability_set
+          value: 7
+          unit: points
         sources:
           - guava-trumpeter-base-up3
   bonusCoverage:
@@ -408,9 +408,9 @@ variants:
             status: observed
             value:
               text: 攻撃速度ボーナスが50%に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 50
+              unit: percent
             sources:
               - guava-trumpeter-v1-up1
         - level: 8
@@ -448,9 +448,9 @@ variants:
             status: observed
             value:
               text: 攻撃速度ボーナスが75%に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 75
+              unit: percent
             sources:
               - guava-trumpeter-v1-up3
         - level: 12
@@ -458,9 +458,9 @@ variants:
             status: observed
             value:
               text: 攻撃速度ボーナスが100%に上昇する
-              operation: text
-              value: null
-              unit: none
+              operation: ability_set
+              value: 100
+              unit: percent
             sources:
               - guava-trumpeter-v1-up3
       bonusCoverage:
