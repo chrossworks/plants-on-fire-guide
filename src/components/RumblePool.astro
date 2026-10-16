@@ -1,0 +1,15 @@
+---
+import Fact from './Fact.astro';
+import { minions, url } from '../lib/site';
+const { pool }=Astro.props;
+const linkFor=name=>{
+ const cardId=pool.memberIds[name],ref=pool.memberForms?.[cardId],m=minions.find(m=>m.id===(ref?.minionId||cardId));
+ return m?url('minions/'+m.id+'/'+(ref?ref.formId+'/#rumble-chess':'#rumble-chess')):undefined;
+};
+---
+<div data-no-minion-links>
+{pool.decks.map(d=><section><h3><Fact fact={d.name}/></h3><ul>{d.members.value?.map(name=>{
+ const entry=pool.minions[pool.memberIds[name]],link=linkFor(name);
+ return <li>{link?<a href={link}>{name}</a>:name}{entry?.exclusive?.value && <>（ランブルチェス専用・新規追加{!link && '、詳細性能未確認'}）</>}</li>;
+})}</ul></section>)}
+</div>

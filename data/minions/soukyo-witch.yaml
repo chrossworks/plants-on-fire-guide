@@ -1,0 +1,213 @@
+schemaVersion: 1
+id: soukyo-witch
+name: ソウキョウ魔女
+reading: そうきょうまじょ
+introduced:
+  status: manual
+  value: 2026-09-29
+  sources:
+    - rumble-pool-user-20261016
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - rc-soukyo-witch-star1
+cost:
+  status: observed
+  value: 8
+  sources:
+    - rc-soukyo-witch-star1
+updated: 2026-10-16
+icon: soukyo-witch-icon
+portrait: soukyo-witch-portrait
+evaluation:
+  rank: 対象外
+  scope: ランクマッチ評価の対象外（ランブルチェス専用）
+  source: soukyo-witch-editorial-20261016
+availability:
+  ranked:
+    status: manual
+    value: false
+    sources:
+      - rumble-pool-user-20261016
+  acquisition:
+    status: observed
+    value: unobtainable
+    sources:
+      - rc-soukyo-witch-star1
+base:
+  id: base
+  name: 基本形
+  conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。
+  stars:
+    - stats:
+        attack:
+          status: observed
+          value: 0
+          sources:
+            - rc-soukyo-witch-star1
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - rc-soukyo-witch-star1
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - rc-soukyo-witch-star1
+      star: 1
+      ability:
+        status: observed
+        value:
+          text: 味方が最初に召喚したラッシュユニット10体のシールド+1
+          keywords:
+            - shield
+        sources:
+          - rc-soukyo-witch-star1
+    - stats:
+        attack:
+          status: observed
+          value: 0
+          sources:
+            - rc-soukyo-witch-star2
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - rc-soukyo-witch-star2
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - rc-soukyo-witch-star2
+      star: 2
+      ability:
+        status: observed
+        value:
+          text: 味方が最初に召喚したラッシュユニット10体のシールド+2
+          keywords:
+            - shield
+        sources:
+          - rc-soukyo-witch-star2
+    - stats:
+        attack:
+          status: observed
+          value: 0
+          sources:
+            - rc-soukyo-witch-star3
+        interval:
+          status: observed
+          value: 0
+          sources:
+            - rc-soukyo-witch-star3
+        target:
+          status: observed
+          value: 攻撃不可
+          sources:
+            - rc-soukyo-witch-star3
+      star: 3
+      ability:
+        status: observed
+        value:
+          text: 味方が最初に召喚したラッシュユニット10体のシールド+4
+          keywords:
+            - shield
+        sources:
+          - rc-soukyo-witch-star3
+  initial:
+    attack:
+      status: unknown
+      reason: ランブルチェスの撮影値から初期攻撃力への換算は行っていません。
+    abilities:
+      - status: unknown
+        reason: ランブルチェスの撮影値から初期能力への換算は行っていません。
+      - status: unknown
+        reason: ランブルチェスの撮影値から初期能力への換算は行っていません。
+      - status: unknown
+        reason: ランブルチェスの撮影値から初期能力への換算は行っていません。
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 味方が最初に召喚したラッシュユニット12体のシールド+1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-soukyo-witch-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 味方が最初に召喚したラッシュユニット14体のシールド+1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-soukyo-witch-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 味方が召喚したラッシュユニットのシールド+1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-soukyo-witch-up1
+          - rc-soukyo-witch-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 最初のラッシュユニット3体のシールドが追加で+1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-soukyo-witch-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 最初のラッシュユニット6体のシールドが追加で+1
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-soukyo-witch-up2
+  poolUnlock:
+    status: unknown
+    reason: ランブルチェスでの登場は雷デッキで確認。通常のカードプール解放条件は未確認。
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - rc-soukyo-witch-star1
+      - rc-soukyo-witch-star2
+      - rc-soukyo-witch-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - rc-soukyo-witch-up1
+      - rc-soukyo-witch-up2
+  acquisition:
+    status: observed
+    value: 現在入手できません
+    sources:
+      - rc-soukyo-witch-star1
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - rc-soukyo-witch-up1
+      - rc-soukyo-witch-up2
+variants:
+  status: unknown
+  note: ランブルチェス画面ではバリアントの有無を判定できません。
+  items: []

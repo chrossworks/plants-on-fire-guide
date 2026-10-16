@@ -1,0 +1,7 @@
+---
+import MinionPage from '../../../components/MinionPage.astro';
+import { minions } from '../../../lib/site';
+export function getStaticPaths(){return minions.flatMap(m=>m.variants.items.map(form=>({params:{id:m.id,formId:form.id},props:{m,form}})));}
+const {m,form}=Astro.props;
+---
+<MinionPage m={m} form={form}/>

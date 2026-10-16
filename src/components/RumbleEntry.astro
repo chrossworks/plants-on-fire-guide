@@ -1,0 +1,14 @@
+---
+import Fact from './Fact.astro';
+import { imageUrl } from '../lib/site';
+const { entry }=Astro.props;
+const star4=entry.star4?.value;
+---
+{entry.availability.value === false ? <p>ランブルチェスには登場しません。星4能力・絆は対象外です。</p>
+: entry.availability.value !== true ? <p>この形態のランブルチェスへの登場は未確認です。共有デッキを含む全構成は未確認です。</p>
+: <>
+<p class="bond-label"><span>絆：</span>{entry.deck?.bond.icon?.value && <img src={imageUrl(entry.deck.bond.icon.value)} alt="" width="32" height="32" loading="lazy"/>}{entry.deck ? <Fact fact={entry.deck.bond.name}/> : '未確認'}</p>
+<h4>★★★★の能力</h4>
+{star4 ? <><p><Fact fact={{...entry.star4,value:star4.ability}}/></p><p class="condition">{star4.conditions}</p></> : <p>星4の能力は未確認です。</p>}
+</>}
+<style>.bond-label{display:flex;align-items:center;gap:.4rem}.bond-label img{width:32px;height:32px;flex-shrink:0;border-radius:50%}</style>

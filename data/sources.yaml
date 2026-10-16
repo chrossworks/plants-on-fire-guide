@@ -180,22 +180,19 @@ orchid-initial-star1:
   mode: standard
   screen: detail
   variantControl: absent
-  description: オーキッド占星術師 Lv.7
-    星1、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+4。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
+  description: オーキッド占星術師 Lv.7 星1、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+4。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
 orchid-initial-star2:
   kind: screenshot
   mode: standard
   screen: detail
   variantControl: absent
-  description: オーキッド占星術師 Lv.7
-    星2、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+8。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
+  description: オーキッド占星術師 Lv.7 星2、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+8。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
 orchid-initial-star3:
   kind: screenshot
   mode: standard
   screen: detail
   variantControl: absent
-  description: オーキッド占星術師 Lv.7
-    星3、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+16。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
+  description: オーキッド占星術師 Lv.7 星3、ON表示。攻撃力10、攻撃間隔2秒、最前列。準備完了の強化量+16。入手方法はスプラウト宝箱、募集、合成ファームで一定確率で獲得。
 appolis-base-star1:
   kind: screenshot
   description: アッポリス・通常詳細Lv.1・星1
@@ -4738,8 +4735,7 @@ fate-gifts-round-10-list-20261012:
   screen: fate-gift-list
 fate-gifts-round-10-list-continuation-20261012:
   kind: screenshot
-  description: 運命のギフト一覧ラウンド10の続き。見出し画像と強力な増援・猛攻の波・パーフェクトコピーが重複し、その下に一斉星アップ・パワー強奪・HPチップ・パワーシェアを確認。
-    末尾のアルティメットミラージュ・一か八か・同化コピー・スワップマジックの名称と図柄も確認。
+  description: 運命のギフト一覧ラウンド10の続き。見出し画像と強力な増援・猛攻の波・パーフェクトコピーが重複し、その下に一斉星アップ・パワー強奪・HPチップ・パワーシェアを確認。 末尾のアルティメットミラージュ・一か八か・同化コピー・スワップマジックの名称と図柄も確認。
   screen: fate-gift-list
 
 variant-absence-user-20261014:
@@ -4991,3 +4987,216 @@ orchid-astrologer-variant-1-up2:
   kind: screenshot
   description: オーキッド占星術師Ⅰ・育成画面・現在Lv.7・一覧2
   mode: standard
+
+mango-ninja-post0929-star1:
+  kind: screenshot
+  description: マンゴーニンジャ・9/29調整後・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+mango-ninja-post0929-star2:
+  kind: screenshot
+  description: マンゴーニンジャ・9/29調整後・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+mango-ninja-post0929-star3:
+  kind: screenshot
+  description: マンゴーニンジャ・9/29調整後・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+mango-ninja-post0929-up1:
+  kind: screenshot
+  description: マンゴーニンジャ・9/29調整後・育成画面・現在Lv.7・一覧1
+  mode: standard
+mango-ninja-post0929-up2:
+  kind: screenshot
+  description: マンゴーニンジャ・9/29調整後・育成画面・現在Lv.7・一覧2
+  mode: standard
+violet-mage-post0929-star1:
+  kind: screenshot
+  description: バイオレット魔法使い・9/29調整後・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+violet-mage-post0929-star2:
+  kind: screenshot
+  description: バイオレット魔法使い・9/29調整後・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+violet-mage-post0929-star3:
+  kind: screenshot
+  description: バイオレット魔法使い・9/29調整後・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+violet-mage-post0929-up1:
+  kind: screenshot
+  description: バイオレット魔法使い・9/29調整後・育成画面・現在Lv.7・一覧1
+  mode: standard
+violet-mage-post0929-up2:
+  kind: screenshot
+  description: バイオレット魔法使い・9/29調整後・育成画面・現在Lv.7・一覧2
+  mode: standard
+pakupaku-flower-post0929-star1:
+  kind: screenshot
+  description: パクパクフラワーⅠ・9/29調整後・通常詳細Lv.7・星1
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+pakupaku-flower-post0929-star2:
+  kind: screenshot
+  description: パクパクフラワーⅠ・9/29調整後・通常詳細Lv.7・星2
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+pakupaku-flower-post0929-star3:
+  kind: screenshot
+  description: パクパクフラワーⅠ・9/29調整後・通常詳細Lv.7・星3
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+pakupaku-flower-post0929-up1:
+  kind: screenshot
+  description: パクパクフラワーⅠ・9/29調整後・育成画面・現在Lv.7・一覧1
+  mode: standard
+pakupaku-flower-post0929-up2:
+  kind: screenshot
+  description: パクパクフラワーⅠ・9/29調整後・育成画面・現在Lv.7・一覧2
+  mode: standard
+
+pirate-badge-post0929-detail:
+  kind: screenshot
+  description: 海賊隊長バッジ・詳細Lv1（9/29調整後）
+pirate-badge-post0929-up1:
+  kind: screenshot
+  description: 海賊隊長バッジ・育成現在Lv1・Lv2〜3（9/29調整後）
+pirate-badge-post0929-up2:
+  kind: screenshot
+  description: 海賊隊長バッジ・育成現在Lv1・Lv4〜5（9/29調整後）
+pirate-charm-post0929-detail:
+  kind: screenshot
+  description: 海賊隊長チャームⅠ・詳細（9/29調整後）
+
+rumble-pool-post0929-cloud:
+  kind: screenshot
+  description: 9/29調整後・ランブルチェスカードプール・雲デッキ全10枠
+  mode: rumble-chess
+  screen: pool-list
+rumble-pool-post0929-moon:
+  kind: screenshot
+  description: 9/29調整後・ランブルチェスカードプール・月デッキ全10枠
+  mode: rumble-chess
+  screen: pool-list
+rumble-pool-post0929-sun:
+  kind: screenshot
+  description: 9/29調整後・ランブルチェスカードプール・太陽デッキ全10枠
+  mode: rumble-chess
+  screen: pool-list
+rumble-pool-post0929-thunder:
+  kind: screenshot
+  description: 9/29調整後・ランブルチェスカードプール・雷デッキ全10枠
+  mode: rumble-chess
+  screen: pool-list
+rumble-pool-post0929-droplet:
+  kind: screenshot
+  description: 9/29調整後・ランブルチェスカードプール・雫デッキ全10枠
+  mode: rumble-chess
+  screen: pool-list
+rumble-pool-post0929-star:
+  kind: screenshot
+  description: 9/29調整後・ランブルチェスカードプール・星デッキ全10枠
+  mode: rumble-chess
+  screen: pool-list
+rumble-pool-user-20261016:
+  kind: user
+  description: 2026-10-16：提供画像は9/29調整後。各絆の効果は変更なし。マジシャン・キュウリとソウキョウ魔女は今回新規のランブルチェス専用ミニオン。詳細画像は後日追加。
+rc-magician-cucumber-star1:
+  kind: screenshot
+  description: マジシャン・キュウリ・ランブルチェス専用・表示Lv.7・星1
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+  variantControl: unconfirmed
+rc-magician-cucumber-star2:
+  kind: screenshot
+  description: マジシャン・キュウリ・ランブルチェス専用・表示Lv.7・星2
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+  variantControl: unconfirmed
+rc-magician-cucumber-star3:
+  kind: screenshot
+  description: マジシャン・キュウリ・ランブルチェス専用・表示Lv.7・星3
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+  variantControl: unconfirmed
+rc-magician-cucumber-star4:
+  kind: screenshot
+  description: マジシャン・キュウリ・ランブルチェス専用・表示Lv.7・星4
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-magician-cucumber-up1:
+  kind: screenshot
+  description: マジシャン・キュウリ・ランブルチェス専用・育成Lv.7・Lv.8〜10
+  mode: rumble-chess
+rc-magician-cucumber-up2:
+  kind: screenshot
+  description: マジシャン・キュウリ・ランブルチェス専用・育成Lv.7・Lv.10〜12
+  mode: rumble-chess
+magician-cucumber-editorial-20261016:
+  kind: user
+  description: 2026-10-16追加のマジシャン・キュウリの元メモ。実装日2026-09-29、ランブルチェス専用、評価対象外、使い方・注意点。
+rc-soukyo-witch-star1:
+  kind: screenshot
+  description: ソウキョウ魔女・ランブルチェス専用・表示Lv.7・星1
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+  variantControl: unconfirmed
+rc-soukyo-witch-star2:
+  kind: screenshot
+  description: ソウキョウ魔女・ランブルチェス専用・表示Lv.7・星2
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+  variantControl: unconfirmed
+rc-soukyo-witch-star3:
+  kind: screenshot
+  description: ソウキョウ魔女・ランブルチェス専用・表示Lv.7・星3
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+  variantControl: unconfirmed
+rc-soukyo-witch-star4:
+  kind: screenshot
+  description: ソウキョウ魔女・ランブルチェス専用・表示Lv.7・星4
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-soukyo-witch-up1:
+  kind: screenshot
+  description: ソウキョウ魔女・ランブルチェス専用・育成Lv.7・Lv.8〜10
+  mode: rumble-chess
+rc-soukyo-witch-up2:
+  kind: screenshot
+  description: ソウキョウ魔女・ランブルチェス専用・育成Lv.7・Lv.10〜12
+  mode: rumble-chess
+soukyo-witch-editorial-20261016:
+  kind: user
+  description: 2026-10-16追加のソウキョウ魔女の元メモ。実装日2026-09-29、ランブルチェス専用、評価対象外、使い方・注意点。

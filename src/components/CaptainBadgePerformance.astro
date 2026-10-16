@@ -1,0 +1,13 @@
+---
+import Fact from './Fact.astro';
+const {badge}=Astro.props;
+---
+<div class="captain-badge-performance">
+<h4><Fact fact={badge.name}/></h4>
+<p class="condition">詳細画面：Lv.<Fact fact={badge.observedLevel}/>{badge.progression.observedLevel && <> ／ 育成画面の現在Lv.<Fact fact={badge.progression.observedLevel}/></>}</p>
+<p><Fact fact={badge.effect}/></p>
+<table><caption>バッジの育成効果</caption><thead><tr><th scope="col">到達Lv</th><th scope="col">変更内容</th></tr></thead><tbody>{badge.progression.levels.map(row=><tr><th scope="row">Lv.{row.level}</th><td><Fact fact={row.effect}/></td></tr>)}</tbody></table>
+<p>育成費用：<Fact fact={badge.progression.costs}/></p>
+<p>入手方法：<Fact fact={badge.acquisition}/></p>
+{badge.charms.map(charm=><div><h4><Fact fact={charm.name}/></h4><p><Fact fact={charm.effect}/></p><p>強化後の効果：<Fact fact={charm.upgradedEffect}/></p></div>)}
+</div>

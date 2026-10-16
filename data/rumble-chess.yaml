@@ -1,196 +1,819 @@
 schemaVersion: 1
 mode: rumble-chess
-updated: '2026-09-25'
-note: 絆所属・絆効果と、基本形に対応する星4能力を保存。基本性能は同じレベルで共通。撮影時点の6デッキ各10体を収録し、共有デッキは対象外。未掲載を非登場と判定しない。
+updated: 2026-10-16
+note: 9/29調整後の6デッキ各10枠を、基本形とバリアントを区別して収録。共有デッキは未確認で、未掲載を非登場と判定しない。cardsのコスト・表示Lvはカードプール撮影値であり通常の初期性能・育成Lvと区別。絆効果は変更なしの確認に基づき既存値を維持。更新前の所属・星4能力・詳細観測は9/29の履歴へ保存。
 decks:
   - id: cloud
-    name: {status: observed, value: 雲デッキ, sources: [rc-overview]}
+    name:
+      status: observed
+      value: 雲デッキ
+      sources:
+        - rumble-pool-post0929-cloud
     members:
       status: observed
-      value: [アンナイツバキ, ポテトセラー, アッポリス, グレープバーテンダー, サムライタケ, ザクロブラスター, スペルベリー, チリコック, ゴールドイーター, ドングリマッドマン]
-      sources: [rc-cloud]
+      value:
+        - タネワーカー
+        - アンナイツバキ
+        - バンブーアーチャー
+        - グレープバーテンダー
+        - モヒートンⅠ
+        - サムライタケ
+        - マンゴーニンジャ
+        - ルミナスツリー
+        - ゴールドイーター
+        - ドングリマッドマン
+      sources:
+        - rumble-pool-post0929-cloud
     bond:
-      icon: {status: observed, value: rc-cloud-icon, sources: [rc-cloud-bond]}
-      name: {status: observed, value: 雲の絆, sources: [rc-cloud-bond]}
+      icon:
+        status: observed
+        value: rc-cloud-icon
+        sources:
+          - rc-cloud-bond
+      name:
+        status: observed
+        value: 雲の絆
+        sources:
+          - rc-cloud-bond
       tiers:
         status: observed
         value:
-          - {threshold: 4, text: 'ショップ内のミニオンの攻撃力+1', amount: 1, unit: points}
-          - {threshold: 8, text: 'ショップ内のミニオンの攻撃力+2', amount: 2, unit: points}
-          - {threshold: 12, text: 'ショップ内のミニオンの攻撃力+4', amount: 4, unit: points}
-          - {threshold: 16, text: 'ショップ内のミニオンの攻撃力+6', amount: 6, unit: points}
-          - {threshold: 20, text: 'ショップ内のミニオンの攻撃力+9', amount: 9, unit: points}
-          - {threshold: 25, text: 'ショップ内のミニオンの攻撃力+13', amount: 13, unit: points}
-          - {threshold: 30, text: 'ショップ内のミニオンの攻撃力+18', amount: 18, unit: points}
-          - {threshold: 35, text: 'ショップ内のミニオンの攻撃力+25', amount: 25, unit: points}
-          - {threshold: 40, text: 'ショップ内のミニオンの攻撃力+35', amount: 35, unit: points}
-          - {threshold: 50, text: 'ショップ内のミニオンの攻撃力+50', amount: 50, unit: points}
-        sources: [rc-cloud-bond]
-      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+          - threshold: 4
+            text: ショップ内のミニオンの攻撃力+1
+            amount: 1
+            unit: points
+          - threshold: 8
+            text: ショップ内のミニオンの攻撃力+2
+            amount: 2
+            unit: points
+          - threshold: 12
+            text: ショップ内のミニオンの攻撃力+4
+            amount: 4
+            unit: points
+          - threshold: 16
+            text: ショップ内のミニオンの攻撃力+6
+            amount: 6
+            unit: points
+          - threshold: 20
+            text: ショップ内のミニオンの攻撃力+9
+            amount: 9
+            unit: points
+          - threshold: 25
+            text: ショップ内のミニオンの攻撃力+13
+            amount: 13
+            unit: points
+          - threshold: 30
+            text: ショップ内のミニオンの攻撃力+18
+            amount: 18
+            unit: points
+          - threshold: 35
+            text: ショップ内のミニオンの攻撃力+25
+            amount: 25
+            unit: points
+          - threshold: 40
+            text: ショップ内のミニオンの攻撃力+35
+            amount: 35
+            unit: points
+          - threshold: 50
+            text: ショップ内のミニオンの攻撃力+50
+            amount: 50
+            unit: points
+        sources:
+          - rc-cloud-bond
+      tierApplication:
+        status: manual
+        value: replace
+        sources:
+          - rc-bond-replacement-user
       mechanics:
         status: unknown
         reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
+    cards:
+      status: observed
+      value:
+        - name: タネワーカー
+          cost: 3
+          displayedLevel: 7
+        - name: アンナイツバキ
+          cost: 3
+          displayedLevel: 7
+        - name: バンブーアーチャー
+          cost: 3
+          displayedLevel: 7
+        - name: グレープバーテンダー
+          cost: 5
+          displayedLevel: 7
+        - name: モヒートンⅠ
+          cost: 5
+          displayedLevel: 7
+        - name: サムライタケ
+          cost: 5
+          displayedLevel: 7
+        - name: マンゴーニンジャ
+          cost: 5
+          displayedLevel: 7
+        - name: ルミナスツリー
+          cost: 8
+          displayedLevel: 8
+        - name: ゴールドイーター
+          cost: 8
+          displayedLevel: 7
+        - name: ドングリマッドマン
+          cost: 8
+          displayedLevel: 7
+      sources:
+        - rumble-pool-post0929-cloud
   - id: moon
-    name: {status: observed, value: 月デッキ, sources: [rc-overview]}
+    name:
+      status: observed
+      value: 月デッキ
+      sources:
+        - rumble-pool-post0929-moon
     members:
       status: observed
-      value: [マッシュボム, カラカボチャ, グリーンキーパー, ゴーストオーキッド, カボチャナイト, ダンデライオン, テレ・リーフィー, ヴァルキリス, ブラックローズナイト, ウィキッドミラー]
-      sources: [rc-moon]
+      value:
+        - マッシュボム
+        - カラカボチャ
+        - グリーンキーパー
+        - カボチャナイト
+        - テレ・リーフィー
+        - スペルベリー
+        - ホワイトローズナイトⅠ
+        - ヴァルキリス
+        - ブラックローズナイト
+        - ウィキッドミラー
+      sources:
+        - rumble-pool-post0929-moon
     bond:
-      icon: {status: observed, value: rc-moon-icon, sources: [rc-moon-bond]}
-      name: {status: observed, value: 月の絆, sources: [rc-moon-bond]}
+      icon:
+        status: observed
+        value: rc-moon-icon
+        sources:
+          - rc-moon-bond
+      name:
+        status: observed
+        value: 月の絆
+        sources:
+          - rc-moon-bond
       tiers:
         status: observed
         value:
-          - {threshold: 4, text: '敵がフィールド上に出現時、4%のHPを失う', amount: 4, unit: percent}
-          - {threshold: 8, text: '敵がフィールド上に出現時、8%のHPを失う', amount: 8, unit: percent}
-          - {threshold: 12, text: '敵がフィールド上に出現時、12%のHPを失う', amount: 12, unit: percent}
-          - {threshold: 16, text: '敵がフィールド上に出現時、18%のHPを失う', amount: 18, unit: percent}
-          - {threshold: 20, text: '敵がフィールド上に出現時、24%のHPを失う', amount: 24, unit: percent}
-          - {threshold: 25, text: '敵がフィールド上に出現時、30%のHPを失う', amount: 30, unit: percent}
-          - {threshold: 30, text: '敵がフィールド上に出現時、38%のHPを失う', amount: 38, unit: percent}
-          - {threshold: 35, text: '敵がフィールド上に出現時、46%のHPを失う', amount: 46, unit: percent}
-          - {threshold: 40, text: '敵がフィールド上に出現時、54%のHPを失う', amount: 54, unit: percent}
-          - {threshold: 50, text: '敵がフィールド上に出現時、65%のHPを失う', amount: 65, unit: percent}
-        sources: [rc-moon-bond]
-      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+          - threshold: 4
+            text: 敵がフィールド上に出現時、4%のHPを失う
+            amount: 4
+            unit: percent
+          - threshold: 8
+            text: 敵がフィールド上に出現時、8%のHPを失う
+            amount: 8
+            unit: percent
+          - threshold: 12
+            text: 敵がフィールド上に出現時、12%のHPを失う
+            amount: 12
+            unit: percent
+          - threshold: 16
+            text: 敵がフィールド上に出現時、18%のHPを失う
+            amount: 18
+            unit: percent
+          - threshold: 20
+            text: 敵がフィールド上に出現時、24%のHPを失う
+            amount: 24
+            unit: percent
+          - threshold: 25
+            text: 敵がフィールド上に出現時、30%のHPを失う
+            amount: 30
+            unit: percent
+          - threshold: 30
+            text: 敵がフィールド上に出現時、38%のHPを失う
+            amount: 38
+            unit: percent
+          - threshold: 35
+            text: 敵がフィールド上に出現時、46%のHPを失う
+            amount: 46
+            unit: percent
+          - threshold: 40
+            text: 敵がフィールド上に出現時、54%のHPを失う
+            amount: 54
+            unit: percent
+          - threshold: 50
+            text: 敵がフィールド上に出現時、65%のHPを失う
+            amount: 65
+            unit: percent
+        sources:
+          - rc-moon-bond
+      tierApplication:
+        status: manual
+        value: replace
+        sources:
+          - rc-bond-replacement-user
       mechanics:
         status: unknown
         reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
+    cards:
+      status: observed
+      value:
+        - name: マッシュボム
+          cost: 3
+          displayedLevel: 7
+        - name: カラカボチャ
+          cost: 3
+          displayedLevel: 7
+        - name: グリーンキーパー
+          cost: 3
+          displayedLevel: 8
+        - name: カボチャナイト
+          cost: 5
+          displayedLevel: 8
+        - name: テレ・リーフィー
+          cost: 5
+          displayedLevel: 7
+        - name: スペルベリー
+          cost: 5
+          displayedLevel: 7
+        - name: ホワイトローズナイトⅠ
+          cost: 5
+          displayedLevel: 9
+        - name: ヴァルキリス
+          cost: 8
+          displayedLevel: 7
+        - name: ブラックローズナイト
+          cost: 8
+          displayedLevel: 7
+        - name: ウィキッドミラー
+          cost: 8
+          displayedLevel: 8
+      sources:
+        - rumble-pool-post0929-moon
   - id: sun
-    name: {status: observed, value: 太陽デッキ, sources: [rc-overview]}
+    name:
+      status: observed
+      value: 太陽デッキ
+      sources:
+        - rumble-pool-post0929-sun
     members:
       status: observed
-      value: [タネワーカー, ココバンク, サボテンガーディアン, モヒートン, メロンアカウンタント, ドラフルガード, ヒマワリ店長, ヒマワリバンカー, レディ・チューリップ, コーヒービーンチーフ]
-      sources: [rc-sun]
+      value:
+        - ココバンク
+        - サボテンガーディアン
+        - ポテトセラー
+        - メロンアカウンタントⅠ
+        - ドラフルガード
+        - オニオンバード
+        - ヒマワリ店長
+        - ヒマワリバンカー
+        - レディ・チューリップⅠ
+        - コーヒービーンチーフⅠ
+      sources:
+        - rumble-pool-post0929-sun
     bond:
-      icon: {status: observed, value: rc-sun-icon, sources: [rc-sun-bond]}
-      name: {status: observed, value: 太陽の絆, sources: [rc-sun-bond]}
+      icon:
+        status: observed
+        value: rc-sun-icon
+        sources:
+          - rc-sun-bond
+      name:
+        status: observed
+        value: 太陽の絆
+        sources:
+          - rc-sun-bond
       tiers:
         status: observed
         value:
-          - {threshold: 4, text: '準備完了：サンコイン1個を獲得する', amount: 1, unit: coins}
-          - {threshold: 8, text: '準備完了：サンコイン2個を獲得する', amount: 2, unit: coins}
-          - {threshold: 12, text: '準備完了：サンコイン3個を獲得する', amount: 3, unit: coins}
-          - {threshold: 16, text: '準備完了：サンコイン4個を獲得する', amount: 4, unit: coins}
-          - {threshold: 20, text: '準備完了：サンコイン6個を獲得する', amount: 6, unit: coins}
-          - {threshold: 25, text: '準備完了：サンコイン8個を獲得する', amount: 8, unit: coins}
-          - {threshold: 30, text: '準備完了：サンコイン11個を獲得する', amount: 11, unit: coins}
-          - {threshold: 35, text: '準備完了：サンコイン15個を獲得する', amount: 15, unit: coins}
-          - {threshold: 40, text: '準備完了：サンコイン20個を獲得する', amount: 20, unit: coins}
-          - {threshold: 50, text: '準備完了：サンコイン30個を獲得する', amount: 30, unit: coins}
-        sources: [rc-sun-bond]
-      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+          - threshold: 4
+            text: 準備完了：サンコイン1個を獲得する
+            amount: 1
+            unit: coins
+          - threshold: 8
+            text: 準備完了：サンコイン2個を獲得する
+            amount: 2
+            unit: coins
+          - threshold: 12
+            text: 準備完了：サンコイン3個を獲得する
+            amount: 3
+            unit: coins
+          - threshold: 16
+            text: 準備完了：サンコイン4個を獲得する
+            amount: 4
+            unit: coins
+          - threshold: 20
+            text: 準備完了：サンコイン6個を獲得する
+            amount: 6
+            unit: coins
+          - threshold: 25
+            text: 準備完了：サンコイン8個を獲得する
+            amount: 8
+            unit: coins
+          - threshold: 30
+            text: 準備完了：サンコイン11個を獲得する
+            amount: 11
+            unit: coins
+          - threshold: 35
+            text: 準備完了：サンコイン15個を獲得する
+            amount: 15
+            unit: coins
+          - threshold: 40
+            text: 準備完了：サンコイン20個を獲得する
+            amount: 20
+            unit: coins
+          - threshold: 50
+            text: 準備完了：サンコイン30個を獲得する
+            amount: 30
+            unit: coins
+        sources:
+          - rc-sun-bond
+      tierApplication:
+        status: manual
+        value: replace
+        sources:
+          - rc-bond-replacement-user
       mechanics:
         status: unknown
         reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
+    cards:
+      status: observed
+      value:
+        - name: ココバンク
+          cost: 3
+          displayedLevel: 7
+        - name: サボテンガーディアン
+          cost: 3
+          displayedLevel: 7
+        - name: ポテトセラー
+          cost: 3
+          displayedLevel: 8
+        - name: メロンアカウンタントⅠ
+          cost: 5
+          displayedLevel: 7
+        - name: ドラフルガード
+          cost: 5
+          displayedLevel: 7
+        - name: オニオンバード
+          cost: 5
+          displayedLevel: 7
+        - name: ヒマワリ店長
+          cost: 5
+          displayedLevel: 9
+        - name: ヒマワリバンカー
+          cost: 8
+          displayedLevel: 8
+        - name: レディ・チューリップⅠ
+          cost: 8
+          displayedLevel: 8
+        - name: コーヒービーンチーフⅠ
+          cost: 8
+          displayedLevel: 7
+      sources:
+        - rumble-pool-post0929-sun
   - id: thunder
-    name: {status: observed, value: 雷デッキ, sources: [rc-overview]}
+    name:
+      status: observed
+      value: 雷デッキ
+      sources:
+        - rumble-pool-post0929-thunder
     members:
       status: observed
-      value: [マンゴスチン獣使い, ハクサイ衛兵, グァバラッパ, パクパクフラワー, オレンジツインズ, ジンジャー親分, ホワイトローズナイト, ケチャッピオン, マンドラゴラ司祭, ハナキノコ薬師]
-      sources: [rc-thunder]
+      value:
+        - マンゴスチン獣使い
+        - タンブルローラー
+        - ハクサイ衛兵Ⅰ
+        - マジシャン・キュウリ
+        - オレンジツインズ
+        - バイオレット魔法使い
+        - ジンジャー親分
+        - ソウキョウ魔女
+        - マンドラゴラ司祭
+        - ハナキノコ薬師Ⅰ
+      sources:
+        - rumble-pool-post0929-thunder
     bond:
-      icon: {status: observed, value: rc-thunder-icon, sources: [rc-thunder-bond]}
-      name: {status: observed, value: 雷の絆, sources: [rc-thunder-bond]}
+      icon:
+        status: observed
+        value: rc-thunder-icon
+        sources:
+          - rc-thunder-bond
+      name:
+        status: observed
+        value: 雷の絆
+        sources:
+          - rc-thunder-bond
       tiers:
         status: observed
         value:
-          - {threshold: 4, text: 'オーラ：すべてのミニオンの攻撃力+2', amount: 2, unit: points}
-          - {threshold: 8, text: 'オーラ：すべてのミニオンの攻撃力+4', amount: 4, unit: points}
-          - {threshold: 12, text: 'オーラ：すべてのミニオンの攻撃力+6', amount: 6, unit: points}
-          - {threshold: 16, text: 'オーラ：すべてのミニオンの攻撃力+9', amount: 9, unit: points}
-          - {threshold: 20, text: 'オーラ：すべてのミニオンの攻撃力+12', amount: 12, unit: points}
-          - {threshold: 25, text: 'オーラ：すべてのミニオンの攻撃力+16', amount: 16, unit: points}
-          - {threshold: 30, text: 'オーラ：すべてのミニオンの攻撃力+22', amount: 22, unit: points}
-          - {threshold: 35, text: 'オーラ：すべてのミニオンの攻撃力+30', amount: 30, unit: points}
-          - {threshold: 40, text: 'オーラ：すべてのミニオンの攻撃力+40', amount: 40, unit: points}
-          - {threshold: 50, text: 'オーラ：すべてのミニオンの攻撃力+60', amount: 60, unit: points}
-        sources: [rc-thunder-bond]
-      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+          - threshold: 4
+            text: オーラ：すべてのミニオンの攻撃力+2
+            amount: 2
+            unit: points
+          - threshold: 8
+            text: オーラ：すべてのミニオンの攻撃力+4
+            amount: 4
+            unit: points
+          - threshold: 12
+            text: オーラ：すべてのミニオンの攻撃力+6
+            amount: 6
+            unit: points
+          - threshold: 16
+            text: オーラ：すべてのミニオンの攻撃力+9
+            amount: 9
+            unit: points
+          - threshold: 20
+            text: オーラ：すべてのミニオンの攻撃力+12
+            amount: 12
+            unit: points
+          - threshold: 25
+            text: オーラ：すべてのミニオンの攻撃力+16
+            amount: 16
+            unit: points
+          - threshold: 30
+            text: オーラ：すべてのミニオンの攻撃力+22
+            amount: 22
+            unit: points
+          - threshold: 35
+            text: オーラ：すべてのミニオンの攻撃力+30
+            amount: 30
+            unit: points
+          - threshold: 40
+            text: オーラ：すべてのミニオンの攻撃力+40
+            amount: 40
+            unit: points
+          - threshold: 50
+            text: オーラ：すべてのミニオンの攻撃力+60
+            amount: 60
+            unit: points
+        sources:
+          - rc-thunder-bond
+      tierApplication:
+        status: manual
+        value: replace
+        sources:
+          - rc-bond-replacement-user
       mechanics:
         status: unknown
         reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
+    cards:
+      status: observed
+      value:
+        - name: マンゴスチン獣使い
+          cost: 3
+          displayedLevel: 8
+        - name: タンブルローラー
+          cost: 3
+          displayedLevel: 8
+        - name: ハクサイ衛兵Ⅰ
+          cost: 3
+          displayedLevel: 7
+        - name: マジシャン・キュウリ
+          cost: 5
+          displayedLevel: 7
+        - name: オレンジツインズ
+          cost: 5
+          displayedLevel: 7
+        - name: バイオレット魔法使い
+          cost: 5
+          displayedLevel: 9
+        - name: ジンジャー親分
+          cost: 5
+          displayedLevel: 8
+        - name: ソウキョウ魔女
+          cost: 8
+          displayedLevel: 7
+        - name: マンドラゴラ司祭
+          cost: 8
+          displayedLevel: 7
+        - name: ハナキノコ薬師Ⅰ
+          cost: 8
+          displayedLevel: 7
+      sources:
+        - rumble-pool-post0929-thunder
   - id: droplet
-    name: {status: observed, value: 雫デッキ, sources: [rc-overview]}
+    name:
+      status: observed
+      value: 雫デッキ
+      sources:
+        - rumble-pool-post0929-droplet
     members:
       status: observed
-      value: [アボガク, コワッパイン, シスター・チェリー, クルミ博士, ピーナッツペイジ, ムラキャベロン, ニンジンボンバー, カシュー大賢者, ラフレシア, スズラン魔導士]
-      sources: [rc-droplet]
+      value:
+        - アボガク
+        - シスター・チェリー
+        - コワッパインⅡ
+        - クルミ博士
+        - ブロッコリズム
+        - ピーナッツペイジ
+        - ムラキャベロン
+        - ラフレシア
+        - カシュー大賢者
+        - スズラン魔導士
+      sources:
+        - rumble-pool-post0929-droplet
     bond:
-      icon: {status: observed, value: rc-droplet-icon, sources: [rc-droplet-bond]}
-      name: {status: observed, value: 雫の絆, sources: [rc-droplet-bond]}
+      icon:
+        status: observed
+        value: rc-droplet-icon
+        sources:
+          - rc-droplet-bond
+      name:
+        status: observed
+        value: 雫の絆
+        sources:
+          - rc-droplet-bond
       tiers:
         status: observed
         value:
-          - {threshold: 4, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+4', amount: 4, unit: points}
-          - {threshold: 8, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+8', amount: 8, unit: points}
-          - {threshold: 12, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+16', amount: 16, unit: points}
-          - {threshold: 16, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+24', amount: 24, unit: points}
-          - {threshold: 20, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+36', amount: 36, unit: points}
-          - {threshold: 25, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+52', amount: 52, unit: points}
-          - {threshold: 30, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+72', amount: 72, unit: points}
-          - {threshold: 35, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+100', amount: 100, unit: points}
-          - {threshold: 40, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+140', amount: 140, unit: points}
-          - {threshold: 50, text: '準備完了：最も攻撃力が高いミニオンの攻撃力+200', amount: 200, unit: points}
-        sources: [rc-droplet-bond]
-      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+          - threshold: 4
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+4
+            amount: 4
+            unit: points
+          - threshold: 8
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+8
+            amount: 8
+            unit: points
+          - threshold: 12
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+16
+            amount: 16
+            unit: points
+          - threshold: 16
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+24
+            amount: 24
+            unit: points
+          - threshold: 20
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+36
+            amount: 36
+            unit: points
+          - threshold: 25
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+52
+            amount: 52
+            unit: points
+          - threshold: 30
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+72
+            amount: 72
+            unit: points
+          - threshold: 35
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+100
+            amount: 100
+            unit: points
+          - threshold: 40
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+140
+            amount: 140
+            unit: points
+          - threshold: 50
+            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+200
+            amount: 200
+            unit: points
+        sources:
+          - rc-droplet-bond
+      tierApplication:
+        status: manual
+        value: replace
+        sources:
+          - rc-bond-replacement-user
       mechanics:
         status: unknown
         reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
+    cards:
+      status: observed
+      value:
+        - name: アボガク
+          cost: 3
+          displayedLevel: 9
+        - name: シスター・チェリー
+          cost: 3
+          displayedLevel: 8
+        - name: コワッパインⅡ
+          cost: 3
+          displayedLevel: 7
+        - name: クルミ博士
+          cost: 5
+          displayedLevel: 7
+        - name: ブロッコリズム
+          cost: 5
+          displayedLevel: 8
+        - name: ピーナッツペイジ
+          cost: 5
+          displayedLevel: 7
+        - name: ムラキャベロン
+          cost: 5
+          displayedLevel: 9
+        - name: ラフレシア
+          cost: 8
+          displayedLevel: 7
+        - name: カシュー大賢者
+          cost: 8
+          displayedLevel: 7
+        - name: スズラン魔導士
+          cost: 8
+          displayedLevel: 7
+      sources:
+        - rumble-pool-post0929-droplet
   - id: star
-    name: {status: observed, value: 星デッキ, sources: [rc-overview]}
+    name:
+      status: observed
+      value: 星デッキ
+      sources:
+        - rumble-pool-post0929-star
     members:
       status: observed
-      value: [ラディッシュメイド, バンブーアーチャー, マムガール, マンゴーニンジャ, オーキッド占星術師, オニオンバード, ノリノリネギ, ルミナスツリー, ビカクシダシャーマン, マッスルスイカ]
-      sources: [rc-star]
+      value:
+        - ラディッシュメイド
+        - グァバラッパ
+        - マムガールⅠ
+        - オーキッド占星術師
+        - ゴーストオーキッド
+        - ホーリーバット
+        - ノリノリネギⅠ
+        - ケチャッピオン
+        - ビカクシダシャーマン
+        - マッスルスイカⅠ
+      sources:
+        - rumble-pool-post0929-star
     bond:
-      icon: {status: observed, value: rc-star-icon, sources: [rc-star-bond]}
-      name: {status: observed, value: 星の絆, sources: [rc-star-bond]}
+      icon:
+        status: observed
+        value: rc-star-icon
+        sources:
+          - rc-star-bond
+      name:
+        status: observed
+        value: 星の絆
+        sources:
+          - rc-star-bond
       tiers:
         status: observed
         value:
-          - {threshold: 4, text: '準備完了：すべてのミニオンの攻撃力+1', amount: 1, unit: points}
-          - {threshold: 8, text: '準備完了：すべてのミニオンの攻撃力+2', amount: 2, unit: points}
-          - {threshold: 12, text: '準備完了：すべてのミニオンの攻撃力+4', amount: 4, unit: points}
-          - {threshold: 16, text: '準備完了：すべてのミニオンの攻撃力+6', amount: 6, unit: points}
-          - {threshold: 20, text: '準備完了：すべてのミニオンの攻撃力+9', amount: 9, unit: points}
-          - {threshold: 25, text: '準備完了：すべてのミニオンの攻撃力+13', amount: 13, unit: points}
-          - {threshold: 30, text: '準備完了：すべてのミニオンの攻撃力+18', amount: 18, unit: points}
-          - {threshold: 35, text: '準備完了：すべてのミニオンの攻撃力+25', amount: 25, unit: points}
-          - {threshold: 40, text: '準備完了：すべてのミニオンの攻撃力+35', amount: 35, unit: points}
-          - {threshold: 50, text: '準備完了：すべてのミニオンの攻撃力+50', amount: 50, unit: points}
-        sources: [rc-star-bond]
-      tierApplication: {status: manual, value: replace, sources: [rc-bond-replacement-user]}
+          - threshold: 4
+            text: 準備完了：すべてのミニオンの攻撃力+1
+            amount: 1
+            unit: points
+          - threshold: 8
+            text: 準備完了：すべてのミニオンの攻撃力+2
+            amount: 2
+            unit: points
+          - threshold: 12
+            text: 準備完了：すべてのミニオンの攻撃力+4
+            amount: 4
+            unit: points
+          - threshold: 16
+            text: 準備完了：すべてのミニオンの攻撃力+6
+            amount: 6
+            unit: points
+          - threshold: 20
+            text: 準備完了：すべてのミニオンの攻撃力+9
+            amount: 9
+            unit: points
+          - threshold: 25
+            text: 準備完了：すべてのミニオンの攻撃力+13
+            amount: 13
+            unit: points
+          - threshold: 30
+            text: 準備完了：すべてのミニオンの攻撃力+18
+            amount: 18
+            unit: points
+          - threshold: 35
+            text: 準備完了：すべてのミニオンの攻撃力+25
+            amount: 25
+            unit: points
+          - threshold: 40
+            text: 準備完了：すべてのミニオンの攻撃力+35
+            amount: 35
+            unit: points
+          - threshold: 50
+            text: 準備完了：すべてのミニオンの攻撃力+50
+            amount: 50
+            unit: points
+        sources:
+          - rc-star-bond
+      tierApplication:
+        status: manual
+        value: replace
+        sources:
+          - rc-bond-replacement-user
       mechanics:
         status: unknown
         reason: 絆ポイントの集計方法は未確認。未掲載段階の効果量は補間しない。
+    cards:
+      status: observed
+      value:
+        - name: ラディッシュメイド
+          cost: 3
+          displayedLevel: 9
+        - name: グァバラッパ
+          cost: 3
+          displayedLevel: 8
+        - name: マムガールⅠ
+          cost: 3
+          displayedLevel: 9
+        - name: オーキッド占星術師
+          cost: 5
+          displayedLevel: 9
+        - name: ゴーストオーキッド
+          cost: 5
+          displayedLevel: 8
+        - name: ホーリーバット
+          cost: 5
+          displayedLevel: 8
+        - name: ノリノリネギⅠ
+          cost: 5
+          displayedLevel: 9
+        - name: ケチャッピオン
+          cost: 8
+          displayedLevel: 8
+        - name: ビカクシダシャーマン
+          cost: 8
+          displayedLevel: 9
+        - name: マッスルスイカⅠ
+          cost: 8
+          displayedLevel: 8
+      sources:
+        - rumble-pool-post0929-star
 observations:
-  - name: アッポリス
-    source: rc-appolis-detail
-    deck: cloud
-    currentLevel: {status: observed, value: 6, sources: [rc-appolis-detail]}
-    guaranteedLevel: {status: observed, value: 7, sources: [rc-appolis-detail]}
-    selectedStar: 1
-    bondPoints: {status: observed, value: 1, sources: [rc-appolis-detail]}
-    attack: {status: observed, value: 7, sources: [rc-appolis-detail]}
-    interval: {status: observed, value: 2.5, sources: [rc-appolis-detail]}
-    target: {status: observed, value: 最前列, sources: [rc-appolis-detail]}
-    ability: {status: observed, value: '敵6体を同時に攻撃し、50%のダメージを与える', sources: [rc-appolis-detail]}
-    conditions: 現在Lv.6と最低保証Lv.7の両表示。ON表示。星1選択、星4タブあり。表示攻撃力を通常モードのLv.6性能や初期値とはみなさない。
-  - name: オーキッド占星術師
-    source: rc-orchid-detail
-    deck: star
-    currentLevel: {status: observed, value: 8, sources: [rc-orchid-detail]}
-    guaranteedLevel: {status: unknown, reason: この画像では最低保証Lvの数値は表示されていない}
-    selectedStar: 1
-    bondPoints: {status: observed, value: 1, sources: [rc-orchid-detail]}
-    attack: {status: observed, value: 10, sources: [rc-orchid-detail]}
-    interval: {status: observed, value: 2, sources: [rc-orchid-detail]}
-    target: {status: observed, value: 最前列, sources: [rc-orchid-detail]}
-    ability: {status: observed, value: '準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+5。凍結中のミニオンがいない場合、自身の攻撃力+5', sources: [rc-orchid-detail]}
-    conditions: Lv.8、ON表示。星1選択、星4タブあり。絆アイコンはカードプールの星デッキ表示と照合。バリアント非表示を不存在の根拠にしない。
+  [
+    {
+        name: マジシャン・キュウリ,
+        source: rc-magician-cucumber-star1,
+        deck: thunder,
+        currentLevel: { status: observed, value: 7, sources: [ rc-magician-cucumber-star1 ] },
+        guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 },
+        selectedStar: 1,
+        bondPoints: { status: observed, value: 1, sources: [ rc-magician-cucumber-star1 ] },
+        attack: { status: observed, value: 10, sources: [ rc-magician-cucumber-star1 ] },
+        interval: { status: observed, value: 4, sources: [ rc-magician-cucumber-star1 ] },
+        target: { status: observed, value: 最前列, sources: [ rc-magician-cucumber-star1 ] },
+        ability:
+          {
+            status: observed,
+            value: 準備完了：1つ上のマスにいるミニオンのクローン体1体を一時的に召喚する。クローン体はマジシャン・キュウリの星ランクと攻撃力の70%を継承する
 
+              購入価格+3,
+            sources: [ rc-magician-cucumber-star1 ]
+          },
+        conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。
+      },
+    {
+        name: マジシャン・キュウリ,
+        source: rc-magician-cucumber-star2,
+        deck: thunder,
+        currentLevel: { status: observed, value: 7, sources: [ rc-magician-cucumber-star2 ] },
+        guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 },
+        selectedStar: 2,
+        bondPoints: { status: observed, value: 2, sources: [ rc-magician-cucumber-star2 ] },
+        attack: { status: observed, value: 10, sources: [ rc-magician-cucumber-star2 ] },
+        interval: { status: observed, value: 4, sources: [ rc-magician-cucumber-star2 ] },
+        target: { status: observed, value: 最前列, sources: [ rc-magician-cucumber-star2 ] },
+        ability:
+          {
+            status: observed,
+            value: 準備完了：1つ上のマスにいるミニオンのクローン体1体を一時的に召喚する。クローン体はマジシャン・キュウリの星ランクと攻撃力の70%を継承する
+
+              購入価格+3,
+            sources: [ rc-magician-cucumber-star2 ]
+          },
+        conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。
+      },
+    {
+        name: マジシャン・キュウリ,
+        source: rc-magician-cucumber-star3,
+        deck: thunder,
+        currentLevel: { status: observed, value: 7, sources: [ rc-magician-cucumber-star3 ] },
+        guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 },
+        selectedStar: 3,
+        bondPoints: { status: observed, value: 4, sources: [ rc-magician-cucumber-star3 ] },
+        attack: { status: observed, value: 10, sources: [ rc-magician-cucumber-star3 ] },
+        interval: { status: observed, value: 4, sources: [ rc-magician-cucumber-star3 ] },
+        target: { status: observed, value: 最前列, sources: [ rc-magician-cucumber-star3 ] },
+        ability:
+          {
+            status: observed,
+            value: 準備完了：1つ上のマスにいるミニオンのクローン体1体を一時的に召喚する。クローン体はマジシャン・キュウリの星ランクと攻撃力の70%を継承する
+
+              購入価格+3,
+            sources: [ rc-magician-cucumber-star3 ]
+          },
+        conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。
+      },
+    {
+        name: マジシャン・キュウリ,
+        source: rc-magician-cucumber-star4,
+        deck: thunder,
+        currentLevel: { status: observed, value: 7, sources: [ rc-magician-cucumber-star4 ] },
+        guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 },
+        selectedStar: 4,
+        bondPoints: { status: observed, value: 8, sources: [ rc-magician-cucumber-star4 ] },
+        attack: { status: observed, value: 10, sources: [ rc-magician-cucumber-star4 ] },
+        interval: { status: observed, value: 4, sources: [ rc-magician-cucumber-star4 ] },
+        target: { status: observed, value: 最前列, sources: [ rc-magician-cucumber-star4 ] },
+        ability:
+          {
+            status: observed,
+            value: 準備完了：1つ上のマスにいるミニオンのクローン体1体を一時的に召喚する。クローン体はマジシャン・キュウリの星ランクと攻撃力の70%を継承する
+
+              購入価格+3,
+            sources: [ rc-magician-cucumber-star4 ]
+          },
+        conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。
+      },
+    { name: ソウキョウ魔女, source: rc-soukyo-witch-star1, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star1 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 1, bondPoints: { status: observed, value: 1, sources: [ rc-soukyo-witch-star1 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star1 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star1 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star1 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+1, sources: [ rc-soukyo-witch-star1 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 },
+    { name: ソウキョウ魔女, source: rc-soukyo-witch-star2, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star2 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 2, bondPoints: { status: observed, value: 2, sources: [ rc-soukyo-witch-star2 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star2 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star2 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star2 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+2, sources: [ rc-soukyo-witch-star2 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 },
+    { name: ソウキョウ魔女, source: rc-soukyo-witch-star3, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star3 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 3, bondPoints: { status: observed, value: 4, sources: [ rc-soukyo-witch-star3 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star3 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star3 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star3 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+4, sources: [ rc-soukyo-witch-star3 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 },
+    { name: ソウキョウ魔女, source: rc-soukyo-witch-star4, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star4 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-soukyo-witch-star4 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star4 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star4 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star4 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+12, sources: [ rc-soukyo-witch-star4 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 }
+  ]
 rules:
   sharedPerformance:
     status: manual
@@ -212,1611 +835,695 @@ rules:
     sources:
       - rc-rules-user-20260925
 memberIds:
-  ラフレシア: rafflesia
-  バンブーアーチャー: bamboo-archer
-  コーヒービーンチーフ: coffee-bean-chief
-  ウィキッドミラー: wicked-mirror
-  ドングリマッドマン: acorn-madman
-  アンナイツバキ: annai-tsubaki
-  アッポリス: appolis
-  アボガク: avogaku
-  ブラックローズナイト: black-rose-knight
-  サボテンガーディアン: cactus-guardian
-  ニンジンボンバー: carrot-bomber
-  カシュー大賢者: cashew-sage
-  ココバンク: coco-bank
-  ダンデライオン: dandelion
-  ドラフルガード: draful-guard
-  ゴーストオーキッド: ghost-orchid
-  ジンジャー親分: ginger-boss
-  ゴールドイーター: gold-eater
-  グレープバーテンダー: grape-bartender
-  グリーンキーパー: greenkeeper
-  グァバラッパ: guava-trumpeter
-  ハクサイ衛兵: hakusai-guard
-  ハナキノコ薬師: hanakinoko-apothecary
-  カラカボチャ: kara-pumpkin
-  ケチャッピオン: ketchampion
-  コワッパイン: kowappine
-  レディ・チューリップ: lady-tulip
-  ルミナスツリー: luminous-tree
-  マムガール: mam-girl
-  マンドラゴラ司祭: mandragora-priest
-  マンゴーニンジャ: mango-ninja
-  マンゴスチン獣使い: mangosteen-beastmaster
-  メロンアカウンタント: melon-accountant
-  モヒートン: mojiton
-  ムラキャベロン: muracabelon
-  マッスルスイカ: muscle-watermelon
-  マッシュボム: mush-bomb
-  ノリノリネギ: norinori-negi
-  オニオンバード: onion-bard
-  オレンジツインズ: orange-twins
-  オーキッド占星術師: orchid-astrologer
-  パクパクフラワー: pakupaku-flower
-  ピーナッツペイジ: peanut-page
-  カボチャナイト: pumpkin-knight
-  ラディッシュメイド: radish-maid
-  サムライタケ: samurai-take
   タネワーカー: seed-worker
-  シスター・チェリー: sister-cherry
-  スペルベリー: spellberry
-  ビカクシダシャーマン: staghorn-shaman
-  ヒマワリバンカー: sunflower-banker
-  ヒマワリ店長: sunflower-manager
-  スズラン魔導士: suzuran-mage
+  アンナイツバキ: annai-tsubaki
+  バンブーアーチャー: bamboo-archer
+  グレープバーテンダー: grape-bartender
+  モヒートンⅠ: mojiton-variant-1
+  サムライタケ: samurai-take
+  マンゴーニンジャ: mango-ninja
+  ルミナスツリー: luminous-tree
+  ゴールドイーター: gold-eater
+  ドングリマッドマン: acorn-madman
+  マッシュボム: mush-bomb
+  カラカボチャ: kara-pumpkin
+  グリーンキーパー: greenkeeper
+  カボチャナイト: pumpkin-knight
   テレ・リーフィー: tele-leafy
+  スペルベリー: spellberry
+  ホワイトローズナイトⅠ: white-rose-knight-variant-1
   ヴァルキリス: valkyris
-  クルミ博士: walnut-professor
-  ホワイトローズナイト: white-rose-knight
-  ザクロブラスター: zakuro-blaster
+  ブラックローズナイト: black-rose-knight
+  ウィキッドミラー: wicked-mirror
+  ココバンク: coco-bank
+  サボテンガーディアン: cactus-guardian
   ポテトセラー: potato-seller
-  チリコック: chili-cook
+  メロンアカウンタントⅠ: melon-accountant-variant-1
+  ドラフルガード: draful-guard
+  オニオンバード: onion-bard
+  ヒマワリ店長: sunflower-manager
+  ヒマワリバンカー: sunflower-banker
+  レディ・チューリップⅠ: lady-tulip-variant-1
+  コーヒービーンチーフⅠ: coffee-bean-chief-variant-1
+  マンゴスチン獣使い: mangosteen-beastmaster
+  タンブルローラー: tumble-roller
+  ハクサイ衛兵Ⅰ: hakusai-guard-variant-1
+  マジシャン・キュウリ: magician-cucumber
+  オレンジツインズ: orange-twins
+  バイオレット魔法使い: violet-mage
+  ジンジャー親分: ginger-boss
+  ソウキョウ魔女: soukyo-witch
+  マンドラゴラ司祭: mandragora-priest
+  ハナキノコ薬師Ⅰ: hanakinoko-apothecary-variant-1
+  アボガク: avogaku
+  シスター・チェリー: sister-cherry
+  コワッパインⅡ: kowappine-variant-2
+  クルミ博士: walnut-professor
+  ブロッコリズム: broccolism
+  ピーナッツペイジ: peanut-page
+  ムラキャベロン: muracabelon
+  ラフレシア: rafflesia
+  カシュー大賢者: cashew-sage
+  スズラン魔導士: suzuran-mage
+  ラディッシュメイド: radish-maid
+  グァバラッパ: guava-trumpeter
+  マムガールⅠ: mam-girl-variant-1
+  オーキッド占星術師: orchid-astrologer
+  ゴーストオーキッド: ghost-orchid
+  ホーリーバット: holly-bat
+  ノリノリネギⅠ: norinori-negi-variant-1
+  ケチャッピオン: ketchampion
+  ビカクシダシャーマン: staghorn-shaman
+  マッスルスイカⅠ: muscle-watermelon-variant-1
 minions:
-  rafflesia:
+  seed-worker:
     availability:
       status: observed
       value: true
       sources:
-        - rc-droplet
+        - rumble-pool-post0929-cloud
     star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  annai-tsubaki:
+    availability:
       status: observed
-      value:
-        ability:
-          text: 準備完了：自身を除くフィールド上にいるミニオンがすべて★3の場合、他ミニオンの攻撃力の合計の150%を獲得する
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-rafflesia-star4
-        guaranteedLevel:
-          status: unknown
-          reason: 現在Lv.7のため最低保証Lvの併記なし。共通ルールは最低Lv.7。
-        conditions: 現在Lv.7で確認した星4能力。
+      value: true
       sources:
-        - rc-rafflesia-star4
+        - rumble-pool-post0929-cloud
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
   bamboo-archer:
     availability:
       status: observed
       value: true
       sources:
-        - rc-star
+        - rumble-pool-post0929-cloud
     star4:
-      status: observed
-      value:
-        ability:
-          text: 攻撃速度+340%、40%のダメージを与える
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 1
-          sources:
-            - rc-bamboo-archer-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-bamboo-archer-star4
-        conditions: 現在Lv.1、最低保証Lv.7適用時の星4能力。Lv.1の初期能力ではありません。
-      sources:
-        - rc-bamboo-archer-star4
-  coffee-bean-chief:
-    availability: {status: observed, value: true, sources: [rc-sun]}
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 売却価格+700%
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-coffee-bean-chief-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-coffee-bean-chief-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-coffee-bean-chief-star4
-
-  wicked-mirror:
-    availability: {status: observed, value: true, sources: [rc-moon]}
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 毎ラウンド、最初に出現するラッシュユニット16体をコピーして敵側に転送する。クローン体のHPは本体の60%となる
-          keywords:
-            - rush-unit
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-wicked-mirror-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-wicked-mirror-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-wicked-mirror-star4
-
-  acorn-madman:
-    availability: {status: observed, value: true, sources: [rc-cloud]}
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 購入したミニオンの攻撃力の150%を獲得する
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-acorn-madman-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-acorn-madman-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-acorn-madman-star4
-
-  annai-tsubaki:
-    availability:
-      status: observed
-      value: true
-      sources: &a1
-        - rc-cloud
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 購入したミニオンの攻撃力の25%を獲得する
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-annai-tsubaki-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-annai-tsubaki-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-annai-tsubaki-star4
-  appolis:
-    availability:
-      status: observed
-      value: true
-      sources: *a1
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 敵15体を同時に攻撃し、50%のダメージを与える
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 6
-          sources:
-            - rc-appolis-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-appolis-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-appolis-star4
-
-  avogaku:
-    availability:
-      status: observed
-      value: true
-      sources: &a2
-        - rc-droplet
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：自身が★3の場合、攻撃力が一時的に+135%
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 8
-          sources:
-            - rc-avogaku-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-avogaku-star4
-
-  bamerang:
-    availability:
       status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  black-rose-knight:
-    availability:
-      status: observed
-      value: true
-      sources: &a4
-        - rc-moon
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：敵のミニオン4体の★が一時的に-3
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-black-rose-knight-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-black-rose-knight-star4
-
-  broccolism:
-    availability:
-      status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  cabbage-baker:
-    availability:
-      status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  cactus-guardian:
-    availability:
-      status: observed
-      value: true
-      sources: &a3
-        - rc-sun
-    star4:
-      status: observed
-      value:
-        ability:
-          text: サンコインを消費するたびに、サボテンガーディアンの攻撃力が一時的に+10～20
-          keywords:
-            - temporary
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-cactus-guardian-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-cactus-guardian-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-cactus-guardian-star4
-
-  carrot-bomber:
-    availability:
-      status: observed
-      value: true
-      sources: *a2
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 配置時およびいずれかのミニオンが星アップするとき、フィールド上に自身の攻撃力150%分の起爆ニンジンを3個設置する。敵が触れると爆発して広範囲ダメージを与える
-          keywords:
-            - placement
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-carrot-bomber-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-carrot-bomber-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-carrot-bomber-star4
-
-  cashew-sage:
-    availability:
-      status: observed
-      value: true
-      sources: *a2
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を300%コピーし、一時的に自身に付与する
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-cashew-sage-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-cashew-sage-star4
-
-  chili-judge:
-    availability:
-      status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  coco-bank:
-    availability:
-      status: observed
-      value: true
-      sources: *a3
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：自身の売却価格+10
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-coco-bank-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-coco-bank-star4
-
-  cotton-prince:
-    availability:
-      status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  dandelion:
-    availability:
-      status: observed
-      value: true
-      sources: *a4
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：すべての敵ミニオンの攻撃力が一時的に-23%（最低でも-8）
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-dandelion-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-dandelion-star4
-
-  draful-guard:
-    availability:
-      status: observed
-      value: true
-      sources: *a3
-    star4:
-      status: observed
-      value:
-        ability:
-          text: オーラ：サンコインを5個所持するごとに、攻撃力+72
-          keywords:
-            - aura
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-draful-guard-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-draful-guard-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-draful-guard-star4
-
-  garlic-ranger:
-    availability:
-      status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  ghost-orchid:
-    availability:
-      status: observed
-      value: true
-      sources: *a4
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：最も攻撃力が高い敵ミニオンの攻撃力を32%奪取する（最低でも12を奪取する）
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-ghost-orchid-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-ghost-orchid-star4
-
-  ginger-boss:
-    availability:
-      status: observed
-      value: true
-      sources: &a5
-        - rc-thunder
-    star4:
-      status: observed
-      value:
-        ability:
-          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+12～24
-          keywords:
-            - temporary
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-ginger-boss-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-ginger-boss-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-ginger-boss-star4
-
-  gold-eater:
-    availability:
-      status: observed
-      value: true
-      sources: *a1
-    star4:
-      status: observed
-      value:
-        ability:
-          text: オーラ：ショップ内のミニオンに、自身の攻撃力の50%を付与する
-          keywords:
-            - aura
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-gold-eater-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-gold-eater-star4
-
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
   grape-bartender:
     availability:
       status: observed
       value: true
-      sources: *a1
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 売却価格+400%
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-grape-bartender-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-grape-bartender-star4
-
-  greenkeeper:
-    availability:
-      status: observed
-      value: true
-      sources: *a4
+        - rumble-pool-post0929-cloud
     star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：ランダムな他のミニオン1体の攻撃力+20、さらに隊長のHPを20回復する
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-greenkeeper-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-greenkeeper-star4
-
-  guava-trumpeter:
-    availability:
-      status: observed
-      value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：ランダムなミニオン3体の攻撃力が一時的に+30
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 6
-          sources:
-            - rc-guava-trumpeter-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-guava-trumpeter-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-guava-trumpeter-star4
-
-  hakusai-guard:
-    availability:
-      status: observed
-      value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：攻撃力24の★1ハクサイワンコ6体を一時的に召喚する
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-hakusai-guard-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-hakusai-guard-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-hakusai-guard-star4
-
-  hanakinoko-apothecary:
-    availability:
-      status: observed
-      value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 売却価格+700%
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-hanakinoko-apothecary-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-hanakinoko-apothecary-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-hanakinoko-apothecary-star4
-
-  holly-bat:
-    availability:
       status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  hoozuki-police:
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  mojiton-variant-1:
     availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-cloud
+    star4:
       status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  kara-pumpkin:
-    availability:
-      status: observed
-      value: true
-      sources: *a4
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 隊長がHPを10%失うたびに、攻撃速度+4%
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-kara-pumpkin-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-kara-pumpkin-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-kara-pumpkin-star4
-
-  ketchampion:
-    availability:
-      status: observed
-      value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: いずれかの敵が撃破されると、自身の攻撃力+32～48
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 8
-          sources:
-            - rc-ketchampion-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-ketchampion-star4
-
-  kowappine:
-    availability:
-      status: observed
-      value: true
-      sources: *a2
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 自身が星アップすると、攻撃力が追加で+32
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-kowappine-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-kowappine-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-kowappine-star4
-
-  lady-tulip:
-    availability:
-      status: observed
-      value: true
-      sources: *a3
-    star4:
-      status: observed
-      value:
-        ability:
-          text: オーラ：本ラウンド中、サンコインを1個消費するたびに、レディ・チューリップの攻撃力+48
-          keywords:
-            - aura
-        currentLevel:
-          status: observed
-          value: 6
-          sources:
-            - rc-lady-tulip-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-lady-tulip-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-lady-tulip-star4
-
-  luminous-tree:
-    availability:
-      status: observed
-      value: true
-      sources: &a6
-        - rc-star
-    star4:
-      status: observed
-      value:
-        ability:
-          text: |-
-            最大マナ12、マナ消費12：ランダムな敵3体を攻撃する
-            ルミナスツリー以外のミニオンが攻撃するたびに、ルミナスツリーのマナ+1
-          keywords:
-            - maximum-mana
-            - mana-cost
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-luminous-tree-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-luminous-tree-star4
-
-  lychee-baby:
-    availability:
-      status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  mam-girl:
-    availability:
-      status: observed
-      value: true
-      sources: *a6
-    star4:
-      status: observed
-      value:
-        ability:
-          text: オーラ：自身の1つ上のマスにいるミニオンの攻撃力+60
-          keywords:
-            - aura
-        currentLevel:
-          status: observed
-          value: 6
-          sources:
-            - rc-mam-girl-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-mam-girl-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-mam-girl-star4
-
-  mandragora-priest:
-    availability:
-      status: observed
-      value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 一時的に召喚したミニオンの攻撃力+240%（最低でも+120）
-          keywords:
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-mandragora-priest-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-mandragora-priest-star4
-
-  mango-ninja:
-    availability:
-      status: observed
-      value: true
-      sources: *a6
-    star4:
-      status: observed
-      value:
-        ability:
-          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+60%
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-mango-ninja-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-mango-ninja-star4
-
-  mangosteen-beastmaster:
-    availability:
-      status: observed
-      value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：攻撃力の25%を継承する★3マンゴスチンピッグ4体を一時的に召喚する
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-mangosteen-beastmaster-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-mangosteen-beastmaster-star4
-
-  melon-accountant:
-    availability:
-      status: observed
-      value: true
-      sources: *a3
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 売却価格+400%
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-melon-accountant-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-melon-accountant-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-melon-accountant-star4
-
-  mojiton:
-    availability:
-      status: observed
-      value: true
-      sources: *a3
-    star4:
-      status: observed
-      value:
-        ability:
-          text: いずれかのミニオンを購入時：ランダムなミニオン1体の攻撃力+24
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-mojiton-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-mojiton-star4
-
-  muracabelon:
-    availability:
-      status: observed
-      value: true
-      sources: *a2
-    star4:
-      status: observed
-      value:
-        ability:
-          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+24
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-muracabelon-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-muracabelon-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-muracabelon-star4
-
-  muscle-watermelon:
-    availability:
-      status: observed
-      value: true
-      sources: *a6
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 敵ボスに1000%のダメージを与える
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-muscle-watermelon-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-muscle-watermelon-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-muscle-watermelon-star4
-
-  mush-bomb:
-    availability:
-      status: observed
-      value: true
-      sources: *a4
-    star4:
-      status: observed
-      value:
-        ability:
-          text: すべての敵を攻撃して80%のダメージを与え、隊長が最大HPの4%を失う。隊長のHPが4%未満の時、最前列の敵しか攻撃できない
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-mush-bomb-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-mush-bomb-star4
-
-  norinori-negi:
-    availability:
-      status: observed
-      value: true
-      sources: *a6
-    star4:
-      status: observed
-      value:
-        ability:
-          text: オーラ：十字範囲内のミニオンの攻撃力+48
-          keywords:
-            - aura
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-norinori-negi-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-norinori-negi-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-norinori-negi-star4
-
-  onion-bard:
-    availability:
-      status: observed
-      value: true
-      sources: *a6
-    star4:
-      status: observed
-      value:
-        ability:
-          text: オーラ：すべてのミニオンの攻撃速度+60%
-          keywords:
-            - aura
-        currentLevel:
-          status: observed
-          value: 6
-          sources:
-            - rc-onion-bard-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-onion-bard-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-onion-bard-star4
-
-  orange-twins:
-    availability:
-      status: observed
-      value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：自身の攻撃力の75%を継承するクローン体を一時的に1体召喚する
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-orange-twins-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-orange-twins-star4
-
-  orchid-astrologer:
-    availability:
-      status: observed
-      value: true
-      sources: *a6
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：ショップ内のランダムな凍結中のミニオン1体の攻撃力+60。凍結中のミニオンがいない場合、自身の攻撃力+60
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 8
-          sources:
-            - rc-orchid-astrologer-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-orchid-astrologer-star4
-
-  pakupaku-flower:
-    availability:
-      status: observed
-      value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 毎ラウンド、最大16体の一時的なミニオンを捕食する。1体捕食するごとに、攻撃力+4
-          keywords:
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-pakupaku-flower-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-pakupaku-flower-star4
-
-  peanut-page:
-    availability:
-      status: observed
-      value: true
-      sources: *a2
-    star4:
-      status: observed
-      value:
-        ability:
-          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+12～24
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-peanut-page-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-peanut-page-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-peanut-page-star4
-
-  pop-gunner:
-    availability:
-      status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  pumpkin-knight:
-    availability:
-      status: observed
-      value: true
-      sources: *a4
-    star4:
-      status: observed
-      value:
-        ability:
-          text: オーラ：隊長がHPを10%失うたびに、自身の攻撃力+60
-          keywords:
-            - aura
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-pumpkin-knight-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-pumpkin-knight-star4
-
-  radish-maid:
-    availability:
-      status: observed
-      value: true
-      sources: *a6
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：自身の攻撃力+20～30
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 8
-          sources:
-            - rc-radish-maid-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-radish-maid-star4
-
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
   samurai-take:
     availability:
       status: observed
       value: true
-      sources: *a1
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 敵がフィールド上に出現するたびに、即座に斬撃を放ち、160%のダメージを与える
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-samurai-take-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-samurai-take-star4
-
-  seed-worker:
+        - rumble-pool-post0929-cloud
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  mango-ninja:
     availability:
       status: observed
       value: true
-      sources: *a3
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 売却価格+300%
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-seed-worker-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-seed-worker-star4
-
-  sister-cherry:
+        - rumble-pool-post0929-cloud
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  luminous-tree:
     availability:
       status: observed
       value: true
-      sources: *a2
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 自身以外のミニオンは星アップすると、攻撃力+10～20
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 6
-          sources:
-            - rc-sister-cherry-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-sister-cherry-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-sister-cherry-star4
-
-  spellberry:
+        - rumble-pool-post0929-cloud
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  gold-eater:
     availability:
       status: observed
       value: true
-      sources: *a1
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 小範囲内の敵に100%のダメージを与え、70%の減速効果を3秒間付与する
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 6
-          sources:
-            - rc-spellberry-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-spellberry-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-spellberry-star4
-
-  staghorn-shaman:
+        - rumble-pool-post0929-cloud
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  acorn-madman:
     availability:
       status: observed
       value: true
-      sources: *a6
-    star4:
-      status: observed
-      value:
-        ability:
-          text: |-
-            準備完了：名前が異なる他のミニオン1体ずつ、攻撃力+32～48
-            フィールド上に同名ミニオンがいない場合、代わりに攻撃力+80
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 8
-          sources:
-            - rc-staghorn-shaman-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-staghorn-shaman-star4
-
-  sunflower-banker:
+        - rumble-pool-post0929-cloud
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  mush-bomb:
     availability:
       status: observed
       value: true
-      sources: *a3
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：コスト3またはコスト5の同じ星ランクのミニオンをランダムに1体召喚し、ヒマワリバンカーの攻撃力の150%を継承させる
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-sunflower-banker-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-sunflower-banker-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-sunflower-banker-star4
-
-  sunflower-manager:
+        - rumble-pool-post0929-moon
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  kara-pumpkin:
     availability:
       status: observed
       value: true
-      sources: *a3
-    star4:
-      status: observed
-      value:
-        ability:
-          text: |-
-            準備完了：サンコイン+12
-            1マッチにつき、最初のヒマワリ店長4体の購入価格-1
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-sunflower-manager-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-sunflower-manager-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-sunflower-manager-star4
-
-  suzuran-mage:
+        - rumble-pool-post0929-moon
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  greenkeeper:
     availability:
       status: observed
       value: true
-      sources: *a2
-    star4:
-      status: observed
-      value:
-        ability:
-          text: いずれかのミニオンが星アップするとき、ランダムなミニオン4体の攻撃力+16～32
-          keywords: []
-        currentLevel:
-          status: observed
-          value: 5
-          sources:
-            - rc-suzuran-mage-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-suzuran-mage-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-suzuran-mage-star4
-
+        - rumble-pool-post0929-moon
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  pumpkin-knight:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-moon
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
   tele-leafy:
     availability:
       status: observed
       value: true
-      sources: *a4
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット3体を、最大HP120%の状態で敵側に転送し、自身は休眠状態になる
-          keywords:
-            - magic
-            - rush-unit
-            - dormant
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-tele-leafy-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-tele-leafy-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-tele-leafy-star4
-
-  tumble-roller:
-    availability:
+        - rumble-pool-post0929-moon
+    star4:
       status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  spellberry:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-moon
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  white-rose-knight-variant-1:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-moon
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
   valkyris:
     availability:
       status: observed
       value: true
-      sources: *a4
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：敵の総攻撃力がより高い場合、自身が総攻撃力の差の200%を一時的に獲得する
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-valkyris-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-valkyris-star4
-
-  violet-mage:
-    availability:
+        - rumble-pool-post0929-moon
+    star4:
       status: unknown
-      reason: 既存の絆所属資料では登場可否を確定できない
-  walnut-professor:
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  black-rose-knight:
     availability:
       status: observed
       value: true
-      sources: *a2
-    star4:
-      status: observed
-      value:
-        ability:
-          text: |-
-            他のミニオンが星アップすると、自身の研究値+12
-            準備完了：研究値一時分の攻撃力を200%的に均等に同じ列の他のミニオンに分け与える
-          keywords:
-            - ready
-            - temporary
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-walnut-professor-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-walnut-professor-star4
-
-  white-rose-knight:
+        - rumble-pool-post0929-moon
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  wicked-mirror:
     availability:
       status: observed
       value: true
-      sources: *a5
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 召喚したミニオンの攻撃力が一時的に+48
-          keywords:
-            - temporary
-        currentLevel:
-          status: observed
-          value: 4
-          sources:
-            - rc-white-rose-knight-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-white-rose-knight-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-white-rose-knight-star4
-
-  zakuro-blaster:
+        - rumble-pool-post0929-moon
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  coco-bank:
     availability:
       status: observed
       value: true
-      sources: *a1
-    star4:
-      status: observed
-      value:
-        ability:
-          text: 魔法（4秒）：次の攻撃が330%の範囲ダメージを与える
-          keywords:
-            - magic
-        currentLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-zakuro-blaster-star4
-        guaranteedLevel:
-          status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
       sources:
-        - rc-zakuro-blaster-star4
-
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  cactus-guardian:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
   potato-seller:
     availability:
       status: observed
       value: true
       sources:
-        - rc-cloud
-        - rc-potato-seller-star4
+        - rumble-pool-post0929-sun
     star4:
-      status: observed
-      value:
-        ability:
-          text: 準備完了：ショップを無料で3回更新できる
-          keywords:
-            - ready
-        currentLevel:
-          status: observed
-          value: 1
-          sources:
-            - rc-potato-seller-star4
-        guaranteedLevel:
-          status: observed
-          value: 7
-          sources:
-            - rc-potato-seller-star4
-        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.1）。星4能力のレベルによる変化は未確認。
-      sources:
-        - rc-potato-seller-star4
-  chili-cook:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  melon-accountant-variant-1:
     availability:
       status: observed
       value: true
       sources:
-        - rc-cloud
-        - rc-chili-cook-star4
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  draful-guard:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  onion-bard:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  sunflower-manager:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  sunflower-banker:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  lady-tulip-variant-1:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  coffee-bean-chief-variant-1:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-sun
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  mangosteen-beastmaster:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  tumble-roller:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  hakusai-guard-variant-1:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  magician-cucumber:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
     star4:
       status: observed
       value:
         ability:
-          text: 準備完了：ショップ内のミニオンの攻撃力+32～48
+          text: |-
+            準備完了：1つ上のマスにいるミニオンのクローン体1体を一時的に召喚する。クローン体はマジシャン・キュウリの星ランクと攻撃力の70%を継承する
+            購入価格+3
           keywords:
             - ready
+            - temporary
         currentLevel:
           status: observed
           value: 7
           sources:
-            - rc-chili-cook-star4
+            - rc-magician-cucumber-star4
         guaranteedLevel:
           status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。
+          reason: 詳細画面に最低保証Lvの併記はありません。共通の保証ルールとは別に未確認として保持。
+        conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。
       sources:
-        - rc-chili-cook-star4
+        - rc-magician-cucumber-star4
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-pool-user-20261016
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - rumble-pool-user-20261016
+  orange-twins:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  violet-mage:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  ginger-boss:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  soukyo-witch:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: observed
+      value:
+        ability:
+          text: 味方が最初に召喚したラッシュユニット10体のシールド+12
+          keywords:
+            - shield
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-soukyo-witch-star4
+        guaranteedLevel:
+          status: unknown
+          reason: 詳細画面に最低保証Lvの併記はありません。共通の保証ルールとは別に未確認として保持。
+        conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。
+      sources:
+        - rc-soukyo-witch-star4
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-pool-user-20261016
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - rumble-pool-user-20261016
+  mandragora-priest:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  hanakinoko-apothecary-variant-1:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-thunder
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  avogaku:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  sister-cherry:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  kowappine-variant-2:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  walnut-professor:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  broccolism:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  peanut-page:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  muracabelon:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  rafflesia:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  cashew-sage:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  suzuran-mage:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-droplet
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  radish-maid:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  guava-trumpeter:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  mam-girl-variant-1:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  orchid-astrologer:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  ghost-orchid:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  holly-bat:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  norinori-negi-variant-1:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  ketchampion:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  staghorn-shaman:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+  muscle-watermelon-variant-1:
+    availability:
+      status: observed
+      value: true
+      sources:
+        - rumble-pool-post0929-star
+    star4:
+      status: unknown
+      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+updateId: 2026-09-29-sea-rebels
+sharedDeck:
+  status: unknown
+  reason: 共有デッキの構成は今回の6枚に写っていないため未確認。
+memberForms:
+  mojiton-variant-1:
+    minionId: mojiton
+    formId: variant-1
+  white-rose-knight-variant-1:
+    minionId: white-rose-knight
+    formId: variant-1
+  melon-accountant-variant-1:
+    minionId: melon-accountant
+    formId: variant-1
+  lady-tulip-variant-1:
+    minionId: lady-tulip
+    formId: variant-1
+  coffee-bean-chief-variant-1:
+    minionId: coffee-bean-chief
+    formId: variant-1
+  hakusai-guard-variant-1:
+    minionId: hakusai-guard
+    formId: variant-1
+  hanakinoko-apothecary-variant-1:
+    minionId: hanakinoko-apothecary
+    formId: variant-1
+  kowappine-variant-2:
+    minionId: kowappine
+    formId: variant-2
+  mam-girl-variant-1:
+    minionId: mam-girl
+    formId: variant-1
+  norinori-negi-variant-1:
+    minionId: norinori-negi
+    formId: variant-1
+  muscle-watermelon-variant-1:
+    minionId: muscle-watermelon
+    formId: variant-1

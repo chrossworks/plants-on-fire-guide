@@ -1,9 +1,10 @@
 import fs from 'node:fs';
+import {articleFormIssues} from '../lib/forms.mjs';
 import path from 'node:path';
 import sharp from 'sharp';
 import { root, loadMinions, loadArticles, loadAssets, loadSources, loadKeywords, loadRumble } from '../lib/content.mjs';
 import { minimumLevels, hasVariantAbsenceEvidence } from '../lib/schema.mjs';
-import { rumbleIdentityIssues } from '../lib/rumble.mjs';
+import { rumbleForMinion, rumbleIdentityIssues } from '../lib/rumble.mjs';
 import { loadCaptainBadges } from '../lib/captain-badges.mjs';
 import { loadRumbleBadges } from '../lib/rumble-badges.mjs';
 import { loadFateGifts } from '../lib/fate-gifts.mjs';
@@ -12,7 +13,7 @@ import { loadUpdates, loadHistory, loadCaptains, updateIssues } from '../lib/upd
 
 export async function validate() {
   const minions = loadMinions(), articles = loadArticles(), assets = loadAssets(), sources = loadSources(), keywords = loadKeywords();
-  const issues = [], unknowns = [];
+  const issues = articleFormIssues(minions,articles), unknowns = [];
   const fail = s => issues.push(s);
   function walk(v, p) {
     if (!v || typeof v !== 'object') return;
@@ -95,12 +96,18 @@ export async function validate() {
   for (const m of minions) {
     walk(m,m.id); if (m.icon) assetRef(m.icon,m.id); assetRef(m.portrait,m.id);
     if (m.variants.status === 'absent' && !hasVariantAbsenceEvidence(m.variants,sources)) fail(`${m.id}: バリアントなしには通常詳細画面の非表示確認または明示的なユーザー確認が必要です`);
-    if (!sources[m.evaluation.source]) fail(`${m.id}: 評価の出典なし`);
-    if (m.availability?.ranked.value === false && m.evaluation.rank !== '対象外') fail(`${m.id}: ランクマッチ使用不可の場合は評価対象外にしてください`);
-    if (m.evaluation.rank === '対象外' && m.availability?.ranked.value !== false) fail(`${m.id}: 評価対象外にはランクマッチ使用不可の確認が必要です`);
+    if (m.evaluation && !sources[m.evaluation.source]) fail(`${m.id}: 評価の出典なし`);
+    if (m.evaluation && m.availability?.ranked.value === false && m.evaluation.rank !== '対象外') fail(`${m.id}: ランクマッチ使用不可の場合は評価対象外にしてください`);
+    if (m.evaluation?.rank === '対象外' && m.availability?.ranked.value !== false) fail(`${m.id}: 評価対象外にはランクマッチ使用不可の確認が必要です`);
     const min = minimumLevels[m.rarity.value];
     for (const f of [m.base,...m.variants.items]) {
-      if (f.image) assetRef(f.image,`${m.id}.${f.id}`);
+      if (f.image) assetRef(f.image,m.id+'.'+f.id);
+      for(const [mode,e] of Object.entries(f.evaluations||{})){
+        if(e.source&&!sources[e.source])fail(m.id+'.'+f.id+': 評価の出典なし');
+        if(e.pendingUpdate&&!updates.some(u=>u.id===e.pendingUpdate))fail(m.id+'.'+f.id+': 評価の更新IDなし');
+        const allowed=mode==='standard'?(f.availability?.ranked || (f.id==='base'?m.availability?.ranked:undefined))?.value:rumbleForMinion(rumble,m.id,f.id).availability.value;
+        if(allowed===false&&!['対象外','未評価','未確認'].includes(e.rank))fail(m.id+'.'+f.id+': 使用不可の形態に評価を設定できません');
+      }
       if (f === m.base && f.displayLevel.value < min) fail(`${m.id}: 最低レベル未満`);
       if (f.bonusCoverage.value) {
         const { from, through } = f.bonusCoverage.value;
@@ -109,7 +116,7 @@ export async function validate() {
       }
     }
     if (m.variants.status === 'unknown') unknowns.push(`${m.id}.variants: ${m.variants.note}`);
-    const associated = articles.filter(a=>a.data.minionId===m.id);
+    const associated = articles.filter(a=>a.data.minionId===m.id && (a.data.formId||'base')==='base');
     if (associated.length !== 1) fail(`${m.id}: ミニオン記事は1件必要です`);
   }
   walk(keywords,'keywords');

@@ -188,8 +188,13 @@ changes:
       sources:
         - update-20260929-005246
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 海賊隊長バッジのLv.1の能力、Lv.2〜5の育成効果、チャームⅠの能力を確認しました。攻撃の発動タイミングはいずれも「バトル開始」です。バッジLv.1・チャームⅠは6ダメージ、バッジLv.2は6ダメージからラウンドごとに+1（最大10）、Lv.4は8ダメージからラウンドごとに+1（最大15）です。Lv.3で同名チャームを解放、Lv.5でレベルアップします。強化後のチャーム効果、育成費用、隊長本体の詳細性能・実装日は未確認です。
+      sources:
+        - pirate-badge-post0929-detail
+        - pirate-badge-post0929-up1
+        - pirate-badge-post0929-up2
+        - pirate-charm-post0929-detail
   - id: mango-ninja
     target:
       kind: minion
@@ -207,8 +212,14 @@ changes:
       sources:
         - update-20260929-005258
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常モードの初期Lv.7・星1〜3の性能、Lv.8〜12の育成効果、入手方法を更新しました。攻撃間隔は1.8秒、初期Lv.7の攻撃速度ボーナスは星1〜3で20%・22%・26%です。育成一覧ではLv.8で24%、Lv.9で28%、Lv.10で追加ダメージ25%、Lv.11で34%、Lv.12で40%を確認しています。高Lvの星2・3の表示は未確認です。
+      sources:
+        - mango-ninja-post0929-star1
+        - mango-ninja-post0929-star2
+        - mango-ninja-post0929-star3
+        - mango-ninja-post0929-up1
+        - mango-ninja-post0929-up2
   - id: violet-mage
     target:
       kind: minion
@@ -227,8 +238,14 @@ changes:
         - update-20260929-005258
         - update-20260929-005310
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常モードの初期Lv.7・星1〜3の性能、Lv.8〜12の育成効果、入手方法を更新しました。初期Lv.7の基本マジックミサイル数は星1〜3で1・3・6発、ダメージは50%・60%・70%です。星3の6発は告知の5発と異なり、理由は未確認です。Lv.10の育成表示は「基本のミサイル発射数が2に上昇する」です。高Lvの星2・3の表示は未確認です。
+      sources:
+        - violet-mage-post0929-star1
+        - violet-mage-post0929-star2
+        - violet-mage-post0929-star3
+        - violet-mage-post0929-up1
+        - violet-mage-post0929-up2
   - id: pakupaku-flower-variant-1
     target:
       kind: variant
@@ -245,8 +262,14 @@ changes:
       sources:
         - update-20260929-005310
     details:
-      status: unknown
-      reason: 実機の詳細・育成画面を未確認。告知の数値は性能表へ転記していません。
+      status: observed
+      value: 通常モードの初期Lv.7・星1〜3の性能、Lv.8〜12の育成効果、入手方法を更新しました。バリアントⅠの初期Lv.7の付与割合は星1〜3とも28%、育成一覧はLv.8〜12で31%・34%・37%・40%・43%です。告知の初期25%〜Lv.12で40%と異なります。差異の理由と外部補正の影響は未確認のため、実機の表示値を掲載しています。
+      sources:
+        - pakupaku-flower-post0929-star1
+        - pakupaku-flower-post0929-star2
+        - pakupaku-flower-post0929-star3
+        - pakupaku-flower-post0929-up1
+        - pakupaku-flower-post0929-up2
   - id: new-blessings
     target:
       kind: other
@@ -327,8 +350,27 @@ changes:
       sources:
         - update-history-user-2026-10-15
     details:
-      status: unknown
-      reason: 今回のお知らせ7枚では具体的な入れ替えを確認できません。調整後のカードプール画像待ち。
+      status: observed
+      value: 調整後の雲・月・太陽・雷・雫・星デッキを各10枠、計60枠確認しました。11枠はバリアントです。雷デッキの新規ミニオン、マジシャン・キュウリとソウキョウ魔女は撮影Lv.7の星1〜4・Lv.8〜12の育成効果を掲載しました。共有デッキと、この2体以外の調整後の星4能力・詳細性能は未確認です。
+      sources:
+        - rumble-pool-post0929-cloud
+        - rumble-pool-post0929-moon
+        - rumble-pool-post0929-sun
+        - rumble-pool-post0929-thunder
+        - rumble-pool-post0929-droplet
+        - rumble-pool-post0929-star
+        - rc-magician-cucumber-star1
+        - rc-magician-cucumber-star2
+        - rc-magician-cucumber-star3
+        - rc-magician-cucumber-star4
+        - rc-magician-cucumber-up1
+        - rc-magician-cucumber-up2
+        - rc-soukyo-witch-star1
+        - rc-soukyo-witch-star2
+        - rc-soukyo-witch-star3
+        - rc-soukyo-witch-star4
+        - rc-soukyo-witch-up1
+        - rc-soukyo-witch-up2
   - id: maintenance
     target:
       kind: other
@@ -343,3 +385,57 @@ changes:
     details:
       status: unknown
       reason: 告知の予定を記録。実際の終了時刻・補償の受け取りは未確認。
+  - id: magician-cucumber
+    target:
+      kind: minion
+      id: magician-cucumber
+      minionId: magician-cucumber
+      name: マジシャン・キュウリ
+    type: addition
+    announcement:
+      status: manual
+      value: ランブルチェス専用ミニオンとして追加。
+      sources:
+        - rumble-pool-user-20261016
+    details:
+      status: observed
+      value: 雷デッキに登場するランブルチェス専用ミニオンです。撮影Lv.7の星1〜4とLv.8〜12の育成効果を掲載しました。撮影Lv.7では星1〜4とも攻撃力の70%を継承し、購入価格+3と表示されています。初期性能への換算とバリアントの有無は未確認です。
+      sources:
+        - rc-magician-cucumber-star1
+        - rc-magician-cucumber-star2
+        - rc-magician-cucumber-star3
+        - rc-magician-cucumber-star4
+        - rc-magician-cucumber-up1
+        - rc-magician-cucumber-up2
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - rumble-pool-user-20261016
+  - id: soukyo-witch
+    target:
+      kind: minion
+      id: soukyo-witch
+      minionId: soukyo-witch
+      name: ソウキョウ魔女
+    type: addition
+    announcement:
+      status: manual
+      value: ランブルチェス専用ミニオンとして追加。
+      sources:
+        - rumble-pool-user-20261016
+    details:
+      status: observed
+      value: 雷デッキに登場するランブルチェス専用ミニオンです。撮影Lv.7の星1〜4とLv.8〜12の育成効果を掲載しました。星4のシールドは+12と表示されています。初期性能への換算とバリアントの有無は未確認です。
+      sources:
+        - rc-soukyo-witch-star1
+        - rc-soukyo-witch-star2
+        - rc-soukyo-witch-star3
+        - rc-soukyo-witch-star4
+        - rc-soukyo-witch-up1
+        - rc-soukyo-witch-up2
+    introduced:
+      status: manual
+      value: 2026-09-29
+      sources:
+        - rumble-pool-user-20261016

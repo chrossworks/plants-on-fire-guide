@@ -1,26 +1,12 @@
 ---
-import Fact from './Fact.astro';
-import { imageUrl, url } from '../lib/site';
-const { entry, rules, pendingUpdate } = Astro.props;
-const star4 = entry.star4?.value;
-const hasPreviousData = entry.availability.status !== 'unknown' || Boolean(entry.deck || star4);
-const showPrevious = Boolean(pendingUpdate && hasPreviousData);
+import RumbleEntry from './RumbleEntry.astro';
+import { url } from '../lib/site';
+const { entries, rules, update, previous=[] } = Astro.props;
 ---
 <section id="rumble-chess" class="form-section">
-  <h2>ランブルチェス</h2>
-  {pendingUpdate && <p class="condition">{pendingUpdate.date.value}のカードプール変更後の登場状態・絆は確認中です。<a href={url('updates/'+pendingUpdate.id+'/#rumble-pool')}>アップデート情報</a></p>}
-  <details open={!showPrevious}><summary>{showPrevious ? '以前の登録内容を見る（適用期間未確認）' : '登場状態・絆・星4能力'}</summary>
-  {entry.availability.value === false ? <p>ランブルチェスには登場しません。星4能力・絆は対象外です。</p>
-    : entry.availability.value !== true ? <p>ランブルチェスへの登場は未確認です。</p>
-    : <>
-      <p class="bond-label"><span>絆：</span>{entry.deck?.bond.icon?.value && <img src={imageUrl(entry.deck.bond.icon.value)} alt="" width="32" height="32" loading="lazy"/>}{entry.deck ? <Fact fact={entry.deck.bond.name}/> : '未確認'}</p>
-      <h3>★★★★の能力</h3>
-      {star4 ? <><p><Fact fact={{...entry.star4, value:star4.ability}}/></p><p class="condition">{star4.conditions}</p></> : <p>星4の能力は未確認です。</p>}
-      <p class="muted">攻撃力・星1〜3の能力は同じレベルの基本性能と共通です。{rules.minimumGuaranteedLevel.value && <>ランブルチェスでは最低Lv.{rules.minimumGuaranteedLevel.value}が保証されます。</>}</p>
-    </>}
-</details>
+<h2>ランブルチェス</h2>
+{update && <p class="condition">{update.date.value}のカードプール調整に対応。<a href={url('updates/'+update.id+'/#rumble-pool')}>カードプールと変更履歴を見る</a></p>}
+{entries.map(e=><div><h3>{e.name}</h3><RumbleEntry entry={e.entry}/></div>)}
+<p class="muted">攻撃力・星1〜3の能力は同じ形態・同じレベルの基本性能と共通です。{rules.minimumGuaranteedLevel.value && <>ランブルチェスでは最低Lv.{rules.minimumGuaranteedLevel.value}が保証されます。</>}</p>
+{previous.map(p=><details><summary>{p.date || '日付未確認'}の変更に関連する以前の登場状態・絆・星4能力</summary><p class="condition">{p.period.value || p.period.reason}</p>{p.entries.map(e=><div><h3>{e.name}</h3><RumbleEntry entry={e.entry}/></div>)}</details>)}
 </section>
-<style>
-  .bond-label { display: flex; align-items: center; gap: .4rem; }
-  .bond-label img { width: 32px; height: 32px; flex-shrink: 0; border-radius: 50%; }
-</style>

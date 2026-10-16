@@ -1,44 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
-import { minions, imageUrl, minionUrl } from '../lib/site';
-const articles = await getCollection('articles');
-const published = new Set(articles.filter(a => a.data.kind === 'minion').map(a => a.data.minionId));
-const rarityOrder = { legend: 0, epic: 1, rare: 2 };
-const ranked = minions.filter(m => published.has(m.id) && m.evaluation.rank !== '対象外').sort((a, b) =>
-  (rarityOrder[a.rarity.value] ?? 9) - (rarityOrder[b.rarity.value] ?? 9)
-  || a.reading.localeCompare(b.reading, 'ja')
-);
-const ranks = ['SS', 'S', 'A', 'B'];
-const other = ranked.filter(m => !ranks.includes(m.evaluation.rank));
+import {minions,minionUrl} from '../lib/site';
+import {listedForms} from '../../lib/forms.mjs';
+const modes=[['standard','通常（ランクマッチ）'],['rumble-chess','ランブルチェス']];
+const ranks=['SS','S','A','B','C'];
 ---
-<section aria-labelledby="tier-heading">
-  <h2 id="tier-heading">ミニオンTier表</h2>
-  <p>ランクマッチで使用できないミニオンは評価対象外です。アイコン・名前をタップすると詳細ページへ移動します。同評価内はレジェンド→エピック→レア、同じレアリティでは読みがな順に並べています。</p>
-  {ranks.map(rank => <div class="tier-group">
-    <h3 class:list={['tier-label', `tier-${rank.toLowerCase()}`]}>{rank}<small>{ranked.filter(m => m.evaluation.rank === rank).length}体</small></h3>
-    <ul class="tier-minions">
-      {ranked.filter(m => m.evaluation.rank === rank).map(m => <li>
-        <a href={minionUrl(m.id)}>
-          {m.icon ? <img src={imageUrl(m.icon)} alt="" width="80" height="80" loading="lazy" /> : <span class="icon-placeholder">画像準備中</span>}
-          <span>{m.name}</span>
-        </a>
-      </li>)}
-      {!ranked.some(m => m.evaluation.rank === rank) && <li class="muted">該当するミニオンはまだいません。</li>}
-    </ul>
-  </div>)}
-  {other.length > 0 && <p>表の対象外の評価：{other.map(m => <a href={minionUrl(m.id)}>{m.name}（{m.evaluation.rank}） </a>)}</p>}
-  <p class="condition">能力調整後の評価を確認中：{minions.filter(m=>Boolean(m.evaluation.pendingUpdate)).map(m=><a href={minionUrl(m.id)}>{m.name} </a>)}。該当するミニオンの評価は調整前のものです。</p>
-  <p class="muted">アイコン内のLvは撮影時の表示です。</p>
+<section aria-labelledby="tier-heading"><h2 id="tier-heading">形態・モード別Tier表</h2><p>基本形とバリアントを別々に評価します。以前の評価記録は各基本形ページで確認できます。</p>
+{modes.map(([mode,label])=>{const forms=listedForms(minions,mode),rated=forms.filter(f=>ranks.includes(f.evaluation.rank));return <section><h3>{label}</h3>{rated.length?ranks.map(rank=><div><h4>{rank}</h4><ul>{rated.filter(f=>f.evaluation.rank===rank).map(f=><li><a href={minionUrl(f.id)}>{f.name}</a>{f.evaluation.pendingUpdate&&'（調整前・再評価待ち）'}</li>)}</ul></div>):<p>このモードの形態別評価はまだ登録されていません。</p>}<details><summary>未評価・未確認・対象外を見る</summary><ul>{forms.filter(f=>!ranks.includes(f.evaluation.rank)).map(f=><li><a href={minionUrl(f.id)}>{f.name}</a>：{f.evaluation.rank}</li>)}</ul></details></section>;})}
 </section>
-<style>
-  .tier-group{display:grid;grid-template-columns:76px minmax(0,1fr);border:1px solid var(--line);border-radius:8px;overflow:hidden;background:white;margin:14px 0}
-  .tier-label{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;margin:0;padding:18px 8px;font-size:1.6rem;color:var(--green)}
-  .tier-label small{font-size:.8rem;font-weight:400}
-  .tier-ss{background:#d3f86c}.tier-s{background:#dcebb2}.tier-a{background:#e5eddf}.tier-b{background:#edf0e9}
-  .tier-minions{display:flex;flex-wrap:wrap;gap:18px 12px;list-style:none;margin:0;padding:20px;align-items:start}
-  .tier-minions a{display:flex;flex-direction:column;align-items:center;gap:8px;width:96px;text-align:center;text-decoration:none;font-size:.8rem;line-height:1.5}
-  .tier-minions a:hover span{text-decoration:underline}
-  .tier-minions img{width:80px;height:80px;border-radius:8px}
-  .icon-placeholder{display:grid;place-items:center;width:80px;height:80px;background:#edf0e9;border-radius:8px}
-  @media(max-width:440px){.tier-group{grid-template-columns:48px minmax(0,1fr)}.tier-label{font-size:1.2rem}.tier-minions{padding:14px 8px;gap:16px 8px}.tier-minions a{width:88px}}
-</style>

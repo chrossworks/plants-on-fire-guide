@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Form from './Form.astro';
+import FormHistory from './FormHistory.astro';
+import Fact from './Fact.astro';
+import Rumble from './Rumble.astro';
+import PendingAddition from './PendingAddition.astro';
+import { assets,imageUrl,keywords,url,rumble,updates,history } from '../lib/site';
+import { formPath,formsOf,formName,evaluationFor } from '../../lib/forms.mjs';
+import { rumbleForMinion } from '../../lib/rumble.mjs';
+import { additionsFor,historyFor } from '../../lib/updates.mjs';
+import { minimumLevels,rarityLabels } from '../../lib/schema.mjs';
+const {m,form}=Astro.props,variant=form.id!=='base',name=formName(m,form);
+const article=(await getCollection('articles')).find(a=>a.data.kind==='minion'&&a.data.minionId===m.id&&(a.data.formId||'base')===form.id);
+const rendered=article?await render(article):undefined,Content=rendered?.Content;
+const description=article?.data.description||name+'の星別性能、育成効果、ランブルチェスの登場状況を掲載します。';
+const rc=rumbleForMinion(rumble,m.id,form.id),ranked=form.availability?.ranked||(!variant?m.availability?.ranked:undefined);
+const evaluations=[['standard','通常（ランクマッチ）'],['rumble-chess','ランブルチェス']].map(([mode,label])=>({mode,label,evaluation:evaluationFor(m,form.id,mode)}));
+const picture=variant?form.image:m.portrait;
+const previous=history.filter(h=>h.kind==='rumble-pool').map(h=>({date:updates.find(u=>u.id===h.updateId)?.date.value,period:h.period,entries:[{name,entry:rumbleForMinion(h.snapshot,m.id,form.id)}].filter(e=>e.entry.availability.status!=='unknown')})).filter(h=>h.entries.length);
+const terms=[...new Set([...form.stars.flatMap(s=>s.ability.value?.keywords||[]),...(rc.star4?.value?.ability.keywords||[])])];
+const additions=additionsFor(updates,m.id),pending=additions.filter(c=>c.target.kind==='variant'&&!m.variants.items.some(f=>f.id===c.target.formId));
+const modeLabel={standard:'通常（ランクマッチ）','rumble-chess':'ランブルチェス',both:'通常・ランブルチェス'};
+---
+<Layout title={name} description={description}>
+<a class="back" href={url('minions/')}>← ミニオン一覧</a>
+<nav class="form-switcher" aria-label="形態の切り替え" data-no-minion-links>{formsOf(m).map(f=><a href={url(formPath(m.id,f.id))} aria-current={f.id===form.id?'page':undefined}>{f.id==='base'?'基本形：'+m.name:f.name}</a>)}</nav>
+<div class="detail-header">{picture?<img class="detail-portrait" src={imageUrl(picture)} alt={assets[picture].alt} width="560" height="593"/>:<p class="condition">この形態の画像は準備中です。</p>}<div><p class="eyebrow">MINION GUIDE</p><span class="tag">{rarityLabels[m.rarity.value]} / コスト <Fact fact={m.cost}/></span><h1>{name}</h1><p>{description}</p>{variant&&<p>カードランク：<Fact fact={form.cardRank}/></p>}<p class="muted">実装日：<Fact fact={(variant?form.introduced:m.introduced)||{status:'unknown',reason:'実装日は未確認です。'}}/><br/>最終更新：{article?.data.updated||m.updated}</p></div></div>
+<section class="mode-evaluations" aria-label="形態・モード別評価">{evaluations.map(({mode,label,evaluation:e})=><div><h2>{label}</h2><p>使用・登場状況：{mode==='standard'?(ranked?.value===true?'使用可能':ranked?.value===false?'使用不可':'未確認'):(rc.availability.value===true?'登場確認済み':rc.availability.value===false?'非登場':'未確認')}</p><p>評価：<strong>{e.rank}</strong></p>{e.reason&&<p class="muted">{e.reason}</p>}{e.pendingUpdate&&<p class="condition">調整前の評価です。調整後は確認中です。</p>}</div>)}</section>
+{rc.exclusive?.value&&<p class="condition">ランブルチェス専用ミニオンです。</p>}
+<div class="article-layout"><aside><nav aria-label="ページ内目次"><strong>このページの内容</strong><a href="#strategy">使い方・注意点</a><a href={'#'+form.id}>この形態の性能</a><a href="#rumble-chess">ランブルチェス</a><a href="#variants">形態一覧</a>{terms.length>0&&<a href="#keywords">キーワード</a>}</nav></aside><div class="article-main">
+<section id="strategy" class="prose"><h2>使い方・注意点</h2>{Content?<><p class="muted">攻略文の対象：{modeLabel[article.data.mode||(rc.exclusive?.value?'rumble-chess':'standard')]}</p>{!variant&&m.evaluation?.pendingUpdate&&<p class="condition">以下は調整前の攻略情報を含みます。調整後の使い方は確認中です。</p>}<Content/></>:<p>この形態の攻略文は未掲載です。</p>}</section>
+<Form form={form} showImage={false} variant={variant} minimumLevel={variant?undefined:minimumLevels[m.rarity.value]}/>
+<FormHistory entries={historyFor(history,m.id,form.id)}/>
+<Rumble entries={[{name,entry:rc}]} rules={rumble.rules} update={updates.find(u=>u.id===rumble.updateId)} previous={previous}/>
+<section id="variants" data-no-minion-links><h2>形態一覧</h2><ul>{formsOf(m).map(f=><li id={!variant&&f.id!=='base'?f.id:undefined}><a href={url(formPath(m.id,f.id))}>{formName(m,f)}{f.id==='base'?'（基本形）':''}</a></li>)}</ul>{m.variants.status!=='observed'&&pending.length===0&&<p>バリアント：{m.variants.status==='absent'?'なし':'未確認'}</p>}{pending.map(addition=><PendingAddition addition={addition}/>)}</section>
+{!variant&&m.evaluation&&<details><summary>以前の評価記録</summary><p>形態・モード別の評価欄へは転記していません。</p><p>{m.evaluation.scope}：{m.evaluation.rank}</p>{m.evaluation.pendingUpdate&&<p>調整前の評価です。</p>}</details>}
+{terms.length>0&&<section id="keywords"><h2>キーワード</h2><dl class="keywords">{terms.map(k=><><dt>{keywords[k].name}</dt><dd><Fact fact={keywords[k].definition}/></dd></>)}</dl></section>}
+</div></div>
+</Layout>
+<style>.form-switcher{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}.form-switcher a{padding:10px 16px;border:1px solid var(--green);border-radius:6px;text-decoration:none}.form-switcher a[aria-current=page]{background:var(--green);color:white;font-weight:bold}.mode-evaluations{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:24px 0}.mode-evaluations>div{padding:18px;border:1px solid var(--line);background:white}.mode-evaluations h2{font-size:1.1rem;margin:0} @media(max-width:600px){.mode-evaluations{grid-template-columns:1fr}}</style>

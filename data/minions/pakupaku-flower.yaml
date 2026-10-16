@@ -5,7 +5,7 @@ reading: ぱくぱくふらわー
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: legend
@@ -231,29 +231,29 @@ variants:
       introduced:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
-      pendingUpdate: 2026-09-29-sea-rebels
       name: パクパクフラワーⅠ
       image: pakupaku-flower-v1
       cardRank:
         status: observed
         value: SS
         sources:
-          - pakupaku-flower-v1-star1
-          - pakupaku-flower-v1-star2
-          - pakupaku-flower-v1-star3
+          - pakupaku-flower-post0929-star1
+          - pakupaku-flower-post0929-star2
+          - pakupaku-flower-post0929-star3
       displayLevel:
         status: observed
         value: 7
         sources:
-          - pakupaku-flower-v1-star1
-          - pakupaku-flower-v1-star2
-          - pakupaku-flower-v1-star3
+          - pakupaku-flower-post0929-star1
+          - pakupaku-flower-post0929-star2
+          - pakupaku-flower-post0929-star3
       upgradeScreenLevel:
         status: observed
         value: 7
         sources:
-          - pakupaku-flower-v1-up1
-      conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+          - pakupaku-flower-post0929-up1
+          - pakupaku-flower-post0929-up2
+      conditions: 通常バリアント詳細Lv.7の表示値（ON）。育成画面の現在Lv.7と別々に確認。外部補正の影響は未確認。
       stars:
         - star: 1
           stats:
@@ -261,117 +261,134 @@ variants:
               status: observed
               value: 18
               sources:
-                - pakupaku-flower-v1-star1
+                - pakupaku-flower-post0929-star1
             interval:
               status: observed
               value: 1.5
               sources:
-                - pakupaku-flower-v1-star1
+                - pakupaku-flower-post0929-star1
             target:
               status: observed
               value: 最前列
               sources:
-                - pakupaku-flower-v1-star1
+                - pakupaku-flower-post0929-star1
           ability:
             status: observed
             value:
-              text: 毎ラウンド、最大2体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の30%を一時的に他のミニオン1体に付与する
+              text: 毎ラウンド、最大2体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の28%を一時的に他のミニオン1体に付与する
               keywords:
                 - temporary
             sources:
-              - pakupaku-flower-v1-star1
+              - pakupaku-flower-post0929-star1
         - star: 2
           stats:
             attack:
               status: observed
               value: 18
               sources:
-                - pakupaku-flower-v1-star2
+                - pakupaku-flower-post0929-star2
             interval:
               status: observed
               value: 1.5
               sources:
-                - pakupaku-flower-v1-star2
+                - pakupaku-flower-post0929-star2
             target:
               status: observed
               value: 最前列
               sources:
-                - pakupaku-flower-v1-star2
+                - pakupaku-flower-post0929-star2
           ability:
             status: observed
             value:
-              text: 毎ラウンド、最大4体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の30%を一時的に他のミニオン1体に付与する
-              keywords:
-                - temporary
+              text: 毎ラウンド、最大4体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の28%を一時的に他のミニオン1体に付与する
+              keywords: [temporary]
             sources:
-              - pakupaku-flower-v1-star2
+              - pakupaku-flower-post0929-star2
         - star: 3
           stats:
             attack:
               status: observed
               value: 18
               sources:
-                - pakupaku-flower-v1-star3
+                - pakupaku-flower-post0929-star3
             interval:
               status: observed
               value: 1.5
               sources:
-                - pakupaku-flower-v1-star3
+                - pakupaku-flower-post0929-star3
             target:
               status: observed
               value: 最前列
               sources:
-                - pakupaku-flower-v1-star3
+                - pakupaku-flower-post0929-star3
           ability:
             status: observed
             value:
-              text: 毎ラウンド、最大8体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の30%を一時的に他のミニオン1体に付与する
-              keywords:
-                - temporary
+              text: 毎ラウンド、最大8体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の28%を一時的に他のミニオン1体に付与する
+              keywords: [temporary]
             sources:
-              - pakupaku-flower-v1-star3
+              - pakupaku-flower-post0929-star3
       initial:
         attack:
           status: observed
           value: 18
           sources:
-            - pakupaku-flower-v1-star1
-            - pakupaku-flower-v1-star2
-            - pakupaku-flower-v1-star3
+            - pakupaku-flower-post0929-star1
+            - pakupaku-flower-post0929-star2
+            - pakupaku-flower-post0929-star3
         abilities:
           - status: observed
             value:
-              text: 毎ラウンド、最大2体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の30%を一時的に他のミニオン1体に付与する
+              text: 毎ラウンド、最大2体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の28%を一時的に他のミニオン1体に付与する
               keywords:
                 - temporary
             sources:
-              - pakupaku-flower-v1-star1
+              - pakupaku-flower-post0929-star1
           - status: observed
             value:
-              text: 毎ラウンド、最大4体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の30%を一時的に他のミニオン1体に付与する
-              keywords:
-                - temporary
+              text: 毎ラウンド、最大4体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の28%を一時的に他のミニオン1体に付与する
+              keywords: [temporary]
             sources:
-              - pakupaku-flower-v1-star2
+              - pakupaku-flower-post0929-star2
           - status: observed
             value:
-              text: 毎ラウンド、最大8体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の30%を一時的に他のミニオン1体に付与する
-              keywords:
-                - temporary
+              text: 毎ラウンド、最大8体の一時的なミニオンを捕食し、捕食したミニオンの攻撃力の28%を一時的に他のミニオン1体に付与する
+              keywords: [temporary]
             sources:
-              - pakupaku-flower-v1-star3
+              - pakupaku-flower-post0929-star3
       bonuses:
         - level: 8
           effect:
             status: observed
             value:
-              text: ミニオン捕食時に吸収できる攻撃力ボーナスが35%に上昇する
+              text: ミニオン捕食時に吸収できる攻撃力ボーナスが31%に上昇する
               operation: ability_set
-              value: 35
+              value: 31
               unit: percent
             sources:
-              - pakupaku-flower-v1-up1
+              - pakupaku-flower-post0929-up1
         - level: 9
+          effect:
+            status: observed
+            value:
+              text: ミニオン捕食時に吸収できる攻撃力ボーナスが34%に上昇する
+              operation: ability_set
+              value: 34
+              unit: percent
+            sources:
+              - pakupaku-flower-post0929-up1
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: ミニオン捕食時に吸収できる攻撃力ボーナスが37%に上昇する
+              operation: ability_set
+              value: 37
+              unit: percent
+            sources:
+              - pakupaku-flower-post0929-up1
+              - pakupaku-flower-post0929-up2
+        - level: 11
           effect:
             status: observed
             value:
@@ -380,49 +397,29 @@ variants:
               value: 40
               unit: percent
             sources:
-              - pakupaku-flower-v1-up1
-        - level: 10
-          effect:
-            status: observed
-            value:
-              text: ミニオン捕食時に吸収できる攻撃力ボーナスが50%に上昇する
-              operation: ability_set
-              value: 50
-              unit: percent
-            sources:
-              - pakupaku-flower-v1-up2
-        - level: 11
-          effect:
-            status: observed
-            value:
-              text: ミニオン捕食時に吸収できる攻撃力ボーナスが57%に上昇する
-              operation: ability_set
-              value: 57
-              unit: percent
-            sources:
-              - pakupaku-flower-v1-up2
+              - pakupaku-flower-post0929-up2
         - level: 12
           effect:
             status: observed
             value:
-              text: ミニオン捕食時に吸収できる攻撃力ボーナスが65%に上昇する
+              text: ミニオン捕食時に吸収できる攻撃力ボーナスが43%に上昇する
               operation: ability_set
-              value: 65
+              value: 43
               unit: percent
             sources:
-              - pakupaku-flower-v1-up2
+              - pakupaku-flower-post0929-up2
       bonusCoverage:
         status: observed
         value:
           from: 8
           through: 12
         sources:
-          - pakupaku-flower-v1-up1
-          - pakupaku-flower-v1-up2
+          - pakupaku-flower-post0929-up1
+          - pakupaku-flower-post0929-up2
       acquisition:
         status: observed
         value: クランショップで獲得
         sources:
-          - pakupaku-flower-v1-star1
-          - pakupaku-flower-v1-star2
-          - pakupaku-flower-v1-star3
+          - pakupaku-flower-post0929-star1
+          - pakupaku-flower-post0929-star2
+          - pakupaku-flower-post0929-star3

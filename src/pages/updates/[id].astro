@@ -1,8 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Fact from '../../components/Fact.astro';
+import CaptainBadgePerformance from '../../components/CaptainBadgePerformance.astro';
+import { loadCaptainBadges } from '../../../lib/captain-badges.mjs';
+const captainBadges=loadCaptainBadges();
+import RumblePool from '../../components/RumblePool.astro';
 import FormHistory from '../../components/FormHistory.astro';
-import { updates, history, minions, url } from '../../lib/site';
+import { updates, history, minions, url, rumble } from '../../lib/site';
 export function getStaticPaths(){return updates.map(update=>({params:{id:update.id},props:{update}}));}
 const {update}=Astro.props;
 const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustment:'調整',event:'イベント',other:'その他'};
@@ -19,9 +23,15 @@ const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustme
  {c.introduced && <p class="muted">実装日：<Fact fact={c.introduced}/></p>}
  <h3>告知内容</h3><div class="announcement"><Fact fact={c.announcement}/></div>
  <p class="muted">{c.details.status==='unknown' ? (c.target.kind==='rumble-pool'?'変更後の具体的なカード構成は未確認です。':['minion','variant','captain'].includes(c.target.kind)?'詳細な性能は未確認です。':'告知に記載された内容です。実施結果の詳細は未確認です。') : c.details.value}</p>
- {existing && <p><a href={url('minions/'+existing.id+'/'+(c.target.formId?'#'+c.target.formId:''))}>個別ページを見る</a></p>}
+ {existing && <p><a href={url('minions/'+existing.id+'/'+(c.target.formId?(existing.variants.items.some(f=>f.id===c.target.formId)?c.target.formId+'/':'#'+c.target.formId):''))}>個別ページを見る</a></p>}
  <FormHistory entries={snapshots.filter(h=>h.kind==='minion')}/>
+ {snapshots.filter(h=>h.kind==='captain-badge').map(h=>{
+  const badge=captainBadges.find(b=>b.id===h.badgeId);
+  return <div>{badge && <><h3>確認できたバッジ・チャームの性能</h3><CaptainBadgePerformance badge={badge}/></>}
+  <details><summary>以前のバッジ・チャーム性能を見る</summary><p class="condition">{h.period.value || h.period.reason}</p><CaptainBadgePerformance badge={h.snapshot}/></details></div>;
+ })}
  {snapshots.filter(h=>h.kind==='captain').map(h=><details><summary>以前の隊長能力を見る</summary><p class="condition">{h.period.value || '正確な適用期間は未確認です。'}</p><Fact fact={h.snapshot.effect}/></details>)}
+ {c.target.kind==='rumble-pool' && rumble.updateId===update.id && <><h3>調整後のカードプール</h3><p>各絆の効果は変更ありません。以下は6デッキの構成です。共有デッキは未確認で、ここにない形態を非登場とは判定していません。</p><RumblePool pool={rumble}/></>}
  {snapshots.filter(h=>h.kind==='rumble-pool').map(h=><details><summary>以前のカードプールを見る（適用期間未確認）</summary><p class="condition">{h.period.value||h.period.reason}</p>{h.snapshot.decks.map(d=><section><h3><Fact fact={d.name}/></h3><p>{d.members.value?.join('、') || '未確認'}</p></section>)}</details>)}
  </section>;
 })}

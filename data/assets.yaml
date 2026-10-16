@@ -614,7 +614,6 @@ candle-charm-icon:
   path: images/captain-badges/candle-summoner/candle-charm-icon.webp
   alt: キャンドルサモナーチャームの丸いアイコン（星・鍵なし）
 
-
 lucky-cat-badge-rarity-icon:
   path: images/captain-badges/lucky-cat/rarity-icon.webp
   alt: 招き猫バッジ（レア度背景付き）
@@ -1048,3 +1047,15 @@ coffee-bean-chief-variant-1:
 orchid-astrologer-variant-1:
   path: images/minions/orchid-astrologer/variant-1.webp
   alt: オーキッド占星術師Ⅰのカードと立ち絵
+magician-cucumber-icon:
+  path: images/minions/magician-cucumber/icon.webp
+  alt: マジシャン・キュウリのカードアイコン（撮影時のLv.7表示を含む）
+magician-cucumber-portrait:
+  path: images/minions/magician-cucumber/portrait.webp
+  alt: マジシャン・キュウリの立ち絵
+soukyo-witch-icon:
+  path: images/minions/soukyo-witch/icon.webp
+  alt: ソウキョウ魔女のカードアイコン（撮影時のLv.7表示を含む）
+soukyo-witch-portrait:
+  path: images/minions/soukyo-witch/portrait.webp
+  alt: ソウキョウ魔女の立ち絵

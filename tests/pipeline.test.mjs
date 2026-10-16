@@ -1,3 +1,4 @@
+import {loadHistory} from '../lib/updates.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -61,7 +62,7 @@ test('バリアント非表示は通常詳細の確認時だけ不存在の根�
   assert.throws(()=>minionSchema.parse(m));
 });
 test('ランブルチェスの観測は任意で、現在Lvと保証Lvを別に扱う',()=>{
-  const r=loadRumble();
+  const r=loadHistory().find(h=>h.kind==='rumble-pool').snapshot;
   assert.equal(r.observations[0].currentLevel.value,6);
   assert.equal(r.observations[0].guaranteedLevel.value,7);
   assert.doesNotThrow(()=>rumbleSchema.parse({...r,observations:[]}));

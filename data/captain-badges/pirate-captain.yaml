@@ -1,31 +1,31 @@
 schemaVersion: 1
 id: pirate-captain
-updated: 2026-09-28
+updated: 2026-10-15
 name:
   status: observed
   value: 海賊隊長バッジ
   sources:
-    - pirate-captain-badge-detail
+    - pirate-badge-post0929-detail
 rarity:
   status: observed
   value: legend
   sources:
-    - pirate-captain-badge-detail
+    - pirate-badge-post0929-detail
 observedLevel:
   status: observed
   value: 1
   sources:
-    - pirate-captain-badge-detail
+    - pirate-badge-post0929-detail
 effect:
   status: observed
-  value: 準備完了：敵隊長を直接攻撃して6のダメージを与える
+  value: バトル開始：敵隊長を直接攻撃して6のダメージを与える
   sources:
-    - pirate-captain-badge-detail
+    - pirate-badge-post0929-detail
 acquisition:
   status: observed
   value: シーズン隊長として登場時、バッジ金貨との交換で入手可能
   sources:
-    - pirate-captain-badge-detail
+    - pirate-badge-post0929-detail
 icons:
   rarityBackground:
     status: observed
@@ -53,48 +53,54 @@ progression:
       from: 2
       through: 5
     sources:
-      - pirate-captain-badge-levels-2-3
-      - pirate-captain-badge-levels-4-5
+      - pirate-badge-post0929-up1
+      - pirate-badge-post0929-up2
   levels:
     - level: 2
       effect:
         status: observed
-        value: 準備完了：敵隊長を直接攻撃して6のダメージを与える（ラウンドごとにダメージ+1、最大10まで）
+        value: バトル開始：敵隊長を直接攻撃して6のダメージを与える（ラウンドごとにダメージ+1、最大10まで）
         sources:
-          - pirate-captain-badge-levels-2-3
+          - pirate-badge-post0929-up1
     - level: 3
       effect:
         status: observed
         value: 同名バッジチャームを解放
         sources:
-          - pirate-captain-badge-levels-2-3
+          - pirate-badge-post0929-up1
     - level: 4
       effect:
         status: observed
-        value: 準備完了：敵隊長を直接攻撃して8のダメージを与える（ラウンドごとにダメージ+1、最大15まで）
+        value: バトル開始：敵隊長を直接攻撃して8のダメージを与える（ラウンドごとにダメージ+1、最大15まで）
         sources:
-          - pirate-captain-badge-levels-4-5
+          - pirate-badge-post0929-up2
     - level: 5
       effect:
         status: observed
         value: 同名バッジチャームをレベルアップ
         sources:
-          - pirate-captain-badge-levels-4-5
+          - pirate-badge-post0929-up2
+  observedLevel:
+    status: observed
+    value: 1
+    sources:
+      - pirate-badge-post0929-up1
+      - pirate-badge-post0929-up2
 charms:
   - id: pirate-captain-1
     name:
       status: observed
       value: 海賊隊長チャームⅠ
       sources:
-        - pirate-captain-charm-detail
+        - pirate-charm-post0929-detail
     rarity:
       status: unknown
       reason: チャーム自身のレア度を示す文字は未確認。背景色からは確定しない。
     effect:
       status: observed
-      value: 準備完了：敵隊長を直接攻撃して6のダメージを与える
+      value: バトル開始：敵隊長を直接攻撃して6のダメージを与える
       sources:
-        - pirate-captain-charm-detail
+        - pirate-charm-post0929-detail
     icon:
       status: observed
       value: pirate-captain-badge-charm-icon

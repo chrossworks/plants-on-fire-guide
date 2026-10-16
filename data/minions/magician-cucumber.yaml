@@ -1,0 +1,222 @@
+schemaVersion: 1
+id: magician-cucumber
+name: マジシャン・キュウリ
+reading: まじしゃんきゅうり
+introduced:
+  status: manual
+  value: 2026-09-29
+  sources:
+    - rumble-pool-user-20261016
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - rc-magician-cucumber-star1
+cost:
+  status: observed
+  value: 5
+  sources:
+    - rc-magician-cucumber-star1
+updated: 2026-10-16
+icon: magician-cucumber-icon
+portrait: magician-cucumber-portrait
+evaluation:
+  rank: 対象外
+  scope: ランクマッチ評価の対象外（ランブルチェス専用）
+  source: magician-cucumber-editorial-20261016
+availability:
+  ranked:
+    status: manual
+    value: false
+    sources:
+      - rumble-pool-user-20261016
+  acquisition:
+    status: observed
+    value: unobtainable
+    sources:
+      - rc-magician-cucumber-star1
+base:
+  id: base
+  name: 基本形
+  conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。
+  stars:
+    - stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - rc-magician-cucumber-star1
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - rc-magician-cucumber-star1
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - rc-magician-cucumber-star1
+      star: 1
+      ability:
+        status: observed
+        value:
+          text: |-
+            準備完了：1つ上のマスにいるミニオンのクローン体1体を一時的に召喚する。クローン体はマジシャン・キュウリの星ランクと攻撃力の70%を継承する
+            購入価格+3
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - rc-magician-cucumber-star1
+    - stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - rc-magician-cucumber-star2
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - rc-magician-cucumber-star2
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - rc-magician-cucumber-star2
+      star: 2
+      ability:
+        status: observed
+        value:
+          text: |-
+            準備完了：1つ上のマスにいるミニオンのクローン体1体を一時的に召喚する。クローン体はマジシャン・キュウリの星ランクと攻撃力の70%を継承する
+            購入価格+3
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - rc-magician-cucumber-star2
+    - stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - rc-magician-cucumber-star3
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - rc-magician-cucumber-star3
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - rc-magician-cucumber-star3
+      star: 3
+      ability:
+        status: observed
+        value:
+          text: |-
+            準備完了：1つ上のマスにいるミニオンのクローン体1体を一時的に召喚する。クローン体はマジシャン・キュウリの星ランクと攻撃力の70%を継承する
+            購入価格+3
+          keywords:
+            - ready
+            - temporary
+        sources:
+          - rc-magician-cucumber-star3
+  initial:
+    attack:
+      status: unknown
+      reason: ランブルチェスの撮影値から初期攻撃力への換算は行っていません。
+    abilities:
+      - status: unknown
+        reason: ランブルチェスの撮影値から初期能力への換算は行っていません。
+      - status: unknown
+        reason: ランブルチェスの撮影値から初期能力への換算は行っていません。
+      - status: unknown
+        reason: ランブルチェスの撮影値から初期能力への換算は行っていません。
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 継承する攻撃力が85%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-magician-cucumber-up1
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 継承する攻撃力が100%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-magician-cucumber-up1
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 購入価格を+2に調整する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-magician-cucumber-up1
+          - rc-magician-cucumber-up2
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 継承する攻撃力が120%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-magician-cucumber-up2
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 継承する攻撃力が140%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - rc-magician-cucumber-up2
+  poolUnlock:
+    status: unknown
+    reason: ランブルチェスでの登場は雷デッキで確認。通常のカードプール解放条件は未確認。
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - rc-magician-cucumber-star1
+      - rc-magician-cucumber-star2
+      - rc-magician-cucumber-star3
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - rc-magician-cucumber-up1
+      - rc-magician-cucumber-up2
+  acquisition:
+    status: observed
+    value: 現在入手できません
+    sources:
+      - rc-magician-cucumber-star1
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - rc-magician-cucumber-up1
+      - rc-magician-cucumber-up2
+variants:
+  status: unknown
+  note: ランブルチェス画面ではバリアントの有無を判定できません。
+  items: []

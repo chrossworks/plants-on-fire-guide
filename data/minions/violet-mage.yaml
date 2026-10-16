@@ -5,21 +5,21 @@ reading: ばいおれっとまほうつかい
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: legend
   sources:
-    - violet-mage-base-star1
-    - violet-mage-base-star2
-    - violet-mage-base-star3
+    - violet-mage-post0929-star1
+    - violet-mage-post0929-star2
+    - violet-mage-post0929-star3
 cost:
   status: observed
   value: 5
   sources:
-    - violet-mage-base-star1
-    - violet-mage-base-star2
-    - violet-mage-base-star3
+    - violet-mage-post0929-star1
+    - violet-mage-post0929-star2
+    - violet-mage-post0929-star3
 updated: 2026-10-15
 icon: violet-mage-icon
 portrait: violet-mage-portrait
@@ -29,22 +29,22 @@ evaluation:
   scope: 基本形の総合評価
   source: violet-mage-memo
 base:
-  pendingUpdate: 2026-09-29-sea-rebels
   id: base
   name: 基本形
   displayLevel:
     status: observed
     value: 7
     sources:
-      - violet-mage-base-star1
-      - violet-mage-base-star2
-      - violet-mage-base-star3
+      - violet-mage-post0929-star1
+      - violet-mage-post0929-star2
+      - violet-mage-post0929-star3
   upgradeScreenLevel:
     status: observed
     value: 7
     sources:
-      - violet-mage-base-up1
-  conditions: 通常詳細Lv.7の表示値（ON）。外部補正の影響は未確認。
+      - violet-mage-post0929-up1
+      - violet-mage-post0929-up2
+  conditions: 通常詳細Lv.7の表示値（ON）。育成画面の現在Lv.7と別々に確認。外部補正の影響は未確認。
   stars:
     - star: 1
       stats:
@@ -52,105 +52,101 @@ base:
           status: observed
           value: 18
           sources:
-            - violet-mage-base-star1
+            - violet-mage-post0929-star1
         interval:
           status: observed
           value: 4
           sources:
-            - violet-mage-base-star1
+            - violet-mage-post0929-star1
         target:
           status: observed
           value: 攻撃不可
           sources:
-            - violet-mage-base-star1
+            - violet-mage-post0929-star1
       ability:
         status: observed
         value:
-          text: 魔法（4秒）：ランダムな敵にマジックミサイルを発射して攻撃力の50%のダメージを与える。フィールド上に存在する★1ミニオン1体につき、マジックミサイルを1発発射する
+          text: 魔法（4秒）：ランダムな敵にマジックミサイルを1発発射して攻撃力の50%のダメージを与える。フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを1発発射する
           keywords:
             - magic
         sources:
-          - violet-mage-base-star1
+          - violet-mage-post0929-star1
     - star: 2
       stats:
         attack:
           status: observed
           value: 18
           sources:
-            - violet-mage-base-star2
+            - violet-mage-post0929-star2
         interval:
           status: observed
           value: 4
           sources:
-            - violet-mage-base-star2
+            - violet-mage-post0929-star2
         target:
           status: observed
           value: 攻撃不可
           sources:
-            - violet-mage-base-star2
+            - violet-mage-post0929-star2
       ability:
         status: observed
         value:
-          text: 魔法（4秒）：ランダムな敵にマジックミサイルを発射して攻撃力の60%のダメージを与える。フィールド上に存在する★2ミニオン1体につき、マジックミサイルを1発発射する
-          keywords:
-            - magic
+          text: 魔法（4秒）：ランダムな敵にマジックミサイルを3発発射して攻撃力の60%のダメージを与える。フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを1発発射する
+          keywords: [magic]
         sources:
-          - violet-mage-base-star2
+          - violet-mage-post0929-star2
     - star: 3
       stats:
         attack:
           status: observed
           value: 18
           sources:
-            - violet-mage-base-star3
+            - violet-mage-post0929-star3
         interval:
           status: observed
           value: 4
           sources:
-            - violet-mage-base-star3
+            - violet-mage-post0929-star3
         target:
           status: observed
           value: 攻撃不可
           sources:
-            - violet-mage-base-star3
+            - violet-mage-post0929-star3
       ability:
         status: observed
         value:
-          text: 魔法（4秒）：ランダムな敵にマジックミサイルを発射して攻撃力の70%のダメージを与える。フィールド上に存在する★3ミニオン1体につき、マジックミサイルを1発発射する
-          keywords:
-            - magic
+          text: 魔法（4秒）：ランダムな敵にマジックミサイルを6発発射して攻撃力の70%のダメージを与える。フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを1発発射する
+          keywords: [magic]
         sources:
-          - violet-mage-base-star3
+          - violet-mage-post0929-star3
   initial:
     attack:
       status: observed
       value: 18
       sources:
-        - violet-mage-base-star1
-        - violet-mage-base-star2
-        - violet-mage-base-star3
+        - violet-mage-post0929-star1
+        - violet-mage-post0929-star2
+        - violet-mage-post0929-star3
     abilities:
       - status: observed
         value:
-          text: 魔法（4秒）：ランダムな敵にマジックミサイルを発射して攻撃力の50%のダメージを与える。フィールド上に存在する★1ミニオン1体につき、マジックミサイルを1発発射する
+          text: 魔法（4秒）：ランダムな敵にマジックミサイルを1発発射して攻撃力の50%のダメージを与える。フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを1発発射する
           keywords:
             - magic
         sources:
-          - violet-mage-base-star1
+          - violet-mage-post0929-star1
       - status: observed
         value:
-          text: 魔法（4秒）：ランダムな敵にマジックミサイルを発射して攻撃力の60%のダメージを与える。フィールド上に存在する★2ミニオン1体につき、マジックミサイルを1発発射する
-          keywords:
-            - magic
+          text: 魔法（4秒）：ランダムな敵にマジックミサイルを3発発射して攻撃力の60%のダメージを与える。フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを1発発射する
+          keywords: [magic]
         sources:
-          - violet-mage-base-star2
+          - violet-mage-post0929-star2
       - status: observed
         value:
-          text: 魔法（4秒）：ランダムな敵にマジックミサイルを発射して攻撃力の70%のダメージを与える。フィールド上に存在する★3ミニオン1体につき、マジックミサイルを1発発射する
-          keywords:
-            - magic
+          text: 魔法（4秒）：ランダムな敵にマジックミサイルを6発発射して攻撃力の70%のダメージを与える。フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを1発発射する
+          keywords: [magic]
         sources:
-          - violet-mage-base-star3
+          - violet-mage-post0929-star3
   bonuses:
     - level: 8
       effect:
@@ -161,7 +157,7 @@ base:
           value: 55
           unit: percent
         sources:
-          - violet-mage-base-up1
+          - violet-mage-post0929-up1
     - level: 9
       effect:
         status: observed
@@ -171,17 +167,18 @@ base:
           value: 60
           unit: percent
         sources:
-          - violet-mage-base-up1
+          - violet-mage-post0929-up1
     - level: 10
       effect:
         status: observed
         value:
-          text: デフォルトで発射するミサイルの数+2
+          text: 基本のミサイル発射数が2に上昇する
           operation: text
           value: null
           unit: none
         sources:
-          - violet-mage-base-up2
+          - violet-mage-post0929-up1
+          - violet-mage-post0929-up2
     - level: 11
       effect:
         status: observed
@@ -191,7 +188,7 @@ base:
           value: 67
           unit: percent
         sources:
-          - violet-mage-base-up2
+          - violet-mage-post0929-up2
     - level: 12
       effect:
         status: observed
@@ -201,34 +198,34 @@ base:
           value: 75
           unit: percent
         sources:
-          - violet-mage-base-up2
+          - violet-mage-post0929-up2
   bonusCoverage:
     status: observed
     value:
       from: 8
       through: 12
     sources:
-      - violet-mage-base-up1
-      - violet-mage-base-up2
+      - violet-mage-post0929-up1
+      - violet-mage-post0929-up2
   acquisition:
     status: observed
-    value: バトルパス購入後に獲得
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
     sources:
-      - violet-mage-base-star1
-      - violet-mage-base-star2
-      - violet-mage-base-star3
+      - violet-mage-post0929-star1
+      - violet-mage-post0929-star2
+      - violet-mage-post0929-star3
   poolUnlock:
     status: observed
     value: トロフィー700
     sources:
-      - violet-mage-base-star1
-      - violet-mage-base-star2
-      - violet-mage-base-star3
+      - violet-mage-post0929-star1
+      - violet-mage-post0929-star2
+      - violet-mage-post0929-star3
 variants:
   status: absent
   note: 通常詳細画面でバリアント表示がないことを確認済みです。
   sources:
-    - violet-mage-base-star1
-    - violet-mage-base-star2
-    - violet-mage-base-star3
+    - violet-mage-post0929-star1
+    - violet-mage-post0929-star2
+    - violet-mage-post0929-star3
   items: []
