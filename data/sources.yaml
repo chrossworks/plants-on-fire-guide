@@ -5200,3 +5200,80 @@ rc-soukyo-witch-up2:
 soukyo-witch-editorial-20261016:
   kind: user
   description: 2026-10-16追加のソウキョウ魔女の元メモ。実装日2026-09-29、ランブルチェス専用、評価対象外、使い方・注意点。
+rc-mojiton-variant-1-star4-20261016:
+  kind: screenshot
+  description: モヒートンⅠ・ランブルチェス・表示Lv.7・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-white-rose-knight-variant-1-star4-20261016:
+  kind: screenshot
+  description: ホワイトローズナイトⅠ・ランブルチェス・表示Lv.9・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-melon-accountant-variant-1-star4-20261016:
+  kind: screenshot
+  description: メロンアカウンタントⅠ・ランブルチェス・表示Lv.7・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-lady-tulip-variant-1-star4-20261016:
+  kind: screenshot
+  description: レディ・チューリップⅠ・ランブルチェス・表示Lv.8・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-coffee-bean-chief-variant-1-star4-20261016:
+  kind: screenshot
+  description: コーヒービーンチーフⅠ・ランブルチェス・表示Lv.7・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-hakusai-guard-variant-1-star4-20261016:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・ランブルチェス・表示Lv.7・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-hanakinoko-apothecary-variant-1-star4-20261016:
+  kind: screenshot
+  description: ハナキノコ薬師Ⅰ・ランブルチェス・表示Lv.7・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-kowappine-variant-2-star4-20261016:
+  kind: screenshot
+  description: コワッパインⅡ・ランブルチェス・表示Lv.7・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-mam-girl-variant-1-star4-20261016:
+  kind: screenshot
+  description: マムガールⅠ・ランブルチェス・表示Lv.9・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-norinori-negi-variant-1-star4-20261016:
+  kind: screenshot
+  description: ノリノリネギⅠ・ランブルチェス・表示Lv.9・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed
+rc-muscle-watermelon-variant-1-star4-20261016:
+  kind: screenshot
+  description: マッスルスイカⅠ・ランブルチェス・表示Lv.8・星4。2026-10-16確認。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: unconfirmed

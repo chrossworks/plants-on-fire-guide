@@ -64,7 +64,10 @@ test('9/29のカードプールは形態を分離し、旧星4・所属を現行
  assert.deepEqual(r.decks.map(d=>d.bond),old.decks.map(d=>d.bond));
  assert.equal(rumbleForMinion(r,'mam-girl').availability.status,'unknown');
  const variant=rumbleForMinion(r,'mam-girl','variant-1');
- assert.equal(variant.availability.value,true);assert.equal(variant.deck.id,'star');assert.equal(variant.star4.status,'unknown');
+ assert.equal(variant.availability.value,true);assert.equal(variant.deck.id,'star');assert.equal(variant.star4.status,'observed');
+ assert.deepEqual(variant.star4.sources,['rc-mam-girl-variant-1-star4-20261016']);
+ assert.equal(variant.star4.value.currentLevel.value,9);
+ assert.equal(variant.star4.value.guaranteedLevel.status,'unknown');
  assert.equal(rumbleForMinion(old,'mam-girl').star4.status,'observed');
  assert.equal(rumbleForMinion(old,'mam-girl','variant-1').availability.status,'unknown');
  assert.equal(rumbleForMinion(r,'kowappine','variant-1').availability.status,'unknown');
@@ -73,7 +76,8 @@ test('9/29のカードプールは形態を分離し、旧星4・所属を現行
  for(const id of ['magician-cucumber','soukyo-witch']){
   const e=rumbleForMinion(r,id);assert.equal(e.deck.id,'thunder');assert.equal(e.exclusive.status,'manual');assert.equal(e.introduced.value,'2026-09-29');assert.equal(e.star4.status,'observed');assert.equal(ms.some(m=>m.id===id),true);
  }
- assert.equal(r.sharedDeck.status,'unknown');assert.equal(r.observations.length,8);
+ assert.equal(r.sharedDeck.status,'unknown');assert.equal(r.observations.length,19);
+ assert.equal(r.observations.filter(o=>o.source.endsWith('-20261016')).length,11);
  assert.deepEqual(rumbleIdentityIssues(r,ms),[]);
  const broken=structuredClone(r);delete broken.memberForms['mam-girl-variant-1'];
  assert.match(rumbleIdentityIssues(broken,ms).join(),/不一致/);

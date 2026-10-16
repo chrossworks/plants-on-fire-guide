@@ -351,7 +351,7 @@ changes:
         - update-history-user-2026-10-15
     details:
       status: observed
-      value: 調整後の雲・月・太陽・雷・雫・星デッキを各10枠、計60枠確認しました。11枠はバリアントです。雷デッキの新規ミニオン、マジシャン・キュウリとソウキョウ魔女は撮影Lv.7の星1〜4・Lv.8〜12の育成効果を掲載しました。共有デッキと、この2体以外の調整後の星4能力・詳細性能は未確認です。
+      value: 調整後の雲・月・太陽・雷・雫・星デッキを各10枠、計60枠確認しました。11枠はバリアントです。雷デッキの新規ミニオン、マジシャン・キュウリとソウキョウ魔女は撮影Lv.7の星1〜4・Lv.8〜12の育成効果を掲載しました。追加されたバリアント11体の星4能力も、撮影Lv.7〜9の値として掲載しました。共有デッキと、今回確認した13体以外の調整後の星4能力・詳細性能は未確認です。
       sources:
         - rumble-pool-post0929-cloud
         - rumble-pool-post0929-moon
@@ -371,6 +371,17 @@ changes:
         - rc-soukyo-witch-star4
         - rc-soukyo-witch-up1
         - rc-soukyo-witch-up2
+        - rc-mojiton-variant-1-star4-20261016
+        - rc-white-rose-knight-variant-1-star4-20261016
+        - rc-melon-accountant-variant-1-star4-20261016
+        - rc-lady-tulip-variant-1-star4-20261016
+        - rc-coffee-bean-chief-variant-1-star4-20261016
+        - rc-hakusai-guard-variant-1-star4-20261016
+        - rc-hanakinoko-apothecary-variant-1-star4-20261016
+        - rc-kowappine-variant-2-star4-20261016
+        - rc-mam-girl-variant-1-star4-20261016
+        - rc-norinori-negi-variant-1-star4-20261016
+        - rc-muscle-watermelon-variant-1-star4-20261016
   - id: maintenance
     target:
       kind: other

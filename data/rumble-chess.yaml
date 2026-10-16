@@ -812,7 +812,18 @@ observations:
     { name: ソウキョウ魔女, source: rc-soukyo-witch-star1, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star1 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 1, bondPoints: { status: observed, value: 1, sources: [ rc-soukyo-witch-star1 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star1 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star1 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star1 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+1, sources: [ rc-soukyo-witch-star1 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 },
     { name: ソウキョウ魔女, source: rc-soukyo-witch-star2, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star2 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 2, bondPoints: { status: observed, value: 2, sources: [ rc-soukyo-witch-star2 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star2 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star2 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star2 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+2, sources: [ rc-soukyo-witch-star2 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 },
     { name: ソウキョウ魔女, source: rc-soukyo-witch-star3, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star3 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 3, bondPoints: { status: observed, value: 4, sources: [ rc-soukyo-witch-star3 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star3 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star3 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star3 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+4, sources: [ rc-soukyo-witch-star3 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 },
-    { name: ソウキョウ魔女, source: rc-soukyo-witch-star4, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star4 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-soukyo-witch-star4 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star4 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star4 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star4 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+12, sources: [ rc-soukyo-witch-star4 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 }
+    { name: ソウキョウ魔女, source: rc-soukyo-witch-star4, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-soukyo-witch-star4 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-soukyo-witch-star4 ] }, attack: { status: observed, value: 0, sources: [ rc-soukyo-witch-star4 ] }, interval: { status: observed, value: 0, sources: [ rc-soukyo-witch-star4 ] }, target: { status: observed, value: 攻撃不可, sources: [ rc-soukyo-witch-star4 ] }, ability: { status: observed, value: 味方が最初に召喚したラッシュユニット10体のシールド+12, sources: [ rc-soukyo-witch-star4 ] }, conditions: ランブルチェス・表示Lv.7（ON）、育成画面の現在Lv.7。育成画面下部の+5%表示の適用内容・性能への影響は未確認。 },
+    { name: モヒートンⅠ, source: rc-mojiton-variant-1-star4-20261016, deck: cloud, currentLevel: { status: observed, value: 7, sources: [ rc-mojiton-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-mojiton-variant-1-star4-20261016 ] }, attack: { status: observed, value: 6, sources: [ rc-mojiton-variant-1-star4-20261016 ] }, interval: { status: observed, value: 3, sources: [ rc-mojiton-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-mojiton-variant-1-star4-20261016 ] }, ability: { status: observed, value: 配置されたミニオンの攻撃力+100%（オーラバフは含まない）, sources: [ rc-mojiton-variant-1-star4-20261016 ] }, conditions: ランブルチェス・モヒートンⅠ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: ホワイトローズナイトⅠ, source: rc-white-rose-knight-variant-1-star4-20261016, deck: moon, currentLevel: { status: observed, value: 9, sources: [ rc-white-rose-knight-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-white-rose-knight-variant-1-star4-20261016 ] }, attack: { status: observed, value: 15, sources: [ rc-white-rose-knight-variant-1-star4-20261016 ] }, interval: { status: observed, value: 2, sources: [ rc-white-rose-knight-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-white-rose-knight-variant-1-star4-20261016 ] }, ability: { status: observed, value: オーラ：敵フィールド上のミニオンが味方より1体多いごとに、自身の攻撃力が一時的に+144, sources: [ rc-white-rose-knight-variant-1-star4-20261016 ] }, conditions: ランブルチェス・ホワイトローズナイトⅠ・表示Lv.9・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: メロンアカウンタントⅠ, source: rc-melon-accountant-variant-1-star4-20261016, deck: sun, currentLevel: { status: observed, value: 7, sources: [ rc-melon-accountant-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-melon-accountant-variant-1-star4-20261016 ] }, attack: { status: observed, value: 10, sources: [ rc-melon-accountant-variant-1-star4-20261016 ] }, interval: { status: observed, value: 2, sources: [ rc-melon-accountant-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-melon-accountant-variant-1-star4-20261016 ] }, ability: { status: observed, value: 売却価格+400%, sources: [ rc-melon-accountant-variant-1-star4-20261016 ] }, conditions: ランブルチェス・メロンアカウンタントⅠ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: レディ・チューリップⅠ, source: rc-lady-tulip-variant-1-star4-20261016, deck: sun, currentLevel: { status: observed, value: 8, sources: [ rc-lady-tulip-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-lady-tulip-variant-1-star4-20261016 ] }, attack: { status: observed, value: 19, sources: [ rc-lady-tulip-variant-1-star4-20261016 ] }, interval: { status: observed, value: 1.8, sources: [ rc-lady-tulip-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-lady-tulip-variant-1-star4-20261016 ] }, ability: { status: observed, value: 準備完了：本ラウンド中、サンコインを3個消費するごとに、レディ・チューリップの攻撃力+48, sources: [ rc-lady-tulip-variant-1-star4-20261016 ] }, conditions: ランブルチェス・レディ・チューリップⅠ・表示Lv.8・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: コーヒービーンチーフⅠ, source: rc-coffee-bean-chief-variant-1-star4-20261016, deck: sun, currentLevel: { status: observed, value: 7, sources: [ rc-coffee-bean-chief-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-coffee-bean-chief-variant-1-star4-20261016 ] }, attack: { status: observed, value: 15, sources: [ rc-coffee-bean-chief-variant-1-star4-20261016 ] }, interval: { status: observed, value: 1.6, sources: [ rc-coffee-bean-chief-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-coffee-bean-chief-variant-1-star4-20261016 ] }, ability: { status: observed, value: 売却価格+700%, sources: [ rc-coffee-bean-chief-variant-1-star4-20261016 ] }, conditions: ランブルチェス・コーヒービーンチーフⅠ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: ハクサイ衛兵Ⅰ, source: rc-hakusai-guard-variant-1-star4-20261016, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-hakusai-guard-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-hakusai-guard-variant-1-star4-20261016 ] }, attack: { status: observed, value: 7, sources: [ rc-hakusai-guard-variant-1-star4-20261016 ] }, interval: { status: observed, value: 2, sources: [ rc-hakusai-guard-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-hakusai-guard-variant-1-star4-20261016 ] }, ability: { status: observed, value: 準備完了：★1ハクサイワンコ6体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+6、攻撃速度+3%, sources: [ rc-hakusai-guard-variant-1-star4-20261016 ] }, conditions: ランブルチェス・ハクサイ衛兵Ⅰ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: ハナキノコ薬師Ⅰ, source: rc-hanakinoko-apothecary-variant-1-star4-20261016, deck: thunder, currentLevel: { status: observed, value: 7, sources: [ rc-hanakinoko-apothecary-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-hanakinoko-apothecary-variant-1-star4-20261016 ] }, attack: { status: observed, value: 16, sources: [ rc-hanakinoko-apothecary-variant-1-star4-20261016 ] }, interval: { status: observed, value: 1.6, sources: [ rc-hanakinoko-apothecary-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-hanakinoko-apothecary-variant-1-star4-20261016 ] }, ability: { status: observed, value: 売却価格+700%, sources: [ rc-hanakinoko-apothecary-variant-1-star4-20261016 ] }, conditions: ランブルチェス・ハナキノコ薬師Ⅰ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: コワッパインⅡ, source: rc-kowappine-variant-2-star4-20261016, deck: droplet, currentLevel: { status: observed, value: 7, sources: [ rc-kowappine-variant-2-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-kowappine-variant-2-star4-20261016 ] }, attack: { status: observed, value: 7, sources: [ rc-kowappine-variant-2-star4-20261016 ] }, interval: { status: observed, value: 2, sources: [ rc-kowappine-variant-2-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-kowappine-variant-2-star4-20261016 ] }, ability: { status: observed, value: 自身が星アップすると、攻撃力+48%, sources: [ rc-kowappine-variant-2-star4-20261016 ] }, conditions: ランブルチェス・コワッパインⅡ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: マムガールⅠ, source: rc-mam-girl-variant-1-star4-20261016, deck: star, currentLevel: { status: observed, value: 9, sources: [ rc-mam-girl-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-mam-girl-variant-1-star4-20261016 ] }, attack: { status: observed, value: 8, sources: [ rc-mam-girl-variant-1-star4-20261016 ] }, interval: { status: observed, value: 3, sources: [ rc-mam-girl-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-mam-girl-variant-1-star4-20261016 ] }, ability: { status: observed, value: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+30, sources: [ rc-mam-girl-variant-1-star4-20261016 ] }, conditions: ランブルチェス・マムガールⅠ・表示Lv.9・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: ノリノリネギⅠ, source: rc-norinori-negi-variant-1-star4-20261016, deck: star, currentLevel: { status: observed, value: 9, sources: [ rc-norinori-negi-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-norinori-negi-variant-1-star4-20261016 ] }, attack: { status: observed, value: 11, sources: [ rc-norinori-negi-variant-1-star4-20261016 ] }, interval: { status: observed, value: 3, sources: [ rc-norinori-negi-variant-1-star4-20261016 ] }, target: { status: observed, value: 最前列, sources: [ rc-norinori-negi-variant-1-star4-20261016 ] }, ability: { status: observed, value: オーラ：十字範囲内のミニオンの攻撃力を合計で+192（隣接するミニオンに攻撃力ボーナスを均等に付与）, sources: [ rc-norinori-negi-variant-1-star4-20261016 ] }, conditions: ランブルチェス・ノリノリネギⅠ・表示Lv.9・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 },
+    { name: マッスルスイカⅠ, source: rc-muscle-watermelon-variant-1-star4-20261016, deck: star, currentLevel: { status: observed, value: 8, sources: [ rc-muscle-watermelon-variant-1-star4-20261016 ] }, guaranteedLevel: { status: unknown, reason: 最低保証Lvの併記なし。共通ルールは別管理。 }, selectedStar: 4, bondPoints: { status: observed, value: 8, sources: [ rc-muscle-watermelon-variant-1-star4-20261016 ] }, attack: { status: observed, value: 50, sources: [ rc-muscle-watermelon-variant-1-star4-20261016 ] }, interval: { status: observed, value: 2, sources: [ rc-muscle-watermelon-variant-1-star4-20261016 ] }, target: { status: observed, value: HP最高, sources: [ rc-muscle-watermelon-variant-1-star4-20261016 ] }, ability: { status: observed, value: 準備完了：自身の攻撃力+42%, sources: [ rc-muscle-watermelon-variant-1-star4-20261016 ] }, conditions: ランブルチェス・マッスルスイカⅠ・表示Lv.8・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 }
   ]
 rules:
   sharedPerformance:
@@ -939,8 +950,23 @@ minions:
       sources:
         - rumble-pool-post0929-cloud
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 配置されたミニオンの攻撃力+100%（オーラバフは含まない）
+          keywords:
+            - placement
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mojiton-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・モヒートンⅠ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-mojiton-variant-1-star4-20261016
   samurai-take:
     availability:
       status: observed
@@ -1047,8 +1073,24 @@ minions:
       sources:
         - rumble-pool-post0929-moon
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: オーラ：敵フィールド上のミニオンが味方より1体多いごとに、自身の攻撃力が一時的に+144
+          keywords:
+            - aura
+            - temporary
+        currentLevel:
+          status: observed
+          value: 9
+          sources:
+            - rc-white-rose-knight-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・ホワイトローズナイトⅠ・表示Lv.9・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-white-rose-knight-variant-1-star4-20261016
   valkyris:
     availability:
       status: observed
@@ -1110,8 +1152,22 @@ minions:
       sources:
         - rumble-pool-post0929-sun
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 売却価格+400%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-melon-accountant-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・メロンアカウンタントⅠ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-melon-accountant-variant-1-star4-20261016
   draful-guard:
     availability:
       status: observed
@@ -1155,8 +1211,23 @@ minions:
       sources:
         - rumble-pool-post0929-sun
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：本ラウンド中、サンコインを3個消費するごとに、レディ・チューリップの攻撃力+48
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-lady-tulip-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・レディ・チューリップⅠ・表示Lv.8・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-lady-tulip-variant-1-star4-20261016
   coffee-bean-chief-variant-1:
     availability:
       status: observed
@@ -1164,8 +1235,22 @@ minions:
       sources:
         - rumble-pool-post0929-sun
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 売却価格+700%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-coffee-bean-chief-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・コーヒービーンチーフⅠ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-coffee-bean-chief-variant-1-star4-20261016
   mangosteen-beastmaster:
     availability:
       status: observed
@@ -1191,8 +1276,24 @@ minions:
       sources:
         - rumble-pool-post0929-thunder
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：★1ハクサイワンコ6体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+6、攻撃速度+3%
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-hakusai-guard-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・ハクサイ衛兵Ⅰ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-hakusai-guard-variant-1-star4-20261016
   magician-cucumber:
     availability:
       status: observed
@@ -1307,8 +1408,22 @@ minions:
       sources:
         - rumble-pool-post0929-thunder
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 売却価格+700%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-hanakinoko-apothecary-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・ハナキノコ薬師Ⅰ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-hanakinoko-apothecary-variant-1-star4-20261016
   avogaku:
     availability:
       status: observed
@@ -1334,8 +1449,22 @@ minions:
       sources:
         - rumble-pool-post0929-droplet
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 自身が星アップすると、攻撃力+48%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-kowappine-variant-2-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・コワッパインⅡ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-kowappine-variant-2-star4-20261016
   walnut-professor:
     availability:
       status: observed
@@ -1424,8 +1553,23 @@ minions:
       sources:
         - rumble-pool-post0929-star
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+30
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 9
+          sources:
+            - rc-mam-girl-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・マムガールⅠ・表示Lv.9・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-mam-girl-variant-1-star4-20261016
   orchid-astrologer:
     availability:
       status: observed
@@ -1460,8 +1604,23 @@ minions:
       sources:
         - rumble-pool-post0929-star
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: オーラ：十字範囲内のミニオンの攻撃力を合計で+192（隣接するミニオンに攻撃力ボーナスを均等に付与）
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 9
+          sources:
+            - rc-norinori-negi-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・ノリノリネギⅠ・表示Lv.9・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-norinori-negi-variant-1-star4-20261016
   ketchampion:
     availability:
       status: observed
@@ -1487,8 +1646,23 @@ minions:
       sources:
         - rumble-pool-post0929-star
     star4:
-      status: unknown
-      reason: 調整後の星4能力は詳細画面未確認。以前の登録内容は履歴を参照。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の攻撃力+42%
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-muscle-watermelon-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・マッスルスイカⅠ・表示Lv.8・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+      sources:
+        - rc-muscle-watermelon-variant-1-star4-20261016
 updateId: 2026-09-29-sea-rebels
 sharedDeck:
   status: unknown
