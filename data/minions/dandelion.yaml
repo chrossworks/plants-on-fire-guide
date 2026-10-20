@@ -237,6 +237,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ダンデライオンⅡ
+      icon: dandelion-variant-2-icon
       image: dandelion-v2
       cardRank:
         status: observed

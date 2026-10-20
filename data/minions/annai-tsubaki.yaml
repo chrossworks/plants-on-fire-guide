@@ -258,6 +258,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: アンナイツバキⅡ
+      icon: annai-tsubaki-variant-2-icon
       image: annai-tsubaki-v2
       cardRank:
         status: observed

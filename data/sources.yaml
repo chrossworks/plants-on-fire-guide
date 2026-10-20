@@ -5277,3 +5277,19 @@ rc-muscle-watermelon-variant-1-star4-20261016:
   screen: detail
   selectedStar: 4
   variantControl: unconfirmed
+
+variant-icon-pool-20261020:
+  kind: screenshot
+  description: ランブルチェスカードプール。レディ・チューリップⅠの銀Ⅰ、コーヒービーンチーフⅠの金Ⅰのマーク。
+  mode: rumble-chess
+  screen: pool-list
+variant-icon-deck-20261020:
+  kind: screenshot
+  description: プロフィールのデッキ欄。アッポリスⅡの金Ⅱ、ポップガンナーⅢの金Ⅲのマーク。
+  mode: unknown
+
+chili-judge-icon-list-20261020:
+  kind: screenshot
+  description: 通常コレクションのミニオン一覧。コスト5見出し・チリジャッジの名前・オレンジ背景・Lv.8の一覧用アイコン。今回の登録対象は画像のみ。
+  mode: standard
+  screen: pool-list

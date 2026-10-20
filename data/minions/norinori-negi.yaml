@@ -283,6 +283,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ノリノリネギⅠ
+      icon: norinori-negi-variant-1-icon
       image: norinori-negi-v1
       cardRank:
         status: observed

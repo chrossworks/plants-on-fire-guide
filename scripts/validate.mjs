@@ -102,6 +102,7 @@ export async function validate() {
     const min = minimumLevels[m.rarity.value];
     for (const f of [m.base,...m.variants.items]) {
       if (f.image) assetRef(f.image,m.id+'.'+f.id);
+      if (f.icon) assetRef(f.icon,m.id+'.'+f.id+'.icon');
       for(const [mode,e] of Object.entries(f.evaluations||{})){
         if(e.source&&!sources[e.source])fail(m.id+'.'+f.id+': 評価の出典なし');
         if(e.pendingUpdate&&!updates.some(u=>u.id===e.pendingUpdate))fail(m.id+'.'+f.id+': 評価の更新IDなし');

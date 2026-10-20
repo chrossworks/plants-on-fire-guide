@@ -30,3 +30,12 @@ export async function transform(input, recipe) {
   const masked = await sharp(input).composite(overlays).png().toBuffer();
   return sharp(masked).extract(crop).resize({width:recipe.width,withoutEnlargement:true}).webp({quality:recipe.quality || 88,lossless:recipe.lossless || false}).toBuffer();
 }
+
+// Overlay coordinates refer to the output icon; crop/masks still use original pixels.
+export async function compositeIcon(base, input, overlay) {
+  const meta = await sharp(base).metadata();
+  const badge = await transform(input, overlay);
+  const badgeMeta = await sharp(badge).metadata();
+  rect({left:overlay.left, top:overlay.top, width:badgeMeta.width, height:badgeMeta.height}, meta.width, meta.height);
+  return sharp(base).composite([{input:badge,left:overlay.left,top:overlay.top}]).webp({quality:90}).toBuffer();
+}

@@ -289,6 +289,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ホワイトローズナイトⅠ
+      icon: white-rose-knight-variant-1-icon
       image: white-rose-knight-v1
       cardRank:
         status: observed
@@ -553,6 +554,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ホワイトローズナイトⅡ
+      icon: white-rose-knight-variant-2-icon
       image: white-rose-knight-v2
       cardRank:
         status: observed

@@ -211,6 +211,7 @@ variants:
   items:
     - id: variant-1
       name: オーキッド占星術師Ⅰ
+      icon: orchid-astrologer-variant-1-icon
       image: orchid-astrologer-variant-1
       introduced:
         status: manual

@@ -21,6 +21,7 @@ cost:
     - chili-judge-base-star2
     - chili-judge-base-star3
 updated: 2026-10-15
+icon: chili-judge-icon
 portrait: chili-judge-portrait
 evaluation:
   rank: A
@@ -234,6 +235,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: チリジャッジⅠ
+      icon: chili-judge-variant-1-icon
       image: chili-judge-v1
       cardRank:
         status: observed

@@ -263,6 +263,7 @@ variants:
   items:
     - id: variant-1
       name: メロンアカウンタントⅠ
+      icon: melon-accountant-variant-1-icon
       image: melon-accountant-variant-1
       introduced:
         status: manual

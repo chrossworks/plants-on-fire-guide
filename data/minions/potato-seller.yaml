@@ -294,6 +294,7 @@ variants:
   items:
     - id: variant-1
       name: ポテトセラーⅠ
+      icon: potato-seller-variant-1-icon
       image: potato-seller-variant-1
       introduced:
         status: manual

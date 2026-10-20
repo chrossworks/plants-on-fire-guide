@@ -277,6 +277,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ポップガンナーⅠ
+      icon: pop-gunner-variant-1-icon
       image: pop-gunner-v1
       cardRank:
         status: observed
@@ -529,6 +530,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ポップガンナーⅡ
+      icon: pop-gunner-variant-2-icon
       image: pop-gunner-v2
       cardRank:
         status: observed
@@ -781,6 +783,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ポップガンナーⅢ
+      icon: pop-gunner-variant-3-icon
       image: pop-gunner-v3
       cardRank:
         status: observed

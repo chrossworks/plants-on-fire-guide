@@ -263,6 +263,7 @@ variants:
   items:
     - id: variant-1
       name: コーヒービーンチーフⅠ
+      icon: coffee-bean-chief-variant-1-icon
       image: coffee-bean-chief-variant-1
       introduced:
         status: manual

@@ -233,6 +233,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: アボガクⅠ
+      icon: avogaku-variant-1-icon
       image: avogaku-v1
       cardRank:
         status: observed

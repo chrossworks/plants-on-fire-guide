@@ -1059,3 +1059,137 @@ soukyo-witch-icon:
 soukyo-witch-portrait:
   path: images/minions/soukyo-witch/portrait.webp
   alt: ソウキョウ魔女の立ち絵
+
+mam-girl-variant-1-icon:
+  path: images/minions/mam-girl/variant-1-icon.webp
+  alt: マムガールⅠのカードアイコン（撮影時のLv表示を含む）
+orchid-astrologer-variant-1-icon:
+  path: images/minions/orchid-astrologer/variant-1-icon.webp
+  alt: オーキッド占星術師Ⅰのカードアイコン（撮影時のLv表示を含む）
+appolis-variant-1-icon:
+  path: images/minions/appolis/variant-1-icon.webp
+  alt: アッポリスⅠのカードアイコン（撮影時のLv表示を含む）
+appolis-variant-2-icon:
+  path: images/minions/appolis/variant-2-icon.webp
+  alt: アッポリスⅡのカードアイコン（撮影時のLv表示を含む）
+muscle-watermelon-variant-1-icon:
+  path: images/minions/muscle-watermelon/variant-1-icon.webp
+  alt: マッスルスイカⅠのカードアイコン（撮影時のLv表示を含む）
+pop-gunner-variant-1-icon:
+  path: images/minions/pop-gunner/variant-1-icon.webp
+  alt: ポップガンナーⅠのカードアイコン（撮影時のLv表示を含む）
+pop-gunner-variant-2-icon:
+  path: images/minions/pop-gunner/variant-2-icon.webp
+  alt: ポップガンナーⅡのカードアイコン（撮影時のLv表示を含む）
+pop-gunner-variant-3-icon:
+  path: images/minions/pop-gunner/variant-3-icon.webp
+  alt: ポップガンナーⅢのカードアイコン（撮影時のLv表示を含む）
+norinori-negi-variant-1-icon:
+  path: images/minions/norinori-negi/variant-1-icon.webp
+  alt: ノリノリネギⅠのカードアイコン（撮影時のLv表示を含む）
+avogaku-variant-1-icon:
+  path: images/minions/avogaku/variant-1-icon.webp
+  alt: アボガクⅠのカードアイコン（撮影時のLv表示を含む）
+kowappine-variant-1-icon:
+  path: images/minions/kowappine/variant-1-icon.webp
+  alt: コワッパインⅠのカードアイコン（撮影時のLv表示を含む）
+kowappine-variant-2-icon:
+  path: images/minions/kowappine/variant-2-icon.webp
+  alt: コワッパインⅡのカードアイコン（撮影時のLv表示を含む）
+sister-cherry-variant-1-icon:
+  path: images/minions/sister-cherry/variant-1-icon.webp
+  alt: シスター・チェリーⅠのカードアイコン（撮影時のLv表示を含む）
+sister-cherry-variant-2-icon:
+  path: images/minions/sister-cherry/variant-2-icon.webp
+  alt: シスター・チェリーⅡのカードアイコン（撮影時のLv表示を含む）
+hakusai-guard-variant-1-icon:
+  path: images/minions/hakusai-guard/variant-1-icon.webp
+  alt: ハクサイ衛兵Ⅰのカードアイコン（撮影時のLv表示を含む）
+lychee-baby-variant-1-icon:
+  path: images/minions/lychee-baby/variant-1-icon.webp
+  alt: ライチベイビーⅠのカードアイコン（撮影時のLv表示を含む）
+cactus-guardian-variant-1-icon:
+  path: images/minions/cactus-guardian/variant-1-icon.webp
+  alt: サボテンガーディアンⅠのカードアイコン（撮影時のLv表示を含む）
+guava-trumpeter-variant-1-icon:
+  path: images/minions/guava-trumpeter/variant-1-icon.webp
+  alt: グァバラッパⅠのカードアイコン（撮影時のLv表示を含む）
+spellberry-variant-1-icon:
+  path: images/minions/spellberry/variant-1-icon.webp
+  alt: スペルベリーⅠのカードアイコン（撮影時のLv表示を含む）
+peanut-page-variant-1-icon:
+  path: images/minions/peanut-page/variant-1-icon.webp
+  alt: ピーナッツペイジⅠのカードアイコン（撮影時のLv表示を含む）
+seed-worker-variant-1-icon:
+  path: images/minions/seed-worker/variant-1-icon.webp
+  alt: タネワーカーⅠのカードアイコン（撮影時のLv表示を含む）
+muracabelon-variant-1-icon:
+  path: images/minions/muracabelon/variant-1-icon.webp
+  alt: ムラキャベロンⅠのカードアイコン（撮影時のLv表示を含む）
+suzuran-mage-variant-1-icon:
+  path: images/minions/suzuran-mage/variant-1-icon.webp
+  alt: スズラン魔導士Ⅰのカードアイコン（撮影時のLv表示を含む）
+hanakinoko-apothecary-variant-1-icon:
+  path: images/minions/hanakinoko-apothecary/variant-1-icon.webp
+  alt: ハナキノコ薬師Ⅰのカードアイコン（撮影時のLv表示を含む）
+sunflower-banker-variant-1-icon:
+  path: images/minions/sunflower-banker/variant-1-icon.webp
+  alt: ヒマワリバンカーⅠのカードアイコン（撮影時のLv表示を含む）
+lady-tulip-variant-1-icon:
+  path: images/minions/lady-tulip/variant-1-icon.webp
+  alt: レディ・チューリップⅠのカードアイコン（撮影時のLv表示を含む）
+carrot-bomber-variant-1-icon:
+  path: images/minions/carrot-bomber/variant-1-icon.webp
+  alt: ニンジンボンバーⅠのカードアイコン（撮影時のLv表示を含む）
+white-rose-knight-variant-1-icon:
+  path: images/minions/white-rose-knight/variant-1-icon.webp
+  alt: ホワイトローズナイトⅠのカードアイコン（撮影時のLv表示を含む）
+white-rose-knight-variant-2-icon:
+  path: images/minions/white-rose-knight/variant-2-icon.webp
+  alt: ホワイトローズナイトⅡのカードアイコン（撮影時のLv表示を含む）
+annai-tsubaki-variant-2-icon:
+  path: images/minions/annai-tsubaki/variant-2-icon.webp
+  alt: アンナイツバキⅡのカードアイコン（撮影時のLv表示を含む）
+garlic-ranger-variant-1-icon:
+  path: images/minions/garlic-ranger/variant-1-icon.webp
+  alt: ガーリックレンジャーⅠのカードアイコン（撮影時のLv表示を含む）
+pakupaku-flower-variant-1-icon:
+  path: images/minions/pakupaku-flower/variant-1-icon.webp
+  alt: パクパクフラワーⅠのカードアイコン（撮影時のLv表示を含む）
+mojiton-variant-1-icon:
+  path: images/minions/mojiton/variant-1-icon.webp
+  alt: モヒートンⅠのカードアイコン（撮影時のLv表示を含む）
+grape-bartender-variant-1-icon:
+  path: images/minions/grape-bartender/variant-1-icon.webp
+  alt: グレープバーテンダーⅠのカードアイコン（撮影時のLv表示を含む）
+dandelion-variant-2-icon:
+  path: images/minions/dandelion/variant-2-icon.webp
+  alt: ダンデライオンⅡのカードアイコン（撮影時のLv表示を含む）
+broccolism-variant-1-icon:
+  path: images/minions/broccolism/variant-1-icon.webp
+  alt: ブロッコリズムⅠのカードアイコン（撮影時のLv表示を含む）
+melon-accountant-variant-1-icon:
+  path: images/minions/melon-accountant/variant-1-icon.webp
+  alt: メロンアカウンタントⅠのカードアイコン（撮影時のLv表示を含む）
+draful-guard-variant-1-icon:
+  path: images/minions/draful-guard/variant-1-icon.webp
+  alt: ドラフルガードⅠのカードアイコン（撮影時のLv表示を含む）
+hoozuki-police-variant-1-icon:
+  path: images/minions/hoozuki-police/variant-1-icon.webp
+  alt: ホオズキポリスⅠのカードアイコン（撮影時のLv表示を含む）
+cashew-sage-variant-1-icon:
+  path: images/minions/cashew-sage/variant-1-icon.webp
+  alt: カシュー大賢者Ⅰのカードアイコン（撮影時のLv表示を含む）
+coffee-bean-chief-variant-1-icon:
+  path: images/minions/coffee-bean-chief/variant-1-icon.webp
+  alt: コーヒービーンチーフⅠのカードアイコン（撮影時のLv表示を含む）
+potato-seller-variant-1-icon:
+  path: images/minions/potato-seller/variant-1-icon.webp
+  alt: ポテトセラーⅠのカードアイコン（撮影時のLv表示を含む）
+
+chili-judge-icon:
+  path: images/minions/chili-judge/icon.webp
+  alt: チリジャッジのカードアイコン（撮影時のLv表示を含む）
+chili-judge-variant-1-icon:
+  path: images/minions/chili-judge/variant-1-icon.webp
+  alt: チリジャッジⅠのカードアイコン（撮影時のLv表示を含む）

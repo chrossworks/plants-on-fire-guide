@@ -264,6 +264,7 @@ variants:
         status: unknown
         reason: 実装日を確認できる資料がありません。基本形の実装日とは区別します。
       name: ハナキノコ薬師Ⅰ
+      icon: hanakinoko-apothecary-variant-1-icon
       image: hanakinoko-apothecary-v1
       cardRank:
         status: observed
