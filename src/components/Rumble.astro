@@ -1,12 +1,12 @@
 ---
 import RumbleEntry from './RumbleEntry.astro';
 import { url } from '../lib/site';
-const { entries, rules, update, previous=[] } = Astro.props;
+const { entries, rules, update, pendingUpdate, previous=[] } = Astro.props;
 ---
 <section id="rumble-chess" class="form-section">
 <h2>ランブルチェス</h2>
 {update && <p class="condition">{update.date.value}のカードプール調整に対応。<a href={url('updates/'+update.id+'/#rumble-pool')}>カードプールと変更履歴を見る</a></p>}
-{entries.map(e=><div><h3>{e.name}</h3><RumbleEntry entry={e.entry}/></div>)}
+{pendingUpdate ? <><p class="condition">能力調整の告知があり、変更後の星4能力は確認中です。<a href={url('updates/'+pendingUpdate+'/')}>告知内容を見る</a></p><details><summary>以前に確認したランブルチェス情報</summary>{entries.map(e=><div><h3>{e.name}</h3><RumbleEntry entry={e.entry}/></div>)} </details></> : entries.map(e=><div><h3>{e.name}</h3><RumbleEntry entry={e.entry}/></div>)}
 <p class="muted">攻撃力・星1〜3の能力は同じ形態・同じレベルの基本性能と共通です。{rules.minimumGuaranteedLevel.value && <>ランブルチェスでは最低Lv.{rules.minimumGuaranteedLevel.value}が保証されます。</>}</p>
 {previous.map(p=><details><summary>{p.date || '日付未確認'}の変更に関連する以前の登場状態・絆・星4能力</summary><p class="condition">{p.period.value || p.period.reason}</p>{p.entries.map(e=><div><h3>{e.name}</h3><RumbleEntry entry={e.entry}/></div>)}</details>)}
 </section>

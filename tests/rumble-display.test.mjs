@@ -20,7 +20,7 @@ test('未掲載の星4を所属とID付きで保存でき、名前衝突・孤�
 });
 
 test('アンナイツバキの星4と基本性能のレベル・根拠を分離する',()=>{
-  const r=loadHistory().find(h=>h.kind==='rumble-pool').snapshot, rc=rumbleForMinion(r,'annai-tsubaki');
+  const r=loadHistory().find(h=>h.kind==='rumble-pool'&&h.updateId==='2026-09-29-sea-rebels').snapshot, rc=rumbleForMinion(r,'annai-tsubaki');
   const m=loadMinions().find(m=>m.id==='annai-tsubaki');
   assert.equal(rc.deck.bond.name.value,'雲の絆');
   assert.equal(rc.star4.value.ability.text,'購入したミニオンの攻撃力の25%を獲得する');
@@ -61,7 +61,10 @@ test('9/29のカードプールは形態を分離し、旧星4・所属を現行
  assert.equal(r.updateId,'2026-09-29-sea-rebels');
  assert.equal(Object.keys(r.memberIds).length,60);
  assert.equal(Object.keys(r.memberForms).length,11);
- assert.deepEqual(r.decks.map(d=>d.bond),old.decks.map(d=>d.bond));
+ const beforeOctober=loadHistory().find(h=>h.kind==='rumble-pool'&&h.updateId==='2026-10-27-trick-or-bleed').snapshot;
+ assert.deepEqual(beforeOctober.decks.map(d=>d.bond),old.decks.map(d=>d.bond));
+ assert.equal(r.decks.find(d=>d.id==='droplet').bond.tiers.status,'unknown');
+ assert.deepEqual(r.decks.filter(d=>d.id!=='droplet').map(d=>d.bond),beforeOctober.decks.filter(d=>d.id!=='droplet').map(d=>d.bond));
  assert.equal(rumbleForMinion(r,'mam-girl').availability.status,'unknown');
  const variant=rumbleForMinion(r,'mam-girl','variant-1');
  assert.equal(variant.availability.value,true);assert.equal(variant.deck.id,'star');assert.equal(variant.star4.status,'observed');

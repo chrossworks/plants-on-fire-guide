@@ -5,7 +5,7 @@ reading: ほおずきぽりす
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -20,13 +20,14 @@ cost:
     - hoozuki-police-base-star1
     - hoozuki-police-base-star2
     - hoozuki-police-base-star3
-updated: 2026-10-15
+updated: 2026-10-27
 icon: hoozuki-police-icon
 portrait: hoozuki-police-portrait
 evaluation:
   rank: A
   scope: 基本形の総合評価
   source: hoozuki-police-memo
+  pendingUpdate: 2026-10-27-trick-or-bleed
 base:
   id: base
   name: 基本形
@@ -247,6 +248,7 @@ base:
       - hoozuki-police-base-star1
       - hoozuki-police-base-star2
       - hoozuki-police-base-star3
+  pendingUpdate: 2026-10-27-trick-or-bleed
 variants:
   status: observed
   note: 画像で確認したバリアントⅠを掲載しています。
@@ -481,3 +483,4 @@ variants:
           - hoozuki-police-v1-star1
           - hoozuki-police-v1-star2
           - hoozuki-police-v1-star3
+      pendingUpdate: 2026-10-27-trick-or-bleed

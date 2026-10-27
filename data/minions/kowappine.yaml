@@ -5,7 +5,7 @@ reading: こわっぱいん
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -16,7 +16,7 @@ cost:
   value: 3
   sources:
     - kowappine-base-star1
-updated: 2026-10-15
+updated: 2026-10-27
 icon: kowappine-icon
 portrait: kowappine-portrait
 evaluation:
@@ -709,3 +709,4 @@ variants:
           - kowappine-v2-star1
           - kowappine-v2-star2
           - kowappine-v2-star3
+      pendingUpdate: 2026-10-27-trick-or-bleed

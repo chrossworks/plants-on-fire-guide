@@ -5,7 +5,7 @@ reading: はくさいえいへい
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -16,13 +16,14 @@ cost:
   value: 3
   sources:
     - hakusai-guard-base-star1
-updated: 2026-10-15
+updated: 2026-10-27
 icon: hakusai-guard-icon
 portrait: hakusai-guard-portrait
 evaluation:
   rank: B
   scope: 基本形の総合評価
   source: hakusai-guard-memo
+  pendingUpdate: 2026-10-27-trick-or-bleed
 base:
   id: base
   name: 基本形
@@ -255,6 +256,7 @@ base:
       - hakusai-guard-base-star1
       - hakusai-guard-base-star2
       - hakusai-guard-base-star3
+  pendingUpdate: 2026-10-27-trick-or-bleed
 variants:
   status: observed
   note: 画像で確認したバリアントⅠを掲載しています。
@@ -493,3 +495,4 @@ variants:
           - hakusai-guard-v1-star1
           - hakusai-guard-v1-star2
           - hakusai-guard-v1-star3
+      pendingUpdate: 2026-10-27-trick-or-bleed

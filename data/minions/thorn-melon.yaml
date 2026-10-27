@@ -21,13 +21,14 @@ cost:
     - thorn-melon-star1
     - thorn-melon-star2
     - thorn-melon-star3
-updated: 2026-10-15
+updated: 2026-10-27
 icon: thorn-melon-icon
 portrait: thorn-melon-portrait
 evaluation:
   rank: B
   scope: ランクマッチでの総合評価
   source: thorn-melon-editorial-20261015
+  pendingUpdate: 2026-10-27-trick-or-bleed
 base:
   id: base
   name: 基本形
@@ -219,6 +220,7 @@ base:
       - thorn-melon-star1
       - thorn-melon-star2
       - thorn-melon-star3
+  pendingUpdate: 2026-10-27-trick-or-bleed
 variants:
   status: absent
   note: 通常詳細画面のバリアント表示領域全体を確認。バリアントの表示はありません。

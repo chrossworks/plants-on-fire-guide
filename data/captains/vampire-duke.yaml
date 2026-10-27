@@ -1,0 +1,18 @@
+schemaVersion: 1
+id: vampire-duke
+name:
+  status: observed
+  value: ヴァンパイア公爵
+  sources:
+    - update-20261027-112231
+introduced:
+  status: observed
+  value: 2026-10-27
+  sources:
+    - update-20261027-112226
+    - update-20261027-112231
+  note: 告知に記載されたアップデート予定日。実施完了は未確認。
+effect:
+  status: unknown
+  reason: 実機詳細は未提供。最大HP増加の告知はアップデートページを参照。
+pendingUpdate: 2026-10-27-trick-or-bleed

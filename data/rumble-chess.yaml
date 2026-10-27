@@ -516,50 +516,8 @@ decks:
         sources:
           - rc-droplet-bond
       tiers:
-        status: observed
-        value:
-          - threshold: 4
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+4
-            amount: 4
-            unit: points
-          - threshold: 8
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+8
-            amount: 8
-            unit: points
-          - threshold: 12
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+16
-            amount: 16
-            unit: points
-          - threshold: 16
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+24
-            amount: 24
-            unit: points
-          - threshold: 20
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+36
-            amount: 36
-            unit: points
-          - threshold: 25
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+52
-            amount: 52
-            unit: points
-          - threshold: 30
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+72
-            amount: 72
-            unit: points
-          - threshold: 35
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+100
-            amount: 100
-            unit: points
-          - threshold: 40
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+140
-            amount: 140
-            unit: points
-          - threshold: 50
-            text: 準備完了：最も攻撃力が高いミニオンの攻撃力+200
-            amount: 200
-            unit: points
-        sources:
-          - rc-droplet-bond
+        status: unknown
+        reason: 2026年10月27日の告知で絆ポイント4～50の調整あり。変更後の効果量は実機確認待ち。以前の効果は同日のアップデート履歴に保存。
       tierApplication:
         status: manual
         value: replace

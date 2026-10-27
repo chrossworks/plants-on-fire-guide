@@ -5293,3 +5293,59 @@ chili-judge-icon-list-20261020:
   description: 通常コレクションのミニオン一覧。コスト5見出し・チリジャッジの名前・オレンジ背景・Lv.8の一覧用アイコン。今回の登録対象は画像のみ。
   mode: standard
   screen: pool-list
+
+update-20261027-112226:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：表題・導入・メンテナンス予定と補償。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112231:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：新レジェンド隊長と新ミニオンの導入。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112237:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：新ミニオン4体の能力・入手条件。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112241:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：新バリアント4種と星界の祝福の導入。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112246:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：星界の祝福の適用範囲・グローリーロード・チャット。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112251:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：新たな祝福・クランモードの入替・デッキ機能の導入。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112303:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：デッキ機能・バトルロード・シーズン集計。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112313:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：集計報酬・Co-opスキップ・クランランク・調整導入。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112319:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：ランブルチェス隊長・絆とミニオン調整前半。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112327:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：ミニオン調整後半・バリアント調整前半。2026-10-27確認。
+  mode: unknown
+  screen: update-notice
+update-20261027-112331:
+  kind: screenshot
+  description: 「トリック・オア・ブリード」シーズン告知：バリアント調整末尾と告知の結び。2026-10-27確認。
+  mode: unknown
+  screen: update-notice

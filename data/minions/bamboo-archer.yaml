@@ -5,7 +5,7 @@ reading: ばんぶーあーちゃー
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: rare
@@ -22,7 +22,7 @@ cost:
     - rc-bamboo-archer-star2
     - rc-bamboo-archer-star3
     - rc-bamboo-archer-star4
-updated: 2026-10-15
+updated: 2026-10-27
 icon: bamboo-archer-icon
 portrait: bamboo-archer-portrait
 evaluation:
@@ -280,6 +280,7 @@ base:
     reason: ランブルチェス限定のため、通常カードプールの解放条件は存在しません。
     sources:
       - rumble-limited-user-20261006
+  pendingUpdate: 2026-10-27-trick-or-bleed
 variants:
   status: absent
   note: バリアントはありません。

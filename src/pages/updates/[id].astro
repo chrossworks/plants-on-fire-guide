@@ -22,7 +22,7 @@ const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustme
  return <section id={c.id} class="update-change"><p class="tag">{labels[c.type]}</p><h2>{c.target.name}</h2>
  {c.introduced && <p class="muted">実装日：<Fact fact={c.introduced}/></p>}
  <h3>告知内容</h3><div class="announcement"><Fact fact={c.announcement}/></div>
- <p class="muted">{c.details.status==='unknown' ? (c.target.kind==='rumble-pool'?'変更後の具体的なカード構成は未確認です。':['minion','variant','captain'].includes(c.target.kind)?'詳細な性能は未確認です。':'告知に記載された内容です。実施結果の詳細は未確認です。') : c.details.value}</p>
+ <p class="muted">{c.details.status==='unknown' ? c.details.reason : c.details.value}</p>
  {existing && <p><a href={url('minions/'+existing.id+'/'+(c.target.formId?(existing.variants.items.some(f=>f.id===c.target.formId)?c.target.formId+'/':'#'+c.target.formId):''))}>個別ページを見る</a></p>}
  <FormHistory entries={snapshots.filter(h=>h.kind==='minion')}/>
  {snapshots.filter(h=>h.kind==='captain-badge').map(h=>{
@@ -32,7 +32,9 @@ const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustme
  })}
  {snapshots.filter(h=>h.kind==='captain').map(h=><details><summary>以前の隊長能力を見る</summary><p class="condition">{h.period.value || '正確な適用期間は未確認です。'}</p><Fact fact={h.snapshot.effect}/></details>)}
  {c.target.kind==='rumble-pool' && rumble.updateId===update.id && <><h3>調整後のカードプール</h3><p>各絆の効果は変更ありません。以下は6デッキの構成です。共有デッキは未確認で、ここにない形態を非登場とは判定していません。</p><RumblePool pool={rumble}/></>}
- {snapshots.filter(h=>h.kind==='rumble-pool').map(h=><details><summary>以前のカードプールを見る（適用期間未確認）</summary><p class="condition">{h.period.value||h.period.reason}</p>{h.snapshot.decks.map(d=><section><h3><Fact fact={d.name}/></h3><p>{d.members.value?.join('、') || '未確認'}</p></section>)}</details>)}
+ {snapshots.filter(h=>h.kind==='rumble-pool').map(h=><details><summary>以前のランブルチェス情報を見る（適用期間未確認）</summary><p class="condition">{h.period.value||h.period.reason}</p>{h.snapshot.decks.map(d=><section><h3><Fact fact={d.name}/></h3><p>{d.members.value?.join('、') || '未確認'}</p><h4><Fact fact={d.bond.name}/></h4>{d.bond.tiers.value ? <ul>{d.bond.tiers.value.map(t=><li>絆ポイント{t.threshold}：{t.text}</li>)}</ul> : <p>効果量は未確認です。</p>}</section>)}</details>)}
  </section>;
 })}
 </Layout>
+
+<style>nav[aria-label="変更内容の目次"] ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 28px;padding-left:22px}.update-change{scroll-margin-top:24px}</style>

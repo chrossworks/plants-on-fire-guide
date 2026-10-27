@@ -1,0 +1,647 @@
+schemaVersion: 1
+id: 2026-10-27-trick-or-bleed
+date:
+  status: observed
+  value: 2026-10-27
+  sources:
+    - update-20261027-112226
+  note: 告知に記載された実施予定日。メンテナンス完了は未確認。
+title:
+  status: observed
+  value: 「トリック・オア・ブリード」シーズンアップデートのお知らせ
+  sources:
+    - update-20261027-112226
+note: 10月27日の「トリック・オア・ブリード」シーズン告知を整理しました。新隊長1体、新ミニオン4体、新バリアント4種、システム・報酬の変更と能力調整を掲載しています。メンテナンスは11:30～15:30（日本時間）の予定です。実施完了と調整後の実機性能・攻略評価は未確認です。告知の数値は星・Lv別の性能表へ転記していません。
+changes:
+  - id: maintenance
+    target:
+      kind: other
+      id: maintenance
+      name: メンテナンス予定・補償
+    type: other
+    announcement:
+      status: observed
+      value: 2026年10月27日11:30（UTC+9）よりメンテナンスを実施し、同日15:30（UTC+9）にサービス再開予定。アップデート完了後、サービス停止の補償としてダイヤ×400を配布。
+      sources:
+        - update-20261027-112226
+    details:
+      status: unknown
+      reason: メンテナンスの終了時刻・サービス再開・補償配布の実施結果は未確認です。
+  - id: vampire-duke
+    target:
+      kind: captain
+      id: vampire-duke
+      name: ヴァンパイア公爵
+    type: addition
+    announcement:
+      status: observed
+      value: 新レジェンド隊長。マッチ開始時、隊長の最大HP+50%/75%/100%（現在HPは変化しない）。
+      sources:
+        - update-20261027-112231
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+    introduced:
+      status: observed
+      value: 2026-10-27
+      sources:
+        - update-20261027-112226
+        - update-20261027-112231
+      note: 告知に記載されたアップデート予定日。実施完了は未確認。
+  - id: pumpkin-king
+    target:
+      kind: minion
+      id: pumpkin-king
+      name: カボチャキング
+      minionId: pumpkin-king
+    type: addition
+    announcement:
+      status: observed
+      value: ［配置］隊長がHPを10%失うごとに、すべてのミニオンの攻撃力+2/4/8。Lv.10になると、フィールド上の空きマス1つにつき、この効果が自身に追加で1回適用される能力が加わる。レベル上昇に応じて、すべてのミニオンが最大で攻撃力+5/10/20。「グローリーパス」の購入で入手できる。
+      sources:
+        - update-20261027-112237
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+    introduced:
+      status: observed
+      value: 2026-10-27
+      sources:
+        - update-20261027-112226
+        - update-20261027-112237
+      note: 告知に記載されたアップデート予定日。実施完了は未確認。
+  - id: mister-hiss
+    target:
+      kind: minion
+      id: mister-hiss
+      name: ミスター・ヒス
+      minionId: mister-hiss
+    type: addition
+    announcement:
+      status: observed
+      value: フィールド上に出現した敵を侵食し、2.6秒ごとにミスター・ヒスの攻撃力の20%/27%/40%分のダメージを与える。敵にシールドが付与されている場合、ダメージを与えず、シールドを2スタック解除する。レベル上昇に応じて侵食間隔が短くなり、ダメージも上昇する。最大で30%/41%/60%の貫通ダメージを与える。ラッキー募集で入手できる。
+      sources:
+        - update-20261027-112237
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+    introduced:
+      status: observed
+      value: 2026-10-27
+      sources:
+        - update-20261027-112226
+        - update-20261027-112237
+      note: 告知に記載されたアップデート予定日。実施完了は未確認。
+  - id: bamboo-archer
+    target:
+      kind: minion
+      id: bamboo-archer
+      name: バンブーアーチャー
+      minionId: bamboo-archer
+    type: addition
+    announcement:
+      status: observed
+      value: 攻撃速度+140%、30%/35%/40%のダメージを与える。レベル上昇に応じて、攻撃速度ボーナスが最大で+260%になり、30%/35%/40%のダメージを与える。「バトルロード」で戦力800に到達すると入手できる。
+      sources:
+        - update-20261027-112237
+    details:
+      status: unknown
+      reason: 既存ページは変更前のランブルチェス専用時の記録です。今回の告知ではバトルロード戦力800での入手が示されています。通常モードへの適用・入手可能状態・星とLv別の性能は実機確認待ちです。以前の実装日は保持しています。
+    introduced:
+      status: unknown
+      reason: 以前からランブルチェスに登場する同名ミニオンを掲載済みです。今回の通常入手追加は10月27日の予定ですが、ミニオン自体の初実装日としては確定しません。
+  - id: leaf-cutter
+    target:
+      kind: minion
+      id: leaf-cutter
+      name: リーフカッター
+      minionId: leaf-cutter
+    type: addition
+    announcement:
+      status: observed
+      value: ［配置］指定したミニオンを除外し、その攻撃力の120%を一時的に均等に他のミニオンに分け与える。レベル上昇に応じて、一時的に分け与えられる攻撃力は最大で200%になる。「バトルロード」で戦力1100に到達すると入手できる。
+      sources:
+        - update-20261027-112237
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+    introduced:
+      status: observed
+      value: 2026-10-27
+      sources:
+        - update-20261027-112226
+        - update-20261027-112237
+      note: 告知に記載されたアップデート予定日。実施完了は未確認。
+  - id: kara-pumpkin-variant-1
+    target:
+      kind: variant
+      id: kara-pumpkin-variant-1
+      name: カラカボチャⅠ
+      minionId: kara-pumpkin
+      formId: variant-1
+    type: addition
+    announcement:
+      status: observed
+      value: ［準備完了］攻撃力+（1/2/4～2/4/8）、さらに隊長が最大HPの6%/5%/4%を失う（HPが足りない時は無効）。レベル上昇に応じて、最大で攻撃力+（1/2/4～10/20/40）。
+      sources:
+        - update-20261027-112241
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+    introduced:
+      status: observed
+      value: 2026-10-27
+      sources:
+        - update-20261027-112226
+        - update-20261027-112241
+      note: 告知に記載されたアップデート予定日。実施完了は未確認。
+  - id: pumpkin-knight-variant-1
+    target:
+      kind: variant
+      id: pumpkin-knight-variant-1
+      name: カボチャナイトⅠ
+      minionId: pumpkin-knight
+      formId: variant-1
+    type: addition
+    announcement:
+      status: observed
+      value: 隊長がダメージを受けるたびに、自身の攻撃力+2/4/8。準備段階で発動した場合、効果が2倍になる。レベル上昇に応じて、最大で自身の攻撃力+7/14/28。
+      sources:
+        - update-20261027-112241
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+    introduced:
+      status: observed
+      value: 2026-10-27
+      sources:
+        - update-20261027-112226
+        - update-20261027-112241
+      note: 告知に記載されたアップデート予定日。実施完了は未確認。
+  - id: greenkeeper-variant-2
+    target:
+      kind: variant
+      id: greenkeeper-variant-2
+      name: グリーンキーパーⅡ
+      minionId: greenkeeper
+      formId: variant-2
+    type: addition
+    announcement:
+      status: observed
+      value: ［配置］隊長のHPを4回復する。購入するたびに、グリーンキーパーの購入価格+1。レベル上昇に応じて、隊長のHPを最大で14回復する。
+      sources:
+        - update-20261027-112241
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+    introduced:
+      status: observed
+      value: 2026-10-27
+      sources:
+        - update-20261027-112226
+        - update-20261027-112241
+      note: 告知に記載されたアップデート予定日。実施完了は未確認。
+  - id: tele-leafy-variant-1
+    target:
+      kind: variant
+      id: tele-leafy-variant-1
+      name: テレ・リーフィーⅠ
+      minionId: tele-leafy
+      formId: variant-1
+    type: addition
+    announcement:
+      status: observed
+      value: 最もHPが高いラッシュユニットを1/2/4体、最大HPの50%の状態で敵側に転送し、自身は除外される。ボスラウンドでは休眠状態になる。レベル上昇に応じて、転送時のHPは最大で最大HPの180%になる。
+      sources:
+        - update-20261027-112241
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+    introduced:
+      status: observed
+      value: 2026-10-27
+      sources:
+        - update-20261027-112226
+        - update-20261027-112241
+      note: 告知に記載されたアップデート予定日。実施完了は未確認。
+  - id: astral-blessings
+    target:
+      kind: other
+      id: astral-blessings
+      name: 星界の祝福
+    type: adjustment
+    announcement:
+      status: observed
+      value: シーズン祝福がミニオン専用の「星界の祝福」にリニューアル。祝福を受けたミニオンは、そのシーズン中に使える追加スキルを1つ獲得する。新ミニオンの祝福はシーズン開始時から解放され、既存ミニオンの祝福は週ごとに順次解放される。ランブルチェス、フレンドマッチフェアモード、エクストリームチャレンジの対戦には適用されない。
+      sources:
+        - update-20261027-112241
+        - update-20261027-112246
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: glory-road
+    target:
+      kind: other
+      id: glory-road
+      name: グローリーロード
+    type: adjustment
+    announcement:
+      status: observed
+      value: リーグに参加すると、グローリーロードの報酬に新アイテム「グローリークラウン」が追加される。グローリークラウンを貯めるとリーグ報酬のレベルを永続的に引き上げられ、各シーズンの報酬が増える。レベルはシーズンをまたいで引き継がれる。
+      sources:
+        - update-20261027-112246
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: cross-area-chat
+    target:
+      kind: other
+      id: cross-area-chat
+      name: クロスエリアチャットチャンネル
+    type: other
+    announcement:
+      status: observed
+      value: クロスエリアワールドチャンネルとチームチャンネルを追加。バトルエリアを越えたチャットや、チームを組んでの交流が可能になる。
+      sources:
+        - update-20261027-112246
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: mister-hiss-blessing
+    target:
+      kind: other
+      id: mister-hiss-blessing
+      name: ミスター・ヒスの星界の祝福
+    type: other
+    announcement:
+      status: observed
+      value: ［準備完了］他の味方ミニオンの攻撃力を15%吸収する。
+      sources:
+        - update-20261027-112246
+        - update-20261027-112251
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: pumpkin-king-blessing
+    target:
+      kind: other
+      id: pumpkin-king-blessing
+      name: カボチャキングの星界の祝福
+    type: other
+    announcement:
+      status: observed
+      value: 隊長がダメージを受けるたびに、次のカボチャキングの購入価格-1。
+      sources:
+        - update-20261027-112251
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: weekly-blessings
+    target:
+      kind: other
+      id: weekly-blessings
+      name: 既存ミニオンの星界の祝福
+    type: other
+    announcement:
+      status: observed
+      value: ザクロブラスター、ウィキッドミラー、ニンジンボンバー、ホオズキポリス、キャベツベーカー、タンブルローラーの星界の祝福も、シーズンの進行に合わせて毎週2種類ずつ解放される。
+      sources:
+        - update-20261027-112251
+    details:
+      status: unknown
+      reason: 週ごとの解放順・日付と各祝福の効果は未確認です。
+  - id: clan-modes
+    target:
+      kind: other
+      id: clan-modes
+      name: クランポイントマッチ・ボスチャレンジ
+    type: adjustment
+    announcement:
+      status: observed
+      value: 従来のボスチャレンジをクランポイントマッチに移行。3つのステージを巨大ボスステージに変更し、難易度選択を削除。従来のポイントマッチはボスチャレンジに移行し、「エクストリームチャレンジ」に名称変更、難易度選択を追加。クランランキング報酬はやや減るが、個人が獲得できるクランコインの上限を大幅に引き上げる。
+      sources:
+        - update-20261027-112251
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: point-match-decks
+    target:
+      kind: other
+      id: point-match-decks
+      name: ポイントマッチのデッキ機能
+    type: adjustment
+    announcement:
+      status: observed
+      value: 標準デッキのインポート、他プレイヤーのデッキのワンタップコピー、チャットチャンネルへのポイントマッチ用デッキのシェアが可能になる。新しいポイントマッチ開始時も前回のデッキをリセットせず、ロックされていない状態で保持し、自由に調整できる。
+      sources:
+        - update-20261027-112251
+        - update-20261027-112303
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: battle-road
+    target:
+      kind: other
+      id: battle-road
+      name: バトルロード
+    type: adjustment
+    announcement:
+      status: observed
+      value: 第3段階（戦力600～1200）を追加。新報酬「ボーナストロフィー」は無料枠でも入手できる。戦力600と1000到達で、勝利時のトロフィーをそれぞれ追加で5個獲得でき、重ねると1勝あたり最大10個獲得できる。
+      sources:
+        - update-20261027-112303
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: season-reset
+    target:
+      kind: other
+      id: season-reset
+      name: シーズン集計・報酬
+    type: adjustment
+    announcement:
+      status: observed
+      value: ランクマッチ：トロフィー数10,000以上はシーズン集計時に4,800へリセット。トロフィー数6,000～12,000のシーズンコイン報酬が増加し、最大6,500個。ランブルチェス：トロフィー数10,000以上は集計時に1,500へリセット。トロフィー数4,000～9,000のシーズンコイン報酬が増加し、最大6,500個。両モードでランキング上位1～100位のシーズンコイン報酬を増加。
+      sources:
+        - update-20261027-112303
+        - update-20261027-112313
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: coop-skip
+    target:
+      kind: other
+      id: coop-skip
+      name: Co-opモードの上級スキップ
+    type: other
+    announcement:
+      status: observed
+      value: 毎週、現在のステージをクリアすると上級スキップを解放。スキップチケット2枚で「クリアしたラウンドの報酬」を直接獲得できる。当日クリアしていない場合でも獲得可能。
+      sources:
+        - update-20261027-112313
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: clan-diamond
+    target:
+      kind: other
+      id: clan-diamond
+      name: クランのダイヤランク
+    type: other
+    announcement:
+      status: observed
+      value: 新たな「ダイヤ」ランクを追加。指定のトロフィー数に到達すると自動で昇格する。
+      sources:
+        - update-20261027-112313
+    details:
+      status: unknown
+      reason: 昇格に必要な具体的なトロフィー数は未確認です。
+  - id: rumble-captains
+    target:
+      kind: other
+      id: rumble-captains
+      name: ランブルチェスの隊長調整
+    type: adjustment
+    announcement:
+      status: observed
+      value: ニンジン隊長：召喚されるコスト8のミニオンの星ランクを星2固定から星1～2のランダムに変更。分銅隊長：攻撃力を平均化した後の上昇率を10%から6%に低下。大食い隊長：攻撃力ボーナスを85%から75%に低下。ネビュラ隊長：攻撃力ボーナスを80%から100%に上昇。
+      sources:
+        - update-20261027-112319
+    details:
+      status: unknown
+      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+  - id: rumble-bonds
+    target:
+      kind: rumble-pool
+      id: rumble-bonds
+      name: ランブルチェスの絆調整
+    type: adjustment
+    announcement:
+      status: observed
+      value: 十字の絆：絆ポイント25以上のボーナスを下方修正。雫の絆：絆ポイント4～50のボーナスを調整。変更後の具体的な効果量は告知に記載されていない。
+      sources:
+        - update-20261027-112319
+    details:
+      status: unknown
+      reason: 十字・雫の変更後の効果量は告知に記載されていません。実機表示の確認待ちです。
+  - id: tumble-roller
+    target:
+      kind: minion
+      id: tumble-roller
+      name: タンブルローラー
+      minionId: tumble-roller
+    type: adjustment
+    announcement:
+      status: observed
+      value: Lv.11とLv.12のシールドが、それぞれ5/10/20と6/12/24に上昇。ダメージと移動速度ボーナスはやや低下。
+      sources:
+        - update-20261027-112319
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: cabbage-baker
+    target:
+      kind: minion
+      id: cabbage-baker
+      name: キャベツベーカー
+      minionId: cabbage-baker
+    type: adjustment
+    announcement:
+      status: observed
+      value: フィールド上に空きマスがない場合、ランダムなミニオン1体にパンを投げるように変更。
+      sources:
+        - update-20261027-112319
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: luminous-tree
+    target:
+      kind: minion
+      id: luminous-tree
+      name: ルミナスツリー
+      minionId: luminous-tree
+    type: adjustment
+    announcement:
+      status: observed
+      value: 基本攻撃力が90に上昇。全レベルのマナとマナ消費-1。Lv.10～12で得られる一時攻撃力ボーナスも調整。
+      sources:
+        - update-20261027-112319
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: hoozuki-police
+    target:
+      kind: minion
+      id: hoozuki-police
+      name: ホオズキポリス
+      minionId: hoozuki-police
+    type: adjustment
+    announcement:
+      status: observed
+      value: 全レベルで、フィールド上に空きマスがある場合、その空きマスの数に応じて攻撃力ボーナスが上昇するように変更。
+      sources:
+        - update-20261027-112319
+        - update-20261027-112327
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: black-rose-knight
+    target:
+      kind: minion
+      id: black-rose-knight
+      name: ブラックローズナイト
+      minionId: black-rose-knight
+    type: adjustment
+    announcement:
+      status: observed
+      value: 基本ステータスを引き下げ、高レベル時の攻撃速度低下効果を弱める。
+      sources:
+        - update-20261027-112327
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: hakusai-guard
+    target:
+      kind: minion
+      id: hakusai-guard
+      name: ハクサイ衛兵
+      minionId: hakusai-guard
+    type: adjustment
+    announcement:
+      status: observed
+      value: ハクサイワンコの基本攻撃速度を2秒から1.8秒に短縮。
+      sources:
+        - update-20261027-112327
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: mangosteen-beastmaster
+    target:
+      kind: minion
+      id: mangosteen-beastmaster
+      name: マンゴスチン獣使い
+      minionId: mangosteen-beastmaster
+    type: adjustment
+    announcement:
+      status: observed
+      value: マンゴスチンピッグの基本攻撃速度を2秒から1.8秒に短縮。
+      sources:
+        - update-20261027-112327
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: dandelion
+    target:
+      kind: minion
+      id: dandelion
+      name: ダンデライオン
+      minionId: dandelion
+    type: adjustment
+    announcement:
+      status: observed
+      value: 序盤の攻撃力低下量を引き上げ、Lv.7～9の攻撃力の割合低下効果を削除。
+      sources:
+        - update-20261027-112327
+        - update-20261027-112331
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: gold-eater
+    target:
+      kind: minion
+      id: gold-eater
+      name: ゴールドイーター
+      minionId: gold-eater
+    type: adjustment
+    announcement:
+      status: observed
+      value: Lv.10以上のミニオンを売却した時の返還率を引き上げ。Lv.10/11/12：90%/100%/107%から100%/110%/120%に上昇。
+      sources:
+        - update-20261027-112327
+        - update-20261027-112331
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: thorn-melon
+    target:
+      kind: minion
+      id: thorn-melon
+      name: トゲメロン
+      minionId: thorn-melon
+    type: adjustment
+    announcement:
+      status: observed
+      value: 爆発後の攻撃力低下を抑え、ダメージ倍率を引き上げ。高レベルでは攻撃力低下に最低値を設定し、継続的に自身を強化できるように変更。
+      sources:
+        - update-20261027-112327
+        - update-20261027-112331
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: kowappine-variant-2
+    target:
+      kind: variant
+      id: kowappine-variant-2
+      name: コワッパインⅡ
+      minionId: kowappine
+      formId: variant-2
+    type: adjustment
+    announcement:
+      status: observed
+      value: 自身の星アップ時の攻撃力上昇に上限を設定。
+      sources:
+        - update-20261027-112327
+        - update-20261027-112331
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: hoozuki-police-variant-1
+    target:
+      kind: variant
+      id: hoozuki-police-variant-1
+      name: ホオズキポリスⅠ
+      minionId: hoozuki-police
+      formId: variant-1
+    type: adjustment
+    announcement:
+      status: observed
+      value: 攻撃力ボーナスを引き上げ。レベル上昇に応じて、最大で自身の攻撃力+11。
+      sources:
+        - update-20261027-112327
+        - update-20261027-112331
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: hakusai-guard-variant-1
+    target:
+      kind: variant
+      id: hakusai-guard-variant-1
+      name: ハクサイ衛兵Ⅰ
+      minionId: hakusai-guard
+      formId: variant-1
+    type: adjustment
+    announcement:
+      status: observed
+      value: 全レベルで、ハクサイワンコの攻撃速度ボーナスを削除。ハクサイワンコの基本攻撃速度を2秒から1.8秒に短縮。
+      sources:
+        - update-20261027-112327
+        - update-20261027-112331
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+  - id: seed-worker-variant-1
+    target:
+      kind: variant
+      id: seed-worker-variant-1
+      name: タネワーカーⅠ
+      minionId: seed-worker
+      formId: variant-1
+    type: adjustment
+    announcement:
+      status: observed
+      value: 基本攻撃速度を1.8秒から2.2秒に延長し、高レベル時の攻撃力ボーナスも一部引き下げ。
+      sources:
+        - update-20261027-112331
+    details:
+      status: unknown
+      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
