@@ -17,13 +17,13 @@ placement:
   definition:
     status: observed
     value: ミニオンを購入し、空きマスに置くと効果が発動する
-    sources: [placement-keyword]
+    sources: [ placement-keyword ]
 temporary:
   name: 一時
   definition:
     status: observed
     value: 本ラウンド中のみ有効、ラウンド終了後に効果が失われる
-    sources: [temporary-keyword, mad-king-keywords]
+    sources: [ temporary-keyword, mad-king-keywords ]
 
 purchase-trigger:
   name: 購入時発動
@@ -106,3 +106,10 @@ sell:
     value: このミニオンを売却すると効果が発動する
     sources:
       - grape-bartender-sell-keywords
+resonance:
+  name: 共鳴
+  definition:
+    status: observed
+    value: 自身または他のミニオンの星アップ関連のスキル効果を発動できる
+    sources:
+      - blessing-20261113-131931

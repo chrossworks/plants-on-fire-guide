@@ -11,7 +11,7 @@ title:
   value: 「トリック・オア・ブリード」シーズンアップデートのお知らせ
   sources:
     - update-20261027-112226
-note: 10月27日の「トリック・オア・ブリード」シーズン告知を整理しました。新隊長1体、新ミニオン4体、新バリアント4種、システム・報酬の変更と能力調整を掲載しています。メンテナンスは11:30～15:30（日本時間）の予定です。実施完了と調整後の実機性能・攻略評価は未確認です。告知の数値は星・Lv別の性能表へ転記していません。
+note: 「トリック・オア・ブリード」シーズンの告知と、新ミニオン4体の通常モードで確認した性能を掲載しています。告知と実機表示に差がある箇所は各項目に記載しています。新バリアント4種の通常性能も掲載しています。調整対象の基本形10体の通常性能も掲載しています。調整対象のバリアント4種の通常性能も掲載しています。
 changes:
   - id: maintenance
     target:
@@ -39,8 +39,13 @@ changes:
       sources:
         - update-20261027-112231
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: ヴァンパイア公爵バッジのLv.1・2・4は、マッチ開始時に隊長の最大HPがそれぞれ50%・75%・100%増えます。Lv.3でチャームⅠを解放（最大HP+50%）、Lv.5でチャームを強化（最大HP+80%）。いずれも現在HPは変化しません。隊長本体の効果と、バッジとチャームを併用した場合の挙動は未確認です。
+      sources:
+        - vampire-duke-badge-detail-20261113
+        - vampire-duke-badge-levels-2-3-20261113
+        - vampire-duke-badge-levels-4-5-20261113
+        - vampire-duke-badge-charm-detail-20261113
     introduced:
       status: observed
       value: 2026-10-27
@@ -61,8 +66,14 @@ changes:
       sources:
         - update-20261027-112237
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: Lv.7の詳細では星1〜3すべて攻撃力ボーナス+2と表示され、告知の+2/4/8とは異なります。Lv.8〜12の育成表示を確認しました。
+      sources:
+        - detail-20261113-130200
+        - detail-20261113-130204
+        - detail-20261113-130208
+        - detail-20261113-130214
+        - detail-20261113-130220
     introduced:
       status: observed
       value: 2026-10-27
@@ -83,8 +94,14 @@ changes:
       sources:
         - update-20261027-112237
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: Lv.7の星1〜3とLv.8〜12の育成表示を確認しました。育成画面ではLv.10で貫通に変更、Lv.12でダメージ30%と表示されています。高Lvの星2・3の詳細は未確認です。
+      sources:
+        - detail-20261113-130238
+        - detail-20261113-130241
+        - detail-20261113-130244
+        - detail-20261113-130249
+        - detail-20261113-130254
     introduced:
       status: observed
       value: 2026-10-27
@@ -105,8 +122,16 @@ changes:
       sources:
         - update-20261027-112237
     details:
-      status: unknown
-      reason: 既存ページは変更前のランブルチェス専用時の記録です。今回の告知ではバトルロード戦力800での入手が示されています。通常モードへの適用・入手可能状態・星とLv別の性能は実機確認待ちです。以前の実装日は保持しています。
+      status: observed
+      value: 通常詳細のLv.1・星1〜3、Lv.2〜12の育成表示、バトルロードでの入手表記を確認しました。通常入手追加前のランブルチェスでの性能は履歴に掲載しています。
+      sources:
+        - detail-20261113-130321
+        - detail-20261113-130324
+        - detail-20261113-130327
+        - detail-20261113-130330
+        - detail-20261113-130335
+        - detail-20261113-130339
+        - detail-20261113-130344
     introduced:
       status: unknown
       reason: 以前からランブルチェスに登場する同名ミニオンを掲載済みです。今回の通常入手追加は10月27日の予定ですが、ミニオン自体の初実装日としては確定しません。
@@ -123,8 +148,15 @@ changes:
       sources:
         - update-20261027-112237
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: Lv.4の星1〜3、Lv.5〜12の育成表示、バトルロードでの入手表記を確認しました。育成画面のLv.12は180%で、告知の最大200%との差は未確認です。
+      sources:
+        - detail-20261113-130357
+        - detail-20261113-130401
+        - detail-20261113-130404
+        - detail-20261113-130407
+        - detail-20261113-130411
+        - detail-20261113-130416
     introduced:
       status: observed
       value: 2026-10-27
@@ -146,8 +178,15 @@ changes:
       sources:
         - update-20261027-112241
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細のLv.4・星1〜3、Lv.5〜12の育成効果と入手方法を掲載しました。Lv.4では隊長が失う最大HPの割合は星1〜3とも5%と表示され、告知の6%/5%/4%とは異なります。
+      sources:
+        - new-variant-20261113-130436
+        - new-variant-20261113-130439
+        - new-variant-20261113-130442
+        - new-variant-20261113-130445
+        - new-variant-20261113-130452
+        - new-variant-20261113-130456
     introduced:
       status: observed
       value: 2026-10-27
@@ -169,8 +208,14 @@ changes:
       sources:
         - update-20261027-112241
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細のLv.7・星1〜3、Lv.8〜12の育成効果と入手方法を掲載しました。クランショップでの入手表記を確認しました。
+      sources:
+        - new-variant-20261113-130530
+        - new-variant-20261113-130533
+        - new-variant-20261113-130536
+        - new-variant-20261113-130539
+        - new-variant-20261113-130545
     introduced:
       status: observed
       value: 2026-10-27
@@ -192,8 +237,15 @@ changes:
       sources:
         - update-20261027-112241
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細のLv.4・星1〜3、Lv.5〜12の育成効果と入手方法を掲載しました。Lv.12の育成欄では回復するHPが12と表示され、告知の最大14とは異なります。
+      sources:
+        - new-variant-20261113-130603
+        - new-variant-20261113-130606
+        - new-variant-20261113-130610
+        - new-variant-20261113-130614
+        - new-variant-20261113-130619
+        - new-variant-20261113-130623
     introduced:
       status: observed
       value: 2026-10-27
@@ -215,8 +267,15 @@ changes:
       sources:
         - update-20261027-112241
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細のLv.4・星1〜3、Lv.5〜12の育成効果と入手方法を掲載しました。攻撃間隔0秒・攻撃不可と、魔法の発動間隔5秒を確認しました。
+      sources:
+        - new-variant-20261113-130636
+        - new-variant-20261113-130639
+        - new-variant-20261113-130642
+        - new-variant-20261113-130645
+        - new-variant-20261113-130650
+        - new-variant-20261113-130657
     introduced:
       status: observed
       value: 2026-10-27
@@ -280,8 +339,15 @@ changes:
         - update-20261027-112246
         - update-20261027-112251
     details:
-      status: unknown
-      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+      status: observed
+      value: 基本形の詳細で効果を確認しました。適用期間は10月27日15:30～11月24日11:30（日本時間）です。
+      sources:
+        - detail-20261113-131907
+        - blessing-period-user-20261113
+    blessings:
+      seasonId: trick-or-bleed
+      minionIds:
+        - mister-hiss
   - id: pumpkin-king-blessing
     target:
       kind: other
@@ -294,8 +360,15 @@ changes:
       sources:
         - update-20261027-112251
     details:
-      status: unknown
-      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+      status: observed
+      value: 基本形の詳細で効果を確認しました。適用期間は10月27日15:30～11月24日11:30（日本時間）です。
+      sources:
+        - detail-20261113-131834
+        - blessing-period-user-20261113
+    blessings:
+      seasonId: trick-or-bleed
+      minionIds:
+        - pumpkin-king
   - id: weekly-blessings
     target:
       kind: other
@@ -308,8 +381,19 @@ changes:
       sources:
         - update-20261027-112251
     details:
-      status: unknown
-      reason: 週ごとの解放順・日付と各祝福の効果は未確認です。
+      status: manual
+      value: 11月3日、10日、17日に各2体の祝福が始まり、11月24日11:30（日本時間）に終了します。11月17日開始の2体は効果未確認です。
+      sources:
+        - blessing-schedule-user-20261113
+    blessings:
+      seasonId: trick-or-bleed
+      minionIds:
+        - zakuro-blaster
+        - wicked-mirror
+        - carrot-bomber
+        - hoozuki-police
+        - tumble-roller
+        - cabbage-baker
   - id: clan-modes
     target:
       kind: other
@@ -408,8 +492,13 @@ changes:
       sources:
         - update-20261027-112319
     details:
-      status: unknown
-      reason: 告知内容の実施結果・詳細画面・具体的な運用条件は未確認です。
+      status: observed
+      value: ランブルチェスの隊長詳細で4体の調整後の効果を確認しました。
+      sources:
+        - rumble-20261113-161748
+        - rumble-20261113-161759
+        - rumble-20261113-161809
+        - rumble-20261113-161817
   - id: rumble-bonds
     target:
       kind: rumble-pool
@@ -422,8 +511,18 @@ changes:
       sources:
         - update-20261027-112319
     details:
-      status: unknown
-      reason: 十字・雫の変更後の効果量は告知に記載されていません。実機表示の確認待ちです。
+      status: manual
+      value: 6デッキ各10枠のカードプールと、雫・星の絆の全10段階を確認しました。告知の「十字の絆」は、実機で「星の絆」と表示される同じ絆です。
+      sources:
+        - rumble-20261113-161009
+        - rumble-20261113-161014
+        - rumble-20261113-161017
+        - rumble-20261113-161021
+        - rumble-20261113-161026
+        - rumble-20261113-161030
+        - rumble-20261113-162031
+        - rumble-20261113-162111
+        - rumble-star-bond-alias-user-20261113
   - id: tumble-roller
     target:
       kind: minion
@@ -437,8 +536,14 @@ changes:
       sources:
         - update-20261027-112319
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.8〜12の育成効果を掲載しました。Lv.7のシールドは星1〜3で+3/+6/+12、敵隊長が失っているHP5%につき移動速度+8%。育成欄のLv.11・12はシールド5・6、移動速度+14%・+16%です。高Lvの星2・3は未確認です。
+      sources:
+        - changed-minion-20261113-130906
+        - changed-minion-20261113-130910
+        - changed-minion-20261113-130913
+        - changed-minion-20261113-130917
+        - changed-minion-20261113-130923
   - id: cabbage-baker
     target:
       kind: minion
@@ -452,8 +557,16 @@ changes:
       sources:
         - update-20261027-112319
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: manual
+      value: 通常詳細の星1〜3とLv.5〜12の育成効果を掲載しました。Lv.4のパンによる攻撃力ボーナスは星1〜3で+3/+6/+12。全レベル共通で、空きマスがない場合にランダムなミニオン1体にパンを投げ与える効果が追加されました。
+      sources:
+        - changed-minion-20261113-130937
+        - changed-minion-20261113-130940
+        - changed-minion-20261113-130943
+        - changed-minion-20261113-130948
+        - changed-minion-20261113-130953
+        - changed-minion-20261113-130957
+        - cabbage-baker-lv4-user-20261113
   - id: luminous-tree
     target:
       kind: minion
@@ -467,8 +580,14 @@ changes:
       sources:
         - update-20261027-112319
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.8〜12の育成効果を掲載しました。Lv.7の攻撃力90、最大マナと消費マナ11。Lv.10〜12の一時攻撃力ボーナス4%・6%・8%を育成欄で確認しました。
+      sources:
+        - changed-minion-20261113-131021
+        - changed-minion-20261113-131023
+        - changed-minion-20261113-131026
+        - changed-minion-20261113-131031
+        - changed-minion-20261113-131035
   - id: hoozuki-police
     target:
       kind: minion
@@ -483,8 +602,15 @@ changes:
         - update-20261027-112319
         - update-20261027-112327
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.5〜12の育成効果を掲載しました。Lv.4の全星で、フィールドの空きマス1つにつき自身の攻撃力+2の表示を確認しました。
+      sources:
+        - changed-minion-20261113-131049
+        - changed-minion-20261113-131054
+        - changed-minion-20261113-131057
+        - changed-minion-20261113-131101
+        - changed-minion-20261113-131105
+        - changed-minion-20261113-131110
   - id: black-rose-knight
     target:
       kind: minion
@@ -498,8 +624,14 @@ changes:
       sources:
         - update-20261027-112327
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.8〜12の育成効果を掲載しました。Lv.7の攻撃力25・攻撃間隔3秒と、Lv.9〜12の攻撃速度低下条件を確認しました。
+      sources:
+        - changed-minion-20261113-131123
+        - changed-minion-20261113-131127
+        - changed-minion-20261113-131130
+        - changed-minion-20261113-131136
+        - changed-minion-20261113-131140
   - id: hakusai-guard
     target:
       kind: minion
@@ -513,8 +645,15 @@ changes:
       sources:
         - update-20261027-112327
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.5〜12の育成効果を掲載しました。召喚数1・2・4体と、ハクサイ衛兵本体の攻撃間隔2秒を確認しました。告知の1.8秒はハクサイワンコの値で、今回の詳細画面では未確認です。
+      sources:
+        - changed-minion-20261113-131154
+        - changed-minion-20261113-131156
+        - changed-minion-20261113-131200
+        - changed-minion-20261113-131204
+        - changed-minion-20261113-131209
+        - changed-minion-20261113-131213
   - id: mangosteen-beastmaster
     target:
       kind: minion
@@ -528,8 +667,14 @@ changes:
       sources:
         - update-20261027-112327
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.8〜12の育成効果を掲載しました。マンゴスチン獣使い本体の攻撃間隔2秒と、召喚・育成効果を確認しました。告知の1.8秒はマンゴスチンピッグの値で、今回の詳細画面では未確認です。
+      sources:
+        - changed-minion-20261113-131247
+        - changed-minion-20261113-131250
+        - changed-minion-20261113-131253
+        - changed-minion-20261113-131256
+        - changed-minion-20261113-131301
   - id: dandelion
     target:
       kind: minion
@@ -544,8 +689,14 @@ changes:
         - update-20261027-112327
         - update-20261027-112331
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.8〜12の育成効果を掲載しました。Lv.7の全敵への攻撃力低下は星1〜3で-2/-4/-8。育成欄ではLv.10以降に割合低下と最低値を確認しました。
+      sources:
+        - changed-minion-20261113-131317
+        - changed-minion-20261113-131320
+        - changed-minion-20261113-131322
+        - changed-minion-20261113-131326
+        - changed-minion-20261113-131330
   - id: gold-eater
     target:
       kind: minion
@@ -560,8 +711,14 @@ changes:
         - update-20261027-112327
         - update-20261027-112331
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.8〜12の育成効果を掲載しました。育成欄で、1ラウンド経過後の売却価格がLv.10・11・12で購入価格の100%・110%・120%になることを確認しました。
+      sources:
+        - changed-minion-20261113-131345
+        - changed-minion-20261113-131348
+        - changed-minion-20261113-131351
+        - changed-minion-20261113-131355
+        - changed-minion-20261113-131400
   - id: thorn-melon
     target:
       kind: minion
@@ -576,8 +733,14 @@ changes:
         - update-20261027-112327
         - update-20261027-112331
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細の星1〜3とLv.8〜12の育成効果を掲載しました。Lv.7の爆発ダメージ200%/240%/280%、自身の攻撃力-45%。育成欄で攻撃力の最低値とLv.10の準備完了効果追加を確認しました。
+      sources:
+        - changed-minion-20261113-131420
+        - changed-minion-20261113-131425
+        - changed-minion-20261113-131428
+        - changed-minion-20261113-131432
+        - changed-minion-20261113-131438
   - id: kowappine-variant-2
     target:
       kind: variant
@@ -593,8 +756,15 @@ changes:
         - update-20261027-112327
         - update-20261027-112331
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細のLv.4・星1〜3とLv.5〜12の育成効果を掲載しました。星アップ時の攻撃力ボーナスはLv.4で+14%（最大50）、Lv.12の育成欄では22%（最大90）です。
+      sources:
+        - changed-variant-20261113-131724
+        - changed-variant-20261113-131501
+        - changed-variant-20261113-131505
+        - changed-variant-20261113-131508
+        - changed-variant-20261113-131512
+        - changed-variant-20261113-131517
   - id: hoozuki-police-variant-1
     target:
       kind: variant
@@ -610,8 +780,15 @@ changes:
         - update-20261027-112327
         - update-20261027-112331
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細のLv.4・星1〜3とLv.5〜12の育成効果を掲載しました。空きマス1つあたりの攻撃力ボーナスはLv.4で+3、Lv.12の育成欄では+11です。
+      sources:
+        - changed-variant-20261113-131522
+        - changed-variant-20261113-131538
+        - changed-variant-20261113-131541
+        - changed-variant-20261113-131544
+        - changed-variant-20261113-131548
+        - changed-variant-20261113-131552
   - id: hakusai-guard-variant-1
     target:
       kind: variant
@@ -627,8 +804,15 @@ changes:
         - update-20261027-112327
         - update-20261027-112331
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細のLv.4・星1〜3とLv.5〜12の育成効果を掲載しました。通常詳細と育成欄にハクサイワンコの攻撃速度ボーナスの記載はありません。告知の1.8秒はハクサイワンコの攻撃間隔で、今回の詳細画面では確認できません。
+      sources:
+        - changed-variant-20261113-131556
+        - changed-variant-20261113-131615
+        - changed-variant-20261113-131618
+        - changed-variant-20261113-131621
+        - changed-variant-20261113-131624
+        - changed-variant-20261113-131628
   - id: seed-worker-variant-1
     target:
       kind: variant
@@ -643,5 +827,11 @@ changes:
       sources:
         - update-20261027-112331
     details:
-      status: unknown
-      reason: 実機詳細は未提供です。告知の数値が対応する星・Lv・育成条件、調整後の能力全文・挙動は、追加資料で確認します。
+      status: observed
+      value: 通常詳細のLv.7・星1〜3とLv.8〜12の育成効果を掲載しました。Lv.7の攻撃間隔は2.2秒です。購入による攻撃力ボーナスはLv.10〜12の育成欄でそれぞれ3～4、4、4～5です。
+      sources:
+        - changed-variant-20261113-131639
+        - changed-variant-20261113-131708
+        - changed-variant-20261113-131711
+        - changed-variant-20261113-131714
+        - changed-variant-20261113-131719

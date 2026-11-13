@@ -5,146 +5,138 @@ reading: ばんぶーあーちゃー
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [ update-history-user-2026-10-15 ]
+  sources:
+    - update-history-user-2026-10-15
 rarity:
   status: observed
   value: rare
   sources:
-    - rc-bamboo-archer-star1
-    - rc-bamboo-archer-star2
-    - rc-bamboo-archer-star3
-    - rc-bamboo-archer-star4
+    - detail-20261113-130321
+    - detail-20261113-130324
+    - detail-20261113-130327
 cost:
   status: observed
   value: 3
   sources:
-    - rc-bamboo-archer-star1
-    - rc-bamboo-archer-star2
-    - rc-bamboo-archer-star3
-    - rc-bamboo-archer-star4
-updated: 2026-10-27
+    - detail-20261113-130321
+    - detail-20261113-130324
+    - detail-20261113-130327
+updated: 2026-11-13
 icon: bamboo-archer-icon
 portrait: bamboo-archer-portrait
-evaluation:
-  rank: 対象外
-  scope: ランブルチェス限定のためランクマッチ評価対象外
-  source: rumble-limited-user-20260925
 availability:
   acquisition:
     status: observed
-    value: unobtainable
+    value: obtainable
     sources:
-      - rc-bamboo-archer-star1
-      - rc-bamboo-archer-star2
-      - rc-bamboo-archer-star3
-      - rc-bamboo-archer-star4
-      - rc-bamboo-archer-acquisition-20261006
+      - detail-20261113-130321
   ranked:
-    status: manual
-    value: false
-    sources:
-      - rumble-limited-user-20260925
-      - rumble-limited-user-20261006
+    status: unknown
+    reason: 通常詳細の入手欄を確認。ランクマッチでの使用可否は未確認。
 base:
   id: base
   name: 基本形
   displayLevel:
     status: observed
-    value: 7
+    value: 1
     sources:
-      - rc-bamboo-archer-star1
-      - rc-bamboo-archer-star2
-      - rc-bamboo-archer-star3
+      - detail-20261113-130321
+      - detail-20261113-130324
+      - detail-20261113-130327
   upgradeScreenLevel:
     status: observed
     value: 1
     sources:
-      - rc-bamboo-archer-up1
-  conditions: ランブルチェス・現在Lv.1、最低保証Lv.7適用後の性能（ON）。Lv.1の初期性能ではありません。
+      - detail-20261113-130330
+      - detail-20261113-130335
+      - detail-20261113-130339
+      - detail-20261113-130344
+  conditions: 通常詳細の表示Lv.1（ON）で撮影。外部補正の影響は未確認。
   stars:
     - star: 1
       stats:
         attack:
           status: observed
-          value: 7
+          value: 3
           sources:
-            - rc-bamboo-archer-star1
+            - detail-20261113-130321
         interval:
           status: observed
           value: 2
           sources:
-            - rc-bamboo-archer-star1
+            - detail-20261113-130321
         target:
           status: observed
           value: HP最低
           sources:
-            - rc-bamboo-archer-star1
-      ability:
+            - detail-20261113-130321
+      ability: &a2
         status: observed
         value:
-          text: 攻撃速度+170%、30%のダメージを与える
-          keywords: []
+          text: 攻撃速度+140%、30%のダメージを与える
+          keywords: &a1 []
         sources:
-          - rc-bamboo-archer-star1
+          - detail-20261113-130321
     - star: 2
       stats:
         attack:
           status: observed
-          value: 7
+          value: 3
           sources:
-            - rc-bamboo-archer-star2
+            - detail-20261113-130324
         interval:
           status: observed
           value: 2
           sources:
-            - rc-bamboo-archer-star2
+            - detail-20261113-130324
         target:
           status: observed
           value: HP最低
           sources:
-            - rc-bamboo-archer-star2
-      ability:
+            - detail-20261113-130324
+      ability: &a3
         status: observed
         value:
-          text: 攻撃速度+170%、35%のダメージを与える
-          keywords: []
+          text: 攻撃速度+140%、35%のダメージを与える
+          keywords: *a1
         sources:
-          - rc-bamboo-archer-star2
+          - detail-20261113-130324
     - star: 3
       stats:
         attack:
           status: observed
-          value: 7
+          value: 3
           sources:
-            - rc-bamboo-archer-star3
+            - detail-20261113-130327
         interval:
           status: observed
           value: 2
           sources:
-            - rc-bamboo-archer-star3
+            - detail-20261113-130327
         target:
           status: observed
           value: HP最低
           sources:
-            - rc-bamboo-archer-star3
-      ability:
+            - detail-20261113-130327
+      ability: &a4
         status: observed
         value:
-          text: 攻撃速度+170%、40%のダメージを与える
-          keywords: []
+          text: 攻撃速度+140%、40%のダメージを与える
+          keywords: *a1
         sources:
-          - rc-bamboo-archer-star3
+          - detail-20261113-130327
   initial:
     attack:
-      status: unknown
-      reason: 最低保証Lv.7適用前のLv.1攻撃力は未確認。
+      status: observed
+      value: 3
+      sources:
+        - detail-20261113-130321
+        - detail-20261113-130324
+        - detail-20261113-130327
     abilities:
-      - status: unknown
-        reason: 最低保証Lv.7適用前のLv.1能力は未確認。
-      - status: unknown
-        reason: 最低保証Lv.7適用前のLv.1能力は未確認。
-      - status: unknown
-        reason: 最低保証Lv.7適用前のLv.1能力は未確認。
+      - *a2
+      - *a3
+      - *a4
   bonuses:
     - level: 2
       effect:
@@ -155,7 +147,7 @@ base:
           value: 1
           unit: points
         sources:
-          - rc-bamboo-archer-up1
+          - detail-20261113-130330
     - level: 3
       effect:
         status: observed
@@ -165,17 +157,17 @@ base:
           value: 1
           unit: points
         sources:
-          - rc-bamboo-archer-up1
+          - detail-20261113-130330
     - level: 4
       effect:
         status: observed
         value:
-          text: 攻撃速度ボーナスが155%に上昇する
-          operation: ability_set
-          value: 155
-          unit: percent
+          text: 攻撃速度ボーナスが160%に上昇する
+          operation: text
+          value: null
+          unit: none
         sources:
-          - rc-bamboo-archer-up1
+          - detail-20261113-130330
     - level: 5
       effect:
         status: observed
@@ -185,7 +177,7 @@ base:
           value: 1
           unit: points
         sources:
-          - rc-bamboo-archer-up2
+          - detail-20261113-130335
     - level: 6
       effect:
         status: observed
@@ -195,17 +187,17 @@ base:
           value: 1
           unit: points
         sources:
-          - rc-bamboo-archer-up2
+          - detail-20261113-130335
     - level: 7
       effect:
         status: observed
         value:
-          text: 攻撃速度ボーナスが170%に上昇する
-          operation: ability_set
-          value: 170
-          unit: percent
+          text: 攻撃速度ボーナスが180%に上昇する
+          operation: text
+          value: null
+          unit: none
         sources:
-          - rc-bamboo-archer-up2
+          - detail-20261113-130335
     - level: 8
       effect:
         status: observed
@@ -215,7 +207,7 @@ base:
           value: 2
           unit: points
         sources:
-          - rc-bamboo-archer-up3
+          - detail-20261113-130339
     - level: 9
       effect:
         status: observed
@@ -225,65 +217,60 @@ base:
           value: 2
           unit: points
         sources:
-          - rc-bamboo-archer-up3
+          - detail-20261113-130339
     - level: 10
       effect:
         status: observed
         value:
-          text: 攻撃速度ボーナスが200%に上昇する
-          operation: ability_set
-          value: 200
-          unit: percent
+          text: 攻撃速度ボーナスが220%に上昇する
+          operation: text
+          value: null
+          unit: none
         sources:
-          - rc-bamboo-archer-up4
+          - detail-20261113-130344
     - level: 11
       effect:
         status: observed
         value:
-          text: 攻撃速度ボーナスが215%に上昇する
-          operation: ability_set
-          value: 215
-          unit: percent
+          text: 攻撃速度ボーナスが240%に上昇する
+          operation: text
+          value: null
+          unit: none
         sources:
-          - rc-bamboo-archer-up4
+          - detail-20261113-130344
     - level: 12
       effect:
         status: observed
         value:
-          text: 攻撃速度ボーナスが230%に上昇する
-          operation: ability_set
-          value: 230
-          unit: percent
+          text: 攻撃速度ボーナスが260%に上昇する
+          operation: text
+          value: null
+          unit: none
         sources:
-          - rc-bamboo-archer-up4
+          - detail-20261113-130344
   bonusCoverage:
     status: observed
     value:
       from: 2
       through: 12
     sources:
-      - rc-bamboo-archer-up1
-      - rc-bamboo-archer-up2
-      - rc-bamboo-archer-up3
-      - rc-bamboo-archer-up4
+      - detail-20261113-130330
+      - detail-20261113-130335
+      - detail-20261113-130339
+      - detail-20261113-130344
   acquisition:
     status: observed
-    value: 現在入手できません
+    value: バトルロードで獲得
     sources:
-      - rc-bamboo-archer-star1
-      - rc-bamboo-archer-star2
-      - rc-bamboo-archer-star3
-      - rc-bamboo-archer-star4
-      - rc-bamboo-archer-acquisition-20261006
+      - detail-20261113-130321
   poolUnlock:
     status: absent
-    reason: ランブルチェス限定のため、通常カードプールの解放条件は存在しません。
+    reason: 通常詳細の入手方法欄全体にカードプール解放条件の記載なし。
     sources:
-      - rumble-limited-user-20261006
-  pendingUpdate: 2026-10-27-trick-or-bleed
+      - detail-20261113-130321
 variants:
   status: absent
-  note: バリアントはありません。
+  note: 通常詳細のバリアント切り替え領域に表示なし。
   sources:
-    - variant-absence-user-20261014
+    - detail-20261113-130321
   items: []

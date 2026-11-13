@@ -5,7 +5,7 @@ reading: かぼちゃないと
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: legend
@@ -223,10 +223,8 @@ base:
       - pumpkin-knight-base-star2
       - pumpkin-knight-base-star3
 variants:
-  status: absent
-  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  status: observed
+  note: 通常詳細でバリアントを確認。
   sources:
-    - pumpkin-knight-base-star1
-    - pumpkin-knight-base-star2
-    - pumpkin-knight-base-star3
-  items: []
+    - new-variant-20261113-130530
+  items: [ { id: variant-1, name: カボチャナイトⅠ, image: pumpkin-knight-variant-1, introduced: { status: observed, value: 2026-10-27, sources: [ update-20261027-112226, update-20261027-112241 ], note: 告知に記載されたアップデート予定日。実施完了は未確認。 }, cardRank: { status: observed, value: SS, sources: [ new-variant-20261113-130530, new-variant-20261113-130533, new-variant-20261113-130536 ] }, displayLevel: { status: observed, value: 7, sources: [ new-variant-20261113-130530, new-variant-20261113-130533, new-variant-20261113-130536 ] }, upgradeScreenLevel: { status: observed, value: 7, sources: [ new-variant-20261113-130539, new-variant-20261113-130545 ] }, conditions: 通常バリアント詳細Lv.7（ON）。育成画面の現在Lv.7と個別に確認。外部補正の影響は未確認。, stars: [ { star: 1, stats: { attack: { status: observed, value: 10, sources: [ new-variant-20261113-130530 ] }, interval: { status: observed, value: 2, sources: [ new-variant-20261113-130530 ] }, target: { status: observed, value: 最前列, sources: [ new-variant-20261113-130530 ] } }, ability: &a2 { status: observed, value: { text: 隊長がダメージを受けるたびに、自身の攻撃力+2。準備段階で発動した場合、効果が2倍になる, keywords: &a1 [] }, sources: [ new-variant-20261113-130530 ] } }, { star: 2, stats: { attack: { status: observed, value: 10, sources: [ new-variant-20261113-130533 ] }, interval: { status: observed, value: 2, sources: [ new-variant-20261113-130533 ] }, target: { status: observed, value: 最前列, sources: [ new-variant-20261113-130533 ] } }, ability: &a3 { status: observed, value: { text: 隊長がダメージを受けるたびに、自身の攻撃力+4。準備段階で発動した場合、効果が2倍になる, keywords: *a1 }, sources: [ new-variant-20261113-130533 ] } }, { star: 3, stats: { attack: { status: observed, value: 10, sources: [ new-variant-20261113-130536 ] }, interval: { status: observed, value: 2, sources: [ new-variant-20261113-130536 ] }, target: { status: observed, value: 最前列, sources: [ new-variant-20261113-130536 ] } }, ability: &a4 { status: observed, value: { text: 隊長がダメージを受けるたびに、自身の攻撃力+8。準備段階で発動した場合、効果が2倍になる, keywords: *a1 }, sources: [ new-variant-20261113-130536 ] } } ], initial: { attack: { status: observed, value: 10, sources: [ new-variant-20261113-130530, new-variant-20261113-130533, new-variant-20261113-130536 ] }, abilities: [ *a2, *a3, *a4 ] }, bonuses: [ { level: 8, effect: { status: observed, value: { text: ダメージを受けるたびに、攻撃力ボーナスが3に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130539 ] } }, { level: 9, effect: { status: observed, value: { text: ダメージを受けるたびに、攻撃力ボーナスが4に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130539 ] } }, { level: 10, effect: { status: observed, value: { text: ダメージを受けるたびに、攻撃力ボーナスが5に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130539 ] } }, { level: 11, effect: { status: observed, value: { text: ダメージを受けるたびに、攻撃力ボーナスが6に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130545 ] } }, { level: 12, effect: { status: observed, value: { text: ダメージを受けるたびに、攻撃力ボーナスが7に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130545 ] } } ], bonusCoverage: { status: observed, value: { from: 8, through: 12 }, sources: [ new-variant-20261113-130539, new-variant-20261113-130545 ] }, acquisition: { status: observed, value: クランショップで獲得, sources: [ new-variant-20261113-130530 ] } } ]

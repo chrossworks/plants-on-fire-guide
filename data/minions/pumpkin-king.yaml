@@ -1,0 +1,243 @@
+schemaVersion: 1
+id: pumpkin-king
+name: カボチャキング
+reading: かぼちゃきんぐ
+introduced:
+  status: observed
+  value: 2026-10-27
+  sources:
+    - update-20261027-112226
+    - update-20261027-112237
+  note: 告知に記載されたアップデート予定日。実施完了は未確認。
+portrait: pumpkin-king-portrait
+updated: 2026-11-13
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - detail-20261113-130200
+    - detail-20261113-130204
+    - detail-20261113-130208
+cost:
+  status: observed
+  value: 8
+  sources:
+    - detail-20261113-130200
+    - detail-20261113-130204
+    - detail-20261113-130208
+availability:
+  acquisition:
+    status: observed
+    value: obtainable
+    sources:
+      - detail-20261113-130200
+  ranked:
+    status: unknown
+    reason: 通常詳細の入手欄を確認。ランクマッチでの使用可否は未確認。
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - detail-20261113-130200
+      - detail-20261113-130204
+      - detail-20261113-130208
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - detail-20261113-130214
+      - detail-20261113-130220
+  conditions: 通常詳細の表示Lv.7（ON）で撮影。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - detail-20261113-130200
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - detail-20261113-130200
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130200
+      ability: &a2
+        status: observed
+        value:
+          text: 配置：隊長がHPを10%失うごとに、すべてのミニオンの攻撃力+2
+          keywords: &a1
+            - placement
+        sources:
+          - detail-20261113-130200
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - detail-20261113-130204
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - detail-20261113-130204
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130204
+      ability: &a3
+        status: observed
+        value:
+          text: 配置：隊長がHPを10%失うごとに、すべてのミニオンの攻撃力+2
+          keywords: *a1
+        sources:
+          - detail-20261113-130204
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 10
+          sources:
+            - detail-20261113-130208
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - detail-20261113-130208
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130208
+      ability: &a4
+        status: observed
+        value:
+          text: 配置：隊長がHPを10%失うごとに、すべてのミニオンの攻撃力+2
+          keywords: *a1
+        sources:
+          - detail-20261113-130208
+  initial:
+    attack:
+      status: observed
+      value: 10
+      sources:
+        - detail-20261113-130200
+        - detail-20261113-130204
+        - detail-20261113-130208
+    abilities:
+      - *a2
+      - *a3
+      - *a4
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが2～3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130214
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが3に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130214
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: フィールド上の空きマス1つにつき、攻撃力ボーナス効果が自身に追加で1回適用される
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130214
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが4に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130220
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 攻撃力ボーナスが5に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130220
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - detail-20261113-130214
+      - detail-20261113-130220
+  acquisition:
+    status: observed
+    value: グローリーパス購入後に獲得
+    sources:
+      - detail-20261113-130200
+  poolUnlock:
+    status: absent
+    reason: 通常詳細の入手方法欄全体にカードプール解放条件の記載なし。
+    sources:
+      - detail-20261113-130200
+  seasonalBlessings:
+    - id: trick-or-bleed
+      season: トリック・オア・ブリード
+      effect:
+        status: observed
+        value: 隊長がダメージを受けるたびに、次のカボチャキングの購入価格-1
+        sources:
+          - blessing-20261113-132021
+      period:
+        status: manual
+        value:
+          startsAt: 2026-10-27T15:30:00+09:00
+          endsAt: 2026-11-24T11:30:00+09:00
+        sources:
+          - blessing-schedule-user-20261113
+      scope:
+        status: manual
+        value: 基本形が対象。効果はレベルと星ランクに共通。
+        sources:
+          - blessing-period-user-20261113
+          - blessing-schedule-user-20261113
+      excludedModes:
+        status: observed
+        value:
+          - ランブルチェス
+          - フレンドマッチフェアモード
+          - エクストリームチャレンジ
+        sources:
+          - update-20261027-112246
+variants:
+  status: absent
+  note: 通常詳細のバリアント切り替え領域に表示なし。
+  sources:
+    - detail-20261113-130200
+  items: []

@@ -5,7 +5,7 @@ reading: からかぼちゃ
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -250,10 +250,8 @@ base:
       - kara-pumpkin-base-star2
       - kara-pumpkin-base-star3
 variants:
-  status: absent
-  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  status: observed
+  note: 通常詳細でバリアントを確認。
   sources:
-    - kara-pumpkin-base-star1
-    - kara-pumpkin-base-star2
-    - kara-pumpkin-base-star3
-  items: []
+    - new-variant-20261113-130436
+  items: [ { id: variant-1, name: カラカボチャⅠ, image: kara-pumpkin-variant-1, introduced: { status: observed, value: 2026-10-27, sources: [ update-20261027-112226, update-20261027-112241 ], note: 告知に記載されたアップデート予定日。実施完了は未確認。 }, cardRank: { status: observed, value: S, sources: [ new-variant-20261113-130436, new-variant-20261113-130439, new-variant-20261113-130442 ] }, displayLevel: { status: observed, value: 4, sources: [ new-variant-20261113-130436, new-variant-20261113-130439, new-variant-20261113-130442 ] }, upgradeScreenLevel: { status: observed, value: 4, sources: [ new-variant-20261113-130445, new-variant-20261113-130452, new-variant-20261113-130456 ] }, conditions: 通常バリアント詳細Lv.4（ON）。育成画面の現在Lv.4と個別に確認。外部補正の影響は未確認。, stars: [ { star: 1, stats: { attack: { status: observed, value: 5, sources: [ new-variant-20261113-130436 ] }, interval: { status: observed, value: 1.4, sources: [ new-variant-20261113-130436 ] }, target: { status: observed, value: 最前列, sources: [ new-variant-20261113-130436 ] } }, ability: &a2 { status: observed, value: { text: 準備完了：攻撃力+1～2、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）, keywords: &a1 [ ready ] }, sources: [ new-variant-20261113-130436 ] } }, { star: 2, stats: { attack: { status: observed, value: 5, sources: [ new-variant-20261113-130439 ] }, interval: { status: observed, value: 1.4, sources: [ new-variant-20261113-130439 ] }, target: { status: observed, value: 最前列, sources: [ new-variant-20261113-130439 ] } }, ability: &a3 { status: observed, value: { text: 準備完了：攻撃力+2～4、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）, keywords: *a1 }, sources: [ new-variant-20261113-130439 ] } }, { star: 3, stats: { attack: { status: observed, value: 5, sources: [ new-variant-20261113-130442 ] }, interval: { status: observed, value: 1.4, sources: [ new-variant-20261113-130442 ] }, target: { status: observed, value: 最前列, sources: [ new-variant-20261113-130442 ] } }, ability: &a4 { status: observed, value: { text: 準備完了：攻撃力+4～8、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）, keywords: *a1 }, sources: [ new-variant-20261113-130442 ] } } ], initial: { attack: { status: observed, value: 5, sources: [ new-variant-20261113-130436, new-variant-20261113-130439, new-variant-20261113-130442 ] }, abilities: [ *a2, *a3, *a4 ] }, bonuses: [ { level: 5, effect: { status: observed, value: { text: 攻撃力+1, operation: attack_add, value: 1, unit: points }, sources: [ new-variant-20261113-130445 ] } }, { level: 6, effect: { status: observed, value: { text: 攻撃力+1, operation: attack_add, value: 1, unit: points }, sources: [ new-variant-20261113-130445 ] } }, { level: 7, effect: { status: observed, value: { text: 攻撃力ボーナスが（1～4）に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130445 ] } }, { level: 8, effect: { status: observed, value: { text: 攻撃力+2, operation: attack_add, value: 2, unit: points }, sources: [ new-variant-20261113-130452 ] } }, { level: 9, effect: { status: observed, value: { text: 攻撃力+2, operation: attack_add, value: 2, unit: points }, sources: [ new-variant-20261113-130452 ] } }, { level: 10, effect: { status: observed, value: { text: 攻撃力ボーナスが（1～6）に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130452 ] } }, { level: 11, effect: { status: observed, value: { text: 攻撃力ボーナスが（1～8）に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130456 ] } }, { level: 12, effect: { status: observed, value: { text: 攻撃力ボーナスが（1～10）に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130456 ] } } ], bonusCoverage: { status: observed, value: { from: 5, through: 12 }, sources: [ new-variant-20261113-130445, new-variant-20261113-130452, new-variant-20261113-130456 ] }, acquisition: { status: observed, value: 「バリアント募集」で一定確率で獲得, sources: [ new-variant-20261113-130436 ] } } ]

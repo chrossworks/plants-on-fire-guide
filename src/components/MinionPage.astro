@@ -4,6 +4,7 @@ import Layout from '../layouts/Layout.astro';
 import Form from './Form.astro';
 import FormHistory from './FormHistory.astro';
 import Fact from './Fact.astro';
+import SeasonalBlessings from './SeasonalBlessings.astro';
 import Rumble from './Rumble.astro';
 import PendingAddition from './PendingAddition.astro';
 import { assets,imageUrl,keywords,url,rumble,updates,history } from '../lib/site';
@@ -13,7 +14,7 @@ import { additionsFor,historyFor } from '../../lib/updates.mjs';
 import { minimumLevels,rarityLabels } from '../../lib/schema.mjs';
 const {m,form}=Astro.props,variant=form.id!=='base',name=formName(m,form);
 const article=(await getCollection('articles')).find(a=>a.data.kind==='minion'&&a.data.minionId===m.id&&(a.data.formId||'base')===form.id);
-const rendered=article?await render(article):undefined,Content=rendered?.Content;
+const rendered=article?await render(article):undefined,Content=article?.body?.trim() ? rendered?.Content : undefined;
 const description=article?.data.description||name+'の星別性能、育成効果、ランブルチェスの登場状況を掲載します。';
 const rc=rumbleForMinion(rumble,m.id,form.id),ranked=form.availability?.ranked||(!variant?m.availability?.ranked:undefined);
 const evaluations=[['standard','通常（ランクマッチ）'],['rumble-chess','ランブルチェス']].map(([mode,label])=>({mode,label,evaluation:evaluationFor(m,form.id,mode)}));
@@ -27,6 +28,7 @@ const modeLabel={standard:'通常（ランクマッチ）','rumble-chess':'ラ�
 <Layout title={name} description={description}>
 <a class="back" href={url('minions/')}>← ミニオン一覧</a>
 <nav class="form-switcher" aria-label="形態の切り替え" data-no-minion-links>{formsOf(m).map(f=><a href={url(formPath(m.id,f.id))} aria-current={f.id===form.id?'page':undefined}>{f.id==='base'?'基本形：'+m.name:f.name}</a>)}</nav>
+<SeasonalBlessings blessings={form.seasonalBlessings}/>
 <div class="detail-header">{picture?<img class="detail-portrait" src={imageUrl(picture)} alt={assets[picture].alt} width="560" height="593"/>:<p class="condition">この形態の画像は準備中です。</p>}<div><p class="eyebrow">MINION GUIDE</p><span class="tag">{rarityLabels[m.rarity.value]} / コスト <Fact fact={m.cost}/></span><h1>{name}</h1><p>{description}</p>{variant&&<p>カードランク：<Fact fact={form.cardRank}/></p>}<p class="muted">実装日：<Fact fact={(variant?form.introduced:m.introduced)||{status:'unknown',reason:'実装日は未確認です。'}}/><br/>最終更新：{article?.data.updated||m.updated}</p></div></div>
 <section class="mode-evaluations" aria-label="形態・モード別評価">{evaluations.map(({mode,label,evaluation:e})=><div><h2>{label}</h2><p>使用・登場状況：{pendingRelease?'入手方法の追加告知あり。変更後は未確認':mode==='standard'?(ranked?.value===true?'使用可能':ranked?.value===false?'使用不可':'未確認'):(rc.availability.value===true?'登場確認済み':rc.availability.value===false?'非登場':'未確認')}</p><p>評価：<strong>{e.rank}</strong></p>{e.reason&&<p class="muted">{e.reason}</p>}{e.pendingUpdate&&<p class="condition">調整前の評価です。調整後は確認中です。</p>}</div>)}</section>
 {rc.exclusive?.value&&<p class="condition">{pendingRelease?'以前はランブルチェス専用として掲載していました。通常入手の追加告知があり、変更後の状況は確認中です。':'ランブルチェス専用ミニオンです。'}</p>}

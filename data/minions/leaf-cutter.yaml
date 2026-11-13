@@ -1,0 +1,248 @@
+schemaVersion: 1
+id: leaf-cutter
+name: リーフカッター
+reading: りーふかったー
+introduced:
+  status: observed
+  value: 2026-10-27
+  sources:
+    - update-20261027-112226
+    - update-20261027-112237
+  note: 告知に記載されたアップデート予定日。実施完了は未確認。
+portrait: leaf-cutter-portrait
+updated: 2026-11-13
+rarity:
+  status: observed
+  value: epic
+  sources:
+    - detail-20261113-130357
+    - detail-20261113-130401
+    - detail-20261113-130404
+cost:
+  status: observed
+  value: 8
+  sources:
+    - detail-20261113-130357
+    - detail-20261113-130401
+    - detail-20261113-130404
+availability:
+  acquisition:
+    status: observed
+    value: obtainable
+    sources:
+      - detail-20261113-130357
+  ranked:
+    status: unknown
+    reason: 通常詳細の入手欄を確認。ランクマッチでの使用可否は未確認。
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 4
+    sources:
+      - detail-20261113-130357
+      - detail-20261113-130401
+      - detail-20261113-130404
+  upgradeScreenLevel:
+    status: observed
+    value: 4
+    sources:
+      - detail-20261113-130407
+      - detail-20261113-130411
+      - detail-20261113-130416
+  conditions: 通常詳細の表示Lv.4（ON）で撮影。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 14
+          sources:
+            - detail-20261113-130357
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - detail-20261113-130357
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130357
+      ability: &a2
+        status: observed
+        value:
+          text: 配置：指定したミニオンを除外し、その攻撃力の120%を一時的に均等に他のミニオンに分け与える
+          keywords: &a1
+            - placement
+            - exclude
+            - temporary
+        sources:
+          - detail-20261113-130357
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 14
+          sources:
+            - detail-20261113-130401
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - detail-20261113-130401
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130401
+      ability: &a3
+        status: observed
+        value:
+          text: 配置：指定したミニオンを除外し、その攻撃力の120%を一時的に均等に他のミニオンに分け与える
+          keywords: *a1
+        sources:
+          - detail-20261113-130401
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 14
+          sources:
+            - detail-20261113-130404
+        interval:
+          status: observed
+          value: 2
+          sources:
+            - detail-20261113-130404
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130404
+      ability: &a4
+        status: observed
+        value:
+          text: 配置：指定したミニオンを除外し、その攻撃力の120%を一時的に均等に他のミニオンに分け与える
+          keywords: *a1
+        sources:
+          - detail-20261113-130404
+  initial:
+    attack:
+      status: observed
+      value: 14
+      sources:
+        - detail-20261113-130357
+        - detail-20261113-130401
+        - detail-20261113-130404
+    abilities:
+      - *a2
+      - *a3
+      - *a4
+  bonuses:
+    - level: 5
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+2
+          operation: attack_add
+          value: 2
+          unit: points
+        sources:
+          - detail-20261113-130407
+    - level: 6
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+3
+          operation: attack_add
+          value: 3
+          unit: points
+        sources:
+          - detail-20261113-130407
+    - level: 7
+      effect:
+        status: observed
+        value:
+          text: 付与する一時攻撃力の総量が130%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130407
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+4
+          operation: attack_add
+          value: 4
+          unit: points
+        sources:
+          - detail-20261113-130411
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 攻撃力+5
+          operation: attack_add
+          value: 5
+          unit: points
+        sources:
+          - detail-20261113-130411
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 付与する一時攻撃力の総量が150%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130416
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: 付与する一時攻撃力の総量が165%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130416
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: 付与する一時攻撃力の総量が180%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130416
+  bonusCoverage:
+    status: observed
+    value:
+      from: 5
+      through: 12
+    sources:
+      - detail-20261113-130407
+      - detail-20261113-130411
+      - detail-20261113-130416
+  acquisition:
+    status: observed
+    value: バトルロードで獲得
+    sources:
+      - detail-20261113-130357
+  poolUnlock:
+    status: absent
+    reason: 通常詳細の入手方法欄全体にカードプール解放条件の記載なし。
+    sources:
+      - detail-20261113-130357
+variants:
+  status: absent
+  note: 通常詳細のバリアント切り替え領域に表示なし。
+  sources:
+    - detail-20261113-130357
+  items: []

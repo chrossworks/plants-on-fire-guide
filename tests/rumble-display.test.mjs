@@ -34,20 +34,20 @@ test('アンナイツバキの星4と基本性能のレベル・根拠を分離�
 test('未掲載を非登場にせず、登場確認済みの未撮影星4も保持する',()=>{
   const r=loadRumble();
   assert.equal(rumbleForMinion(r,'unlisted').availability.status,'unknown');
-  r.minions['annai-tsubaki'].star4={status:'unknown',reason:'未撮影の状態を検証'};
-  assert.equal(rumbleForMinion(r,'annai-tsubaki').star4.status,'unknown');
+  r.minions['thorn-melon'].star4={status:'unknown',reason:'未撮影の状態を検証'};
+  assert.equal(rumbleForMinion(r,'thorn-melon').star4.status,'unknown');
   assert.doesNotThrow(()=>rumbleSchema.parse(r));
   const absent={availability:{status:'manual',value:false,sources:['user']}};
-  r.minions['annai-tsubaki']=absent;
+  r.minions['thorn-melon']=absent;
   assert.doesNotThrow(()=>rumbleSchema.parse(r));
-  r.minions['annai-tsubaki'].star4={status:'unknown',reason:'test'};
+  r.minions['thorn-melon'].star4={status:'unknown',reason:'test'};
   assert.throws(()=>rumbleSchema.parse(r),/非登場/);
 });
 test('登場確認済みの星4省略と数値の推測は拒否する',()=>{
   const r=loadRumble();
-  delete r.minions['annai-tsubaki'].star4;
+  delete r.minions['thorn-melon'].star4;
   assert.throws(()=>rumbleSchema.parse(r),/星4能力/);
-  r.minions['annai-tsubaki'].star4={status:'unknown',reason:'未撮影',value:{}};
+  r.minions['thorn-melon'].star4={status:'unknown',reason:'未撮影',value:{}};
   assert.throws(()=>rumbleSchema.parse(r));
 });
 test('評価対象外を未評価と区別し、公開データの参照・矛盾を検証する',async()=>{
@@ -57,13 +57,15 @@ test('評価対象外を未評価と区別し、公開データの参照・矛�
 });
 
 test('9/29のカードプールは形態を分離し、旧星4・所属を現行へ流用しない',()=>{
- const r=loadRumble(),ms=loadMinions(),old=loadHistory().find(h=>h.kind==='rumble-pool').snapshot;
+ const histories=loadHistory().filter(h=>h.kind==='rumble-pool');
+ const r=histories.find(h=>h.updateId==='2026-10-27-trick-or-bleed').snapshot;
+ const old=histories.find(h=>h.updateId==='2026-09-29-sea-rebels').snapshot,ms=loadMinions();
  assert.equal(r.updateId,'2026-09-29-sea-rebels');
  assert.equal(Object.keys(r.memberIds).length,60);
  assert.equal(Object.keys(r.memberForms).length,11);
  const beforeOctober=loadHistory().find(h=>h.kind==='rumble-pool'&&h.updateId==='2026-10-27-trick-or-bleed').snapshot;
  assert.deepEqual(beforeOctober.decks.map(d=>d.bond),old.decks.map(d=>d.bond));
- assert.equal(r.decks.find(d=>d.id==='droplet').bond.tiers.status,'unknown');
+ assert.equal(loadRumble().decks.find(d=>d.id==='droplet').bond.tiers.value.at(-1).amount,200);
  assert.deepEqual(r.decks.filter(d=>d.id!=='droplet').map(d=>d.bond),beforeOctober.decks.filter(d=>d.id!=='droplet').map(d=>d.bond));
  assert.equal(rumbleForMinion(r,'mam-girl').availability.status,'unknown');
  const variant=rumbleForMinion(r,'mam-girl','variant-1');
@@ -107,4 +109,16 @@ test('専用2体の撮影値・星4・育成効果を分離し、攻撃不可の
  const magician=ms.find(m=>m.id==='magician-cucumber');assert.match(magician.base.bonuses[2].effect.value.text,/購入価格を\+2/);
  const bad=structuredClone(r);bad.observations[4].target.value='最前列';assert.throws(()=>rumbleSchema.parse(bad),/攻撃間隔0/);
  bad.observations[4].target={status:'unknown',reason:'不明'};assert.throws(()=>rumbleSchema.parse(bad),/攻撃間隔0/);
+});
+
+test('10/27のランブルチェスは実機のカードプール・絆・隊長能力を掲載する',()=>{
+ const r=loadRumble();
+ assert.equal(r.updateId,'2026-10-27-trick-or-bleed');
+ assert.deepEqual(r.decks.map(d=>d.cards.value.length),[10,10,10,10,10,10]);
+ assert.equal(rumbleForMinion(r,'mam-girl','variant-1').deck.id,'droplet');
+ assert.equal(rumbleForMinion(r,'mam-girl','variant-1').star4.status,'unknown');
+ assert.equal(rumbleForMinion(r,'annai-tsubaki','variant-1').deck.id,'cloud');
+ assert.equal(r.decks.find(d=>d.id==='star').bond.tiers.value.at(-1).amount,40);
+ assert.equal(r.captains.length,4);
+ assert.deepEqual(rumbleIdentityIssues(r,loadMinions()),[]);
 });

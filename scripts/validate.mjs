@@ -33,6 +33,10 @@ export async function validate() {
       if (f.status === 'observed' && (sources[s]?.kind !== 'screenshot' || sources[s]?.mode !== 'rumble-chess' || sources[s]?.screen !== 'bond-description')) fail(`絆効果の画像根拠が不正: ${d.id} / ${s}`);
     }
   }
+  for (const captain of rumble.captains ?? []) for (const id of captain.effect.sources ?? []) {
+    const source = sources[id];
+    if (captain.effect.status === 'observed' && (source?.kind !== 'screenshot' || source.mode !== 'rumble-chess' || source.screen !== 'captain-detail')) fail('ランブルチェス隊長の画像根拠が不正: ' + captain.id);
+  }
   const memberships = new Map();
   for (const d of rumble.decks) for (const name of d.members.value || []) {
     if (memberships.has(name)) fail(`絆所属の重複: ${name}`);

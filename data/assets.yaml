@@ -1193,3 +1193,36 @@ chili-judge-icon:
 chili-judge-variant-1-icon:
   path: images/minions/chili-judge/variant-1-icon.webp
   alt: チリジャッジⅠのカードアイコン（撮影時のLv表示を含む）
+
+pumpkin-king-portrait:
+  path: images/minions/pumpkin-king/portrait.webp
+  alt: カボチャキングの基本形
+mister-hiss-portrait:
+  path: images/minions/mister-hiss/portrait.webp
+  alt: ミスター・ヒスの基本形
+leaf-cutter-portrait:
+  path: images/minions/leaf-cutter/portrait.webp
+  alt: リーフカッターの基本形
+
+kara-pumpkin-variant-1:
+  path: images/minions/kara-pumpkin/variant-1.webp
+  alt: カラカボチャⅠのバリアントカード
+pumpkin-knight-variant-1:
+  path: images/minions/pumpkin-knight/variant-1.webp
+  alt: カボチャナイトⅠのバリアントカード
+greenkeeper-variant-2:
+  path: images/minions/greenkeeper/variant-2.webp
+  alt: グリーンキーパーⅡのバリアントカード
+tele-leafy-variant-1:
+  path: images/minions/tele-leafy/variant-1.webp
+  alt: テレ・リーフィーⅠのバリアントカード
+
+vampire-duke-badge-rarity-icon:
+  path: images/captain-badges/vampire-duke/rarity-icon.webp
+  alt: ヴァンパイア公爵バッジのレア度背景付きアイコン
+vampire-duke-badge-plain-icon:
+  path: images/captain-badges/vampire-duke/plain-icon.webp
+  alt: ヴァンパイア公爵バッジ本体
+vampire-duke-badge-charm-icon:
+  path: images/captain-badges/vampire-duke/charm-icon.webp
+  alt: ヴァンパイア公爵チャームⅠの丸いアイコン

@@ -1,0 +1,243 @@
+schemaVersion: 1
+id: mister-hiss
+name: ミスター・ヒス
+reading: みすたーひす
+introduced:
+  status: observed
+  value: 2026-10-27
+  sources:
+    - update-20261027-112226
+    - update-20261027-112237
+  note: 告知に記載されたアップデート予定日。実施完了は未確認。
+portrait: mister-hiss-portrait
+updated: 2026-11-13
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - detail-20261113-130238
+    - detail-20261113-130241
+    - detail-20261113-130244
+cost:
+  status: observed
+  value: 8
+  sources:
+    - detail-20261113-130238
+    - detail-20261113-130241
+    - detail-20261113-130244
+availability:
+  acquisition:
+    status: observed
+    value: obtainable
+    sources:
+      - detail-20261113-130238
+  ranked:
+    status: unknown
+    reason: 通常詳細の入手欄を確認。ランクマッチでの使用可否は未確認。
+base:
+  id: base
+  name: 基本形
+  displayLevel:
+    status: observed
+    value: 7
+    sources:
+      - detail-20261113-130238
+      - detail-20261113-130241
+      - detail-20261113-130244
+  upgradeScreenLevel:
+    status: observed
+    value: 7
+    sources:
+      - detail-20261113-130249
+      - detail-20261113-130254
+  conditions: 通常詳細の表示Lv.7（ON）で撮影。外部補正の影響は未確認。
+  stars:
+    - star: 1
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - detail-20261113-130238
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - detail-20261113-130238
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130238
+      ability: &a2
+        status: observed
+        value:
+          text: フィールド上に出現した敵を侵食し、2.6秒ごとにミスター・ヒスの攻撃力の20%分のダメージを与える。敵にシールドが付与されている場合、ダメージを与えず、シールドを2スタック解除する
+          keywords: &a1
+            - shield
+        sources:
+          - detail-20261113-130238
+    - star: 2
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - detail-20261113-130241
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - detail-20261113-130241
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130241
+      ability: &a3
+        status: observed
+        value:
+          text: フィールド上に出現した敵を侵食し、2.6秒ごとにミスター・ヒスの攻撃力の27%分のダメージを与える。敵にシールドが付与されている場合、ダメージを与えず、シールドを2スタック解除する
+          keywords: *a1
+        sources:
+          - detail-20261113-130241
+    - star: 3
+      stats:
+        attack:
+          status: observed
+          value: 18
+          sources:
+            - detail-20261113-130244
+        interval:
+          status: observed
+          value: 4
+          sources:
+            - detail-20261113-130244
+        target:
+          status: observed
+          value: 最前列
+          sources:
+            - detail-20261113-130244
+      ability: &a4
+        status: observed
+        value:
+          text: フィールド上に出現した敵を侵食し、2.6秒ごとにミスター・ヒスの攻撃力の40%分のダメージを与える。敵にシールドが付与されている場合、ダメージを与えず、シールドを2スタック解除する
+          keywords: *a1
+        sources:
+          - detail-20261113-130244
+  initial:
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - detail-20261113-130238
+        - detail-20261113-130241
+        - detail-20261113-130244
+    abilities:
+      - *a2
+      - *a3
+      - *a4
+  bonuses:
+    - level: 8
+      effect:
+        status: observed
+        value:
+          text: 継続ダメージの間隔が2.3に短縮される
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130249
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: 継続ダメージの間隔が1.8に短縮される
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130249
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 継続ダメージの間隔が1.8に短縮され、貫通ダメージに変更される
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130254
+    - level: 11
+      effect:
+        status: observed
+        value:
+          text: ダメージが25%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130254
+    - level: 12
+      effect:
+        status: observed
+        value:
+          text: ダメージが30%に上昇する
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - detail-20261113-130254
+  bonusCoverage:
+    status: observed
+    value:
+      from: 8
+      through: 12
+    sources:
+      - detail-20261113-130249
+      - detail-20261113-130254
+  acquisition:
+    status: observed
+    value: ラッキー募集で一定確率で獲得
+    sources:
+      - detail-20261113-130238
+  poolUnlock:
+    status: absent
+    reason: 通常詳細の入手方法欄全体にカードプール解放条件の記載なし。
+    sources:
+      - detail-20261113-130238
+  seasonalBlessings:
+    - id: trick-or-bleed
+      season: トリック・オア・ブリード
+      effect:
+        status: observed
+        value: 準備完了：味方の他のミニオンの攻撃力の15%を吸収する
+        sources:
+          - blessing-20261113-131834
+      period:
+        status: manual
+        value:
+          startsAt: 2026-10-27T15:30:00+09:00
+          endsAt: 2026-11-24T11:30:00+09:00
+        sources:
+          - blessing-schedule-user-20261113
+      scope:
+        status: manual
+        value: 基本形が対象。効果はレベルと星ランクに共通。
+        sources:
+          - blessing-period-user-20261113
+          - blessing-schedule-user-20261113
+      excludedModes:
+        status: observed
+        value:
+          - ランブルチェス
+          - フレンドマッチフェアモード
+          - エクストリームチャレンジ
+        sources:
+          - update-20261027-112246
+variants:
+  status: absent
+  note: 通常詳細のバリアント切り替え領域に表示なし。
+  sources:
+    - detail-20261113-130238
+  items: []

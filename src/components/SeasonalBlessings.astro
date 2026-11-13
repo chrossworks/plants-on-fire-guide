@@ -1,0 +1,42 @@
+---
+import Fact from './Fact.astro';
+const { blessings = [], showDetails = false } = Astro.props;
+const format = (value: string) => new Intl.DateTimeFormat('ja-JP', {
+  timeZone: 'Asia/Tokyo', year: 'numeric', month: 'numeric', day: 'numeric',
+  hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+}).format(new Date(value));
+---
+{blessings.map(blessing => {
+  const period = blessing.period.value;
+  return <details class="seasonal-blessing" data-blessing open={showDetails}
+    data-start={period?.startsAt} data-end={period?.endsAt}>
+    <summary>星界の祝福 · {blessing.season}<span data-blessing-status></span></summary>
+    <div>
+      <p>{blessing.effect.status === 'unknown' ? blessing.effect.reason : <Fact fact={blessing.effect}/>}</p>
+      {period && <p>適用期間 <time datetime={period.startsAt}>{format(period.startsAt)}</time> ～ <time datetime={period.endsAt}>{format(period.endsAt)}</time>（日本時間）</p>}
+      <p><Fact fact={blessing.scope}/></p>
+      {blessing.excludedModes.value?.length > 0 && <p>対象外モード {blessing.excludedModes.value.join('、')}</p>}
+    </div>
+  </details>;
+})}
+<script>
+  for (const blessing of document.querySelectorAll<HTMLDetailsElement>('[data-blessing]')) {
+    const start = Date.parse(blessing.dataset.start ?? '');
+    const end = Date.parse(blessing.dataset.end ?? '');
+    const now = Date.now();
+    const status = blessing.querySelector('[data-blessing-status]');
+    if (now >= start && now < end) {
+      blessing.open = true;
+      if (status) status.textContent = '（適用期間中）';
+    } else if (now >= end) {
+      if (status) status.textContent = '（終了）';
+    } else if (now < start) {
+      if (status) status.textContent = '（開始前）';
+    }
+  }
+</script>
+<style>
+  .seasonal-blessing { margin-block: 16px; padding: 12px 18px; border: 1px solid #91c5e3; border-radius: 8px; background: #eef8ff; }
+  .seasonal-blessing summary { cursor: pointer; font-weight: bold; }
+  .seasonal-blessing p { margin: 8px 0; }
+</style>

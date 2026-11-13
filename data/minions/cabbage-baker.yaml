@@ -16,7 +16,7 @@ cost:
   value: 5
   sources:
     - cabbage-baker-base-star1
-updated: 2026-10-27
+updated: 2026-11-13
 portrait: cabbage-baker-portrait
 evaluation:
   rank: A
@@ -28,123 +28,127 @@ base:
   name: 基本形
   displayLevel:
     status: observed
-    value: 4
+    value: 6
     sources:
-      - cabbage-baker-base-star1
-      - cabbage-baker-base-star2
-      - cabbage-baker-base-star3
+      - changed-minion-20261113-130937
+      - changed-minion-20261113-130940
+      - changed-minion-20261113-130943
   upgradeScreenLevel:
     status: observed
-    value: 4
+    value: 6
     sources:
-      - cabbage-baker-base-up1
-  conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+      - changed-minion-20261113-130948
+      - changed-minion-20261113-130953
+      - changed-minion-20261113-130957
+  conditions: 調整後の通常詳細Lv.6（ON）。外部補正の影響は未確認。
   stars:
     - star: 1
       stats:
         attack:
           status: observed
-          value: 6
+          value: 8
           sources:
-            - cabbage-baker-base-star1
+            - changed-minion-20261113-130937
         interval:
           status: observed
           value: 2.5
           sources:
-            - cabbage-baker-base-star1
+            - changed-minion-20261113-130937
         target:
           status: observed
           value: 最前列
           sources:
-            - cabbage-baker-base-star1
+            - changed-minion-20261113-130937
       ability:
         status: observed
         value:
-          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+3
-          keywords:
+          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+3。空きマスがない場合、ランダムなミニオン1体にパンを投げ与える
+          keywords: &a1
             - ready
         sources:
-          - cabbage-baker-base-star1
+          - changed-minion-20261113-130937
     - star: 2
       stats:
         attack:
           status: observed
-          value: 6
+          value: 8
           sources:
-            - cabbage-baker-base-star2
+            - changed-minion-20261113-130940
         interval:
           status: observed
           value: 2.5
           sources:
-            - cabbage-baker-base-star2
+            - changed-minion-20261113-130940
         target:
           status: observed
           value: 最前列
           sources:
-            - cabbage-baker-base-star2
+            - changed-minion-20261113-130940
       ability:
         status: observed
         value:
-          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+6
-          keywords:
-            - ready
+          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+6。空きマスがない場合、ランダムなミニオン1体にパンを投げ与える
+          keywords: *a1
         sources:
-          - cabbage-baker-base-star2
+          - changed-minion-20261113-130940
     - star: 3
       stats:
         attack:
           status: observed
-          value: 6
+          value: 8
           sources:
-            - cabbage-baker-base-star3
+            - changed-minion-20261113-130943
         interval:
           status: observed
           value: 2.5
           sources:
-            - cabbage-baker-base-star3
+            - changed-minion-20261113-130943
         target:
           status: observed
           value: 最前列
           sources:
-            - cabbage-baker-base-star3
+            - changed-minion-20261113-130943
       ability:
         status: observed
         value:
-          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+12
-          keywords:
-            - ready
+          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+12。空きマスがない場合、ランダムなミニオン1体にパンを投げ与える
+          keywords: *a1
         sources:
-          - cabbage-baker-base-star3
+          - changed-minion-20261113-130943
   initial:
     attack:
-      status: observed
+      status: manual
       value: 6
       sources:
         - cabbage-baker-base-star1
         - cabbage-baker-base-star2
         - cabbage-baker-base-star3
+        - cabbage-baker-lv4-attack-user-20261113
     abilities:
-      - status: observed
+      - status: manual
         value:
-          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+3
+          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+3。空きマスがない場合、ランダムなミニオン1体にパンを投げ与える
           keywords:
             - ready
         sources:
           - cabbage-baker-base-star1
-      - status: observed
+          - cabbage-baker-lv4-user-20261113
+      - status: manual
         value:
-          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+6
+          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+6。空きマスがない場合、ランダムなミニオン1体にパンを投げ与える
           keywords:
             - ready
         sources:
           - cabbage-baker-base-star2
-      - status: observed
+          - cabbage-baker-lv4-user-20261113
+      - status: manual
         value:
-          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+12
+          text: 準備完了：空きマスにパンを1つ作る。拾ったミニオンの攻撃力+12。空きマスがない場合、ランダムなミニオン1体にパンを投げ与える
           keywords:
             - ready
         sources:
           - cabbage-baker-base-star3
+          - cabbage-baker-lv4-user-20261113
   bonuses:
     - level: 5
       effect:
@@ -155,7 +159,7 @@ base:
           value: 1
           unit: points
         sources:
-          - cabbage-baker-base-up1
+          - changed-minion-20261113-130948
     - level: 6
       effect:
         status: observed
@@ -165,17 +169,17 @@ base:
           value: 1
           unit: points
         sources:
-          - cabbage-baker-base-up1
+          - changed-minion-20261113-130948
     - level: 7
       effect:
         status: observed
         value:
           text: パンの攻撃力ボーナスが5に上昇する
-          operation: ability_set
-          value: 5
-          unit: points
+          operation: text
+          value: null
+          unit: none
         sources:
-          - cabbage-baker-base-up1
+          - changed-minion-20261113-130948
     - level: 8
       effect:
         status: observed
@@ -185,7 +189,7 @@ base:
           value: 2
           unit: points
         sources:
-          - cabbage-baker-base-up2
+          - changed-minion-20261113-130953
     - level: 9
       effect:
         status: observed
@@ -195,46 +199,46 @@ base:
           value: 2
           unit: points
         sources:
-          - cabbage-baker-base-up2
+          - changed-minion-20261113-130953
     - level: 10
       effect:
         status: observed
         value:
           text: パンの攻撃力ボーナスが8に上昇する
-          operation: ability_set
-          value: 8
-          unit: points
+          operation: text
+          value: null
+          unit: none
         sources:
-          - cabbage-baker-base-up2
+          - changed-minion-20261113-130953
     - level: 11
       effect:
         status: observed
         value:
           text: パンの攻撃力ボーナスが10に上昇する
-          operation: ability_set
-          value: 10
-          unit: points
+          operation: text
+          value: null
+          unit: none
         sources:
-          - cabbage-baker-base-up3
+          - changed-minion-20261113-130957
     - level: 12
       effect:
         status: observed
         value:
           text: パンの攻撃力ボーナスが12に上昇する
-          operation: ability_set
-          value: 12
-          unit: points
+          operation: text
+          value: null
+          unit: none
         sources:
-          - cabbage-baker-base-up3
+          - changed-minion-20261113-130957
   bonusCoverage:
     status: observed
     value:
       from: 5
       through: 12
     sources:
-      - cabbage-baker-base-up1
-      - cabbage-baker-base-up2
-      - cabbage-baker-base-up3
+      - changed-minion-20261113-130948
+      - changed-minion-20261113-130953
+      - changed-minion-20261113-130957
   acquisition:
     status: observed
     value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
@@ -249,7 +253,33 @@ base:
       - cabbage-baker-base-star1
       - cabbage-baker-base-star2
       - cabbage-baker-base-star3
-  pendingUpdate: 2026-10-27-trick-or-bleed
+  seasonalBlessings:
+    - id: trick-or-bleed
+      season: トリック・オア・ブリード
+      effect:
+        status: unknown
+        reason: 適用開始前のため、効果は未確認です。
+      period:
+        status: manual
+        value:
+          startsAt: 2026-11-17T11:30:00+09:00
+          endsAt: 2026-11-24T11:30:00+09:00
+        sources:
+          - blessing-schedule-user-20261113
+      scope:
+        status: manual
+        value: 基本形が対象。効果はレベルと星ランクに共通。
+        sources:
+          - blessing-period-user-20261113
+          - blessing-schedule-user-20261113
+      excludedModes:
+        status: observed
+        value:
+          - ランブルチェス
+          - フレンドマッチフェアモード
+          - エクストリームチャレンジ
+        sources:
+          - update-20261027-112246
 variants:
   status: absent
   note: 通常詳細画面でバリアント表示がないことを確認済みです。

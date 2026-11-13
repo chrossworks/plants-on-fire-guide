@@ -5,7 +5,7 @@ reading: うぃきっどみらー
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -20,7 +20,7 @@ cost:
     - wicked-mirror-base-star1
     - wicked-mirror-base-star2
     - wicked-mirror-base-star3
-updated: 2026-10-15
+updated: 2026-11-13
 icon: wicked-mirror-icon
 portrait: wicked-mirror-portrait
 evaluation:
@@ -247,6 +247,35 @@ base:
       - wicked-mirror-base-star1
       - wicked-mirror-base-star2
       - wicked-mirror-base-star3
+  seasonalBlessings:
+    - id: trick-or-bleed
+      season: トリック・オア・ブリード
+      effect:
+        status: observed
+        value: 配置：★2にアップする
+        sources:
+          - blessing-20261113-131907
+      period:
+        status: manual
+        value:
+          startsAt: 2026-11-03T11:30:00+09:00
+          endsAt: 2026-11-24T11:30:00+09:00
+        sources:
+          - blessing-schedule-user-20261113
+      scope:
+        status: manual
+        value: 基本形が対象。効果はレベルと星ランクに共通。
+        sources:
+          - blessing-period-user-20261113
+          - blessing-schedule-user-20261113
+      excludedModes:
+        status: observed
+        value:
+          - ランブルチェス
+          - フレンドマッチフェアモード
+          - エクストリームチャレンジ
+        sources:
+          - update-20261027-112246
 variants:
   status: absent
   note: 通常詳細画面でバリアント表示がないことを確認済みです。

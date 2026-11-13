@@ -16,7 +16,7 @@ cost:
   value: 3
   sources:
     - kowappine-base-star1
-updated: 2026-10-27
+updated: 2026-11-13
 icon: kowappine-icon
 portrait: kowappine-portrait
 evaluation:
@@ -498,20 +498,24 @@ variants:
         status: observed
         value: SS
         sources:
-          - kowappine-v2-star1
+          - changed-variant-20261113-131724
+          - changed-variant-20261113-131501
+          - changed-variant-20261113-131505
       displayLevel:
         status: observed
         value: 4
         sources:
-          - kowappine-v2-star1
-          - kowappine-v2-star2
-          - kowappine-v2-star3
+          - changed-variant-20261113-131724
+          - changed-variant-20261113-131501
+          - changed-variant-20261113-131505
       upgradeScreenLevel:
         status: observed
         value: 4
         sources:
-          - kowappine-v2-up1
-      conditions: 通常詳細Lv.4の表示値（ON）。外部補正の影響は未確認。
+          - changed-variant-20261113-131508
+          - changed-variant-20261113-131512
+          - changed-variant-20261113-131517
+      conditions: 調整後の通常バリアント詳細Lv.4（ON）。外部補正の影響は未確認。
       stars:
         - star: 1
           stats:
@@ -519,99 +523,99 @@ variants:
               status: observed
               value: 5
               sources:
-                - kowappine-v2-star1
+                - changed-variant-20261113-131724
             interval:
               status: observed
               value: 2
               sources:
-                - kowappine-v2-star1
+                - changed-variant-20261113-131724
             target:
               status: observed
               value: 最前列
               sources:
-                - kowappine-v2-star1
+                - changed-variant-20261113-131724
           ability:
             status: observed
             value:
-              text: 自身が星アップすると、攻撃力+14%
-              keywords: []
+              text: 自身が星アップすると、攻撃力+14%（最大50まで）
+              keywords: &a1 []
             sources:
-              - kowappine-v2-star1
+              - changed-variant-20261113-131724
         - star: 2
           stats:
             attack:
               status: observed
               value: 5
               sources:
-                - kowappine-v2-star2
+                - changed-variant-20261113-131501
             interval:
               status: observed
               value: 2
               sources:
-                - kowappine-v2-star2
+                - changed-variant-20261113-131501
             target:
               status: observed
               value: 最前列
               sources:
-                - kowappine-v2-star2
+                - changed-variant-20261113-131501
           ability:
             status: observed
             value:
-              text: 自身が星アップすると、攻撃力+14%
-              keywords: []
+              text: 自身が星アップすると、攻撃力+14%（最大50まで）
+              keywords: *a1
             sources:
-              - kowappine-v2-star2
+              - changed-variant-20261113-131501
         - star: 3
           stats:
             attack:
               status: observed
               value: 5
               sources:
-                - kowappine-v2-star3
+                - changed-variant-20261113-131505
             interval:
               status: observed
               value: 2
               sources:
-                - kowappine-v2-star3
+                - changed-variant-20261113-131505
             target:
               status: observed
               value: 最前列
               sources:
-                - kowappine-v2-star3
+                - changed-variant-20261113-131505
           ability:
             status: observed
             value:
-              text: 自身が星アップすると、攻撃力+14%
-              keywords: []
+              text: 自身が星アップすると、攻撃力+14%（最大50まで）
+              keywords: *a1
             sources:
-              - kowappine-v2-star3
+              - changed-variant-20261113-131505
       initial:
         attack:
           status: observed
           value: 5
           sources:
-            - kowappine-v2-star1
-            - kowappine-v2-star2
-            - kowappine-v2-star3
+            - changed-variant-20261113-131724
+            - changed-variant-20261113-131501
+            - changed-variant-20261113-131505
         abilities:
           - status: observed
             value:
-              text: 自身が星アップすると、攻撃力+14%
-              keywords: []
+              text: 自身が星アップすると、攻撃力+14%（最大50まで）
+              keywords: &a1 []
             sources:
-              - kowappine-v2-star1
+              - changed-variant-20261113-131724
           - status: observed
             value:
-              text: 自身が星アップすると、攻撃力+14%
-              keywords: []
+              text: 自身が星アップすると、攻撃力+14%（最大50まで）
+              keywords: *a1
             sources:
-              - kowappine-v2-star2
+              - changed-variant-20261113-131501
           - status: observed
             value:
-              text: 自身が星アップすると、攻撃力+14%
-              keywords: []
+              text: 自身が星アップすると、攻撃力+14%（最大50まで）
+              keywords: *a1
             sources:
-              - kowappine-v2-star3
+              - changed-variant-20261113-131505
       bonuses:
         - level: 5
           effect:
@@ -622,7 +626,7 @@ variants:
               value: 1
               unit: points
             sources:
-              - kowappine-v2-up1
+              - changed-variant-20261113-131508
         - level: 6
           effect:
             status: observed
@@ -632,17 +636,17 @@ variants:
               value: 1
               unit: points
             sources:
-              - kowappine-v2-up1
+              - changed-variant-20261113-131508
         - level: 7
           effect:
             status: observed
             value:
-              text: 星アップによる攻撃力ボーナスが16%に上昇する
-              operation: ability_set
-              value: 16
-              unit: percent
+              text: 攻撃力ボーナスが16%に上昇する（最大60まで）
+              operation: text
+              value: null
+              unit: none
             sources:
-              - kowappine-v2-up1
+              - changed-variant-20261113-131508
         - level: 8
           effect:
             status: observed
@@ -652,7 +656,7 @@ variants:
               value: 2
               unit: points
             sources:
-              - kowappine-v2-up2
+              - changed-variant-20261113-131512
         - level: 9
           effect:
             status: observed
@@ -662,51 +666,50 @@ variants:
               value: 2
               unit: points
             sources:
-              - kowappine-v2-up2
+              - changed-variant-20261113-131512
         - level: 10
           effect:
             status: observed
             value:
-              text: 星アップによる攻撃力ボーナスが18%に上昇する
-              operation: ability_set
-              value: 18
-              unit: percent
+              text: 攻撃力ボーナスが18%に上昇する（最大70まで）
+              operation: text
+              value: null
+              unit: none
             sources:
-              - kowappine-v2-up2
+              - changed-variant-20261113-131517
         - level: 11
           effect:
             status: observed
             value:
-              text: 星アップによる攻撃力ボーナスが20%に上昇する
-              operation: ability_set
-              value: 20
-              unit: percent
+              text: 攻撃力ボーナスが20%に上昇する（最大80まで）
+              operation: text
+              value: null
+              unit: none
             sources:
-              - kowappine-v2-up3
+              - changed-variant-20261113-131517
         - level: 12
           effect:
             status: observed
             value:
-              text: 星アップによる攻撃力ボーナスが22%に上昇する
-              operation: ability_set
-              value: 22
-              unit: percent
+              text: 攻撃力ボーナスが22%に上昇する（最大90まで）
+              operation: text
+              value: null
+              unit: none
             sources:
-              - kowappine-v2-up3
+              - changed-variant-20261113-131517
       bonusCoverage:
         status: observed
         value:
           from: 5
           through: 12
         sources:
-          - kowappine-v2-up1
-          - kowappine-v2-up2
-          - kowappine-v2-up3
+          - changed-variant-20261113-131508
+          - changed-variant-20261113-131512
+          - changed-variant-20261113-131517
       acquisition:
         status: observed
         value: 「バリアント募集」で一定確率で獲得
         sources:
-          - kowappine-v2-star1
-          - kowappine-v2-star2
-          - kowappine-v2-star3
-      pendingUpdate: 2026-10-27-trick-or-bleed
+          - changed-variant-20261113-131724
+          - changed-variant-20261113-131501
+          - changed-variant-20261113-131505

@@ -5349,3 +5349,850 @@ update-20261027-112331:
   description: 「トリック・オア・ブリード」シーズン告知：バリアント調整末尾と告知の結び。2026-10-27確認。
   mode: unknown
   screen: update-notice
+
+blessing-period-user-20261113:
+  kind: user
+  description: 2026-11-13ユーザー確認。カボチャキングとミスター・ヒスの基本形の星界の祝福は星・Lv共通。適用期間は2026-10-27 15:30～2026-11-24 11:30（日本時間）。
+detail-20261113-130200:
+  kind: screenshot
+  description: カボチャキング 基本形・通常詳細Lv.7・星1。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+detail-20261113-130204:
+  kind: screenshot
+  description: カボチャキング 基本形・通常詳細Lv.7・星2。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+detail-20261113-130208:
+  kind: screenshot
+  description: カボチャキング 基本形・通常詳細Lv.7・星3。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+detail-20261113-130214:
+  kind: screenshot
+  description: カボチャキング 通常育成・現在Lv.7（1枚目）。
+  mode: standard
+detail-20261113-130220:
+  kind: screenshot
+  description: カボチャキング 通常育成・現在Lv.7（2枚目）。
+  mode: standard
+detail-20261113-131834:
+  kind: screenshot
+  description: カボチャキング 基本形の星界の祝福が表示された通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+detail-20261113-130238:
+  kind: screenshot
+  description: ミスター・ヒス 基本形・通常詳細Lv.7・星1。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+detail-20261113-130241:
+  kind: screenshot
+  description: ミスター・ヒス 基本形・通常詳細Lv.7・星2。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+detail-20261113-130244:
+  kind: screenshot
+  description: ミスター・ヒス 基本形・通常詳細Lv.7・星3。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+detail-20261113-130249:
+  kind: screenshot
+  description: ミスター・ヒス 通常育成・現在Lv.7（1枚目）。
+  mode: standard
+detail-20261113-130254:
+  kind: screenshot
+  description: ミスター・ヒス 通常育成・現在Lv.7（2枚目）。
+  mode: standard
+detail-20261113-131907:
+  kind: screenshot
+  description: ミスター・ヒス 基本形の星界の祝福が表示された通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+detail-20261113-130321:
+  kind: screenshot
+  description: バンブーアーチャー 基本形・通常詳細Lv.1・星1。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+detail-20261113-130324:
+  kind: screenshot
+  description: バンブーアーチャー 基本形・通常詳細Lv.1・星2。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+detail-20261113-130327:
+  kind: screenshot
+  description: バンブーアーチャー 基本形・通常詳細Lv.1・星3。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+detail-20261113-130330:
+  kind: screenshot
+  description: バンブーアーチャー 通常育成・現在Lv.1（1枚目）。
+  mode: standard
+detail-20261113-130335:
+  kind: screenshot
+  description: バンブーアーチャー 通常育成・現在Lv.1（2枚目）。
+  mode: standard
+detail-20261113-130339:
+  kind: screenshot
+  description: バンブーアーチャー 通常育成・現在Lv.1（3枚目）。
+  mode: standard
+detail-20261113-130344:
+  kind: screenshot
+  description: バンブーアーチャー 通常育成・現在Lv.1（4枚目）。
+  mode: standard
+detail-20261113-130357:
+  kind: screenshot
+  description: リーフカッター 基本形・通常詳細Lv.4・星1。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+detail-20261113-130401:
+  kind: screenshot
+  description: リーフカッター 基本形・通常詳細Lv.4・星2。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+detail-20261113-130404:
+  kind: screenshot
+  description: リーフカッター 基本形・通常詳細Lv.4・星3。バリアント欄に切替表示なし。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+detail-20261113-130407:
+  kind: screenshot
+  description: リーフカッター 通常育成・現在Lv.4（1枚目）。
+  mode: standard
+detail-20261113-130411:
+  kind: screenshot
+  description: リーフカッター 通常育成・現在Lv.4（2枚目）。
+  mode: standard
+detail-20261113-130416:
+  kind: screenshot
+  description: リーフカッター 通常育成・現在Lv.4（3枚目）。
+  mode: standard
+
+new-variant-20261113-130436:
+  kind: screenshot
+  description: カラカボチャⅠ・通常詳細Lv.4・星1、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+new-variant-20261113-130439:
+  kind: screenshot
+  description: カラカボチャⅠ・通常詳細Lv.4・星2、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+new-variant-20261113-130442:
+  kind: screenshot
+  description: カラカボチャⅠ・通常詳細Lv.4・星3、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+new-variant-20261113-130445:
+  kind: screenshot
+  description: カラカボチャⅠ・育成画面、現在Lv.4。
+  mode: standard
+new-variant-20261113-130452:
+  kind: screenshot
+  description: カラカボチャⅠ・育成画面、現在Lv.4。
+  mode: standard
+new-variant-20261113-130456:
+  kind: screenshot
+  description: カラカボチャⅠ・育成画面、現在Lv.4。
+  mode: standard
+new-variant-20261113-130530:
+  kind: screenshot
+  description: カボチャナイトⅠ・通常詳細Lv.7・星1、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+new-variant-20261113-130533:
+  kind: screenshot
+  description: カボチャナイトⅠ・通常詳細Lv.7・星2、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+new-variant-20261113-130536:
+  kind: screenshot
+  description: カボチャナイトⅠ・通常詳細Lv.7・星3、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+new-variant-20261113-130539:
+  kind: screenshot
+  description: カボチャナイトⅠ・育成画面、現在Lv.7。
+  mode: standard
+new-variant-20261113-130545:
+  kind: screenshot
+  description: カボチャナイトⅠ・育成画面、現在Lv.7。
+  mode: standard
+new-variant-20261113-130603:
+  kind: screenshot
+  description: グリーンキーパーⅡ・通常詳細Lv.4・星1、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+new-variant-20261113-130606:
+  kind: screenshot
+  description: グリーンキーパーⅡ・通常詳細Lv.4・星2、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+new-variant-20261113-130610:
+  kind: screenshot
+  description: グリーンキーパーⅡ・通常詳細Lv.4・星3、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+new-variant-20261113-130614:
+  kind: screenshot
+  description: グリーンキーパーⅡ・育成画面、現在Lv.4。
+  mode: standard
+new-variant-20261113-130619:
+  kind: screenshot
+  description: グリーンキーパーⅡ・育成画面、現在Lv.4。
+  mode: standard
+new-variant-20261113-130623:
+  kind: screenshot
+  description: グリーンキーパーⅡ・育成画面、現在Lv.4。
+  mode: standard
+new-variant-20261113-130636:
+  kind: screenshot
+  description: テレ・リーフィーⅠ・通常詳細Lv.4・星1、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+new-variant-20261113-130639:
+  kind: screenshot
+  description: テレ・リーフィーⅠ・通常詳細Lv.4・星2、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+new-variant-20261113-130642:
+  kind: screenshot
+  description: テレ・リーフィーⅠ・通常詳細Lv.4・星3、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+new-variant-20261113-130645:
+  kind: screenshot
+  description: テレ・リーフィーⅠ・育成画面、現在Lv.4。
+  mode: standard
+new-variant-20261113-130650:
+  kind: screenshot
+  description: テレ・リーフィーⅠ・育成画面、現在Lv.4。
+  mode: standard
+new-variant-20261113-130657:
+  kind: screenshot
+  description: テレ・リーフィーⅠ・育成画面、現在Lv.4。
+  mode: standard
+
+vampire-duke-badge-detail-20261113:
+  kind: screenshot
+  description: ヴァンパイア公爵：レジェンドバッジの詳細Lv.1、能力と入手方法
+  mode: standard
+  screen: badge-detail
+vampire-duke-badge-levels-2-3-20261113:
+  kind: screenshot
+  description: ヴァンパイア公爵：育成の現在Lv.1、Lv.2・3の効果
+  mode: standard
+  screen: badge-detail
+vampire-duke-badge-levels-4-5-20261113:
+  kind: screenshot
+  description: ヴァンパイア公爵：育成の現在Lv.1、Lv.4・5の効果
+  mode: standard
+  screen: badge-detail
+vampire-duke-badge-charm-detail-20261113:
+  kind: screenshot
+  description: ヴァンパイア公爵：チャームⅠの詳細と解放時の能力
+  mode: standard
+  screen: badge-detail
+
+changed-minion-20261113-130906:
+  kind: screenshot
+  description: タンブルローラー 基本形・通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+changed-minion-20261113-130910:
+  kind: screenshot
+  description: タンブルローラー 基本形・通常詳細Lv.7・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+changed-minion-20261113-130913:
+  kind: screenshot
+  description: タンブルローラー 基本形・通常詳細Lv.7・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+changed-minion-20261113-130917:
+  kind: screenshot
+  description: タンブルローラー 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-130923:
+  kind: screenshot
+  description: タンブルローラー 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-130937:
+  kind: screenshot
+  description: キャベツベーカー 基本形・通常詳細Lv.6・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+changed-minion-20261113-130940:
+  kind: screenshot
+  description: キャベツベーカー 基本形・通常詳細Lv.6・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+changed-minion-20261113-130943:
+  kind: screenshot
+  description: キャベツベーカー 基本形・通常詳細Lv.6・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+changed-minion-20261113-130948:
+  kind: screenshot
+  description: キャベツベーカー 基本形・通常育成・現在Lv.6。
+  mode: standard
+changed-minion-20261113-130953:
+  kind: screenshot
+  description: キャベツベーカー 基本形・通常育成・現在Lv.6。
+  mode: standard
+changed-minion-20261113-130957:
+  kind: screenshot
+  description: キャベツベーカー 基本形・通常育成・現在Lv.6。
+  mode: standard
+changed-minion-20261113-131021:
+  kind: screenshot
+  description: ルミナスツリー 基本形・通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+changed-minion-20261113-131023:
+  kind: screenshot
+  description: ルミナスツリー 基本形・通常詳細Lv.7・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+changed-minion-20261113-131026:
+  kind: screenshot
+  description: ルミナスツリー 基本形・通常詳細Lv.7・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+changed-minion-20261113-131031:
+  kind: screenshot
+  description: ルミナスツリー 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131035:
+  kind: screenshot
+  description: ルミナスツリー 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131049:
+  kind: screenshot
+  description: ホオズキポリス 基本形・通常詳細Lv.4・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+changed-minion-20261113-131054:
+  kind: screenshot
+  description: ホオズキポリス 基本形・通常詳細Lv.4・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+changed-minion-20261113-131057:
+  kind: screenshot
+  description: ホオズキポリス 基本形・通常詳細Lv.4・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+changed-minion-20261113-131101:
+  kind: screenshot
+  description: ホオズキポリス 基本形・通常育成・現在Lv.4。
+  mode: standard
+changed-minion-20261113-131105:
+  kind: screenshot
+  description: ホオズキポリス 基本形・通常育成・現在Lv.4。
+  mode: standard
+changed-minion-20261113-131110:
+  kind: screenshot
+  description: ホオズキポリス 基本形・通常育成・現在Lv.4。
+  mode: standard
+changed-minion-20261113-131123:
+  kind: screenshot
+  description: ブラックローズナイト 基本形・通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+changed-minion-20261113-131127:
+  kind: screenshot
+  description: ブラックローズナイト 基本形・通常詳細Lv.7・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+changed-minion-20261113-131130:
+  kind: screenshot
+  description: ブラックローズナイト 基本形・通常詳細Lv.7・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+changed-minion-20261113-131136:
+  kind: screenshot
+  description: ブラックローズナイト 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131140:
+  kind: screenshot
+  description: ブラックローズナイト 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131154:
+  kind: screenshot
+  description: ハクサイ衛兵 基本形・通常詳細Lv.4・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+changed-minion-20261113-131156:
+  kind: screenshot
+  description: ハクサイ衛兵 基本形・通常詳細Lv.4・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+changed-minion-20261113-131200:
+  kind: screenshot
+  description: ハクサイ衛兵 基本形・通常詳細Lv.4・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+changed-minion-20261113-131204:
+  kind: screenshot
+  description: ハクサイ衛兵 基本形・通常育成・現在Lv.4。
+  mode: standard
+changed-minion-20261113-131209:
+  kind: screenshot
+  description: ハクサイ衛兵 基本形・通常育成・現在Lv.4。
+  mode: standard
+changed-minion-20261113-131213:
+  kind: screenshot
+  description: ハクサイ衛兵 基本形・通常育成・現在Lv.4。
+  mode: standard
+changed-minion-20261113-131247:
+  kind: screenshot
+  description: マンゴスチン獣使い 基本形・通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+changed-minion-20261113-131250:
+  kind: screenshot
+  description: マンゴスチン獣使い 基本形・通常詳細Lv.7・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+changed-minion-20261113-131253:
+  kind: screenshot
+  description: マンゴスチン獣使い 基本形・通常詳細Lv.7・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+changed-minion-20261113-131256:
+  kind: screenshot
+  description: マンゴスチン獣使い 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131301:
+  kind: screenshot
+  description: マンゴスチン獣使い 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131317:
+  kind: screenshot
+  description: ダンデライオン 基本形・通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+changed-minion-20261113-131320:
+  kind: screenshot
+  description: ダンデライオン 基本形・通常詳細Lv.7・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+changed-minion-20261113-131322:
+  kind: screenshot
+  description: ダンデライオン 基本形・通常詳細Lv.7・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+changed-minion-20261113-131326:
+  kind: screenshot
+  description: ダンデライオン 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131330:
+  kind: screenshot
+  description: ダンデライオン 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131345:
+  kind: screenshot
+  description: ゴールドイーター 基本形・通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+changed-minion-20261113-131348:
+  kind: screenshot
+  description: ゴールドイーター 基本形・通常詳細Lv.7・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+changed-minion-20261113-131351:
+  kind: screenshot
+  description: ゴールドイーター 基本形・通常詳細Lv.7・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+changed-minion-20261113-131355:
+  kind: screenshot
+  description: ゴールドイーター 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131400:
+  kind: screenshot
+  description: ゴールドイーター 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131420:
+  kind: screenshot
+  description: トゲメロン 基本形・通常詳細Lv.7・星1。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: absent
+changed-minion-20261113-131425:
+  kind: screenshot
+  description: トゲメロン 基本形・通常詳細Lv.7・星2。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: absent
+changed-minion-20261113-131428:
+  kind: screenshot
+  description: トゲメロン 基本形・通常詳細Lv.7・星3。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: absent
+changed-minion-20261113-131432:
+  kind: screenshot
+  description: トゲメロン 基本形・通常育成・現在Lv.7。
+  mode: standard
+changed-minion-20261113-131438:
+  kind: screenshot
+  description: トゲメロン 基本形・通常育成・現在Lv.7。
+  mode: standard
+
+cabbage-baker-lv4-user-20261113:
+  kind: user
+  description: キャベツベーカーの10月27日調整について、全レベル共通の追記と、従来のLv.4能力を維持することを2026-11-13に確認。
+
+cabbage-baker-lv4-attack-user-20261113:
+  kind: user
+  description: キャベツベーカーの10月27日調整で攻撃力に変更がないことを2026-11-13に確認。
+
+changed-variant-20261113-131724:
+  kind: screenshot
+  description: コワッパインⅡ・通常詳細Lv.4・星1、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+changed-variant-20261113-131501:
+  kind: screenshot
+  description: コワッパインⅡ・通常詳細Lv.4・星2、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+changed-variant-20261113-131505:
+  kind: screenshot
+  description: コワッパインⅡ・通常詳細Lv.4・星3、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+changed-variant-20261113-131508:
+  kind: screenshot
+  description: コワッパインⅡ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131512:
+  kind: screenshot
+  description: コワッパインⅡ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131517:
+  kind: screenshot
+  description: コワッパインⅡ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131522:
+  kind: screenshot
+  description: ホオズキポリスⅠ・通常詳細Lv.4・星1、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+changed-variant-20261113-131538:
+  kind: screenshot
+  description: ホオズキポリスⅠ・通常詳細Lv.4・星2、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+changed-variant-20261113-131541:
+  kind: screenshot
+  description: ホオズキポリスⅠ・通常詳細Lv.4・星3、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+changed-variant-20261113-131544:
+  kind: screenshot
+  description: ホオズキポリスⅠ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131548:
+  kind: screenshot
+  description: ホオズキポリスⅠ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131552:
+  kind: screenshot
+  description: ホオズキポリスⅠ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131556:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・通常詳細Lv.4・星1、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+changed-variant-20261113-131615:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・通常詳細Lv.4・星2、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+changed-variant-20261113-131618:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・通常詳細Lv.4・星3、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+changed-variant-20261113-131621:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131624:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131628:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ・育成画面、現在Lv.4。
+  mode: standard
+changed-variant-20261113-131639:
+  kind: screenshot
+  description: タネワーカーⅠ・通常詳細Lv.7・星1、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+changed-variant-20261113-131708:
+  kind: screenshot
+  description: タネワーカーⅠ・通常詳細Lv.7・星2、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+changed-variant-20261113-131711:
+  kind: screenshot
+  description: タネワーカーⅠ・通常詳細Lv.7・星3、バリアント選択中。
+  mode: standard
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+changed-variant-20261113-131714:
+  kind: screenshot
+  description: タネワーカーⅠ・育成画面、現在Lv.7。
+  mode: standard
+changed-variant-20261113-131719:
+  kind: screenshot
+  description: タネワーカーⅠ・育成画面、現在Lv.7。
+  mode: standard
+
+blessing-schedule-user-20261113:
+  kind: user
+  description: 2026-11-13ユーザー確認。トリック・オア・ブリードの星界の祝福8体の開始日時と共通終了日時（日本時間）。
+blessing-20261113-131834:
+  kind: screenshot
+  description: ミスター・ヒス 基本形・通常詳細の星界の祝福。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+blessing-20261113-132021:
+  kind: screenshot
+  description: カボチャキング 基本形・通常詳細の星界の祝福。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+blessing-20261113-131943:
+  kind: screenshot
+  description: ザクロブラスター 基本形・通常詳細の星界の祝福。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+blessing-20261113-131907:
+  kind: screenshot
+  description: ウィキッドミラー 基本形・通常詳細の星界の祝福。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+blessing-20261113-131921:
+  kind: screenshot
+  description: ニンジンボンバー 基本形・通常詳細の星界の祝福。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+blessing-20261113-131934:
+  kind: screenshot
+  description: ホオズキポリス 基本形・通常詳細の星界の祝福。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+blessing-20261113-131931:
+  kind: screenshot
+  description: ニンジンボンバー 基本形・通常詳細のキーワード説明。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+
+rumble-20261113-161009:
+  kind: screenshot
+  description: 雲デッキのカードプール一覧
+  mode: rumble-chess
+  screen: pool-list
+rumble-20261113-161014:
+  kind: screenshot
+  description: 月デッキのカードプール一覧
+  mode: rumble-chess
+  screen: pool-list
+rumble-20261113-161017:
+  kind: screenshot
+  description: 太陽デッキのカードプール一覧
+  mode: rumble-chess
+  screen: pool-list
+rumble-20261113-161021:
+  kind: screenshot
+  description: 雷デッキのカードプール一覧
+  mode: rumble-chess
+  screen: pool-list
+rumble-20261113-161026:
+  kind: screenshot
+  description: 雫デッキのカードプール一覧
+  mode: rumble-chess
+  screen: pool-list
+rumble-20261113-161030:
+  kind: screenshot
+  description: 星デッキのカードプール一覧
+  mode: rumble-chess
+  screen: pool-list
+rumble-20261113-162111:
+  kind: screenshot
+  description: 雫の絆の効果一覧
+  mode: rumble-chess
+  screen: bond-description
+rumble-20261113-162031:
+  kind: screenshot
+  description: 星の絆の効果一覧
+  mode: rumble-chess
+  screen: bond-description
+rumble-20261113-161748:
+  kind: screenshot
+  description: ニンジン隊長のランブルチェス能力
+  mode: rumble-chess
+  screen: captain-detail
+rumble-20261113-161759:
+  kind: screenshot
+  description: 分銅隊長のランブルチェス能力
+  mode: rumble-chess
+  screen: captain-detail
+rumble-20261113-161809:
+  kind: screenshot
+  description: 大食い隊長のランブルチェス能力
+  mode: rumble-chess
+  screen: captain-detail
+rumble-20261113-161817:
+  kind: screenshot
+  description: ネビュラ隊長のランブルチェス能力
+  mode: rumble-chess
+  screen: captain-detail
+
+rumble-star-bond-alias-user-20261113:
+  kind: user
+  description: 2026-11-13ユーザー確認。10月27日告知の「十字の絆」と実機の「星の絆」は同じ絆。

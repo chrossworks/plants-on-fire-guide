@@ -66,19 +66,22 @@ test('隊長本体とバッジを混同せず、バッジとチャームの旧�
  assert.match(updateIssues(updates,[...history,h],minions,captains).join(),/旧性能履歴の重複/);
 });
 
- test('10/27告知は実機未確認を維持し、旧性能と通常入手追加を分離する',()=>{
+ test('10/27告知の確認状況と調整前の履歴を保持する',()=>{
  const us=loadUpdates(),u=us.find(x=>x.id==='2026-10-27-trick-or-bleed'),ms=loadMinions(),hs=loadHistory();
  assert.equal(u.changes.length,38);assert.equal(u.changes.filter(c=>c.type==='addition').length,9);
- assert.ok(u.changes.every(c=>c.details.status==='unknown'));
+ const verified = new Set(['rumble-captains', 'vampire-duke', 'pumpkin-king', 'mister-hiss', 'bamboo-archer', 'leaf-cutter', 'pumpkin-king-blessing', 'mister-hiss-blessing', 'kara-pumpkin-variant-1', 'pumpkin-knight-variant-1', 'greenkeeper-variant-2', 'tele-leafy-variant-1']);
+ assert.ok(u.changes.every(c => c.details.status === (['cabbage-baker', 'weekly-blessings', 'rumble-bonds'].includes(c.id) ? 'manual' : verified.has(c.id) || (['minion', 'variant'].includes(c.target.kind) && c.type !== 'addition') ? 'observed' : 'unknown')));
  for(const c of u.changes.filter(c=>['minion','variant'].includes(c.target.kind)&&c.type!=='addition')){
   const m=ms.find(m=>m.id===c.target.minionId),f=c.target.formId?m.variants.items.find(f=>f.id===c.target.formId):m.base;
-  assert.equal(f.pendingUpdate,u.id);
+  assert.equal(f.pendingUpdate,undefined);
   const h=hs.find(h=>h.updateId===u.id&&h.changeId===c.id); assert.ok(h); assert.equal(h.period.status,'unknown');
   const old=c.target.formId?h.snapshot.variants.items.find(f=>f.id===c.target.formId):h.snapshot.base;
-  assert.deepEqual(f.stars,old.stars);assert.deepEqual(f.initial,old.initial);
+  const sourcePrefix = c.target.kind === 'variant' ? 'changed-variant-20261113-' : 'changed-minion-20261113-';
+  assert.ok(f.stars.every(s=>s.ability.sources.every(id=>id.startsWith(sourcePrefix))));
+  assert.notDeepEqual(f.stars,old.stars);
  }
  const bamboo=ms.find(m=>m.id==='bamboo-archer');
- assert.equal(bamboo.introduced.value,'2026-08-27');assert.equal(bamboo.base.pendingUpdate,u.id);
+ assert.equal(bamboo.introduced.value,'2026-08-27');assert.equal(bamboo.base.pendingUpdate,undefined);
  assert.equal(u.changes.find(c=>c.id==='bamboo-archer').introduced.status,'unknown');
  assert.equal(hs.filter(h=>h.updateId===u.id).length,16);
  });

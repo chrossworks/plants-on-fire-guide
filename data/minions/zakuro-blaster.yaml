@@ -5,7 +5,7 @@ reading: ざくろぶらすたー
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: legend
@@ -20,7 +20,7 @@ cost:
     - zakuro-blaster-base-star1
     - zakuro-blaster-base-star2
     - zakuro-blaster-base-star3
-updated: 2026-10-15
+updated: 2026-11-13
 icon: zakuro-blaster-icon
 portrait: zakuro-blaster-portrait
 evaluation:
@@ -222,6 +222,35 @@ base:
       - zakuro-blaster-base-star1
       - zakuro-blaster-base-star2
       - zakuro-blaster-base-star3
+  seasonalBlessings:
+    - id: trick-or-bleed
+      season: トリック・オア・ブリード
+      effect:
+        status: observed
+        value: ザクロブラスターの魔法チャージ速度が、獲得する攻撃速度ボーナスの50%分上昇する
+        sources:
+          - blessing-20261113-131943
+      period:
+        status: manual
+        value:
+          startsAt: 2026-11-03T11:30:00+09:00
+          endsAt: 2026-11-24T11:30:00+09:00
+        sources:
+          - blessing-schedule-user-20261113
+      scope:
+        status: manual
+        value: 基本形が対象。効果はレベルと星ランクに共通。
+        sources:
+          - blessing-period-user-20261113
+          - blessing-schedule-user-20261113
+      excludedModes:
+        status: observed
+        value:
+          - ランブルチェス
+          - フレンドマッチフェアモード
+          - エクストリームチャレンジ
+        sources:
+          - update-20261027-112246
 variants:
   status: absent
   note: 通常詳細画面でバリアント表示がないことを確認済みです。

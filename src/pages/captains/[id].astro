@@ -1,0 +1,42 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Fact from '../../components/Fact.astro';
+import CaptainBadgePerformance from '../../components/CaptainBadgePerformance.astro';
+import { loadCaptainBadges } from '../../../lib/captain-badges.mjs';
+import { loadCaptains } from '../../../lib/updates.mjs';
+import { rarityLabels } from '../../../lib/schema.mjs';
+import { assets, imageUrl, updates, url } from '../../lib/site';
+
+export function getStaticPaths() {
+  const badges = loadCaptainBadges();
+  return loadCaptains().filter(captain => captain.id === 'vampire-duke').flatMap(captain => {
+    const badge = badges.find(entry => entry.id === captain.id);
+    return badge ? [{ params: { id: captain.id }, props: { captain, badge } }] : [];
+  });
+}
+
+const { captain, badge } = Astro.props;
+const icon = badge.icons.plain.value;
+const related = updates.flatMap(update => update.changes
+  .filter(change => change.target.kind === 'captain' && change.target.id === captain.id)
+  .map(change => ({ update, change })));
+---
+<Layout title={captain.name.value} description={captain.name.value + 'のバッジ、育成効果、チャームを紹介します。'}>
+  <a class="back" href={url('updates/')}>← アップデート履歴</a>
+  <h1><Fact fact={captain.name}/></h1>
+  {icon && <img src={imageUrl(icon)} alt={assets[icon].alt} width="160" height="160"/>}
+  {badge.rarity.value && <p>バッジのレア度 {rarityLabels[badge.rarity.value]}</p>}
+  <p>実装日 <Fact fact={captain.introduced}/></p>
+  <section>
+    <h2>隊長バッジとチャーム</h2>
+    <CaptainBadgePerformance badge={badge} headingLevel="h3" showCharmIcons/>
+  </section>
+  <section>
+    <h2>隊長本体の効果</h2>
+    <p><Fact fact={captain.effect}/></p>
+  </section>
+  {related.length > 0 && <section>
+    <h2>関連アップデート</h2>
+    <ul>{related.map(({ update, change }) => <li><a href={url('updates/'+update.id+'/#'+change.id)}>{update.date.value} {update.title.value}</a></li>)}</ul>
+  </section>}
+</Layout>

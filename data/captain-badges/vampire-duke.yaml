@@ -1,0 +1,116 @@
+schemaVersion: 1
+id: vampire-duke
+updated: 2026-11-13
+name:
+  status: observed
+  value: ヴァンパイア公爵バッジ
+  sources:
+    - vampire-duke-badge-detail-20261113
+rarity:
+  status: observed
+  value: legend
+  sources:
+    - vampire-duke-badge-detail-20261113
+observedLevel:
+  status: observed
+  value: 1
+  sources:
+    - vampire-duke-badge-detail-20261113
+effect:
+  status: observed
+  value: マッチ開始時：隊長の最大HP+50%（現在HPは変化しない）
+  sources:
+    - vampire-duke-badge-detail-20261113
+acquisition:
+  status: observed
+  value: シーズン隊長として登場時、バッジ金貨との交換で入手可能
+  sources:
+    - vampire-duke-badge-detail-20261113
+icons:
+  rarityBackground:
+    status: observed
+    value: vampire-duke-badge-rarity-icon
+    sources:
+      - vampire-duke-badge-detail-20261113
+  plain:
+    status: observed
+    value: vampire-duke-badge-plain-icon
+    sources:
+      - vampire-duke-badge-levels-2-3-20261113
+progression:
+  observedLevel:
+    status: observed
+    value: 1
+    sources:
+      - vampire-duke-badge-levels-2-3-20261113
+      - vampire-duke-badge-levels-4-5-20261113
+  maxLevel:
+    status: manual
+    value: 5
+    sources:
+      - captain-badge-user-20260928
+  costs:
+    status: unknown
+    reason: 育成費用は未確認。
+  coverage:
+    status: observed
+    value:
+      from: 2
+      through: 5
+    sources:
+      - vampire-duke-badge-levels-2-3-20261113
+      - vampire-duke-badge-levels-4-5-20261113
+  levels:
+    - level: 2
+      effect:
+        status: observed
+        value: マッチ開始時：隊長の最大HP+75%（現在HPは変化しない）
+        sources:
+          - vampire-duke-badge-levels-2-3-20261113
+    - level: 3
+      effect:
+        status: observed
+        value: 「チャーム解放」マッチ開始時：隊長の最大HP+50%（現在HPは変化しない）
+        sources:
+          - vampire-duke-badge-levels-2-3-20261113
+    - level: 4
+      effect:
+        status: observed
+        value: マッチ開始時：隊長の最大HP+100%（現在HPは変化しない）
+        sources:
+          - vampire-duke-badge-levels-4-5-20261113
+    - level: 5
+      effect:
+        status: observed
+        value: 「チャームアップグレード」マッチ開始時：隊長の最大HP+80%（現在HPは変化しない）
+        sources:
+          - vampire-duke-badge-levels-4-5-20261113
+charms:
+  - id: vampire-duke-1
+    name:
+      status: observed
+      value: ヴァンパイア公爵チャームⅠ
+      sources:
+        - vampire-duke-badge-charm-detail-20261113
+    rarity:
+      status: unknown
+      reason: チャームのレア度は未確認。
+    effect:
+      status: observed
+      value: マッチ開始時：隊長の最大HP+50%（現在HPは変化しない）
+      sources:
+        - vampire-duke-badge-charm-detail-20261113
+        - vampire-duke-badge-levels-2-3-20261113
+    icon:
+      status: observed
+      value: vampire-duke-badge-charm-icon
+      sources:
+        - vampire-duke-badge-levels-2-3-20261113
+    upgradedEffect:
+      status: observed
+      value: マッチ開始時：隊長の最大HP+80%（現在HPは変化しない）
+      sources:
+        - vampire-duke-badge-levels-4-5-20261113
+evaluation:
+  status: unknown
+  reason: 未評価。

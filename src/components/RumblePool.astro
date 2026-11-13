@@ -4,7 +4,7 @@ import { minions, url } from '../lib/site';
 const { pool }=Astro.props;
 const linkFor=name=>{
  const cardId=pool.memberIds[name],ref=pool.memberForms?.[cardId],m=minions.find(m=>m.id===(ref?.minionId||cardId));
- return m?url('minions/'+m.id+'/'+(ref?ref.formId+'/#rumble-chess':'#rumble-chess')):undefined;
+ return m && (!ref || m.variants.items.some(f=>f.id===ref.formId))?url('minions/'+m.id+'/'+(ref?ref.formId+'/#rumble-chess':'#rumble-chess')):undefined;
 };
 ---
 <div data-no-minion-links>

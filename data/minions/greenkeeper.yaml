@@ -5,7 +5,7 @@ reading: ぐりーんきーぱー
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -252,10 +252,75 @@ base:
       - greenkeeper-base-star2
       - greenkeeper-base-star3
 variants:
-  status: absent
-  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  status: observed
+  note: 通常詳細でバリアントを確認。
   sources:
-    - greenkeeper-base-star1
-    - greenkeeper-base-star2
-    - greenkeeper-base-star3
-  items: []
+    - new-variant-20261113-130603
+  items:
+    [
+      {
+          id: variant-2,
+          name: グリーンキーパーⅡ,
+          image: greenkeeper-variant-2,
+          introduced: { status: observed, value: 2026-10-27, sources: [ update-20261027-112226, update-20261027-112241 ], note: 告知に記載されたアップデート予定日。実施完了は未確認。 },
+          cardRank: { status: observed, value: SS, sources: [ new-variant-20261113-130603, new-variant-20261113-130606, new-variant-20261113-130610 ] },
+          displayLevel: { status: observed, value: 4, sources: [ new-variant-20261113-130603, new-variant-20261113-130606, new-variant-20261113-130610 ] },
+          upgradeScreenLevel: { status: observed, value: 4, sources: [ new-variant-20261113-130614, new-variant-20261113-130619, new-variant-20261113-130623 ] },
+          conditions: 通常バリアント詳細Lv.4（ON）。育成画面の現在Lv.4と個別に確認。外部補正の影響は未確認。,
+          stars:
+            [
+              {
+                  star: 1,
+                  stats: { attack: { status: observed, value: 5, sources: [ new-variant-20261113-130603 ] }, interval: { status: observed, value: 2, sources: [ new-variant-20261113-130603 ] }, target: { status: observed, value: HP最高, sources: [ new-variant-20261113-130603 ] } },
+                  ability:
+                    &a2 {
+                      status: observed,
+                      value:
+                        {
+                          text: 配置：隊長のHPを4回復する
+
+                            購入時発動：グリーンキーパーの購入価格+1,
+                          keywords: &a1 [ placement, purchase-trigger ]
+                        },
+                      sources: [ new-variant-20261113-130603 ]
+                    }
+                },
+              {
+                  star: 2,
+                  stats: { attack: { status: observed, value: 5, sources: [ new-variant-20261113-130606 ] }, interval: { status: observed, value: 2, sources: [ new-variant-20261113-130606 ] }, target: { status: observed, value: HP最高, sources: [ new-variant-20261113-130606 ] } },
+                  ability:
+                    &a3 {
+                      status: observed,
+                      value:
+                        {
+                          text: 配置：隊長のHPを4回復する
+
+                            購入時発動：グリーンキーパーの購入価格+1,
+                          keywords: *a1
+                        },
+                      sources: [ new-variant-20261113-130606 ]
+                    }
+                },
+              {
+                  star: 3,
+                  stats: { attack: { status: observed, value: 5, sources: [ new-variant-20261113-130610 ] }, interval: { status: observed, value: 2, sources: [ new-variant-20261113-130610 ] }, target: { status: observed, value: HP最高, sources: [ new-variant-20261113-130610 ] } },
+                  ability:
+                    &a4 {
+                      status: observed,
+                      value:
+                        {
+                          text: 配置：隊長のHPを4回復する
+
+                            購入時発動：グリーンキーパーの購入価格+1,
+                          keywords: *a1
+                        },
+                      sources: [ new-variant-20261113-130610 ]
+                    }
+                }
+            ],
+          initial: { attack: { status: observed, value: 5, sources: [ new-variant-20261113-130603, new-variant-20261113-130606, new-variant-20261113-130610 ] }, abilities: [ *a2, *a3, *a4 ] },
+          bonuses: [ { level: 5, effect: { status: observed, value: { text: 攻撃力+1, operation: attack_add, value: 1, unit: points }, sources: [ new-variant-20261113-130614 ] } }, { level: 6, effect: { status: observed, value: { text: 攻撃力+1, operation: attack_add, value: 1, unit: points }, sources: [ new-variant-20261113-130614 ] } }, { level: 7, effect: { status: observed, value: { text: 回復するHPが6に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130614 ] } }, { level: 8, effect: { status: observed, value: { text: 攻撃力+2, operation: attack_add, value: 2, unit: points }, sources: [ new-variant-20261113-130619 ] } }, { level: 9, effect: { status: observed, value: { text: 攻撃力+2, operation: attack_add, value: 2, unit: points }, sources: [ new-variant-20261113-130619 ] } }, { level: 10, effect: { status: observed, value: { text: 回復するHPが8に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130619 ] } }, { level: 11, effect: { status: observed, value: { text: 回復するHPが10に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130623 ] } }, { level: 12, effect: { status: observed, value: { text: 回復するHPが12に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130623 ] } } ],
+          bonusCoverage: { status: observed, value: { from: 5, through: 12 }, sources: [ new-variant-20261113-130614, new-variant-20261113-130619, new-variant-20261113-130623 ] },
+          acquisition: { status: observed, value: 「バリアント募集」で一定確率で獲得, sources: [ new-variant-20261113-130603 ] }
+        }
+    ]

@@ -5,7 +5,7 @@ reading: てれりーふぃー
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -260,10 +260,75 @@ base:
       - tele-leafy-base-star2
       - tele-leafy-base-star3
 variants:
-  status: absent
-  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  status: observed
+  note: 通常詳細でバリアントを確認。
   sources:
-    - tele-leafy-base-star1
-    - tele-leafy-base-star2
-    - tele-leafy-base-star3
-  items: []
+    - new-variant-20261113-130636
+  items:
+    [
+      {
+          id: variant-1,
+          name: テレ・リーフィーⅠ,
+          image: tele-leafy-variant-1,
+          introduced: { status: observed, value: 2026-10-27, sources: [ update-20261027-112226, update-20261027-112241 ], note: 告知に記載されたアップデート予定日。実施完了は未確認。 },
+          cardRank: { status: observed, value: SS, sources: [ new-variant-20261113-130636, new-variant-20261113-130639, new-variant-20261113-130642 ] },
+          displayLevel: { status: observed, value: 4, sources: [ new-variant-20261113-130636, new-variant-20261113-130639, new-variant-20261113-130642 ] },
+          upgradeScreenLevel: { status: observed, value: 4, sources: [ new-variant-20261113-130645, new-variant-20261113-130650, new-variant-20261113-130657 ] },
+          conditions: 通常バリアント詳細Lv.4（ON）。育成画面の現在Lv.4と個別に確認。外部補正の影響は未確認。,
+          stars:
+            [
+              {
+                  star: 1,
+                  stats: { attack: { status: observed, value: 9, sources: [ new-variant-20261113-130636 ] }, interval: { status: observed, value: 0, sources: [ new-variant-20261113-130636 ] }, target: { status: observed, value: 攻撃不可, sources: [ new-variant-20261113-130636 ] } },
+                  ability:
+                    &a2 {
+                      status: observed,
+                      value:
+                        {
+                          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット1体を、最大HP50%の状態で敵側に転送し、自身は除外される
+
+                            ボスラウンドの場合は休眠状態になる,
+                          keywords: &a1 [ magic, rush-unit, exclude, dormant ]
+                        },
+                      sources: [ new-variant-20261113-130636 ]
+                    }
+                },
+              {
+                  star: 2,
+                  stats: { attack: { status: observed, value: 9, sources: [ new-variant-20261113-130639 ] }, interval: { status: observed, value: 0, sources: [ new-variant-20261113-130639 ] }, target: { status: observed, value: 攻撃不可, sources: [ new-variant-20261113-130639 ] } },
+                  ability:
+                    &a3 {
+                      status: observed,
+                      value:
+                        {
+                          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット2体を、最大HP50%の状態で敵側に転送し、自身は除外される
+
+                            ボスラウンドの場合は休眠状態になる,
+                          keywords: *a1
+                        },
+                      sources: [ new-variant-20261113-130639 ]
+                    }
+                },
+              {
+                  star: 3,
+                  stats: { attack: { status: observed, value: 9, sources: [ new-variant-20261113-130642 ] }, interval: { status: observed, value: 0, sources: [ new-variant-20261113-130642 ] }, target: { status: observed, value: 攻撃不可, sources: [ new-variant-20261113-130642 ] } },
+                  ability:
+                    &a4 {
+                      status: observed,
+                      value:
+                        {
+                          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット4体を、最大HP50%の状態で敵側に転送し、自身は除外される
+
+                            ボスラウンドの場合は休眠状態になる,
+                          keywords: *a1
+                        },
+                      sources: [ new-variant-20261113-130642 ]
+                    }
+                }
+            ],
+          initial: { attack: { status: observed, value: 9, sources: [ new-variant-20261113-130636, new-variant-20261113-130639, new-variant-20261113-130642 ] }, abilities: [ *a2, *a3, *a4 ] },
+          bonuses: [ { level: 5, effect: { status: observed, value: { text: 攻撃力+2, operation: attack_add, value: 2, unit: points }, sources: [ new-variant-20261113-130645 ] } }, { level: 6, effect: { status: observed, value: { text: 攻撃力+2, operation: attack_add, value: 2, unit: points }, sources: [ new-variant-20261113-130645 ] } }, { level: 7, effect: { status: observed, value: { text: 転送されるラッシュユニットのHPが80%に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130645 ] } }, { level: 8, effect: { status: observed, value: { text: 攻撃力+3, operation: attack_add, value: 3, unit: points }, sources: [ new-variant-20261113-130650 ] } }, { level: 9, effect: { status: observed, value: { text: 攻撃力+3, operation: attack_add, value: 3, unit: points }, sources: [ new-variant-20261113-130650 ] } }, { level: 10, effect: { status: observed, value: { text: 転送されるラッシュユニットのHPが120%に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130650 ] } }, { level: 11, effect: { status: observed, value: { text: 転送されるラッシュユニットのHPが150%に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130657 ] } }, { level: 12, effect: { status: observed, value: { text: 転送されるラッシュユニットのHPが180%に上昇する, operation: text, value: null, unit: none }, sources: [ new-variant-20261113-130657 ] } } ],
+          bonusCoverage: { status: observed, value: { from: 5, through: 12 }, sources: [ new-variant-20261113-130645, new-variant-20261113-130650, new-variant-20261113-130657 ] },
+          acquisition: { status: observed, value: 「バリアント募集」で一定確率で獲得, sources: [ new-variant-20261113-130636 ] }
+        }
+    ]

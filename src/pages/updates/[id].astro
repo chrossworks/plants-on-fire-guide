@@ -1,14 +1,18 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Fact from '../../components/Fact.astro';
+import SeasonalBlessings from '../../components/SeasonalBlessings.astro';
 import CaptainBadgePerformance from '../../components/CaptainBadgePerformance.astro';
+import { loadCaptains } from '../../../lib/updates.mjs';
 import { loadCaptainBadges } from '../../../lib/captain-badges.mjs';
 const captainBadges=loadCaptainBadges();
+const captains=loadCaptains();
 import RumblePool from '../../components/RumblePool.astro';
 import FormHistory from '../../components/FormHistory.astro';
 import { updates, history, minions, url, rumble } from '../../lib/site';
 export function getStaticPaths(){return updates.map(update=>({params:{id:update.id},props:{update}}));}
 const {update}=Astro.props;
+const displayedPool=rumble.updateId===update.id?rumble:history.find(h=>h.kind==='rumble-pool'&&h.snapshot.updateId===update.id)?.snapshot;
 const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustment:'調整',event:'イベント',other:'その他'};
 ---
 <Layout title={(update.date.value||'')+' アップデート'} description={update.title.value}>
@@ -18,12 +22,19 @@ const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustme
 <nav aria-label="変更内容の目次"><ul>{update.changes.map(c=><li><a href={'#'+c.id}>{c.target.name}</a>（{labels[c.type]}）</li>)}</ul></nav>
 {update.changes.map(c=>{
  const existing=minions.find(m=>m.id===c.target.minionId);
+ const captainPage=c.target.kind==='captain' && c.target.id==='vampire-duke' && captains.some(x=>x.id===c.target.id) && captainBadges.some(x=>x.id===c.target.id);
  const snapshots=history.filter(h=>h.updateId===update.id&&h.changeId===c.id);
  return <section id={c.id} class="update-change"><p class="tag">{labels[c.type]}</p><h2>{c.target.name}</h2>
  {c.introduced && <p class="muted">実装日：<Fact fact={c.introduced}/></p>}
  <h3>告知内容</h3><div class="announcement"><Fact fact={c.announcement}/></div>
  <p class="muted">{c.details.status==='unknown' ? c.details.reason : c.details.value}</p>
+ {c.blessings?.minionIds.map(id => {
+   const minion = minions.find(m => m.id === id);
+   const blessing = minion?.base.seasonalBlessings?.find(b => b.id === c.blessings.seasonId);
+   return minion && blessing && <div><h3><a href={url('minions/'+id+'/')}>{minion.name}</a></h3><SeasonalBlessings blessings={[blessing]} showDetails /></div>;
+ })}
  {existing && <p><a href={url('minions/'+existing.id+'/'+(c.target.formId?(existing.variants.items.some(f=>f.id===c.target.formId)?c.target.formId+'/':'#'+c.target.formId):''))}>個別ページを見る</a></p>}
+ {captainPage && <p><a href={url('captains/'+c.target.id+'/')}>隊長バッジ・チャームの詳細を見る</a></p>}
  <FormHistory entries={snapshots.filter(h=>h.kind==='minion')}/>
  {snapshots.filter(h=>h.kind==='captain-badge').map(h=>{
   const badge=captainBadges.find(b=>b.id===h.badgeId);
@@ -31,7 +42,8 @@ const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustme
   <details><summary>以前のバッジ・チャーム性能を見る</summary><p class="condition">{h.period.value || h.period.reason}</p><CaptainBadgePerformance badge={h.snapshot}/></details></div>;
  })}
  {snapshots.filter(h=>h.kind==='captain').map(h=><details><summary>以前の隊長能力を見る</summary><p class="condition">{h.period.value || '正確な適用期間は未確認です。'}</p><Fact fact={h.snapshot.effect}/></details>)}
- {c.target.kind==='rumble-pool' && rumble.updateId===update.id && <><h3>調整後のカードプール</h3><p>各絆の効果は変更ありません。以下は6デッキの構成です。共有デッキは未確認で、ここにない形態を非登場とは判定していません。</p><RumblePool pool={rumble}/></>}
+ {c.target.kind==='rumble-pool' && displayedPool && <><h3>調整後のカードプール</h3><p>共有デッキの構成は未確認です。</p><RumblePool pool={displayedPool}/>{displayedPool.captains && <><h3>実機で確認した絆の効果</h3>{displayedPool.decks.filter(d=>d.id==='droplet'||d.id==='star').map(d=><section><h4><Fact fact={d.bond.name}/></h4><ul>{d.bond.tiers.value?.map(t=><li>{t.threshold}ポイント — {t.text}</li>)}</ul></section>)}</>}</>}
+ {c.id==='rumble-captains' && displayedPool?.captains?.map(captain=><section><h3>{captain.name}</h3><p><Fact fact={captain.effect}/></p></section>)}
  {snapshots.filter(h=>h.kind==='rumble-pool').map(h=><details><summary>以前のランブルチェス情報を見る（適用期間未確認）</summary><p class="condition">{h.period.value||h.period.reason}</p>{h.snapshot.decks.map(d=><section><h3><Fact fact={d.name}/></h3><p>{d.members.value?.join('、') || '未確認'}</p><h4><Fact fact={d.bond.name}/></h4>{d.bond.tiers.value ? <ul>{d.bond.tiers.value.map(t=><li>絆ポイント{t.threshold}：{t.text}</li>)}</ul> : <p>効果量は未確認です。</p>}</section>)}</details>)}
  </section>;
 })}

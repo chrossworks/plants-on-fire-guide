@@ -21,7 +21,7 @@ cost:
     - thorn-melon-star1
     - thorn-melon-star2
     - thorn-melon-star3
-updated: 2026-10-27
+updated: 2026-11-13
 icon: thorn-melon-icon
 portrait: thorn-melon-portrait
 evaluation:
@@ -36,16 +36,16 @@ base:
     status: observed
     value: 7
     sources:
-      - thorn-melon-star1
-      - thorn-melon-star2
-      - thorn-melon-star3
+      - changed-minion-20261113-131420
+      - changed-minion-20261113-131425
+      - changed-minion-20261113-131428
   upgradeScreenLevel:
     status: observed
     value: 7
     sources:
-      - thorn-melon-up1
-      - thorn-melon-up2
-  conditions: 通常モード・基本形Lv.7の表示値（ON）。レジェンドの最低レベルと一致。
+      - changed-minion-20261113-131432
+      - changed-minion-20261113-131438
+  conditions: 調整後の通常詳細Lv.7（ON）。外部補正の影響は未確認。
   stars:
     - star: 1
       stats:
@@ -53,174 +53,176 @@ base:
           status: observed
           value: 18
           sources:
-            - thorn-melon-star1
+            - changed-minion-20261113-131420
         interval:
           status: observed
           value: 4
           sources:
-            - thorn-melon-star1
+            - changed-minion-20261113-131420
         target:
           status: observed
           value: 最前列
           sources:
-            - thorn-melon-star1
+            - changed-minion-20261113-131420
       ability:
         status: observed
         value:
-          text: バトル中に味方隊長がダメージを受けると、すべての敵に150%のダメージを与える。ただし、自身の攻撃力-60%
-          keywords: []
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に200%のダメージを与え、自身の攻撃力-45%
+          keywords: &a1 []
         sources:
-          - thorn-melon-star1
+          - changed-minion-20261113-131420
     - star: 2
       stats:
         attack:
           status: observed
           value: 18
           sources:
-            - thorn-melon-star2
+            - changed-minion-20261113-131425
         interval:
           status: observed
           value: 4
           sources:
-            - thorn-melon-star2
+            - changed-minion-20261113-131425
         target:
           status: observed
           value: 最前列
           sources:
-            - thorn-melon-star2
+            - changed-minion-20261113-131425
       ability:
         status: observed
         value:
-          text: バトル中に味方隊長がダメージを受けると、すべての敵に200%のダメージを与える。ただし、自身の攻撃力-60%
-          keywords: []
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に240%のダメージを与え、自身の攻撃力-45%
+          keywords: *a1
         sources:
-          - thorn-melon-star2
+          - changed-minion-20261113-131425
     - star: 3
       stats:
         attack:
           status: observed
           value: 18
           sources:
-            - thorn-melon-star3
+            - changed-minion-20261113-131428
         interval:
           status: observed
           value: 4
           sources:
-            - thorn-melon-star3
+            - changed-minion-20261113-131428
         target:
           status: observed
           value: 最前列
           sources:
-            - thorn-melon-star3
+            - changed-minion-20261113-131428
       ability:
         status: observed
         value:
-          text: バトル中に味方隊長がダメージを受けると、すべての敵に250%のダメージを与える。ただし、自身の攻撃力-60%
-          keywords: []
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に280%のダメージを与え、自身の攻撃力-45%
+          keywords: *a1
         sources:
-          - thorn-melon-star3
+          - changed-minion-20261113-131428
   initial:
     attack:
       status: observed
       value: 18
       sources:
-        - thorn-melon-star1
-        - thorn-melon-star2
-        - thorn-melon-star3
+        - changed-minion-20261113-131420
+        - changed-minion-20261113-131425
+        - changed-minion-20261113-131428
     abilities:
       - status: observed
         value:
-          text: バトル中に味方隊長がダメージを受けると、すべての敵に150%のダメージを与える。ただし、自身の攻撃力-60%
-          keywords: []
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に200%のダメージを与え、自身の攻撃力-45%
+          keywords: &a1 []
         sources:
-          - thorn-melon-star1
+          - changed-minion-20261113-131420
       - status: observed
         value:
-          text: バトル中に味方隊長がダメージを受けると、すべての敵に200%のダメージを与える。ただし、自身の攻撃力-60%
-          keywords: []
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に240%のダメージを与え、自身の攻撃力-45%
+          keywords: *a1
         sources:
-          - thorn-melon-star2
+          - changed-minion-20261113-131425
       - status: observed
         value:
-          text: バトル中に味方隊長がダメージを受けると、すべての敵に250%のダメージを与える。ただし、自身の攻撃力-60%
-          keywords: []
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に280%のダメージを与え、自身の攻撃力-45%
+          keywords: *a1
         sources:
-          - thorn-melon-star3
+          - changed-minion-20261113-131428
   bonuses:
     - level: 8
       effect:
         status: observed
         value:
-          text: 爆発ダメージが180%に上昇する
-          operation: ability_set
-          value: 180
-          unit: percent
-        sources:
-          - thorn-melon-up1
-    - level: 9
-      effect:
-        status: observed
-        value:
-          text: 爆発ダメージが210%に上昇
-          operation: ability_set
-          value: 210
-          unit: percent
-        sources:
-          - thorn-melon-up1
-    - level: 10
-      effect:
-        status: observed
-        value:
-          text: 爆発後に攻撃力-45%
+          text: |-
+            爆発ダメージが240%に上昇する
+            自身の攻撃力が2を下回ることはない
           operation: text
           value: null
           unit: none
         sources:
-          - thorn-melon-up1
-          - thorn-melon-up2
+          - changed-minion-20261113-131432
+    - level: 9
+      effect:
+        status: observed
+        value:
+          text: |-
+            爆発ダメージが280%に上昇する
+            自身の攻撃力が4を下回ることはない
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - changed-minion-20261113-131432
+    - level: 10
+      effect:
+        status: observed
+        value:
+          text: 「能力追加」準備完了：攻撃力+12%
+          operation: text
+          value: null
+          unit: none
+        sources:
+          - changed-minion-20261113-131432
     - level: 11
       effect:
         status: observed
         value:
-          text: 爆発ダメージが250%に上昇する
-          operation: ability_set
-          value: 250
-          unit: percent
+          text: |-
+            爆発ダメージが320%に上昇し、爆発後に攻撃力-40%
+            準備完了：攻撃力+16%
+          operation: text
+          value: null
+          unit: none
         sources:
-          - thorn-melon-up2
+          - changed-minion-20261113-131438
     - level: 12
       effect:
         status: observed
         value:
-          text: 爆発ダメージが300%に上昇
-          operation: ability_set
-          value: 300
-          unit: percent
+          text: |-
+            爆発ダメージが360%に上昇し、爆発後に攻撃力-35%
+            準備完了：攻撃力+20%
+          operation: text
+          value: null
+          unit: none
         sources:
-          - thorn-melon-up2
+          - changed-minion-20261113-131438
   bonusCoverage:
     status: observed
     value:
       from: 8
       through: 12
     sources:
-      - thorn-melon-up1
-      - thorn-melon-up2
+      - changed-minion-20261113-131432
+      - changed-minion-20261113-131438
   acquisition:
     status: observed
-    value: シーズン募集で一定確率で獲得
+    value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
     sources:
-      - thorn-melon-star1
-      - thorn-melon-star2
-      - thorn-melon-star3
+      - changed-minion-20261113-131420
   poolUnlock:
-    status: absent
-    reason: 通常詳細の入手方法欄全体にカードプール解放条件の記載がありません。
+    status: observed
+    value: トロフィー2400
     sources:
-      - thorn-melon-star1
-      - thorn-melon-star2
-      - thorn-melon-star3
-  pendingUpdate: 2026-10-27-trick-or-bleed
+      - changed-minion-20261113-131420
 variants:
   status: absent
   note: 通常詳細画面のバリアント表示領域全体を確認。バリアントの表示はありません。

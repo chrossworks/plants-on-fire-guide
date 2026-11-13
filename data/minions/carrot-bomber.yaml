@@ -5,7 +5,7 @@ reading: にんじんぼんばー
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: rare
@@ -16,7 +16,7 @@ cost:
   value: 5
   sources:
     - carrot-bomber-base-star1
-updated: 2026-10-15
+updated: 2026-11-13
 icon: carrot-bomber-icon
 portrait: carrot-bomber-portrait
 evaluation:
@@ -280,6 +280,35 @@ base:
       - carrot-bomber-base-star1
       - carrot-bomber-base-star2
       - carrot-bomber-base-star3
+  seasonalBlessings:
+    - id: trick-or-bleed
+      season: トリック・オア・ブリード
+      effect:
+        status: observed
+        value: 準備完了：自身が★2より高い場合、1回共鳴する
+        sources:
+          - blessing-20261113-131921
+      period:
+        status: manual
+        value:
+          startsAt: 2026-11-10T11:30:00+09:00
+          endsAt: 2026-11-24T11:30:00+09:00
+        sources:
+          - blessing-schedule-user-20261113
+      scope:
+        status: manual
+        value: 基本形が対象。効果はレベルと星ランクに共通。
+        sources:
+          - blessing-period-user-20261113
+          - blessing-schedule-user-20261113
+      excludedModes:
+        status: observed
+        value:
+          - ランブルチェス
+          - フレンドマッチフェアモード
+          - エクストリームチャレンジ
+        sources:
+          - update-20261027-112246
 variants:
   status: observed
   note: 画像で確認したバリアントⅠを掲載しています。
