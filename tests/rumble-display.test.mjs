@@ -116,7 +116,8 @@ test('10/27のランブルチェスは実機のカードプール・絆・隊長
  assert.equal(r.updateId,'2026-10-27-trick-or-bleed');
  assert.deepEqual(r.decks.map(d=>d.cards.value.length),[10,10,10,10,10,10]);
  assert.equal(rumbleForMinion(r,'mam-girl','variant-1').deck.id,'droplet');
- assert.equal(rumbleForMinion(r,'mam-girl','variant-1').star4.status,'unknown');
+ assert.equal(rumbleForMinion(r,'mam-girl','variant-1').star4.status,'observed');
+ assert.equal(rumbleForMinion(r,'hakusai-guard','variant-1').star4.status,'unknown');
  assert.equal(rumbleForMinion(r,'annai-tsubaki','variant-1').deck.id,'cloud');
  assert.equal(r.decks.find(d=>d.id==='star').bond.tiers.value.at(-1).amount,40);
  assert.equal(r.captains.length,4);

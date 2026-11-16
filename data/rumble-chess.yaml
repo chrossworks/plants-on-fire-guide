@@ -1,7 +1,7 @@
 schemaVersion: 1
 mode: rumble-chess
 updated: 2026-11-16
-note: 10月27日調整後の6デッキ各10枠。カードのコスト・Lvは一覧の撮影値です。共有デッキは未確認です。雫・星の絆は今回の表示を掲載し、雲・月・太陽・雷の絆は以前の撮影値を掲載しています。星4能力は同じ形態・所属の既存観測を掲載し、今回のカード一覧で確認できない新規枠などは未確認です。
+note: 10月27日調整後の6デッキ各10枠。カードのコスト・Lvは一覧の撮影値です。共有デッキは未確認です。雫・星の絆は今回の表示を掲載し、雲・月・太陽・雷の絆は以前の撮影値を掲載しています。星4は現行の観測に加え、星4能力の調整告知がない同じ形態の過去の撮影値を掲載しています。
 decks:
   - id: cloud
     name:
@@ -2740,8 +2740,22 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 売却価格+400%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-grape-bartender-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-grape-bartender-star4
   dandelion-variant-2:
     availability:
       status: observed
@@ -2776,8 +2790,23 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：ショップ内のミニオンの攻撃力+32～48
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-chili-cook-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-chili-cook-star4
   gold-eater:
     availability:
       status: observed
@@ -2785,8 +2814,23 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: オーラ：ショップ内のミニオンに、自身の攻撃力の50%を付与する
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-gold-eater-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-gold-eater-star4
   acorn-madman:
     availability:
       status: observed
@@ -2794,8 +2838,24 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 購入したミニオンの攻撃力の150%を獲得する
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-acorn-madman-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-acorn-madman-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-acorn-madman-star4
   mush-bomb:
     availability:
       status: observed
@@ -2803,8 +2863,22 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: すべての敵を攻撃して80%のダメージを与え、隊長が最大HPの4%を失う。隊長のHPが4%未満の時、最前列の敵しか攻撃できない
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mush-bomb-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-mush-bomb-star4
   kara-pumpkin-variant-2:
     availability:
       status: observed
@@ -2840,8 +2914,23 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：ランダムな他のミニオン1体の攻撃力+20、さらに隊長のHPを20回復する
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-greenkeeper-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-greenkeeper-star4
   pumpkin-knight:
     availability:
       status: observed
@@ -2849,8 +2938,23 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: オーラ：隊長がHPを10%失うたびに、自身の攻撃力+60
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-pumpkin-knight-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-pumpkin-knight-star4
   fridgeton:
     availability:
       status: observed
@@ -2900,8 +3004,27 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 魔法（5秒）：フィールド上で最もHPが高いラッシュユニット3体を、最大HP120%の状態で敵側に転送し、自身は休眠状態になる
+          keywords:
+            - magic
+            - rush-unit
+            - dormant
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-tele-leafy-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-tele-leafy-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-tele-leafy-star4
   pumpkin-king:
     availability:
       status: observed
@@ -2949,8 +3072,25 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 毎ラウンド、最初に出現するラッシュユニット16体をコピーして敵側に転送する。クローン体のHPは本体の60%となる
+          keywords:
+            - rush-unit
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-wicked-mirror-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-wicked-mirror-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-wicked-mirror-star4
   seed-worker:
     availability:
       status: observed
@@ -2958,8 +3098,22 @@ minions:
       sources:
         - rumble-20261113-161017
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 売却価格+300%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-seed-worker-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-seed-worker-star4
   coco-bank:
     availability:
       status: observed
@@ -2967,8 +3121,23 @@ minions:
       sources:
         - rumble-20261113-161017
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の売却価格+10
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-coco-bank-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-coco-bank-star4
   potato-seller:
     availability:
       status: observed
@@ -2976,8 +3145,25 @@ minions:
       sources:
         - rumble-20261113-161017
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：ショップを無料で3回更新できる
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 1
+          sources:
+            - rc-potato-seller-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-potato-seller-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.1）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-potato-seller-star4
   mojiton:
     availability:
       status: observed
@@ -2985,8 +3171,22 @@ minions:
       sources:
         - rumble-20261113-161017
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンを購入時：ランダムなミニオン1体の攻撃力+24
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mojiton-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-mojiton-star4
   draful-guard:
     availability:
       status: observed
@@ -2994,8 +3194,25 @@ minions:
       sources:
         - rumble-20261113-161017
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: オーラ：サンコインを5個所持するごとに、攻撃力+72
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 4
+          sources:
+            - rc-draful-guard-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-draful-guard-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.4）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-draful-guard-star4
   melon-accountant-variant-1:
     availability:
       status: observed
@@ -3026,8 +3243,27 @@ minions:
       sources:
         - rumble-20261113-161017
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: |-
+            準備完了：サンコイン+12
+            1マッチにつき、最初のヒマワリ店長4体の購入価格-1
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-sunflower-manager-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-sunflower-manager-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-sunflower-manager-star4
   kokemee:
     availability:
       status: observed
@@ -3070,8 +3306,25 @@ minions:
       sources:
         - rumble-20261113-161017
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: オーラ：本ラウンド中、サンコインを1個消費するたびに、レディ・チューリップの攻撃力+48
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-lady-tulip-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-lady-tulip-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-lady-tulip-star4
   coffee-bean-chief-variant-1:
     availability:
       status: observed
@@ -3102,8 +3355,24 @@ minions:
       sources:
         - rumble-20261113-161021
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：攻撃力の25%を継承する★3マンゴスチンピッグ4体を一時的に召喚する
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mangosteen-beastmaster-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-mangosteen-beastmaster-star4
   hakusai-guard-variant-1:
     availability:
       status: observed
@@ -3166,8 +3435,24 @@ minions:
       sources:
         - rumble-20261113-161021
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の攻撃力の75%を継承するクローン体を一時的に1体召喚する
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-orange-twins-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-orange-twins-star4
   ginger-boss:
     availability:
       status: observed
@@ -3175,8 +3460,25 @@ minions:
       sources:
         - rumble-20261113-161021
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンを召喚すると、ランダムな他のミニオン3体の攻撃力が一時的に+12～24
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-ginger-boss-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-ginger-boss-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-ginger-boss-star4
   white-rose-knight-variant-2:
     availability:
       status: observed
@@ -3227,8 +3529,23 @@ minions:
       sources:
         - rumble-20261113-161021
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 一時的に召喚したミニオンの攻撃力+240%（最低でも+120）
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mandragora-priest-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-mandragora-priest-star4
   hanakinoko-apothecary-variant-1:
     availability:
       status: observed
@@ -3259,8 +3576,24 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身が★3の場合、攻撃力が一時的に+135%
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-avogaku-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-avogaku-star4
   sister-cherry:
     availability:
       status: observed
@@ -3268,8 +3601,24 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 自身以外のミニオンは星アップすると、攻撃力+10～20
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-sister-cherry-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-sister-cherry-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-sister-cherry-star4
   mam-girl-variant-1:
     availability:
       status: observed
@@ -3277,8 +3626,23 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の1つ上のマスにいるミニオンの攻撃力+30
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 9
+          sources:
+            - rc-mam-girl-variant-1-star4-20261016
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。共通ルールは別管理。
+        conditions: ランブルチェス・マムガールⅠ・表示Lv.9・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-mam-girl-variant-1-star4-20261016
   samurai-take-variant-2:
     availability:
       status: observed
@@ -3327,8 +3691,24 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンが星アップするとき、最も攻撃力が高いミニオン1体の攻撃力+12～24
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-peanut-page-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-peanut-page-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-peanut-page-star4
   muracabelon:
     availability:
       status: observed
@@ -3336,8 +3716,24 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンが星アップすると、ムラキャベロンの攻撃力+24
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-muracabelon-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-muracabelon-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-muracabelon-star4
   ketchampion-variant-2:
     availability:
       status: observed
@@ -3374,8 +3770,24 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：最も攻撃力が高い他のミニオンの攻撃力を300%コピーし、一時的に自身に付与する
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-cashew-sage-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-cashew-sage-star4
   suzuran-mage:
     availability:
       status: observed
@@ -3383,8 +3795,24 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: いずれかのミニオンが星アップするとき、ランダムなミニオン4体の攻撃力+16～32
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 5
+          sources:
+            - rc-suzuran-mage-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-suzuran-mage-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.5）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-suzuran-mage-star4
   radish-maid:
     availability:
       status: observed
@@ -3392,8 +3820,23 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の攻撃力+20～30
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-radish-maid-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-radish-maid-star4
   appolis:
     availability:
       status: observed
@@ -3401,8 +3844,24 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 敵15体を同時に攻撃し、50%のダメージを与える
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-appolis-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-appolis-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-appolis-star4
   pop-gunner:
     availability:
       status: observed
@@ -3419,8 +3878,22 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+60%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-mango-ninja-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-mango-ninja-star4
   ghost-orchid:
     availability:
       status: observed
@@ -3428,8 +3901,23 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：最も攻撃力が高い敵ミニオンの攻撃力を32%奪取する（最低でも12を奪取する）
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-ghost-orchid-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-ghost-orchid-star4
   bamerang:
     availability:
       status: observed
@@ -3446,8 +3934,25 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: オーラ：すべてのミニオンの攻撃速度+60%
+          keywords:
+            - aura
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rc-onion-bard-star4
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rc-onion-bard-star4
+        conditions: 確認時の条件：最低保証Lv.7適用（現在Lv.6）。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-onion-bard-star4
   mister-hiss:
     availability:
       status: observed
@@ -3464,8 +3969,25 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: |-
+            準備完了：名前が異なる他のミニオン1体ずつ、攻撃力+32～48
+            フィールド上に同名ミニオンがいない場合、代わりに攻撃力+80
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rc-staghorn-shaman-star4
+        guaranteedLevel:
+          status: unknown
+          reason: この画像には最低保証Lvの数値が表示されていない
+        conditions: 確認時の条件：詳細画面Lv.8。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+      sources:
+        - rc-staghorn-shaman-star4
   kindle-coach:
     availability:
       status: observed
