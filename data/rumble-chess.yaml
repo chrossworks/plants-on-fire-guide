@@ -2582,6 +2582,540 @@ observations:
       sources:
         - rumble-20261116-154504
     conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: トゲメロン
+    source: rumble-20261116-173214
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173214
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173214
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-173214
+    interval:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-173214
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173214
+    ability:
+      status: observed
+      value: バトル中に味方隊長がダメージを受けると、すべての敵に640%のダメージを与え、自身の攻撃力-45%（8を下回ることはない）
+      sources:
+        - rumble-20261116-173214
+    conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+  - name: ダンデライオンⅡ
+    source: rumble-20261116-173221
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173221
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173221
+    attack:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173221
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-173221
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173221
+    ability:
+      status: observed
+      value: 売却価格+400%
+      sources:
+        - rumble-20261116-173221
+    conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+  - name: オーキッド占星術師Ⅰ
+    source: rumble-20261116-173227
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-173227
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173227
+    attack:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-173227
+    interval:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-173227
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173227
+    ability:
+      status: observed
+      value: 準備完了：自身の攻撃力の36%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムな2体のミニオンに付与する
+      sources:
+        - rumble-20261116-173227
+    conditions: ランブルチェス・表示Lv.9・星4選択時の撮影値。
+  - name: バイオレット魔法使い
+    source: rumble-20261116-173236
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-173236
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173236
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-173236
+    interval:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-173236
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-173236
+    ability:
+      status: observed
+      value: |-
+        魔法（4秒）：ランダムな敵にマジックミサイルを12発発射して攻撃力の84%のダメージを与える
+        フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを3発発射する
+      sources:
+        - rumble-20261116-173236
+    conditions: ランブルチェス・表示Lv.9・星4選択時の撮影値。
+  - name: ホーリーバット
+    source: rumble-20261116-173254
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173254
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173254
+    attack:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-173254
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-173254
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173254
+    ability:
+      status: observed
+      value: 準備完了：最も攻撃力が高い敵ミニオン2体の攻撃力を一時的に45%吸収する。自身の攻撃力が最大で一時的に+40
+      sources:
+        - rumble-20261116-173254
+    conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+  - name: カボチャキング
+    source: rumble-20261116-173259
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-173259
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173259
+    attack:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-173259
+    interval:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-173259
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173259
+    ability:
+      status: observed
+      value: 配置：隊長がHPを10%失うごとに、すべてのミニオンの攻撃力+2
+      sources:
+        - rumble-20261116-173259
+    conditions: ランブルチェス・表示Lv.7・星4選択時の撮影値。
+  - name: ハクサイ衛兵Ⅰ
+    source: rumble-20261116-173311
+    deck: thunder
+    currentLevel:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173311
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173311
+    attack:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-173311
+    interval:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-173311
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173311
+    ability:
+      status: observed
+      value: 準備完了：★1ハクサイワンコ6体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+6
+      sources:
+        - rumble-20261116-173311
+    conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+  - name: グァバラッパⅠ
+    source: rumble-20261116-173316
+    deck: thunder
+    currentLevel:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173316
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173316
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-173316
+    interval:
+      status: observed
+      value: 2.5
+      sources:
+        - rumble-20261116-173316
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173316
+    ability:
+      status: observed
+      value: 準備完了：すべてのミニオンの最初の4回の攻撃速度+200%
+      sources:
+        - rumble-20261116-173316
+    conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+  - name: ホワイトローズナイトⅡ
+    source: rumble-20261116-173322
+    deck: thunder
+    currentLevel:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-173322
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173322
+    attack:
+      status: observed
+      value: 15
+      sources:
+        - rumble-20261116-173322
+    interval:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-173322
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173322
+    ability:
+      status: observed
+      value: 召喚した一時ミニオンに、ホワイトローズナイトの攻撃力の60%を付与する
+      sources:
+        - rumble-20261116-173322
+    conditions: ランブルチェス・表示Lv.10・星4選択時の撮影値。
+  - name: ブロッコリズム
+    source: rumble-20261116-173336
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173336
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173336
+    attack:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-173336
+    interval:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-173336
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173336
+    ability:
+      status: observed
+      value: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+204%
+      sources:
+        - rumble-20261116-173336
+    conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+  - name: ポップガンナー
+    source: rumble-20261116-173348
+    deck: star
+    currentLevel:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-173348
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173348
+    attack:
+      status: observed
+      value: 11
+      sources:
+        - rumble-20261116-173348
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-173348
+    target:
+      status: observed
+      value: HP最高
+      sources:
+        - rumble-20261116-173348
+    ability:
+      status: observed
+      value: 敵に向けて弾丸を10発連射し、1発につき55%のダメージを与える
+      sources:
+        - rumble-20261116-173348
+    conditions: ランブルチェス・表示Lv.10・星4選択時の撮影値。
+  - name: マンゴーニンジャ
+    source: rumble-20261116-173402
+    deck: star
+    currentLevel:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173402
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173402
+    attack:
+      status: observed
+      value: 12
+      sources:
+        - rumble-20261116-173402
+    interval:
+      status: observed
+      value: 1.8
+      sources:
+        - rumble-20261116-173402
+    target:
+      status: observed
+      value: ランダム
+      sources:
+        - rumble-20261116-173402
+    ability:
+      status: observed
+      value: フィールド上にいる名前が異なる他のミニオン1体につき、マンゴーニンジャの攻撃速度+60%
+      sources:
+        - rumble-20261116-173402
+    conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+  - name: バーメラン
+    source: rumble-20261116-173408
+    deck: star
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-173408
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173408
+    attack:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-173408
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-173408
+    target:
+      status: observed
+      value: ランダム
+      sources:
+        - rumble-20261116-173408
+    ability:
+      status: observed
+      value: 攻撃が敵の間で21回跳ね返り、跳ね返るたびにダメージ-22%
+      sources:
+        - rumble-20261116-173408
+    conditions: ランブルチェス・表示Lv.7・星4選択時の撮影値。
+  - name: ミスター・ヒス
+    source: rumble-20261116-173417
+    deck: star
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-173417
+    guaranteedLevel:
+      status: unknown
+      reason: 最低保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-173417
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-173417
+    interval:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-173417
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-173417
+    ability:
+      status: observed
+      value: フィールド上に出現した敵を侵食し、2.6秒ごとにミスター・ヒスの攻撃力の120%分のダメージを与える。敵にシールドが付与されている場合、ダメージを与えず、シールドを2スタック解除する
+      sources:
+        - rumble-20261116-173417
+    conditions: ランブルチェス・表示Lv.7・星4選択時の撮影値。
 rules:
   sharedPerformance:
     status: manual
@@ -2671,8 +3205,22 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: バトル中に味方隊長がダメージを受けると、すべての敵に640%のダメージを与え、自身の攻撃力-45%（8を下回ることはない）
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rumble-20261116-173214
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173214
   annai-tsubaki-variant-1:
     availability:
       status: observed
@@ -2763,8 +3311,22 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 売却価格+400%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rumble-20261116-173221
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173221
   orchid-astrologer-variant-1:
     availability:
       status: observed
@@ -2772,8 +3334,23 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：自身の攻撃力の36%を、ショップ内で凍結状態のオーキッド占星術師以外のランダムな2体のミニオンに付与する
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 9
+          sources:
+            - rumble-20261116-173227
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.9・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173227
   violet-mage:
     availability:
       status: observed
@@ -2781,8 +3358,25 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: |-
+            魔法（4秒）：ランダムな敵にマジックミサイルを12発発射して攻撃力の84%のダメージを与える
+            フィールド上に存在する自身と同じ星ランクのミニオン1体につき、追加でマジックミサイルを3発発射する
+          keywords:
+            - magic
+        currentLevel:
+          status: observed
+          value: 9
+          sources:
+            - rumble-20261116-173236
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.9・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173236
   chili-cook:
     availability:
       status: observed
@@ -2995,8 +3589,24 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：最も攻撃力が高い敵ミニオン2体の攻撃力を一時的に45%吸収する。自身の攻撃力が最大で一時的に+40
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rumble-20261116-173254
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173254
   tele-leafy:
     availability:
       status: observed
@@ -3032,8 +3642,23 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 配置：隊長がHPを10%失うごとに、すべてのミニオンの攻撃力+2
+          keywords:
+            - placement
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-173259
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.7・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173259
   renkon-sorcerer:
     availability:
       status: observed
@@ -3380,8 +4005,24 @@ minions:
       sources:
         - rumble-20261113-161021
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：★1ハクサイワンコ6体を一時的に召喚する。本ラウンド中、ミニオンを1体召喚するごとに、ハクサイワンコの攻撃力+6
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rumble-20261116-173311
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173311
   guava-trumpeter-variant-1:
     availability:
       status: observed
@@ -3389,8 +4030,23 @@ minions:
       sources:
         - rumble-20261113-161021
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：すべてのミニオンの最初の4回の攻撃速度+200%
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rumble-20261116-173316
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173316
   magician-cucumber:
     availability:
       status: observed
@@ -3486,8 +4142,23 @@ minions:
       sources:
         - rumble-20261113-161021
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 召喚した一時ミニオンに、ホワイトローズナイトの攻撃力の60%を付与する
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 10
+          sources:
+            - rumble-20261116-173322
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.10・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173322
   soukyo-witch:
     availability:
       status: observed
@@ -3682,8 +4353,24 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：最も攻撃力が高いミニオン1体の攻撃速度が一時的に+204%
+          keywords:
+            - ready
+            - temporary
+        currentLevel:
+          status: observed
+          value: 8
+          sources:
+            - rumble-20261116-173336
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173336
   peanut-page:
     availability:
       status: observed
@@ -3869,8 +4556,22 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 敵に向けて弾丸を10発連射し、1発につき55%のダメージを与える
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 10
+          sources:
+            - rumble-20261116-173348
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.10・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173348
   mango-ninja:
     availability:
       status: observed
@@ -3885,15 +4586,15 @@ minions:
           keywords: []
         currentLevel:
           status: observed
-          value: 7
+          value: 8
           sources:
-            - rc-mango-ninja-star4
+            - rumble-20261116-173402
         guaranteedLevel:
           status: unknown
-          reason: この画像には最低保証Lvの数値が表示されていない
-        conditions: 確認時の条件：詳細画面Lv.7。星4能力のレベルによる変化は未確認。 過去の撮影値。星4能力の調整告知がない同じ形態に引き継いで掲載。
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.8・星4選択時の撮影値。
       sources:
-        - rc-mango-ninja-star4
+        - rumble-20261116-173402
   ghost-orchid:
     availability:
       status: observed
@@ -3925,8 +4626,22 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 攻撃が敵の間で21回跳ね返り、跳ね返るたびにダメージ-22%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-173408
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.7・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173408
   onion-bard:
     availability:
       status: observed
@@ -3960,8 +4675,23 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: フィールド上に出現した敵を侵食し、2.6秒ごとにミスター・ヒスの攻撃力の120%分のダメージを与える。敵にシールドが付与されている場合、ダメージを与えず、シールドを2スタック解除する
+          keywords:
+            - shield
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-173417
+        guaranteedLevel:
+          status: unknown
+          reason: 最低保証Lvの併記なし。
+        conditions: ランブルチェス・表示Lv.7・星4選択時の撮影値。
+      sources:
+        - rumble-20261116-173417
   staghorn-shaman:
     availability:
       status: observed

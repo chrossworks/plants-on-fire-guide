@@ -6524,3 +6524,93 @@ rumble-20261116-154511:
   kind: screenshot
   description: キンドルコーチ 育成一覧。
   mode: rumble-chess
+
+rumble-20261116-173214:
+  kind: screenshot
+  description: トゲメロン ランブルチェス詳細・星4・表示Lv.8。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-173221:
+  kind: screenshot
+  description: ダンデライオンⅡ ランブルチェス詳細・星4・表示Lv.8。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-173227:
+  kind: screenshot
+  description: オーキッド占星術師Ⅰ ランブルチェス詳細・星4・表示Lv.9。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-173236:
+  kind: screenshot
+  description: バイオレット魔法使い ランブルチェス詳細・星4・表示Lv.9。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-173254:
+  kind: screenshot
+  description: ホーリーバット ランブルチェス詳細・星4・表示Lv.8。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-173259:
+  kind: screenshot
+  description: カボチャキング ランブルチェス詳細・星4・表示Lv.7。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-173311:
+  kind: screenshot
+  description: ハクサイ衛兵Ⅰ ランブルチェス詳細・星4・表示Lv.8。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-173316:
+  kind: screenshot
+  description: グァバラッパⅠ ランブルチェス詳細・星4・表示Lv.8。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-173322:
+  kind: screenshot
+  description: ホワイトローズナイトⅡ ランブルチェス詳細・星4・表示Lv.10。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-173336:
+  kind: screenshot
+  description: ブロッコリズム ランブルチェス詳細・星4・表示Lv.8。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-173348:
+  kind: screenshot
+  description: ポップガンナー ランブルチェス詳細・星4・表示Lv.10。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-173402:
+  kind: screenshot
+  description: マンゴーニンジャ ランブルチェス詳細・星4・表示Lv.8。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-173408:
+  kind: screenshot
+  description: バーメラン ランブルチェス詳細・星4・表示Lv.7。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-173417:
+  kind: screenshot
+  description: ミスター・ヒス ランブルチェス詳細・星4・表示Lv.7。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
