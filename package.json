@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
     "inventory": "node scripts/inventory.mjs",
+    "images:sheet": "node scripts/screenshot-sheet.mjs",
     "images": "node scripts/images.mjs",
     "images:publish": "node scripts/images.mjs --publish",
     "validate": "node scripts/validate.mjs",

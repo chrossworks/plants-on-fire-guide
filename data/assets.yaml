@@ -1226,3 +1226,32 @@ vampire-duke-badge-plain-icon:
 vampire-duke-badge-charm-icon:
   path: images/captain-badges/vampire-duke/charm-icon.webp
   alt: ヴァンパイア公爵チャームⅠの丸いアイコン
+
+annai-tsubaki-variant-1:
+  path: images/minions/annai-tsubaki/variant-1.webp
+  alt: アンナイツバキⅠ
+cactus-guardian-variant-2:
+  path: images/minions/cactus-guardian/variant-2.webp
+  alt: サボテンガーディアンⅡ
+kara-pumpkin-variant-2:
+  path: images/minions/kara-pumpkin/variant-2.webp
+  alt: カラカボチャⅡ
+fridgeton-portrait:
+  path: images/minions/fridgeton/portrait.webp
+  alt: フリッジトン
+renkon-sorcerer-portrait:
+  path: images/minions/renkon-sorcerer/portrait.webp
+  alt: レンコン術士
+
+kokemee-portrait:
+  path: images/minions/kokemee/portrait.webp
+  alt: コケメェ
+samurai-take-variant-2:
+  path: images/minions/samurai-take/variant-2.webp
+  alt: サムライタケⅡ
+ketchampion-variant-2:
+  path: images/minions/ketchampion/variant-2.webp
+  alt: ケチャッピオンⅡ
+kindle-coach-portrait:
+  path: images/minions/kindle-coach/portrait.webp
+  alt: キンドルコーチ

@@ -1,0 +1,76 @@
+{
+  schemaVersion: 1,
+  id: fridgeton,
+  name: フリッジトン,
+  reading: ふりっじとん,
+  rarity: { status: observed, value: legend, sources: [ rumble-20261116-153655 ] },
+  cost: { status: observed, value: 5, sources: [ rumble-20261116-153655 ] },
+  updated: 2026-11-16,
+  portrait: fridgeton-portrait,
+  availability: { ranked: { status: manual, value: false, sources: [ rumble-exclusive-user-20261116 ] }, acquisition: { status: observed, value: unobtainable, sources: [ rumble-20261116-153655 ] } },
+  base:
+    {
+      id: base,
+      name: フリッジトン,
+      displayLevel: { status: observed, value: 9, sources: [ rumble-20261116-153655, rumble-20261116-153658, rumble-20261116-153700, rumble-20261116-153703 ] },
+      upgradeScreenLevel: { status: observed, value: 7, sources: [ rumble-20261116-153706, rumble-20261116-153711 ] },
+      conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。,
+      stars:
+        [
+          {
+              star: 1,
+              stats: { attack: { status: observed, value: 0, sources: [ rumble-20261116-153655 ] }, interval: { status: observed, value: 0, sources: [ rumble-20261116-153655 ] }, target: { status: observed, value: 攻撃不可, sources: [ rumble-20261116-153655 ] } },
+              ability:
+                {
+                  status: observed,
+                  value:
+                    {
+                      text: 魔法（4秒）：自身の星ランク以下の敵ミニオン1体を6秒間凍結する
+
+                        毎ラウンド最大2回発動する,
+                      keywords: &a1 [ magic ]
+                    },
+                  sources: [ rumble-20261116-153655 ]
+                }
+            },
+          {
+              star: 2,
+              stats: { attack: { status: observed, value: 0, sources: [ rumble-20261116-153658 ] }, interval: { status: observed, value: 0, sources: [ rumble-20261116-153658 ] }, target: { status: observed, value: 攻撃不可, sources: [ rumble-20261116-153658 ] } },
+              ability:
+                {
+                  status: observed,
+                  value:
+                    {
+                      text: 魔法（4秒）：自身の星ランク以下の敵ミニオン1体を6秒間凍結する
+
+                        毎ラウンド最大2回発動する,
+                      keywords: *a1
+                    },
+                  sources: [ rumble-20261116-153658 ]
+                }
+            },
+          {
+              star: 3,
+              stats: { attack: { status: observed, value: 0, sources: [ rumble-20261116-153700 ] }, interval: { status: observed, value: 0, sources: [ rumble-20261116-153700 ] }, target: { status: observed, value: 攻撃不可, sources: [ rumble-20261116-153700 ] } },
+              ability:
+                {
+                  status: observed,
+                  value:
+                    {
+                      text: 魔法（4秒）：自身の星ランク以下の敵ミニオン1体を6秒間凍結する
+
+                        毎ラウンド最大2回発動する,
+                      keywords: *a1
+                    },
+                  sources: [ rumble-20261116-153700 ]
+                }
+            }
+        ],
+      initial: { attack: &a2 { status: unknown, reason: 最低レベルでの性能を確認できる詳細画像がありません。 }, abilities: [ *a2, *a2, *a2 ] },
+      bonuses: [ { level: 8, effect: { status: observed, value: { text: 凍結時間が6に延長される, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153706 ] } }, { level: 9, effect: { status: observed, value: { text: 凍結時間が6に延長される, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153706 ] } }, { level: 10, effect: { status: observed, value: { text: バトル開始：即座にスキルを1回発動する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153711 ] } }, { level: 11, effect: { status: observed, value: { text: 凍結時間が7に延長される。バトル開始：凍結対象の数が1に増加する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153711 ] } }, { level: 12, effect: { status: observed, value: { text: 凍結時間が8に延長される。バトル開始：凍結対象の数が1に増加する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153711 ] } } ],
+      bonusCoverage: { status: observed, value: { from: 8, through: 12 }, sources: [ rumble-20261116-153706, rumble-20261116-153711 ] },
+      acquisition: { status: observed, value: 現在入手できません, sources: [ rumble-20261116-153655, rumble-20261116-153703 ] },
+      poolUnlock: { status: unknown, reason: 解放条件は未確認。 }
+    },
+  variants: { status: unknown, note: 通常詳細でのバリアント表示は未確認。, items: [] }
+}

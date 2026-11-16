@@ -5,7 +5,7 @@ reading: さむらいたけ
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: legend
@@ -20,7 +20,7 @@ cost:
     - samurai-take-base-star1
     - samurai-take-base-star2
     - samurai-take-base-star3
-updated: 2026-10-15
+updated: 2026-11-16
 icon: samurai-take-icon
 portrait: samurai-take-portrait
 evaluation:
@@ -217,10 +217,78 @@ base:
       - samurai-take-base-star2
       - samurai-take-base-star3
 variants:
-  status: absent
-  note: 通常詳細画面でバリアント表示がないことを確認済みです。
+  status: observed
+  note: 詳細画面で確認したバリアントを掲載。
   sources:
     - samurai-take-base-star1
     - samurai-take-base-star2
     - samurai-take-base-star3
-  items: []
+    - rumble-20261116-154403
+  items:
+    [
+      {
+          id: variant-2,
+          name: サムライタケⅡ,
+          displayLevel: { status: observed, value: 7, sources: [ rumble-20261116-154403, rumble-20261116-154406, rumble-20261116-154408, rumble-20261116-154411 ] },
+          upgradeScreenLevel: { status: observed, value: 7, sources: [ rumble-20261116-154414, rumble-20261116-154418 ] },
+          conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.7。,
+          stars:
+            [
+              {
+                  star: 1,
+                  stats: { attack: { status: observed, value: 18, sources: [ rumble-20261116-154403 ] }, interval: { status: observed, value: 4, sources: [ rumble-20261116-154403 ] }, target: { status: observed, value: 最前列, sources: [ rumble-20261116-154403 ] } },
+                  ability:
+                    {
+                      status: observed,
+                      value:
+                        {
+                          text: バトル開始：瞑想に入り、1秒ごとに攻撃力が一時的に+10%、ただし攻撃ができない
+
+                            自身が最も攻撃力が高いミニオンになると瞑想状態を解除し、すべての敵に斬撃を放ち、80%のダメージを与える,
+                          keywords: &a1 [ battle-start, temporary ]
+                        },
+                      sources: [ rumble-20261116-154403 ]
+                    }
+                },
+              {
+                  star: 2,
+                  stats: { attack: { status: observed, value: 18, sources: [ rumble-20261116-154406 ] }, interval: { status: observed, value: 4, sources: [ rumble-20261116-154406 ] }, target: { status: observed, value: 最前列, sources: [ rumble-20261116-154406 ] } },
+                  ability:
+                    {
+                      status: observed,
+                      value:
+                        {
+                          text: バトル開始：瞑想に入り、1秒ごとに攻撃力が一時的に+10%、ただし攻撃ができない
+
+                            自身が最も攻撃力が高いミニオンになると瞑想状態を解除し、すべての敵に斬撃を放ち、80%のダメージを与える,
+                          keywords: *a1
+                        },
+                      sources: [ rumble-20261116-154406 ]
+                    }
+                },
+              {
+                  star: 3,
+                  stats: { attack: { status: observed, value: 18, sources: [ rumble-20261116-154408 ] }, interval: { status: observed, value: 4, sources: [ rumble-20261116-154408 ] }, target: { status: observed, value: 最前列, sources: [ rumble-20261116-154408 ] } },
+                  ability:
+                    {
+                      status: observed,
+                      value:
+                        {
+                          text: バトル開始：瞑想に入り、1秒ごとに攻撃力が一時的に+10%、ただし攻撃ができない
+
+                            自身が最も攻撃力が高いミニオンになると瞑想状態を解除し、すべての敵に斬撃を放ち、80%のダメージを与える,
+                          keywords: *a1
+                        },
+                      sources: [ rumble-20261116-154408 ]
+                    }
+                }
+            ],
+          initial: { attack: &a2 { status: unknown, reason: 最低レベルでの性能を確認できる詳細画像がありません。 }, abilities: [ *a2, *a2, *a2 ] },
+          bonuses: [ { level: 8, effect: { status: observed, value: { text: 斬撃ダメージが95%に上昇する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154414 ] } }, { level: 9, effect: { status: observed, value: { text: 斬撃ダメージが110%に上昇する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154414 ] } }, { level: 10, effect: { status: observed, value: { text: 瞑想状態中は、1秒ごとに攻撃速度が一時的に+2%, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154418 ] } }, { level: 11, effect: { status: observed, value: { text: 斬撃ダメージが135%に上昇する。瞑想状態中は、1秒ごとに攻撃速度が一時的に+3%, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154418 ] } }, { level: 12, effect: { status: observed, value: { text: 斬撃ダメージが160%に上昇する。瞑想状態中は、1秒ごとに攻撃速度が一時的に+4%, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154418 ] } } ],
+          bonusCoverage: { status: observed, value: { from: 8, through: 12 }, sources: [ rumble-20261116-154414, rumble-20261116-154418 ] },
+          acquisition: { status: observed, value: 現在入手できません, sources: [ rumble-20261116-154403, rumble-20261116-154411 ] },
+          image: samurai-take-variant-2,
+          cardRank: { status: observed, value: SS, sources: [ rumble-20261116-154403 ] },
+          availability: { ranked: { status: manual, value: false, sources: [ rumble-exclusive-batch2-user-20261116 ] } }
+        }
+    ]

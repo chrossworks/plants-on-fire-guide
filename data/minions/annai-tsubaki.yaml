@@ -5,7 +5,7 @@ reading: あんないつばき
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -16,7 +16,7 @@ cost:
   value: 3
   sources:
     - annai-tsubaki-base-star1
-updated: 2026-10-15
+updated: 2026-11-16
 icon: annai-tsubaki-icon
 portrait: annai-tsubaki-portrait
 evaluation:
@@ -251,7 +251,7 @@ base:
       - annai-tsubaki-base-star3
 variants:
   status: observed
-  note: 画像で確認したバリアントⅡを掲載しています。
+  note: 詳細画面で確認したバリアントを掲載。
   items:
     - id: variant-2
       introduced:
@@ -477,3 +477,213 @@ variants:
           - annai-tsubaki-v2-star1
           - annai-tsubaki-v2-star2
           - annai-tsubaki-v2-star3
+    - id: variant-1
+      name: アンナイツバキⅠ
+      displayLevel:
+        status: observed
+        value: 7
+        sources:
+          - rumble-20261116-153525
+          - rumble-20261116-153527
+          - rumble-20261116-153530
+          - rumble-20261116-153532
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - rumble-20261116-153536
+          - rumble-20261116-153540
+          - rumble-20261116-153544
+      conditions: ランブルチェスの詳細画面。現在Lv.6、最低保証Lv.7の撮影値。育成画面の現在Lv.4。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - rumble-20261116-153525
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - rumble-20261116-153525
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - rumble-20261116-153525
+          ability:
+            status: observed
+            value:
+              text: 準備完了：次に購入するミニオンの攻撃力+3
+              keywords: &a1
+                - ready
+            sources:
+              - rumble-20261116-153525
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - rumble-20261116-153527
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - rumble-20261116-153527
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - rumble-20261116-153527
+          ability:
+            status: observed
+            value:
+              text: 準備完了：次に購入するミニオンの攻撃力+6
+              keywords: *a1
+            sources:
+              - rumble-20261116-153527
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - rumble-20261116-153530
+            interval:
+              status: observed
+              value: 1.8
+              sources:
+                - rumble-20261116-153530
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - rumble-20261116-153530
+          ability:
+            status: observed
+            value:
+              text: 準備完了：次に購入するミニオンの攻撃力+12
+              keywords: *a1
+            sources:
+              - rumble-20261116-153530
+      initial:
+        attack: &a2
+          status: unknown
+          reason: 最低レベルでの性能を確認できる詳細画像がありません。
+        abilities:
+          - *a2
+          - *a2
+          - *a2
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - rumble-20261116-153536
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - rumble-20261116-153536
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 次に購入するミニオンの攻撃力ボーナスが3に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - rumble-20261116-153536
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - rumble-20261116-153540
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - rumble-20261116-153540
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 次に購入するミニオンの攻撃力ボーナスが5に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - rumble-20261116-153544
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 次に購入するミニオンの攻撃力ボーナスが6に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - rumble-20261116-153544
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 次に購入するミニオンの攻撃力ボーナスが7に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - rumble-20261116-153544
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - rumble-20261116-153536
+          - rumble-20261116-153540
+          - rumble-20261116-153544
+      acquisition:
+        status: observed
+        value: 現在入手できません
+        sources:
+          - rumble-20261116-153525
+          - rumble-20261116-153532
+      image: annai-tsubaki-variant-1
+      cardRank:
+        status: observed
+        value: S
+        sources:
+          - rumble-20261116-153525
+      availability:
+        ranked:
+          status: manual
+          value: false
+          sources:
+            - rumble-exclusive-user-20261116
+  sources:
+    - rumble-20261116-153525

@@ -6196,3 +6196,331 @@ rumble-20261113-161817:
 rumble-star-bond-alias-user-20261113:
   kind: user
   description: 2026-11-13ユーザー確認。10月27日告知の「十字の絆」と実機の「星の絆」は同じ絆。
+
+rumble-exclusive-user-20261116:
+  kind: user
+  description: アンナイツバキⅠ・サボテンガーディアンⅡ・カラカボチャⅡ・フリッジトン・レンコン術士は現時点でランブルチェス専用（2026-11-16確認）。
+rumble-20261116-153525:
+  kind: screenshot
+  description: アンナイツバキⅠ ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+rumble-20261116-153527:
+  kind: screenshot
+  description: アンナイツバキⅠ ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+rumble-20261116-153530:
+  kind: screenshot
+  description: アンナイツバキⅠ ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+rumble-20261116-153532:
+  kind: screenshot
+  description: アンナイツバキⅠ ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-153536:
+  kind: screenshot
+  description: アンナイツバキⅠ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153540:
+  kind: screenshot
+  description: アンナイツバキⅠ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153544:
+  kind: screenshot
+  description: アンナイツバキⅠ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153551:
+  kind: screenshot
+  description: サボテンガーディアンⅡ ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+rumble-20261116-153554:
+  kind: screenshot
+  description: サボテンガーディアンⅡ ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+rumble-20261116-153557:
+  kind: screenshot
+  description: サボテンガーディアンⅡ ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+rumble-20261116-153600:
+  kind: screenshot
+  description: サボテンガーディアンⅡ ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-153603:
+  kind: screenshot
+  description: サボテンガーディアンⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153607:
+  kind: screenshot
+  description: サボテンガーディアンⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153611:
+  kind: screenshot
+  description: サボテンガーディアンⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153619:
+  kind: screenshot
+  description: カラカボチャⅡ ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+rumble-20261116-153622:
+  kind: screenshot
+  description: カラカボチャⅡ ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+rumble-20261116-153625:
+  kind: screenshot
+  description: カラカボチャⅡ ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+rumble-20261116-153627:
+  kind: screenshot
+  description: カラカボチャⅡ ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-153630:
+  kind: screenshot
+  description: カラカボチャⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153635:
+  kind: screenshot
+  description: カラカボチャⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153639:
+  kind: screenshot
+  description: カラカボチャⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153655:
+  kind: screenshot
+  description: フリッジトン ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+rumble-20261116-153658:
+  kind: screenshot
+  description: フリッジトン ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+rumble-20261116-153700:
+  kind: screenshot
+  description: フリッジトン ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+rumble-20261116-153703:
+  kind: screenshot
+  description: フリッジトン ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-153706:
+  kind: screenshot
+  description: フリッジトン 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153711:
+  kind: screenshot
+  description: フリッジトン 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153725:
+  kind: screenshot
+  description: レンコン術士 ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+rumble-20261116-153728:
+  kind: screenshot
+  description: レンコン術士 ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+rumble-20261116-153730:
+  kind: screenshot
+  description: レンコン術士 ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+rumble-20261116-153733:
+  kind: screenshot
+  description: レンコン術士 ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-153737:
+  kind: screenshot
+  description: レンコン術士 育成一覧。
+  mode: rumble-chess
+rumble-20261116-153743:
+  kind: screenshot
+  description: レンコン術士 育成一覧。
+  mode: rumble-chess
+
+rumble-exclusive-batch2-user-20261116:
+  kind: user
+  description: コケメェ・サムライタケⅡ・ケチャッピオンⅡ・キンドルコーチは現時点でランブルチェス専用（2026-11-16確認）。
+rumble-20261116-154340:
+  kind: screenshot
+  description: コケメェ ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+rumble-20261116-154342:
+  kind: screenshot
+  description: コケメェ ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+rumble-20261116-154345:
+  kind: screenshot
+  description: コケメェ ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+rumble-20261116-154348:
+  kind: screenshot
+  description: コケメェ ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-154351:
+  kind: screenshot
+  description: コケメェ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-154355:
+  kind: screenshot
+  description: コケメェ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-154403:
+  kind: screenshot
+  description: サムライタケⅡ ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+rumble-20261116-154406:
+  kind: screenshot
+  description: サムライタケⅡ ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+rumble-20261116-154408:
+  kind: screenshot
+  description: サムライタケⅡ ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+rumble-20261116-154411:
+  kind: screenshot
+  description: サムライタケⅡ ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-154414:
+  kind: screenshot
+  description: サムライタケⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-154418:
+  kind: screenshot
+  description: サムライタケⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-154425:
+  kind: screenshot
+  description: ケチャッピオンⅡ ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+  variantControl: present
+rumble-20261116-154427:
+  kind: screenshot
+  description: ケチャッピオンⅡ ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+  variantControl: present
+rumble-20261116-154430:
+  kind: screenshot
+  description: ケチャッピオンⅡ ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+  variantControl: present
+rumble-20261116-154433:
+  kind: screenshot
+  description: ケチャッピオンⅡ ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+  variantControl: present
+rumble-20261116-154436:
+  kind: screenshot
+  description: ケチャッピオンⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-154440:
+  kind: screenshot
+  description: ケチャッピオンⅡ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-154456:
+  kind: screenshot
+  description: キンドルコーチ ランブルチェス詳細・星1。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 1
+rumble-20261116-154459:
+  kind: screenshot
+  description: キンドルコーチ ランブルチェス詳細・星2。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 2
+rumble-20261116-154501:
+  kind: screenshot
+  description: キンドルコーチ ランブルチェス詳細・星3。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 3
+rumble-20261116-154504:
+  kind: screenshot
+  description: キンドルコーチ ランブルチェス詳細・星4。
+  mode: rumble-chess
+  screen: detail
+  selectedStar: 4
+rumble-20261116-154507:
+  kind: screenshot
+  description: キンドルコーチ 育成一覧。
+  mode: rumble-chess
+rumble-20261116-154511:
+  kind: screenshot
+  description: キンドルコーチ 育成一覧。
+  mode: rumble-chess

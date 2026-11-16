@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { screenshotById } from '../lib/screenshot-source.mjs';
 import path from 'node:path';
 import sharp from 'sharp';
 import { createHash } from 'node:crypto';
@@ -59,10 +60,7 @@ if (mode === 'init') {
         const entry = local[evidence.source];
         if (!sources[evidence.source] || sources[evidence.source].kind !== 'screenshot' || entry?.status !== 'confirmed') throw new Error('分類済みの画像根拠が必要');
         if (current[key]?.sources && !current[key].sources.includes(evidence.source)) throw new Error('登録値の根拠IDと不一致');
-        const base = fs.realpathSync('raw-screenshots');
-        const original = fs.realpathSync(path.resolve(base, entry.path));
-        const relative = path.relative(base, original);
-        if (relative.startsWith('..') || path.isAbsolute(relative)) throw new Error('原本フォルダ外');
+        const original = screenshotById('raw-screenshots', local, evidence.source);
         let hash=sourceHashCache.get(original);
         if(!hash){hash=createHash('sha256').update(fs.readFileSync(original)).digest('hex');sourceHashCache.set(original,hash);}
         if (evidence.sha256 !== hash) throw new Error('原本のSHA256が未記録、または確認後に原本が変更されています');
@@ -72,7 +70,7 @@ if (mode === 'init') {
         const cropKey=hash+JSON.stringify(region);
         if(cropCache.has(cropKey))fs.copyFileSync(cropCache.get(cropKey),`${dir}/${output}`);
         else {await sharp(original).extract(region).png().toFile(`${dir}/${output}`);cropCache.set(cropKey,`${dir}/${output}`);}
-        html.push(`<p>${escape(evidence.source)} / ${escape(JSON.stringify(region))}</p><img src="${output}" alt="確認範囲">`);
+        html.push(`<p>${escape(path.basename(original))} / ${escape(evidence.source)} / ${escape(JSON.stringify(region))}</p><img src="${output}" alt="確認範囲">`);
       } catch (error) { issues.push(`${key}: 画像根拠エラー: ${error.message}`); }
     }
     html.push('</section>');

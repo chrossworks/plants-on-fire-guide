@@ -1,6 +1,6 @@
 schemaVersion: 1
 mode: rumble-chess
-updated: 2026-11-13
+updated: 2026-11-16
 note: 10月27日調整後の6デッキ各10枠。カードのコスト・Lvは一覧の撮影値です。共有デッキは未確認です。雫・星の絆は今回の表示を掲載し、雲・月・太陽・雷の絆は以前の撮影値を掲載しています。星4能力は同じ形態・所属の既存観測を掲載し、今回のカード一覧で確認できない新規枠などは未確認です。
 decks:
   - id: cloud
@@ -1150,6 +1150,1438 @@ observations:
       sources:
         - rc-hanakinoko-apothecary-variant-1-star4-20261016
     conditions: ランブルチェス・ハナキノコ薬師Ⅰ・表示Lv.7・バリアントON・星4選択時の撮影値。能力のレベル依存・外部補正の有無は未確認。
+  - name: アンナイツバキⅠ
+    source: rumble-20261116-153525
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 6
+      sources:
+        - rumble-20261116-153525
+    guaranteedLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153525
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-153525
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153525
+    interval:
+      status: observed
+      value: 1.8
+      sources:
+        - rumble-20261116-153525
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153525
+    ability:
+      status: observed
+      value: 準備完了：次に購入するミニオンの攻撃力+3
+      sources:
+        - rumble-20261116-153525
+    conditions: ランブルチェスの詳細画面。現在Lv.6、最低保証Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: アンナイツバキⅠ
+    source: rumble-20261116-153527
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 6
+      sources:
+        - rumble-20261116-153527
+    guaranteedLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153527
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-153527
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153527
+    interval:
+      status: observed
+      value: 1.8
+      sources:
+        - rumble-20261116-153527
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153527
+    ability:
+      status: observed
+      value: 準備完了：次に購入するミニオンの攻撃力+6
+      sources:
+        - rumble-20261116-153527
+    conditions: ランブルチェスの詳細画面。現在Lv.6、最低保証Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: アンナイツバキⅠ
+    source: rumble-20261116-153530
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 6
+      sources:
+        - rumble-20261116-153530
+    guaranteedLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153530
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-153530
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153530
+    interval:
+      status: observed
+      value: 1.8
+      sources:
+        - rumble-20261116-153530
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153530
+    ability:
+      status: observed
+      value: 準備完了：次に購入するミニオンの攻撃力+12
+      sources:
+        - rumble-20261116-153530
+    conditions: ランブルチェスの詳細画面。現在Lv.6、最低保証Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: アンナイツバキⅠ
+    source: rumble-20261116-153532
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 6
+      sources:
+        - rumble-20261116-153532
+    guaranteedLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153532
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-153532
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153532
+    interval:
+      status: observed
+      value: 1.8
+      sources:
+        - rumble-20261116-153532
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153532
+    ability:
+      status: observed
+      value: 準備完了：次に購入するミニオンの攻撃力+30
+      sources:
+        - rumble-20261116-153532
+    conditions: ランブルチェスの詳細画面。現在Lv.6、最低保証Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: サボテンガーディアンⅡ
+    source: rumble-20261116-153551
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153551
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-153551
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153551
+    interval:
+      status: observed
+      value: 1.5
+      sources:
+        - rumble-20261116-153551
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153551
+    ability:
+      status: observed
+      value: 購入したミニオンの攻撃力の12%を一時的に獲得する
+      sources:
+        - rumble-20261116-153551
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: サボテンガーディアンⅡ
+    source: rumble-20261116-153554
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153554
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-153554
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153554
+    interval:
+      status: observed
+      value: 1.5
+      sources:
+        - rumble-20261116-153554
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153554
+    ability:
+      status: observed
+      value: 購入したミニオンの攻撃力の24%を一時的に獲得する
+      sources:
+        - rumble-20261116-153554
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: サボテンガーディアンⅡ
+    source: rumble-20261116-153557
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153557
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-153557
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153557
+    interval:
+      status: observed
+      value: 1.5
+      sources:
+        - rumble-20261116-153557
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153557
+    ability:
+      status: observed
+      value: 購入したミニオンの攻撃力の48%を一時的に獲得する
+      sources:
+        - rumble-20261116-153557
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: サボテンガーディアンⅡ
+    source: rumble-20261116-153600
+    deck: cloud
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153600
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-153600
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153600
+    interval:
+      status: observed
+      value: 1.5
+      sources:
+        - rumble-20261116-153600
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153600
+    ability:
+      status: observed
+      value: 購入したミニオンの攻撃力の120%を一時的に獲得する
+      sources:
+        - rumble-20261116-153600
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: カラカボチャⅡ
+    source: rumble-20261116-153619
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153619
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-153619
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153619
+    interval:
+      status: observed
+      value: 1.4
+      sources:
+        - rumble-20261116-153619
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153619
+    ability:
+      status: observed
+      value: 配置：指定したミニオンの攻撃力がランダムで＋（3～9）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+      sources:
+        - rumble-20261116-153619
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: カラカボチャⅡ
+    source: rumble-20261116-153622
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153622
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-153622
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153622
+    interval:
+      status: observed
+      value: 1.4
+      sources:
+        - rumble-20261116-153622
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153622
+    ability:
+      status: observed
+      value: 配置：指定したミニオンの攻撃力がランダムで＋（3～9）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+      sources:
+        - rumble-20261116-153622
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: カラカボチャⅡ
+    source: rumble-20261116-153625
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153625
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-153625
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153625
+    interval:
+      status: observed
+      value: 1.4
+      sources:
+        - rumble-20261116-153625
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153625
+    ability:
+      status: observed
+      value: 配置：指定したミニオンの攻撃力がランダムで＋（3～9）、さらに隊長が最大HPの5%を失う（HPが足りない時は無効）
+      sources:
+        - rumble-20261116-153625
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: カラカボチャⅡ
+    source: rumble-20261116-153627
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153627
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-153627
+    attack:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153627
+    interval:
+      status: observed
+      value: 1.4
+      sources:
+        - rumble-20261116-153627
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153627
+    ability:
+      status: observed
+      value: 売却価格+200%
+      sources:
+        - rumble-20261116-153627
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+  - name: フリッジトン
+    source: rumble-20261116-153655
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153655
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-153655
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-153655
+    attack:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-153655
+    interval:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-153655
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-153655
+    ability:
+      status: observed
+      value: |-
+        魔法（4秒）：自身の星ランク以下の敵ミニオン1体を6秒間凍結する
+        毎ラウンド最大2回発動する
+      sources:
+        - rumble-20261116-153655
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: フリッジトン
+    source: rumble-20261116-153658
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153658
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-153658
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-153658
+    attack:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-153658
+    interval:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-153658
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-153658
+    ability:
+      status: observed
+      value: |-
+        魔法（4秒）：自身の星ランク以下の敵ミニオン1体を6秒間凍結する
+        毎ラウンド最大2回発動する
+      sources:
+        - rumble-20261116-153658
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: フリッジトン
+    source: rumble-20261116-153700
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153700
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-153700
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-153700
+    attack:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-153700
+    interval:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-153700
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-153700
+    ability:
+      status: observed
+      value: |-
+        魔法（4秒）：自身の星ランク以下の敵ミニオン1体を6秒間凍結する
+        毎ラウンド最大2回発動する
+      sources:
+        - rumble-20261116-153700
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: フリッジトン
+    source: rumble-20261116-153703
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153703
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-153703
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-153703
+    attack:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-153703
+    interval:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-153703
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-153703
+    ability:
+      status: observed
+      value: |-
+        魔法（4秒）：自身の星ランク以下の敵ミニオン3体を6秒間凍結する
+        毎ラウンド最大2回発動する
+      sources:
+        - rumble-20261116-153703
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: レンコン術士
+    source: rumble-20261116-153725
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153725
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-153725
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-153725
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-153725
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-153725
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153725
+    ability:
+      status: observed
+      value: 味方が召喚したラッシュユニットが撃破されると、バケレンコンを1体生成する（HP：1、与えるダメージ：1、移動速度+80%）
+      sources:
+        - rumble-20261116-153725
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: レンコン術士
+    source: rumble-20261116-153728
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153728
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-153728
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-153728
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-153728
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-153728
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153728
+    ability:
+      status: observed
+      value: 味方が召喚したラッシュユニットが撃破されると、バケレンコンを2体生成する（HP：1、与えるダメージ：1、移動速度+80%）
+      sources:
+        - rumble-20261116-153728
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: レンコン術士
+    source: rumble-20261116-153730
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153730
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-153730
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-153730
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-153730
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-153730
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153730
+    ability:
+      status: observed
+      value: 味方が召喚したラッシュユニットが撃破されると、バケレンコンを4体生成する（HP：1、与えるダメージ：1、移動速度+80%）
+      sources:
+        - rumble-20261116-153730
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: レンコン術士
+    source: rumble-20261116-153733
+    deck: moon
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-153733
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-153733
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-153733
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-153733
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-153733
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-153733
+    ability:
+      status: observed
+      value: 味方が召喚したラッシュユニットが撃破されると、バケレンコンを12体生成する（HP：1、与えるダメージ：1、移動速度+80%）
+      sources:
+        - rumble-20261116-153733
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: コケメェ
+    source: rumble-20261116-154340
+    deck: sun
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154340
+    guaranteedLevel:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-154340
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-154340
+    attack:
+      status: observed
+      value: 48
+      sources:
+        - rumble-20261116-154340
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-154340
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154340
+    ability:
+      status: observed
+      value: |-
+        準備完了：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に20%吸収する
+        準備完了：自身より攻撃力が低いすべてのミニオンのラッシュユニットを、自身が召喚するように変更する
+      sources:
+        - rumble-20261116-154340
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.10の撮影値。育成画面の現在Lv.7。
+  - name: コケメェ
+    source: rumble-20261116-154342
+    deck: sun
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154342
+    guaranteedLevel:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-154342
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-154342
+    attack:
+      status: observed
+      value: 48
+      sources:
+        - rumble-20261116-154342
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-154342
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154342
+    ability:
+      status: observed
+      value: |-
+        準備完了：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に20%吸収する
+        準備完了：自身より攻撃力が低いすべてのミニオンのラッシュユニットを、自身が召喚するように変更する
+      sources:
+        - rumble-20261116-154342
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.10の撮影値。育成画面の現在Lv.7。
+  - name: コケメェ
+    source: rumble-20261116-154345
+    deck: sun
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154345
+    guaranteedLevel:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-154345
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-154345
+    attack:
+      status: observed
+      value: 48
+      sources:
+        - rumble-20261116-154345
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-154345
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154345
+    ability:
+      status: observed
+      value: |-
+        準備完了：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に20%吸収する
+        準備完了：自身より攻撃力が低いすべてのミニオンのラッシュユニットを、自身が召喚するように変更する
+      sources:
+        - rumble-20261116-154345
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.10の撮影値。育成画面の現在Lv.7。
+  - name: コケメェ
+    source: rumble-20261116-154348
+    deck: sun
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154348
+    guaranteedLevel:
+      status: observed
+      value: 10
+      sources:
+        - rumble-20261116-154348
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-154348
+    attack:
+      status: observed
+      value: 48
+      sources:
+        - rumble-20261116-154348
+    interval:
+      status: observed
+      value: 3
+      sources:
+        - rumble-20261116-154348
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154348
+    ability:
+      status: observed
+      value: |-
+        準備完了：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に20%吸収する
+        準備完了：自身より攻撃力が低いすべてのミニオンのラッシュユニットを、自身が召喚するように変更する
+      sources:
+        - rumble-20261116-154348
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.10の撮影値。育成画面の現在Lv.7。
+  - name: サムライタケⅡ
+    source: rumble-20261116-154403
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154403
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-154403
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-154403
+    interval:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-154403
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154403
+    ability:
+      status: observed
+      value: |-
+        バトル開始：瞑想に入り、1秒ごとに攻撃力が一時的に+10%、ただし攻撃ができない
+        自身が最も攻撃力が高いミニオンになると瞑想状態を解除し、すべての敵に斬撃を放ち、80%のダメージを与える
+      sources:
+        - rumble-20261116-154403
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.7。
+  - name: サムライタケⅡ
+    source: rumble-20261116-154406
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154406
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-154406
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-154406
+    interval:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-154406
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154406
+    ability:
+      status: observed
+      value: |-
+        バトル開始：瞑想に入り、1秒ごとに攻撃力が一時的に+10%、ただし攻撃ができない
+        自身が最も攻撃力が高いミニオンになると瞑想状態を解除し、すべての敵に斬撃を放ち、80%のダメージを与える
+      sources:
+        - rumble-20261116-154406
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.7。
+  - name: サムライタケⅡ
+    source: rumble-20261116-154408
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154408
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-154408
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-154408
+    interval:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-154408
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154408
+    ability:
+      status: observed
+      value: |-
+        バトル開始：瞑想に入り、1秒ごとに攻撃力が一時的に+10%、ただし攻撃ができない
+        自身が最も攻撃力が高いミニオンになると瞑想状態を解除し、すべての敵に斬撃を放ち、80%のダメージを与える
+      sources:
+        - rumble-20261116-154408
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.7。
+  - name: サムライタケⅡ
+    source: rumble-20261116-154411
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154411
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-154411
+    attack:
+      status: observed
+      value: 18
+      sources:
+        - rumble-20261116-154411
+    interval:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-154411
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154411
+    ability:
+      status: observed
+      value: |-
+        バトル開始：瞑想に入り、1秒ごとに攻撃力が一時的に+10%、ただし攻撃ができない
+        自身が最も攻撃力が高いミニオンになると瞑想状態を解除し、すべての敵に斬撃を放ち、160%のダメージを与える
+      sources:
+        - rumble-20261116-154411
+    conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.7。
+  - name: ケチャッピオンⅡ
+    source: rumble-20261116-154425
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-154425
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-154425
+    attack:
+      status: observed
+      value: 22
+      sources:
+        - rumble-20261116-154425
+    interval:
+      status: observed
+      value: 2.4
+      sources:
+        - rumble-20261116-154425
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154425
+    ability:
+      status: observed
+      value: 攻撃するたびに、攻撃力が一時的に+12%。自身の攻撃力が最大に達した場合、そのラウンド中はそれ以上攻撃力が上昇しない
+      sources:
+        - rumble-20261116-154425
+    conditions: ランブルチェスの詳細画面。表示Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: ケチャッピオンⅡ
+    source: rumble-20261116-154427
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-154427
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-154427
+    attack:
+      status: observed
+      value: 22
+      sources:
+        - rumble-20261116-154427
+    interval:
+      status: observed
+      value: 2.4
+      sources:
+        - rumble-20261116-154427
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154427
+    ability:
+      status: observed
+      value: 攻撃するたびに、攻撃力が一時的に+12%。自身の攻撃力が最大に達した場合、そのラウンド中はそれ以上攻撃力が上昇しない
+      sources:
+        - rumble-20261116-154427
+    conditions: ランブルチェスの詳細画面。表示Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: ケチャッピオンⅡ
+    source: rumble-20261116-154430
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-154430
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-154430
+    attack:
+      status: observed
+      value: 22
+      sources:
+        - rumble-20261116-154430
+    interval:
+      status: observed
+      value: 2.4
+      sources:
+        - rumble-20261116-154430
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154430
+    ability:
+      status: observed
+      value: 攻撃するたびに、攻撃力が一時的に+12%。自身の攻撃力が最大に達した場合、そのラウンド中はそれ以上攻撃力が上昇しない
+      sources:
+        - rumble-20261116-154430
+    conditions: ランブルチェスの詳細画面。表示Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: ケチャッピオンⅡ
+    source: rumble-20261116-154433
+    deck: droplet
+    currentLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-154433
+    guaranteedLevel:
+      status: unknown
+      reason: 保証Lvの併記なし。
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-154433
+    attack:
+      status: observed
+      value: 22
+      sources:
+        - rumble-20261116-154433
+    interval:
+      status: observed
+      value: 2.4
+      sources:
+        - rumble-20261116-154433
+    target:
+      status: observed
+      value: 最前列
+      sources:
+        - rumble-20261116-154433
+    ability:
+      status: observed
+      value: 攻撃するたびに、攻撃力が一時的に+12%。自身の攻撃力が最大に達した場合、そのラウンド中はそれ以上攻撃力が上昇しない
+      sources:
+        - rumble-20261116-154433
+    conditions: ランブルチェスの詳細画面。表示Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: キンドルコーチ
+    source: rumble-20261116-154456
+    deck: star
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154456
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-154456
+    selectedStar: 1
+    bondPoints:
+      status: observed
+      value: 1
+      sources:
+        - rumble-20261116-154456
+    attack:
+      status: observed
+      value: 40
+      sources:
+        - rumble-20261116-154456
+    interval:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-154456
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-154456
+    ability:
+      status: observed
+      value: バトル開始：ミニオンがダメージを与えると、12の追加ダメージを付与する
+      sources:
+        - rumble-20261116-154456
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: キンドルコーチ
+    source: rumble-20261116-154459
+    deck: star
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154459
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-154459
+    selectedStar: 2
+    bondPoints:
+      status: observed
+      value: 2
+      sources:
+        - rumble-20261116-154459
+    attack:
+      status: observed
+      value: 40
+      sources:
+        - rumble-20261116-154459
+    interval:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-154459
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-154459
+    ability:
+      status: observed
+      value: バトル開始：ミニオンがダメージを与えると、24の追加ダメージを付与する
+      sources:
+        - rumble-20261116-154459
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: キンドルコーチ
+    source: rumble-20261116-154501
+    deck: star
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154501
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-154501
+    selectedStar: 3
+    bondPoints:
+      status: observed
+      value: 4
+      sources:
+        - rumble-20261116-154501
+    attack:
+      status: observed
+      value: 40
+      sources:
+        - rumble-20261116-154501
+    interval:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-154501
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-154501
+    ability:
+      status: observed
+      value: バトル開始：ミニオンがダメージを与えると、48の追加ダメージを付与する
+      sources:
+        - rumble-20261116-154501
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+  - name: キンドルコーチ
+    source: rumble-20261116-154504
+    deck: star
+    currentLevel:
+      status: observed
+      value: 7
+      sources:
+        - rumble-20261116-154504
+    guaranteedLevel:
+      status: observed
+      value: 9
+      sources:
+        - rumble-20261116-154504
+    selectedStar: 4
+    bondPoints:
+      status: observed
+      value: 8
+      sources:
+        - rumble-20261116-154504
+    attack:
+      status: observed
+      value: 40
+      sources:
+        - rumble-20261116-154504
+    interval:
+      status: observed
+      value: 0
+      sources:
+        - rumble-20261116-154504
+    target:
+      status: observed
+      value: 攻撃不可
+      sources:
+        - rumble-20261116-154504
+    ability:
+      status: observed
+      value: バトル開始：ミニオンがダメージを与えると、192の追加ダメージを付与する
+      sources:
+        - rumble-20261116-154504
+    conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
 rules:
   sharedPerformance:
     status: manual
@@ -1248,8 +2680,30 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 準備完了：次に購入するミニオンの攻撃力+30
+          keywords:
+            - ready
+        currentLevel:
+          status: observed
+          value: 6
+          sources:
+            - rumble-20261116-153532
+        guaranteedLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-153532
+        conditions: ランブルチェスの詳細画面。現在Lv.6、最低保証Lv.7の撮影値。育成画面の現在Lv.4。
+      sources:
+        - rumble-20261116-153532
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-user-20261116
   cactus-guardian-variant-2:
     availability:
       status: observed
@@ -1257,8 +2711,28 @@ minions:
       sources:
         - rumble-20261113-161009
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 購入したミニオンの攻撃力の120%を一時的に獲得する
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-153600
+        guaranteedLevel:
+          status: unknown
+          reason: 保証Lvの併記なし。
+        conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+      sources:
+        - rumble-20261116-153600
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-user-20261116
   grape-bartender:
     availability:
       status: observed
@@ -1338,8 +2812,27 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 売却価格+200%
+          keywords: []
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-153627
+        guaranteedLevel:
+          status: unknown
+          reason: 保証Lvの併記なし。
+        conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+      sources:
+        - rumble-20261116-153627
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-user-20261116
   greenkeeper:
     availability:
       status: observed
@@ -1365,8 +2858,32 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: |-
+            魔法（4秒）：自身の星ランク以下の敵ミニオン3体を6秒間凍結する
+            毎ラウンド最大2回発動する
+          keywords:
+            - magic
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-153703
+        guaranteedLevel:
+          status: observed
+          value: 9
+          sources:
+            - rumble-20261116-153703
+        conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+      sources:
+        - rumble-20261116-153703
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-user-20261116
   holly-bat:
     availability:
       status: observed
@@ -1401,8 +2918,30 @@ minions:
       sources:
         - rumble-20261113-161014
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 味方が召喚したラッシュユニットが撃破されると、バケレンコンを12体生成する（HP：1、与えるダメージ：1、移動速度+80%）
+          keywords:
+            - rush-unit
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-153733
+        guaranteedLevel:
+          status: observed
+          value: 9
+          sources:
+            - rumble-20261116-153733
+        conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+      sources:
+        - rumble-20261116-153733
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-user-20261116
   wicked-mirror:
     availability:
       status: observed
@@ -1496,8 +3035,34 @@ minions:
       sources:
         - rumble-20261113-161017
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: |-
+            準備完了：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に20%吸収する
+            準備完了：自身より攻撃力が低いすべてのミニオンのラッシュユニットを、自身が召喚するように変更する
+          keywords:
+            - ready
+            - temporary
+            - rush-unit
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-154348
+        guaranteedLevel:
+          status: observed
+          value: 10
+          sources:
+            - rumble-20261116-154348
+        conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.10の撮影値。育成画面の現在Lv.7。
+      sources:
+        - rumble-20261116-154348
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-batch2-user-20261116
   lady-tulip:
     availability:
       status: observed
@@ -1721,8 +3286,31 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: |-
+            バトル開始：瞑想に入り、1秒ごとに攻撃力が一時的に+10%、ただし攻撃ができない
+            自身が最も攻撃力が高いミニオンになると瞑想状態を解除し、すべての敵に斬撃を放ち、160%のダメージを与える
+          keywords:
+            - battle-start
+            - temporary
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-154411
+        guaranteedLevel:
+          status: unknown
+          reason: 保証Lvの併記なし。
+        conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.7。
+      sources:
+        - rumble-20261116-154411
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-batch2-user-20261116
   broccolism:
     availability:
       status: observed
@@ -1757,8 +3345,28 @@ minions:
       sources:
         - rumble-20261113-161026
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: 攻撃するたびに、攻撃力が一時的に+12%。自身の攻撃力が最大に達した場合、そのラウンド中はそれ以上攻撃力が上昇しない
+          keywords:
+            - temporary
+        currentLevel:
+          status: observed
+          value: 9
+          sources:
+            - rumble-20261116-154433
+        guaranteedLevel:
+          status: unknown
+          reason: 保証Lvの併記なし。
+        conditions: ランブルチェスの詳細画面。表示Lv.9の撮影値。育成画面の現在Lv.7。
+      sources:
+        - rumble-20261116-154433
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-batch2-user-20261116
   cashew-sage:
     availability:
       status: observed
@@ -1865,8 +3473,30 @@ minions:
       sources:
         - rumble-20261113-161030
     star4:
-      status: unknown
-      reason: 調整後のカードプール一覧で所属を確認。星4能力の詳細は未確認。
+      status: observed
+      value:
+        ability:
+          text: バトル開始：ミニオンがダメージを与えると、192の追加ダメージを付与する
+          keywords:
+            - battle-start
+        currentLevel:
+          status: observed
+          value: 7
+          sources:
+            - rumble-20261116-154504
+        guaranteedLevel:
+          status: observed
+          value: 9
+          sources:
+            - rumble-20261116-154504
+        conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.9の撮影値。育成画面の現在Lv.7。
+      sources:
+        - rumble-20261116-154504
+    exclusive:
+      status: manual
+      value: true
+      sources:
+        - rumble-exclusive-batch2-user-20261116
 updateId: 2026-10-27-trick-or-bleed
 sharedDeck:
   status: unknown

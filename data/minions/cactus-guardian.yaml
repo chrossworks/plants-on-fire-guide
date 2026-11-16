@@ -5,7 +5,7 @@ reading: さぼてんがーでぃあん
 introduced:
   status: manual
   value: 2026-08-27
-  sources: [update-history-user-2026-10-15]
+  sources: [ update-history-user-2026-10-15 ]
 rarity:
   status: observed
   value: epic
@@ -16,7 +16,7 @@ cost:
   value: 3
   sources:
     - cactus-guardian-base-star1
-updated: 2026-10-15
+updated: 2026-11-16
 icon: cactus-guardian-icon
 portrait: cactus-guardian-portrait
 evaluation:
@@ -251,7 +251,7 @@ base:
       - cactus-guardian-base-star3
 variants:
   status: observed
-  note: 画像で確認したバリアントⅠを掲載しています。
+  note: 詳細画面で確認したバリアントを掲載。
   items:
     - id: variant-1
       introduced:
@@ -475,3 +475,213 @@ variants:
           - cactus-guardian-v1-star1
           - cactus-guardian-v1-star2
           - cactus-guardian-v1-star3
+    - id: variant-2
+      name: サボテンガーディアンⅡ
+      displayLevel:
+        status: observed
+        value: 7
+        sources:
+          - rumble-20261116-153551
+          - rumble-20261116-153554
+          - rumble-20261116-153557
+          - rumble-20261116-153600
+      upgradeScreenLevel:
+        status: observed
+        value: 4
+        sources:
+          - rumble-20261116-153603
+          - rumble-20261116-153607
+          - rumble-20261116-153611
+      conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.4。
+      stars:
+        - star: 1
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - rumble-20261116-153551
+            interval:
+              status: observed
+              value: 1.5
+              sources:
+                - rumble-20261116-153551
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - rumble-20261116-153551
+          ability:
+            status: observed
+            value:
+              text: 購入したミニオンの攻撃力の12%を一時的に獲得する
+              keywords: &a1
+                - temporary
+            sources:
+              - rumble-20261116-153551
+        - star: 2
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - rumble-20261116-153554
+            interval:
+              status: observed
+              value: 1.5
+              sources:
+                - rumble-20261116-153554
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - rumble-20261116-153554
+          ability:
+            status: observed
+            value:
+              text: 購入したミニオンの攻撃力の24%を一時的に獲得する
+              keywords: *a1
+            sources:
+              - rumble-20261116-153554
+        - star: 3
+          stats:
+            attack:
+              status: observed
+              value: 7
+              sources:
+                - rumble-20261116-153557
+            interval:
+              status: observed
+              value: 1.5
+              sources:
+                - rumble-20261116-153557
+            target:
+              status: observed
+              value: 最前列
+              sources:
+                - rumble-20261116-153557
+          ability:
+            status: observed
+            value:
+              text: 購入したミニオンの攻撃力の48%を一時的に獲得する
+              keywords: *a1
+            sources:
+              - rumble-20261116-153557
+      initial:
+        attack: &a2
+          status: unknown
+          reason: 最低レベルでの性能を確認できる詳細画像がありません。
+        abilities:
+          - *a2
+          - *a2
+          - *a2
+      bonuses:
+        - level: 5
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - rumble-20261116-153603
+        - level: 6
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+1
+              operation: attack_add
+              value: 1
+              unit: points
+            sources:
+              - rumble-20261116-153603
+        - level: 7
+          effect:
+            status: observed
+            value:
+              text: 一時的に獲得する攻撃力ボーナスが12%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - rumble-20261116-153603
+        - level: 8
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - rumble-20261116-153607
+        - level: 9
+          effect:
+            status: observed
+            value:
+              text: 攻撃力+2
+              operation: attack_add
+              value: 2
+              unit: points
+            sources:
+              - rumble-20261116-153607
+        - level: 10
+          effect:
+            status: observed
+            value:
+              text: 一時的に獲得する攻撃力ボーナスが16%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - rumble-20261116-153611
+        - level: 11
+          effect:
+            status: observed
+            value:
+              text: 一時的に獲得する攻撃力ボーナスが18%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - rumble-20261116-153611
+        - level: 12
+          effect:
+            status: observed
+            value:
+              text: 一時的に獲得する攻撃力ボーナスが20%に上昇する
+              operation: text
+              value: null
+              unit: none
+            sources:
+              - rumble-20261116-153611
+      bonusCoverage:
+        status: observed
+        value:
+          from: 5
+          through: 12
+        sources:
+          - rumble-20261116-153603
+          - rumble-20261116-153607
+          - rumble-20261116-153611
+      acquisition:
+        status: observed
+        value: 現在入手できません
+        sources:
+          - rumble-20261116-153551
+          - rumble-20261116-153600
+      image: cactus-guardian-variant-2
+      cardRank:
+        status: observed
+        value: SS
+        sources:
+          - rumble-20261116-153551
+      availability:
+        ranked:
+          status: manual
+          value: false
+          sources:
+            - rumble-exclusive-user-20261116
+  sources:
+    - rumble-20261116-153551

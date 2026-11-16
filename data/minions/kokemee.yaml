@@ -1,0 +1,76 @@
+{
+  schemaVersion: 1,
+  id: kokemee,
+  name: コケメェ,
+  reading: こけめぇ,
+  rarity: { status: observed, value: legend, sources: [ rumble-20261116-154340 ] },
+  cost: { status: observed, value: 8, sources: [ rumble-20261116-154340 ] },
+  updated: 2026-11-16,
+  portrait: kokemee-portrait,
+  availability: { ranked: { status: manual, value: false, sources: [ rumble-exclusive-batch2-user-20261116 ] }, acquisition: { status: observed, value: unobtainable, sources: [ rumble-20261116-154340 ] } },
+  base:
+    {
+      id: base,
+      name: コケメェ,
+      displayLevel: { status: observed, value: 10, sources: [ rumble-20261116-154340, rumble-20261116-154342, rumble-20261116-154345, rumble-20261116-154348 ] },
+      upgradeScreenLevel: { status: observed, value: 7, sources: [ rumble-20261116-154351, rumble-20261116-154355 ] },
+      conditions: ランブルチェスの詳細画面。現在Lv.7、最低保証Lv.10の撮影値。育成画面の現在Lv.7。,
+      stars:
+        [
+          {
+              star: 1,
+              stats: { attack: { status: observed, value: 48, sources: [ rumble-20261116-154340 ] }, interval: { status: observed, value: 3, sources: [ rumble-20261116-154340 ] }, target: { status: observed, value: 最前列, sources: [ rumble-20261116-154340 ] } },
+              ability:
+                {
+                  status: observed,
+                  value:
+                    {
+                      text: 準備完了：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に20%吸収する
+
+                        準備完了：自身より攻撃力が低いすべてのミニオンのラッシュユニットを、自身が召喚するように変更する,
+                      keywords: &a1 [ ready, temporary, rush-unit ]
+                    },
+                  sources: [ rumble-20261116-154340 ]
+                }
+            },
+          {
+              star: 2,
+              stats: { attack: { status: observed, value: 48, sources: [ rumble-20261116-154342 ] }, interval: { status: observed, value: 3, sources: [ rumble-20261116-154342 ] }, target: { status: observed, value: 最前列, sources: [ rumble-20261116-154342 ] } },
+              ability:
+                {
+                  status: observed,
+                  value:
+                    {
+                      text: 準備完了：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に20%吸収する
+
+                        準備完了：自身より攻撃力が低いすべてのミニオンのラッシュユニットを、自身が召喚するように変更する,
+                      keywords: *a1
+                    },
+                  sources: [ rumble-20261116-154342 ]
+                }
+            },
+          {
+              star: 3,
+              stats: { attack: { status: observed, value: 48, sources: [ rumble-20261116-154345 ] }, interval: { status: observed, value: 3, sources: [ rumble-20261116-154345 ] }, target: { status: observed, value: 最前列, sources: [ rumble-20261116-154345 ] } },
+              ability:
+                {
+                  status: observed,
+                  value:
+                    {
+                      text: 準備完了：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に20%吸収する
+
+                        準備完了：自身より攻撃力が低いすべてのミニオンのラッシュユニットを、自身が召喚するように変更する,
+                      keywords: *a1
+                    },
+                  sources: [ rumble-20261116-154345 ]
+                }
+            }
+        ],
+      initial: { attack: &a2 { status: unknown, reason: 最低レベルでの性能を確認できる詳細画像がありません。 }, abilities: [ *a2, *a2, *a2 ] },
+      bonuses: [ { level: 8, effect: { status: observed, value: { text: 配置：自身より攻撃力が低いすべてのミニオンの攻撃力を一時的に15%吸収する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154351 ] } }, { level: 9, effect: { status: observed, value: { text: 吸収する攻撃力が30%に上昇する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154351 ] } }, { level: 10, effect: { status: observed, value: { text: ラッシュユニットを1体吸収するごとに、自身が召喚するラッシュユニットのダメージ+3, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154355 ] } }, { level: 11, effect: { status: observed, value: { text: 吸収する攻撃力が30%に上昇する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154355 ] } }, { level: 12, effect: { status: observed, value: { text: 吸収する攻撃力が40%に上昇する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-154355 ] } } ],
+      bonusCoverage: { status: observed, value: { from: 8, through: 12 }, sources: [ rumble-20261116-154351, rumble-20261116-154355 ] },
+      acquisition: { status: observed, value: 現在入手できません, sources: [ rumble-20261116-154340, rumble-20261116-154348 ] },
+      poolUnlock: { status: unknown, reason: 解放条件は未確認。 }
+    },
+  variants: { status: unknown, note: 通常詳細でのバリアント表示は未確認。, items: [] }
+}
