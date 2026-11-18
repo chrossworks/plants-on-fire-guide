@@ -27,7 +27,7 @@ const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustme
  return <section id={c.id} class="update-change"><p class="tag">{labels[c.type]}</p><h2>{c.target.name}</h2>
  {c.introduced && <p class="muted">実装日：<Fact fact={c.introduced}/></p>}
  <h3>告知内容</h3><div class="announcement"><Fact fact={c.announcement}/></div>
- <p class="muted">{c.details.status==='unknown' ? c.details.reason : c.details.value}</p>
+ {c.details.value !== '実装済み。' && <p class="muted">{c.details.status==='unknown' ? c.details.reason : c.details.value}</p>}
  {c.blessings?.minionIds.map(id => {
    const minion = minions.find(m => m.id === id);
    const blessing = minion?.base.seasonalBlessings?.find(b => b.id === c.blessings.seasonId);

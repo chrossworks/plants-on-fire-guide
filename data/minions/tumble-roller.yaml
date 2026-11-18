@@ -16,7 +16,7 @@ cost:
   value: 3
   sources:
     - tumble-roller-base-star2
-updated: 2026-11-13
+updated: 2026-11-18
 portrait: tumble-roller-portrait
 evaluation:
   rank: B
@@ -217,8 +217,10 @@ base:
     - id: trick-or-bleed
       season: トリック・オア・ブリード
       effect:
-        status: unknown
-        reason: 適用開始前のため、効果は未確認です。
+        status: observed
+        value: タンブルローラーのラッシュユニットのダメージ+5
+        sources:
+          - blessing-20261117-115807
       period:
         status: manual
         value:

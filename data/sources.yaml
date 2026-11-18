@@ -6614,3 +6614,20 @@ rumble-20261116-173417:
   mode: rumble-chess
   screen: detail
   selectedStar: 4
+
+blessing-20261117-115807:
+  kind: screenshot
+  description: タンブルローラー 基本形・通常詳細Lv.8・星1の星界の祝福。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+blessing-20261117-115815:
+  kind: screenshot
+  description: キャベツベーカー 基本形・通常詳細Lv.8・星1の星界の祝福。
+  mode: standard
+  screen: detail
+  selectedStar: 1
+
+update-20261027-implemented-user-20261118:
+  kind: user
+  description: 2026-11-18ユーザー確認。星界の祝福、グローリーロード、クロスエリアチャットチャンネル、クランポイントマッチ・ボスチャレンジ、ポイントマッチのデッキ機能、バトルロード、シーズン集計・報酬、Co-opモードの上級スキップ、クランのダイヤランクは実機で実装確認済み。

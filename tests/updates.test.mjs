@@ -70,7 +70,7 @@ test('隊長本体とバッジを混同せず、バッジとチャームの旧�
  const us=loadUpdates(),u=us.find(x=>x.id==='2026-10-27-trick-or-bleed'),ms=loadMinions(),hs=loadHistory();
  assert.equal(u.changes.length,38);assert.equal(u.changes.filter(c=>c.type==='addition').length,9);
  const verified = new Set(['rumble-captains', 'vampire-duke', 'pumpkin-king', 'mister-hiss', 'bamboo-archer', 'leaf-cutter', 'pumpkin-king-blessing', 'mister-hiss-blessing', 'kara-pumpkin-variant-1', 'pumpkin-knight-variant-1', 'greenkeeper-variant-2', 'tele-leafy-variant-1']);
- assert.ok(u.changes.every(c => c.details.status === (['cabbage-baker', 'weekly-blessings', 'rumble-bonds'].includes(c.id) ? 'manual' : verified.has(c.id) || (['minion', 'variant'].includes(c.target.kind) && c.type !== 'addition') ? 'observed' : 'unknown')));
+ assert.ok(u.changes.every(c => c.details.status === (["cabbage-baker","weekly-blessings","rumble-bonds","astral-blessings","glory-road","cross-area-chat","clan-modes","point-match-decks","battle-road","season-reset","coop-skip","clan-diamond"].includes(c.id) ? 'manual' : verified.has(c.id) || (['minion', 'variant'].includes(c.target.kind) && c.type !== 'addition') ? 'observed' : 'unknown')));
  for(const c of u.changes.filter(c=>['minion','variant'].includes(c.target.kind)&&c.type!=='addition')){
   const m=ms.find(m=>m.id===c.target.minionId),f=c.target.formId?m.variants.items.find(f=>f.id===c.target.formId):m.base;
   assert.equal(f.pendingUpdate,undefined);

@@ -16,7 +16,7 @@ cost:
   value: 5
   sources:
     - cabbage-baker-base-star1
-updated: 2026-11-13
+updated: 2026-11-18
 portrait: cabbage-baker-portrait
 evaluation:
   rank: A
@@ -257,8 +257,10 @@ base:
     - id: trick-or-bleed
       season: トリック・オア・ブリード
       effect:
-        status: unknown
-        reason: 適用開始前のため、効果は未確認です。
+        status: observed
+        value: 準備完了：隊長にパンを届け、隊長のHPを3回復する
+        sources:
+          - blessing-20261117-115815
       period:
         status: manual
         value:
