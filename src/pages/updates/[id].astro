@@ -13,7 +13,7 @@ import { updates, history, minions, url, rumble } from '../../lib/site';
 export function getStaticPaths(){return updates.map(update=>({params:{id:update.id},props:{update}}));}
 const {update}=Astro.props;
 const displayedPool=rumble.updateId===update.id?rumble:history.find(h=>h.kind==='rumble-pool'&&h.snapshot.updateId===update.id)?.snapshot;
-const labels={addition:'追加',buff:'上方調整',nerf:'下方調整',adjustment:'調整',event:'イベント',other:'その他'};
+const labels={addition:'追加',acquisition:'入手方法追加',buff:'上方調整',nerf:'下方調整',adjustment:'調整',event:'イベント',other:'その他'};
 ---
 <Layout title={(update.date.value||'')+' アップデート'} description={update.title.value}>
 <a class="back" href={url('updates/')}>← アップデート履歴</a>

@@ -1,0 +1,351 @@
+schemaVersion: 1
+id: 2026-11-24-magical-fortune
+date:
+  status: observed
+  value: 2026-11-24
+  sources:
+    - update-20261124-105951
+  note: 告知記載のメンテナンス日。告知公開の絶対日時は未確認。
+title:
+  status: observed
+  value: 「マジカルフォーチュン」シーズンアップデートのお知らせ
+  sources:
+    - update-20261124-105951
+note: 新隊長、新ミニオン2体・新バリアント4種、星界の祝福、イベント、バランス調整をまとめています。以下の数値は告知内容です。アップデート後の実機性能は確認中です。ソウキョウ魔女、フリッジトン、アンナイツバキⅠはランブルチェスでの先行登場を確認済みのため、今回の通常入手追加と区別しています。
+changes:
+  - id: maintenance
+    target:
+      kind: other
+      id: maintenance
+      name: メンテナンス予定・補償
+    type: other
+    announcement:
+      status: observed
+      value: 2026年11月24日11:30～14:30（UTC+9、日本時間）にサーバーメンテナンスを実施予定。完了後、ご協力のお礼およびお詫びとしてダイヤ×300を配布。
+      sources:
+        - update-20261124-105951
+    details:
+      status: unknown
+      reason: 実際の終了時刻と補償配布の実施結果は未確認です。
+  - id: lucky-cat
+    target:
+      kind: captain
+      id: lucky-cat
+      name: 招き猫
+    type: addition
+    announcement:
+      status: observed
+      value: 新シーズン「マジカルフォーチュン」のテーマ隊長。サポート型のレジェンド隊長で、マッチ開始時に追加のサンコインを獲得できる。
+      sources:
+        - update-20261124-105951
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+    introduced:
+      status: observed
+      value: 2026-11-24
+      sources:
+        - update-20261124-105951
+        - update-20261124-105951
+      note: 告知に記載されたシーズン追加日。実機での入手・性能は未確認。
+  - id: soukyo-witch
+    target:
+      kind: minion
+      id: soukyo-witch
+      name: ソウキョウ魔女
+      minionId: soukyo-witch
+    type: acquisition
+    announcement:
+      status: observed
+      value: |-
+        グローリーパスの購入で獲得。
+        Lv.7（初期）：味方が召喚する最初の10体のラッシュユニットのシールド+1/2/4。
+        Lv.12（最大）：味方が召喚するすべてのラッシュユニットのシールド+1/2/4。さらに、最初の6体のラッシュユニットのシールド+1/2/4。
+      sources:
+        - update-20261124-110005
+    details:
+      status: unknown
+      reason: ランブルチェスでの既存性能は旧性能に保存しています。11月24日の通常入手追加後の性能・使用可能モードは未確認です。
+  - id: fridgeton
+    target:
+      kind: minion
+      id: fridgeton
+      name: フリッジトン
+      minionId: fridgeton
+    type: addition
+    announcement:
+      status: observed
+      value: |-
+        ラッキー募集で獲得。
+        Lv.7（初期）：魔法（6秒）：自身の星ランク以下の敵ミニオン1体を6秒間凍結させる。毎ラウンド最大3回発動する。
+        Lv.12（最大）：魔法（4秒）：敵ミニオン1体を8秒間凍結させる（対象の星ランクが自身より低い場合は12秒間、高い場合は4秒間）。各ラウンド最大3回まで発動する。
+      sources:
+        - update-20261124-110005
+    details:
+      status: unknown
+      reason: 11月16日のランブルチェス性能は旧性能に保存しています。11月24日の通常入手追加後の性能・使用可能モードは未確認です。
+    introduced:
+      status: unknown
+      reason: 11月24日は通常入手の追加告知日。11月16日にランブルチェスで先行登場を確認しているため、最初の実装日は未確認です。
+  - id: annai-tsubaki-variant-1
+    target:
+      kind: variant
+      id: annai-tsubaki-variant-1
+      name: アンナイツバキⅠ
+      minionId: annai-tsubaki
+      formId: variant-1
+    type: addition
+    announcement:
+      status: observed
+      value: |-
+        バリアント募集で獲得。
+        Lv.4（初期）：［準備完了］次に購入するミニオンの攻撃力+2/4/8。
+        Lv.12（最大）：［準備完了］次に購入するミニオンの攻撃力+7/14/28。
+      sources:
+        - update-20261124-110013
+    details:
+      status: unknown
+      reason: 11月16日のランブルチェス性能は旧性能に保存しています。11月24日の通常入手追加後の性能・使用可能モードは未確認です。
+    introduced:
+      status: unknown
+      reason: 11月24日は通常入手の追加告知日。11月16日にランブルチェスで先行登場を確認しているため、最初の実装日は未確認です。
+  - id: onion-bard-variant-2
+    target:
+      kind: variant
+      id: onion-bard-variant-2
+      name: オニオンバードⅡ
+      minionId: onion-bard
+      formId: variant-2
+    type: addition
+    announcement:
+      status: observed
+      value: |-
+        バリアント募集で獲得。
+        Lv.4（初期）：［オーラ］すべてのミニオンの攻撃速度+5%/10%/20%。［配置］★3にアップする。売却不可。ラウンド終了時に［除外］される。
+        Lv.12（最大）：［オーラ］すべてのミニオンの攻撃速度+10%/20%/40%。［配置］★3にアップする。売却不可。ラウンド終了時に［除外］される。
+      sources:
+        - update-20261124-110013
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+    introduced:
+      status: observed
+      value: 2026-11-24
+      sources:
+        - update-20261124-105951
+        - update-20261124-110013
+      note: 告知に記載されたシーズン追加日。実機での入手・性能は未確認。
+  - id: wicked-mirror-variant-1
+    target:
+      kind: variant
+      id: wicked-mirror-variant-1
+      name: ウィキッドミラーⅠ
+      minionId: wicked-mirror
+      formId: variant-1
+    type: addition
+    announcement:
+      status: observed
+      value: |-
+        バリアント募集で獲得。
+        Lv.4（初期）：ボス以外のすべての敵をそれぞれ1/2/4回コピーして敵側に転送する。クローン体のHPは元の敵の10%となり、ラウンド終了時に［除外］される。ボスラウンドでは休眠状態になる。
+        Lv.12（最大）：ボス以外のすべての敵をそれぞれ1/2/4回コピーして敵側に転送する。クローン体のHPは元の敵の40%となり、ラウンド終了時に［除外］される。ボスラウンドでは休眠状態になる。
+      sources:
+        - update-20261124-110013
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+    introduced:
+      status: observed
+      value: 2026-11-24
+      sources:
+        - update-20261124-105951
+        - update-20261124-110013
+      note: 告知に記載されたシーズン追加日。実機での入手・性能は未確認。
+  - id: mangosteen-beastmaster-variant-1
+    target:
+      kind: variant
+      id: mangosteen-beastmaster-variant-1
+      name: マンゴスチン獣使いⅠ
+      minionId: mangosteen-beastmaster
+      formId: variant-1
+    type: addition
+    announcement:
+      status: observed
+      value: |-
+        クランショップで金のスプラウトコインと交換して獲得。
+        Lv.7（初期）：［配置］自身の攻撃力の60%を継承するマンゴスチンピッグを1体召喚する。
+        Lv.12（最大）：［配置］自身の攻撃力の130%を継承するマンゴスチンピッグを1体召喚する。
+      sources:
+        - update-20261124-110019
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+    introduced:
+      status: observed
+      value: 2026-11-24
+      sources:
+        - update-20261124-105951
+        - update-20261124-110019
+      note: 告知に記載されたシーズン追加日。実機での入手・性能は未確認。
+  - id: soukyou-witch-blessing
+    target:
+      kind: other
+      id: soukyou-witch-blessing
+      name: ソウキョウ魔女の星界の祝福
+    type: other
+    announcement:
+      status: observed
+      value: 味方が召喚したラッシュユニットが撃破されると、ランダムな味方ラッシュユニットのシールド+0～1/2/4。
+      sources:
+        - update-20261124-110019
+    details:
+      status: unknown
+      reason: 適用期間と実機での効果は未確認です。「0～1/2/4」は告知の表記です。
+  - id: fridgeton-blessing
+    target:
+      kind: other
+      id: fridgeton-blessing
+      name: フリッジトンの星界の祝福
+    type: other
+    announcement:
+      status: observed
+      value: ［バトル開始］魔法のチャージが即座に満タンになり、発動回数の制限がなくなる。
+      sources:
+        - update-20261124-110019
+    details:
+      status: unknown
+      reason: 適用期間と実機での効果は未確認です。
+  - id: weekly-blessings
+    target:
+      kind: other
+      id: weekly-blessings
+      name: 毎週順次解放される星界の祝福
+    type: other
+    announcement:
+      status: observed
+      value: コワッパイン、シスターチェリー、マッシュボム、ガーリックレンジャー、ピーナッツペイジ、ムラキャベロンの星界の祝福は、シーズンの進行に合わせて毎週2つずつ順次解放。
+      sources:
+        - update-20261124-110019
+    details:
+      status: unknown
+      reason: 各ミニオンの祝福の効果・解放日・適用期間は未確認です。
+  - id: black-friday
+    target:
+      kind: other
+      id: black-friday
+      name: ブラックフライデーセールパック
+    type: event
+    announcement:
+      status: observed
+      value: 隊長セレクトパック、週間セールパック、ラッキーコインパック、バリアントカードセレクトパックなどを期間限定で販売。
+      sources:
+        - update-20261124-110019
+    details:
+      status: unknown
+      reason: 販売期間・価格・各パックの内容は未確認です。
+  - id: thanksgiving-login
+    target:
+      kind: other
+      id: thanksgiving-login
+      name: 感謝祭ログインイベント
+    type: event
+    announcement:
+      status: observed
+      value: 2026年11月20日～12月1日の期間中、毎日ログインするとメールで豪華報酬を受け取れる。報酬は全7日分。
+      sources:
+        - update-20261124-110019
+    details:
+      status: unknown
+      reason: 各日の報酬内容は未確認です。イベント開始日はアップデート日より前の11月20日です。
+  - id: boss-appearance
+    target:
+      kind: other
+      id: boss-appearance
+      name: ボス外見の調整
+    type: adjustment
+    announcement:
+      status: observed
+      value: アオムシ型ボスを新たなゾンビ型ボスへリニューアル。チュートリアルとランクマッチでは新しいゾンビ型ボスに置き換わる。アドベンチャーモードとCo-opモードの一部ステージのみ、従来のアオムシ型ボスが引き続き登場する。
+      sources:
+        - update-20261124-110030
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+  - id: kowappine
+    target:
+      kind: minion
+      id: kowappine
+      name: コワッパイン
+      minionId: kowappine
+    type: buff
+    announcement:
+      status: observed
+      value: 基本攻撃間隔を1.8秒に短縮し、すべてのレベルにおいて星アップ時の攻撃力上昇量を増加。
+      sources:
+        - update-20261124-110034
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+  - id: tumble-roller
+    target:
+      kind: minion
+      id: tumble-roller
+      name: タンブルローラー
+      minionId: tumble-roller
+    type: buff
+    announcement:
+      status: observed
+      value: 与えるダメージを上方修正。このダメージはレベルに応じて増加する。
+      sources:
+        - update-20261124-110034
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+  - id: kowappine-variant-1
+    target:
+      kind: variant
+      id: kowappine-variant-1
+      name: コワッパインⅠ
+      minionId: kowappine
+      formId: variant-1
+    type: buff
+    announcement:
+      status: observed
+      value: 基本攻撃間隔を1.8秒に短縮し、すべてのレベルにおいて星アップ時の攻撃力上昇量を増加。さらに、星ランクが下がった際にサンコイン×1を獲得できるように変更。
+      sources:
+        - update-20261124-110034
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+  - id: kowappine-variant-2
+    target:
+      kind: variant
+      id: kowappine-variant-2
+      name: コワッパインⅡ
+      minionId: kowappine
+      formId: variant-2
+    type: buff
+    announcement:
+      status: observed
+      value: 基本攻撃間隔を1.8秒に短縮。
+      sources:
+        - update-20261124-110034
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。
+  - id: white-rose-knight-variant-2
+    target:
+      kind: variant
+      id: white-rose-knight-variant-2
+      name: ホワイトローズナイトⅡ
+      minionId: white-rose-knight
+      formId: variant-2
+    type: nerf
+    announcement:
+      status: observed
+      value: 一時ミニオンへの攻撃力ボーナスによって序盤の性能が過剰に強力となっていたため、当該ボーナスが自身の星ランクに応じて段階的に増加し、★3になって初めて全量が適用されるように調整。
+      sources:
+        - update-20261124-110034
+    details:
+      status: unknown
+      reason: アップデート後の実機詳細は未確認です。

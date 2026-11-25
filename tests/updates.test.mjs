@@ -73,7 +73,14 @@ test('隊長本体とバッジを混同せず、バッジとチャームの旧�
  assert.ok(u.changes.every(c => c.details.status === (["cabbage-baker","weekly-blessings","rumble-bonds","astral-blessings","glory-road","cross-area-chat","clan-modes","point-match-decks","battle-road","season-reset","coop-skip","clan-diamond"].includes(c.id) ? 'manual' : verified.has(c.id) || (['minion', 'variant'].includes(c.target.kind) && c.type !== 'addition') ? 'observed' : 'unknown')));
  for(const c of u.changes.filter(c=>['minion','variant'].includes(c.target.kind)&&c.type!=='addition')){
   const m=ms.find(m=>m.id===c.target.minionId),f=c.target.formId?m.variants.items.find(f=>f.id===c.target.formId):m.base;
-  assert.equal(f.pendingUpdate,undefined);
+  if(f.pendingUpdate){
+   const next=us.find(x=>x.id===f.pendingUpdate);
+   assert.ok(next.date.value>u.date.value);
+   const saved=hs.find(h=>h.updateId===next.id&&h.minionId===m.id&&h.formId===(c.target.formId||'base'));
+   assert.ok(saved,'後続調整の前に確認済み性能を保存する');
+   const savedForm=c.target.formId?saved.snapshot.variants.items.find(x=>x.id===c.target.formId):saved.snapshot.base;
+   assert.deepEqual(f.stars,savedForm.stars);
+  }
   const h=hs.find(h=>h.updateId===u.id&&h.changeId===c.id); assert.ok(h); assert.equal(h.period.status,'unknown');
   const old=c.target.formId?h.snapshot.variants.items.find(f=>f.id===c.target.formId):h.snapshot.base;
   const sourcePrefix = c.target.kind === 'variant' ? 'changed-variant-20261113-' : 'changed-minion-20261113-';
@@ -85,3 +92,18 @@ test('隊長本体とバッジを混同せず、バッジとチャームの旧�
  assert.equal(u.changes.find(c=>c.id==='bamboo-archer').introduced.status,'unknown');
  assert.equal(hs.filter(h=>h.updateId===u.id).length,16);
  });
+
+test('11/24告知は先行実装と通常入手追加を分け、旧性能を保存する',()=>{
+ const us=loadUpdates(),u=us.find(x=>x.id==='2026-11-24-magical-fortune'),ms=loadMinions(),hs=loadHistory();
+ assert.equal(u.changes.length,19);
+ const c=u.changes.find(c=>c.target.minionId==='soukyo-witch');
+ assert.equal(c.type,'acquisition');assert.equal(c.introduced,undefined);
+ assert.equal(ms.find(m=>m.id==='soukyo-witch').introduced.value,'2026-09-29');
+ assert.equal(hs.filter(h=>h.updateId===u.id).length,8);
+ for(const h of hs.filter(h=>h.updateId===u.id)){
+  const m=ms.find(m=>m.id===h.minionId),f=h.formId==='base'?m.base:m.variants.items.find(f=>f.id===h.formId);
+  const previous=h.formId==='base'?h.snapshot.base:h.snapshot.variants.items.find(f=>f.id===h.formId);
+  assert.equal(f.pendingUpdate,u.id);assert.deepEqual(f.stars,previous.stars);
+ }
+ assert.ok(u.changes.every(c=>c.details.status==='unknown'));
+});

@@ -1,0 +1,265 @@
+schemaVersion: 1
+id: 2026-11-24-tumble-roller-before
+updateId: 2026-11-24-magical-fortune
+changeId: tumble-roller
+captured: 2026-11-25
+period:
+  status: unknown
+  reason: 11月24日告知を登録する前の保存値。正確な適用期間は未確認。
+kind: minion
+minionId: tumble-roller
+formId: base
+snapshot:
+  schemaVersion: 1
+  id: tumble-roller
+  name: タンブルローラー
+  reading: たんぶるろーらー
+  introduced:
+    status: manual
+    value: 2026-08-27
+    sources:
+      - update-history-user-2026-10-15
+  rarity:
+    status: observed
+    value: legend
+    sources:
+      - tumble-roller-base-star2
+  cost:
+    status: observed
+    value: 3
+    sources:
+      - tumble-roller-base-star2
+  updated: 2026-11-18
+  portrait: tumble-roller-portrait
+  evaluation:
+    rank: B
+    scope: 基本形の総合評価
+    source: tumble-roller-memo
+    pendingUpdate: 2026-10-27-trick-or-bleed
+  base:
+    id: base
+    name: 基本形
+    displayLevel:
+      status: observed
+      value: 7
+      sources:
+        - changed-minion-20261113-130906
+        - changed-minion-20261113-130910
+        - changed-minion-20261113-130913
+    upgradeScreenLevel:
+      status: observed
+      value: 7
+      sources:
+        - changed-minion-20261113-130917
+        - changed-minion-20261113-130923
+    conditions: 調整後の通常詳細Lv.7（ON）。外部補正の影響は未確認。
+    stars:
+      - star: 1
+        stats:
+          attack:
+            status: observed
+            value: 0
+            sources:
+              - changed-minion-20261113-130906
+          interval:
+            status: observed
+            value: 0
+            sources:
+              - changed-minion-20261113-130906
+          target:
+            status: observed
+            value: 攻撃不可
+            sources:
+              - changed-minion-20261113-130906
+        ability:
+          status: observed
+          value:
+            text: 自身が召喚するラッシュユニットの数-1、シールド+3、さらに敵隊長が失っているHP5%につき、移動速度+8%
+            keywords: &a1
+              - rush-unit
+              - shield
+          sources:
+            - changed-minion-20261113-130906
+      - star: 2
+        stats:
+          attack:
+            status: observed
+            value: 0
+            sources:
+              - changed-minion-20261113-130910
+          interval:
+            status: observed
+            value: 0
+            sources:
+              - changed-minion-20261113-130910
+          target:
+            status: observed
+            value: 攻撃不可
+            sources:
+              - changed-minion-20261113-130910
+        ability:
+          status: observed
+          value:
+            text: 自身が召喚するラッシュユニットの数-1、シールド+6、さらに敵隊長が失っているHP5%につき、移動速度+8%
+            keywords: *a1
+          sources:
+            - changed-minion-20261113-130910
+      - star: 3
+        stats:
+          attack:
+            status: observed
+            value: 0
+            sources:
+              - changed-minion-20261113-130913
+          interval:
+            status: observed
+            value: 0
+            sources:
+              - changed-minion-20261113-130913
+          target:
+            status: observed
+            value: 攻撃不可
+            sources:
+              - changed-minion-20261113-130913
+        ability:
+          status: observed
+          value:
+            text: 自身が召喚するラッシュユニットの数-1、シールド+12、さらに敵隊長が失っているHP5%につき、移動速度+8%
+            keywords: *a1
+          sources:
+            - changed-minion-20261113-130913
+    initial:
+      attack:
+        status: observed
+        value: 0
+        sources:
+          - changed-minion-20261113-130906
+          - changed-minion-20261113-130910
+          - changed-minion-20261113-130913
+      abilities:
+        - status: observed
+          value:
+            text: 自身が召喚するラッシュユニットの数-1、シールド+3、さらに敵隊長が失っているHP5%につき、移動速度+8%
+            keywords: &a2
+              - rush-unit
+              - shield
+          sources:
+            - changed-minion-20261113-130906
+        - status: observed
+          value:
+            text: 自身が召喚するラッシュユニットの数-1、シールド+6、さらに敵隊長が失っているHP5%につき、移動速度+8%
+            keywords: *a2
+          sources:
+            - changed-minion-20261113-130910
+        - status: observed
+          value:
+            text: 自身が召喚するラッシュユニットの数-1、シールド+12、さらに敵隊長が失っているHP5%につき、移動速度+8%
+            keywords: *a2
+          sources:
+            - changed-minion-20261113-130913
+    bonuses:
+      - level: 8
+        effect:
+          status: observed
+          value:
+            text: ダメージ+1。敵隊長が失っているHP5%につき、移動速度+10%
+            operation: text
+            value: null
+            unit: none
+          sources:
+            - changed-minion-20261113-130917
+      - level: 9
+        effect:
+          status: observed
+          value:
+            text: ダメージ+2。敵隊長が失っているHP5%につき、移動速度+12%
+            operation: text
+            value: null
+            unit: none
+          sources:
+            - changed-minion-20261113-130917
+      - level: 10
+        effect:
+          status: observed
+          value:
+            text: 自身が召喚するラッシュユニットが獲得するシールドが4に上昇する
+            operation: text
+            value: null
+            unit: none
+          sources:
+            - changed-minion-20261113-130917
+      - level: 11
+        effect:
+          status: observed
+          value:
+            text: 自身が召喚したラッシュユニットが獲得するシールドが5に上昇し、敵隊長がHPを5%失うごとに、移動速度+14%
+            operation: text
+            value: null
+            unit: none
+          sources:
+            - changed-minion-20261113-130923
+      - level: 12
+        effect:
+          status: observed
+          value:
+            text: 自身が召喚したラッシュユニットが獲得するシールドが6に上昇し、敵隊長がHPを5%失うごとに、移動速度+16%
+            operation: text
+            value: null
+            unit: none
+          sources:
+            - changed-minion-20261113-130923
+    bonusCoverage:
+      status: observed
+      value:
+        from: 8
+        through: 12
+      sources:
+        - changed-minion-20261113-130917
+        - changed-minion-20261113-130923
+    acquisition:
+      status: observed
+      value: スプラウト宝箱、募集、合成ファームで一定確率で獲得
+      sources:
+        - changed-minion-20261113-130906
+    poolUnlock:
+      status: observed
+      value: トロフィー2200
+      sources:
+        - changed-minion-20261113-130906
+    seasonalBlessings:
+      - id: trick-or-bleed
+        season: トリック・オア・ブリード
+        effect:
+          status: observed
+          value: タンブルローラーのラッシュユニットのダメージ+5
+          sources:
+            - blessing-20261117-115807
+        period:
+          status: manual
+          value:
+            startsAt: 2026-11-17T11:30:00+09:00
+            endsAt: 2026-11-24T11:30:00+09:00
+          sources:
+            - blessing-schedule-user-20261113
+        scope:
+          status: manual
+          value: 基本形が対象。効果はレベルと星ランクに共通。
+          sources:
+            - blessing-period-user-20261113
+            - blessing-schedule-user-20261113
+        excludedModes:
+          status: observed
+          value:
+            - ランブルチェス
+            - フレンドマッチフェアモード
+            - エクストリームチャレンジ
+          sources:
+            - update-20261027-112246
+  variants:
+    status: absent
+    note: 通常詳細画面でバリアント表示がないことを確認済みです。
+    sources:
+      - tumble-roller-base-star2
+      - tumble-roller-base-star3
+    items: []
+  icon: tumble-roller-icon

@@ -17,13 +17,14 @@ cost:
   value: 8
   sources:
     - rc-soukyo-witch-star1
-updated: 2026-10-16
+updated: 2026-11-25
 icon: soukyo-witch-icon
 portrait: soukyo-witch-portrait
 evaluation:
   rank: 対象外
   scope: ランクマッチ評価の対象外（ランブルチェス専用）
   source: soukyo-witch-editorial-20261016
+  pendingUpdate: 2026-11-24-magical-fortune
 availability:
   ranked:
     status: manual
@@ -207,6 +208,7 @@ base:
     sources:
       - rc-soukyo-witch-up1
       - rc-soukyo-witch-up2
+  pendingUpdate: 2026-11-24-magical-fortune
 variants:
   status: unknown
   note: ランブルチェス画面ではバリアントの有無を判定できません。

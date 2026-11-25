@@ -1255,3 +1255,63 @@ ketchampion-variant-2:
 kindle-coach-portrait:
   path: images/minions/kindle-coach/portrait.webp
   alt: キンドルコーチ
+
+annai-tsubaki-variant-1-icon:
+  path: images/minions/annai-tsubaki/variant-1-icon.webp
+  alt: アンナイツバキⅠのカードアイコン（撮影時のLv表示を含む）
+
+cactus-guardian-variant-2-icon:
+  path: images/minions/cactus-guardian/variant-2-icon.webp
+  alt: サボテンガーディアンⅡのカードアイコン（撮影時のLv表示を含む）
+
+kara-pumpkin-variant-2-icon:
+  path: images/minions/kara-pumpkin/variant-2-icon.webp
+  alt: カラカボチャⅡのカードアイコン（撮影時のLv表示を含む）
+
+fridgeton-icon:
+  path: images/minions/fridgeton/icon.webp
+  alt: フリッジトンのカードアイコン（撮影時のLv表示を含む）
+
+renkon-sorcerer-icon:
+  path: images/minions/renkon-sorcerer/icon.webp
+  alt: レンコン術士のカードアイコン（撮影時のLv表示を含む）
+
+kokemee-icon:
+  path: images/minions/kokemee/icon.webp
+  alt: コケメェのカードアイコン（撮影時のLv表示を含む）
+
+samurai-take-variant-2-icon:
+  path: images/minions/samurai-take/variant-2-icon.webp
+  alt: サムライタケⅡのカードアイコン（撮影時のLv表示を含む）
+
+ketchampion-variant-2-icon:
+  path: images/minions/ketchampion/variant-2-icon.webp
+  alt: ケチャッピオンⅡのカードアイコン（撮影時のLv表示を含む）
+
+kindle-coach-icon:
+  path: images/minions/kindle-coach/icon.webp
+  alt: キンドルコーチのカードアイコン（撮影時のLv表示を含む）
+
+pumpkin-knight-variant-1-icon:
+  path: images/minions/pumpkin-knight/variant-1-icon.webp
+  alt: カボチャナイトⅠのカードアイコン（撮影時のLv表示を含む）
+
+kara-pumpkin-variant-1-icon:
+  path: images/minions/kara-pumpkin/variant-1-icon.webp
+  alt: カラカボチャⅠのカードアイコン（撮影時のLv表示を含む）
+
+greenkeeper-variant-2-icon:
+  path: images/minions/greenkeeper/variant-2-icon.webp
+  alt: グリーンキーパーⅡのカードアイコン（撮影時のLv表示を含む）
+
+tele-leafy-variant-1-icon:
+  path: images/minions/tele-leafy/variant-1-icon.webp
+  alt: テレ・リーフィーⅠのカードアイコン（撮影時のLv表示を含む）
+
+mister-hiss-icon:
+  path: images/minions/mister-hiss/icon.webp
+  alt: ミスター・ヒスのカードアイコン（撮影時のLv表示を含む）
+
+pumpkin-king-icon:
+  path: images/minions/pumpkin-king/icon.webp
+  alt: カボチャキングのカードアイコン（撮影時のLv表示を含む）

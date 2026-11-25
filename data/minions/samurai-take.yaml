@@ -228,7 +228,7 @@ variants:
     [
       {
           id: variant-2,
-          name: サムライタケⅡ,
+          name: サムライタケⅡ, icon: samurai-take-variant-2-icon,
           displayLevel: { status: observed, value: 7, sources: [ rumble-20261116-154403, rumble-20261116-154406, rumble-20261116-154408, rumble-20261116-154411 ] },
           upgradeScreenLevel: { status: observed, value: 7, sources: [ rumble-20261116-154414, rumble-20261116-154418 ] },
           conditions: ランブルチェスの詳細画面。表示Lv.7の撮影値。育成画面の現在Lv.7。,

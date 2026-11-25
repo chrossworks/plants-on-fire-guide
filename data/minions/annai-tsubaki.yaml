@@ -16,7 +16,7 @@ cost:
   value: 3
   sources:
     - annai-tsubaki-base-star1
-updated: 2026-11-16
+updated: 2026-11-25
 icon: annai-tsubaki-icon
 portrait: annai-tsubaki-portrait
 evaluation:
@@ -479,6 +479,7 @@ variants:
           - annai-tsubaki-v2-star3
     - id: variant-1
       name: アンナイツバキⅠ
+      icon: annai-tsubaki-variant-1-icon
       displayLevel:
         status: observed
         value: 7
@@ -685,5 +686,6 @@ variants:
           value: false
           sources:
             - rumble-exclusive-user-20261116
+      pendingUpdate: 2026-11-24-magical-fortune
   sources:
     - rumble-20261116-153525

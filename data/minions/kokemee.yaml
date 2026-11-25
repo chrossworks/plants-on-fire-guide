@@ -6,6 +6,7 @@
   rarity: { status: observed, value: legend, sources: [ rumble-20261116-154340 ] },
   cost: { status: observed, value: 8, sources: [ rumble-20261116-154340 ] },
   updated: 2026-11-16,
+  icon: kokemee-icon,
   portrait: kokemee-portrait,
   availability: { ranked: { status: manual, value: false, sources: [ rumble-exclusive-batch2-user-20261116 ] }, acquisition: { status: observed, value: unobtainable, sources: [ rumble-20261116-154340 ] } },
   base:

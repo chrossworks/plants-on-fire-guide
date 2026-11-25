@@ -22,7 +22,7 @@ const picture=variant?form.image:m.portrait;
 const previous=history.filter(h=>h.kind==='rumble-pool').map(h=>({date:updates.find(u=>u.id===h.updateId)?.date.value,period:h.period,entries:[{name,entry:rumbleForMinion(h.snapshot,m.id,form.id)}].filter(e=>e.entry.availability.status!=='unknown')})).filter(h=>h.entries.length);
 const terms=[...new Set([...form.stars.flatMap(s=>s.ability.value?.keywords||[]),...(rc.star4?.value?.ability.keywords||[])])];
 const additions=additionsFor(updates,m.id),pending=additions.filter(c=>c.target.kind==='variant'&&!m.variants.items.some(f=>f.id===c.target.formId));
-const pendingRelease=additions.some(c=>c.target.kind==='minion'&&c.details.status==='unknown')&&Boolean(form.pendingUpdate);
+const pendingRelease=additions.some(c=>(c.target.formId||'base')===form.id&&c.details.status==='unknown')&&Boolean(form.pendingUpdate);
 const modeLabel={standard:'通常（ランクマッチ）','rumble-chess':'ランブルチェス',both:'通常・ランブルチェス'};
 ---
 <Layout title={name} description={description}>

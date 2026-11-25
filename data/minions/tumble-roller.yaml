@@ -16,13 +16,13 @@ cost:
   value: 3
   sources:
     - tumble-roller-base-star2
-updated: 2026-11-18
+updated: 2026-11-25
 portrait: tumble-roller-portrait
 evaluation:
   rank: B
   scope: 基本形の総合評価
   source: tumble-roller-memo
-  pendingUpdate: 2026-10-27-trick-or-bleed
+  pendingUpdate: 2026-11-24-magical-fortune
 base:
   id: base
   name: 基本形
@@ -242,6 +242,7 @@ base:
           - エクストリームチャレンジ
         sources:
           - update-20261027-112246
+  pendingUpdate: 2026-11-24-magical-fortune
 variants:
   status: absent
   note: 通常詳細画面でバリアント表示がないことを確認済みです。

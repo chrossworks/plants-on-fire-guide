@@ -231,3 +231,5 @@ rankはSS / S / A / B / C / 未評価 / 未確認 / 対象外。点数と対象�
 `work/recipes.yaml` の通常レシピに任意の `overlay` を指定する。`overlay.source`・`expectedSize`・`crop`・`masks` はマーク原本の情報で、`width` は出力マーク幅、`left`・`top` は合成先アイコン上の座標。`composition` に基本形画像ID・形態ID・カードランクを記録する。原本パスはworkだけに保持する。マスクは従来どおり原本座標の不透明黒。合成後は160px正方形のWebPとして保存する。
 
 生成は `npm run images -- --only=<画像ID>`。複数IDはカンマ区切りにでき、`images:publish` も同じ指定に対応する。原本・切り出し・合成位置・基本アイコンのレシピを変更したら、関連する合成レシピの `reviewed` をfalseに戻す。加工画像を目視してからtrueにし、`images:publish` でローカル反映する。画像台帳・形態別の登録値・確認記録を揃え、review・test・build・表示確認後にregistration:acceptする。
+
+通常入手だけが後から追加された既存ミニオンは、アップデートの変更種別 `acquisition`（入手方法追加）を使える。既存の最初の `introduced` を保持し、通常入手の追加日で上書きしない。この変更種別には `introduced` を付けず、告知文とアップデート日で追加内容を示す。未確認の実機性能は旧性能を保存して `pendingUpdate` を付ける。

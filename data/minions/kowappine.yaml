@@ -16,13 +16,14 @@ cost:
   value: 3
   sources:
     - kowappine-base-star1
-updated: 2026-11-13
+updated: 2026-11-25
 icon: kowappine-icon
 portrait: kowappine-portrait
 evaluation:
   rank: A
   scope: 基本形の総合評価
   source: kowappine-memo
+  pendingUpdate: 2026-11-24-magical-fortune
 base:
   id: base
   name: 基本形
@@ -243,6 +244,7 @@ base:
       - kowappine-base-star1
       - kowappine-base-star2
       - kowappine-base-star3
+  pendingUpdate: 2026-11-24-magical-fortune
 variants:
   status: observed
   note: 画像で確認したバリアントⅠ・Ⅱを掲載しています。
@@ -487,6 +489,7 @@ variants:
           - kowappine-v1-star1
           - kowappine-v1-star2
           - kowappine-v1-star3
+      pendingUpdate: 2026-11-24-magical-fortune
     - id: variant-2
       introduced:
         status: unknown
@@ -713,3 +716,4 @@ variants:
           - changed-variant-20261113-131724
           - changed-variant-20261113-131501
           - changed-variant-20261113-131505
+      pendingUpdate: 2026-11-24-magical-fortune

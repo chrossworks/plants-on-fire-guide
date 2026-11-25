@@ -5,7 +5,8 @@
   reading: ふりっじとん,
   rarity: { status: observed, value: legend, sources: [ rumble-20261116-153655 ] },
   cost: { status: observed, value: 5, sources: [ rumble-20261116-153655 ] },
-  updated: 2026-11-16,
+  updated: 2026-11-25,
+  icon: fridgeton-icon,
   portrait: fridgeton-portrait,
   availability: { ranked: { status: manual, value: false, sources: [ rumble-exclusive-user-20261116 ] }, acquisition: { status: observed, value: unobtainable, sources: [ rumble-20261116-153655 ] } },
   base:
@@ -70,7 +71,8 @@
       bonuses: [ { level: 8, effect: { status: observed, value: { text: 凍結時間が6に延長される, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153706 ] } }, { level: 9, effect: { status: observed, value: { text: 凍結時間が6に延長される, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153706 ] } }, { level: 10, effect: { status: observed, value: { text: バトル開始：即座にスキルを1回発動する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153711 ] } }, { level: 11, effect: { status: observed, value: { text: 凍結時間が7に延長される。バトル開始：凍結対象の数が1に増加する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153711 ] } }, { level: 12, effect: { status: observed, value: { text: 凍結時間が8に延長される。バトル開始：凍結対象の数が1に増加する, operation: text, value: null, unit: none }, sources: [ rumble-20261116-153711 ] } } ],
       bonusCoverage: { status: observed, value: { from: 8, through: 12 }, sources: [ rumble-20261116-153706, rumble-20261116-153711 ] },
       acquisition: { status: observed, value: 現在入手できません, sources: [ rumble-20261116-153655, rumble-20261116-153703 ] },
-      poolUnlock: { status: unknown, reason: 解放条件は未確認。 }
+      poolUnlock: { status: unknown, reason: 解放条件は未確認。 },
+      pendingUpdate: 2026-11-24-magical-fortune
     },
   variants: { status: unknown, note: 通常詳細でのバリアント表示は未確認。, items: [] }
 }

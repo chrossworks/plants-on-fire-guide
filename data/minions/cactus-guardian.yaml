@@ -477,6 +477,7 @@ variants:
           - cactus-guardian-v1-star3
     - id: variant-2
       name: サボテンガーディアンⅡ
+      icon: cactus-guardian-variant-2-icon
       displayLevel:
         status: observed
         value: 7
